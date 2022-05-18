@@ -17,6 +17,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "format")]
         public string Format { get; set; }
 
+        [DataMember(Name = "readOnly")]
+        public bool ReadOnly { get; set; }
+
         [DataMember(Name = "nullable")]
         public string Nullable { get; set; }
 

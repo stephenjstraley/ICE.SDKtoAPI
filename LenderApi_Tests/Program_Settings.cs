@@ -34,6 +34,20 @@ namespace LenderApi_Tests
             _dtc = true;
         }
 
+        //public static void SetQa()
+        //{
+        //    _instanceId = "TEbe11166795";
+        //    _apiClientId = "auftnup";
+        //    _userName = "svc_sweeps";
+        //    _password = "q@mHU!99MmxqWEa#";
+        //    _secret = "2XxHcknzAcpgfOHig&$Uu4!ieUB63qwQmRx2y^#mQ8GM0aRU7m1tGfTVftnOODNA";
+        //    _loanNumber = "0550469290"; // "0550460620"; // "0550180660"; // "0550459747"; // "0550180660"; // "0550210504";  // "0550383244"
+        //    _loanGuid = string.Empty;
+        //    _fromFolder = "My Pipeline";
+        //    _env = "QA";
+        //    _dtc = true;
+        //}
+
         public static void SetQa()
         {
             _instanceId = "TEbe11166795";

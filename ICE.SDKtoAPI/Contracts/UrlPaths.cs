@@ -47,7 +47,7 @@ namespace ICE.SDKtoAPI.Contracts
         public string UserPathFull { get => EncompassPathFull + UserPath; }
         public string UserPathFullLimit(int limit) => EncompassPathFull + UserPath + $"?limit={limit}";
         public string CustomFieldPath { get => _customFieldsPath; }
-        public string CustomFieldPathFull { get => EncompassPath + CustomFieldPath; }
+        public string CustomFieldPathFull { get => EncompassPathFull + CustomFieldPath; }
         public string VirtualFieldPathFull { get => EncompassPathFull + "/schemas/loan/virtualFields"; }
         public string BatchPath { get => EncompassPathFull + "/loanBatch/updateRequests"; }
         public string OrganizationsPath { get => EncompassPath + "/organizations"; }

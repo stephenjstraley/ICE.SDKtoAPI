@@ -6,7 +6,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	public class MilestoneContract
 	{
 		[DataMember(Name="actualDays ", EmitDefaultValue=false)]
-		public int? ActualDays_ { get; set; }
+		public int? ActualDays { get; set; }
 
 		[DataMember(Name="comments", EmitDefaultValue=false)]
 		public string Comments { get; set; }

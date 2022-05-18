@@ -21,7 +21,7 @@ namespace LenderApi_Tests
                         Console.WriteLine($"Lender API Tests - {_env}");
                         Console.WriteLine("----------------");
                         Console.WriteLine("1. User Personas and Roles                  2. All Field Values");
-                        Console.WriteLine("3. Customer Field Canonical Names           4. Milestones and Associates");
+                        Console.WriteLine("3. Custom Field Canonical Names             4. Milestones and Associates");
                         Console.WriteLine("5. Underwriters and Conditions              6. Create, Set and Delete Loan");
                         Console.WriteLine("7. Loan Lock Tests                          8. Custom Field Test");
                         Console.WriteLine("9. Borrower Pairs                           10. Field Lock Test");

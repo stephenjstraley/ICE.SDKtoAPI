@@ -60,7 +60,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string ReadyToShipDate { get; set; }
 
         [DataMember(Name = "createdBy")]
-        public string CreatedBy { get; set; }
+        public EntityReferenceContract CreatedBy { get; set; }
 
         [DataMember(Name = "isProtected")]
         public bool? IsProtected { get; set; }
@@ -81,7 +81,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string ExpirationDate { get; set; }
 
         [DataMember(Name = "milestone")]
-        public string Milestone { get; set; }
+        public EntityReferenceContract Milestone { get; set; }
 
         [DataMember(Name = "accessibleTo")]
         public List<object> AccessibleTo { get; set; }

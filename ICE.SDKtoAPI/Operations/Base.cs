@@ -55,7 +55,7 @@ namespace ICE.SDKtoAPI
         public string ClientId => _clientId;
         public string InstanceId => _instanceId;
         public string RawLoan => _rawLoan;
-        public SDKAPIField Fields => new SDKAPIField();
+        public SDKAPIField Fields = new SDKAPIField();
         public string CurrentFolder => _meta?.LoanFolder ?? string.Empty;
         public string LoanGuid => _guid;
         public AccessToken Token => _accessToken;

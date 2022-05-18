@@ -27,13 +27,13 @@ namespace ICE.SDKtoAPI.SupportingClasses
         protected Dictionary<string, string> _virtualFields = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase);
 
         protected List<CustomFieldMeta> _customFields;
-        protected LenderApiContractsV1.LoanContract _loanV1;
-        protected LenderApiContractsV1.LoanContract _loanToUpdateV1 = new LenderApiContractsV1.LoanContract();
+        protected LenderApiContractsV1.LoanContract _loan;
+        protected LenderApiContractsV1.LoanContract _loanToUpdate = new LenderApiContractsV1.LoanContract();
 
         protected LenderApiContractsV3.LoanContract _loanV3;
         protected LenderApiContractsV3.LoanContract _loanToUpdateV3 = new LenderApiContractsV3.LoanContract();
 
-        protected string _lastCallId = string.Empty;
+        protected string _lastCallId = "";
 
         protected AccessToken _accessToken;
 
@@ -42,7 +42,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
         protected List<Tuple<string, string>> _badFields = new List<Tuple<string, string>>();
         public bool _successfullyLoaded = false;
         protected bool _loadV3 = false;
-        protected bool _loadV1 => (!_loadV3);
+        protected bool _loadV1 => !_loadV3;
 
         public List<APISchema> FieldSchema
         {
@@ -71,29 +71,24 @@ namespace ICE.SDKtoAPI.SupportingClasses
             //LoadDictionary();
 
         }
-        public void ClearLoan()
-        {
-            _loanV1 = null;
-            _loanV3 = null;
-        }
-
+        public void ClearLoan() => _loan = null;
         public void ClearPreviousUpdatedLoan()
         {
             _loanWasUpdated = false;
             if (_loadV3)
                 _loanToUpdateV3 = new LenderApiContractsV3.LoanContract();
             else
-                _loanToUpdateV1 = new LenderApiContractsV1.LoanContract();
+                _loanToUpdate = new LenderApiContractsV1.LoanContract();
         }
         public void SetLoan(LenderApiContractsV1.LoanContract loan)
         {
-            _loanV1 = loan;
-            _loanToUpdateV1.EncompassId = _loanV1.EncompassId;
+            _loan = loan;
+            _loanToUpdate.EncompassId = _loan.EncompassId;
         }
         public void SetLoan(LenderApiContractsV3.LoanContract loan)
         {
             _loanV3 = loan;
-            _loanToUpdateV3.Id = _loanV3.Id;
+            _loanToUpdate.EncompassId = _loanV3.Id;
         }
 
         public void SetAccessToken(AccessToken token) => _accessToken = token;
@@ -114,7 +109,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                 if (_loadV3)
                     return _loanToUpdateV3;
                 else
-                    return _loanToUpdateV1;
+                    return _loanToUpdate;
             }
         }
         private void LoadDictionary()
@@ -136,7 +131,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
                 foreach (var line in file)
                 {
-//                    System.Diagnostics.Debug.WriteLine($"Reading line: [{line}]");
+                    //                    System.Diagnostics.Debug.WriteLine($"Reading line: [{line}]");
                     try
                     {
                         //                    #if DEBUG
@@ -239,24 +234,24 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
                 // now add custom fields to the dictionary
                 SetCustomFields();
-                foreach(var cField in _customFields)
+                foreach (var cField in _customFields)
                 {
-//                    if (cField.Id.StartsWith("CX")) // OUR custom fields
-//                    {
-                        APISchema schema = new APISchema
-                        {
-                            Key = cField.Id,
-                            Meta = cField.ModelPath,
-                            ReadOnly = false,
-                            Type = cField.Format,
-                            Nullable = false,
-                            Description = cField.Description,
-                            LockedField = false,
-                            ENum = ""
-                        };
-                        Add(schema);
-//                    }
-                }                
+                    //                    if (cField.Id.StartsWith("CX")) // OUR custom fields
+                    //                    {
+                    APISchema schema = new APISchema
+                    {
+                        Key = cField.Id,
+                        Meta = cField.ModelPath,
+                        ReadOnly = false,
+                        Type = cField.Format,
+                        Nullable = false,
+                        Description = cField.Description,
+                        LockedField = false,
+                        ENum = ""
+                    };
+                    Add(schema);
+                    //                    }
+                }
 
             }
             catch (Exception ex)
@@ -287,7 +282,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
         public object this[string idField]
         {
-            get 
+            get
             {
                 if (_fields.Count == 0 || _dynamicFields.Count == 0)
                     LoadDictionary();
@@ -310,7 +305,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                                 return value.ToString();
                             else
                                 return Convert.ToBoolean(value);
-                            
+
                         case "DATE":
                         case "DATETIME":  // check for V1 if "//" for empty
                             {
@@ -340,7 +335,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
                 return value; // default to return null
             }
-            set 
+            set
             {
                 if (_fields.Count == 0 || _dynamicFields.Count == 0)
                     LoadDictionary();
@@ -348,7 +343,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                 if (_customFields == null)
                     PrepCustomFields();
 
-                SetTheFields(idField, value); 
+                SetTheFields(idField, value);
             }
         }
 
@@ -428,234 +423,227 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     withPoundSign = true;
                 }
 
-                if (_loadV1)
+                if (_fields.ContainsKey(tempId))
                 {
-                    if (_fields.ContainsKey(tempId))
+                    var item = _fields[tempId];                        // Update a regular field
+
+                    if (!item.ReadOnly)  // read only fields cannot be set
                     {
-                        var item = _fields[tempId];                        // Update a regular field
+                        var metaData = item.Meta;
 
-                        if (!item.ReadOnly)  // read only fields cannot be set
+                        var innerIndex = ParseInnerIndexer(ref metaData);      // Process Indexers that may appear
+
+                        if (metaData.Contains("{") && metaData.Contains("}"))
                         {
-                            var metaData = item.Meta;
-
-                            var innerIndex = ParseInnerIndexer(ref metaData);      // Process Indexers that may appear
-
-                            if (metaData.Contains("{") && metaData.Contains("}"))
+                            string left, right;
+                            bracketIndex = ParseWithInnerBraces(metaData, withPoundSign, bracketIndex, out left, out right);
+                            var property = (IList)_loan.GetType().GetProperty(left).GetValue(_loan);
+                            if (property.Count > bracketIndex)
                             {
-                                string left, right;
-                                bracketIndex = ParseWithInnerBraces(metaData, withPoundSign, bracketIndex, out left, out right);
-                                var property = (IList)_loanV1.GetType().GetProperty(left).GetValue(_loanV1);
-                                if (property.Count > bracketIndex)
-                                {
-                                    var applicationProperty = property[bracketIndex];
+                                var applicationProperty = property[bracketIndex];
 
-                                    if (right.Contains("["))
+                                if (right.Contains("["))
+                                {
+                                    if (!right.StartsWith("["))
                                     {
-                                        if (!right.StartsWith("["))
+                                        var applicationId = "";
+
+                                        if (_loadV3)
+                                            applicationId = ((LenderApiContractsV3.ApplicationContract)applicationProperty).Id;
+                                        else
+                                            applicationId = ((LenderApiContractsV1.LoanContractApplications)applicationProperty).Id;
+
+                                        metaData = right;
+                                        right = metaData.Split(']')[1];
+                                        right = right.Replace(".", string.Empty);
+                                        var middle = metaData.Split(']')[0] + "]";
+                                        left = metaData.Split('[')[0];
+                                        middle = middle.Substring(left.Length);
+
+                                        // check to see if it is an INDEX property
+
+                                        if (innerIndex != -1 && middle == "[]")
                                         {
-                                            var applicationId = "";
 
-                                            if (_loadV3)
-                                                applicationId = ((LenderApiContractsV3.ApplicationContract)applicationProperty).Id;
+                                        }
+                                        else
+                                        {
+                                            // Now get property of the array
+
+                                            var innerArray = GetPropertyValue<IList>(applicationProperty, left, id);
+                                            var foundObject = FindIndexedObject(innerArray, middle, right, innerIndex);
+
+                                            if (foundObject == null) { } // Cant find the item to begin with     loan.Fields["IRS4506.X4"]
                                             else
-                                                applicationId = ((LenderApiContractsV1.LoanContractApplications)applicationProperty).Id;
+                                                SetPropertyValue(applicationId, foundObject, middle, right, value);
+                                        }
 
-                                            metaData = right;
-                                            right = metaData.Split(']')[1];
-                                            right = right.Replace(".", string.Empty);
-                                            var middle = metaData.Split(']')[0] + "]";
-                                            left = metaData.Split('[')[0];
-                                            middle = middle.Substring(left.Length);
+                                    } // This is an indexed def
+                                }
+                                else
+                                {
+                                    SetPropertyValue(applicationProperty, right, value);
+                                }
 
-                                            // check to see if it is an INDEX property
+                            }
+                        }
+                        else if (metaData.Contains("[") && metaData.Contains("]"))
+                        {
+                            var left = ParseInnerBrackets(metaData)[0];
+                            var middle = ParseInnerBrackets(metaData)[1];
+                            var right = ParseInnerBrackets(metaData)[2];
 
-                                            if (innerIndex != -1 && middle == "[]")
-                                            {
-
-                                            }
-                                            else
-                                            {
-                                                // Now get property of the array
-
-                                                var innerArray = GetPropertyValue<IList>(applicationProperty, left, id);
-                                                var foundObject = FindIndexedObject(innerArray, middle, right, innerIndex);
-
-                                                if (foundObject == null) { } // Cant find the item to begin with     loan.Fields["IRS4506.X4"]
-                                                else
-                                                    SetPropertyValue(applicationId, foundObject, middle, right, value);
-                                            }
-
-                                        } // This is an indexed def
-                                    }
-                                    else
-                                    {
-                                        SetPropertyValue(applicationProperty, right, value);
-                                    }
-
+                            var property = GetPropertyValue<IList>(_loan, left, id);
+                            ////                        ProcessList<T>(_loan, item, innerIndex);
+                            if (innerIndex != -1 && middle == "[]")  // just pull the INDEXER item
+                            {
+                                if (property.Count > innerIndex)
+                                {
+                                    var theObject = property[innerIndex];
+                                    SetPropertyValue(theObject, right, value);
+                                    //        var foundValue = theObject.GetType()?.GetProperty(right)?.GetValue(theObject)?.ToString();
                                 }
                             }
-                            else if (metaData.Contains("[") && metaData.Contains("]"))
+                            else // Property Values, not APPLICATION based
                             {
-                                var left = ParseInnerBrackets(metaData)[0];
-                                var middle = ParseInnerBrackets(metaData)[1];
-                                var right = ParseInnerBrackets(metaData)[2];
-
-                                var property = GetPropertyValue<IList>(_loanV1, left, id);
-                                ////                        ProcessList<T>(_loan, item, innerIndex);
-                                if (innerIndex != -1 && middle == "[]")  // just pull the INDEXER item
+                                var foundObject = FindIndexedObject(property, middle, right, innerIndex);
+                                if (foundObject != null)
                                 {
-                                    if (property.Count > innerIndex)
-                                    {
-                                        var theObject = property[innerIndex];
-                                        SetPropertyValue(theObject, right, value);
-                                        //        var foundValue = theObject.GetType()?.GetProperty(right)?.GetValue(theObject)?.ToString();
-                                    }
-                                }
-                                else // Property Values, not APPLICATION based
-                                {
-                                    var foundObject = FindIndexedObject(property, middle, right, innerIndex);
-                                    if (foundObject != null)
-                                    {
-                                        SetPropertyValue(null, foundObject, middle, right, value);
-                                    }
-                                }
-                            }
-                            else
-                            {
-                                if (PropertyExists(metaData))
-                                {
-                                    SetPropertyValue(metaData, value);
+                                    SetPropertyValue(null, foundObject, middle, right, value);
                                 }
                             }
                         }
-                    }
-                    else if (_dynamicFields.Count > 0) // need some check to see if it is a dynamic field
-                    {
-                        foreach (var dyno in _dynamicFields)
+                        else
                         {
-                            var matched = System.Text.RegularExpressions.Regex.Match(id, dyno.Key);
-                            if (matched.Success)
+                            if (PropertyExists(metaData))
                             {
-                                // pull the indexer out
-                                var innerIndex = Convert.ToInt32(matched.Groups[2].Value) + 1;
-
-                                var schema = dyno.Value;
-
-                                var tempMeta = schema.Meta.Replace("(X)", $"({innerIndex})");    // DO NOT REPLACE THE META - it will screw things up!
-
-                                if (!dyno.Value.ReadOnly)
-                                {
-                                    var metaData = tempMeta;
-
-                                    var dynInnerIndex = ParseInnerIndexer(ref metaData);      // Process Indexers that may appear
-
-                                    if (metaData.Contains("{") && metaData.Contains("}"))
-                                    {
-                                        string left, right;
-                                        bracketIndex = ParseWithInnerBraces(metaData, withPoundSign, bracketIndex, out left, out right);
-                                        var property = (IList)_loanV1.GetType().GetProperty(left).GetValue(_loanV1);
-                                        if (property.Count > bracketIndex)
-                                        {
-                                            var applicationProperty = property[bracketIndex];
-
-                                            if (right.Contains("["))
-                                            {
-                                                if (!right.StartsWith("["))
-                                                {
-                                                    var applicationId = "";
-
-                                                    if (_loadV3)
-                                                        applicationId = ((LenderApiContractsV3.ApplicationContract)applicationProperty).Id;
-                                                    else
-                                                        applicationId = ((LenderApiContractsV1.LoanContractApplications)applicationProperty).Id;
-
-                                                    metaData = right;
-                                                    right = metaData.Split(']')[1];
-                                                    right = right.Replace(".", string.Empty);
-                                                    var middle = metaData.Split(']')[0] + "]";
-                                                    left = metaData.Split('[')[0];
-                                                    middle = middle.Substring(left.Length);
-
-                                                    // check to see if it is an INDEX property
-
-                                                    if (dynInnerIndex != -1 && middle == "[]")  // LEFT has ASSETS array ref, dynInnerIndex points to the array instances
-                                                    {
-                                                        var innerArray = GetPropertyValue<IList>(applicationProperty, left, id);
-                                                        if (innerArray != null && innerArray.Count > dynInnerIndex)
-                                                        {
-                                                            var foundInstance = innerArray[dynInnerIndex];
-                                                            SetPropertyValue(applicationId, foundInstance, middle, right, value);
-                                                        }
-                                                    }
-                                                    else
-                                                    {
-                                                        // Now get property of the array
-
-                                                        var innerArray = GetPropertyValue<IList>(applicationProperty, left, id);
-                                                        var foundObject = FindIndexedObject(innerArray, middle, right, dynInnerIndex);
-
-                                                        if (foundObject == null) { } // Cant find the item to begin with     loan.Fields["IRS4506.X4"]
-                                                        else
-                                                            SetPropertyValue(applicationId, foundObject, middle, right, value);
-                                                    }
-
-                                                } // This is an indexed def
-                                            }
-                                            else
-                                            {
-                                                SetPropertyValue(applicationProperty, right, value);
-                                            }
-
-                                        }
-
-                                    }
-                                    else if (metaData.Contains("[") && metaData.Contains("]"))
-                                    {
-                                        var left = ParseInnerBrackets(metaData)[0];
-                                        var middle = ParseInnerBrackets(metaData)[1];
-                                        var right = ParseInnerBrackets(metaData)[2];
-
-                                        var property = GetPropertyValue<IList>(_loanV1, left, id);
-
-                                        if (property != null)
-                                        {
-                                            if (dynInnerIndex != -1 && middle == "[]")  // just pull the INDEXER item
-                                            {
-                                                if (property.Count > dynInnerIndex)
-                                                {
-                                                    var theObject = property[dynInnerIndex];
-                                                    SetPropertyValue(theObject, right, value);
-                                                    //        var foundValue = theObject.GetType()?.GetProperty(right)?.GetValue(theObject)?.ToString();
-                                                }
-                                            }
-                                            else // Property Values, not APPLICATION based
-                                            {
-                                                var foundObject = FindIndexedObject(property, middle, right, dynInnerIndex);
-                                                if (foundObject != null)
-                                                {
-                                                    SetPropertyValue(null, foundObject, middle, right, value);
-                                                }
-                                            }
-                                        }
-                                    }
-                                    else
-                                    {
-                                        if (PropertyExists(metaData))
-                                        {
-                                            SetPropertyValue(metaData, value);
-                                        }
-                                    }
-
-                                }
-
-                                break; // no need to loop more, we've matched
+                                SetPropertyValue(metaData, value);
                             }
                         }
                     }
                 }
-                else
+                else if (_dynamicFields.Count > 0) // need some check to see if it is a dynamic field
                 {
-                    ///TODO add V3 stuff
+                    foreach (var dyno in _dynamicFields)
+                    {
+                        var matched = System.Text.RegularExpressions.Regex.Match(id, dyno.Key);
+                        if (matched.Success)
+                        {
+                            // pull the indexer out
+                            var innerIndex = Convert.ToInt32(matched.Groups[2].Value) + 1;
+
+                            var schema = dyno.Value;
+
+                            var tempMeta = schema.Meta.Replace("(X)", $"({innerIndex})");    // DO NOT REPLACE THE META - it will screw things up!
+
+                            if (!dyno.Value.ReadOnly)
+                            {
+                                var metaData = tempMeta;
+
+                                var dynInnerIndex = ParseInnerIndexer(ref metaData);      // Process Indexers that may appear
+
+                                if (metaData.Contains("{") && metaData.Contains("}"))
+                                {
+                                    string left, right;
+                                    bracketIndex = ParseWithInnerBraces(metaData, withPoundSign, bracketIndex, out left, out right);
+                                    var property = (IList)_loan.GetType().GetProperty(left).GetValue(_loan);
+                                    if (property.Count > bracketIndex)
+                                    {
+                                        var applicationProperty = property[bracketIndex];
+
+                                        if (right.Contains("["))
+                                        {
+                                            if (!right.StartsWith("["))
+                                            {
+                                                var applicationId = "";
+
+                                                if (_loadV3)
+                                                    applicationId = ((LenderApiContractsV3.ApplicationContract)applicationProperty).Id;
+                                                else
+                                                    applicationId = ((LenderApiContractsV1.LoanContractApplications)applicationProperty).Id;
+
+                                                metaData = right;
+                                                right = metaData.Split(']')[1];
+                                                right = right.Replace(".", string.Empty);
+                                                var middle = metaData.Split(']')[0] + "]";
+                                                left = metaData.Split('[')[0];
+                                                middle = middle.Substring(left.Length);
+
+                                                // check to see if it is an INDEX property
+
+                                                if (dynInnerIndex != -1 && middle == "[]")  // LEFT has ASSETS array ref, dynInnerIndex points to the array instances
+                                                {
+                                                    var innerArray = GetPropertyValue<IList>(applicationProperty, left, id);
+                                                    if (innerArray != null && innerArray.Count > dynInnerIndex)
+                                                    {
+                                                        var foundInstance = innerArray[dynInnerIndex];
+                                                        SetPropertyValue(applicationId, foundInstance, middle, right, value);
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    // Now get property of the array
+
+                                                    var innerArray = GetPropertyValue<IList>(applicationProperty, left, id);
+                                                    var foundObject = FindIndexedObject(innerArray, middle, right, dynInnerIndex);
+
+                                                    if (foundObject == null) { } // Cant find the item to begin with     loan.Fields["IRS4506.X4"]
+                                                    else
+                                                        SetPropertyValue(applicationId, foundObject, middle, right, value);
+                                                }
+
+                                            } // This is an indexed def
+                                        }
+                                        else
+                                        {
+                                            SetPropertyValue(applicationProperty, right, value);
+                                        }
+
+                                    }
+
+                                }
+                                else if (metaData.Contains("[") && metaData.Contains("]"))
+                                {
+                                    var left = ParseInnerBrackets(metaData)[0];
+                                    var middle = ParseInnerBrackets(metaData)[1];
+                                    var right = ParseInnerBrackets(metaData)[2];
+
+                                    var property = GetPropertyValue<IList>(_loan, left, id);
+
+                                    if (property != null)
+                                    {
+                                        if (dynInnerIndex != -1 && middle == "[]")  // just pull the INDEXER item
+                                        {
+                                            if (property.Count > dynInnerIndex)
+                                            {
+                                                var theObject = property[dynInnerIndex];
+                                                SetPropertyValue(theObject, right, value);
+                                                //        var foundValue = theObject.GetType()?.GetProperty(right)?.GetValue(theObject)?.ToString();
+                                            }
+                                        }
+                                        else // Property Values, not APPLICATION based
+                                        {
+                                            var foundObject = FindIndexedObject(property, middle, right, dynInnerIndex);
+                                            if (foundObject != null)
+                                            {
+                                                SetPropertyValue(null, foundObject, middle, right, value);
+                                            }
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    if (PropertyExists(metaData))
+                                    {
+                                        SetPropertyValue(metaData, value);
+                                    }
+                                }
+
+                            }
+
+                            break; // no need to loop more, we've matched
+                        }
+                    }
                 }
             }
         }
@@ -678,1053 +666,1047 @@ namespace ICE.SDKtoAPI.SupportingClasses
                 CheckApplicationObject(applicationId);
             }
 
-            if (_loadV1)
+            switch (className)
             {
-                switch (className)
-                {
-                    case "LoanContractContacts":
+                case "LoanContractContacts":
+                    {
+                        if (_loanToUpdate.Contacts == null)
                         {
-                            if (_loanToUpdateV1.Contacts == null)
+                            _loanToUpdate.Contacts = new List<LenderApiContractsV1.LoanContractContacts>();
+                        }
+                        var isThere = _loanToUpdate.Contacts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractContacts()
                             {
-                                _loanToUpdateV1.Contacts = new List<LenderApiContractsV1.LoanContractContacts>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Contacts.Add(newInstance);
+                            // now update the properties in the type and the specified property
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractFees":
+                    {
+                        if (_loanToUpdate.Fees == null)
+                        {
+                            _loanToUpdate.Fees = new List<LenderApiContractsV1.LoanContractFees>();
+                        }
+                        var isThere = _loanToUpdate.Fees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractFees()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Fees.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractHomeCounselingProviders":
+                    {
+                        if (_loanToUpdate.HomeCounselingProviders == null)
+                        {
+                            _loanToUpdate.HomeCounselingProviders = new List<LenderApiContractsV1.LoanContractHomeCounselingProviders>();
+                        }
+                        var isThere = _loanToUpdate.HomeCounselingProviders.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractHomeCounselingProviders()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.HomeCounselingProviders.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractLoanSubmissionLoanSubmissionFees":
+                    {
+                        if (_loanToUpdate.LoanSubmission == null)
+                        {
+                            _loanToUpdate.LoanSubmission = new LenderApiContractsV1.LoanContractLoanSubmission();
+                        }
+                        if (_loanToUpdate.LoanSubmission.LoanSubmissionFees == null)
+                        {
+                            _loanToUpdate.LoanSubmission.LoanSubmissionFees = new List<LenderApiContractsV1.LoanContractLoanSubmissionLoanSubmissionFees>();
+                        }
+                        var isThere = _loanToUpdate.LoanSubmission.LoanSubmissionFees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractLoanSubmissionLoanSubmissionFees()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.LoanSubmission.LoanSubmissionFees.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractGfeGfeFees":
+                    {
+                        if (_loanToUpdate.Gfe == null)
+                        {
+                            _loanToUpdate.Gfe = new LenderApiContractsV1.LoanContractGfe();
+                        }
+                        if (_loanToUpdate.Gfe.GfeFees == null)
+                        {
+                            _loanToUpdate.Gfe.GfeFees = new List<LenderApiContractsV1.LoanContractGfeGfeFees>();
+                        }
+                        var isThere = _loanToUpdate.Gfe.GfeFees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractGfeGfeFees()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Gfe.GfeFees.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractRegulationZRegulationZPayments":
+                    {
+                        if (_loanToUpdate.RegulationZ == null)
+                        {
+                            _loanToUpdate.RegulationZ = new LenderApiContractsV1.LoanContractRegulationZ();
+                        }
+                        if (_loanToUpdate.RegulationZ.RegulationZPayments == null)
+                        {
+                            _loanToUpdate.RegulationZ.RegulationZPayments = new List<LenderApiContractsV1.LoanContractRegulationZRegulationZPayments>();
+                        }
+                        var isThere = _loanToUpdate.RegulationZ.RegulationZPayments.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractRegulationZRegulationZPayments()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.RegulationZ.RegulationZPayments.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractClosingDocumentClosingEntities":
+                    {
+                        if (_loanToUpdate.ClosingDocument == null)
+                        {
+                            _loanToUpdate.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
+                        }
+                        if (_loanToUpdate.ClosingDocument.ClosingEntities == null)
+                        {
+                            _loanToUpdate.ClosingDocument.ClosingEntities = new List<LenderApiContractsV1.LoanContractClosingDocumentClosingEntities>();
+                        }
+                        var isThere = _loanToUpdate.ClosingDocument.ClosingEntities.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentClosingEntities()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingDocument.ClosingEntities.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractClosingCostClosingDisclosure3UCDDetails":
+                    {
+                        if (_loanToUpdate.ClosingCost == null)
+                        {
+                            _loanToUpdate.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
+                        }
+                        if (_loanToUpdate.ClosingCost.ClosingDisclosure3 == null)
+                        {
+                            _loanToUpdate.ClosingCost.ClosingDisclosure3 = new LenderApiContractsV1.LoanContractClosingCostClosingDisclosure3();
+                        }
+                        if (_loanToUpdate.ClosingCost.ClosingDisclosure3.UCDDetails == null)
+                        {
+                            _loanToUpdate.ClosingCost.ClosingDisclosure3.UCDDetails = new List<LenderApiContractsV1.LoanContractClosingCostClosingDisclosure3UCDDetails>();
+                        }
+                        var isThere = _loanToUpdate.ClosingCost.ClosingDisclosure3.UCDDetails.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingCostClosingDisclosure3UCDDetails()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingCost.ClosingDisclosure3.UCDDetails.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                    }
+                    break;
+
+                case "LoanContractClosingDocumentAdditionalStateDisclosures":
+                    {
+                        //ClosingDocument.AdditionalStateDisclosures
+                        if (_loanToUpdate.ClosingDocument == null)
+                        {
+                            _loanToUpdate.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
+                        }
+                        if (_loanToUpdate.ClosingDocument.AdditionalStateDisclosures == null)
+                        {
+                            _loanToUpdate.ClosingDocument.AdditionalStateDisclosures = new List<LenderApiContractsV1.LoanContractClosingDocumentAdditionalStateDisclosures>();
+                        }
+                        var isThere = _loanToUpdate.ClosingDocument.AdditionalStateDisclosures.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentAdditionalStateDisclosures()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingDocument.AdditionalStateDisclosures.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractClosingDocumentStateLicenses":
+                    {
+                        //ClosingDocument.StateLicense
+                        if (_loanToUpdate.ClosingDocument == null)
+                        {
+                            _loanToUpdate.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
+                        }
+                        if (_loanToUpdate.ClosingDocument.StateLicenses == null)
+                        {
+                            _loanToUpdate.ClosingDocument.StateLicenses = new List<LenderApiContractsV1.LoanContractClosingDocumentStateLicenses>();
+                        }
+                        var isThere = _loanToUpdate.ClosingDocument.StateLicenses.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentStateLicenses()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingDocument.StateLicenses.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractClosingCostGfe2010Gfe2010Fees":
+                    {
+                        //ClosingCost.Gfe2010.Gfe2010Fees
+                        if (_loanToUpdate.ClosingCost == null)
+                        {
+                            _loanToUpdate.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010 == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010 = new LenderApiContractsV1.LoanContractClosingCostGfe2010();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010.Gfe2010Fees == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010.Gfe2010Fees = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010Fees>();
+                        }
+                        var isThere = _loanToUpdate.ClosingCost.Gfe2010.Gfe2010Fees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010Fees()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingCost.Gfe2010.Gfe2010Fees.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractClosingCostGfe2010PageGfe2010GfeCharges":
+                    {
+                        //ClosingCost.Gfe2010Page.Gfe2010GfeCharges
+                        if (_loanToUpdate.ClosingCost == null)
+                        {
+                            _loanToUpdate.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010Page == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010Page = new LenderApiContractsV1.LoanContractClosingCostGfe2010Page();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010GfeCharges == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010GfeCharges = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010GfeCharges>();
+                        }
+                        var isThere = _loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010GfeCharges.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010GfeCharges()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010GfeCharges.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractClosingCostGfe2010PageGfe2010FwbcFwscs":
+                    {
+                        // ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs
+                        if (_loanToUpdate.ClosingCost == null)
+                        {
+                            _loanToUpdate.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010Page == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010Page = new LenderApiContractsV1.LoanContractClosingCostGfe2010Page();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010FwbcFwscs>();
+                        }
+                        var isThere = _loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010FwbcFwscs()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractClosingCostGfe2010Gfe2010WholePocs":
+                    {
+                        // ClosingCost.Gfe2010.Gfe2010WholePocs
+                        if (_loanToUpdate.ClosingCost == null)
+                        {
+                            _loanToUpdate.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010 == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010 = new LenderApiContractsV1.LoanContractClosingCostGfe2010();
+                        }
+                        if (_loanToUpdate.ClosingCost.Gfe2010.Gfe2010WholePocs == null)
+                        {
+                            _loanToUpdate.ClosingCost.Gfe2010.Gfe2010WholePocs = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010WholePocs>();
+                        }
+                        var isThere = _loanToUpdate.ClosingCost.Gfe2010.Gfe2010WholePocs.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010WholePocs()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingCost.Gfe2010.Gfe2010WholePocs.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractProfitManagementProfitManagementItems":
+                    {
+                        //ProfitManagement.ProfitManagementItems
+                        if (_loanToUpdate.ProfitManagement == null)
+                        {
+                            _loanToUpdate.ProfitManagement = new LenderApiContractsV1.LoanContractProfitManagement();
+                        }
+                        if (_loanToUpdate.ProfitManagement.ProfitManagementItems == null)
+                        {
+                            _loanToUpdate.ProfitManagement.ProfitManagementItems = new List<LenderApiContractsV1.LoanContractProfitManagementProfitManagementItems>();
+                        }
+                        var isThere = _loanToUpdate.ProfitManagement.ProfitManagementItems.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractProfitManagementProfitManagementItems()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ProfitManagement.ProfitManagementItems.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractGfeGfePayoffs":
+                    {
+                        // Gfe.GfePayoffs
+                        if (_loanToUpdate.Gfe == null)
+                        {
+                            _loanToUpdate.Gfe = new LenderApiContractsV1.LoanContractGfe();
+                        }
+                        if (_loanToUpdate.Gfe.GfePayoffs == null)
+                        {
+                            _loanToUpdate.Gfe.GfePayoffs = new List<LenderApiContractsV1.LoanContractGfeGfePayoffs>();
+                        }
+                        var isThere = _loanToUpdate.Gfe.GfePayoffs.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractGfeGfePayoffs()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Gfe.GfePayoffs.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractGfeGfeLiens":
+                    {
+                        // Gfe.GfeLiens
+                        if (_loanToUpdate.Gfe == null)
+                        {
+                            _loanToUpdate.Gfe = new LenderApiContractsV1.LoanContractGfe();
+                        }
+                        if (_loanToUpdate.Gfe.GfeLiens == null)
+                        {
+                            _loanToUpdate.Gfe.GfeLiens = new List<LenderApiContractsV1.LoanContractGfeGfeLiens>();
+                        }
+                        var isThere = _loanToUpdate.Gfe.GfeLiens.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractGfeGfeLiens()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Gfe.GfeLiens.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractGfeGfePayments":
+                    {
+                        //Gfe.GfePayments
+                        if (_loanToUpdate.Gfe == null)
+                        {
+                            _loanToUpdate.Gfe = new LenderApiContractsV1.LoanContractGfe();
+                        }
+                        if (_loanToUpdate.Gfe.GfePayments == null)
+                        {
+                            _loanToUpdate.Gfe.GfePayments = new List<LenderApiContractsV1.LoanContractGfeGfePayments>();
+                        }
+                        var isThere = _loanToUpdate.Gfe.GfePayments.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractGfeGfePayments()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Gfe.GfePayments.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractUsdaUsdaHouseholdIncomes":
+                    {
+                        // Usda.UsdaHouseholdIncomes
+                        if (_loanToUpdate.Usda == null)
+                        {
+                            _loanToUpdate.Usda = new LenderApiContractsV1.LoanContractUsda();
+                        }
+                        if (_loanToUpdate.Usda.UsdaHouseholdIncomes == null)
+                        {
+                            _loanToUpdate.Usda.UsdaHouseholdIncomes = new List<LenderApiContractsV1.LoanContractUsdaUsdaHouseholdIncomes>();
+                        }
+                        var isThere = _loanToUpdate.Usda.UsdaHouseholdIncomes.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractUsdaUsdaHouseholdIncomes()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Usda.UsdaHouseholdIncomes.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractVaLoanDataMilitaryServices":
+                    {
+                        // VaLoanData.MilitaryServices
+                        if (_loanToUpdate.VaLoanData == null)
+                        {
+                            _loanToUpdate.VaLoanData = new LenderApiContractsV1.LoanContractVaLoanData();
+                        }
+                        if (_loanToUpdate.VaLoanData.MilitaryServices == null)
+                        {
+                            _loanToUpdate.VaLoanData.MilitaryServices = new List<LenderApiContractsV1.LoanContractVaLoanDataMilitaryServices>();
+                        }
+                        var isThere = _loanToUpdate.VaLoanData.MilitaryServices.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractVaLoanDataMilitaryServices()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.VaLoanData.MilitaryServices.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractVaLoanDataPreviousVaLoans":
+                    {
+                        // VaLoanData.PreviousVaLoans
+                        if (_loanToUpdate.VaLoanData == null)
+                        {
+                            _loanToUpdate.VaLoanData = new LenderApiContractsV1.LoanContractVaLoanData();
+                        }
+                        if (_loanToUpdate.VaLoanData.PreviousVaLoans == null)
+                        {
+                            _loanToUpdate.VaLoanData.PreviousVaLoans = new List<LenderApiContractsV1.LoanContractVaLoanDataPreviousVaLoans>();
+                        }
+                        var isThere = _loanToUpdate.VaLoanData.PreviousVaLoans.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractVaLoanDataPreviousVaLoans()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.VaLoanData.PreviousVaLoans.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    };
+                    break;
+
+                case "LoanContractHud1EsHud1EsPayTos":
+                    {
+                        // Hud1Es.Hud1EsPayTos
+                        if (_loanToUpdate.Hud1Es == null)
+                        {
+                            _loanToUpdate.Hud1Es = new LenderApiContractsV1.LoanContractHud1Es();
+                        }
+                        if (_loanToUpdate.Hud1Es.Hud1EsPayTos == null)
+                        {
+                            _loanToUpdate.Hud1Es.Hud1EsPayTos = new List<LenderApiContractsV1.LoanContractHud1EsHud1EsPayTos>();
+                        }
+                        var isThere = _loanToUpdate.Hud1Es.Hud1EsPayTos.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractHud1EsHud1EsPayTos()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Hud1Es.Hud1EsPayTos.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractHud1EsHud1EsDates":
+                    {
+                        // Hud1Es.Hud1EsDates
+                        if (_loanToUpdate.Hud1Es == null)
+                        {
+                            _loanToUpdate.Hud1Es = new LenderApiContractsV1.LoanContractHud1Es();
+                        }
+                        if (_loanToUpdate.Hud1Es.Hud1EsDates == null)
+                        {
+                            _loanToUpdate.Hud1Es.Hud1EsDates = new List<LenderApiContractsV1.LoanContractHud1EsHud1EsDates>();
+                        }
+                        var isThere = _loanToUpdate.Hud1Es.Hud1EsDates.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractHud1EsHud1EsDates()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Hud1Es.Hud1EsDates.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractShippingShippingContacts":
+                    {
+                        // Shipping.ShippingContacts
+                        if (_loanToUpdate.Shipping == null)
+                        {
+                            _loanToUpdate.Shipping = new LenderApiContractsV1.LoanContractShipping();
+                        }
+                        if (_loanToUpdate.Shipping.ShippingContacts == null)
+                        {
+                            _loanToUpdate.Shipping.ShippingContacts = new List<LenderApiContractsV1.LoanContractShippingShippingContacts>();
+                        }
+                        var isThere = _loanToUpdate.Shipping.ShippingContacts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractShippingShippingContacts()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.Shipping.ShippingContacts.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+                        }
+                        else { } // update a value
+                    }
+                    break;
+
+                case "LoanContractClosingCostFeeVariances":
+                    {
+                        //ClosingCost.FeeVariances
+                        if (_loanToUpdate.ClosingCost == null)
+                        {
+                            _loanToUpdate.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
+                        }
+                        if (_loanToUpdate.ClosingCost.FeeVariances == null)
+                        {
+                            _loanToUpdate.ClosingCost.FeeVariances = new List<LenderApiContractsV1.LoanContractClosingCostFeeVariances>();
+                        }
+                        var isThere = _loanToUpdate.ClosingCost.FeeVariances.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingCostFeeVariances()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingCost.FeeVariances.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractClosingDocumentRespaHudDetails":
+                    {
+                        //ClosingDocument.RespaHudDetails
+                        if (_loanToUpdate.ClosingDocument == null)
+                        {
+                            _loanToUpdate.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
+                        }
+                        if (_loanToUpdate.ClosingDocument.RespaHudDetails == null)
+                        {
+                            _loanToUpdate.ClosingDocument.RespaHudDetails = new List<LenderApiContractsV1.LoanContractClosingDocumentRespaHudDetails>();
+                        }
+                        var isThere = _loanToUpdate.ClosingDocument.RespaHudDetails.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentRespaHudDetails()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingDocument.RespaHudDetails.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractHudLoanDataSecondaryFinancingProviders":
+                    {
+                        if (_loanToUpdate.HudLoanData == null)
+                        {
+                            _loanToUpdate.HudLoanData = new LenderApiContractsV1.LoanContractHudLoanData();
+                        }
+                        if (_loanToUpdate.HudLoanData.SecondaryFinancingProviders == null)
+                        {
+                            _loanToUpdate.HudLoanData.SecondaryFinancingProviders = new List<LenderApiContractsV1.LoanContractHudLoanDataSecondaryFinancingProviders>();
+                        }
+                        var isThere = _loanToUpdate.HudLoanData.SecondaryFinancingProviders.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            var newInstance = new LenderApiContractsV1.LoanContractHudLoanDataSecondaryFinancingProviders()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.HudLoanData.SecondaryFinancingProviders.Add(newInstance);
+
+                            UpdateInnerProperties(newInstance, middle);
+
+                            var propertyInfo = newInstance.GetType().GetProperty(right);
+                            propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
+                        }
+                        else { } // update a value
+
+                    }
+                    break;
+
+                case "LoanContractIncome":
+                    {
+                        // LoanContractIncome
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
+                        {
+                            if (item.Income == null)
+                            {
+                                item.Income = new List<LenderApiContractsV1.LoanContractIncome>();
                             }
-                            var isThere = _loanToUpdateV1.Contacts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.Income.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractContacts()
+                                var newInstance = new LenderApiContractsV1.LoanContractIncome()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.Contacts.Add(newInstance);
-                                // now update the properties in the type and the specified property
+                                item.Income.Add(newInstance);
+
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
+                    }
+                    break;
 
-                    case "LoanContractFees":
+                case "LoanContractAssets":
+                    {
+                        //LoanContractAssets
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
                         {
-                            if (_loanToUpdateV1.Fees == null)
+                            if (item.Assets == null)
                             {
-                                _loanToUpdateV1.Fees = new List<LenderApiContractsV1.LoanContractFees>();
+                                item.Assets = new List<LenderApiContractsV1.LoanContractAssets>();
                             }
-                            var isThere = _loanToUpdateV1.Fees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.Assets.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractFees()
+                                var newInstance = new LenderApiContractsV1.LoanContractAssets()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.Fees.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractHomeCounselingProviders":
-                        {
-                            if (_loanToUpdateV1.HomeCounselingProviders == null)
-                            {
-                                _loanToUpdateV1.HomeCounselingProviders = new List<LenderApiContractsV1.LoanContractHomeCounselingProviders>();
-                            }
-                            var isThere = _loanToUpdateV1.HomeCounselingProviders.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractHomeCounselingProviders()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.HomeCounselingProviders.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractLoanSubmissionLoanSubmissionFees":
-                        {
-                            if (_loanToUpdateV1.LoanSubmission == null)
-                            {
-                                _loanToUpdateV1.LoanSubmission = new LenderApiContractsV1.LoanContractLoanSubmission();
-                            }
-                            if (_loanToUpdateV1.LoanSubmission.LoanSubmissionFees == null)
-                            {
-                                _loanToUpdateV1.LoanSubmission.LoanSubmissionFees = new List<LenderApiContractsV1.LoanContractLoanSubmissionLoanSubmissionFees>();
-                            }
-                            var isThere = _loanToUpdateV1.LoanSubmission.LoanSubmissionFees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractLoanSubmissionLoanSubmissionFees()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.LoanSubmission.LoanSubmissionFees.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractGfeGfeFees":
-                        {
-                            if (_loanToUpdateV1.Gfe == null)
-                            {
-                                _loanToUpdateV1.Gfe = new LenderApiContractsV1.LoanContractGfe();
-                            }
-                            if (_loanToUpdateV1.Gfe.GfeFees == null)
-                            {
-                                _loanToUpdateV1.Gfe.GfeFees = new List<LenderApiContractsV1.LoanContractGfeGfeFees>();
-                            }
-                            var isThere = _loanToUpdateV1.Gfe.GfeFees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractGfeGfeFees()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.Gfe.GfeFees.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-                        }
-                        break;
-
-                    case "LoanContractRegulationZRegulationZPayments":
-                        {
-                            if (_loanToUpdateV1.RegulationZ == null)
-                            {
-                                _loanToUpdateV1.RegulationZ = new LenderApiContractsV1.LoanContractRegulationZ();
-                            }
-                            if (_loanToUpdateV1.RegulationZ.RegulationZPayments == null)
-                            {
-                                _loanToUpdateV1.RegulationZ.RegulationZPayments = new List<LenderApiContractsV1.LoanContractRegulationZRegulationZPayments>();
-                            }
-                            var isThere = _loanToUpdateV1.RegulationZ.RegulationZPayments.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractRegulationZRegulationZPayments()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.RegulationZ.RegulationZPayments.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractClosingDocumentClosingEntities":
-                        {
-                            if (_loanToUpdateV1.ClosingDocument == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
-                            }
-                            if (_loanToUpdateV1.ClosingDocument.ClosingEntities == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument.ClosingEntities = new List<LenderApiContractsV1.LoanContractClosingDocumentClosingEntities>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingDocument.ClosingEntities.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentClosingEntities()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingDocument.ClosingEntities.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractClosingCostClosingDisclosure3UCDDetails":
-                        {
-                            if (_loanToUpdateV1.ClosingCost == null)
-                            {
-                                _loanToUpdateV1.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.ClosingDisclosure3 == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.ClosingDisclosure3 = new LenderApiContractsV1.LoanContractClosingCostClosingDisclosure3();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.ClosingDisclosure3.UCDDetails == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.ClosingDisclosure3.UCDDetails = new List<LenderApiContractsV1.LoanContractClosingCostClosingDisclosure3UCDDetails>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingCost.ClosingDisclosure3.UCDDetails.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingCostClosingDisclosure3UCDDetails()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingCost.ClosingDisclosure3.UCDDetails.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                        }
-                        break;
-
-                    case "LoanContractClosingDocumentAdditionalStateDisclosures":
-                        {
-                            //ClosingDocument.AdditionalStateDisclosures
-                            if (_loanToUpdateV1.ClosingDocument == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
-                            }
-                            if (_loanToUpdateV1.ClosingDocument.AdditionalStateDisclosures == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument.AdditionalStateDisclosures = new List<LenderApiContractsV1.LoanContractClosingDocumentAdditionalStateDisclosures>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingDocument.AdditionalStateDisclosures.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentAdditionalStateDisclosures()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingDocument.AdditionalStateDisclosures.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-                        }
-                        break;
-
-                    case "LoanContractClosingDocumentStateLicenses":
-                        {
-                            //ClosingDocument.StateLicense
-                            if (_loanToUpdateV1.ClosingDocument == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
-                            }
-                            if (_loanToUpdateV1.ClosingDocument.StateLicenses == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument.StateLicenses = new List<LenderApiContractsV1.LoanContractClosingDocumentStateLicenses>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingDocument.StateLicenses.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentStateLicenses()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingDocument.StateLicenses.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractClosingCostGfe2010Gfe2010Fees":
-                        {
-                            //ClosingCost.Gfe2010.Gfe2010Fees
-                            if (_loanToUpdateV1.ClosingCost == null)
-                            {
-                                _loanToUpdateV1.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010 == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010 = new LenderApiContractsV1.LoanContractClosingCostGfe2010();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010Fees == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010Fees = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010Fees>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010Fees.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010Fees()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010Fees.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractClosingCostGfe2010PageGfe2010GfeCharges":
-                        {
-                            //ClosingCost.Gfe2010Page.Gfe2010GfeCharges
-                            if (_loanToUpdateV1.ClosingCost == null)
-                            {
-                                _loanToUpdateV1.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010Page == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010Page = new LenderApiContractsV1.LoanContractClosingCostGfe2010Page();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010GfeCharges == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010GfeCharges = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010GfeCharges>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010GfeCharges.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010GfeCharges()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010GfeCharges.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractClosingCostGfe2010PageGfe2010FwbcFwscs":
-                        {
-                            // ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs
-                            if (_loanToUpdateV1.ClosingCost == null)
-                            {
-                                _loanToUpdateV1.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010Page == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010Page = new LenderApiContractsV1.LoanContractClosingCostGfe2010Page();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010FwbcFwscs>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010PageGfe2010FwbcFwscs()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingCost.Gfe2010Page.Gfe2010FwbcFwscs.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractClosingCostGfe2010Gfe2010WholePocs":
-                        {
-                            // ClosingCost.Gfe2010.Gfe2010WholePocs
-                            if (_loanToUpdateV1.ClosingCost == null)
-                            {
-                                _loanToUpdateV1.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010 == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010 = new LenderApiContractsV1.LoanContractClosingCostGfe2010();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010WholePocs == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010WholePocs = new List<LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010WholePocs>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010WholePocs.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010WholePocs()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingCost.Gfe2010.Gfe2010WholePocs.Add(newInstance);
+                                item.Assets.Add(newInstance);
 
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
+                    }
+                    break;
 
-                    case "LoanContractProfitManagementProfitManagementItems":
+                case "LoanContractLiabilities":
+                    {
+                        //LoanContractLiabilities
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
                         {
-                            //ProfitManagement.ProfitManagementItems
-                            if (_loanToUpdateV1.ProfitManagement == null)
+                            if (item.Liabilities == null)
                             {
-                                _loanToUpdateV1.ProfitManagement = new LenderApiContractsV1.LoanContractProfitManagement();
+                                item.Liabilities = new List<LenderApiContractsV1.LoanContractLiabilities>();
                             }
-                            if (_loanToUpdateV1.ProfitManagement.ProfitManagementItems == null)
-                            {
-                                _loanToUpdateV1.ProfitManagement.ProfitManagementItems = new List<LenderApiContractsV1.LoanContractProfitManagementProfitManagementItems>();
-                            }
-                            var isThere = _loanToUpdateV1.ProfitManagement.ProfitManagementItems.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.Liabilities.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractProfitManagementProfitManagementItems()
+                                var newInstance = new LenderApiContractsV1.LoanContractLiabilities()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.ProfitManagement.ProfitManagementItems.Add(newInstance);
+                                item.Liabilities.Add(newInstance);
 
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
+                    }
+                    break;
 
-                    case "LoanContractGfeGfePayoffs":
+                case "LoanContractResidences":
+                    {
+                        //LoanContractResidences
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
                         {
-                            // Gfe.GfePayoffs
-                            if (_loanToUpdateV1.Gfe == null)
+                            if (item.Residences == null)
                             {
-                                _loanToUpdateV1.Gfe = new LenderApiContractsV1.LoanContractGfe();
+                                item.Residences = new List<LenderApiContractsV1.LoanContractResidences>();
                             }
-                            if (_loanToUpdateV1.Gfe.GfePayoffs == null)
-                            {
-                                _loanToUpdateV1.Gfe.GfePayoffs = new List<LenderApiContractsV1.LoanContractGfeGfePayoffs>();
-                            }
-                            var isThere = _loanToUpdateV1.Gfe.GfePayoffs.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.Residences.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractGfeGfePayoffs()
+                                var newInstance = new LenderApiContractsV1.LoanContractResidences()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.Gfe.GfePayoffs.Add(newInstance);
+                                item.Residences.Add(newInstance);
 
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
+                    }
+                    break;
 
-                    case "LoanContractGfeGfeLiens":
+                case "LoanContractEmployment":
+                    {
+                        //LoanContractEmployment
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
                         {
-                            // Gfe.GfeLiens
-                            if (_loanToUpdateV1.Gfe == null)
+                            if (item.Employment == null)
                             {
-                                _loanToUpdateV1.Gfe = new LenderApiContractsV1.LoanContractGfe();
+                                item.Employment = new List<LenderApiContractsV1.LoanContractEmployment>();
                             }
-                            if (_loanToUpdateV1.Gfe.GfeLiens == null)
-                            {
-                                _loanToUpdateV1.Gfe.GfeLiens = new List<LenderApiContractsV1.LoanContractGfeGfeLiens>();
-                            }
-                            var isThere = _loanToUpdateV1.Gfe.GfeLiens.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.Employment.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractGfeGfeLiens()
+                                var newInstance = new LenderApiContractsV1.LoanContractEmployment()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.Gfe.GfeLiens.Add(newInstance);
+                                item.Employment.Add(newInstance);
 
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
+                    }
+                    break;
 
-                    case "LoanContractGfeGfePayments":
+                case "LoanContractSelfEmployedIncomes":
+                    {
+                        //LoanContractEmployment
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
                         {
-                            //Gfe.GfePayments
-                            if (_loanToUpdateV1.Gfe == null)
+                            if (item.SelfEmployedIncomes == null)
                             {
-                                _loanToUpdateV1.Gfe = new LenderApiContractsV1.LoanContractGfe();
+                                item.SelfEmployedIncomes = new List<LenderApiContractsV1.LoanContractSelfEmployedIncomes>();
                             }
-                            if (_loanToUpdateV1.Gfe.GfePayments == null)
-                            {
-                                _loanToUpdateV1.Gfe.GfePayments = new List<LenderApiContractsV1.LoanContractGfeGfePayments>();
-                            }
-                            var isThere = _loanToUpdateV1.Gfe.GfePayments.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.SelfEmployedIncomes.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractGfeGfePayments()
+                                var newInstance = new LenderApiContractsV1.LoanContractSelfEmployedIncomes()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.Gfe.GfePayments.Add(newInstance);
+                                item.SelfEmployedIncomes.Add(newInstance);
 
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
+                    }
+                    break;
 
-                    case "LoanContractUsdaUsdaHouseholdIncomes":
+                case "LoanContractReoProperties":
+                    {
+                        //LoanContractReoProperties
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
                         {
-                            // Usda.UsdaHouseholdIncomes
-                            if (_loanToUpdateV1.Usda == null)
+                            if (item.ReoProperties == null)
                             {
-                                _loanToUpdateV1.Usda = new LenderApiContractsV1.LoanContractUsda();
+                                item.ReoProperties = new List<LenderApiContractsV1.LoanContractReoProperties>();
                             }
-                            if (_loanToUpdateV1.Usda.UsdaHouseholdIncomes == null)
-                            {
-                                _loanToUpdateV1.Usda.UsdaHouseholdIncomes = new List<LenderApiContractsV1.LoanContractUsdaUsdaHouseholdIncomes>();
-                            }
-                            var isThere = _loanToUpdateV1.Usda.UsdaHouseholdIncomes.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.ReoProperties.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractUsdaUsdaHouseholdIncomes()
+                                var newInstance = new LenderApiContractsV1.LoanContractReoProperties()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.Usda.UsdaHouseholdIncomes.Add(newInstance);
+                                item.ReoProperties.Add(newInstance);
 
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
 
-                    case "LoanContractVaLoanDataMilitaryServices":
+                    }
+                    break;
+
+                case "LoanContractTax4506s":
+                    {
+                        //LoanContractTax4506s
+                        var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
+                        if (item != null)
                         {
-                            // VaLoanData.MilitaryServices
-                            if (_loanToUpdateV1.VaLoanData == null)
+                            if (item.Tax4506s == null)
                             {
-                                _loanToUpdateV1.VaLoanData = new LenderApiContractsV1.LoanContractVaLoanData();
+                                item.Tax4506s = new List<LenderApiContractsV1.LoanContractTax4506s>();
                             }
-                            if (_loanToUpdateV1.VaLoanData.MilitaryServices == null)
-                            {
-                                _loanToUpdateV1.VaLoanData.MilitaryServices = new List<LenderApiContractsV1.LoanContractVaLoanDataMilitaryServices>();
-                            }
-                            var isThere = _loanToUpdateV1.VaLoanData.MilitaryServices.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            var isThere = item.Tax4506s.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractVaLoanDataMilitaryServices()
+                                var newInstance = new LenderApiContractsV1.LoanContractTax4506s()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.VaLoanData.MilitaryServices.Add(newInstance);
+                                item.Tax4506s.Add(newInstance);
 
                                 UpdateInnerProperties(newInstance, middle);
 
                                 var propertyInfo = newInstance.GetType().GetProperty(right);
                                 propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
                             }
-                            else { } // update a value
                         }
-                        break;
 
-                    case "LoanContractVaLoanDataPreviousVaLoans":
-                        {
-                            // VaLoanData.PreviousVaLoans
-                            if (_loanToUpdateV1.VaLoanData == null)
-                            {
-                                _loanToUpdateV1.VaLoanData = new LenderApiContractsV1.LoanContractVaLoanData();
-                            }
-                            if (_loanToUpdateV1.VaLoanData.PreviousVaLoans == null)
-                            {
-                                _loanToUpdateV1.VaLoanData.PreviousVaLoans = new List<LenderApiContractsV1.LoanContractVaLoanDataPreviousVaLoans>();
-                            }
-                            var isThere = _loanToUpdateV1.VaLoanData.PreviousVaLoans.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractVaLoanDataPreviousVaLoans()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.VaLoanData.PreviousVaLoans.Add(newInstance);
+                    }
+                    break;
 
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                            }
-                            else { } // update a value
-                        };
-                        break;
-
-                    case "LoanContractHud1EsHud1EsPayTos":
-                        {
-                            // Hud1Es.Hud1EsPayTos
-                            if (_loanToUpdateV1.Hud1Es == null)
-                            {
-                                _loanToUpdateV1.Hud1Es = new LenderApiContractsV1.LoanContractHud1Es();
-                            }
-                            if (_loanToUpdateV1.Hud1Es.Hud1EsPayTos == null)
-                            {
-                                _loanToUpdateV1.Hud1Es.Hud1EsPayTos = new List<LenderApiContractsV1.LoanContractHud1EsHud1EsPayTos>();
-                            }
-                            var isThere = _loanToUpdateV1.Hud1Es.Hud1EsPayTos.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractHud1EsHud1EsPayTos()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.Hud1Es.Hud1EsPayTos.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                            }
-                            else { } // update a value
-                        }
-                        break;
-
-                    case "LoanContractHud1EsHud1EsDates":
-                        {
-                            // Hud1Es.Hud1EsDates
-                            if (_loanToUpdateV1.Hud1Es == null)
-                            {
-                                _loanToUpdateV1.Hud1Es = new LenderApiContractsV1.LoanContractHud1Es();
-                            }
-                            if (_loanToUpdateV1.Hud1Es.Hud1EsDates == null)
-                            {
-                                _loanToUpdateV1.Hud1Es.Hud1EsDates = new List<LenderApiContractsV1.LoanContractHud1EsHud1EsDates>();
-                            }
-                            var isThere = _loanToUpdateV1.Hud1Es.Hud1EsDates.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractHud1EsHud1EsDates()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.Hud1Es.Hud1EsDates.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                            }
-                            else { } // update a value
-                        }
-                        break;
-
-                    case "LoanContractShippingShippingContacts":
-                        {
-                            // Shipping.ShippingContacts
-                            if (_loanToUpdateV1.Shipping == null)
-                            {
-                                _loanToUpdateV1.Shipping = new LenderApiContractsV1.LoanContractShipping();
-                            }
-                            if (_loanToUpdateV1.Shipping.ShippingContacts == null)
-                            {
-                                _loanToUpdateV1.Shipping.ShippingContacts = new List<LenderApiContractsV1.LoanContractShippingShippingContacts>();
-                            }
-                            var isThere = _loanToUpdateV1.Shipping.ShippingContacts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractShippingShippingContacts()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.Shipping.ShippingContacts.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                            }
-                            else { } // update a value
-                        }
-                        break;
-
-                    case "LoanContractClosingCostFeeVariances":
-                        {
-                            //ClosingCost.FeeVariances
-                            if (_loanToUpdateV1.ClosingCost == null)
-                            {
-                                _loanToUpdateV1.ClosingCost = new LenderApiContractsV1.LoanContractClosingCost();
-                            }
-                            if (_loanToUpdateV1.ClosingCost.FeeVariances == null)
-                            {
-                                _loanToUpdateV1.ClosingCost.FeeVariances = new List<LenderApiContractsV1.LoanContractClosingCostFeeVariances>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingCost.FeeVariances.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingCostFeeVariances()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingCost.FeeVariances.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractClosingDocumentRespaHudDetails":
-                        {
-                            //ClosingDocument.RespaHudDetails
-                            if (_loanToUpdateV1.ClosingDocument == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
-                            }
-                            if (_loanToUpdateV1.ClosingDocument.RespaHudDetails == null)
-                            {
-                                _loanToUpdateV1.ClosingDocument.RespaHudDetails = new List<LenderApiContractsV1.LoanContractClosingDocumentRespaHudDetails>();
-                            }
-                            var isThere = _loanToUpdateV1.ClosingDocument.RespaHudDetails.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractClosingDocumentRespaHudDetails()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.ClosingDocument.RespaHudDetails.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractHudLoanDataSecondaryFinancingProviders":
-                        {
-                            if (_loanToUpdateV1.HudLoanData == null)
-                            {
-                                _loanToUpdateV1.HudLoanData = new LenderApiContractsV1.LoanContractHudLoanData();
-                            }
-                            if (_loanToUpdateV1.HudLoanData.SecondaryFinancingProviders == null)
-                            {
-                                _loanToUpdateV1.HudLoanData.SecondaryFinancingProviders = new List<LenderApiContractsV1.LoanContractHudLoanDataSecondaryFinancingProviders>();
-                            }
-                            var isThere = _loanToUpdateV1.HudLoanData.SecondaryFinancingProviders.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                var newInstance = new LenderApiContractsV1.LoanContractHudLoanDataSecondaryFinancingProviders()
-                                {
-                                    Id = instanceId.ToString()
-                                };
-                                _loanToUpdateV1.HudLoanData.SecondaryFinancingProviders.Add(newInstance);
-
-                                UpdateInnerProperties(newInstance, middle);
-
-                                var propertyInfo = newInstance.GetType().GetProperty(right);
-                                propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-
-                            }
-                            else { } // update a value
-
-                        }
-                        break;
-
-                    case "LoanContractIncome":
-                        {
-                            // LoanContractIncome
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.Income == null)
-                                {
-                                    item.Income = new List<LenderApiContractsV1.LoanContractIncome>();
-                                }
-                                var isThere = item.Income.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractIncome()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.Income.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-                        }
-                        break;
-
-                    case "LoanContractAssets":
-                        {
-                            //LoanContractAssets
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.Assets == null)
-                                {
-                                    item.Assets = new List<LenderApiContractsV1.LoanContractAssets>();
-                                }
-                                var isThere = item.Assets.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractAssets()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.Assets.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-                        }
-                        break;
-
-                    case "LoanContractLiabilities":
-                        {
-                            //LoanContractLiabilities
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.Liabilities == null)
-                                {
-                                    item.Liabilities = new List<LenderApiContractsV1.LoanContractLiabilities>();
-                                }
-                                var isThere = item.Liabilities.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractLiabilities()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.Liabilities.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-                        }
-                        break;
-
-                    case "LoanContractResidences":
-                        {
-                            //LoanContractResidences
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.Residences == null)
-                                {
-                                    item.Residences = new List<LenderApiContractsV1.LoanContractResidences>();
-                                }
-                                var isThere = item.Residences.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractResidences()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.Residences.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-                        }
-                        break;
-
-                    case "LoanContractEmployment":
-                        {
-                            //LoanContractEmployment
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.Employment == null)
-                                {
-                                    item.Employment = new List<LenderApiContractsV1.LoanContractEmployment>();
-                                }
-                                var isThere = item.Employment.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractEmployment()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.Employment.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-                        }
-                        break;
-
-                    case "LoanContractSelfEmployedIncomes":
-                        {
-                            //LoanContractEmployment
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.SelfEmployedIncomes == null)
-                                {
-                                    item.SelfEmployedIncomes = new List<LenderApiContractsV1.LoanContractSelfEmployedIncomes>();
-                                }
-                                var isThere = item.SelfEmployedIncomes.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractSelfEmployedIncomes()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.SelfEmployedIncomes.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-                        }
-                        break;
-
-                    case "LoanContractReoProperties":
-                        {
-                            //LoanContractReoProperties
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.ReoProperties == null)
-                                {
-                                    item.ReoProperties = new List<LenderApiContractsV1.LoanContractReoProperties>();
-                                }
-                                var isThere = item.ReoProperties.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractReoProperties()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.ReoProperties.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-
-                        }
-                        break;
-
-                    case "LoanContractTax4506s":
-                        {
-                            //LoanContractTax4506s
-                            var item = _loanToUpdateV1.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
-                            if (item != null)
-                            {
-                                if (item.Tax4506s == null)
-                                {
-                                    item.Tax4506s = new List<LenderApiContractsV1.LoanContractTax4506s>();
-                                }
-                                var isThere = item.Tax4506s.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    var newInstance = new LenderApiContractsV1.LoanContractTax4506s()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    item.Tax4506s.Add(newInstance);
-
-                                    UpdateInnerProperties(newInstance, middle);
-
-                                    var propertyInfo = newInstance.GetType().GetProperty(right);
-                                    propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
-                                }
-                            }
-
-                        }
-                        break;
-
-                    default:
-                        //var xas = 1;
-                        break;
-                }
+                default:
+                    //var xas = 1;
+                    break;
             }
-            else
-            {
 
-            }
             _loanWasUpdated = true;
         }
 
@@ -1772,422 +1754,419 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
             propertyInfo.SetValue(owningObj, GetAPIValue(propertyInfo, value), null);
 
-            if (_loadV1)
+            // see if list object is there
+            var loanToUpdateProperty = _loanToUpdate.GetType().GetProperty(instanceType.Name);
+
+            //if (loanToUpdateProperty == null)
+            //{
+            //    var newInstance = Activator.CreateInstance(instanceType);
+            //    Type genericListType = typeof(List<>).MakeGenericType(instanceType);
+            //    var fee = (IList)Activator.CreateInstance(genericListType);
+            //    fee.Add(newInstance);
+            //    //_loanToUpdate.Applications = new List<typeof(ilistType)>();
+            //}
+
+            // This is what needs to get replaced
+            switch (className)
             {
-                // see if list object is there
-                var loanToUpdateProperty = _loanToUpdateV1.GetType().GetProperty(instanceType.Name);
-
-                //if (loanToUpdateProperty == null)
-                //{
-                //    var newInstance = Activator.CreateInstance(instanceType);
-                //    Type genericListType = typeof(List<>).MakeGenericType(instanceType);
-                //    var fee = (IList)Activator.CreateInstance(genericListType);
-                //    fee.Add(newInstance);
-                //    //_loanToUpdate.Applications = new List<typeof(ilistType)>();
-                //}
-
-                // This is what needs to get replaced
-                switch (className)
-                {
-                    case "LoanContractBorrower":
+                case "LoanContractBorrower":
+                    {
+                        var id = ((LenderApiContractsV1.LoanContractBorrower)owningObj).AltId;
+                        LenderApiContractsV1.LoanContractApplications appInstance;
+                        if (_loanToUpdate.Applications == null)
                         {
-                            var id = ((LenderApiContractsV1.LoanContractBorrower)owningObj).AltId;
-                            LenderApiContractsV1.LoanContractApplications appInstance;
-                            if (_loanToUpdateV1.Applications == null)
-                            {
-                                _loanToUpdateV1.Applications = new List<LenderApiContractsV1.LoanContractApplications>();
-                            }
-                            var isThere = _loanToUpdateV1.Applications.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                appInstance = new LenderApiContractsV1.LoanContractApplications()
-                                {
-                                    Id = id
-                                };
-                                _loanToUpdateV1.Applications.Add(appInstance);
-
-                                // Need to figure out which property to add
-                                if (appInstance.Borrower == null)
-                                {
-                                    var newinstance = new LenderApiContractsV1.LoanContractBorrower()
-                                    {
-                                        AltId = id.ToString(),
-                                    };
-
-                                    if (right.ToUpper().Contains("COBORROWER"))
-                                    {
-                                        appInstance.Coborrower = newinstance;
-                                    }
-                                    else
-                                    {
-                                        appInstance.Borrower = newinstance;
-                                    }
-                                    instance = appInstance;
-                                }
-                            }
-                            else
-                                instance = isThere;
-
-                            _loanWasUpdated = true;
-                            break;
+                            _loanToUpdate.Applications = new List<LenderApiContractsV1.LoanContractApplications>();
                         }
-
-                    case "LoanContractApplications":
+                        var isThere = _loanToUpdate.Applications.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
                         {
-                            var newObject = (LenderApiContractsV1.LoanContractApplications)owningObj;
-                            var id = ((LenderApiContractsV1.LoanContractApplications)owningObj).ApplicationId;
-                            if (_loanToUpdateV1.Applications == null)
+                            appInstance = new LenderApiContractsV1.LoanContractApplications()
                             {
-                                _loanToUpdateV1.Applications = new List<LenderApiContractsV1.LoanContractApplications>();
-                            }
-                            var isThere = _loanToUpdateV1.Applications.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                instance = new LenderApiContractsV1.LoanContractApplications()
-                                {
-                                    Id = id
-                                };
-                                _loanToUpdateV1.Applications.Add((LenderApiContractsV1.LoanContractApplications)instance);
-                            }
-                            break;
-                        }
+                                Id = id
+                            };
+                            _loanToUpdate.Applications.Add(appInstance);
 
-                    case "LoanContractLoanProductDataBuydowns":
-                        {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.LoanProductData == null)
+                            // Need to figure out which property to add
+                            if (appInstance.Borrower == null)
                             {
-                                _loanToUpdateV1.LoanProductData = new LenderApiContractsV1.LoanContractLoanProductData();
-                                _loanToUpdateV1.LoanProductData.Buydowns = new List<LenderApiContractsV1.LoanContractLoanProductDataBuydowns>();
-                                instance = new LenderApiContractsV1.LoanContractLoanProductDataBuydowns()
+                                var newinstance = new LenderApiContractsV1.LoanContractBorrower()
                                 {
-                                    Id = instanceId.ToString(),
-                                    BuydownIndex = Convert.ToInt32(indexLevel) + 1
+                                    AltId = id.ToString(),
                                 };
-                                _loanToUpdateV1.LoanProductData.Buydowns.Add((LenderApiContractsV1.LoanContractLoanProductDataBuydowns)instance);
-                            }
-                            else
-                            {
-                                var isThere = _loanToUpdateV1.LoanProductData.Buydowns.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
+
+                                if (right.ToUpper().Contains("COBORROWER"))
                                 {
-                                    instance = new LenderApiContractsV1.LoanContractLoanProductDataBuydowns()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.LoanProductData.Buydowns.Add((LenderApiContractsV1.LoanContractLoanProductDataBuydowns)instance);
+                                    appInstance.Coborrower = newinstance;
                                 }
                                 else
                                 {
-                                    instance = isThere;
+                                    appInstance.Borrower = newinstance;
                                 }
+                                instance = appInstance;
                             }
-                            _loanWasUpdated = true;
-                            break;
                         }
+                        else
+                            instance = isThere;
 
-                    case "LoanContractLoanProductDataHelocRepaymentDrawPeriods":
+                        _loanWasUpdated = true;
+                        break;
+                    }
+
+                case "LoanContractApplications":
+                    {
+                        var newObject = (LenderApiContractsV1.LoanContractApplications)owningObj;
+                        var id = ((LenderApiContractsV1.LoanContractApplications)owningObj).ApplicationId;
+                        if (_loanToUpdate.Applications == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.LoanProductData == null)
+                            _loanToUpdate.Applications = new List<LenderApiContractsV1.LoanContractApplications>();
+                        }
+                        var isThere = _loanToUpdate.Applications.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            instance = new LenderApiContractsV1.LoanContractApplications()
                             {
-                                _loanToUpdateV1.LoanProductData = new LenderApiContractsV1.LoanContractLoanProductData();
-                                _loanToUpdateV1.LoanProductData.HelocRepaymentDrawPeriods = new List<LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods>();
+                                Id = id
+                            };
+                            _loanToUpdate.Applications.Add((LenderApiContractsV1.LoanContractApplications)instance);
+                        }
+                        break;
+                    }
+
+                case "LoanContractLoanProductDataBuydowns":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.LoanProductData == null)
+                        {
+                            _loanToUpdate.LoanProductData = new LenderApiContractsV1.LoanContractLoanProductData();
+                            _loanToUpdate.LoanProductData.Buydowns = new List<LenderApiContractsV1.LoanContractLoanProductDataBuydowns>();
+                            instance = new LenderApiContractsV1.LoanContractLoanProductDataBuydowns()
+                            {
+                                Id = instanceId.ToString(),
+                                BuydownIndex = Convert.ToInt32(indexLevel) + 1
+                            };
+                            _loanToUpdate.LoanProductData.Buydowns.Add((LenderApiContractsV1.LoanContractLoanProductDataBuydowns)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.LoanProductData.Buydowns.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
+                                instance = new LenderApiContractsV1.LoanContractLoanProductDataBuydowns()
+                                {
+                                    Id = instanceId.ToString()
+                                };
+                                _loanToUpdate.LoanProductData.Buydowns.Add((LenderApiContractsV1.LoanContractLoanProductDataBuydowns)instance);
+                            }
+                            else
+                            {
+                                instance = isThere;
+                            }
+                        }
+                        _loanWasUpdated = true;
+                        break;
+                    }
+
+                case "LoanContractLoanProductDataHelocRepaymentDrawPeriods":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.LoanProductData == null)
+                        {
+                            _loanToUpdate.LoanProductData = new LenderApiContractsV1.LoanContractLoanProductData();
+                            _loanToUpdate.LoanProductData.HelocRepaymentDrawPeriods = new List<LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods>();
+                            instance = new LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods()
+                            {
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.LoanProductData.HelocRepaymentDrawPeriods.Add((LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.LoanProductData.HelocRepaymentDrawPeriods.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.LoanProductData.HelocRepaymentDrawPeriods.Add((LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods)instance);
+                                _loanToUpdate.LoanProductData.HelocRepaymentDrawPeriods.Add((LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.LoanProductData.HelocRepaymentDrawPeriods.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.LoanProductData.HelocRepaymentDrawPeriods.Add((LenderApiContractsV1.LoanContractLoanProductDataHelocRepaymentDrawPeriods)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
+                                instance = isThere;
                             }
-                            _loanWasUpdated = true;
-                            break;
                         }
+                        _loanWasUpdated = true;
+                        break;
+                    }
 
-                    case "LoanContractRateLockPurchaseAdvicePayouts":
+                case "LoanContractRateLockPurchaseAdvicePayouts":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.RateLock == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.RateLock == null)
+                            _loanToUpdate.RateLock = new LenderApiContractsV1.LoanContractRateLock();
+                            _loanToUpdate.RateLock.PurchaseAdvicePayouts = new List<LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts>();
+                            instance = new LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts()
                             {
-                                _loanToUpdateV1.RateLock = new LenderApiContractsV1.LoanContractRateLock();
-                                _loanToUpdateV1.RateLock.PurchaseAdvicePayouts = new List<LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.RateLock.PurchaseAdvicePayouts.Add((LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.RateLock.PurchaseAdvicePayouts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.RateLock.PurchaseAdvicePayouts.Add((LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts)instance);
+                                _loanToUpdate.RateLock.PurchaseAdvicePayouts.Add((LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.RateLock.PurchaseAdvicePayouts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.RateLock.PurchaseAdvicePayouts.Add((LenderApiContractsV1.LoanContractRateLockPurchaseAdvicePayouts)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
-
+                                instance = isThere;
                             }
-                            _loanWasUpdated = true;
-                        }
-                        break;
 
-                    case "LoanContractRateLockLockRequestBorrowers":
+                        }
+                        _loanWasUpdated = true;
+                    }
+                    break;
+
+                case "LoanContractRateLockLockRequestBorrowers":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.RateLock == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.RateLock == null)
+                            _loanToUpdate.RateLock = new LenderApiContractsV1.LoanContractRateLock();
+                            _loanToUpdate.RateLock.LockRequestBorrowers = new List<LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers>();
+                            instance = new LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers()
                             {
-                                _loanToUpdateV1.RateLock = new LenderApiContractsV1.LoanContractRateLock();
-                                _loanToUpdateV1.RateLock.LockRequestBorrowers = new List<LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.RateLock.LockRequestBorrowers.Add((LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.RateLock.PurchaseAdvicePayouts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.RateLock.LockRequestBorrowers.Add((LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers)instance);
+                                _loanToUpdate.RateLock.LockRequestBorrowers.Add((LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.RateLock.PurchaseAdvicePayouts.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.RateLock.LockRequestBorrowers.Add((LenderApiContractsV1.LoanContractRateLockLockRequestBorrowers)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
-
+                                instance = isThere;
                             }
-                            _loanWasUpdated = true;
 
                         }
-                        break;
-                    case "LoanContractPurchaseCredits":
+                        _loanWasUpdated = true;
+
+                    }
+                    break;
+                case "LoanContractPurchaseCredits":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.PurchaseCredits == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.PurchaseCredits == null)
+                            _loanToUpdate.PurchaseCredits = new List<LenderApiContractsV1.LoanContractPurchaseCredits>();
+                            instance = new LenderApiContractsV1.LoanContractPurchaseCredits()
                             {
-                                _loanToUpdateV1.PurchaseCredits = new List<LenderApiContractsV1.LoanContractPurchaseCredits>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.PurchaseCredits.Add((LenderApiContractsV1.LoanContractPurchaseCredits)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.PurchaseCredits.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractPurchaseCredits()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.PurchaseCredits.Add((LenderApiContractsV1.LoanContractPurchaseCredits)instance);
+                                _loanToUpdate.PurchaseCredits.Add((LenderApiContractsV1.LoanContractPurchaseCredits)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.PurchaseCredits.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractPurchaseCredits()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.PurchaseCredits.Add((LenderApiContractsV1.LoanContractPurchaseCredits)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
+                                instance = isThere;
                             }
-                            _loanWasUpdated = true;
                         }
-                        break;
+                        _loanWasUpdated = true;
+                    }
+                    break;
 
-                    case "LoanContractSettlementServiceCharges":
+                case "LoanContractSettlementServiceCharges":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.SettlementServiceCharges == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.SettlementServiceCharges == null)
+                            _loanToUpdate.SettlementServiceCharges = new List<LenderApiContractsV1.LoanContractSettlementServiceCharges>();
+                            instance = new LenderApiContractsV1.LoanContractSettlementServiceCharges()
                             {
-                                _loanToUpdateV1.SettlementServiceCharges = new List<LenderApiContractsV1.LoanContractSettlementServiceCharges>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.SettlementServiceCharges.Add((LenderApiContractsV1.LoanContractSettlementServiceCharges)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.SettlementServiceCharges.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractSettlementServiceCharges()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.SettlementServiceCharges.Add((LenderApiContractsV1.LoanContractSettlementServiceCharges)instance);
+                                _loanToUpdate.SettlementServiceCharges.Add((LenderApiContractsV1.LoanContractSettlementServiceCharges)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.SettlementServiceCharges.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractSettlementServiceCharges()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.SettlementServiceCharges.Add((LenderApiContractsV1.LoanContractSettlementServiceCharges)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
+                                instance = isThere;
                             }
-                            _loanWasUpdated = true;
                         }
-                        break;
+                        _loanWasUpdated = true;
+                    }
+                    break;
 
-                    case "LoanContractStateDisclosureNewYorkPrimaryLenders":
+                case "LoanContractStateDisclosureNewYorkPrimaryLenders":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.StateDisclosure == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.StateDisclosure == null)
+                            _loanToUpdate.StateDisclosure = new LenderApiContractsV1.LoanContractStateDisclosure();
+                            _loanToUpdate.StateDisclosure.NewYorkPrimaryLenders = new List<LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders>();
+                            instance = new LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders()
                             {
-                                _loanToUpdateV1.StateDisclosure = new LenderApiContractsV1.LoanContractStateDisclosure();
-                                _loanToUpdateV1.StateDisclosure.NewYorkPrimaryLenders = new List<LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.StateDisclosure.NewYorkPrimaryLenders.Add((LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.StateDisclosure.NewYorkPrimaryLenders.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.StateDisclosure.NewYorkPrimaryLenders.Add((LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders)instance);
+                                _loanToUpdate.StateDisclosure.NewYorkPrimaryLenders.Add((LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.StateDisclosure.NewYorkPrimaryLenders.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.StateDisclosure.NewYorkPrimaryLenders.Add((LenderApiContractsV1.LoanContractStateDisclosureNewYorkPrimaryLenders)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
+                                instance = isThere;
                             }
-                            _loanWasUpdated = true;
                         }
-                        break;
+                        _loanWasUpdated = true;
+                    }
+                    break;
 
-                    case "LoanContractClosingDocumentAntiSteeringLoanOptions":
+                case "LoanContractClosingDocumentAntiSteeringLoanOptions":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.ClosingDocument == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.ClosingDocument == null)
+                            _loanToUpdate.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
+                            _loanToUpdate.ClosingDocument.AntiSteeringLoanOptions = new List<LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions>();
+                            instance = new LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions()
                             {
-                                _loanToUpdateV1.ClosingDocument = new LenderApiContractsV1.LoanContractClosingDocument();
-                                _loanToUpdateV1.ClosingDocument.AntiSteeringLoanOptions = new List<LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.ClosingDocument.AntiSteeringLoanOptions.Add((LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.ClosingDocument.AntiSteeringLoanOptions.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.ClosingDocument.AntiSteeringLoanOptions.Add((LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions)instance);
+                                _loanToUpdate.ClosingDocument.AntiSteeringLoanOptions.Add((LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.ClosingDocument.AntiSteeringLoanOptions.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.ClosingDocument.AntiSteeringLoanOptions.Add((LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
+                                instance = isThere;
                             }
-                            _loanWasUpdated = true;
-
                         }
-                        break;
-                    case "LoanContractFhaVaLoanEnergyEfficientMortgageItems":
+                        _loanWasUpdated = true;
+
+                    }
+                    break;
+                case "LoanContractFhaVaLoanEnergyEfficientMortgageItems":
+                    {
+                        var indexLevel = instanceId.ToString().Split('/')[1];
+                        if (_loanToUpdate.FhaVaLoan == null)
                         {
-                            var indexLevel = instanceId.ToString().Split('/')[1];
-                            if (_loanToUpdateV1.FhaVaLoan == null)
+                            _loanToUpdate.FhaVaLoan = new LenderApiContractsV1.LoanContractFhaVaLoan();
+                            _loanToUpdate.FhaVaLoan.EnergyEfficientMortgageItems = new List<LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems>();
+                            instance = new LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems()
                             {
-                                _loanToUpdateV1.FhaVaLoan = new LenderApiContractsV1.LoanContractFhaVaLoan();
-                                _loanToUpdateV1.FhaVaLoan.EnergyEfficientMortgageItems = new List<LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems>();
+                                Id = instanceId.ToString()
+                            };
+                            _loanToUpdate.FhaVaLoan.EnergyEfficientMortgageItems.Add((LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems)instance);
+                        }
+                        else
+                        {
+                            var isThere = _loanToUpdate.FhaVaLoan.EnergyEfficientMortgageItems.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
+                            if (isThere == null)
+                            {
                                 instance = new LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems()
                                 {
                                     Id = instanceId.ToString()
                                 };
-                                _loanToUpdateV1.FhaVaLoan.EnergyEfficientMortgageItems.Add((LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems)instance);
+                                _loanToUpdate.FhaVaLoan.EnergyEfficientMortgageItems.Add((LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems)instance);
                             }
                             else
                             {
-                                var isThere = _loanToUpdateV1.FhaVaLoan.EnergyEfficientMortgageItems.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
-                                if (isThere == null)
-                                {
-                                    instance = new LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems()
-                                    {
-                                        Id = instanceId.ToString()
-                                    };
-                                    _loanToUpdateV1.FhaVaLoan.EnergyEfficientMortgageItems.Add((LenderApiContractsV1.LoanContractFhaVaLoanEnergyEfficientMortgageItems)instance);
-                                }
-                                else
-                                {
-                                    instance = isThere;
-                                }
-                            }
-                            _loanWasUpdated = true;
-
-                        }
-                        break;
-
-
-                    case "LoanContractHud1EsHud1EsDates":
-                        {
-                            var id = ((LenderApiContractsV1.LoanContractHud1EsHud1EsDates)owningObj).Id;
-                            if (_loanToUpdateV1.Hud1Es == null)
-                            {
-                                _loanToUpdateV1.Hud1Es = new LenderApiContractsV1.LoanContractHud1Es();
-                            }
-                            if (_loanToUpdateV1.Hud1Es.Hud1EsDates == null)
-                            {
-                                _loanToUpdateV1.Hud1Es.Hud1EsDates = new List<LenderApiContractsV1.LoanContractHud1EsHud1EsDates>();
-                            }
-                            var isThere = _loanToUpdateV1.Hud1Es.Hud1EsDates.Where(t => t.Id == id.ToString()).FirstOrDefault();
-                            if (isThere == null)
-                            {
-                                instance = new LenderApiContractsV1.LoanContractHud1EsHud1EsDates()
-                                {
-                                    Id = id.ToString()
-                                };
-                                _loanToUpdateV1.Hud1Es.Hud1EsDates.Add((LenderApiContractsV1.LoanContractHud1EsHud1EsDates)instance);
-                            }
-                            else
                                 instance = isThere;
-
-                            _loanWasUpdated = true;
-                            break;
+                            }
                         }
+                        _loanWasUpdated = true;
+
+                    }
+                    break;
 
 
-                    default:
-                        System.Diagnostics.Debug.WriteLine(className);
-                        System.Diagnostics.Debug.WriteLine("HERE");
+                case "LoanContractHud1EsHud1EsDates":
+                    {
+                        var id = ((LenderApiContractsV1.LoanContractHud1EsHud1EsDates)owningObj).Id;
+                        if (_loanToUpdate.Hud1Es == null)
+                        {
+                            _loanToUpdate.Hud1Es = new LenderApiContractsV1.LoanContractHud1Es();
+                        }
+                        if (_loanToUpdate.Hud1Es.Hud1EsDates == null)
+                        {
+                            _loanToUpdate.Hud1Es.Hud1EsDates = new List<LenderApiContractsV1.LoanContractHud1EsHud1EsDates>();
+                        }
+                        var isThere = _loanToUpdate.Hud1Es.Hud1EsDates.Where(t => t.Id == id.ToString()).FirstOrDefault();
+                        if (isThere == null)
+                        {
+                            instance = new LenderApiContractsV1.LoanContractHud1EsHud1EsDates()
+                            {
+                                Id = id.ToString()
+                            };
+                            _loanToUpdate.Hud1Es.Hud1EsDates.Add((LenderApiContractsV1.LoanContractHud1EsHud1EsDates)instance);
+                        }
+                        else
+                            instance = isThere;
+
+                        _loanWasUpdated = true;
                         break;
+                    }
 
-                }
+
+                default:
+                    System.Diagnostics.Debug.WriteLine(className);
+                    System.Diagnostics.Debug.WriteLine("HERE");
+                    break;
 
             }
+
             // Now work with a new application on loanToUpdate
             if (propertyCount == 0)
             {
@@ -2243,12 +2222,8 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
         private void SetPropertyValue(string propertyName, object value)
         {
-            object owningObj;
-            if (_loadV1)
-                owningObj = _loanV1;
-            else
-                owningObj = _loanV3;
 
+            object owningObj = _loan;
             var properties = propertyName.Split('.').ToList();
 
             var propertyCount = properties.Count() - 1;
@@ -2271,26 +2246,14 @@ namespace ICE.SDKtoAPI.SupportingClasses
             if (propertyCount == 0)
             {
                 //propertyInfo.SetValue(_loanToUpdate, Convert.ChangeType(value, propertyInfo.PropertyType), null);
-                if (_loadV1)
-                    propertyInfo.SetValue(_loanToUpdateV1, newType, null);
-                else
-                    propertyInfo.SetValue(_loanToUpdateV3, newType, null);
+                propertyInfo.SetValue(_loanToUpdate, newType, null);
                 _loanWasUpdated = true;
             }
             else
             {
                 // check to see if the main object being added is already in the updatedLoan schema
-                object nextObj;
-                if (_loadV1)
-                {
-                    owningObj = _loanToUpdateV1;
-                    nextObj = _loanToUpdateV1;
-                }
-                else
-                {
-                    owningObj = _loanToUpdateV3;
-                    nextObj = _loanToUpdateV3;
-                }
+                owningObj = _loanToUpdate;
+                object nextObj = _loanToUpdate;
 
                 // Walk through the properties (less last one) to get object information
                 for (int i = 0; i < propertyCount; i++)
@@ -2316,11 +2279,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     }
                 }
 
-                if (_loadV1)
-                    owningObj = _loanToUpdateV1;
-                else
-                    owningObj = _loanToUpdateV3;
-
+                owningObj = _loanToUpdate;
                 for (int i = 0; i < propertyCount; i++)
                 {
                     owningObj = owningObj.GetType().GetProperty(properties[i]).GetValue(owningObj);
@@ -2345,7 +2304,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
             var foundField = CustomFieldExists(name);  // see if in the original loan pulled from Encompass
 
-            if (foundField != null)  
+            if (foundField != null)
             {
                 // Field is already in loan so just update the current value
                 if (foundField.DateValue != null)
@@ -2379,10 +2338,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                         {
                             foundField.Id = foundField.FieldName;
                         }
-                        if (_loadV1)
-                            _loanToUpdateV1.CustomFields.Add(foundField);
-                        //else
-                            //_loanToUpdateV3.CustomFields.Add(foundField);  // THIS needs to be converted
+                        _loanToUpdate.CustomFields.Add(foundField);
                     }
                     else
                     {
@@ -2393,12 +2349,12 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     _loanWasUpdated = true;
                 }
             }
-            else  
+            else
             {
                 if (_loadV3)
                 { }
                 else
-                { 
+                {
                     // Field is NOT in the loan that was loaded so we need to look in
                     // loan META and get that definition and use it only in the _loanUpdated contract
                     //var temp = _loanToUpdate.CustomFields;
@@ -2415,17 +2371,17 @@ namespace ICE.SDKtoAPI.SupportingClasses
                             FieldName = newFoundField.Id,
                             StringValue = value
                         };
-                        _loanV1.CustomFields.Add(add);
+                        _loan.CustomFields.Add(add);
 
                         // double checking to make sure it is not there before adding
 
-                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdateV1.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
+                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdate.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
                         foreach (var item in items)
-                            _loanToUpdateV1.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
+                            _loanToUpdate.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
 
 
                         //add.Id = null;  // let the system create the field with proper ID
-                        _loanToUpdateV1.CustomFields.Add(add);
+                        _loanToUpdate.CustomFields.Add(add);
 
                         _loanWasUpdated = true;
                     }
@@ -2455,7 +2411,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
                     if (_loadV3) { }
                     else
-                        _loanToUpdateV1.CustomFields.Add(foundField);
+                        _loanToUpdate.CustomFields.Add(foundField);
                 }
                 else
                 {
@@ -2480,17 +2436,17 @@ namespace ICE.SDKtoAPI.SupportingClasses
                             NumericValue = value,
                             StringValue = value.ToString()
                         };
-                        _loanV1.CustomFields.Add(add);
+                        _loan.CustomFields.Add(add);
 
                         // double checking to make sure it is not there before adding
 
-                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdateV1.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
+                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdate.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
                         foreach (var item in items)
-                            _loanToUpdateV1.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
+                            _loanToUpdate.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
 
 
                         //add.Id = null;
-                        _loanToUpdateV1.CustomFields.Add(add);
+                        _loanToUpdate.CustomFields.Add(add);
 
                         _loanWasUpdated = true;
                     }
@@ -2524,7 +2480,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
                     if (_loadV3) { }
                     else
-                        _loanToUpdateV1.CustomFields.Add(foundField);
+                        _loanToUpdate.CustomFields.Add(foundField);
                 }
                 else
                 {
@@ -2552,17 +2508,17 @@ namespace ICE.SDKtoAPI.SupportingClasses
                             NumericValue = value,
                             StringValue = value.ToString()
                         };
-                        _loanV1.CustomFields.Add(add);
+                        _loan.CustomFields.Add(add);
 
                         // double checking to make sure it is not there before adding
 
-                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdateV1.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
+                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdate.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
                         foreach (var item in items)
-                            _loanToUpdateV1.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
+                            _loanToUpdate.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
 
 
                         //                    add.Id = null;  // let the system create the field with proper ID
-                        _loanToUpdateV1.CustomFields.Add(add);
+                        _loanToUpdate.CustomFields.Add(add);
 
                         _loanWasUpdated = true;
                     }
@@ -2589,7 +2545,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                         foundField.Id = foundField.FieldName;
                     }
 
-                    _loanToUpdateV1.CustomFields.Add(foundField);
+                    _loanToUpdate.CustomFields.Add(foundField);
                 }
                 else
                 {
@@ -2615,16 +2571,16 @@ namespace ICE.SDKtoAPI.SupportingClasses
                             FieldName = name.ToUpper(),
                             DateValue = value
                         };
-                        _loanV1.CustomFields.Add(add);
+                        _loan.CustomFields.Add(add);
 
                         // double checking to make sure it is not there before adding
 
-                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdateV1.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
+                        List<LenderApiContractsV1.LoanContractCustomFields> items = _loanToUpdate.CustomFields.FindAll(t => t.FieldName.ToUpper() == newFoundField.Id.ToUpper());
                         foreach (var item in items)
-                            _loanToUpdateV1.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
+                            _loanToUpdate.CustomFields.Remove(item);   // _loanToUpdate.CustomFields.RemoveAll(items);  Can't get this to work
 
                         //                    add.Id = null;  // let the system create the field with proper ID
-                        _loanToUpdateV1.CustomFields.Add(add);
+                        _loanToUpdate.CustomFields.Add(add);
 
                         _loanWasUpdated = true;
                     }
@@ -2642,7 +2598,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
         }
         public LenderApiContractsV1.LoanContractCustomFields CustomFieldExists(string id)
         {
-            var value = _loanV1.CustomFields.Where(t => t.FieldName.Trim().ToUpper() == id.Trim().ToUpper()).FirstOrDefault();
+            var value = _loan.CustomFields.Where(t => t.FieldName.Trim().ToUpper() == id.Trim().ToUpper()).FirstOrDefault();
             return value;
         }
         public LenderApiContractsV3.CustomFieldContract CustomFieldV3Exists(string id)
@@ -2652,7 +2608,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
         }
         public LenderApiContractsV1.LoanContractCustomFields UpdateCustomFieldsExist(string name)
         {
-            var value = _loanToUpdateV1.CustomFields.Where(t => t.FieldName.Trim().ToUpper() == name.Trim().ToUpper()).FirstOrDefault();
+            var value = _loanToUpdate.CustomFields.Where(t => t.FieldName.Trim().ToUpper() == name.Trim().ToUpper()).FirstOrDefault();
             return value;
         }
         public bool CustomFieldDefined(string id)
@@ -2674,9 +2630,9 @@ namespace ICE.SDKtoAPI.SupportingClasses
             }
             else
             {
-                if (_loanToUpdateV1.CustomFields == null)                                   // THIS IS FOR UPDATE
+                if (_loanToUpdate.CustomFields == null)                                   // THIS IS FOR UPDATE
                 {
-                    _loanToUpdateV1.CustomFields = new List<LenderApiContractsV1.LoanContractCustomFields>();    // THIS IS FOR UPDATE
+                    _loanToUpdate.CustomFields = new List<LenderApiContractsV1.LoanContractCustomFields>();    // THIS IS FOR UPDATE
                 }
             }
         }
@@ -2684,17 +2640,17 @@ namespace ICE.SDKtoAPI.SupportingClasses
         {
             _customFields = GetCustomFields().Result;
         }
-        
+
         //public string MainField(string id)
         //{
         //    return MainField<string>(id);
         //}
         public T MainField<T>(string id)
         {
-            //if (id.StartsWith("CX.TQLGS"))
-            //{
-               // var stopHere = true;
-            //}
+            if (id.StartsWith("CX.TQLGS"))
+            {
+                // var stopHere = true;
+            }
 
             _lastCallId = id;
             var tempId = id;
@@ -2722,7 +2678,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                 //}
                 //else
                 //{
-                    return ProcessObject<T>(item.Meta, id);   //return ProcessObject<T>(item, id);
+                return ProcessObject<T>(item.Meta, id);   //return ProcessObject<T>(item, id);
                 //}
             }
             else if (_dynamicFields.Count > 0)
@@ -2771,7 +2727,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
         public void LoadVirtualFields()
         {
-            var fields = (JObject)_loanV1.VirtualFields;
+            var fields = (JObject)_loan.VirtualFields;
             foreach (var property in fields.Properties())
             {
                 if (!_virtualFields.ContainsKey(property.Name))
@@ -2824,16 +2780,16 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     return (T)(object)foundField.StringValue;
                 } // if not,now see if it is in the meta 
                 else
-//                {
-//                    var tempt = _customFields.Where(t => t.Id.ToUpper() == name.ToUpper());
+                    //                {
+                    //                    var tempt = _customFields.Where(t => t.Id.ToUpper() == name.ToUpper());
                     return default(T);
-//                }
+                //                }
             }
         }
-//        private T ProcessObject<T>(APISchema schema, string id = "")
-//        {
-//            return ProcessObject<T>(schema.Meta, id);
-//        }
+        //        private T ProcessObject<T>(APISchema schema, string id = "")
+        //        {
+        //            return ProcessObject<T>(schema.Meta, id);
+        //        }
         private T ProcessObject<T>(string item, string id = "")
         {
             var tempItem = item;
@@ -2872,7 +2828,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     {
                         //    q = _loan.GetType().GetProperty("Applications");
                         //    qq = q.GetValue(_loan);
-                        property = (IList)_loanV1.GetType().GetProperty(left).GetValue(_loanV1);
+                        property = (IList)_loan.GetType().GetProperty(left).GetValue(_loan);
                     }
 
                     if (property.Count > bracketIndex)
@@ -2900,7 +2856,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     if (_loadV3)
                         return ProcessList<T>(_loanV3, tempItem, innerIndex);
                     else
-                        return ProcessList<T>(_loanV1, tempItem, innerIndex);
+                        return ProcessList<T>(_loan, tempItem, innerIndex);
                 }
                 else
                 {
@@ -2911,7 +2867,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     }
                     else
                     {
-                        var retValue = GetPropertyValue<T>(_loanV1, tempItem, id);
+                        var retValue = GetPropertyValue<T>(_loan, tempItem, id);
                         return retValue;
                     }
                 }
@@ -3083,13 +3039,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
         {
             try
             {
-                object obj;
-
-                if (_loadV1)
-                    obj = _loanV1;
-                else
-                    obj = _loanV3;
-
+                object obj = _loan;
                 foreach (var prop in propertyName.Split('.').Select(s => obj.GetType().GetProperty(s)))
                 {
                     if (prop != null)
@@ -3250,7 +3200,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     _loanToUpdateV3.Applications = new List<LenderApiContractsV3.ApplicationContract>();
                 }
 
-                var item = _loanToUpdateV3.Applications.Where(t => t.Id == id).FirstOrDefault();
+                var item = _loanToUpdate.Applications.Where(t => t.Id == id).FirstOrDefault();
                 if (item == null)
                 {
                     _loanToUpdateV3.Applications.Add(new LenderApiContractsV3.ApplicationContract()
@@ -3261,15 +3211,15 @@ namespace ICE.SDKtoAPI.SupportingClasses
             }
             else
             {
-                if (_loanToUpdateV1.Applications == null)
+                if (_loanToUpdate.Applications == null)
                 {
-                    _loanToUpdateV1.Applications = new List<LenderApiContractsV1.LoanContractApplications>();
+                    _loanToUpdate.Applications = new List<LenderApiContractsV1.LoanContractApplications>();
                 }
 
-                var item = _loanToUpdateV1.Applications.Where(t => t.Id == id).FirstOrDefault();
+                var item = _loanToUpdate.Applications.Where(t => t.Id == id).FirstOrDefault();
                 if (item == null)
                 {
-                    _loanToUpdateV1.Applications.Add(new LenderApiContractsV1.LoanContractApplications()
+                    _loanToUpdate.Applications.Add(new LenderApiContractsV1.LoanContractApplications()
                     {
                         Id = id
                     });
