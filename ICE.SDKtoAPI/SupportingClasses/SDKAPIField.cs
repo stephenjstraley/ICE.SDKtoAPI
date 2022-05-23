@@ -17,6 +17,145 @@ using ICE.SDKtoAPI.Providers;
 
 namespace ICE.SDKtoAPI.SupportingClasses
 {
+    public static class SDKAPIFieldSupport
+    {
+        public static bool ParseDictionary(string content,
+                                           Dictionary<string, APISchema> fields,
+                                           Dictionary<string, APISchema> dynamicFields)
+        {
+            bool retValue = true;
+
+            string[] file = content.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+            var currentId = string.Empty;
+
+            foreach (var line in file)
+            {
+                System.Diagnostics.Debug.WriteLine(line);
+
+                try
+                {
+                    if (!string.IsNullOrEmpty(line) && line?.Trim().Length > 10)
+                    {
+                        if (!line.StartsWith("#"))
+                        {
+                            var item = line.Split('~');
+
+                            currentId = item[0];
+
+                            //APISchema schema = new APISchema
+                            //{
+                            //    Key = item[0],
+                            //    Meta = item[1],
+                            //    ReadOnly = Convert.ToBoolean(item[2]),
+                            //    Type = item[3],
+                            //    Nullable = Convert.ToBoolean(item[4]),
+                            //    Description = item[5],
+                            //    LockedField = Convert.ToBoolean(item[6]),
+                            //    ENum = item[7]
+                            //};
+
+                            APISchema schema = new APISchema();
+                            schema.Key = item[0];
+                            schema.Meta = item[1];
+                            schema.ReadOnly = Convert.ToBoolean(item[2]);
+                            schema.Type = item[3];
+                            schema.Nullable = Convert.ToBoolean(item[4]);
+                            schema.Description = item[5];
+                            schema.LockedField = Convert.ToBoolean(item[6]);
+                            schema.ENum = item[7];
+
+
+                            if (item.Count() == 9)
+                                schema.Format = item[8];
+
+                            if (schema.Meta.Contains("Applications{current}"))  // Add the #'s
+                            {
+                                for (int x = 1; x < 5; x++)
+                                {
+                                    APISchema poundSchema = new APISchema()
+                                    {
+                                        Key = schema.Key + $"#{x}",
+                                        Meta = schema.Meta,
+                                        ReadOnly = schema.ReadOnly,
+                                        Type = schema.Type,
+                                        Nullable = schema.Nullable,
+                                        Description = schema.Description,
+                                        LockedField = schema.LockedField,
+                                        ENum = schema.ENum,
+                                        Format = schema.Format
+                                    };
+
+                                    Add(poundSchema);
+                                }
+
+                            }
+
+                            if (line.StartsWith("^"))
+                            {
+                                // Replicate these lines 4 times for dictionary
+                                var parts = line.Substring(1).Split(')');
+                                // there should be 3 parts
+                                var first = parts[0].Replace("(", "");
+                                var end = parts[2].Replace("(", "").Replace("$", "");
+                                for (int x = 0; x < 4; x++)
+                                {
+                                    var newField = first + x.ToString().PadLeft(2, '0') + end;
+                                    // now fix the indexer in the old schema
+                                    var newMeta = schema.Meta.Replace("(X)", $"({x + 1})");
+                                    // now create new dictionary
+                                    var temp = new APISchema
+                                    {
+                                        Key = newField,
+                                        Meta = newMeta,
+                                        ReadOnly = schema.ReadOnly,
+                                        Type = schema.Type,
+                                        Nullable = schema.Nullable,
+                                        Description = schema.Description,
+                                        LockedField = schema.LockedField,
+                                        ENum = schema.ENum,
+                                        Format = schema.Format
+                                    };
+                                    Add(temp);
+                                }
+                            }
+                            else
+                                Add(schema);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    retValue = false;
+                }
+
+            }
+
+            void Add(APISchema schema)
+            {
+                if (schema.Key.StartsWith("^"))
+                {
+                    if (!dynamicFields.ContainsKey(schema.Key))
+                        dynamicFields.Add(schema.Key, schema);
+                    else
+                        System.Diagnostics.Debug.WriteLine($"Dynamic Field skipped - already present {schema.Key}");
+                }
+                else
+                {
+                    if (!fields.ContainsKey(schema.Key))
+                        fields.Add(schema.Key, schema);
+                    else
+                    {
+                        System.Diagnostics.Debug.WriteLine($"Field skipped - already present {schema.Key}");
+                    }
+                }
+            }
+
+            return retValue;
+        }
+
+    }
+
+
     public class SDKAPIField
     {
         //        protected Dictionary<string, string> _fields = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase);
@@ -71,6 +210,8 @@ namespace ICE.SDKtoAPI.SupportingClasses
             //LoadDictionary();
 
         }
+
+        
         public void ClearLoan() => _loan = null;
         public void ClearPreviousUpdatedLoan()
         {
@@ -122,136 +263,130 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
             try
             {
-                string[] file = null;
+                //string[] file = null;
+                string file = null;
                 if (_loadV3)
-                    file = Properties.Resources.DictionaryFieldsV3.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+                    file = Properties.Resources.DictionaryFieldsV3; //.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
                 else
-                    file = Properties.Resources.DictionaryFieldsV1.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None); ;
+                    file = Properties.Resources.DictionaryFieldsV1; //.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None); ;
+
+                var parsed = SDKAPIFieldSupport.ParseDictionary(file, _fields, _dynamicFields);
 
 
-                foreach (var line in file)
-                {
-                    //                    System.Diagnostics.Debug.WriteLine($"Reading line: [{line}]");
-                    try
-                    {
-                        //                    #if DEBUG
-                        //                    System.Diagnostics.Debug.WriteLine(line);
-                        //                    #endif
+                //foreach (var line in file)
+                //{
+                //    //                    System.Diagnostics.Debug.WriteLine($"Reading line: [{line}]");
+                //    try
+                //    {
 
-                        //                    if (line.Contains("OPTIMAL.HISTORY"))
-                        //                    {
-                        //                        var stophere = true;
-                        //                    }
+                //        if (!string.IsNullOrEmpty(line) && line?.Trim().Length > 10)  // just in case
+                //        {
+                //            if (!line.StartsWith("#"))
+                //            {
+                //                var item = line.Split('~');
 
-                        if (!string.IsNullOrEmpty(line) && line?.Trim().Length > 10)  // just in case
-                        {
-                            if (!line.StartsWith("#"))
-                            {
-                                var item = line.Split('~');
+                //                currentId = item[0];
 
-                                currentId = item[0];
+                //                APISchema schema = new APISchema
+                //                {
+                //                    Key = item[0],
+                //                    Meta = item[1],
+                //                    ReadOnly = Convert.ToBoolean(item[2]),
+                //                    Type = item[3],
+                //                    Nullable = Convert.ToBoolean(item[4]),
+                //                    Description = item[5],
+                //                    LockedField = Convert.ToBoolean(item[6]),
+                //                    ENum = item[7]
+                //                };
+                //                if (item.Count() == 9)
+                //                    schema.Format = item[8];
 
-                                APISchema schema = new APISchema
-                                {
-                                    Key = item[0],
-                                    Meta = item[1],
-                                    ReadOnly = Convert.ToBoolean(item[2]),
-                                    Type = item[3],
-                                    Nullable = Convert.ToBoolean(item[4]),
-                                    Description = item[5],
-                                    LockedField = Convert.ToBoolean(item[6]),
-                                    ENum = item[7]
-                                };
-                                if (item.Count() == 9)
-                                    schema.Format = item[8];
+                //                if (schema.Meta.Contains("Applications{current}"))  // Add the #'s
+                //                {
+                //                    for (int x = 1; x < 5; x++)
+                //                    {
+                //                        APISchema poundSchema = new APISchema()
+                //                        {
+                //                            Key = schema.Key + $"#{x}",
+                //                            Meta = schema.Meta,
+                //                            ReadOnly = schema.ReadOnly,
+                //                            Type = schema.Type,
+                //                            Nullable = schema.Nullable,
+                //                            Description = schema.Description,
+                //                            LockedField = schema.LockedField,
+                //                            ENum = schema.ENum,
+                //                            Format = schema.Format
+                //                        };
 
-                                if (schema.Meta.Contains("Applications{current}"))  // Add the #'s
-                                {
-                                    for (int x = 1; x < 5; x++)
-                                    {
-                                        APISchema poundSchema = new APISchema()
-                                        {
-                                            Key = schema.Key + $"#{x}",
-                                            Meta = schema.Meta,
-                                            ReadOnly = schema.ReadOnly,
-                                            Type = schema.Type,
-                                            Nullable = schema.Nullable,
-                                            Description = schema.Description,
-                                            LockedField = schema.LockedField,
-                                            ENum = schema.ENum,
-                                            Format = schema.Format
-                                        };
+                //                        Add(poundSchema);
+                //                    }
+                //                }
 
-                                        Add(poundSchema);
-                                    }
+                //                // Now check to see if it is special
+                //                if (line.StartsWith("^"))
+                //                {
+                //                    // Replicate these lines 4 times for dictionary
+                //                    var parts = line.Substring(1).Split(')');
+                //                    // there should be 3 parts
+                //                    var first = parts[0].Replace("(", "");
+                //                    var end = parts[2].Replace("(", "").Replace("$", "");
+                //                    for (int x = 0; x < 4; x++)
+                //                    {
+                //                        var newField = first + x.ToString().PadLeft(2, '0') + end;
+                //                        // now fix the indexer in the old schema
+                //                        var newMeta = schema.Meta.Replace("(X)", $"({x + 1})");
+                //                        // now create new dictionary
+                //                        var temp = new APISchema
+                //                        {
+                //                            Key = newField,
+                //                            Meta = newMeta,
+                //                            ReadOnly = schema.ReadOnly,
+                //                            Type = schema.Type,
+                //                            Nullable = schema.Nullable,
+                //                            Description = schema.Description,
+                //                            LockedField = schema.LockedField,
+                //                            ENum = schema.ENum,
+                //                            Format = schema.Format
+                //                        };
+                //                        Add(temp);
+                //                    }
+                //                }
+                //                else
+                //                    Add(schema);
+                //            }
+                //        }
+                //    }
+                //    catch (Exception e)
+                //    {
+                //        _successfullyLoaded = false;
+                //        if (!string.IsNullOrEmpty(currentId))
+                //            System.Diagnostics.Debug.WriteLine($"Error Loading: [{currentId}] - {e.Message}");
+                //        else
+                //            System.Diagnostics.Debug.WriteLine($"Error reading ling: [{line}] - {e.Message}");
+                //        break;
+                //    }
+                //}
 
-                                }
-
-                                // Now check to see if it is special
-                                if (line.StartsWith("^"))
-                                {
-                                    // Replicate these lines 4 times for dictionary
-                                    var parts = line.Substring(1).Split(')');
-                                    // there should be 3 parts
-                                    var first = parts[0].Replace("(", "");
-                                    var end = parts[2].Replace("(", "").Replace("$", "");
-                                    for (int x = 0; x < 4; x++)
-                                    {
-                                        var newField = first + x.ToString().PadLeft(2, '0') + end;
-                                        // now fix the indexer in the old schema
-                                        var newMeta = schema.Meta.Replace("(X)", $"({x + 1})");
-                                        // now create new dictionary
-                                        var temp = new APISchema
-                                        {
-                                            Key = newField,
-                                            Meta = newMeta,
-                                            ReadOnly = schema.ReadOnly,
-                                            Type = schema.Type,
-                                            Nullable = schema.Nullable,
-                                            Description = schema.Description,
-                                            LockedField = schema.LockedField,
-                                            ENum = schema.ENum,
-                                            Format = schema.Format
-                                        };
-                                        Add(temp);
-                                    }
-                                }
-                                else
-                                    Add(schema);
-                            }
-                        }
-                    }
-                    catch (Exception e)
-                    {
-                        _successfullyLoaded = false;
-                        if (!string.IsNullOrEmpty(currentId))
-                            System.Diagnostics.Debug.WriteLine($"Error Loading: [{currentId}] - {e.Message}");
-                        else
-                            System.Diagnostics.Debug.WriteLine($"Error reading ling: [{line}] - {e.Message}");
-                        break;
-                    }
-                }
-
-                // now add custom fields to the dictionary
-                SetCustomFields();
-                foreach (var cField in _customFields)
-                {
-                    //                    if (cField.Id.StartsWith("CX")) // OUR custom fields
-                    //                    {
-                    APISchema schema = new APISchema
-                    {
-                        Key = cField.Id,
-                        Meta = cField.ModelPath,
-                        ReadOnly = false,
-                        Type = cField.Format,
-                        Nullable = false,
-                        Description = cField.Description,
-                        LockedField = false,
-                        ENum = ""
-                    };
-                    Add(schema);
-                    //                    }
-                }
+                //// now add custom fields to the dictionary
+                //SetCustomFields();
+                //foreach (var cField in _customFields)
+                //{
+                //    //                    if (cField.Id.StartsWith("CX")) // OUR custom fields
+                //    //                    {
+                //    APISchema schema = new APISchema
+                //    {
+                //        Key = cField.Id,
+                //        Meta = cField.ModelPath,
+                //        ReadOnly = false,
+                //        Type = cField.Format,
+                //        Nullable = false,
+                //        Description = cField.Description,
+                //        LockedField = false,
+                //        ENum = ""
+                //    };
+                //    Add(schema);
+                //    //                    }
+                //}
 
             }
             catch (Exception ex)

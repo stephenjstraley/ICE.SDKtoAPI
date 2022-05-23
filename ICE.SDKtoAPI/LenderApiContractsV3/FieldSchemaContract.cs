@@ -35,7 +35,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "multiInstance")]
         public bool MultiInstance { get; set; }
 
-        [DataMember(Name = "opertions")]
+        [DataMember(Name = "options")]
         public List<FieldSchemaOption> Options { get; set; }
 
         [DataMember(Name = "domainPath")]
