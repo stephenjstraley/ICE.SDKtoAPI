@@ -32,6 +32,12 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "ausRecommendation")]
         public string AusRecommendation { get; set; }
 
+        [DataMember(Name = "ausLogExtensionId")]
+        public string AusLogExtensionId { get; set; }
+
+        [DataMember(Name = "ausResponseFileName")]
+        public string AusResponseFileName { get; set; }
+
         [DataMember(Name = "duCaseIdorLpausKey")]
         public string DuCaseIdorLpausKey { get; set; }
 

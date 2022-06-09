@@ -19,6 +19,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 {
     public static class SDKAPIFieldSupport
     {
+        public static int _pairLimit = 10;
         public static bool ParseDictionary(string content,
                                            Dictionary<string, APISchema> fields,
                                            Dictionary<string, APISchema> dynamicFields)
@@ -70,7 +71,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
                             if (schema.Meta.Contains("Applications{current}"))  // Add the #'s
                             {
-                                for (int x = 1; x < 5; x++)
+                                for (int x = 1; x <= (_pairLimit - 1); x++)  // PAIRS
                                 {
                                     APISchema poundSchema = new APISchema()
                                     {

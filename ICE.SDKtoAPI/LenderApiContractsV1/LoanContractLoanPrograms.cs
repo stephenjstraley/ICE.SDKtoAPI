@@ -1,12 +1,12 @@
-using System;
 using System.Runtime.Serialization;
+
 namespace ICE.SDKtoAPI.LenderApiContractsV1
 {
 	[DataContract]
 	public class LoanContractLoanPrograms
 	{
 		[DataMember(Name="acquisition", EmitDefaultValue=false)]
-		public string Acquisition { get; set; }
+		public bool? Acquisition { get; set; }
 
 		[DataMember(Name="additionalArmInformation", EmitDefaultValue=false)]
 		public string AdditionalArmInformation { get; set; }

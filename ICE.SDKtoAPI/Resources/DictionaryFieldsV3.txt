@@ -3959,6 +3959,42 @@
 4748~RegulationZ.SimpleInterestLeapYearIndicator~False~bool~True~Simple Interest Uses Leap Year~False~e4748~YN
 4749~RegulationZ.SimpleInterestAccrualIndicator~False~bool~True~Use Simple Interest Accrual~False~e4749~YN
 4750~Applications{current}.PrequalCreditReportIndicator~False~bool~True~Prequal Credit Report Indicator ~False~e4750~YN
+4751~RateLock.BuySideInvestor~false~string~true~Rate Lock Buy Side Investor ~false~~STRING
+4752~AverageRepresentativeCreditScore~false~int~true~Average Representative Credit Score~false~~INTEGER
+4753~RateLock.CorporatePrice2~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 2~false~~DECIMAL_10
+4754~RateLock.CorporateApprovalDate2~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 2~false~~DATE
+4755~RateLock.CorporateApprovedBy2~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 2~false~~STRING
+4756~RateLock.ReasonForCorporateApproval2~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 2~false~~STRING
+4757~RateLock.CorporatePrice3~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 3~false~~DECIMAL_10
+4758~RateLock.CorporateApprovalDate3~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 3~false~~DATE
+4759~RateLock.CorporateApprovedBy3~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 3~false~~STRING
+4760~RateLock.ReasonForCorporateApproval3~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 3~false~~STRING
+4761~RateLock.CorporatePrice4~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 4~false~~DECIMAL_10
+4762~RateLock.CorporateApprovalDate4~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 4~false~~DATE
+4763~RateLock.CorporateApprovedBy4~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 4~false~~STRING
+4764~RateLock.ReasonForCorporateApproval4~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 4~false~~STRING
+4765~RateLock.CorporatePrice5~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 5~false~~DECIMAL_10
+4766~RateLock.CorporateApprovalDate5~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 5~false~~DATE
+4767~RateLock.CorporateApprovedBy5~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 5~false~~STRING
+4768~RateLock.ReasonForCorporateApproval5~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 5~false~~STRING
+4769~RateLock.BranchPrice2~false~decimal~true~Rate Lock Buy Side Branch Price Concession 2~false~~DECIMAL_10
+4770~RateLock.BranchApprovalDate2~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 2~false~~DATE
+4771~RateLock.BranchApprovedBy2~false~string~true~Rate Lock Buy Side Branch Concession Approved by 2~false~~STRING
+4772~RateLock.ReasonForBranchApproval2~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 2~false~~STRING
+4773~RateLock.BranchPrice3~false~decimal~true~Rate Lock Buy Side Branch Price Concession 3~false~~DECIMAL_10
+4774~RateLock.BranchApprovalDate3~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 3~false~~DATE
+4775~RateLock.BranchApprovedBy3~false~string~true~Rate Lock Buy Side Branch Concession Approved by 3~false~~STRING
+4776~RateLock.ReasonForBranchApproval3~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 3~false~~STRING
+4777~RateLock.BranchPrice4~false~decimal~true~Rate Lock Buy Side Branch Price Concession 4~false~~DECIMAL_10
+4778~RateLock.BranchApprovalDate4~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 4~false~~DATE
+4779~RateLock.BranchApprovedBy4~false~string~true~Rate Lock Buy Side Branch Concession Approved by 4~false~~STRING
+4780~RateLock.ReasonForBranchApproval4~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 4~false~~STRING
+4781~RateLock.BranchPrice5~false~decimal~true~Rate Lock Buy Side Branch Price Concession 5~false~~DECIMAL_10
+4782~RateLock.BranchApprovalDate5~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 5~false~~DATE
+4783~RateLock.BranchApprovedBy5~false~string~true~Rate Lock Buy Side Branch Concession Approved by 5~false~~STRING
+4784~RateLock.ReasonForBranchApproval5~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 5~false~~STRING
+4785~EnergyImprovementAmount~false~decimal~true~Energy Improvement Amount~false~~DECIMAL_2
+4786~PaceLoanPayoffAmount~false~decimal~true~PACE Loan Payoff Amount~false~~DECIMAL_2
 1003p4~UrlPage4Comments~False~string~True~1003 Page 4 Comments~False~~STRING
 2010TITLE_TABLE~ClosingCost.TitleTable2010Name~True~string~True~2010 Fees Title Table~False~~STRING
 ^(AB)(\d2)(01$)~AffiliatedBusinessArrangements[(1)].LenderName~False~string~True~Affiliated Business Arrangements - Lender Name~False~~STRING
@@ -4218,6 +4254,8 @@ AUS.X193~Applications{current}.AusTracking.FatalEditInfo~False~string~True~AUS T
 AUS.X194~Applications{current}.AusTracking.OrderStatus~False~string~True~AUS Tracking - Order Status~False~~STRING
 AUS.X195~Applications{current}.AusTracking.ErrorInfo~False~string~True~AUS Tracking - Error Info~False~~STRING
 AUS.X196~Applications{current}.AusTracking.AusOrderLinkId~False~string~True~AUS Tracking - AUS Order LinkId ~False~~STRING
+AUS.X197~Applications{current}.AusTracking.AusLogExtensionId~true~string~true~AUS Tracking - AUS Log Extension Id~false~~STRING
+AUS.X198~Applications{current}.AusTracking.AusResponseFileName~true~string~true~AUS Tracking - Aus Response File Name~false~~STRING
 AUS.X2~Applications{current}.AusTracking.UnderwritingRiskAssessOther~False~string~True~AUS Tracking - Underwriting Risk Assess Other Type~False~~STRING
 AUS.X20~Applications{current}.AusTracking.LoanType~False~string~True~AUS Tracking - Loan Type~False~eAUS_X20~STRING
 AUS.X21~Applications{current}.AusTracking.LoanTerm~False~int~True~AUS Tracking - Loan Term~False~~INTEGER
@@ -5783,6 +5821,7 @@ CL.WF.EVNT.PRELIMRECV~ClosingDocument.ClPrelimCommitmentReceivedByLenderDateTime
 CL.WF.EVNT.TODRACCP~ClosingDocument.ClTitleOrderAcceptedDateTime~False~datetime~True~Title Closing Disclosure - Title Order Accepted Date Time~False~~DATETIME
 CL.WF.EVNT.TODRSENT~ClosingDocument.ClTitleOrderSentDateTime~False~datetime~True~Title Closing Disclosure - Title Order Sent Date Time~False~~DATETIME
 CLID~Contacts[ContactType=LOAN_CLOSER].LoginId~False~string~True~File Contacts Closer Login ID~False~~STRING
+ConsumerHIOrderEligible~ConsumerHomeInsuranceOrderEligible~true~boolean~true~Consumer Eligible to Order Home Insurance~false~~YN
 Closing.AllngToNtPayToJrsdctn~EmDocument.AllngToNtPayToJrsdctn~False~string~True~Ellie Mae Closing Document Override - Allonge to Note Pay to Jurisdiction~False~~STRING
 Closing.AllngToNtPayToOrdNm~EmDocument.AllngToNtPayToOrdNm~False~string~True~Ellie Mae Closing Document Override - Allonge to Note Pay to the Order of Name~False~~STRING
 Closing.AllngToNtPayToOrgTyp~EmDocument.AllngToNtPayToOrgTyp~False~string~True~Ellie Mae Closing Document Override - Allonge to Note Pay to Organization Type~False~eClosing_AllngToNtPayToOrgTyp~STRING
@@ -8780,6 +8819,7 @@ FICC.X9~FhaVaLoan.FhaLtv~False~decimal~True~Informed Consumer Choice FHA LTV~Fal
 ^(FL)(\d2)(66$)~Applications{current}.Vols[(1)].IncludeTaxesAndInsuranceIndicator~False~bool~True~Payment includes Taxes and Insurance~False~eFL0066~YN
 ^(FL)(\d2)(67$)~Applications{current}.Vols[(1)].ForeignAddressIndicator~False~bool~True~Liability Creditor Foreign Address Indicator~False~eFL0067~YN
 ^(FL)(\d2)(68$)~Applications{current}.Vols[(1)].Country~False~string~True~Liability Creditor Country~False~~STRING
+^(FL)(\d2)(69$)~Applications{current}.Vols[(1)].EnergyEfficientDebts~false~boolean~true~Energy Efficient Debts including PACE loans~false~~YN
 ^(FL)(\d2)(97$)~Applications{current}.Vols[(1)].NoLinkToDocTrackIndicator~True~bool~True~Liability No Link to Doc Tracking~False~eFL0097~YN
 ^(FL)(\d2)(98$)~Applications{current}.Vols[(1)].Date~False~datetime~True~Liability Request Date~False~~DATE
 ^(FL)(\d2)(99$)~Applications{current}.Vols[(1)].RequestId~True~string~True~Liability Request ID~False~~STRING
@@ -11076,6 +11116,35 @@ LOID~Contacts[ContactType=LOAN_OFFICER].LoginId~False~string~True~File Contacts 
 ^(LP)(\d2)(97$)~LoanPrograms[(1)].ClosingCostProgram~True~string~True~Field LP0097~False~~STRING
 ^(LP)(\d2)(98$)~LoanPrograms[(1)].MidpointCancellation~True~string~True~Field LP0098~False~~STRING
 ^(LP)(\d2)(99$)~LoanPrograms[(1)].CalculateBasedOnRemainingBalance~True~string~True~Field LP0099~False~~STRING
+^(LP)(\d2)(100$)~LoanPrograms[(1)].MiCalculationType~true~string~true~Field LP00100~false~~STRING
+^(LP)(\d2)(101$)~LoanPrograms[(1)].FhaUpfrontMiPremiumPercent~true~decimal~true~Field LP00101~false~~DECIMAL_2
+^(LP)(\d2)(102$)~LoanPrograms[(1)].LockField~true~boolean~true~Field LP00102~false~~YN
+^(LP)(\d2)(103$)~LoanPrograms[(1)].MipPaidInCash~true~decimal~true~Field LP00103~false~~DECIMAL_2
+^(LP)(\d2)(104$)~LoanPrograms[(1)].FundingFeePaidInCash~true~decimal~true~Field LP00104~false~~DECIMAL_2
+^(LP)(\d2)(105$)~LoanPrograms[(1)].UseDaysInYears~true~string~true~Field LP00105~false~~STRING
+^(LP)(\d2)(106$)~LoanPrograms[(1)].UsePitiForRatio~true~boolean~true~Field LP00106~false~~YN
+^(LP)(\d2)(107$)~LoanPrograms[(1)].LoanDocumentationType~true~string~true~Field LP00107~false~~STRING
+^(LP)(\d2)(108$)~LoanPrograms[(1)].Mmi~true~boolean~true~Field LP00108~false~~YN
+^(LP)(\d2)(109$)~LoanPrograms[(1)].Pmi~true~boolean~true~Field LP00109~false~~YN
+^(LP)(\d2)(110$)~LoanPrograms[(1)].DisclosureType~true~string~true~Field LP00110~false~~STRING
+^(LP)(\d2)(111$)~LoanPrograms[(1)].PerDiemCalculationMethodType~true~string~true~Field LP00111~false~~STRING
+^(LP)(\d2)(112$)~LoanPrograms[(1)].ConstructionLoanMethod~true~string~true~Field LP00112~false~~STRING
+^(LP)(\d2)(113$)~LoanPrograms[(1)].Acquisition~true~boolean~true~Field LP00113~false~~YN
+^(LP)(\d2)(114$)~LoanPrograms[(1)].InitialAdvanceAmount~true~decimal~true~Field LP00114~false~~DECIMAL_2
+^(LP)(\d2)(115$)~LoanPrograms[(1)].AnnualFeeNeeded~true~decimal~true~Field LP00115~false~~DECIMAL_2
+^(LP)(\d2)(116$)~LoanPrograms[(1)].TeaserRate~true~decimal~true~Field LP00116~false~~DECIMAL_3
+^(LP)(\d2)(117$)~LoanPrograms[(1)].ThirdPartyFeeFrom~true~decimal~true~Field LP00117~false~~DECIMAL_2
+^(LP)(\d2)(118$)~LoanPrograms[(1)].ThirdPartyFeeTo~true~decimal~true~Field LP00118~false~~DECIMAL_2
+^(LP)(\d2)(119$)~LoanPrograms[(1)].MinimumAdvanceAmount~true~decimal~true~Field LP00119~false~~DECIMAL_2
+^(LP)(\d2)(120$)~LoanPrograms[(1)].MinimumAllowableApr~true~decimal~true~Field LP00120~false~~DECIMAL_3
+^(LP)(\d2)(121$)~LoanPrograms[(1)].MinimumPaymentPercent~true~decimal~true~Field LP00121~false~~DECIMAL_3
+^(LP)(\d2)(122$)~LoanPrograms[(1)].MinimumPaymentAmount~true~decimal~true~Field LP00122~false~~DECIMAL_2
+^(LP)(\d2)(123$)~LoanPrograms[(1)].Discounted~true~string~true~Field LP00123~false~~STRING
+^(LP)(\d2)(124$)~LoanPrograms[(1)].DiscountedRate~true~decimal~true~Field LP00124~false~~DECIMAL_3
+^(LP)(\d2)(125$)~LoanPrograms[(1)].DrawRepayPeriodTableName~true~string~true~Field LP00125~false~~STRING
+^(LP)(\d2)(126$)~LoanPrograms[(1)].TerminationFeeAmount~true~decimal~true~Field LP00126~false~~DECIMAL_2
+^(LP)(\d2)(127$)~LoanPrograms[(1)].TerminationPeriodMonthsCount~true~int~true~Field LP00127~false~~INTEGER
+
 LPID~Contacts[ContactType=LOAN_PROCESSOR].LoginId~False~string~True~File Contacts Loan Processor Login ID~False~~STRING
 MAX23K.X1~HudLoanData.HudOwned~False~bool~True~FHA 203k Property HUD-Owned~False~eMAX23K_X1~YN
 MAX23K.X10~HudLoanData.ContingencyReserveCostsAmount~False~decimal~True~FHA 203k B2 Contingency Reserve on Repair Costs~False~~DECIMAL_2
@@ -11364,6 +11433,7 @@ MS.SUB.DUE~milestoneSubmittedDueDate~True~datetime~True~Tracking - Submitted Mil
 ^(NBOC)(\d2)(23$)~NonBorrowingOwners[(1)].Country~False~string~True~Non-Borrowing Owner File Contact - Address Country~False~~STRING
 ^(NBOC)(\d2)(98$)~NonBorrowingOwners[(1)].LegacyId~True~string~True~Non-Borrowing Owner File Contact - NBO Record ID~False~~STRING
 ^(NBOC)(\d2)(99$)~NonBorrowingOwners[(1)].BorrowerVestingRecordId~True~string~True~Non-Borrowing Owner File Contact - Borrower Vesting Record ID~False~~STRING
+NewVestingNboAlert~NewVestingNboAlert~true~boolean~true~New Non-Borrowing Owner linked to vesting added~false~~YN
 NEWHUD.CuredX12~ClosingCost.Gfe2010.CuredOriginationCharges~True~decimal~True~Cured Total Est Origination Charges~False~~DECIMAL_2
 NEWHUD.CuredX13~ClosingCost.Gfe2010.CuredCreditOrChange~True~decimal~True~Cured Cred/Chrgs for Spec Int Rate Applied to GFE~False~~DECIMAL_2
 NEWHUD.CuredX16~ClosingCost.Gfe2010.CuredAdjustedOriginationCharges~True~decimal~True~Cured Fees Adj Orig Chrgs Applied to GFE~False~~DECIMAL_2
@@ -20812,6 +20882,35 @@ URLA.X267~Applications{current}.Borrower.MailingAddress.ForeignAddressIndicator~
 URLA.X268~Applications{current}.Coborrower.MailingAddress.ForeignAddressIndicator~False~bool~True~Co-Borr Mailing Foreign Address Indicator~False~eURLA_X268~YN
 URLA.X269~Applications{current}.Borrower.MailingAddress.Country~False~string~True~Borr Mailing Country~False~~STRING
 URLA.X270~Applications{current}.Coborrower.MailingAddress.Country~False~string~True~Co-Borr Mailing Country~False~~STRING
+URLA.X271~Applications{current}.Coborrower.SectionAExplanation~false~string~true~Declarations Coborrower Section A Occupancy Explanation~false~~STRING
+URLA.X272~Applications{current}.Coborrower.SectionBExplanation~false~string~true~Declarations Coborrower Section B Explanation~false~~STRING
+URLA.X273~Applications{current}.Coborrower.SectionCExplanation~false~string~true~Declarations Coborrower Section C Explanation~false~~STRING
+URLA.X274~Applications{current}.Coborrower.SectionDExplanation~false~string~true~Declarations Coborrower Section D Explanation~false~~STRING
+URLA.X275~Applications{current}.Coborrower.SectionD2Explanation~false~string~true~Declarations Coborrower Section D2 Explanation~false~~STRING
+URLA.X276~Applications{current}.Coborrower.SectionEExplanation~false~string~true~Declarations Coborrower Section E Explanation~false~~STRING
+URLA.X277~Applications{current}.Coborrower.SectionFExplanation~false~string~true~Declarations Coborrower Section F Explanation~false~~STRING
+URLA.X278~Applications{current}.Coborrower.SectionGExplanation~false~string~true~Declarations Coborrower Section G Explanation~false~~STRING
+URLA.X279~Applications{current}.Coborrower.SectionHExplanation~false~string~true~Declarations Coborrower Section H Explanation~false~~STRING
+URLA.X280~Applications{current}.Coborrower.SectionIExplanation~false~string~true~Declarations Coborrower Section I Explanation~false~~STRING
+URLA.X281~Applications{current}.Coborrower.SectionJExplanation~false~string~true~Declarations Coborrower Section J Explanation~false~~STRING
+URLA.X282~Applications{current}.Coborrower.SectionKExplanation~false~string~true~Declarations Coborrower Section K Explanation~false~~STRING
+URLA.X283~Applications{current}.Coborrower.SectionLExplanation~false~string~true~Declarations Coborrower Section L Explanation~false~~STRING
+URLA.X284~Applications{current}.Coborrower.SectionMExplanation~false~string~true~Declarations Coborrower Section M Explanation~false~~STRING
+URLA.X285~Applications{current}.Coborrower.SectionAprintexplanation~false~boolean~true~Print Section A explanation - Coborrower~false~eURLA_X247~YN
+URLA.X286~Applications{current}.Coborrower.SectionBprintexplanation~false~boolean~true~Print Section B explanation - Coborrower~false~eURLA_X248~YN
+URLA.X287~Applications{current}.Coborrower.SectionCprintexplanation~false~boolean~true~Print Section C explanation - Coborrower~false~eURLA_X249~YN
+URLA.X288~Applications{current}.Coborrower.SectionD1printexplanation~false~boolean~true~Print Section D1 explanation - Coborrower~false~eURLA_X250~YN
+URLA.X289~Applications{current}.Coborrower.SectionD2printexplanation~false~boolean~true~Print Section D2 explanation - Coborrower~false~eURLA_X251~YN
+URLA.X290~Applications{current}.Coborrower.SectionEprintexplanation~false~boolean~true~Print Section E explanation - Coborrower~false~eURLA_X252~YN
+URLA.X291~Applications{current}.Coborrower.SectionFprintexplanation~false~boolean~true~Print Section F explanation - Coborrower~false~eURLA_X253~YN
+URLA.X292~Applications{current}.Coborrower.SectionGprintexplanation~false~boolean~true~Print Section G explanation - Coborrower~false~eURLA_X254~YN
+URLA.X293~Applications{current}.Coborrower.SectionHprintexplanation~false~boolean~true~Print Section H explanation - Coborrower~false~eURLA_X255~YN
+URLA.X294~Applications{current}.Coborrower.SectionIprintexplanation~false~boolean~true~Print Section I explanation - Coborrower~false~eURLA_X256~YN
+URLA.X295~Applications{current}.Coborrower.SectionJprintexplanation~false~boolean~true~Print Section J explanation - Coborrower~false~eURLA_X257~YN
+URLA.X296~Applications{current}.Coborrower.SectionKprintexplanation~false~boolean~true~Print Section K explanation - Coborrower~false~eURLA_X258~YN
+URLA.X297~Applications{current}.Coborrower.SectionLprintexplanation~false~boolean~true~Print Section L explanation - Coborrower~false~eURLA_X259~YN
+URLA.X298~Applications{current}.Coborrower.SectionMprintexplanation~false~boolean~true~Print Section M explanation - Coborrower~false~eURLA_X260~YN
+
 URLA.X3~Applications{current}.Borrower.JointAssetLiabilityReportingIndicator~False~string~True~Obsolete - Assets/Liabilities Completed Jointly/Not Jointly~False~eURLA_X3~STRING
 URLA.X35~Applications{current}.Borrower.LanguageCodeOtherDescription~False~string~True~Borr Language Code Other Description~False~~STRING
 URLA.X36~Applications{current}.Coborrower.LanguageCodeOtherDescription~False~string~True~Co-Borr Language Code Other Description~False~~STRING
@@ -20828,6 +20927,7 @@ URLA.X52~Applications{current}.Coborrower.OtherAssetsDoesNotApply~False~bool~Tru
 URLA.X53~Applications{current}.TotalAdditionalOtherAssetsAmount~False~decimal~True~Total Additional Other Assets Amount~False~~DECIMAL_2
 URLA.X54~Applications{current}.TotalOtherAssetsAmount~False~decimal~True~Total Other Assets Amount~False~~DECIMAL_2
 URLA.X55~Applications{current}.Borrower.TotalAssets~False~decimal~True~Total Borrower Assets Amount~False~~DECIMAL_2
+
 URLA.X56~Applications{current}.Coborrower.TotalAssets~False~decimal~True~Total Coborrower Assets Amount~False~~DECIMAL_2
 URLA.X57~Applications{current}.Borrower.TotalOtherAssets~False~decimal~True~Total Borrower Other Assets Amount~False~~DECIMAL_2
 URLA.X58~Applications{current}.Coborrower.TotalOtherAssets~False~decimal~True~Total Coborrower Other Assets Amount~False~~DECIMAL_2

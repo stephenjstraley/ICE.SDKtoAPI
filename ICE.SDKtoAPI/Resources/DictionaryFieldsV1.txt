@@ -3964,6 +3964,42 @@
 4748~RegulationZ.SimpleInterestLeapYearIndicator~False~bool~False~TBD~False~e4748~YN
 4749~IsLoanAmountRounding~False~bool~False~TBD~False~e4749~YN
 4750~Applications{current}.PrequalCreditReportIndicator~False~bool~False~TBD~False~e4750~YN
+4751~RateLock.BuySideInvestor~false~string~true~Rate Lock Buy Side Investor ~false~~STRING
+4752~AverageRepresentativeCreditScore~false~int~true~Average Representative Credit Score~false~~INTEGER
+4753~RateLock.CorporatePrice2~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 2~false~~DECIMAL_10
+4754~RateLock.CorporateApprovalDate2~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 2~false~~DATE
+4755~RateLock.CorporateApprovedBy2~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 2~false~~STRING
+4756~RateLock.ReasonForCorporateApproval2~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 2~false~~STRING
+4757~RateLock.CorporatePrice3~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 3~false~~DECIMAL_10
+4758~RateLock.CorporateApprovalDate3~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 3~false~~DATE
+4759~RateLock.CorporateApprovedBy3~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 3~false~~STRING
+4760~RateLock.ReasonForCorporateApproval3~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 3~false~~STRING
+4761~RateLock.CorporatePrice4~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 4~false~~DECIMAL_10
+4762~RateLock.CorporateApprovalDate4~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 4~false~~DATE
+4763~RateLock.CorporateApprovedBy4~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 4~false~~STRING
+4764~RateLock.ReasonForCorporateApproval4~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 4~false~~STRING
+4765~RateLock.CorporatePrice5~false~decimal~true~Rate Lock Buy Side Corporate Price Concession 5~false~~DECIMAL_10
+4766~RateLock.CorporateApprovalDate5~false~datetime~true~Rate Lock Buy Side Corporate Concession Approval Date 5~false~~DATE
+4767~RateLock.CorporateApprovedBy5~false~string~true~Rate Lock Buy Side Corporate Concession Approved by 5~false~~STRING
+4768~RateLock.ReasonForCorporateApproval5~false~string~true~Rate Lock Buy Side Reason for Corporate Concession Approval 5~false~~STRING
+4769~RateLock.BranchPrice2~false~decimal~true~Rate Lock Buy Side Branch Price Concession 2~false~~DECIMAL_10
+4770~RateLock.BranchApprovalDate2~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 2~false~~DATE
+4771~RateLock.BranchApprovedBy2~false~string~true~Rate Lock Buy Side Branch Concession Approved by 2~false~~STRING
+4772~RateLock.ReasonForBranchApproval2~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 2~false~~STRING
+4773~RateLock.BranchPrice3~false~decimal~true~Rate Lock Buy Side Branch Price Concession 3~false~~DECIMAL_10
+4774~RateLock.BranchApprovalDate3~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 3~false~~DATE
+4775~RateLock.BranchApprovedBy3~false~string~true~Rate Lock Buy Side Branch Concession Approved by 3~false~~STRING
+4776~RateLock.ReasonForBranchApproval3~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 3~false~~STRING
+4777~RateLock.BranchPrice4~false~decimal~true~Rate Lock Buy Side Branch Price Concession 4~false~~DECIMAL_10
+4778~RateLock.BranchApprovalDate4~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 4~false~~DATE
+4779~RateLock.BranchApprovedBy4~false~string~true~Rate Lock Buy Side Branch Concession Approved by 4~false~~STRING
+4780~RateLock.ReasonForBranchApproval4~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 4~false~~STRING
+4781~RateLock.BranchPrice5~false~decimal~true~Rate Lock Buy Side Branch Price Concession 5~false~~DECIMAL_10
+4782~RateLock.BranchApprovalDate5~false~datetime~true~Rate Lock Buy Side Branch Concession Approval Date 5~false~~DATE
+4783~RateLock.BranchApprovedBy5~false~string~true~Rate Lock Buy Side Branch Concession Approved by 5~false~~STRING
+4784~RateLock.ReasonForBranchApproval5~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 5~false~~STRING
+4785~EnergyImprovementAmount~false~decimal~true~Energy Improvement Amount~false~~DECIMAL_2
+4786~PaceLoanPayoffAmount~false~decimal~true~PACE Loan Payoff Amount~false~~DECIMAL_2
 1003p4~UrlPage4Comments~False~string~False~TBD~False~~STRING
 2010TITLE_TABLE~ClosingCost.TitleTable2010Name~False~string~False~Fees Title Table~False~~STRING
 AP.WF.EVNT.DOCREVIEW~ClosingDocument.AppraiserSentDocForReview~False~datetime~False~~False~~DATETIME
@@ -4311,6 +4347,8 @@ AUS.X193~Applications{current}.AUSTrackingLogs[(1)].LogFatalEditInfo~False~strin
 AUS.X194~Applications{current}.AUSTrackingLogs[(1)].LogOrderStatus~False~string~False~~False~~STRING
 AUS.X195~Applications{current}.AUSTrackingLogs[(1)].LogErrorInfo~False~string~False~~False~~STRING
 AUS.X196~Applications{current}.AUSTrackingLogs[(1)].LogAusOrderLinkId~False~string~False~~False~~STRING
+AUS.X197~Applications{current}.AUSTrackingLogs[(1)].AusLogExtensionId~true~string~true~AUS Tracking - AUS Log Extension Id~false~~STRING
+AUS.X198~Applications{current}.AUSTrackingLogs[(1)].AusResponseFileName~true~string~true~AUS Tracking - Aus Response File Name~false~~STRING
 AUS.X999~Applications{current}.AUSTrackingLogs[(1)].LogAUSTrackingType~False~string~False~~False~eAUS_X999~STRING
 AUSF.X1~Applications{current}.ATRQMBorrowers[(1)].UnderwritingRiskAssessType~False~string~False~AUS Tracking - Latest Submission - Underwriting Risk Assess Type~False~~STRING
 AUSF.X2~Applications{current}.ATRQMBorrowers[(1)].UnderwritingRiskAssessOther~False~string~False~AUS Tracking - Latest Submission - Underwriting Risk Assess Other Type~False~~STRING
@@ -5793,6 +5831,7 @@ CL.WF.EVNT.LENDOTHER~ClosingDocument.DocOrMessageByLenderDateTime~False~datetime
 CLID~Contacts[ContactType=LOAN_CLOSER].LoginId~False~string~False~File Contacts Closer Login ID~False~~STRING
 BORCIT~Applications{current}.Coborrower.CitizenshipResidencyType~False~string~False~~False~~STRING
 COBORCIT~Applications{current}.Coborrower.CitizenshipResidencyType~False~string~False~~False~~STRING
+ConsumerHIOrderEligible~ConsumerHomeInsuranceOrderEligible~true~boolean~true~Consumer Eligible to Order Home Insurance~false~~YN
 Closing.AllngToNtPayToJrsdctn~EmDocument.AllngToNtPayToJrsdctn~False~string~False~Ellie Mae Closing Document Override - Allonge to Note Pay to Jurisdiction~False~~STRING
 Closing.AllngToNtPayToOrdNm~EmDocument.AllngToNtPayToOrdNm~False~string~False~Ellie Mae Closing Document Override - Allonge to Note Pay to the Order of Name~False~~STRING
 Closing.AllngToNtPayToOrgTyp~EmDocument.AllngToNtPayToOrgTyp~False~string~False~Ellie Mae Closing Document Override - Allonge to Note Pay to Organization Type~False~eClosing_AllngToNtPayToOrgTyp~STRING
@@ -8786,11 +8825,12 @@ FICC.X23~FhaVaLoan.ConventionalUMIP~False~decimal~False~Informed Consumer Choice
 ^(FL)(\d2)(61$)~Applications{current}.Liabilities[AccountIndicator=True(1)].IsDebtNotSecuredToSubjectPropertyIndicator~False~bool~False~Liability Debt is NOT secured to Subject Property~False~eFL0061~YN
 ^(FL)(\d2)(62$)~Applications{current}.Liabilities[AccountIndicator=True(1)].UCDPayoffType~False~string~False~Liability UCD Payoff Type~False~eFL0062~STRING
 ^(FL)(\d2)(63$)~Applications{current}.Liabilities[AccountIndicator=True(1)].PayoffIncludedIndicator~False~bool~False~Liability Will be Paid Off and will be included~False~eFL0063~YN
-^(FL)(\d2)(64$)~Applications{current}.Liabilities[AccountIndicator=True(1)].PayoffIncludedIndicator~False~bool~False~TBD~False~eFL0064~BOOLEAN
+^(FL)(\d2)(64$)~Applications{current}.Liabilities[AccountIndicator=True(1)].PrintUserJobTitleIndicator~False~bool~False~TBD~False~eFL0064~BOOLEAN
 ^(FL)(\d2)(65$)~Applications{current}.Liabilities[AccountIndicator=True(1)].OtherDescription~False~string~False~TBD~False~~STRING
 ^(FL)(\d2)(66$)~Applications{current}.Liabilities[AccountIndicator=True(1)].IncludeTaxesAndInsuranceIndicator~False~bool~False~TBD~False~eFL0066~BOOLEAN
 ^(FL)(\d2)(67$)~Applications{current}.Liabilities[AccountIndicator=True(1)].ForeignAddressIndicator~False~bool~False~TBD~False~eFL0067~BOOLEAN
 ^(FL)(\d2)(68$)~Applications{current}.Liabilities[AccountIndicator=True(1)].Country~False~string~False~TBD~False~~STRING
+^(FL)(\d2)(69$)~Applications{current}.Liabilities[AccountIndicator=True(1)].EnergyEfficientDebts~false~boolean~true~Energy Efficient Debts including PACE loans~false~~YN
 ^(FL)(\d2)(97$)~Applications{current}.Liabilities[AccountIndicator=True(1)].NoLinkToDocTrackIndicator~False~bool~False~Liability No Link To Doc Tracking~False~eFL0097~YN
 ^(FL)(\d2)(98$)~Applications{current}.Liabilities[AccountIndicator=True(1)].Date~False~date~False~Liability Req Dt~False~~DATE
 ^(FL)(\d2)(99$)~Applications{current}.Liabilities[AccountIndicator=True(1)].RequestId~False~string~False~Liability Req ID~False~~STRING
@@ -11004,6 +11044,104 @@ LPID~Contacts[ContactType=LOAN_PROCESSOR].LoginId~False~string~False~File Contac
 ^(LP)(\d2)(25$)~LoanProgram[(1)].DrawRepayPeriodTableName~False~string~False~~False~~STRING
 ^(LP)(\d2)(26$)~LoanProgram[(1)].TerminationFeeAmount~False~decimal~False~~False~~DECIMAL_2
 ^(LP)(\d2)(27$)~LoanProgram[(1)].TerminationPeriodMonthsCount~False~int~False~~False~~INTEGER
+^(LP)(\d2)(28$)~LoanPrograms[(1)].RateAdjustmentSubsequentCapPercent~True~decimal~True~Field LP0028~False~~DECIMAL_3
+^(LP)(\d2)(29$)~LoanPrograms[(1)].RateAdjustmentDurationMonths~True~int~True~Field LP0029~False~~INTEGER
+^(LP)(\d2)(30$)~LoanPrograms[(1)].RateAdjustmentLifetimeCapPercent~True~decimal~True~Field LP0030~False~~DECIMAL_3
+^(LP)(\d2)(31$)~LoanPrograms[(1)].IndexMarginPercent~True~decimal~True~Field LP0031~False~~DECIMAL_3
+^(LP)(\d2)(32$)~LoanPrograms[(1)].IndexCurrentValuePercent~True~decimal~True~Field LP0032~False~~DECIMAL_3
+^(LP)(\d2)(33$)~LoanPrograms[(1)].FloorPercent~True~decimal~True~Field LP0033~False~~DECIMAL_3
+^(LP)(\d2)(34$)~LoanPrograms[(1)].RoundPercent~True~decimal~True~Field LP0034~False~~DECIMAL_3
+^(LP)(\d2)(35$)~LoanPrograms[(1)].RoundType~True~string~True~Field LP0035~False~~STRING
+^(LP)(\d2)(36$)~LoanPrograms[(1)].PaymentAdjustmentPeriodicCapPercent~True~decimal~True~Field LP0036~False~~DECIMAL_3
+^(LP)(\d2)(37$)~LoanPrograms[(1)].PaymentAdjustmentDurationMonths~True~int~True~Field LP0037~False~~INTEGER
+^(LP)(\d2)(38$)~LoanPrograms[(1)].RecastPaidMonths~True~int~True~Field LP0038~False~~INTEGER
+^(LP)(\d2)(39$)~LoanPrograms[(1)].RecastStopMonths~True~int~True~Field LP0039~False~~INTEGER
+^(LP)(\d2)(40$)~LoanPrograms[(1)].MaximumBalance~True~decimal~True~Field LP0040~False~~DECIMAL_3
+^(LP)(\d2)(41$)~LoanPrograms[(1)].GpmRate~True~decimal~True~Field LP0041~False~~DECIMAL_3
+^(LP)(\d2)(42$)~LoanPrograms[(1)].GpmYears~True~int~True~Field LP0042~False~~INTEGER
+^(LP)(\d2)(43$)~LoanPrograms[(1)].GpmExtraPaymentForEarlyPayOff~True~decimal~True~Field LP0043~False~~DECIMAL_2
+^(LP)(\d2)(44$)~LoanPrograms[(1)].LoanProgramName~True~string~True~Field LP0044~False~~STRING
+^(LP)(\d2)(45$)~LoanPrograms[(1)].MaxLoanAmount~True~decimal~True~Field LP0045~False~~DECIMAL_2
+^(LP)(\d2)(46$)~LoanPrograms[(1)].MaxLtv~True~decimal~True~Field LP0046~False~~DECIMAL_3
+^(LP)(\d2)(47$)~LoanPrograms[(1)].MaxCltv~True~decimal~True~Field LP0047~False~~DECIMAL_3
+^(LP)(\d2)(48$)~LoanPrograms[(1)].MinCreditScore~True~string~True~Field LP0048~False~~STRING
+^(LP)(\d2)(49$)~LoanPrograms[(1)].MaxFrontRatio~True~decimal~True~Field LP0049~False~~DECIMAL_3
+^(LP)(\d2)(50$)~LoanPrograms[(1)].MaxBackRatio~True~decimal~True~Field LP0050~False~~DECIMAL_3
+^(LP)(\d2)(51$)~LoanPrograms[(1)].LenderInvestorCode~True~string~True~Field LP0051~False~~STRING
+^(LP)(\d2)(52$)~LoanPrograms[(1)].PaymentFactor~True~decimal~True~Field LP0052~False~~DECIMAL_2
+^(LP)(\d2)(53$)~LoanPrograms[(1)].ConstructionPeriodMonths~True~int~True~Field LP0053~False~~INTEGER
+^(LP)(\d2)(54$)~LoanPrograms[(1)].ConstructionRate~True~decimal~True~Field LP0054~False~~DECIMAL_3
+^(LP)(\d2)(55$)~LoanPrograms[(1)].ConstructionInterestReserveAmount~True~decimal~True~Field LP0055~False~~DECIMAL_2
+^(LP)(\d2)(56$)~LoanPrograms[(1)].ConstructionDescription~True~string~True~Field LP0056~False~~STRING
+^(LP)(\d2)(57$)~LoanPrograms[(1)].MortgageInsuranceAdjustmentFactor1~True~decimal~True~Field LP0057~False~~DECIMAL_3
+^(LP)(\d2)(58$)~LoanPrograms[(1)].MortgageInsuranceMonthsOfAdjustment1~True~int~True~Field LP0058~False~~INTEGER
+^(LP)(\d2)(59$)~LoanPrograms[(1)].MortgageInsuranceMonthlyPayment1~True~decimal~True~Field LP0059~False~~DECIMAL_2
+^(LP)(\d2)(60$)~LoanPrograms[(1)].MortgageInsuranceAdjustmentFactor2~True~decimal~True~Field LP0060~False~~DECIMAL_3
+^(LP)(\d2)(61$)~LoanPrograms[(1)].MortgageInsuranceMonthsOfAdjustment2~True~int~True~Field LP0061~False~~INTEGER
+^(LP)(\d2)(62$)~LoanPrograms[(1)].MortgageInsuranceMonthlyPayment2~True~decimal~True~Field LP0062~False~~DECIMAL_2
+^(LP)(\d2)(63$)~LoanPrograms[(1)].MortgageInsuranceCancelPercent~True~decimal~True~Field LP0063~False~~DECIMAL_3
+^(LP)(\d2)(64$)~LoanPrograms[(1)].RequiredDeposit~True~string~True~Field LP0064~False~~STRING
+^(LP)(\d2)(65$)~LoanPrograms[(1)].DemandFeature~True~string~True~Field LP0065~False~~STRING
+^(LP)(\d2)(66$)~LoanPrograms[(1)].VariableRateFeature~True~string~True~Field LP0066~False~~STRING
+^(LP)(\d2)(67$)~LoanPrograms[(1)].AdditionalArmInformation~True~string~True~Field LP0067~False~~STRING
+^(LP)(\d2)(68$)~LoanPrograms[(1)].SecurityInterestInNameOf~True~string~True~Field LP0068~False~~STRING
+^(LP)(\d2)(69$)~LoanPrograms[(1)].SecurityType~True~string~True~Field LP0069~False~~STRING
+^(LP)(\d2)(70$)~LoanPrograms[(1)].PrepaymentPenaltyIndicator~True~string~True~Field LP0070~False~~STRING
+^(LP)(\d2)(71$)~LoanPrograms[(1)].RefundPaymentIndicator~True~string~True~Field LP0071~False~~STRING
+^(LP)(\d2)(72$)~LoanPrograms[(1)].LateChargeDays~True~int~True~Field LP0072~False~~INTEGER
+^(LP)(\d2)(73$)~LoanPrograms[(1)].LateChargePercent~True~decimal~True~Field LP0073~False~~DECIMAL_3
+^(LP)(\d2)(74$)~LoanPrograms[(1)].LateChargeType~True~string~True~Field LP0074~False~~STRING
+^(LP)(\d2)(75$)~LoanPrograms[(1)].AssumptionOnYourProperty~True~string~True~Field LP0075~False~~STRING
+^(LP)(\d2)(79$)~LoanPrograms[(1)].Convertible~True~string~True~Field LP0079~False~~STRING
+^(LP)(\d2)(80$)~LoanPrograms[(1)].ProgramCode~True~string~True~Field LP0080~False~~STRING
+^(LP)(\d2)(81$)~LoanPrograms[(1)].MeansAnEstimate~True~string~True~Field LP0081~False~~STRING
+^(LP)(\d2)(82$)~LoanPrograms[(1)].AllDateAndNumericalDisclosures~True~string~True~Field LP0082~False~~STRING
+^(LP)(\d2)(83$)~LoanPrograms[(1)].SubjectPropertyGrossRentalIncome~True~decimal~True~Field LP0083~False~~DECIMAL_2
+^(LP)(\d2)(84$)~LoanPrograms[(1)].PercentageOfRental~True~decimal~True~Field LP0084~False~~DECIMAL_2
+^(LP)(\d2)(85$)~LoanPrograms[(1)].OtherMortgageTypeDescription~True~string~True~Field LP0085~False~~STRING
+^(LP)(\d2)(86$)~LoanPrograms[(1)].ArmTypeDescription~True~string~True~Field LP0086~False~~STRING
+^(LP)(\d2)(87$)~LoanPrograms[(1)].OtherAmortizationTypeDescription~True~string~True~Field LP0087~False~~STRING
+^(LP)(\d2)(88$)~LoanPrograms[(1)].Description~True~string~True~Field LP0088~False~~STRING
+^(LP)(\d2)(89$)~LoanPrograms[(1)].CreditLifeInsurance~True~string~True~Field LP0089~False~~STRING
+^(LP)(\d2)(90$)~LoanPrograms[(1)].CreditDisability~True~string~True~Field LP0090~False~~STRING
+^(LP)(\d2)(91$)~LoanPrograms[(1)].PropertyInsurance~True~string~True~Field LP0091~False~~STRING
+^(LP)(\d2)(92$)~LoanPrograms[(1)].FloodInsurance~True~string~True~Field LP0092~False~~STRING
+^(LP)(\d2)(93$)~LoanPrograms[(1)].IfYouPurchase~True~string~True~Field LP0093~False~~STRING
+^(LP)(\d2)(94$)~LoanPrograms[(1)].IfYouPurchaseType~True~string~True~Field LP0094~False~~STRING
+^(LP)(\d2)(95$)~LoanPrograms[(1)].YearlyTerm~True~decimal~True~Field LP0095~False~~DECIMAL_2
+^(LP)(\d2)(96$)~LoanPrograms[(1)].OtherLoanPurposeDescription~True~string~True~Field LP0096~False~~STRING
+^(LP)(\d2)(97$)~LoanPrograms[(1)].ClosingCostProgram~True~string~True~Field LP0097~False~~STRING
+^(LP)(\d2)(98$)~LoanPrograms[(1)].MidpointCancellation~True~string~True~Field LP0098~False~~STRING
+^(LP)(\d2)(99$)~LoanPrograms[(1)].CalculateBasedOnRemainingBalance~True~string~True~Field LP0099~False~~STRING
+^(LP)(\d2)(100$)~LoanPrograms[(1)].MiCalculationType~true~string~true~Field LP00100~false~~STRING
+^(LP)(\d2)(101$)~LoanPrograms[(1)].FhaUpfrontMiPremiumPercent~true~decimal~true~Field LP00101~false~~DECIMAL_2
+^(LP)(\d2)(102$)~LoanPrograms[(1)].LockField~true~string~true~Field LP00102~false~~YN
+^(LP)(\d2)(103$)~LoanPrograms[(1)].MipPaidInCash~true~decimal~true~Field LP00103~false~~DECIMAL_2
+^(LP)(\d2)(104$)~LoanPrograms[(1)].FundingFeePaidInCash~true~decimal~true~Field LP00104~false~~DECIMAL_2
+^(LP)(\d2)(105$)~LoanPrograms[(1)].UseDaysInYears~true~string~true~Field LP00105~false~~STRING
+^(LP)(\d2)(106$)~LoanPrograms[(1)].UsePitiForRatio~true~string~true~Field LP00106~false~~YN
+^(LP)(\d2)(107$)~LoanPrograms[(1)].LoanDocumentationType~true~string~true~Field LP00107~false~~STRING
+^(LP)(\d2)(108$)~LoanPrograms[(1)].Mmi~true~string~true~Field LP00108~false~~YN
+^(LP)(\d2)(109$)~LoanPrograms[(1)].Pmi~true~string~true~Field LP00109~false~~YN
+^(LP)(\d2)(110$)~LoanPrograms[(1)].DisclosureType~true~string~true~Field LP00110~false~~STRING
+^(LP)(\d2)(111$)~LoanPrograms[(1)].PerDiemCalculationMethodType~true~string~true~Field LP00111~false~~STRING
+^(LP)(\d2)(112$)~LoanPrograms[(1)].ConstructionLoanMethod~true~string~true~Field LP00112~false~~STRING
+^(LP)(\d2)(113$)~LoanPrograms[(1)].Acquisition~true~string~true~Field LP00113~false~~YN
+^(LP)(\d2)(114$)~LoanPrograms[(1)].InitialAdvanceAmount~true~decimal~true~Field LP00114~false~~DECIMAL_2
+^(LP)(\d2)(115$)~LoanPrograms[(1)].AnnualFeeNeeded~true~decimal~true~Field LP00115~false~~DECIMAL_2
+^(LP)(\d2)(116$)~LoanPrograms[(1)].TeaserRate~true~decimal~true~Field LP00116~false~~DECIMAL_3
+^(LP)(\d2)(117$)~LoanPrograms[(1)].ThirdPartyFeeFrom~true~decimal~true~Field LP00117~false~~DECIMAL_2
+^(LP)(\d2)(118$)~LoanPrograms[(1)].ThirdPartyFeeTo~true~decimal~true~Field LP00118~false~~DECIMAL_2
+^(LP)(\d2)(119$)~LoanPrograms[(1)].MinimumAdvanceAmount~true~decimal~true~Field LP00119~false~~DECIMAL_2
+^(LP)(\d2)(120$)~LoanPrograms[(1)].MinimumAllowableApr~true~decimal~true~Field LP00120~false~~DECIMAL_3
+^(LP)(\d2)(121$)~LoanPrograms[(1)].MinimumPaymentPercent~true~decimal~true~Field LP00121~false~~DECIMAL_3
+^(LP)(\d2)(122$)~LoanPrograms[(1)].MinimumPaymentAmount~true~decimal~true~Field LP00122~false~~DECIMAL_2
+^(LP)(\d2)(123$)~LoanPrograms[(1)].Discounted~true~string~true~Field LP00123~false~~STRING
+^(LP)(\d2)(124$)~LoanPrograms[(1)].DiscountedRate~true~decimal~true~Field LP00124~false~~DECIMAL_3
+^(LP)(\d2)(125$)~LoanPrograms[(1)].DrawRepayPeriodTableName~true~string~true~Field LP00125~false~~STRING
+^(LP)(\d2)(126$)~LoanPrograms[(1)].TerminationFeeAmount~true~decimal~true~Field LP00126~false~~DECIMAL_2
+^(LP)(\d2)(127$)~LoanPrograms[(1)].TerminationPeriodMonthsCount~true~int~true~Field LP00127~false~~INTEGER
+
 MAX23K.X1~HudLoanData.HUDOwned~False~bool~False~FHA 203k Property HUD-Owned~False~eMAX23K_X1~YN
 MAX23K.X2~HudLoanData.CommitmentStage~False~string~False~FHA 203k Commitment Stage~False~~STRING
 MAX23K.X3~HudLoanData.EscrowCommitment~False~string~False~FHA 203k Escrow Commitment~False~~STRING
@@ -11291,6 +11429,7 @@ MS.SUB.DUE~MilestoneSubmittedDueDate~True~date~False~Tracking - Submitted Milest
 ^(NBOC)(\d2)(23$)~NonBorrowingOwners[(1)].Country~False~string~False~TBD~False~~STRING
 ^(NBOC)(\d2)(98$)~NonBorrowingOwners[(1)].NBOID~False~string~False~Non-Borrowing Owner File Contact - NBO Record ID~False~~STRING
 ^(NBOC)(\d2)(99$)~NonBorrowingOwners[(1)].BorrowerVestingRecordID~False~string~False~Non-Borrowing Owner File Contact - Borrower Vesting Record ID~False~~STRING
+NewVestingNboAlert~NewVestingNboAlert~true~boolean~true~New Non-Borrowing Owner linked to vesting added~false~~YN
 NEWHUD.CuredX12~ClosingCost.Gfe2010.CuredOriginationCharges~False~decimal~False~Cured Total Est Origination Charges~False~~DECIMAL_2
 NEWHUD.CuredX13~ClosingCost.Gfe2010.CuredCreditOrChange~False~decimal~False~Cured Cred/Chrgs for Spec Int Rate Applied to GFE~False~~DECIMAL_2
 NEWHUD.CuredX16~ClosingCost.Gfe2010.CuredAdjustedOriginationCharges~False~decimal~False~Cured Fees Adj Orig Chrgs Applied to GFE~False~~DECIMAL_2
@@ -16525,6 +16664,436 @@ NEWHUD2.X4765~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=SectionPC|Gfe
 NEWHUD2.X4766~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=SectionPC|Gfe2010FeeType=Line2003|Gfe2010FeeIndex=0].Sec32PointsAndFees2015~False~decimal~False~Fee Details - Line PC3 - Sec 32 Points and Fees~False~~DECIMAL_2
 NEWHUD2.X4767~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=SectionPC|Gfe2010FeeType=Line2004|Gfe2010FeeIndex=0].Sec32PointsAndFees2015~False~decimal~False~Fee Details - Line PC4 - Sec 32 Points and Fees~False~~DECIMAL_2
 NEWHUD2.X4768~ClosingCost.Gfe2010Section.SubsequentlyPaidFinanceCharge~False~decimal~False~Section PC Subsequently Paid Finance Charge~False~~DECIMAL_2
+NEWHUD.X1235~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].Description~False~string~True~Fee Line 801 User Defined Fee 6 Descr~False~~STRING
+NEWHUD.X1236~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801L].PaidToName~False~string~True~Fees Line 801l Paid To Name~False~~STRING
+NEWHUD.X1237~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].Amount~False~decimal~True~Line 801 - User Defined Fee 6 - Amt~False~~DECIMAL_2
+NEWHUD.X1238~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 6 Seller Amt~False~~DECIMAL_2
+NEWHUD.X1239~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].PaidByType~False~string~True~Fees Line 801 Paid By Additional 6~False~eNEWHUD_X1239~STRING
+NEWHUD.X1240~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 6 POC~False~eNEWHUD_X1240~YN
+NEWHUD.X1241~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].AprIndicator~False~bool~True~Fees Line 801 Additional APR 6~False~eNEWHUD_X1241~YN
+NEWHUD.X1242~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].PtbType~False~string~True~Line 819 Additional Paid to 6~False~eNEWHUD_X1242~STRING
+NEWHUD.X1243~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].Description~False~string~True~Fee Line 801 User Defined Fee 7 Descr~False~~STRING
+NEWHUD.X1244~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801M].PaidToName~False~string~True~Fees Line 801m Paid To Name~False~~STRING
+NEWHUD.X1245~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].Amount~False~decimal~True~Line 801 - User Defined Fee 7 - Amt~False~~DECIMAL_2
+NEWHUD.X1246~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 7 Seller Amt~False~~DECIMAL_2
+NEWHUD.X1247~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].PaidByType~False~string~True~Fees Line 801 Paid By Additional 7~False~eNEWHUD_X1247~STRING
+NEWHUD.X1248~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 7 POC~False~eNEWHUD_X1248~YN
+NEWHUD.X1249~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].AprIndicator~False~bool~True~Fees Line 801 Additional APR 7~False~eNEWHUD_X1249~YN
+NEWHUD.X1250~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].PtbType~False~string~True~Line 819 Additional Paid to 7~False~eNEWHUD_X1250~STRING
+NEWHUD.X1251~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].Description~False~string~True~Fee Line 801 User Defined Fee 8 Descr~False~~STRING
+NEWHUD.X1252~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801N].PaidToName~False~string~True~Fees Line 801n Paid To Name~False~~STRING
+NEWHUD.X1253~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].Amount~False~decimal~True~Line 801 - User Defined Fee 8 - Amt~False~~DECIMAL_2
+NEWHUD.X1254~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 8 Seller Amt~False~~DECIMAL_2
+NEWHUD.X1255~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].PaidByType~False~string~True~Fees Line 801 Paid By Additional 8~False~eNEWHUD_X1255~STRING
+NEWHUD.X1256~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 8 POC~False~eNEWHUD_X1256~YN
+NEWHUD.X1257~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].AprIndicator~False~bool~True~Fees Line 801 Additional APR 8~False~eNEWHUD_X1257~YN
+NEWHUD.X1258~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].PtbType~False~string~True~Line 819 Additional Paid to 8~False~eNEWHUD_X1258~STRING
+NEWHUD.X1259~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].Description~False~string~True~Fee Line 801 User Defined Fee 9 Descr~False~~STRING
+NEWHUD.X1260~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801O].PaidToName~False~string~True~Fees Line 801o Paid To Name~False~~STRING
+NEWHUD.X1261~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].Amount~False~decimal~True~Line 801 - User Defined Fee 9 - Amt~False~~DECIMAL_2
+NEWHUD.X1262~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 9 Seller Amt~False~~DECIMAL_2
+NEWHUD.X1263~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].PaidByType~False~string~True~Fees Line 801 Paid By Additional 9~False~eNEWHUD_X1263~STRING
+NEWHUD.X1264~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 9 POC~False~eNEWHUD_X1264~YN
+NEWHUD.X1265~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].AprIndicator~False~bool~True~Fees Line 801 Additional APR 9~False~eNEWHUD_X1265~YN
+NEWHUD.X1266~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].PtbType~False~string~True~Line 819 Additional Paid to 9~False~eNEWHUD_X1266~STRING
+NEWHUD.X1267~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].Description~False~string~True~Fee Line 801 User Defined Fee 10 Descr~False~~STRING
+NEWHUD.X1268~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801P].PaidToName~False~string~True~Fees Line 801p Paid To Name~False~~STRING
+NEWHUD.X1269~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].Amount~False~decimal~True~Line 801 - User Defined Fee 10 - Amt~False~~DECIMAL_2
+NEWHUD.X1270~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 10 Seller Amt~False~~DECIMAL_2
+NEWHUD.X1271~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].PaidByType~False~string~True~Fees Line 801 Paid By Additional 10~False~eNEWHUD_X1271~STRING
+NEWHUD.X1272~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 10 POC~False~eNEWHUD_X1272~YN
+NEWHUD.X1273~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].AprIndicator~False~bool~True~Fees Line 801 Additional APR 10~False~eNEWHUD_X1273~YN
+NEWHUD.X1274~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].PtbType~False~string~True~Line 819 Additional Paid to 10~False~eNEWHUD_X1274~STRING
+NEWHUD.X1275~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].Description~False~string~True~Fee Line 801 User Defined Fee 11 Descr~False~~STRING
+NEWHUD.X1276~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Q].PaidToName~False~string~True~Fees Line 801q Paid To Name~False~~STRING
+NEWHUD.X1277~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].Amount~False~decimal~True~Line 801 - User Defined Fee 11 - Amt~False~~DECIMAL_2
+NEWHUD.X1278~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 11 Seller Amt~False~~DECIMAL_2
+NEWHUD.X1279~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].PaidByType~False~string~True~Fees Line 801 Paid By Additional 11~False~eNEWHUD_X1279~STRING
+NEWHUD.X1280~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 11 POC~False~eNEWHUD_X1280~YN
+NEWHUD.X1281~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].AprIndicator~False~bool~True~Fees Line 801 Additional APR 11~False~eNEWHUD_X1281~YN
+NEWHUD.X1282~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].PtbType~False~string~True~Line 819 Additional Paid to 11~False~eNEWHUD_X1282~STRING
+NEWHUD.X1283~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].Description~False~string~True~Fee Line 801 User Defined Fee 12 Descr~False~~STRING
+NEWHUD.X1284~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801R].PaidToName~False~string~True~Fees Line 801r Paid To Name~False~~STRING
+NEWHUD.X1285~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].Amount~False~decimal~True~Line 801 - User Defined Fee 12 - Amt~False~~DECIMAL_2
+NEWHUD.X1286~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 12 Seller Amt~False~~DECIMAL_2
+NEWHUD.X1287~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].PaidByType~False~string~True~Fees Line 801 Paid By Additional 12~False~eNEWHUD_X1287~STRING
+NEWHUD.X1288~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 12 POC~False~eNEWHUD_X1288~YN
+NEWHUD.X1289~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].AprIndicator~False~bool~True~Fees Line 801 Additional APR 12~False~eNEWHUD_X1289~YN
+NEWHUD.X1290~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].PtbType~False~string~True~Line 819 Additional Paid to 12~False~eNEWHUD_X1290~STRING
+NEWHUD.X1292~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PaidToName~False~string~True~Fees Line 818 Paid To Name~False~~STRING
+NEWHUD.X1293~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].BorPaidAmount~False~decimal~True~Fees Line 818 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1294~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].SelPaidAmount~False~decimal~True~Fees Line 818 Seller~False~~DECIMAL_2
+NEWHUD.X1295~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PaidByType~False~string~True~Fees Line 818 Paid By~False~eNEWHUD_X1295~STRING
+NEWHUD.X1296~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PocPtcIndicator~False~bool~True~Fees Line 818 POC~False~eNEWHUD_X1296~YN
+NEWHUD.X1297~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].AprIndicator~False~bool~True~Fees Line 818 APR~False~eNEWHUD_X1297~YN
+NEWHUD.X1298~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PtbType~False~string~True~Fees Line 818 Paid to~False~eNEWHUD_X1298~STRING
+NEWHUD.X1300~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PaidToName~False~string~True~Fees Line 819 Paid To Name~False~~STRING
+NEWHUD.X1301~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].BorPaidAmount~False~decimal~True~Fees Line 819 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1302~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].SelPaidAmount~False~decimal~True~Fees Line 819 Seller~False~~DECIMAL_2
+NEWHUD.X1303~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PaidByType~False~string~True~Fees Line 819 Paid By~False~eNEWHUD_X1303~STRING
+NEWHUD.X1304~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PocPtcIndicator~False~bool~True~Fees Line 819 POC~False~eNEWHUD_X1304~YN
+NEWHUD.X1305~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].AprIndicator~False~bool~True~Fees Line 819 APR~False~eNEWHUD_X1305~YN
+NEWHUD.X1306~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PtbType~False~string~True~Fees Line 819 Paid to~False~eNEWHUD_X1306~STRING
+NEWHUD.X1308~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PaidToName~False~string~True~Fees Line 820 Paid To Name~False~~STRING
+NEWHUD.X1309~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].BorPaidAmount~False~decimal~True~Fees Line 820 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1310~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].SelPaidAmount~False~decimal~True~Fees Line 820 Seller~False~~DECIMAL_2
+NEWHUD.X1311~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PaidByType~False~string~True~Fees Line 820 Paid By~False~eNEWHUD_X1311~STRING
+NEWHUD.X1312~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PocPtcIndicator~False~bool~True~Fees Line 820 POC~False~eNEWHUD_X1312~YN
+NEWHUD.X1313~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].AprIndicator~False~bool~True~Fees Line 820 APR~False~eNEWHUD_X1313~YN
+NEWHUD.X1314~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PtbType~False~string~True~Fees Line 820 Paid to~False~eNEWHUD_X1314~STRING
+NEWHUD.X1316~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PaidToName~False~string~True~Fees Line 821 Paid To Name~False~~STRING
+NEWHUD.X1317~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].BorPaidAmount~False~decimal~True~Fees Line 821 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1318~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].SelPaidAmount~False~decimal~True~Fees Line 821 Seller~False~~DECIMAL_2
+NEWHUD.X1319~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PaidByType~False~string~True~Fees Line 821 Paid By~False~eNEWHUD_X1319~STRING
+NEWHUD.X1320~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PocPtcIndicator~False~bool~True~Fees Line 821 POC~False~eNEWHUD_X1320~YN
+NEWHUD.X1321~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].AprIndicator~False~bool~True~Fees Line 821 APR~False~eNEWHUD_X1321~YN
+NEWHUD.X1322~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PtbType~False~string~True~Fees Line 821 Paid to~False~eNEWHUD_X1322~STRING
+NEWHUD.X1324~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PaidToName~False~string~True~Fees Line 822 Paid To Name~False~~STRING
+NEWHUD.X1325~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].BorPaidAmount~False~decimal~True~Fees Line 822 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1326~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].SelPaidAmount~False~decimal~True~Fees Line 822 Seller~False~~DECIMAL_2
+NEWHUD.X1327~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PaidByType~False~string~True~Fees Line 822 Paid By~False~eNEWHUD_X1327~STRING
+NEWHUD.X1328~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PocPtcIndicator~False~bool~True~Fees Line 822 POC~False~eNEWHUD_X1328~YN
+NEWHUD.X1329~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].AprIndicator~False~bool~True~Fees Line 822 APR~False~eNEWHUD_X1329~YN
+NEWHUD.X1330~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PtbType~False~string~True~Fees Line 822 Paid to~False~eNEWHUD_X1330~STRING
+NEWHUD.X1332~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PaidToName~False~string~True~Fees Line 823 Paid To Name~False~~STRING
+NEWHUD.X1333~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].BorPaidAmount~False~decimal~True~Fees Line 823 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1334~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].SelPaidAmount~False~decimal~True~Fees Line 823 Seller~False~~DECIMAL_2
+NEWHUD.X1335~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PaidByType~False~string~True~Fees Line 823 Paid By~False~eNEWHUD_X1335~STRING
+NEWHUD.X1336~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PocPtcIndicator~False~bool~True~Fees Line 823 POC~False~eNEWHUD_X1336~YN
+NEWHUD.X1337~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].AprIndicator~False~bool~True~Fees Line 823 APR~False~eNEWHUD_X1337~YN
+NEWHUD.X1338~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PtbType~False~string~True~Fees Line 823 Paid to~False~eNEWHUD_X1338~STRING
+NEWHUD.X1340~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PaidToName~False~string~True~Fees Line 824 Paid To Name~False~~STRING
+NEWHUD.X1341~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].BorPaidAmount~False~decimal~True~Fees Line 824 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1342~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].SelPaidAmount~False~decimal~True~Fees Line 824 Seller~False~~DECIMAL_2
+NEWHUD.X1343~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PaidByType~False~string~True~Fees Line 824 Paid By~False~eNEWHUD_X1343~STRING
+NEWHUD.X1344~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PocPtcIndicator~False~bool~True~Fees Line 824 POC~False~eNEWHUD_X1344~YN
+NEWHUD.X1345~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].AprIndicator~False~bool~True~Fees Line 824 APR~False~eNEWHUD_X1345~YN
+NEWHUD.X1346~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PtbType~False~string~True~Fees Line 824 Paid to~False~eNEWHUD_X1346~STRING
+NEWHUD.X1349~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].BorPaidAmount~False~decimal~True~Fees Line 825 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1350~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].SelPaidAmount~False~decimal~True~Fees Line 825 Seller~False~~DECIMAL_2
+NEWHUD.X1351~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].PaidByType~False~string~True~Fees Line 825 Paid By~False~eNEWHUD_X1351~STRING
+NEWHUD.X1352~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].PocPtcIndicator~False~bool~True~Fees Line 825 POC~False~eNEWHUD_X1352~YN
+NEWHUD.X1353~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].AprIndicator~False~bool~True~Fees Line 825 APR~False~eNEWHUD_X1353~YN
+NEWHUD.X1354~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].PtbType~False~string~True~Fees Line 825 Paid to~False~eNEWHUD_X1354~STRING
+NEWHUD.X1356~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PaidToName~False~string~True~Fees Line 826 Paid To Name~False~~STRING
+NEWHUD.X1357~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].BorPaidAmount~False~decimal~True~Fees Line 826 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1358~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].SelPaidAmount~False~decimal~True~Fees Line 826 Seller~False~~DECIMAL_2
+NEWHUD.X1359~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PaidByType~False~string~True~Fees Line 826 Paid By~False~eNEWHUD_X1359~STRING
+NEWHUD.X1360~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PocPtcIndicator~False~bool~True~Fees Line 826 POC~False~eNEWHUD_X1360~YN
+NEWHUD.X1361~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].AprIndicator~False~bool~True~Fees Line 826 APR~False~eNEWHUD_X1361~YN
+NEWHUD.X1362~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PtbType~False~string~True~Fees Line 826 Paid to~False~eNEWHUD_X1362~STRING
+NEWHUD.X1364~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PaidToName~False~string~True~Fees Line 827 Paid To Name~False~~STRING
+NEWHUD.X1365~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].BorPaidAmount~False~decimal~True~Fees Line 827 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1366~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].SelPaidAmount~False~decimal~True~Fees Line 827 Seller~False~~DECIMAL_2
+NEWHUD.X1367~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PaidByType~False~string~True~Fees Line 827 Paid By~False~eNEWHUD_X1367~STRING
+NEWHUD.X1368~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PocPtcIndicator~False~bool~True~Fees Line 827 POC~False~eNEWHUD_X1368~YN
+NEWHUD.X1369~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].AprIndicator~False~bool~True~Fees Line 827 APR~False~eNEWHUD_X1369~YN
+NEWHUD.X1370~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PtbType~False~string~True~Fees Line 827 Paid to~False~eNEWHUD_X1370~STRING
+NEWHUD.X1372~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PaidToName~False~string~True~Fees Line 828 Paid To Name~False~~STRING
+NEWHUD.X1373~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].BorPaidAmount~False~decimal~True~Fees Line 828 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1374~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].SelPaidAmount~False~decimal~True~Fees Line 828 Seller~False~~DECIMAL_2
+NEWHUD.X1375~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PaidByType~False~string~True~Fees Line 828 Paid By~False~eNEWHUD_X1375~STRING
+NEWHUD.X1376~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PocPtcIndicator~False~bool~True~Fees Line 828 POC~False~eNEWHUD_X1376~YN
+NEWHUD.X1377~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].AprIndicator~False~bool~True~Fees Line 828 APR~False~eNEWHUD_X1377~YN
+NEWHUD.X1378~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PtbType~False~string~True~Fees Line 828 Paid to~False~eNEWHUD_X1378~STRING
+NEWHUD.X1380~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PaidToName~False~string~True~Fees Line 829 Paid To Name~False~~STRING
+NEWHUD.X1381~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].BorPaidAmount~False~decimal~True~Fees Line 829 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1382~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].SelPaidAmount~False~decimal~True~Fees Line 829 Seller~False~~DECIMAL_2
+NEWHUD.X1383~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PaidByType~False~string~True~Fees Line 829 Paid By~False~eNEWHUD_X1383~STRING
+NEWHUD.X1384~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PocPtcIndicator~False~bool~True~Fees Line 829 POC~False~eNEWHUD_X1384~YN
+NEWHUD.X1385~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].AprIndicator~False~bool~True~Fees Line 829 APR~False~eNEWHUD_X1385~YN
+NEWHUD.X1386~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PtbType~False~string~True~Fees Line 829 Paid to~False~eNEWHUD_X1386~STRING
+NEWHUD.X1388~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PaidToName~False~string~True~Fees Line 830 Paid To Name~False~~STRING
+NEWHUD.X1389~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorPaidAmount~False~decimal~True~Fees Line 830 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1390~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SelPaidAmount~False~decimal~True~Fees Line 830 Seller~False~~DECIMAL_2
+NEWHUD.X1391~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PaidByType~False~string~True~Fees Line 830 Paid By~False~eNEWHUD_X1391~STRING
+NEWHUD.X1392~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PocPtcIndicator~False~bool~True~Fees Line 830 POC~False~eNEWHUD_X1392~YN
+NEWHUD.X1393~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].AprIndicator~False~bool~True~Fees Line 830 APR~False~eNEWHUD_X1393~YN
+NEWHUD.X1394~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PtbType~False~string~True~Fees Line 830 Paid to~False~eNEWHUD_X1394~STRING
+NEWHUD.X1396~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PaidToName~False~string~True~Fees Line 831 Paid To Name~False~~STRING
+NEWHUD.X1397~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].BorPaidAmount~False~decimal~True~Fees Line 831 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1398~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].SelPaidAmount~False~decimal~True~Fees Line 831 Seller~False~~DECIMAL_2
+NEWHUD.X1399~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PaidByType~False~string~True~Fees Line 831 Paid By~False~eNEWHUD_X1399~STRING
+NEWHUD.X1400~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PocPtcIndicator~False~bool~True~Fees Line 831 POC~False~eNEWHUD_X1400~YN
+NEWHUD.X1401~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].AprIndicator~False~bool~True~Fees Line 831 APR~False~eNEWHUD_X1401~YN
+NEWHUD.X1402~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PtbType~False~string~True~Fees Line 831 Paid to~False~eNEWHUD_X1402~STRING
+NEWHUD.X1404~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PaidToName~False~string~True~Fees Line 832 Paid To Name~False~~STRING
+NEWHUD.X1405~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].BorPaidAmount~False~decimal~True~Fees Line 832 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1406~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].SelPaidAmount~False~decimal~True~Fees Line 832 Seller~False~~DECIMAL_2
+NEWHUD.X1407~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PaidByType~False~string~True~Fees Line 832 Paid By~False~eNEWHUD_X1407~STRING
+NEWHUD.X1408~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PocPtcIndicator~False~bool~True~Fees Line 832 POC~False~eNEWHUD_X1408~YN
+NEWHUD.X1409~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].AprIndicator~False~bool~True~Fees Line 832 APR~False~eNEWHUD_X1409~YN
+NEWHUD.X1410~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PtbType~False~string~True~Fees Line 832 Paid to~False~eNEWHUD_X1410~STRING
+NEWHUD.X1412~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PaidToName~False~string~True~Fees Line 833 Paid To Name~False~~STRING
+NEWHUD.X1413~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].BorPaidAmount~False~decimal~True~Fees Line 833 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1414~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].SelPaidAmount~False~decimal~True~Fees Line 833 Seller~False~~DECIMAL_2
+NEWHUD.X1415~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PaidByType~False~string~True~Fees Line 833 Paid By~False~eNEWHUD_X1415~STRING
+NEWHUD.X1416~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PocPtcIndicator~False~bool~True~Fees Line 833 POC~False~eNEWHUD_X1416~YN
+NEWHUD.X1417~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].AprIndicator~False~bool~True~Fees Line 833 APR~False~eNEWHUD_X1417~YN
+NEWHUD.X1418~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PtbType~False~string~True~Fees Line 833 Paid to~False~eNEWHUD_X1418~STRING
+NEWHUD.X1419~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=6].Description~False~string~True~User Defined Orig Fee Line 801 - Line 6 Desc~False~~STRING
+NEWHUD.X1420~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=6].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 6 Amt~False~~DECIMAL_2
+NEWHUD.X1421~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=7].Description~False~string~True~User Defined Orig Fee Line 801 - Line 7 Desc~False~~STRING
+NEWHUD.X1422~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=7].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 7 Amt~False~~DECIMAL_2
+NEWHUD.X1423~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=8].Description~False~string~True~User Defined Orig Fee Line 801 - Line 8 Desc~False~~STRING
+NEWHUD.X1424~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=8].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 8 Amt~False~~DECIMAL_2
+NEWHUD.X1425~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=9].Description~False~string~True~User Defined Orig Fee Line 801 - Line 9 Desc~False~~STRING
+NEWHUD.X1426~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=9].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 9 Amt~False~~DECIMAL_2
+NEWHUD.X1427~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=10].Description~False~string~True~User Defined Orig Fee Line 801 - Line 10 Desc~False~~STRING
+NEWHUD.X1428~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=10].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 10 Amt~False~~DECIMAL_2
+NEWHUD.X1429~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=11].Description~False~string~True~User Defined Orig Fee Line 801 - Line 11 Desc~False~~STRING
+NEWHUD.X1430~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=11].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 11 Amt~False~~DECIMAL_2
+NEWHUD.X1431~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=12].Description~False~string~True~User Defined Orig Fee Line 801 - Line 12 Desc~False~~STRING
+NEWHUD.X1432~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=12].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 12 Amt~False~~DECIMAL_2
+NEWHUD.X1433~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=11].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 11~False~~DECIMAL_2
+NEWHUD.X1434~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=12].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 12~False~~DECIMAL_2
+NEWHUD.X1435~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=13].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 13~False~~DECIMAL_2
+NEWHUD.X1436~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=14].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 14~False~~DECIMAL_2
+NEWHUD.X1437~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=15].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 15~False~~DECIMAL_2
+NEWHUD.X1438~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=16].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 16~False~~DECIMAL_2
+NEWHUD.X1439~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=17].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 17~False~~DECIMAL_2
+NEWHUD.X1440~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=820].WholePoc~False~decimal~True~Fee Line 818 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1441~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=821].WholePoc~False~decimal~True~Fee Line 819 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1442~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=822].WholePoc~False~decimal~True~Fee Line 820 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1443~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=823].WholePoc~False~decimal~True~Fee Line 821 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1444~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=824].WholePoc~False~decimal~True~Fee Line 822 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1445~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=825].WholePoc~False~decimal~True~Fee Line 823 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1446~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=826].WholePoc~False~decimal~True~Fee Line 824 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1447~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=827].WholePoc~False~decimal~True~Fee Line 825 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1448~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=828].WholePoc~False~decimal~True~Fee Line 826 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1449~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=829].WholePoc~False~decimal~True~Fee Line 827 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1450~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=830].WholePoc~False~decimal~True~Fee Line 828 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1451~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=831].WholePoc~False~decimal~True~Fee Line 829 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1452~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=832].WholePoc~False~decimal~True~Fee Line 830 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1453~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=833].WholePoc~False~decimal~True~Fee Line 831 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1454~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=834].WholePoc~False~decimal~True~Fee Line 832 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1455~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=835].WholePoc~False~decimal~True~Fee Line 833 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1456~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=11].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 11~False~eNEWHUD_X1456~STRING
+NEWHUD.X1457~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=12].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 12~False~eNEWHUD_X1457~STRING
+NEWHUD.X1458~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=13].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 13~False~eNEWHUD_X1458~STRING
+NEWHUD.X1459~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=14].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 14~False~eNEWHUD_X1459~STRING
+NEWHUD.X1460~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=15].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 15~False~eNEWHUD_X1460~STRING
+NEWHUD.X1461~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=16].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 16~False~eNEWHUD_X1461~STRING
+NEWHUD.X1462~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=17].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 17~False~eNEWHUD_X1462~STRING
+NEWHUD.X1463~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=820].WholePocPaidByType~False~string~True~Fee Line 818 Whole POC Amount Paid By~False~eNEWHUD_X1463~STRING
+NEWHUD.X1464~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=821].WholePocPaidByType~False~string~True~Fee Line 819 Whole POC Amount Paid By~False~eNEWHUD_X1464~STRING
+NEWHUD.X1465~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=822].WholePocPaidByType~False~string~True~Fee Line 820 Whole POC Amount Paid By~False~eNEWHUD_X1465~STRING
+NEWHUD.X1466~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=823].WholePocPaidByType~False~string~True~Fee Line 821 Whole POC Amount Paid By~False~eNEWHUD_X1466~STRING
+NEWHUD.X1467~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=824].WholePocPaidByType~False~string~True~Fee Line 822 Whole POC Amount Paid By~False~eNEWHUD_X1467~STRING
+NEWHUD.X1468~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=825].WholePocPaidByType~False~string~True~Fee Line 823 Whole POC Amount Paid By~False~eNEWHUD_X1468~STRING
+NEWHUD.X1469~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=826].WholePocPaidByType~False~string~True~Fee Line 824 Whole POC Amount Paid By~False~eNEWHUD_X1469~STRING
+NEWHUD.X1470~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=827].WholePocPaidByType~False~string~True~Fee Line 825 Whole POC Amount Paid By~False~eNEWHUD_X1470~STRING
+NEWHUD.X1471~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=828].WholePocPaidByType~False~string~True~Fee Line 826 Whole POC Amount Paid By~False~eNEWHUD_X1471~STRING
+NEWHUD.X1472~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=829].WholePocPaidByType~False~string~True~Fee Line 827 Whole POC Amount Paid By~False~eNEWHUD_X1472~STRING
+NEWHUD.X1473~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=830].WholePocPaidByType~False~string~True~Fee Line 828 Whole POC Amount Paid By~False~eNEWHUD_X1473~STRING
+NEWHUD.X1474~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=831].WholePocPaidByType~False~string~True~Fee Line 829 Whole POC Amount Paid By~False~eNEWHUD_X1474~STRING
+NEWHUD.X1475~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=832].WholePocPaidByType~False~string~True~Fee Line 830 Whole POC Amount Paid By~False~eNEWHUD_X1475~STRING
+NEWHUD.X1476~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=833].WholePocPaidByType~False~string~True~Fee Line 831 Whole POC Amount Paid By~False~eNEWHUD_X1476~STRING
+NEWHUD.X1477~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=834].WholePocPaidByType~False~string~True~Fee Line 832 Whole POC Amount Paid By~False~eNEWHUD_X1477~STRING
+NEWHUD.X1478~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=835].WholePocPaidByType~False~string~True~Fee Line 833 Whole POC Amount Paid By~False~eNEWHUD_X1478~STRING
+NEWHUD.X1479~ClosingCost.Gfe2010Page.LineLfwbcIndicator~False~bool~True~Fees Line 801 L Funding Worksheet Checkbox for Borrower~False~eNEWHUD_X1479~YN
+NEWHUD.X1541~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=11].Description~False~string~True~Required Service 11 Descr~False~~STRING
+NEWHUD.X1542~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=11].Amount~False~decimal~True~Required Service 11 Charge~False~~DECIMAL_2
+NEWHUD.X1543~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=12].Description~False~string~True~Required Service 12 Descr~False~~STRING
+NEWHUD.X1544~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=12].Amount~False~decimal~True~Required Service 12 Charge~False~~DECIMAL_2
+NEWHUD.X1545~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=13].Description~False~string~True~Required Service 13 Descr~False~~STRING
+NEWHUD.X1546~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=13].Amount~False~decimal~True~Required Service 13 Charge~False~~DECIMAL_2
+NEWHUD.X1547~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=14].Description~False~string~True~Required Service 14 Descr~False~~STRING
+NEWHUD.X1548~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=14].Amount~False~decimal~True~Required Service 14 Charge~False~~DECIMAL_2
+NEWHUD.X1549~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=15].Description~False~string~True~Required Service 15 Descr~False~~STRING
+NEWHUD.X1550~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=15].Amount~False~decimal~True~Required Service 15 Charge~False~~DECIMAL_2
+NEWHUD.X1551~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=16].Description~False~string~True~Required Service 16 Descr~False~~STRING
+NEWHUD.X1552~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=16].Amount~False~decimal~True~Required Service 16 Charge~False~~DECIMAL_2
+NEWHUD.X1553~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=17].Description~False~string~True~Required Service 17 Descr~False~~STRING
+NEWHUD.X1554~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=17].Amount~False~decimal~True~Required Service 17 Charge~False~~DECIMAL_2
+NEWHUD.X1555~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=18].Description~False~string~True~Required Service 18 Descr~False~~STRING
+NEWHUD.X1556~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=18].Amount~False~decimal~True~Required Service 18 Charge~False~~DECIMAL_2
+NEWHUD.X1557~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=19].Description~False~string~True~Required Service 19 Descr~False~~STRING
+NEWHUD.X1558~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=19].Amount~False~decimal~True~Required Service 19 Charge~False~~DECIMAL_2
+NEWHUD.X1559~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=20].Description~False~string~True~Required Service 20 Descr~False~~STRING
+NEWHUD.X1560~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=20].Amount~False~decimal~True~Required Service 20 Charge~False~~DECIMAL_2
+NEWHUD.X1561~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=21].Description~False~string~True~Required Service 21 Descr~False~~STRING
+NEWHUD.X1562~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=21].Amount~False~decimal~True~Required Service 21 Charge~False~~DECIMAL_2
+NEWHUD.X1563~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=22].Description~False~string~True~Required Service 22 Descr~False~~STRING
+NEWHUD.X1564~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=22].Amount~False~decimal~True~Required Service 22 Charge~False~~DECIMAL_2
+NEWHUD.X1565~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=23].Description~False~string~True~Required Service 23 Descr~False~~STRING
+NEWHUD.X1566~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=23].Amount~False~decimal~True~Required Service 23 Charge~False~~DECIMAL_2
+NEWHUD.X1567~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=24].Description~False~string~True~Required Service 24 Descr~False~~STRING
+NEWHUD.X1568~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=24].Amount~False~decimal~True~Required Service 24 Charge~False~~DECIMAL_2
+NEWHUD.X1569~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=25].Description~False~string~True~Required Service 25 Descr~False~~STRING
+NEWHUD.X1570~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=25].Amount~False~decimal~True~Required Service 25 Charge~False~~DECIMAL_2
+NEWHUD.X1571~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=26].Description~False~string~True~Required Service 26 Descr~False~~STRING
+NEWHUD.X1572~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=26].Amount~False~decimal~True~Required Service 26 Charge~False~~DECIMAL_2
+NEWHUD.X1573~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=27].Description~False~string~True~Required Service 27 Descr~False~~STRING
+NEWHUD.X1574~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=27].Amount~False~decimal~True~Required Service 27 Charge~False~~DECIMAL_2
+NEWHUD.X1575~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=28].Description~False~string~True~Required Service 28 Descr~False~~STRING
+NEWHUD.X1576~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=28].Amount~False~decimal~True~Required Service 28 Charge~False~~DECIMAL_2
+NEWHUD.X1577~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=29].Description~False~string~True~Required Service 29 Descr~False~~STRING
+NEWHUD.X1578~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=29].Amount~False~decimal~True~Required Service 29 Charge~False~~DECIMAL_2
+NEWHUD.X1579~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=30].Description~False~string~True~Required Service 30 Descr~False~~STRING
+NEWHUD.X1580~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=30].Amount~False~decimal~True~Required Service 30 Charge~False~~DECIMAL_2
+NEWHUD.X1581~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=31].Description~False~string~True~Required Service 31 Descr~False~~STRING
+NEWHUD.X1582~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=31].Amount~False~decimal~True~Required Service 31 Charge~False~~DECIMAL_2
+NEWHUD.X1583~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=32].Description~False~string~True~Required Service 32 Descr~False~~STRING
+NEWHUD.X1584~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=32].Amount~False~decimal~True~Required Service 32 Charge~False~~DECIMAL_2
+NEWHUD.X1585~ClosingCost.Gfe2010.TotalOfFinancedFees~False~decimal~True~Borr Total of Financed Fees~False~~DECIMAL_2
+NEWHUD.X1587~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PaidToName~False~string~True~Fees Line 911 Paid To Name~False~~STRING
+NEWHUD.X1588~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].BorPaidAmount~False~decimal~True~Fees Line 911 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1589~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].SelPaidAmount~False~decimal~True~Fees Line 911 Seller~False~~DECIMAL_2
+NEWHUD.X1590~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PaidByType~False~string~True~Fees Line 911 Paid By~False~eNEWHUD_X1590~STRING
+NEWHUD.X1591~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PocPtcIndicator~False~bool~True~Fees Line 911 POC~False~eNEWHUD_X1591~YN
+NEWHUD.X1592~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].AprIndicator~False~bool~True~Fees Line 911 APR~False~eNEWHUD_X1592~YN
+NEWHUD.X1593~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PtbType~False~string~True~Fees Line 911 Paid to~False~eNEWHUD_X1593~STRING
+NEWHUD.X1595~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PaidToName~False~string~True~Fees Line 912 Paid To Name~False~~STRING
+NEWHUD.X1596~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].BorPaidAmount~False~decimal~True~Fees Line 912 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1597~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].SelPaidAmount~False~decimal~True~Fees Line 912 Seller~False~~DECIMAL_2
+NEWHUD.X1598~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PaidByType~False~string~True~Fees Line 912 Paid By~False~eNEWHUD_X1598~STRING
+NEWHUD.X1599~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PocPtcIndicator~False~bool~True~Fees Line 912 POC~False~eNEWHUD_X1599~YN
+NEWHUD.X1600~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].AprIndicator~False~bool~True~Fees Line 912 APR~False~eNEWHUD_X1600~YN
+NEWHUD.X1601~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PtbType~False~string~True~Fees Line 912 Paid to~False~eNEWHUD_X1601~STRING
+NEWHUD.X1603~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PaidToName~False~string~True~Fees Line 1115 Paid To Name~False~~STRING
+NEWHUD.X1604~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].BorPaidAmount~False~decimal~True~Fees Line 1115 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1605~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].SelPaidAmount~False~decimal~True~Fees Line 1115 Seller~False~~DECIMAL_2
+NEWHUD.X1606~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PaidByType~False~string~True~Fees Line 1115 Paid By~False~eNEWHUD_X1606~STRING
+NEWHUD.X1607~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PocPtcIndicator~False~bool~True~Fees Line 1115 POC~False~eNEWHUD_X1607~YN
+NEWHUD.X1608~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].AprIndicator~False~bool~True~Fees Line 1115 APR~False~eNEWHUD_X1608~YN
+NEWHUD.X1609~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PtbType~False~string~True~Fees Line 1115 Paid to~False~eNEWHUD_X1609~STRING
+NEWHUD.X1611~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PaidToName~False~string~True~Fees Line 1116 Paid To Name~False~~STRING
+NEWHUD.X1612~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].BorPaidAmount~False~decimal~True~Fees Line 1116 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1613~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].SelPaidAmount~False~decimal~True~Fees Line 1116 Seller~False~~DECIMAL_2
+NEWHUD.X1614~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PaidByType~False~string~True~Fees Line 1116 Paid By~False~eNEWHUD_X1614~STRING
+NEWHUD.X1615~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PocPtcIndicator~False~bool~True~Fees Line 1116 POC~False~eNEWHUD_X1615~YN
+NEWHUD.X1616~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].AprIndicator~False~bool~True~Fees Line 1116 APR~False~eNEWHUD_X1616~YN
+NEWHUD.X1617~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PtbType~False~string~True~Fees Line 1116 Paid to~False~eNEWHUD_X1617~STRING
+NEWHUD.X1619~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PaidToName~False~string~True~Fees Line 1209 Paid To Name~False~~STRING
+NEWHUD.X1620~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].BorPaidAmount~False~decimal~True~Fees Line 1209 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1621~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].SelPaidAmount~False~decimal~True~Fees Line 1209 Seller~False~~DECIMAL_2
+NEWHUD.X1622~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PaidByType~False~string~True~Fees Line 1209 Paid By~False~eNEWHUD_X1622~STRING
+NEWHUD.X1623~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PocPtcIndicator~False~bool~True~Fees Line 1209 POC~False~eNEWHUD_X1623~YN
+NEWHUD.X1624~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].AprIndicator~False~bool~True~Fees Line 1209 APR~False~eNEWHUD_X1624~YN
+NEWHUD.X1626~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PaidToName~False~string~True~Fees Line 1210 Paid To Name~False~~STRING
+NEWHUD.X1627~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].BorPaidAmount~False~decimal~True~Fees Line 1210 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1628~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].SelPaidAmount~False~decimal~True~Fees Line 1210 Seller~False~~DECIMAL_2
+NEWHUD.X1629~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PaidByType~False~string~True~Fees Line 1210 Paid By~False~eNEWHUD_X1629~STRING
+NEWHUD.X1630~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PocPtcIndicator~False~bool~True~Fees Line 1210 POC~False~eNEWHUD_X1630~YN
+NEWHUD.X1631~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].AprIndicator~False~bool~True~Fees Line 1210 APR~False~eNEWHUD_X1631~YN
+NEWHUD.X1633~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PaidToName~False~string~True~Fees Line 1312 Paid To Name~False~~STRING
+NEWHUD.X1634~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].BorPaidAmount~False~decimal~True~Fees Line 1312 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1635~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].SelPaidAmount~False~decimal~True~Fees Line 1312 Seller~False~~DECIMAL_2
+NEWHUD.X1636~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PaidByType~False~string~True~Fees Line 1312 Paid By~False~eNEWHUD_X1636~STRING
+NEWHUD.X1637~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PocPtcIndicator~False~bool~True~Fees Line 1312 POC~False~eNEWHUD_X1637~YN
+NEWHUD.X1638~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].AprIndicator~False~bool~True~Fees Line 1312 APR~False~eNEWHUD_X1638~YN
+NEWHUD.X1639~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PtbType~False~string~True~Fees Line 1312 Paid to~False~eNEWHUD_X1639~STRING
+NEWHUD.X1641~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PaidToName~False~string~True~Fees Line 1313 Paid To Name~False~~STRING
+NEWHUD.X1642~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].BorPaidAmount~False~decimal~True~Fees Line 1313 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1643~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].SelPaidAmount~False~decimal~True~Fees Line 1313 Seller~False~~DECIMAL_2
+NEWHUD.X1644~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PaidByType~False~string~True~Fees Line 1313 Paid By~False~eNEWHUD_X1644~STRING
+NEWHUD.X1645~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PocPtcIndicator~False~bool~True~Fees Line 1313 POC~False~eNEWHUD_X1645~YN
+NEWHUD.X1646~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].AprIndicator~False~bool~True~Fees Line 1313 APR~False~eNEWHUD_X1646~YN
+NEWHUD.X1647~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PtbType~False~string~True~Fees Line 1313 Paid to~False~eNEWHUD_X1647~STRING
+NEWHUD.X1649~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PaidToName~False~string~True~Fees Line 1314 Paid To Name~False~~STRING
+NEWHUD.X1650~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].BorPaidAmount~False~decimal~True~Fees Line 1314 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1651~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].SelPaidAmount~False~decimal~True~Fees Line 1314 Seller~False~~DECIMAL_2
+NEWHUD.X1652~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PaidByType~False~string~True~Fees Line 1314 Paid By~False~eNEWHUD_X1652~STRING
+NEWHUD.X1653~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PocPtcIndicator~False~bool~True~Fees Line 1314 POC~False~eNEWHUD_X1653~YN
+NEWHUD.X1654~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].AprIndicator~False~bool~True~Fees Line 1314 APR~False~eNEWHUD_X1654~YN
+NEWHUD.X1655~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PtbType~False~string~True~Fees Line 1314 Paid to~False~eNEWHUD_X1655~STRING
+NEWHUD.X1657~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PaidToName~False~string~True~Fees Line 1315 Paid To Name~False~~STRING
+NEWHUD.X1658~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].BorPaidAmount~False~decimal~True~Fees Line 1315 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1659~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].SelPaidAmount~False~decimal~True~Fees Line 1315 Seller~False~~DECIMAL_2
+NEWHUD.X1660~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PaidByType~False~string~True~Fees Line 1315 Paid By~False~eNEWHUD_X1660~STRING
+NEWHUD.X1661~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PocPtcIndicator~False~bool~True~Fees Line 1315 POC~False~eNEWHUD_X1661~YN
+NEWHUD.X1662~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].AprIndicator~False~bool~True~Fees Line 1315 APR~False~eNEWHUD_X1662~YN
+NEWHUD.X1663~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PtbType~False~string~True~Fees Line 1315 Paid to~False~eNEWHUD_X1663~STRING
+NEWHUD.X1664~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=911].WholePoc~False~decimal~True~Fee Line 911 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1665~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=912].WholePoc~False~decimal~True~Fee Line 912 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1666~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1115].WholePoc~False~decimal~True~Fee Line 1115 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1667~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1116].WholePoc~False~decimal~True~Fee Line 1116 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1668~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1209].WholePoc~False~decimal~True~Fee Line 1209 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1669~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1210].WholePoc~False~decimal~True~Fee Line 1210 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1670~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1312].WholePoc~False~decimal~True~Fee Line 1312 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1671~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1313].WholePoc~False~decimal~True~Fee Line 1313 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1672~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1314].WholePoc~False~decimal~True~Fee Line 1314 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1673~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1315].WholePoc~False~decimal~True~Fee Line 1315 Whole POC Amount~False~~DECIMAL_2
+NEWHUD.X1674~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=911].WholePocPaidByType~False~string~True~Fee Line 911 Whole POC Amount Paid By~False~eNEWHUD_X1674~STRING
+NEWHUD.X1675~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=912].WholePocPaidByType~False~string~True~Fee Line 912 Whole POC Amount Paid By~False~eNEWHUD_X1675~STRING
+NEWHUD.X1676~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1115].WholePocPaidByType~False~string~True~Fee Line 1115 Whole POC Amount Paid By~False~eNEWHUD_X1676~STRING
+NEWHUD.X1677~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1116].WholePocPaidByType~False~string~True~Fee Line 1116 Whole POC Amount Paid By~False~eNEWHUD_X1677~STRING
+NEWHUD.X1678~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1209].WholePocPaidByType~False~string~True~Fee Line 1209 Whole POC Amount Paid By~False~eNEWHUD_X1678~STRING
+NEWHUD.X1679~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1210].WholePocPaidByType~False~string~True~Fee Line 1210 Whole POC Amount Paid By~False~eNEWHUD_X1679~STRING
+NEWHUD.X1680~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1312].WholePocPaidByType~False~string~True~Fee Line 1312 Whole POC Amount Paid By~False~eNEWHUD_X1680~STRING
+NEWHUD.X1681~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1313].WholePocPaidByType~False~string~True~Fee Line 1313 Whole POC Amount Paid By~False~eNEWHUD_X1681~STRING
+NEWHUD.X1682~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1314].WholePocPaidByType~False~string~True~Fee Line 1314 Whole POC Amount Paid By~False~eNEWHUD_X1682~STRING
+NEWHUD.X1683~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1315].WholePocPaidByType~False~string~True~Fee Line 1315 Whole POC Amount Paid By~False~eNEWHUD_X1683~STRING
+NEWHUD2.X2016~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].TotalFeeAmount2015~False~decimal~True~Fee Details - Line 832 - Total Fee Amount~False~~DECIMAL_2
+NEWHUD2.X2017~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].TotalFeePercentage2015~False~decimal~True~Fee Details - Line 832 - Total Fee Percentage~False~~DECIMAL_3
+NEWHUD2.X2018~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 832 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X2019~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 832 - Closing Disclosure Amount~False~~DECIMAL_2
+NEWHUD2.X2022~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerFinanced2015~False~decimal~True~Fee Details - Line 832 - Borrower Financed Amount~False~~DECIMAL_2
+NEWHUD2.X2023~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerPtc2015~False~decimal~True~Fee Details - Line 832 - Borrower PTC Amount~False~~DECIMAL_2
+NEWHUD2.X2024~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerPac2015~False~decimal~True~Fee Details - Line 832 - Borrower PAC Amount~False~~DECIMAL_2
+NEWHUD2.X2025~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerPoc2015~False~decimal~True~Fee Details - Line 832 - Borrower POC Amount~False~~DECIMAL_2
+NEWHUD2.X2026~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Borrower Amount Paid~False~~DECIMAL_2
+NEWHUD2.X2027~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerPac2015~False~decimal~True~Fee Details - Line 832 - Seller PAC Amount~False~~DECIMAL_2
+NEWHUD2.X2028~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerPoc2015~False~decimal~True~Fee Details - Line 832 - Seller POC Amount~False~~DECIMAL_2
+NEWHUD2.X2029~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Seller Amount Paid~False~~DECIMAL_2
+NEWHUD2.X2030~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BrokerPac2015~False~decimal~True~Fee Details - Line 832 - Broker PAC Amount~False~~DECIMAL_2
+NEWHUD2.X2031~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BrokerPoc2015~False~decimal~True~Fee Details - Line 832 - Broker POC Amount~False~~DECIMAL_2
+NEWHUD2.X2032~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BrokerAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Broker Amount Paid~False~~DECIMAL_2
+NEWHUD2.X2033~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LenderPac2015~False~decimal~True~Fee Details - Line 832 - Lender PAC Amount~False~~DECIMAL_2
+NEWHUD2.X2034~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LenderPoc2015~False~decimal~True~Fee Details - Line 832 - Lender POC Amount~False~~DECIMAL_2
+NEWHUD2.X2035~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LenderAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Lender Amount Paid~False~~DECIMAL_2
+NEWHUD2.X2036~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].OtherPac2015~False~decimal~True~Fee Details - Line 832 - Other PAC Amount~False~~DECIMAL_2
+NEWHUD2.X2037~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].OtherPoc2015~False~decimal~True~Fee Details - Line 832 - Other POC Amount~False~~DECIMAL_2
+NEWHUD2.X2038~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].OtherAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Other Amount Paid~False~~DECIMAL_2
+NEWHUD2.X2039~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].TotalPaidByBLo2015~False~decimal~True~Fee Details - Line 832 - Total Paid By Amount~False~~DECIMAL_2
+NEWHUD2.X2040~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].Sec32PointsAndFees2015~False~decimal~True~Fee Details - Line 832 - Sec 32 Points and Fees~False~~DECIMAL_2
+NEWHUD2.X2041~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerCanShopForIndicator2015~False~bool~True~Fee Details - Line 832 - Borrower Can Shop For~False~eNEWHUD2_X2041~YN
+NEWHUD2.X2042~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerDidShopForIndicator2015~False~bool~True~Fee Details - Line 832 - Borrower Did Shop For~False~eNEWHUD2_X2042~YN
+NEWHUD2.X2043~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerCreditIndicator2015~False~bool~True~Fee Details - Line 832 - Seller Credit~False~eNEWHUD2_X2043~YN
+NEWHUD2.X2044~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerObligatedIndicator2015~False~bool~True~Fee Details - Line 832 - Seller Obligated~False~eNEWHUD2_X2044~YN
+NEWHUD2.X2045~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerObligatedAmount2015~False~decimal~True~Fee Details - Line 832 - Seller Obligated Amount~False~~DECIMAL_2
+NEWHUD2.X2337~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line906].Sec32PointsAndFees2015~False~decimal~True~Fee Details - Line 906 - Sec 32 Points and Fees~False~~DECIMAL_2
+NEWHUD2.X2979~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1101e].BorrowerFinanced2015~False~decimal~True~Fee Details - Line 1101e - Borrower Financed Amount~False~~DECIMAL_2
+NEWHUD2.X3043~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102a].PtbType~False~string~True~Fee Details - Line 1102a - Paid to Type~False~eNEWHUD2_X3043~STRING
+NEWHUD2.X3076~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102b].PtbType~False~string~True~Fee Details - Line 1102b - Paid to Type~False~eNEWHUD2_X3076~STRING
+NEWHUD2.X3109~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102c].PtbType~False~string~True~Fee Details - Line 1102c - Paid to Type~False~eNEWHUD2_X3109~STRING
+NEWHUD2.X3142~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102d].PtbType~False~string~True~Fee Details - Line 1102d - Paid to Type~False~eNEWHUD2_X3142~STRING
+NEWHUD2.X3175~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102e].PtbType~False~string~True~Fee Details - Line 1102e - Paid to Type~False~eNEWHUD2_X3175~STRING
+NEWHUD2.X3208~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102f].PtbType~False~string~True~Fee Details - Line 1102f - Paid to Type~False~eNEWHUD2_X3208~STRING
+NEWHUD2.X3241~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102g].PtbType~False~string~True~Fee Details - Line 1102g - Paid to Type~False~eNEWHUD2_X3241~STRING
+NEWHUD2.X3274~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102h].PtbType~False~string~True~Fee Details - Line 1102h - Paid to Type~False~eNEWHUD2_X3274~STRING
+NEWHUD2.X3335~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1103].OptionalIndicator2015~False~bool~True~Fee Details - Line 1103 - Optional~False~eNEWHUD2_X3335~YN
+NEWHUD2.X3637~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1202].PtbType~False~string~True~Fee Details - Line 1202 - Paid to Type~False~eNEWHUD2_X3637~STRING
+NEWHUD2.X3670~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1203].PtbType~False~string~True~Fee Details - Line 1203 - Paid to Type~False~eNEWHUD2_X3670~STRING
+NEWHUD2.X3768~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1206].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1206 - Closing Disclosure Amount~False~~DECIMAL_2
+NEWHUD2.X3769~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1206].PtbType~False~string~True~Fee Details - Line 1206 - Paid to Type~False~eNEWHUD2_X3769~STRING
+NEWHUD2.X3801~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1207].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1207 - Closing Disclosure Amount~False~~DECIMAL_2
+NEWHUD2.X3802~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1207].PtbType~False~string~True~Fee Details - Line 1207 - Paid to Type~False~eNEWHUD2_X3802~STRING
+NEWHUD2.X3834~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1208].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1208 - Closing Disclosure Amount~False~~DECIMAL_2
+NEWHUD2.X3835~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1208].PtbType~False~string~True~Fee Details - Line 1208 - Paid to Type~False~eNEWHUD2_X3835~STRING
+NEWHUD2.X3901~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PtbType~False~string~True~Fee Details - Line 1210 - Paid to Type~False~eNEWHUD2_X3901~STRING
+NEWHUD2.X4395~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1201].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1201 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X4413~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line904].InsuranceIndicator2015~False~bool~True~Line 904 Insurance Indicator~False~eNEWHUD2_X4413~YN
+NEWHUD2.X4414~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line904].TaxesIndicator2015~False~bool~True~Line 904 Taxes Indicator~False~eNEWHUD2_X4414~YN
+NEWHUD2.X4429~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1310].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1310 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X4430~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1311].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1311 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X4431~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1312 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X4432~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1313 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X4433~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1314 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X4434~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1315 - Loan Estimate Amount~False~~INTEGER
+NEWHUD2.X1063~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line803x].PtbType~False~string~True~Fee Details - Line 803 - Paid to Type~False~eNEWHUD2_X1063~STRING
+NEWHUD2.X226~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line701].BorrowerCanShopForIndicator2015~False~bool~True~Fee Details - Line 701 - Borrower Can Shop For~False~eNEWHUD2_X226~YN
+NEWHUD2.X227~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line701].BorrowerDidShopForIndicator2015~False~bool~True~Fee Details - Line 701 - Borrower Did Shop For~False~eNEWHUD2_X227~YN
+NEWHUD2.X238~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line702].PtbType~False~string~True~Fee Details - Line 702 - Paid to Type~False~eNEWHUD2_X238~STRING
+NEWHUD2.X262~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line702].SellerObligatedIndicator2015~False~bool~True~Fee Details - Line 702 - Seller Obligated~False~eNEWHUD2_X262~YN
+NEWHUD2.X490~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800BrokerCompensation|Gfe2010FeeType=Undefined].BorrowerCanShopForIndicator2015~False~bool~True~Fee Details - Line 801f - Borrower Can Shop For~False~eNEWHUD2_X490~YN
+NEWHUD2.X491~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800BrokerCompensation|Gfe2010FeeType=Undefined].BorrowerDidShopForIndicator2015~False~bool~True~Fee Details - Line 801f - Borrower Did Shop For~False~eNEWHUD2_X491~YN
+NEWHUD2.X8~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line803x].PaidToName~False~string~True~Fees Line 803 Paid To Name~False~~STRING
+NEWHUD2.X9~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line803x].BorPaidAmount~False~decimal~True~Line 803 Borr Paid Amount~False~~DECIMAL_2
+NEWHUD.X1347~ClosingCost.Gfe2010Section.Line827~False~string~True~Fees Line 825 Descr~False~~STRING
+NEWHUD2.X3867~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1209 - Closing Disclosure Amount~False~~DECIMAL_2
+NEWHUD2.X3868~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PtbType~False~string~True~Fee Details - Line 1209 - Paid to Type~False~eNEWHUD2_X3868~STRING
 NEWHUD2.XPJT~ClosingCost.Gfe2010Section.ProjectedPaymentTableType~False~string~False~Projected Payment Table~False~~STRING
 NEWHUD2.XPJTCOLUMNS~ClosingCost.Gfe2010Section.ProjectedPaymentTableColumns~False~string~False~Projected Payment Table number of columns~False~~STRING
 NMLS.X1~LoanProductData.NmlsLoanType~False~string~False~NMLS Loan Type~True~eNMLS_X1~STRING
@@ -20385,6 +20954,36 @@ URLA.X267~Applications{current}.Residences[ApplicantType=Borrower|MailingAddress
 URLA.X268~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=True(X)].ForeignAddressIndicator~False~bool~False~TBD~False~eURLA_X268~BOOLEAN
 URLA.X269~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=True(X)].Country~False~string~False~TBD~False~~STRING
 URLA.X270~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=True(X)].Country~False~string~False~TBD~False~~STRING
+URLA.X271~Applications{current}.Coborrower.SectionAExplanation~false~string~true~Declarations Coborrower Section A Occupancy Explanation~false~~STRING
+URLA.X272~Applications{current}.Coborrower.SectionBExplanation~false~string~true~Declarations Coborrower Section B Explanation~false~~STRING
+URLA.X273~Applications{current}.Coborrower.SectionCExplanation~false~string~true~Declarations Coborrower Section C Explanation~false~~STRING
+URLA.X274~Applications{current}.Coborrower.SectionDExplanation~false~string~true~Declarations Coborrower Section D Explanation~false~~STRING
+URLA.X275~Applications{current}.Coborrower.SectionD2Explanation~false~string~true~Declarations Coborrower Section D2 Explanation~false~~STRING
+URLA.X276~Applications{current}.Coborrower.SectionEExplanation~false~string~true~Declarations Coborrower Section E Explanation~false~~STRING
+URLA.X277~Applications{current}.Coborrower.SectionFExplanation~false~string~true~Declarations Coborrower Section F Explanation~false~~STRING
+URLA.X278~Applications{current}.Coborrower.SectionGExplanation~false~string~true~Declarations Coborrower Section G Explanation~false~~STRING
+URLA.X279~Applications{current}.Coborrower.SectionHExplanation~false~string~true~Declarations Coborrower Section H Explanation~false~~STRING
+URLA.X280~Applications{current}.Coborrower.SectionIExplanation~false~string~true~Declarations Coborrower Section I Explanation~false~~STRING
+URLA.X281~Applications{current}.Coborrower.SectionJExplanation~false~string~true~Declarations Coborrower Section J Explanation~false~~STRING
+URLA.X282~Applications{current}.Coborrower.SectionKExplanation~false~string~true~Declarations Coborrower Section K Explanation~false~~STRING
+URLA.X283~Applications{current}.Coborrower.SectionLExplanation~false~string~true~Declarations Coborrower Section L Explanation~false~~STRING
+URLA.X284~Applications{current}.Coborrower.SectionMExplanation~false~string~true~Declarations Coborrower Section M Explanation~false~~STRING
+URLA.X285~Applications{current}.Coborrower.SectionAprintexplanation~false~bool~true~Print Section A explanation - Coborrower~false~eURLA_X247~YN
+URLA.X286~Applications{current}.Coborrower.SectionBprintexplanation~false~boolean~true~Print Section B explanation - Coborrower~false~eURLA_X248~YN
+URLA.X287~Applications{current}.Coborrower.SectionCprintexplanation~false~boolean~true~Print Section C explanation - Coborrower~false~eURLA_X249~YN
+URLA.X288~Applications{current}.Coborrower.SectionD1printexplanation~false~boolean~true~Print Section D1 explanation - Coborrower~false~eURLA_X250~YN
+URLA.X289~Applications{current}.Coborrower.SectionD2printexplanation~false~boolean~true~Print Section D2 explanation - Coborrower~false~eURLA_X251~YN
+URLA.X290~Applications{current}.Coborrower.SectionEprintexplanation~false~boolean~true~Print Section E explanation - Coborrower~false~eURLA_X252~YN
+URLA.X291~Applications{current}.Coborrower.SectionFprintexplanation~false~boolean~true~Print Section F explanation - Coborrower~false~eURLA_X253~YN
+URLA.X292~Applications{current}.Coborrower.SectionGprintexplanation~false~boolean~true~Print Section G explanation - Coborrower~false~eURLA_X254~YN
+URLA.X293~Applications{current}.Coborrower.SectionHprintexplanation~false~boolean~true~Print Section H explanation - Coborrower~false~eURLA_X255~YN
+URLA.X294~Applications{current}.Coborrower.SectionIprintexplanation~false~boolean~true~Print Section I explanation - Coborrower~false~eURLA_X256~YN
+URLA.X295~Applications{current}.Coborrower.SectionJprintexplanation~false~boolean~true~Print Section J explanation - Coborrower~false~eURLA_X257~YN
+URLA.X296~Applications{current}.Coborrower.SectionKprintexplanation~false~boolean~true~Print Section K explanation - Coborrower~false~eURLA_X258~YN
+URLA.X297~Applications{current}.Coborrower.SectionLprintexplanation~false~boolean~true~Print Section L explanation - Coborrower~false~eURLA_X259~YN
+URLA.X298~Applications{current}.Coborrower.SectionMprintexplanation~false~boolean~true~Print Section M explanation - Coborrower~false~eURLA_X260~YN
+
+
 ^(URLABAKA)(\d2)(01$)~Applications{current}.URLAAlternateNames[Owner=Borrower(1)].FirstName~False~string~False~TBD~False~~STRING
 ^(URLABAKA)(\d2)(02$)~Applications{current}.URLAAlternateNames[Owner=Borrower(1)].MiddleName~False~string~False~TBD~False~~STRING
 ^(URLABAKA)(\d2)(03$)~Applications{current}.URLAAlternateNames[Owner=Borrower(1)].LastName~False~string~False~TBD~False~~STRING
@@ -22166,433 +22765,3 @@ WEBSITEID~WebsiteId~False~string~False~Website ID~False~~STRING
 ^(XCOC)(\d2)(15$)~AlertChangeCircumstances[(1)].ChangedCircumstanceAlertVarianceAmount~False~decimal~False~Unk~False~~DECIMAL_2
 ^(XCOC)(\d2)(98$)~AlertChangeCircumstances[(1)].AltId~False~string~False~Good Faith Change of Circumstance - Record ID~False~~STRING
 TPO_MIGRATION~TPOMigrationDone~True~bool~False~~False~eTPO_MIGRATION~YN
-NEWHUD.X1235~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].Description~False~string~True~Fee Line 801 User Defined Fee 6 Descr~False~~STRING
-NEWHUD.X1236~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801L].PaidToName~False~string~True~Fees Line 801l Paid To Name~False~~STRING
-NEWHUD.X1237~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].Amount~False~decimal~True~Line 801 - User Defined Fee 6 - Amt~False~~DECIMAL_2
-NEWHUD.X1238~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 6 Seller Amt~False~~DECIMAL_2
-NEWHUD.X1239~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].PaidByType~False~string~True~Fees Line 801 Paid By Additional 6~False~eNEWHUD_X1239~STRING
-NEWHUD.X1240~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 6 POC~False~eNEWHUD_X1240~YN
-NEWHUD.X1241~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].AprIndicator~False~bool~True~Fees Line 801 Additional APR 6~False~eNEWHUD_X1241~YN
-NEWHUD.X1242~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=6].PtbType~False~string~True~Line 819 Additional Paid to 6~False~eNEWHUD_X1242~STRING
-NEWHUD.X1243~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].Description~False~string~True~Fee Line 801 User Defined Fee 7 Descr~False~~STRING
-NEWHUD.X1244~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801M].PaidToName~False~string~True~Fees Line 801m Paid To Name~False~~STRING
-NEWHUD.X1245~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].Amount~False~decimal~True~Line 801 - User Defined Fee 7 - Amt~False~~DECIMAL_2
-NEWHUD.X1246~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 7 Seller Amt~False~~DECIMAL_2
-NEWHUD.X1247~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].PaidByType~False~string~True~Fees Line 801 Paid By Additional 7~False~eNEWHUD_X1247~STRING
-NEWHUD.X1248~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 7 POC~False~eNEWHUD_X1248~YN
-NEWHUD.X1249~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].AprIndicator~False~bool~True~Fees Line 801 Additional APR 7~False~eNEWHUD_X1249~YN
-NEWHUD.X1250~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=7].PtbType~False~string~True~Line 819 Additional Paid to 7~False~eNEWHUD_X1250~STRING
-NEWHUD.X1251~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].Description~False~string~True~Fee Line 801 User Defined Fee 8 Descr~False~~STRING
-NEWHUD.X1252~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801N].PaidToName~False~string~True~Fees Line 801n Paid To Name~False~~STRING
-NEWHUD.X1253~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].Amount~False~decimal~True~Line 801 - User Defined Fee 8 - Amt~False~~DECIMAL_2
-NEWHUD.X1254~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 8 Seller Amt~False~~DECIMAL_2
-NEWHUD.X1255~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].PaidByType~False~string~True~Fees Line 801 Paid By Additional 8~False~eNEWHUD_X1255~STRING
-NEWHUD.X1256~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 8 POC~False~eNEWHUD_X1256~YN
-NEWHUD.X1257~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].AprIndicator~False~bool~True~Fees Line 801 Additional APR 8~False~eNEWHUD_X1257~YN
-NEWHUD.X1258~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=8].PtbType~False~string~True~Line 819 Additional Paid to 8~False~eNEWHUD_X1258~STRING
-NEWHUD.X1259~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].Description~False~string~True~Fee Line 801 User Defined Fee 9 Descr~False~~STRING
-NEWHUD.X1260~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801O].PaidToName~False~string~True~Fees Line 801o Paid To Name~False~~STRING
-NEWHUD.X1261~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].Amount~False~decimal~True~Line 801 - User Defined Fee 9 - Amt~False~~DECIMAL_2
-NEWHUD.X1262~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 9 Seller Amt~False~~DECIMAL_2
-NEWHUD.X1263~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].PaidByType~False~string~True~Fees Line 801 Paid By Additional 9~False~eNEWHUD_X1263~STRING
-NEWHUD.X1264~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 9 POC~False~eNEWHUD_X1264~YN
-NEWHUD.X1265~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].AprIndicator~False~bool~True~Fees Line 801 Additional APR 9~False~eNEWHUD_X1265~YN
-NEWHUD.X1266~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=9].PtbType~False~string~True~Line 819 Additional Paid to 9~False~eNEWHUD_X1266~STRING
-NEWHUD.X1267~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].Description~False~string~True~Fee Line 801 User Defined Fee 10 Descr~False~~STRING
-NEWHUD.X1268~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801P].PaidToName~False~string~True~Fees Line 801p Paid To Name~False~~STRING
-NEWHUD.X1269~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].Amount~False~decimal~True~Line 801 - User Defined Fee 10 - Amt~False~~DECIMAL_2
-NEWHUD.X1270~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 10 Seller Amt~False~~DECIMAL_2
-NEWHUD.X1271~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].PaidByType~False~string~True~Fees Line 801 Paid By Additional 10~False~eNEWHUD_X1271~STRING
-NEWHUD.X1272~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 10 POC~False~eNEWHUD_X1272~YN
-NEWHUD.X1273~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].AprIndicator~False~bool~True~Fees Line 801 Additional APR 10~False~eNEWHUD_X1273~YN
-NEWHUD.X1274~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=10].PtbType~False~string~True~Line 819 Additional Paid to 10~False~eNEWHUD_X1274~STRING
-NEWHUD.X1275~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].Description~False~string~True~Fee Line 801 User Defined Fee 11 Descr~False~~STRING
-NEWHUD.X1276~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Q].PaidToName~False~string~True~Fees Line 801q Paid To Name~False~~STRING
-NEWHUD.X1277~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].Amount~False~decimal~True~Line 801 - User Defined Fee 11 - Amt~False~~DECIMAL_2
-NEWHUD.X1278~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 11 Seller Amt~False~~DECIMAL_2
-NEWHUD.X1279~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].PaidByType~False~string~True~Fees Line 801 Paid By Additional 11~False~eNEWHUD_X1279~STRING
-NEWHUD.X1280~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 11 POC~False~eNEWHUD_X1280~YN
-NEWHUD.X1281~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].AprIndicator~False~bool~True~Fees Line 801 Additional APR 11~False~eNEWHUD_X1281~YN
-NEWHUD.X1282~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=11].PtbType~False~string~True~Line 819 Additional Paid to 11~False~eNEWHUD_X1282~STRING
-NEWHUD.X1283~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].Description~False~string~True~Fee Line 801 User Defined Fee 12 Descr~False~~STRING
-NEWHUD.X1284~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801R].PaidToName~False~string~True~Fees Line 801r Paid To Name~False~~STRING
-NEWHUD.X1285~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].Amount~False~decimal~True~Line 801 - User Defined Fee 12 - Amt~False~~DECIMAL_2
-NEWHUD.X1286~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].SelPaidAmount~False~decimal~True~User Defined Orig Fee Line 801 - Line 12 Seller Amt~False~~DECIMAL_2
-NEWHUD.X1287~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].PaidByType~False~string~True~Fees Line 801 Paid By Additional 12~False~eNEWHUD_X1287~STRING
-NEWHUD.X1288~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].PocPtcIndicator~False~bool~True~Fee Line 801 User Defined Fee 12 POC~False~eNEWHUD_X1288~YN
-NEWHUD.X1289~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].AprIndicator~False~bool~True~Fees Line 801 Additional APR 12~False~eNEWHUD_X1289~YN
-NEWHUD.X1290~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801Additional|Gfe2010FeeIndex=12].PtbType~False~string~True~Line 819 Additional Paid to 12~False~eNEWHUD_X1290~STRING
-NEWHUD.X1292~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PaidToName~False~string~True~Fees Line 818 Paid To Name~False~~STRING
-NEWHUD.X1293~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].BorPaidAmount~False~decimal~True~Fees Line 818 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1294~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].SelPaidAmount~False~decimal~True~Fees Line 818 Seller~False~~DECIMAL_2
-NEWHUD.X1295~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PaidByType~False~string~True~Fees Line 818 Paid By~False~eNEWHUD_X1295~STRING
-NEWHUD.X1296~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PocPtcIndicator~False~bool~True~Fees Line 818 POC~False~eNEWHUD_X1296~YN
-NEWHUD.X1297~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].AprIndicator~False~bool~True~Fees Line 818 APR~False~eNEWHUD_X1297~YN
-NEWHUD.X1298~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line820].PtbType~False~string~True~Fees Line 818 Paid to~False~eNEWHUD_X1298~STRING
-NEWHUD.X1300~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PaidToName~False~string~True~Fees Line 819 Paid To Name~False~~STRING
-NEWHUD.X1301~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].BorPaidAmount~False~decimal~True~Fees Line 819 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1302~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].SelPaidAmount~False~decimal~True~Fees Line 819 Seller~False~~DECIMAL_2
-NEWHUD.X1303~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PaidByType~False~string~True~Fees Line 819 Paid By~False~eNEWHUD_X1303~STRING
-NEWHUD.X1304~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PocPtcIndicator~False~bool~True~Fees Line 819 POC~False~eNEWHUD_X1304~YN
-NEWHUD.X1305~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].AprIndicator~False~bool~True~Fees Line 819 APR~False~eNEWHUD_X1305~YN
-NEWHUD.X1306~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line821].PtbType~False~string~True~Fees Line 819 Paid to~False~eNEWHUD_X1306~STRING
-NEWHUD.X1308~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PaidToName~False~string~True~Fees Line 820 Paid To Name~False~~STRING
-NEWHUD.X1309~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].BorPaidAmount~False~decimal~True~Fees Line 820 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1310~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].SelPaidAmount~False~decimal~True~Fees Line 820 Seller~False~~DECIMAL_2
-NEWHUD.X1311~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PaidByType~False~string~True~Fees Line 820 Paid By~False~eNEWHUD_X1311~STRING
-NEWHUD.X1312~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PocPtcIndicator~False~bool~True~Fees Line 820 POC~False~eNEWHUD_X1312~YN
-NEWHUD.X1313~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].AprIndicator~False~bool~True~Fees Line 820 APR~False~eNEWHUD_X1313~YN
-NEWHUD.X1314~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line822].PtbType~False~string~True~Fees Line 820 Paid to~False~eNEWHUD_X1314~STRING
-NEWHUD.X1316~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PaidToName~False~string~True~Fees Line 821 Paid To Name~False~~STRING
-NEWHUD.X1317~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].BorPaidAmount~False~decimal~True~Fees Line 821 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1318~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].SelPaidAmount~False~decimal~True~Fees Line 821 Seller~False~~DECIMAL_2
-NEWHUD.X1319~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PaidByType~False~string~True~Fees Line 821 Paid By~False~eNEWHUD_X1319~STRING
-NEWHUD.X1320~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PocPtcIndicator~False~bool~True~Fees Line 821 POC~False~eNEWHUD_X1320~YN
-NEWHUD.X1321~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].AprIndicator~False~bool~True~Fees Line 821 APR~False~eNEWHUD_X1321~YN
-NEWHUD.X1322~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line823].PtbType~False~string~True~Fees Line 821 Paid to~False~eNEWHUD_X1322~STRING
-NEWHUD.X1324~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PaidToName~False~string~True~Fees Line 822 Paid To Name~False~~STRING
-NEWHUD.X1325~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].BorPaidAmount~False~decimal~True~Fees Line 822 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1326~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].SelPaidAmount~False~decimal~True~Fees Line 822 Seller~False~~DECIMAL_2
-NEWHUD.X1327~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PaidByType~False~string~True~Fees Line 822 Paid By~False~eNEWHUD_X1327~STRING
-NEWHUD.X1328~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PocPtcIndicator~False~bool~True~Fees Line 822 POC~False~eNEWHUD_X1328~YN
-NEWHUD.X1329~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].AprIndicator~False~bool~True~Fees Line 822 APR~False~eNEWHUD_X1329~YN
-NEWHUD.X1330~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line824].PtbType~False~string~True~Fees Line 822 Paid to~False~eNEWHUD_X1330~STRING
-NEWHUD.X1332~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PaidToName~False~string~True~Fees Line 823 Paid To Name~False~~STRING
-NEWHUD.X1333~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].BorPaidAmount~False~decimal~True~Fees Line 823 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1334~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].SelPaidAmount~False~decimal~True~Fees Line 823 Seller~False~~DECIMAL_2
-NEWHUD.X1335~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PaidByType~False~string~True~Fees Line 823 Paid By~False~eNEWHUD_X1335~STRING
-NEWHUD.X1336~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PocPtcIndicator~False~bool~True~Fees Line 823 POC~False~eNEWHUD_X1336~YN
-NEWHUD.X1337~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].AprIndicator~False~bool~True~Fees Line 823 APR~False~eNEWHUD_X1337~YN
-NEWHUD.X1338~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line825].PtbType~False~string~True~Fees Line 823 Paid to~False~eNEWHUD_X1338~STRING
-NEWHUD.X1340~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PaidToName~False~string~True~Fees Line 824 Paid To Name~False~~STRING
-NEWHUD.X1341~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].BorPaidAmount~False~decimal~True~Fees Line 824 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1342~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].SelPaidAmount~False~decimal~True~Fees Line 824 Seller~False~~DECIMAL_2
-NEWHUD.X1343~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PaidByType~False~string~True~Fees Line 824 Paid By~False~eNEWHUD_X1343~STRING
-NEWHUD.X1344~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PocPtcIndicator~False~bool~True~Fees Line 824 POC~False~eNEWHUD_X1344~YN
-NEWHUD.X1345~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].AprIndicator~False~bool~True~Fees Line 824 APR~False~eNEWHUD_X1345~YN
-NEWHUD.X1346~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line826].PtbType~False~string~True~Fees Line 824 Paid to~False~eNEWHUD_X1346~STRING
-NEWHUD.X1349~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].BorPaidAmount~False~decimal~True~Fees Line 825 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1350~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].SelPaidAmount~False~decimal~True~Fees Line 825 Seller~False~~DECIMAL_2
-NEWHUD.X1351~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].PaidByType~False~string~True~Fees Line 825 Paid By~False~eNEWHUD_X1351~STRING
-NEWHUD.X1352~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].PocPtcIndicator~False~bool~True~Fees Line 825 POC~False~eNEWHUD_X1352~YN
-NEWHUD.X1353~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].AprIndicator~False~bool~True~Fees Line 825 APR~False~eNEWHUD_X1353~YN
-NEWHUD.X1354~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line827].PtbType~False~string~True~Fees Line 825 Paid to~False~eNEWHUD_X1354~STRING
-NEWHUD.X1356~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PaidToName~False~string~True~Fees Line 826 Paid To Name~False~~STRING
-NEWHUD.X1357~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].BorPaidAmount~False~decimal~True~Fees Line 826 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1358~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].SelPaidAmount~False~decimal~True~Fees Line 826 Seller~False~~DECIMAL_2
-NEWHUD.X1359~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PaidByType~False~string~True~Fees Line 826 Paid By~False~eNEWHUD_X1359~STRING
-NEWHUD.X1360~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PocPtcIndicator~False~bool~True~Fees Line 826 POC~False~eNEWHUD_X1360~YN
-NEWHUD.X1361~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].AprIndicator~False~bool~True~Fees Line 826 APR~False~eNEWHUD_X1361~YN
-NEWHUD.X1362~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line828].PtbType~False~string~True~Fees Line 826 Paid to~False~eNEWHUD_X1362~STRING
-NEWHUD.X1364~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PaidToName~False~string~True~Fees Line 827 Paid To Name~False~~STRING
-NEWHUD.X1365~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].BorPaidAmount~False~decimal~True~Fees Line 827 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1366~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].SelPaidAmount~False~decimal~True~Fees Line 827 Seller~False~~DECIMAL_2
-NEWHUD.X1367~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PaidByType~False~string~True~Fees Line 827 Paid By~False~eNEWHUD_X1367~STRING
-NEWHUD.X1368~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PocPtcIndicator~False~bool~True~Fees Line 827 POC~False~eNEWHUD_X1368~YN
-NEWHUD.X1369~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].AprIndicator~False~bool~True~Fees Line 827 APR~False~eNEWHUD_X1369~YN
-NEWHUD.X1370~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line829].PtbType~False~string~True~Fees Line 827 Paid to~False~eNEWHUD_X1370~STRING
-NEWHUD.X1372~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PaidToName~False~string~True~Fees Line 828 Paid To Name~False~~STRING
-NEWHUD.X1373~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].BorPaidAmount~False~decimal~True~Fees Line 828 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1374~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].SelPaidAmount~False~decimal~True~Fees Line 828 Seller~False~~DECIMAL_2
-NEWHUD.X1375~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PaidByType~False~string~True~Fees Line 828 Paid By~False~eNEWHUD_X1375~STRING
-NEWHUD.X1376~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PocPtcIndicator~False~bool~True~Fees Line 828 POC~False~eNEWHUD_X1376~YN
-NEWHUD.X1377~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].AprIndicator~False~bool~True~Fees Line 828 APR~False~eNEWHUD_X1377~YN
-NEWHUD.X1378~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line830].PtbType~False~string~True~Fees Line 828 Paid to~False~eNEWHUD_X1378~STRING
-NEWHUD.X1380~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PaidToName~False~string~True~Fees Line 829 Paid To Name~False~~STRING
-NEWHUD.X1381~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].BorPaidAmount~False~decimal~True~Fees Line 829 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1382~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].SelPaidAmount~False~decimal~True~Fees Line 829 Seller~False~~DECIMAL_2
-NEWHUD.X1383~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PaidByType~False~string~True~Fees Line 829 Paid By~False~eNEWHUD_X1383~STRING
-NEWHUD.X1384~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PocPtcIndicator~False~bool~True~Fees Line 829 POC~False~eNEWHUD_X1384~YN
-NEWHUD.X1385~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].AprIndicator~False~bool~True~Fees Line 829 APR~False~eNEWHUD_X1385~YN
-NEWHUD.X1386~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line831].PtbType~False~string~True~Fees Line 829 Paid to~False~eNEWHUD_X1386~STRING
-NEWHUD.X1388~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PaidToName~False~string~True~Fees Line 830 Paid To Name~False~~STRING
-NEWHUD.X1389~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorPaidAmount~False~decimal~True~Fees Line 830 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1390~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SelPaidAmount~False~decimal~True~Fees Line 830 Seller~False~~DECIMAL_2
-NEWHUD.X1391~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PaidByType~False~string~True~Fees Line 830 Paid By~False~eNEWHUD_X1391~STRING
-NEWHUD.X1392~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PocPtcIndicator~False~bool~True~Fees Line 830 POC~False~eNEWHUD_X1392~YN
-NEWHUD.X1393~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].AprIndicator~False~bool~True~Fees Line 830 APR~False~eNEWHUD_X1393~YN
-NEWHUD.X1394~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].PtbType~False~string~True~Fees Line 830 Paid to~False~eNEWHUD_X1394~STRING
-NEWHUD.X1396~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PaidToName~False~string~True~Fees Line 831 Paid To Name~False~~STRING
-NEWHUD.X1397~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].BorPaidAmount~False~decimal~True~Fees Line 831 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1398~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].SelPaidAmount~False~decimal~True~Fees Line 831 Seller~False~~DECIMAL_2
-NEWHUD.X1399~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PaidByType~False~string~True~Fees Line 831 Paid By~False~eNEWHUD_X1399~STRING
-NEWHUD.X1400~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PocPtcIndicator~False~bool~True~Fees Line 831 POC~False~eNEWHUD_X1400~YN
-NEWHUD.X1401~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].AprIndicator~False~bool~True~Fees Line 831 APR~False~eNEWHUD_X1401~YN
-NEWHUD.X1402~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line833].PtbType~False~string~True~Fees Line 831 Paid to~False~eNEWHUD_X1402~STRING
-NEWHUD.X1404~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PaidToName~False~string~True~Fees Line 832 Paid To Name~False~~STRING
-NEWHUD.X1405~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].BorPaidAmount~False~decimal~True~Fees Line 832 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1406~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].SelPaidAmount~False~decimal~True~Fees Line 832 Seller~False~~DECIMAL_2
-NEWHUD.X1407~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PaidByType~False~string~True~Fees Line 832 Paid By~False~eNEWHUD_X1407~STRING
-NEWHUD.X1408~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PocPtcIndicator~False~bool~True~Fees Line 832 POC~False~eNEWHUD_X1408~YN
-NEWHUD.X1409~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].AprIndicator~False~bool~True~Fees Line 832 APR~False~eNEWHUD_X1409~YN
-NEWHUD.X1410~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line834].PtbType~False~string~True~Fees Line 832 Paid to~False~eNEWHUD_X1410~STRING
-NEWHUD.X1412~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PaidToName~False~string~True~Fees Line 833 Paid To Name~False~~STRING
-NEWHUD.X1413~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].BorPaidAmount~False~decimal~True~Fees Line 833 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1414~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].SelPaidAmount~False~decimal~True~Fees Line 833 Seller~False~~DECIMAL_2
-NEWHUD.X1415~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PaidByType~False~string~True~Fees Line 833 Paid By~False~eNEWHUD_X1415~STRING
-NEWHUD.X1416~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PocPtcIndicator~False~bool~True~Fees Line 833 POC~False~eNEWHUD_X1416~YN
-NEWHUD.X1417~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].AprIndicator~False~bool~True~Fees Line 833 APR~False~eNEWHUD_X1417~YN
-NEWHUD.X1418~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line835].PtbType~False~string~True~Fees Line 833 Paid to~False~eNEWHUD_X1418~STRING
-NEWHUD.X1419~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=6].Description~False~string~True~User Defined Orig Fee Line 801 - Line 6 Desc~False~~STRING
-NEWHUD.X1420~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=6].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 6 Amt~False~~DECIMAL_2
-NEWHUD.X1421~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=7].Description~False~string~True~User Defined Orig Fee Line 801 - Line 7 Desc~False~~STRING
-NEWHUD.X1422~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=7].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 7 Amt~False~~DECIMAL_2
-NEWHUD.X1423~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=8].Description~False~string~True~User Defined Orig Fee Line 801 - Line 8 Desc~False~~STRING
-NEWHUD.X1424~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=8].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 8 Amt~False~~DECIMAL_2
-NEWHUD.X1425~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=9].Description~False~string~True~User Defined Orig Fee Line 801 - Line 9 Desc~False~~STRING
-NEWHUD.X1426~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=9].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 9 Amt~False~~DECIMAL_2
-NEWHUD.X1427~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=10].Description~False~string~True~User Defined Orig Fee Line 801 - Line 10 Desc~False~~STRING
-NEWHUD.X1428~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=10].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 10 Amt~False~~DECIMAL_2
-NEWHUD.X1429~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=11].Description~False~string~True~User Defined Orig Fee Line 801 - Line 11 Desc~False~~STRING
-NEWHUD.X1430~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=11].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 11 Amt~False~~DECIMAL_2
-NEWHUD.X1431~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=12].Description~False~string~True~User Defined Orig Fee Line 801 - Line 12 Desc~False~~STRING
-NEWHUD.X1432~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line801|Gfe2010FeeIndex=12].Amount~False~decimal~True~User Defined Orig Fee Line 801 - Line 12 Amt~False~~DECIMAL_2
-NEWHUD.X1433~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=11].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 11~False~~DECIMAL_2
-NEWHUD.X1434~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=12].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 12~False~~DECIMAL_2
-NEWHUD.X1435~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=13].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 13~False~~DECIMAL_2
-NEWHUD.X1436~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=14].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 14~False~~DECIMAL_2
-NEWHUD.X1437~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=15].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 15~False~~DECIMAL_2
-NEWHUD.X1438~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=16].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 16~False~~DECIMAL_2
-NEWHUD.X1439~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=17].WholePoc~False~decimal~True~Fee Line 801 Whole POC Amount 17~False~~DECIMAL_2
-NEWHUD.X1440~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=820].WholePoc~False~decimal~True~Fee Line 818 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1441~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=821].WholePoc~False~decimal~True~Fee Line 819 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1442~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=822].WholePoc~False~decimal~True~Fee Line 820 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1443~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=823].WholePoc~False~decimal~True~Fee Line 821 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1444~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=824].WholePoc~False~decimal~True~Fee Line 822 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1445~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=825].WholePoc~False~decimal~True~Fee Line 823 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1446~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=826].WholePoc~False~decimal~True~Fee Line 824 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1447~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=827].WholePoc~False~decimal~True~Fee Line 825 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1448~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=828].WholePoc~False~decimal~True~Fee Line 826 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1449~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=829].WholePoc~False~decimal~True~Fee Line 827 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1450~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=830].WholePoc~False~decimal~True~Fee Line 828 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1451~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=831].WholePoc~False~decimal~True~Fee Line 829 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1452~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=832].WholePoc~False~decimal~True~Fee Line 830 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1453~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=833].WholePoc~False~decimal~True~Fee Line 831 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1454~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=834].WholePoc~False~decimal~True~Fee Line 832 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1455~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=835].WholePoc~False~decimal~True~Fee Line 833 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1456~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=11].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 11~False~eNEWHUD_X1456~STRING
-NEWHUD.X1457~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=12].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 12~False~eNEWHUD_X1457~STRING
-NEWHUD.X1458~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=13].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 13~False~eNEWHUD_X1458~STRING
-NEWHUD.X1459~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=14].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 14~False~eNEWHUD_X1459~STRING
-NEWHUD.X1460~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=15].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 15~False~eNEWHUD_X1460~STRING
-NEWHUD.X1461~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=16].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 16~False~eNEWHUD_X1461~STRING
-NEWHUD.X1462~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=801|Gfe2010WholePocIndex=17].WholePocPaidByType~False~string~True~Fee Line 801 Whole POC Amount Paid By 17~False~eNEWHUD_X1462~STRING
-NEWHUD.X1463~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=820].WholePocPaidByType~False~string~True~Fee Line 818 Whole POC Amount Paid By~False~eNEWHUD_X1463~STRING
-NEWHUD.X1464~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=821].WholePocPaidByType~False~string~True~Fee Line 819 Whole POC Amount Paid By~False~eNEWHUD_X1464~STRING
-NEWHUD.X1465~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=822].WholePocPaidByType~False~string~True~Fee Line 820 Whole POC Amount Paid By~False~eNEWHUD_X1465~STRING
-NEWHUD.X1466~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=823].WholePocPaidByType~False~string~True~Fee Line 821 Whole POC Amount Paid By~False~eNEWHUD_X1466~STRING
-NEWHUD.X1467~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=824].WholePocPaidByType~False~string~True~Fee Line 822 Whole POC Amount Paid By~False~eNEWHUD_X1467~STRING
-NEWHUD.X1468~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=825].WholePocPaidByType~False~string~True~Fee Line 823 Whole POC Amount Paid By~False~eNEWHUD_X1468~STRING
-NEWHUD.X1469~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=826].WholePocPaidByType~False~string~True~Fee Line 824 Whole POC Amount Paid By~False~eNEWHUD_X1469~STRING
-NEWHUD.X1470~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=827].WholePocPaidByType~False~string~True~Fee Line 825 Whole POC Amount Paid By~False~eNEWHUD_X1470~STRING
-NEWHUD.X1471~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=828].WholePocPaidByType~False~string~True~Fee Line 826 Whole POC Amount Paid By~False~eNEWHUD_X1471~STRING
-NEWHUD.X1472~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=829].WholePocPaidByType~False~string~True~Fee Line 827 Whole POC Amount Paid By~False~eNEWHUD_X1472~STRING
-NEWHUD.X1473~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=830].WholePocPaidByType~False~string~True~Fee Line 828 Whole POC Amount Paid By~False~eNEWHUD_X1473~STRING
-NEWHUD.X1474~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=831].WholePocPaidByType~False~string~True~Fee Line 829 Whole POC Amount Paid By~False~eNEWHUD_X1474~STRING
-NEWHUD.X1475~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=832].WholePocPaidByType~False~string~True~Fee Line 830 Whole POC Amount Paid By~False~eNEWHUD_X1475~STRING
-NEWHUD.X1476~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=833].WholePocPaidByType~False~string~True~Fee Line 831 Whole POC Amount Paid By~False~eNEWHUD_X1476~STRING
-NEWHUD.X1477~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=834].WholePocPaidByType~False~string~True~Fee Line 832 Whole POC Amount Paid By~False~eNEWHUD_X1477~STRING
-NEWHUD.X1478~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=835].WholePocPaidByType~False~string~True~Fee Line 833 Whole POC Amount Paid By~False~eNEWHUD_X1478~STRING
-NEWHUD.X1479~ClosingCost.Gfe2010Page.LineLfwbcIndicator~False~bool~True~Fees Line 801 L Funding Worksheet Checkbox for Borrower~False~eNEWHUD_X1479~YN
-NEWHUD.X1541~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=11].Description~False~string~True~Required Service 11 Descr~False~~STRING
-NEWHUD.X1542~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=11].Amount~False~decimal~True~Required Service 11 Charge~False~~DECIMAL_2
-NEWHUD.X1543~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=12].Description~False~string~True~Required Service 12 Descr~False~~STRING
-NEWHUD.X1544~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=12].Amount~False~decimal~True~Required Service 12 Charge~False~~DECIMAL_2
-NEWHUD.X1545~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=13].Description~False~string~True~Required Service 13 Descr~False~~STRING
-NEWHUD.X1546~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=13].Amount~False~decimal~True~Required Service 13 Charge~False~~DECIMAL_2
-NEWHUD.X1547~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=14].Description~False~string~True~Required Service 14 Descr~False~~STRING
-NEWHUD.X1548~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=14].Amount~False~decimal~True~Required Service 14 Charge~False~~DECIMAL_2
-NEWHUD.X1549~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=15].Description~False~string~True~Required Service 15 Descr~False~~STRING
-NEWHUD.X1550~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=15].Amount~False~decimal~True~Required Service 15 Charge~False~~DECIMAL_2
-NEWHUD.X1551~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=16].Description~False~string~True~Required Service 16 Descr~False~~STRING
-NEWHUD.X1552~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=16].Amount~False~decimal~True~Required Service 16 Charge~False~~DECIMAL_2
-NEWHUD.X1553~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=17].Description~False~string~True~Required Service 17 Descr~False~~STRING
-NEWHUD.X1554~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=17].Amount~False~decimal~True~Required Service 17 Charge~False~~DECIMAL_2
-NEWHUD.X1555~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=18].Description~False~string~True~Required Service 18 Descr~False~~STRING
-NEWHUD.X1556~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=18].Amount~False~decimal~True~Required Service 18 Charge~False~~DECIMAL_2
-NEWHUD.X1557~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=19].Description~False~string~True~Required Service 19 Descr~False~~STRING
-NEWHUD.X1558~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=19].Amount~False~decimal~True~Required Service 19 Charge~False~~DECIMAL_2
-NEWHUD.X1559~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=20].Description~False~string~True~Required Service 20 Descr~False~~STRING
-NEWHUD.X1560~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=20].Amount~False~decimal~True~Required Service 20 Charge~False~~DECIMAL_2
-NEWHUD.X1561~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=21].Description~False~string~True~Required Service 21 Descr~False~~STRING
-NEWHUD.X1562~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=21].Amount~False~decimal~True~Required Service 21 Charge~False~~DECIMAL_2
-NEWHUD.X1563~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=22].Description~False~string~True~Required Service 22 Descr~False~~STRING
-NEWHUD.X1564~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=22].Amount~False~decimal~True~Required Service 22 Charge~False~~DECIMAL_2
-NEWHUD.X1565~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=23].Description~False~string~True~Required Service 23 Descr~False~~STRING
-NEWHUD.X1566~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=23].Amount~False~decimal~True~Required Service 23 Charge~False~~DECIMAL_2
-NEWHUD.X1567~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=24].Description~False~string~True~Required Service 24 Descr~False~~STRING
-NEWHUD.X1568~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=24].Amount~False~decimal~True~Required Service 24 Charge~False~~DECIMAL_2
-NEWHUD.X1569~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=25].Description~False~string~True~Required Service 25 Descr~False~~STRING
-NEWHUD.X1570~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=25].Amount~False~decimal~True~Required Service 25 Charge~False~~DECIMAL_2
-NEWHUD.X1571~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=26].Description~False~string~True~Required Service 26 Descr~False~~STRING
-NEWHUD.X1572~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=26].Amount~False~decimal~True~Required Service 26 Charge~False~~DECIMAL_2
-NEWHUD.X1573~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=27].Description~False~string~True~Required Service 27 Descr~False~~STRING
-NEWHUD.X1574~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=27].Amount~False~decimal~True~Required Service 27 Charge~False~~DECIMAL_2
-NEWHUD.X1575~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=28].Description~False~string~True~Required Service 28 Descr~False~~STRING
-NEWHUD.X1576~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=28].Amount~False~decimal~True~Required Service 28 Charge~False~~DECIMAL_2
-NEWHUD.X1577~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=29].Description~False~string~True~Required Service 29 Descr~False~~STRING
-NEWHUD.X1578~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=29].Amount~False~decimal~True~Required Service 29 Charge~False~~DECIMAL_2
-NEWHUD.X1579~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=30].Description~False~string~True~Required Service 30 Descr~False~~STRING
-NEWHUD.X1580~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=30].Amount~False~decimal~True~Required Service 30 Charge~False~~DECIMAL_2
-NEWHUD.X1581~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=31].Description~False~string~True~Required Service 31 Descr~False~~STRING
-NEWHUD.X1582~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=31].Amount~False~decimal~True~Required Service 31 Charge~False~~DECIMAL_2
-NEWHUD.X1583~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=32].Description~False~string~True~Required Service 32 Descr~False~~STRING
-NEWHUD.X1584~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=32].Amount~False~decimal~True~Required Service 32 Charge~False~~DECIMAL_2
-NEWHUD.X1585~ClosingCost.Gfe2010.TotalOfFinancedFees~False~decimal~True~Borr Total of Financed Fees~False~~DECIMAL_2
-NEWHUD.X1587~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PaidToName~False~string~True~Fees Line 911 Paid To Name~False~~STRING
-NEWHUD.X1588~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].BorPaidAmount~False~decimal~True~Fees Line 911 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1589~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].SelPaidAmount~False~decimal~True~Fees Line 911 Seller~False~~DECIMAL_2
-NEWHUD.X1590~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PaidByType~False~string~True~Fees Line 911 Paid By~False~eNEWHUD_X1590~STRING
-NEWHUD.X1591~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PocPtcIndicator~False~bool~True~Fees Line 911 POC~False~eNEWHUD_X1591~YN
-NEWHUD.X1592~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].AprIndicator~False~bool~True~Fees Line 911 APR~False~eNEWHUD_X1592~YN
-NEWHUD.X1593~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line911].PtbType~False~string~True~Fees Line 911 Paid to~False~eNEWHUD_X1593~STRING
-NEWHUD.X1595~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PaidToName~False~string~True~Fees Line 912 Paid To Name~False~~STRING
-NEWHUD.X1596~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].BorPaidAmount~False~decimal~True~Fees Line 912 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1597~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].SelPaidAmount~False~decimal~True~Fees Line 912 Seller~False~~DECIMAL_2
-NEWHUD.X1598~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PaidByType~False~string~True~Fees Line 912 Paid By~False~eNEWHUD_X1598~STRING
-NEWHUD.X1599~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PocPtcIndicator~False~bool~True~Fees Line 912 POC~False~eNEWHUD_X1599~YN
-NEWHUD.X1600~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].AprIndicator~False~bool~True~Fees Line 912 APR~False~eNEWHUD_X1600~YN
-NEWHUD.X1601~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line912].PtbType~False~string~True~Fees Line 912 Paid to~False~eNEWHUD_X1601~STRING
-NEWHUD.X1603~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PaidToName~False~string~True~Fees Line 1115 Paid To Name~False~~STRING
-NEWHUD.X1604~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].BorPaidAmount~False~decimal~True~Fees Line 1115 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1605~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].SelPaidAmount~False~decimal~True~Fees Line 1115 Seller~False~~DECIMAL_2
-NEWHUD.X1606~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PaidByType~False~string~True~Fees Line 1115 Paid By~False~eNEWHUD_X1606~STRING
-NEWHUD.X1607~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PocPtcIndicator~False~bool~True~Fees Line 1115 POC~False~eNEWHUD_X1607~YN
-NEWHUD.X1608~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].AprIndicator~False~bool~True~Fees Line 1115 APR~False~eNEWHUD_X1608~YN
-NEWHUD.X1609~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1115].PtbType~False~string~True~Fees Line 1115 Paid to~False~eNEWHUD_X1609~STRING
-NEWHUD.X1611~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PaidToName~False~string~True~Fees Line 1116 Paid To Name~False~~STRING
-NEWHUD.X1612~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].BorPaidAmount~False~decimal~True~Fees Line 1116 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1613~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].SelPaidAmount~False~decimal~True~Fees Line 1116 Seller~False~~DECIMAL_2
-NEWHUD.X1614~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PaidByType~False~string~True~Fees Line 1116 Paid By~False~eNEWHUD_X1614~STRING
-NEWHUD.X1615~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PocPtcIndicator~False~bool~True~Fees Line 1116 POC~False~eNEWHUD_X1615~YN
-NEWHUD.X1616~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].AprIndicator~False~bool~True~Fees Line 1116 APR~False~eNEWHUD_X1616~YN
-NEWHUD.X1617~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1116].PtbType~False~string~True~Fees Line 1116 Paid to~False~eNEWHUD_X1617~STRING
-NEWHUD.X1619~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PaidToName~False~string~True~Fees Line 1209 Paid To Name~False~~STRING
-NEWHUD.X1620~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].BorPaidAmount~False~decimal~True~Fees Line 1209 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1621~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].SelPaidAmount~False~decimal~True~Fees Line 1209 Seller~False~~DECIMAL_2
-NEWHUD.X1622~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PaidByType~False~string~True~Fees Line 1209 Paid By~False~eNEWHUD_X1622~STRING
-NEWHUD.X1623~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PocPtcIndicator~False~bool~True~Fees Line 1209 POC~False~eNEWHUD_X1623~YN
-NEWHUD.X1624~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].AprIndicator~False~bool~True~Fees Line 1209 APR~False~eNEWHUD_X1624~YN
-NEWHUD.X1626~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PaidToName~False~string~True~Fees Line 1210 Paid To Name~False~~STRING
-NEWHUD.X1627~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].BorPaidAmount~False~decimal~True~Fees Line 1210 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1628~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].SelPaidAmount~False~decimal~True~Fees Line 1210 Seller~False~~DECIMAL_2
-NEWHUD.X1629~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PaidByType~False~string~True~Fees Line 1210 Paid By~False~eNEWHUD_X1629~STRING
-NEWHUD.X1630~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PocPtcIndicator~False~bool~True~Fees Line 1210 POC~False~eNEWHUD_X1630~YN
-NEWHUD.X1631~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].AprIndicator~False~bool~True~Fees Line 1210 APR~False~eNEWHUD_X1631~YN
-NEWHUD.X1633~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PaidToName~False~string~True~Fees Line 1312 Paid To Name~False~~STRING
-NEWHUD.X1634~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].BorPaidAmount~False~decimal~True~Fees Line 1312 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1635~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].SelPaidAmount~False~decimal~True~Fees Line 1312 Seller~False~~DECIMAL_2
-NEWHUD.X1636~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PaidByType~False~string~True~Fees Line 1312 Paid By~False~eNEWHUD_X1636~STRING
-NEWHUD.X1637~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PocPtcIndicator~False~bool~True~Fees Line 1312 POC~False~eNEWHUD_X1637~YN
-NEWHUD.X1638~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].AprIndicator~False~bool~True~Fees Line 1312 APR~False~eNEWHUD_X1638~YN
-NEWHUD.X1639~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].PtbType~False~string~True~Fees Line 1312 Paid to~False~eNEWHUD_X1639~STRING
-NEWHUD.X1641~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PaidToName~False~string~True~Fees Line 1313 Paid To Name~False~~STRING
-NEWHUD.X1642~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].BorPaidAmount~False~decimal~True~Fees Line 1313 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1643~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].SelPaidAmount~False~decimal~True~Fees Line 1313 Seller~False~~DECIMAL_2
-NEWHUD.X1644~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PaidByType~False~string~True~Fees Line 1313 Paid By~False~eNEWHUD_X1644~STRING
-NEWHUD.X1645~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PocPtcIndicator~False~bool~True~Fees Line 1313 POC~False~eNEWHUD_X1645~YN
-NEWHUD.X1646~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].AprIndicator~False~bool~True~Fees Line 1313 APR~False~eNEWHUD_X1646~YN
-NEWHUD.X1647~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].PtbType~False~string~True~Fees Line 1313 Paid to~False~eNEWHUD_X1647~STRING
-NEWHUD.X1649~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PaidToName~False~string~True~Fees Line 1314 Paid To Name~False~~STRING
-NEWHUD.X1650~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].BorPaidAmount~False~decimal~True~Fees Line 1314 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1651~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].SelPaidAmount~False~decimal~True~Fees Line 1314 Seller~False~~DECIMAL_2
-NEWHUD.X1652~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PaidByType~False~string~True~Fees Line 1314 Paid By~False~eNEWHUD_X1652~STRING
-NEWHUD.X1653~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PocPtcIndicator~False~bool~True~Fees Line 1314 POC~False~eNEWHUD_X1653~YN
-NEWHUD.X1654~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].AprIndicator~False~bool~True~Fees Line 1314 APR~False~eNEWHUD_X1654~YN
-NEWHUD.X1655~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].PtbType~False~string~True~Fees Line 1314 Paid to~False~eNEWHUD_X1655~STRING
-NEWHUD.X1657~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PaidToName~False~string~True~Fees Line 1315 Paid To Name~False~~STRING
-NEWHUD.X1658~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].BorPaidAmount~False~decimal~True~Fees Line 1315 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1659~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].SelPaidAmount~False~decimal~True~Fees Line 1315 Seller~False~~DECIMAL_2
-NEWHUD.X1660~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PaidByType~False~string~True~Fees Line 1315 Paid By~False~eNEWHUD_X1660~STRING
-NEWHUD.X1661~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PocPtcIndicator~False~bool~True~Fees Line 1315 POC~False~eNEWHUD_X1661~YN
-NEWHUD.X1662~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].AprIndicator~False~bool~True~Fees Line 1315 APR~False~eNEWHUD_X1662~YN
-NEWHUD.X1663~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].PtbType~False~string~True~Fees Line 1315 Paid to~False~eNEWHUD_X1663~STRING
-NEWHUD.X1664~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=911].WholePoc~False~decimal~True~Fee Line 911 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1665~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=912].WholePoc~False~decimal~True~Fee Line 912 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1666~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1115].WholePoc~False~decimal~True~Fee Line 1115 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1667~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1116].WholePoc~False~decimal~True~Fee Line 1116 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1668~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1209].WholePoc~False~decimal~True~Fee Line 1209 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1669~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1210].WholePoc~False~decimal~True~Fee Line 1210 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1670~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1312].WholePoc~False~decimal~True~Fee Line 1312 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1671~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1313].WholePoc~False~decimal~True~Fee Line 1313 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1672~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1314].WholePoc~False~decimal~True~Fee Line 1314 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1673~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1315].WholePoc~False~decimal~True~Fee Line 1315 Whole POC Amount~False~~DECIMAL_2
-NEWHUD.X1674~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=911].WholePocPaidByType~False~string~True~Fee Line 911 Whole POC Amount Paid By~False~eNEWHUD_X1674~STRING
-NEWHUD.X1675~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=912].WholePocPaidByType~False~string~True~Fee Line 912 Whole POC Amount Paid By~False~eNEWHUD_X1675~STRING
-NEWHUD.X1676~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1115].WholePocPaidByType~False~string~True~Fee Line 1115 Whole POC Amount Paid By~False~eNEWHUD_X1676~STRING
-NEWHUD.X1677~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1116].WholePocPaidByType~False~string~True~Fee Line 1116 Whole POC Amount Paid By~False~eNEWHUD_X1677~STRING
-NEWHUD.X1678~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1209].WholePocPaidByType~False~string~True~Fee Line 1209 Whole POC Amount Paid By~False~eNEWHUD_X1678~STRING
-NEWHUD.X1679~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1210].WholePocPaidByType~False~string~True~Fee Line 1210 Whole POC Amount Paid By~False~eNEWHUD_X1679~STRING
-NEWHUD.X1680~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1312].WholePocPaidByType~False~string~True~Fee Line 1312 Whole POC Amount Paid By~False~eNEWHUD_X1680~STRING
-NEWHUD.X1681~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1313].WholePocPaidByType~False~string~True~Fee Line 1313 Whole POC Amount Paid By~False~eNEWHUD_X1681~STRING
-NEWHUD.X1682~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1314].WholePocPaidByType~False~string~True~Fee Line 1314 Whole POC Amount Paid By~False~eNEWHUD_X1682~STRING
-NEWHUD.X1683~ClosingCost.Gfe2010.Gfe2010WholePocs[LineNumber=1315].WholePocPaidByType~False~string~True~Fee Line 1315 Whole POC Amount Paid By~False~eNEWHUD_X1683~STRING
-NEWHUD2.X2016~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].TotalFeeAmount2015~False~decimal~True~Fee Details - Line 832 - Total Fee Amount~False~~DECIMAL_2
-NEWHUD2.X2017~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].TotalFeePercentage2015~False~decimal~True~Fee Details - Line 832 - Total Fee Percentage~False~~DECIMAL_3
-NEWHUD2.X2018~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 832 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X2019~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 832 - Closing Disclosure Amount~False~~DECIMAL_2
-NEWHUD2.X2022~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerFinanced2015~False~decimal~True~Fee Details - Line 832 - Borrower Financed Amount~False~~DECIMAL_2
-NEWHUD2.X2023~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerPtc2015~False~decimal~True~Fee Details - Line 832 - Borrower PTC Amount~False~~DECIMAL_2
-NEWHUD2.X2024~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerPac2015~False~decimal~True~Fee Details - Line 832 - Borrower PAC Amount~False~~DECIMAL_2
-NEWHUD2.X2025~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerPoc2015~False~decimal~True~Fee Details - Line 832 - Borrower POC Amount~False~~DECIMAL_2
-NEWHUD2.X2026~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Borrower Amount Paid~False~~DECIMAL_2
-NEWHUD2.X2027~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerPac2015~False~decimal~True~Fee Details - Line 832 - Seller PAC Amount~False~~DECIMAL_2
-NEWHUD2.X2028~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerPoc2015~False~decimal~True~Fee Details - Line 832 - Seller POC Amount~False~~DECIMAL_2
-NEWHUD2.X2029~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Seller Amount Paid~False~~DECIMAL_2
-NEWHUD2.X2030~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BrokerPac2015~False~decimal~True~Fee Details - Line 832 - Broker PAC Amount~False~~DECIMAL_2
-NEWHUD2.X2031~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BrokerPoc2015~False~decimal~True~Fee Details - Line 832 - Broker POC Amount~False~~DECIMAL_2
-NEWHUD2.X2032~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BrokerAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Broker Amount Paid~False~~DECIMAL_2
-NEWHUD2.X2033~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LenderPac2015~False~decimal~True~Fee Details - Line 832 - Lender PAC Amount~False~~DECIMAL_2
-NEWHUD2.X2034~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LenderPoc2015~False~decimal~True~Fee Details - Line 832 - Lender POC Amount~False~~DECIMAL_2
-NEWHUD2.X2035~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].LenderAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Lender Amount Paid~False~~DECIMAL_2
-NEWHUD2.X2036~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].OtherPac2015~False~decimal~True~Fee Details - Line 832 - Other PAC Amount~False~~DECIMAL_2
-NEWHUD2.X2037~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].OtherPoc2015~False~decimal~True~Fee Details - Line 832 - Other POC Amount~False~~DECIMAL_2
-NEWHUD2.X2038~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].OtherAmountPaid2015~False~decimal~True~Fee Details - Line 832 - Other Amount Paid~False~~DECIMAL_2
-NEWHUD2.X2039~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].TotalPaidByBLo2015~False~decimal~True~Fee Details - Line 832 - Total Paid By Amount~False~~DECIMAL_2
-NEWHUD2.X2040~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].Sec32PointsAndFees2015~False~decimal~True~Fee Details - Line 832 - Sec 32 Points and Fees~False~~DECIMAL_2
-NEWHUD2.X2041~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerCanShopForIndicator2015~False~bool~True~Fee Details - Line 832 - Borrower Can Shop For~False~eNEWHUD2_X2041~YN
-NEWHUD2.X2042~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].BorrowerDidShopForIndicator2015~False~bool~True~Fee Details - Line 832 - Borrower Did Shop For~False~eNEWHUD2_X2042~YN
-NEWHUD2.X2043~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerCreditIndicator2015~False~bool~True~Fee Details - Line 832 - Seller Credit~False~eNEWHUD2_X2043~YN
-NEWHUD2.X2044~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerObligatedIndicator2015~False~bool~True~Fee Details - Line 832 - Seller Obligated~False~eNEWHUD2_X2044~YN
-NEWHUD2.X2045~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line832].SellerObligatedAmount2015~False~decimal~True~Fee Details - Line 832 - Seller Obligated Amount~False~~DECIMAL_2
-NEWHUD2.X2337~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line906].Sec32PointsAndFees2015~False~decimal~True~Fee Details - Line 906 - Sec 32 Points and Fees~False~~DECIMAL_2
-NEWHUD2.X2979~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1101e].BorrowerFinanced2015~False~decimal~True~Fee Details - Line 1101e - Borrower Financed Amount~False~~DECIMAL_2
-NEWHUD2.X3043~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102a].PtbType~False~string~True~Fee Details - Line 1102a - Paid to Type~False~eNEWHUD2_X3043~STRING
-NEWHUD2.X3076~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102b].PtbType~False~string~True~Fee Details - Line 1102b - Paid to Type~False~eNEWHUD2_X3076~STRING
-NEWHUD2.X3109~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102c].PtbType~False~string~True~Fee Details - Line 1102c - Paid to Type~False~eNEWHUD2_X3109~STRING
-NEWHUD2.X3142~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102d].PtbType~False~string~True~Fee Details - Line 1102d - Paid to Type~False~eNEWHUD2_X3142~STRING
-NEWHUD2.X3175~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102e].PtbType~False~string~True~Fee Details - Line 1102e - Paid to Type~False~eNEWHUD2_X3175~STRING
-NEWHUD2.X3208~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102f].PtbType~False~string~True~Fee Details - Line 1102f - Paid to Type~False~eNEWHUD2_X3208~STRING
-NEWHUD2.X3241~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102g].PtbType~False~string~True~Fee Details - Line 1102g - Paid to Type~False~eNEWHUD2_X3241~STRING
-NEWHUD2.X3274~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1102h].PtbType~False~string~True~Fee Details - Line 1102h - Paid to Type~False~eNEWHUD2_X3274~STRING
-NEWHUD2.X3335~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1103].OptionalIndicator2015~False~bool~True~Fee Details - Line 1103 - Optional~False~eNEWHUD2_X3335~YN
-NEWHUD2.X3637~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1202].PtbType~False~string~True~Fee Details - Line 1202 - Paid to Type~False~eNEWHUD2_X3637~STRING
-NEWHUD2.X3670~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1203].PtbType~False~string~True~Fee Details - Line 1203 - Paid to Type~False~eNEWHUD2_X3670~STRING
-NEWHUD2.X3768~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1206].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1206 - Closing Disclosure Amount~False~~DECIMAL_2
-NEWHUD2.X3769~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1206].PtbType~False~string~True~Fee Details - Line 1206 - Paid to Type~False~eNEWHUD2_X3769~STRING
-NEWHUD2.X3801~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1207].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1207 - Closing Disclosure Amount~False~~DECIMAL_2
-NEWHUD2.X3802~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1207].PtbType~False~string~True~Fee Details - Line 1207 - Paid to Type~False~eNEWHUD2_X3802~STRING
-NEWHUD2.X3834~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1208].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1208 - Closing Disclosure Amount~False~~DECIMAL_2
-NEWHUD2.X3835~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1208].PtbType~False~string~True~Fee Details - Line 1208 - Paid to Type~False~eNEWHUD2_X3835~STRING
-NEWHUD2.X3901~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1210].PtbType~False~string~True~Fee Details - Line 1210 - Paid to Type~False~eNEWHUD2_X3901~STRING
-NEWHUD2.X4395~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1201].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1201 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X4413~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line904].InsuranceIndicator2015~False~bool~True~Line 904 Insurance Indicator~False~eNEWHUD2_X4413~YN
-NEWHUD2.X4414~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line904].TaxesIndicator2015~False~bool~True~Line 904 Taxes Indicator~False~eNEWHUD2_X4414~YN
-NEWHUD2.X4429~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1310].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1310 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X4430~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1311].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1311 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X4431~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1312].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1312 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X4432~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1313].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1313 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X4433~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1314].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1314 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X4434~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1315].LastDisclosedLoanEstimate2015~False~int~True~Fee Details - Line 1315 - Loan Estimate Amount~False~~INTEGER
-NEWHUD2.X1063~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line803x].PtbType~False~string~True~Fee Details - Line 803 - Paid to Type~False~eNEWHUD2_X1063~STRING
-NEWHUD2.X226~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line701].BorrowerCanShopForIndicator2015~False~bool~True~Fee Details - Line 701 - Borrower Can Shop For~False~eNEWHUD2_X226~YN
-NEWHUD2.X227~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line701].BorrowerDidShopForIndicator2015~False~bool~True~Fee Details - Line 701 - Borrower Did Shop For~False~eNEWHUD2_X227~YN
-NEWHUD2.X238~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line702].PtbType~False~string~True~Fee Details - Line 702 - Paid to Type~False~eNEWHUD2_X238~STRING
-NEWHUD2.X262~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section700|Gfe2010FeeType=Line702].SellerObligatedIndicator2015~False~bool~True~Fee Details - Line 702 - Seller Obligated~False~eNEWHUD2_X262~YN
-NEWHUD2.X490~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800BrokerCompensation|Gfe2010FeeType=Undefined].BorrowerCanShopForIndicator2015~False~bool~True~Fee Details - Line 801f - Borrower Can Shop For~False~eNEWHUD2_X490~YN
-NEWHUD2.X491~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800BrokerCompensation|Gfe2010FeeType=Undefined].BorrowerDidShopForIndicator2015~False~bool~True~Fee Details - Line 801f - Borrower Did Shop For~False~eNEWHUD2_X491~YN
-NEWHUD2.X8~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line803x].PaidToName~False~string~True~Fees Line 803 Paid To Name~False~~STRING
-NEWHUD2.X9~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line803x].BorPaidAmount~False~decimal~True~Line 803 Borr Paid Amount~False~~DECIMAL_2
-NEWHUD.X1347~ClosingCost.Gfe2010Section.Line827~False~string~True~Fees Line 825 Descr~False~~STRING
-NEWHUD2.X3867~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].LastDisclosedClosingDisclosure2015~False~decimal~True~Fee Details - Line 1209 - Closing Disclosure Amount~False~~DECIMAL_2
-NEWHUD2.X3868~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1200|Gfe2010FeeType=Line1209].PtbType~False~string~True~Fee Details - Line 1209 - Paid to Type~False~eNEWHUD2_X3868~STRING

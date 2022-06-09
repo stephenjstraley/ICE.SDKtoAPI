@@ -14,6 +14,12 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="id", EmitDefaultValue=false)]
 		public string Id { get; set; }
 
+		[DataMember(Name = "ausLogExtensionId", EmitDefaultValue = false)]
+		public string AusLogExtensionId { get; set; }
+
+		[DataMember(Name = "ausResponseFileName", EmitDefaultValue = false)]
+		public string AusResponseFileName { get; set; }		
+
 		[DataMember(Name="isEmpty", EmitDefaultValue=false)]
 		public bool? IsEmpty { get; set; }
 

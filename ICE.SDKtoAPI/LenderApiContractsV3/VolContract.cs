@@ -190,6 +190,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
 
         [DataMember(Name = "country")]
         public string Country { get; set; }
+
+        [DataMember(Name = "energyEfficientDebts")]
+        public bool? EnergyEfficientDebts { get; set; }
+
     }
 
     [DataContract]

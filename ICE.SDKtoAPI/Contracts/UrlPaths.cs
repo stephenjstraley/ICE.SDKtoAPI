@@ -9,6 +9,7 @@ namespace ICE.SDKtoAPI.Contracts
         string _version = "v1";
         string _basePath = "https://api.elliemae.com";
         string _encompassPath = "/encompass/";
+        string _encompassDocsPath = "/encompassdocs/";
         string _tokenPath = "/oauth2/";
         string _loanApiPath = "/loans";
         string _webHook = "/webhook";
@@ -23,7 +24,9 @@ namespace ICE.SDKtoAPI.Contracts
 
         public string BasePath { get => _basePath; }
         public string EncompassPath { get => _encompassPath + _version;   }
+        public string EncompassDocsPath { get => _encompassDocsPath + _version; }
         public string EncompassPathFull { get => BasePath + EncompassPath; }
+        public string EncompassDocsPathFull { get => BasePath + EncompassDocsPath; }
         public string WebHookFull { get => BasePath + _webHook + $"/{_version}"; }
         public string Settings { get => EncompassPathFull + _settings; }
         public string SettingConditions { get => Settings + "/loan/conditions";  }
@@ -130,7 +133,7 @@ namespace ICE.SDKtoAPI.Contracts
 
 
         public string FieldSchemaV3Path => BasePath + _encompassPath + "v3/schemas/loan/standardFields";
-        public string FieldSchemaV1Path => BasePath + _encompassPath + "v1/scheam/loan";
+        public string FieldSchemaV1Path => BasePath + _encompassPath + "v1/schema/loan";
 
         public string ReadFieldValues(string guid) => EncompassPathFull + $"/loans/{guid}/fieldReader";
 

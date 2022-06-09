@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
@@ -48,11 +49,47 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "branchApprovalDate")]
         public string BranchApprovalDate { get; set; }
 
-        [DataMember(Name = "branchApprovedby")]
-        public string BranchApprovedby { get; set; }
+        [DataMember(Name = "branchApprovalDate2")]
+        public string BranchApprovalDate2 { get; set; }
+
+        [DataMember(Name = "branchApprovalDate3")]
+        public string BranchApprovalDate3 { get; set; }
+
+        [DataMember(Name = "branchApprovalDate4")]
+        public string BranchApprovalDate4 { get; set; }
+
+        [DataMember(Name = "branchApprovalDate5")]
+        public string BranchApprovalDate5 { get; set; }
+
+        [DataMember(Name = "branchApprovedBy")]
+        public string BranchApprovedBy { get; set; }
+
+        [DataMember(Name = "branchApprovedBy2", EmitDefaultValue = false)]
+        public string BranchApprovedBy2 { get; set; }
+
+        [DataMember(Name = "branchApprovedBy3", EmitDefaultValue = false)]
+        public string BranchApprovedBy3 { get; set; }
+
+        [DataMember(Name = "branchApprovedBy4", EmitDefaultValue = false)]
+        public string BranchApprovedBy4 { get; set; }
+
+        [DataMember(Name = "branchApprovedBy5", EmitDefaultValue = false)]
+        public string BranchApprovedBy5 { get; set; }
 
         [DataMember(Name = "branchPrice")]
         public decimal? BranchPrice { get; set; }
+
+        [DataMember(Name = "branchPrice2")]
+        public decimal? BranchPrice2 { get; set; }
+
+        [DataMember(Name = "branchPrice3")]
+        public decimal? BranchPrice3 { get; set; }
+
+        [DataMember(Name = "branchPrice4")]
+        public decimal? BranchPrice4 { get; set; }
+
+        [DataMember(Name = "branchPrice5")]
+        public decimal? BranchPrice5 { get; set; }
 
         [DataMember(Name = "buySideAdjustments")]
         public List<PriceAdjustmentContract> BuySideAdjustments { get; set; }
@@ -68,6 +105,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
 
         [DataMember(Name = "buySideExtendedLockExpires")]
         public string BuySideExtendedLockExpires { get; set; }
+
+        [DataMember(Name = "buySideInvestor")]
+        public string BuySideInvestor { get; set; }
 
         [DataMember(Name = "buySideLockDate")]
         public string BuySideLockDate { get; set; }
@@ -147,11 +187,47 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "corporateApprovalDate")]
         public string CorporateApprovalDate { get; set; }
 
+        [DataMember(Name = "corporateApprovalDate2")]
+        public DateTime? CorporateApprovalDate2 { get; set; }
+
+        [DataMember(Name = "corporateApprovalDate3")]
+        public DateTime? CorporateApprovalDate3 { get; set; }
+
+        [DataMember(Name = "corporateApprovalDate4")]
+        public DateTime? CorporateApprovalDate4 { get; set; }
+
+        [DataMember(Name = "corporateApprovalDate5")]
+        public DateTime? CorporateApprovalDate5 { get; set; }
+
         [DataMember(Name = "corporateApprovedby")]
         public string CorporateApprovedby { get; set; }
 
+        [DataMember(Name = "corporateApprovedBy2", EmitDefaultValue = false)]
+        public string CorporateApprovedBy2 { get; set; }
+
+        [DataMember(Name = "corporateApprovedBy3", EmitDefaultValue = false)]
+        public string CorporateApprovedBy3 { get; set; }
+
+        [DataMember(Name = "corporateApprovedBy4", EmitDefaultValue = false)]
+        public string CorporateApprovedBy4 { get; set; }
+
+        [DataMember(Name = "corporateApprovedBy5", EmitDefaultValue = false)]
+        public string CorporateApprovedBy5 { get; set; }
+
         [DataMember(Name = "corporatePrice")]
         public decimal? CorporatePrice { get; set; }
+
+        [DataMember(Name = "corporatePrice2")]
+        public decimal? CorporatePrice2 { get; set; }
+
+        [DataMember(Name = "corporatePrice3")]
+        public double? CorporatePrice3 { get; set; }
+
+        [DataMember(Name = "corporatePrice4")]
+        public decimal? CorporatePrice4 { get; set; }
+
+        [DataMember(Name = "corporatePrice5")]
+        public double? CorporatePrice5 { get; set; }
 
         [DataMember(Name = "correspondentAdditionalLineAmount1")]
         public decimal? CorrespondentAdditionalLineAmount1 { get; set; }
@@ -741,11 +817,32 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "purchasePriceAmount")]
         public decimal? PurchasePriceAmount { get; set; }
 
-        [DataMember(Name = "reasonforBranchApproval")]
-        public string ReasonforBranchApproval { get; set; }
+        [DataMember(Name = "reasonForBranchApproval")]
+        public string ReasonForBranchApproval { get; set; }
 
-        [DataMember(Name = "reasonforCorporateApproval")]
-        public string ReasonforCorporateApproval { get; set; }
+        [DataMember(Name = "reasonForBranchApproval2")]
+        public string ReasonForBranchApproval2 { get; set; }
+
+        [DataMember(Name = "reasonForBranchApproval3")]
+        public string ReasonForBranchApproval3 { get; set; }
+
+        [DataMember(Name = "reasonForBranchApproval4")]
+        public string ReasonForBranchApproval4 { get; set; }
+
+        [DataMember(Name = "reasonForBranchApproval5")]
+        public string ReasonForBranchApproval5 { get; set; }
+
+        [DataMember(Name = "reasonForCorporateApproval2")]
+        public string ReasonForCorporateApproval2 { get; set; }
+
+        [DataMember(Name = "reasonForCorporateApproval3")]
+        public string ReasonForCorporateApproval3 { get; set; }
+
+        [DataMember(Name = "reasonForCorporateApproval4")]
+        public string ReasonForCorporateApproval4 { get; set; }
+
+        [DataMember(Name = "reasonForCorporateApproval5")]
+        public string ReasonForCorporateApproval5 { get; set; }
 
         [DataMember(Name = "reconciledDiff")]
         public decimal? ReconciledDiff { get; set; }

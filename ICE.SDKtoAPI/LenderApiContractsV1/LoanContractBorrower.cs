@@ -770,6 +770,48 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="selfEmployedValidationMessage", EmitDefaultValue=false)]
 		public string SelfEmployedValidationMessage { get; set; }
 
+		[DataMember(Name = "sectionAExplanation")]
+		public bool? SectionAExplanation { get; set; }
+
+		[DataMember(Name = "sectionBExplanation")]
+		public bool? SectionBExplanation { get; set; }
+
+		[DataMember(Name = "sectionCExplanation")]
+		public bool? SectionCExplanation { get; set; }
+
+		[DataMember(Name = "sectionDExplanation")]
+		public bool? SectionDExplanation { get; set; }
+
+		[DataMember(Name = "sectionD2Explanation")]
+		public bool? SectionD2Explanation { get; set; }
+
+		[DataMember(Name = "sectionEExplanation")]
+		public bool? SectionEExplanation { get; set; }
+
+		[DataMember(Name = "sectionFExplanation")]
+		public bool? SectionFExplanation { get; set; }
+
+		[DataMember(Name = "sectionGExplanation")]
+		public bool? SectionGExplanation { get; set; }
+
+		[DataMember(Name = "sectionHExplanation")]
+		public bool? SectionHExplanation { get; set; }
+
+		[DataMember(Name = "sectionIExplanation")]
+		public bool? SectionIExplanation { get; set; }
+
+		[DataMember(Name = "sectionJExplanation")]
+		public bool? SectionJExplanation { get; set; }
+
+		[DataMember(Name = "sectionKExplanation")]
+		public bool? SectionKExplanation { get; set; }
+
+		[DataMember(Name = "sectionLExplanation")]
+		public bool? SectionLExplanation { get; set; }
+
+		[DataMember(Name = "sectionMExplanation")]
+		public bool? SectionMExplanation { get; set; }
+
 		[DataMember(Name="sSA89BackgroundCheckIndicator", EmitDefaultValue=false)]
 		public bool? SSA89BackgroundCheckIndicator { get; set; }
 

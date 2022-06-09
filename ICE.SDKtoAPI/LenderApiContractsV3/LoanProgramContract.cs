@@ -184,7 +184,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string LoanProgramName { get; set; }
 
         [DataMember(Name = "lockField")]
-        public string LockField { get; set; }
+        public bool? LockField { get; set; }
 
         [DataMember(Name = "maxBackRatio")]
         public decimal? MaxBackRatio { get; set; }
@@ -232,7 +232,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public decimal? MipPaidInCash { get; set; }
 
         [DataMember(Name = "mmi")]
-        public string Mmi { get; set; }
+        public bool? Mmi { get; set; }
 
         [DataMember(Name = "mortgageInsuranceAdjustmentFactor1")]
         public decimal? MortgageInsuranceAdjustmentFactor1 { get; set; }
@@ -283,7 +283,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string PerDiemCalculationMethodType { get; set; }
 
         [DataMember(Name = "pmi")]
-        public string Pmi { get; set; }
+        public bool? Pmi { get; set; }
 
         [DataMember(Name = "prepaymentPenaltyIndicator")]
         public string PrepaymentPenaltyIndicator { get; set; }

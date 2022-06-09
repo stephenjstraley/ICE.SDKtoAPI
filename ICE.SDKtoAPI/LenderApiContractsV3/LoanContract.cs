@@ -45,6 +45,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "atrqmCommon")]
         public ATRQMCommonContract AtrqmCommon { get; set; }
 
+        [DataMember(Name = "averageRepresentativeCreditScore", EmitDefaultValue = false)]
+        public int? AverageRepresentativeCreditScore { get; set; }
+
         [DataMember(Name = "baseLoanAmount")]
         public decimal? BaseLoanAmount  { get; set; }
 
@@ -156,6 +159,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "consumerConnectSiteId")]
         public string ConsumerConnectSiteId { get; set; }
 
+        [DataMember(Name = "consumerHomeInsuranceOrderEligible")]
+        public bool? ConsumerHomeInsuranceOrderEligible { get; set; }        
+
         [DataMember(Name = "contacts")]
         public List<ContactContract> Contacts { get; set; }
 
@@ -257,6 +263,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
 
         [DataMember(Name = "encompassVersion")]
         public string EncompassVersion { get; set; }
+
+        [DataMember(Name = "energyImprovementAmount")]
+        public decimal? energyImprovementAmount { get; set; }
 
         [DataMember(Name = "enforceCountyLoanLimit")]
         public bool? EnforceCountyLoanLimit { get; set; }
@@ -696,6 +705,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "newHelocCreditorName")]
         public string NewHelocCreditorName { get; set; }
 
+        [DataMember(Name = "newVestingNboAlert", EmitDefaultValue = false)]
+        public bool? NewVestingNboAlert { get; set; }
+
         [DataMember(Name = "newHelocMonthlyPayment")]
         public decimal? NewHelocMonthlyPayment  { get; set; }
 
@@ -800,6 +812,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
 
         [DataMember(Name = "overwireAmount")]
         public decimal? OverwireAmount  { get; set; }
+
+        [DataMember(Name = "paceLoanPayoffAmount", EmitDefaultValue = false)]
+        public double? PaceLoanPayoffAmount { get; set; }
 
         [DataMember(Name = "paymentScheduleCalcRequiredIndicator")]
         public bool? PaymentScheduleCalcRequiredIndicator { get; set; }

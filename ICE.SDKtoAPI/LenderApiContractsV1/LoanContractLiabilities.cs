@@ -155,6 +155,27 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="printAttachmentIndicator", EmitDefaultValue=false)]
 		public bool? PrintAttachmentIndicator { get; set; }
 
+		[DataMember(Name = "PrintUserJobTitleIndicator", EmitDefaultValue = false)]
+		public bool? printUserJobTitleIndicator { get; set; }
+
+		[DataMember(Name = "otherDescription", EmitDefaultValue = false)]
+		public string OtherDescription { get; set; }
+
+		[DataMember(Name = "includeTaxesAndInsuranceIndicator", EmitDefaultValue = false)]
+		public bool? IncludeTaxesAndInsuranceIndicator { get; set; }
+
+		[DataMember(Name = "foreignAddressIndicator", EmitDefaultValue = false)]
+		public bool? ForeignAddressIndicator { get; set; }
+
+		[DataMember(Name = "country", EmitDefaultValue = false)]
+		public string Country { get; set; }
+
+		[DataMember(Name = "energyEfficientDebts", EmitDefaultValue = false)]
+		public bool? EnergyEfficientDebts { get; set; }
+
+		[DataMember(Name = "requestId", EmitDefaultValue = false)]
+		public string RequestId { get; set; }
+
 		[DataMember(Name="printUserNameIndicator", EmitDefaultValue=false)]
 		public bool? PrintUserNameIndicator { get; set; }
 
@@ -166,9 +187,6 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="reoId", EmitDefaultValue=false)]
 		public string ReoId { get; set; }
-
-		[DataMember(Name="requestId", EmitDefaultValue=false)]
-		public string RequestId { get; set; }
 
 		[DataMember(Name="subjectLoanResubordinationIndicator", EmitDefaultValue=false)]
 		public bool? SubjectLoanResubordinationIndicator { get; set; }

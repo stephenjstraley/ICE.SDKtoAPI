@@ -10,6 +10,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
 
+        [JsonProperty(PropertyName = "corporatePrice2")]
+        public double? CorporatePrice2 { get; set; }
+
         [JsonProperty(PropertyName = "requestType")]
         public string RequestType { get; set; }
 
@@ -39,6 +42,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
         [JsonProperty(PropertyName = "lockRequest")]
         public RateLockRequest LockRequest { get; set; }
+
+        [JsonProperty(PropertyName = "buySideInvestor")]
+        public string BuySideInvestor { get; set; }
+
     }
 
     public class RateLockRequest : RateLockSheet

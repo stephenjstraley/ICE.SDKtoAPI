@@ -43,6 +43,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="aTRQMCommon", EmitDefaultValue=false)]
 		public LoanContractATRQMCommon ATRQMCommon { get; set; }
 
+		[DataMember(Name = "averageRepresentativeCreditScore", EmitDefaultValue = false)]
+		public int? AverageRepresentativeCreditScore { get; set; }
+
 		[DataMember(Name="baseLoanAmount", EmitDefaultValue=false)]
 		public double? BaseLoanAmount { get; set; }
 
@@ -129,6 +132,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="combinedLtv", EmitDefaultValue=false)]
 		public double? CombinedLtv { get; set; }
+
+		[DataMember(Name = "consumerHomeInsuranceOrderEligible")]
+		public bool? ConsumerHomeInsuranceOrderEligible { get; set; }
 
 		[DataMember(Name="commitmentNumber", EmitDefaultValue=false)]
 		public string CommitmentNumber { get; set; }
@@ -721,6 +727,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="notRequiredForSettlementOfYourLoan", EmitDefaultValue=false)]
 		public bool? NotRequiredForSettlementOfYourLoan { get; set; }
 
+		[DataMember(Name = "newVestingNboAlert", EmitDefaultValue = false)]
+		public bool? NewVestingNboAlert { get; set; }
+
 		[DataMember(Name="occupancyType", EmitDefaultValue=false)]
 		public string OccupancyType { get; set; }
 
@@ -759,6 +768,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="overwireAmount", EmitDefaultValue=false)]
 		public double? OverwireAmount { get; set; }
+
+		[DataMember(Name = "paceLoanPayoffAmount", EmitDefaultValue = false)]
+		public double? PaceLoanPayoffAmount { get; set; }
 
 		[DataMember(Name="paymentScheduleCalcRequiredIndicator", EmitDefaultValue=false)]
 		public bool? PaymentScheduleCalcRequiredIndicator { get; set; }

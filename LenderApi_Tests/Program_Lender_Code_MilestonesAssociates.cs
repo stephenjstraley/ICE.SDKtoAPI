@@ -41,7 +41,7 @@ namespace LenderApi_Tests
 
                 Console.WriteLine();
                 Console.WriteLine("---------- Last Completed Milestone ------------");
-                var last = _api.NextMilestoneAsync().Result;
+                var last = _api.LastCompletedMilestoneAsync().Result;
                 if (last != null && _api.IsOkStatus)
                     Console.WriteLine(last.MilestoneName);
                 else
