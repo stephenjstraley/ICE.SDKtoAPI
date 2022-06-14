@@ -19,18 +19,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.SettingConditions + "/types";
 
-            try
-            {
-                types = await Get<List<EnhancedConditionType>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            types = await Get<List<EnhancedConditionType>>(usePath);
 
             return new Tuple<List<EnhancedConditionType>, LenderApiResponse>(types, _response);
         }
@@ -40,18 +29,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.SettingConditions + $"/types/{id}";
 
-            try
-            {
-                type = await Get<EnhancedConditionType>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            type = await Get<EnhancedConditionType>(usePath);
 
             return new Tuple<EnhancedConditionType, LenderApiResponse>(type, _response);
         }
@@ -61,18 +39,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.SettingConditions + $"/types?action={action}&view=entity";
 
-            try
-            {
-                types = await Patch<List<EnhancedConditionType>>(eh, usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            types = await Patch<List<EnhancedConditionType>>(eh, usePath);
 
             return new Tuple<List<EnhancedConditionType>, LenderApiResponse>(types, _response);
         }
@@ -85,18 +52,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.SettingConditions + "/templates";
 
-            try
-            {
-                temps = await Get<List<EnhancedConditionTemplate>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            temps = await Get<List<EnhancedConditionTemplate>>(usePath);
 
             return new Tuple<List<EnhancedConditionTemplate>, LenderApiResponse>(temps, _response);
         }
@@ -106,18 +62,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Settings + $"/templates/{id}";
 
-            try
-            {
-                temp = await Get<EnhancedConditionTemplate>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            temp = await Get<EnhancedConditionTemplate>(usePath);
 
             return new Tuple<EnhancedConditionTemplate, LenderApiResponse>(temp, _response);
         }
@@ -127,18 +72,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.SettingConditions + $"/templates?action={action}&view=entity";
 
-            try
-            {
-                temp = await Get<List<EnhancedConditionTemplate>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            temp = await Get<List<EnhancedConditionTemplate>>(usePath);
 
             return new Tuple<List<EnhancedConditionTemplate>, LenderApiResponse>(temp, _response);
         }
@@ -151,18 +85,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.SettingConditions + "/sets";
 
-            try
-            {
-                temps = await Get<List<EnhancedConditionSet>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            temps = await Get<List<EnhancedConditionSet>>(usePath);
 
             return new Tuple<List<EnhancedConditionSet>, LenderApiResponse>(temps, _response);
         }
@@ -172,18 +95,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.SettingConditions + $"/sets/{id}";
 
-            try
-            {
-                temp = await Get<EnhancedConditionSet>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            temp = await Get<EnhancedConditionSet>(usePath);
 
             return new Tuple<EnhancedConditionSet, LenderApiResponse>(temp, _response);
         }
@@ -196,18 +108,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull + $"/{loanGuid}/conditions/{condId}/tracking";
 
-            try
-            {
-                tracks = await Get<List<EnhancedConditionTracking>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            tracks = await Get<List<EnhancedConditionTracking>>(usePath);
 
             return new Tuple<List<EnhancedConditionTracking>, LenderApiResponse>(tracks, _response);
         }
@@ -217,18 +118,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull + $"/{loanGuid}/conditions/{condId}/tracking/?action={action}&view=entity";
 
-            try
-            {
-                tracks = await Get<List<EnhancedConditionTracking>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            tracks = await Get<List<EnhancedConditionTracking>>(usePath);
 
             return new Tuple<List<EnhancedConditionTracking>, LenderApiResponse>(tracks, _response);
         }
@@ -241,18 +131,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull + $"/{loanGuid}/conditions";
 
-            try
-            {
-                conds = await Get<List<EnhancedConditionContract>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            conds = await Get<List<EnhancedConditionContract>>(usePath);
 
             return new Tuple<List<EnhancedConditionContract>, LenderApiResponse>(conds, _response);
         }
@@ -262,18 +141,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull + $"/{loanGuid}/conditions/{condId}?view=detail";
 
-            try
-            {
-                cond = await Get<EnhancedConditionContract>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            cond = await Get<EnhancedConditionContract>(usePath);
 
             return new Tuple<EnhancedConditionContract, LenderApiResponse>(cond, _response);
         }
@@ -286,18 +154,7 @@ namespace ICE.SDKtoAPI.Providers
             if (operation != "delete")
                 usePath += "&view=entity";
 
-            try
-            {
-                condList = await Patch<List<EnhancedConditionContract>>(conds, usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            condList = await Patch<List<EnhancedConditionContract>>(conds, usePath);
 
             return new Tuple<List<EnhancedConditionContract>, LenderApiResponse>(condList, _response);
         }
@@ -315,18 +172,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull + $"/{loanGuid}/conditions/{conditionGuid}/comments";
 
-            try
-            {
-                comments = await Get<List<EnhancedConditionCommentContract>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            comments = await Get<List<EnhancedConditionCommentContract>>(usePath);
 
             return new Tuple<List<EnhancedConditionCommentContract>, LenderApiResponse>(comments, _response);
         }
@@ -336,18 +182,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull + $"/{loanGuid}/conditions/{conditionGuid}/comments?action={action}&view=entity";
 
-            try
-            {
-                comments = await Patch<List<EnhancedConditionCommentContract>>(comments, usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            comments = await Patch<List<EnhancedConditionCommentContract>>(comments, usePath);
 
             return new Tuple<List<EnhancedConditionCommentContract>, LenderApiResponse>(comments, _response);
         }
@@ -359,18 +194,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull + $"/{loanGuid}/conditions/{conditionGuid}/documents";
 
-            try
-            {
-                docs = await Get<List<EntityReferenceContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            docs = await Get<List<EntityReferenceContract>>(usePath);
 
             return new Tuple<List<EntityReferenceContract>, LenderApiResponse>(docs, _response);
         }

@@ -30,11 +30,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             paths.SetV3();
@@ -47,18 +47,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.FolderPathFull;
 
-            try
-            {
-                folders = await Get<List<LoanFolderContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            folders = await Get<List<LoanFolderContract>>(usePath);
 
             return new Tuple<List<LoanFolderContract>, LenderApiResponse>(folders, _response);
         }
@@ -68,18 +57,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.FolderPathFull + "/" + name;
 
-            try
-            {
-                folder = await Get<LoanFolderContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            folder = await Get<LoanFolderContract>(usePath);
 
             return new Tuple<LoanFolderContract, LenderApiResponse>(folder, _response);
         }

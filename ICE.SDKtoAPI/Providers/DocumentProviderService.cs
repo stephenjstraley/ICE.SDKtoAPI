@@ -22,18 +22,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Documents(guid);
 
-            try
-            {
-                list = await Get<List<DocumentContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            list = await Get<List<DocumentContract>>(usePath);
 
             return new Tuple<List<DocumentContract>, LenderApiResponse>(list, _response);
         }
@@ -43,18 +32,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Document(guid, docId);
 
-            try
-            {
-                item = await Get<DocumentContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<DocumentContract>(usePath);
 
             return new Tuple<DocumentContract, LenderApiResponse>(item, _response);
         }
@@ -64,18 +42,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Attachments(guid);
 
-            try
-            {
-                list = await Get<List<FileAttachmentContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            list = await Get<List<FileAttachmentContract>>(usePath);
 
             return new Tuple<List<FileAttachmentContract>, LenderApiResponse>(list, _response);
         }
@@ -85,18 +52,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.AttachmentsIncludingRemoved(guid);
 
-            try
-            {
-                list = await Get<List<FileAttachmentContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            list = await Get<List<FileAttachmentContract>>(usePath);
 
             return new Tuple<List<FileAttachmentContract>, LenderApiResponse>(list, _response);
         }
@@ -123,11 +79,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<AttachmentUrlDownloadContract, LenderApiResponse>(item, apiResponse);
@@ -147,11 +103,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<LenderApiContractsV1.LoanContractDocuments, LenderApiResponse>(doc, _response);
@@ -238,11 +194,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<List<DocumentContract>, LenderApiResponse>(docs, apiResponse);
@@ -268,11 +224,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<bool, LenderApiResponse>(retValue, apiResponse);
@@ -301,11 +257,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return apiResponse;
@@ -336,11 +292,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return apiResponse;
@@ -410,12 +366,12 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
                 attachmentId = string.Empty;
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
                 attachmentId = string.Empty;
             }
 

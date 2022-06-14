@@ -17,18 +17,9 @@ namespace ICE.SDKtoAPI.Providers
             ClearResponse();
 
             var usePath = paths.OrganizationsPath + "?view=entity";
-            try
-            {
-                orgs = await Get<List<LenderApiContractsV1.OrganizationContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+
+            orgs = await Get<List<LenderApiContractsV1.OrganizationContract>>(usePath);
+
             return new Tuple<List<LenderApiContractsV1.OrganizationContract>, LenderApiResponse>(orgs, _response);
         }
         public async Task<Tuple<List<LenderApiContractsV1.OrganizationHierarchyContract>, LenderApiResponse>> GetOrganizationsHierarchyAsync()
@@ -37,18 +28,9 @@ namespace ICE.SDKtoAPI.Providers
             ClearResponse();
 
             var usePath = paths.OrganizationsPath + "?view=hierarchy";
-            try
-            {
-                orgs = await Get<List<LenderApiContractsV1.OrganizationHierarchyContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+
+            orgs = await Get<List<LenderApiContractsV1.OrganizationHierarchyContract>>(usePath);
+
             return new Tuple<List<LenderApiContractsV1.OrganizationHierarchyContract>, LenderApiResponse>(orgs, _response);
         }
         public async Task<Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>> GetV3FieldSchemaAsync(int start = 0, int limit = 500)
@@ -58,18 +40,8 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.FieldSchemaV3Path + $"?start={start}&limit={limit}";
 
-            try
-            {
-                fields = await Get<List<LenderApiContractsV3.FieldSchemaContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            fields = await Get<List<LenderApiContractsV3.FieldSchemaContract>>(usePath);
+
             return new Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>(fields, _response);
         }
         public async Task<Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>> GetV3FieldSchemaAsync(string id)
@@ -79,18 +51,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.FieldSchemaV3Path + $"?ids={id}";
 
-            try
-            {
-                fields = await Get<List<LenderApiContractsV3.FieldSchemaContract>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            fields = await Get<List<LenderApiContractsV3.FieldSchemaContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>(fields, _response);
         }
@@ -101,18 +62,8 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.FieldSchemaV1Path.AppendPathSegment($"{id}");
 
-            try
-            {
-                field = await Get<LenderApiContractsV1.FieldSchemaContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            field = await Get<LenderApiContractsV1.FieldSchemaContract>(usePath);
+
             return new Tuple<LenderApiContractsV1.FieldSchemaContract, LenderApiResponse>(field, _response);
         }
         public async Task<Tuple<LenderApiContractsV1.OrganizationContract, LenderApiResponse>> GetOrganizationAsync(string id)
@@ -122,18 +73,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.OrganizationPath(id);
 
-            try
-            {
-                org = await Get<LenderApiContractsV1.OrganizationContract>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            org = await Get<LenderApiContractsV1.OrganizationContract>(usePath);
 
             return new Tuple<LenderApiContractsV1.OrganizationContract, LenderApiResponse>(org, _response);
         }
@@ -148,18 +88,8 @@ namespace ICE.SDKtoAPI.Providers
             ClearResponse();
             string result = null;
 
-            try
-            {
-                result = await GetString(path);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, path);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, path);
-            }
+            result = await GetString(path);
+
             return new Tuple<string, LenderApiResponse>(result, _response);
         }
         public string TemplatePath(string folder, string param)
@@ -175,18 +105,8 @@ namespace ICE.SDKtoAPI.Providers
             ClearResponse();
 
             var usePath = paths.EncompassPathFull + $"/settings/folder/{param}";
-            try
-            {
-                sets = await Get<List<LenderApiContractsV1.EntityRefContract>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+
+            sets = await Get<List<LenderApiContractsV1.EntityRefContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.EntityRefContract>, LenderApiResponse>(sets, _response);
         }
@@ -196,18 +116,9 @@ namespace ICE.SDKtoAPI.Providers
             ClearResponse();
 
             var usePath = paths.EncompassPathFull + $"/settings/templates/items?path={param}";
-            try
-            {
-                sets = await Get<List<LenderApiContractsV1.EntityRefContract>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+
+            sets = await Get<List<LenderApiContractsV1.EntityRefContract>>(usePath);
+
             return new Tuple<List<LenderApiContractsV1.EntityRefContract>, LenderApiResponse>(sets, _response);
         }
         public async Task<Tuple<LoanTemplateSet, LenderApiResponse>> GetLoanProgramTemplatesAsyc(string param)
@@ -218,18 +129,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = TemplatePath("loanProgram", param);
 
-            try
-            {
-                sets = await Get<LoanTemplateSet>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            sets = await Get<LoanTemplateSet>(usePath);
 
             return new Tuple<LoanTemplateSet, LenderApiResponse>(sets, _response);
         }
@@ -241,18 +141,8 @@ namespace ICE.SDKtoAPI.Providers
             paths.SetV3();
             var usePath = TemplatePath("closingCost", param);
 
-            try
-            {
-                sets = await Get<LoanTemplateSet>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            sets = await Get<LoanTemplateSet>(usePath);
+
             return new Tuple<LoanTemplateSet, LenderApiResponse>(sets, _response);
         }
         public async Task<Tuple<LoanTemplateSet, LenderApiResponse>> GetLoanSSPTemplatesAsyc(string param)
@@ -262,19 +152,9 @@ namespace ICE.SDKtoAPI.Providers
 
             paths.SetV3();
             var usePath = TemplatePath("settlementServiceProvider", param);
-            try
-            {
-                sets = await Get<LoanTemplateSet>(usePath);
 
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            sets = await Get<LoanTemplateSet>(usePath);
+
             return new Tuple<LoanTemplateSet, LenderApiResponse>(sets, _response);
         }
         public async Task<Tuple<List<LenderApiContractsV3.RecipientContract>, LenderApiResponse>> GetLoanRecipients(string guid)
@@ -285,18 +165,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.EncompassPathFull + $"/loans/{guid}/recipients";
 
-            try
-            {
-                recips = await Get<List<LenderApiContractsV3.RecipientContract>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            recips = await Get<List<LenderApiContractsV3.RecipientContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.RecipientContract>, LenderApiResponse>(recips, _response);
         }
@@ -308,18 +177,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.EncompassPathFull + $"/loans/{guid}/registrationLogs";
 
-            try
-            {
-                logs = await Get<List<LenderApiContractsV3.RegistrationLogContract>>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            logs = await Get<List<LenderApiContractsV3.RegistrationLogContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.RegistrationLogContract>, LenderApiResponse>(logs, _response);
         }
@@ -331,18 +189,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.EncompassPathFull + $"/loans/{guid}/registrationLogs/{logId}";
 
-            try
-            {
-                log = await Get<LenderApiContractsV3.RegistrationLogContract>(usePath);
-            }
-            catch (FlurlHttpException e)
-            {
-                _response = BadResponse(e, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            log = await Get<LenderApiContractsV3.RegistrationLogContract>(usePath);
 
             return new Tuple<LenderApiContractsV3.RegistrationLogContract, LenderApiResponse>(log, _response);
         }

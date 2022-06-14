@@ -17,6 +17,9 @@ namespace ICE.SDKtoAPI
         {
             SetResponse();
             var provider = new DocumentProviderService(_accessToken);
+
+            provider.SaveResponse = SaveResponseContect;
+
             var results = await provider.GetDocumentsAsync(guid);
             _lastResponse = results.Item2;
             return results.Item1;
@@ -64,8 +67,15 @@ namespace ICE.SDKtoAPI
             if (LastStatus == HttpStatusCode.OK)
             {
                 foreach (var item in items)
-                    if (item.AssignedTo.EntityId == docId && item.AssignedTo.EntityType.ToUpper() == "DOCUMENT")
+                {
+                    if (item.AssignedTo != null)
+                    {
+                        if (item.AssignedTo.EntityId == docId && item.AssignedTo.EntityType.ToUpper() == "DOCUMENT")
+                            list.Add(item);
+                    }
+                    else
                         list.Add(item);
+                }
             }
             return list;
         }

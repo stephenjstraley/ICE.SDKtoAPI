@@ -54,11 +54,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                response = BadResponse(fe, usePath);
+                response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                response = BadResponse(exp, usePath);
+                response = BadResponse(exp, usePath, "");
             }
             return new Tuple<AccessToken, LenderApiResponse>(theToken, response);
         }
@@ -94,11 +94,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                response = BadResponse(fe, usePath);
+                response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                response = BadResponse(exp, usePath);
+                response = BadResponse(exp, usePath, "");
             }
             return response;
         }

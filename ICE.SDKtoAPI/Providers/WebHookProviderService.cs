@@ -19,18 +19,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.WebHookFull + "/resources";
 
-            try
-            {
-                res = await Get<List<WebHookResource>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            res = await Get<List<WebHookResource>>(usePath);
 
             return new Tuple<List<WebHookResource>, LenderApiResponse>(res, _response);
         }
@@ -40,18 +29,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.WebHookFull + "/resources/Loan/Events";
 
-            try
-            {
-                res = await Get<List<WebHookResourceEvent>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            res = await Get<List<WebHookResourceEvent>>(usePath);
 
             return new Tuple<List<WebHookResourceEvent>, LenderApiResponse>(res, _response);
         }
@@ -61,18 +39,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.WebHookFull + "/subscriptions";
 
-            try
-            {
-                subs = await Get<List<WebHookSubscription>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            subs = await Get<List<WebHookSubscription>>(usePath);
 
             return new Tuple<List<WebHookSubscription>, LenderApiResponse>(subs, _response);
         }
@@ -82,18 +49,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.WebHookFull + $"/subscriptions/{id}";
 
-            try
-            {
-                sub = await Get<WebHookSubscription>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            sub = await Get<WebHookSubscription>(usePath);
 
             return new Tuple<WebHookSubscription, LenderApiResponse>(sub, _response);
         }
@@ -159,11 +115,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             apiResponse.Query = usePath;

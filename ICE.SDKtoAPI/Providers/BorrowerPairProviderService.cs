@@ -16,18 +16,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ApplicationsPath(guid);
 
-            try
-            {
-                list = await Get<List<LenderApiContractsV1.ApplicationContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            list = await Get<List<LenderApiContractsV1.ApplicationContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.ApplicationContract>, LenderApiResponse>(list, _response);
         }
@@ -37,18 +26,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ApplicationsPath(guid) + $"/{appGuid}";
 
-            try
-            {
-                item = await Get<LenderApiContractsV1.ApplicationContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<LenderApiContractsV1.ApplicationContract>(usePath);
 
             return new Tuple<LenderApiContractsV1.ApplicationContract, LenderApiResponse>(item, _response);
         }
@@ -64,11 +42,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<string, LenderApiResponse>(appId, _response);
@@ -85,11 +63,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return _response;

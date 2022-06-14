@@ -28,11 +28,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return apiResponse;

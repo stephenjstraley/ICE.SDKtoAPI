@@ -18,18 +18,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Settings + "/roles";
 
-            try
-            {
-                roles = await Get<List<RoleExtended>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            roles = await Get<List<RoleExtended>>(usePath);
 
             return new Tuple<List<RoleExtended>, LenderApiResponse>(roles, _response);
         }

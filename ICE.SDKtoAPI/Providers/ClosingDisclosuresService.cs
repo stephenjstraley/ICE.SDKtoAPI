@@ -18,18 +18,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.EncompassDocsPathFull + $"/planCodes?planCodeType={type}";
 
-            try
-            {
-                codes = await Get<List<PlanCode>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            codes = await Get<List<PlanCode>>(usePath);
 
             return new Tuple<List<PlanCode>, LenderApiResponse>(codes, _response);
         }

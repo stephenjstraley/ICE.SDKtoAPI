@@ -18,18 +18,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserPathFullLimit(limit);
 
-            try
-            {
-                users = await Get<List<UserContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            users = await Get<List<UserContract>>(usePath);
 
             return new Tuple<List<UserContract>, LenderApiResponse>(users, _response);
         }
@@ -39,18 +28,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserPathFull + $"/{id}";
 
-            try
-            {
-                user = await Get<UserContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            user = await Get<UserContract>(usePath);
 
             return new Tuple<UserContract, LenderApiResponse>(user, _response);
         }
@@ -60,18 +38,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserProfilePath(userId);
 
-            try
-            {
-                user = await Get<UserProfileContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            user = await Get<UserProfileContract>(usePath);
 
             return new Tuple<UserProfileContract, LenderApiResponse>(user, _response);
         }
@@ -81,18 +48,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserGroupPath(userId);
 
-            try
-            {
-                userGroups = await Get<List<UserGroupsContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            userGroups = await Get<List<UserGroupsContract>>(usePath);
 
             return new Tuple<List<UserGroupsContract>, LenderApiResponse>(userGroups, _response);
         }
@@ -102,18 +58,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserCompensationPath(userId);
 
-            try
-            {
-                plans = await Get<List<UserCompensationPlanContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            plans = await Get<List<UserCompensationPlanContract>>(usePath);
 
             return new Tuple<List<UserCompensationPlanContract>, LenderApiResponse>(plans, _response);
         }
@@ -123,18 +68,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserLicensesPath(userId);
 
-            try
-            {
-                licenses = await Get<List<UserLicenseContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            licenses = await Get<List<UserLicenseContract>>(usePath);
 
             return new Tuple<List<UserLicenseContract>, LenderApiResponse>(licenses, _response);
         }
@@ -144,18 +78,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserPathFull + $"/{userId}/assignedRights";
 
-            try
-            {
-                rights = await Get<List<object>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            rights = await Get<List<object>>(usePath);
 
             return new Tuple<List<object>, LenderApiResponse>(rights, _response);
         }
@@ -165,18 +88,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.UserPathFull + $"/{userId}/effectiveRights";
 
-            try
-            {
-                rights = await Get<List<object>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            rights = await Get<List<object>>(usePath);
 
             return new Tuple<List<object>, LenderApiResponse>(rights, _response);
         }
@@ -188,18 +100,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.EncompassPathFull + $"/users/{userId}/eligibleRoles";
 
-            try
-            {
-                roles = await Get<List<EntityRefContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            roles = await Get<List<EntityRefContract>>(usePath);
 
             paths.SetV1();
 
@@ -211,18 +112,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Settings + "/personas";
 
-            try
-            {
-                personas = await Get<List<PersonaContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            personas = await Get<List<PersonaContract>>(usePath);
 
             return new Tuple<List<PersonaContract>, LenderApiResponse>(personas, _response);
         }
@@ -232,18 +122,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Settings + $"/personas/{id}";
 
-            try
-            {
-                persona = await Get<PersonaContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            persona = await Get<PersonaContract>(usePath);
 
             return new Tuple<PersonaContract, LenderApiResponse>(persona, _response);
         }
@@ -253,18 +132,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Settings + $"/personas/{id}?categories={cats}";
 
-            try
-            {
-                persona = await Get<PersonaContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            persona = await Get<PersonaContract>(usePath);
 
             return new Tuple<PersonaContract, LenderApiResponse>(persona, _response);
         }

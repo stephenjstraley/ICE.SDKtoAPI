@@ -19,6 +19,7 @@ namespace ICE.SDKtoAPI.Providers
         protected HttpResponseMessage _lastMsg;
         protected LenderApiResponse _response;
         protected UrlPaths paths = new UrlPaths();
+        public bool SaveResponse = false;
 
         public CommonService(AccessToken token) { _token = token; }
         public IFlurlRequest Authenticate(string url)
@@ -71,14 +72,18 @@ namespace ICE.SDKtoAPI.Providers
                 Headers = response?.Headers ?? null
             };
         }
-        public LenderApiResponse BadResponse(FlurlHttpException e, string path)
+        public LenderApiResponse BadResponse(FlurlHttpException e, string path, string respCont)
         {
             var errorMessage = e.GetResponseJsonAsync().Result;
             var status = (e.Call.HttpStatus == null) ? HttpStatusCode.InternalServerError : (HttpStatusCode)e.Call.HttpStatus;
-            return BadResponse(status, e?.Message ?? string.Empty, errorMessage, path);
+            return BadResponse(status, e?.Message ?? string.Empty, errorMessage, path, respCont);
         }
-        public LenderApiResponse BadResponse(Exception ex, string path) => BadResponse(HttpStatusCode.ExpectationFailed, ex?.Message ?? string.Empty, ex.InnerException?.Message ?? string.Empty, path);
-        public LenderApiResponse BadResponse(HttpStatusCode status, string message, string errorMessage, string url = "")
+        public LenderApiResponse BadResponse(Exception ex, string path, string respCont) => BadResponse(HttpStatusCode.ExpectationFailed, 
+                                                                                                        ex?.Message ?? string.Empty, 
+                                                                                                        ex.InnerException?.Message ?? string.Empty, 
+                                                                                                        respCont, 
+                                                                                                        path);
+        public LenderApiResponse BadResponse(HttpStatusCode status, string message, string errorMessage, string respCont, string url = "")
         {
             return new LenderApiResponse
             {
@@ -86,10 +91,11 @@ namespace ICE.SDKtoAPI.Providers
                 StatusCode = status,
                 Message = message,
                 ErrorMessage = errorMessage,
-                Url = url
+                Url = url,
+                ResponseContext = respCont
             };
         }
-        public LenderApiResponse BadResponse(HttpStatusCode status, string message, object errorMessage, string url = "")
+        public LenderApiResponse BadResponse(HttpStatusCode status, string message, object errorMessage, string respCont, string url = "")
         {
             return new LenderApiResponse
             {
@@ -97,25 +103,58 @@ namespace ICE.SDKtoAPI.Providers
                 StatusCode = status,
                 Message = message,
                 ErrorMessage = errorMessage.ToString(),
-                Url = url
+                Url = url,
+                ResponseContext = respCont
             };
         }
 
         protected async Task<T> Get<T>(string path)
         {
-            var client = Authenticate(path);
-            _lastMsg = await client.GetAsync();
-            var ret = _lastMsg.ReceiveJson<T>();
-            _response = OkResponse(_lastMsg.Headers, path);
-            return ret;
+            var cont = string.Empty;
+            try
+            {
+                var client = Authenticate(path);
+                _lastMsg = await client.GetAsync();
+
+                if (SaveResponse)
+                    cont = await _lastMsg.Content.ReadAsStringAsync();
+
+                var ret = _lastMsg.ReceiveJson<T>();
+                _response = OkResponse(_lastMsg.Headers, path);
+                return ret;
+            }
+            catch (FlurlHttpException fe)
+            {
+                _response = BadResponse(fe, path, cont);
+            }
+            catch (Exception exp)
+            {
+                _response = BadResponse(exp, path, cont);
+            }
+
+            return default;
         }
         protected async Task<string> GetString(string path)
         {
-            var client = Authenticate(path);
-            _lastMsg = await client.GetAsync();
-            var ret = await _lastMsg.Content.ReadAsStringAsync();
-            _response = OkResponse(_lastMsg.Headers, path);
-            return ret;
+            try
+            {
+                var client = Authenticate(path);
+                _lastMsg = await client.GetAsync();
+                var ret = await _lastMsg.Content.ReadAsStringAsync();
+                _response = OkResponse(_lastMsg.Headers, path);
+                return ret;
+            }
+            catch (FlurlHttpException fe)
+            {
+                _response = BadResponse(fe, path, string.Empty);
+            }
+            catch (Exception exp)
+            {
+                _response = BadResponse(exp, path, string.Empty);
+            }
+
+            return null;
+
         }
         protected async Task<T> Patch<T>(object item, string path)
         {
@@ -133,11 +172,30 @@ namespace ICE.SDKtoAPI.Providers
         }
         protected async Task<T> Post<T>(object item, string path)
         {
-            var client = Authenticate(path);
-            _lastMsg = await client.PostJsonAsync(item);
-            var ret = _lastMsg.ReceiveJson<T>();
-            _response = OkResponse(_lastMsg.Headers, path);
-            return ret;
+            var cont = string.Empty;
+
+            try
+            {
+                var client = Authenticate(path);
+                _lastMsg = await client.PostJsonAsync(item);
+
+                if (SaveResponse)
+                    cont = await _lastMsg.Content.ReadAsStringAsync();
+
+                var ret = _lastMsg.ReceiveJson<T>();
+                _response = OkResponse(_lastMsg.Headers, path);
+                return ret;
+            }
+            catch (FlurlHttpException fe)
+            {
+                _response = BadResponse(fe, path, cont);
+            }
+            catch (Exception exp)
+            {
+                _response = BadResponse(exp, path, cont);
+            }
+
+            return default;
         }
         protected async Task Post(object item, string path)
         {

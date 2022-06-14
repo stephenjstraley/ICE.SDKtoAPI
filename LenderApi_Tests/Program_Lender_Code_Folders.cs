@@ -14,7 +14,7 @@ namespace LenderApi_Tests
 
             if (_api.HasLoanGuid)
             {
-                Console.WriteLine("--- Get Template Folders ---");
+                Console.WriteLine("--- Get Loan Template Folders ---");
                 var tempFolders = _api.GetLoanTemplateFoldersAsync().Result;
                 if (tempFolders != null)
                 {

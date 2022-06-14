@@ -21,18 +21,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.EncompassPathFull.AppendPathSegment("/schema/loan");
 
-            try
-            {
-                schema = await Get<V3LoanSchema>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            schema = await Get<V3LoanSchema>(usePath);
 
             return new Tuple<V3LoanSchema, LenderApiResponse>(schema, _response);
         }
@@ -44,20 +33,10 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull.AppendPathSegment($"/{guid}");
 
-            try
-            {
-                rawLoan = await GetString(usePath);
+            rawLoan = await GetString(usePath);
 
+            if (_response.IsSuccess)
                 theFullLoan = await Get<LenderApiContractsV1.LoanContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
 
             return new Tuple<LenderApiContractsV1.LoanContract, string, LenderApiResponse>(theFullLoan, rawLoan, _response);
         }
@@ -74,19 +53,10 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LoanPathFull.AppendPathSegment($"/{guid}{additional}");
 
-            try
-            {
-                theFullLoan = await Get<LenderApiContractsV3.LoanContract>(usePath);
+            theFullLoan = await Get<LenderApiContractsV3.LoanContract>(usePath);
+
+            if (_response.IsSuccess)
                 result = await GetString(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
 
             return new Tuple<LenderApiContractsV3.LoanContract, string, LenderApiResponse>(theFullLoan, result, _response);
         }
@@ -99,18 +69,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.CreateLoan(folderName);
 
-            try
-            {
-                value = await Post<LenderApiContractsV1.LoanContract>(loan, usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            value = await Post<LenderApiContractsV1.LoanContract>(loan, usePath);
 
             paths.SetV1();
 
@@ -122,18 +81,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.GetMetaData(guid);
 
-            try
-            {
-                data = await Get<LenderApiContractsV1.LoanMetaData>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            data = await Get<LenderApiContractsV1.LoanMetaData>(usePath);
 
             return new Tuple<LenderApiContractsV1.LoanMetaData, LenderApiResponse>(data, _response);
         }
@@ -144,19 +92,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.VirtualFieldPathFull;
 
-            try
-            {
-                fields = await Get<List<VirtualFieldMeta>>(usePath);
-
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            fields = await Get<List<VirtualFieldMeta>>(usePath);
 
             return new Tuple<List<VirtualFieldMeta>, LenderApiResponse>(fields, _response);
         }
@@ -182,11 +118,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<object, LenderApiResponse>(pairs, apiResponse);
@@ -200,18 +136,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.CustomFieldPathFull;
 
-            try
-            {
-                fields = await Get<List<CustomFieldMeta>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            fields = await Get<List<CustomFieldMeta>>(usePath);
 
             return new Tuple<List<CustomFieldMeta>, LenderApiResponse>(fields, _response);
         }
@@ -223,18 +148,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.AssociatesPath(guid);
 
-            try
-            {
-                associates = await Get<List<LenderApiContractsV1.LoanContractLoanAssociate>>(usePath); 
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            associates = await Get<List<LenderApiContractsV1.LoanContractLoanAssociate>>(usePath); 
 
             return new Tuple<List<LenderApiContractsV1.LoanContractLoanAssociate>, LenderApiResponse>(associates, _response);
         }
@@ -246,18 +160,7 @@ namespace ICE.SDKtoAPI.Providers
 
             paths.SetV1();
 
-            try
-            {
-                conditions = await Get<List<LenderApiContractsV1.LoanUnderwritingConditionsContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            conditions = await Get<List<LenderApiContractsV1.LoanUnderwritingConditionsContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.LoanUnderwritingConditionsContract>, LenderApiResponse>(conditions, _response);
         }
@@ -269,18 +172,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.BorrowCorBorrowEntityPath(guid);
 
-            try
-            {
-                theFullLoan = await Get<LenderApiContractsV1.LoanContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            theFullLoan = await Get<LenderApiContractsV1.LoanContract>(usePath);
 
             return new Tuple<LenderApiContractsV1.LoanContract, LenderApiResponse>(theFullLoan, _response);
         }
@@ -296,11 +188,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return _response;
@@ -322,16 +214,16 @@ namespace ICE.SDKtoAPI.Providers
                 }
                 else
                 {
-                    _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "LOAN is null or GUID was empty", "LOAN is null or GUID was empty");
+                    _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "LOAN is null or GUID was empty", "LOAN is null or GUID was empty", "");
                 }
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return _response;
@@ -354,11 +246,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return _response;
@@ -377,16 +269,16 @@ namespace ICE.SDKtoAPI.Providers
                 }
                 else
                 {
-                    _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "Parameter was null", "Parameter was null");
+                    _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "Parameter was null", "Parameter was null", "");
                 }
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return _response;
@@ -399,18 +291,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ConversationsPath(guid);
 
-            try
-            {
-                conversations = await Get<List<LenderApiContractsV1.LoanContractConversationLogs>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            conversations = await Get<List<LenderApiContractsV1.LoanContractConversationLogs>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.LoanContractConversationLogs>, LenderApiResponse>(conversations, _response);
         }
@@ -422,18 +303,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ConversationsPath(guid) + $"/{id}";
 
-            try
-            {
-                conversation = await Get<LenderApiContractsV1.LoanContractConversationLogs>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            conversation = await Get<LenderApiContractsV1.LoanContractConversationLogs>(usePath);
 
             return new Tuple<LenderApiContractsV1.LoanContractConversationLogs, LenderApiResponse>(conversation, _response);
         }
@@ -445,18 +315,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.DisclosureTrackingPath(guid);
 
-            try
-            {
-                logs = await Get<List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            logs = await Get<List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs>, LenderApiResponse>(logs, _response);
         }
@@ -470,18 +329,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Residences(guid, appGuid, appType);
 
-            try
-            {
-                residences = await Get<List<LenderApiContractsV3.ResidenceContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            residences = await Get<List<LenderApiContractsV3.ResidenceContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.ResidenceContract>, LenderApiResponse>(residences, _response);
         }
@@ -493,18 +341,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.GiftsGrants(guid, appGuid);
 
-            try
-            {
-                giftsGrants = await Get<List<LenderApiContractsV3.GiftGrantContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            giftsGrants = await Get<List<LenderApiContractsV3.GiftGrantContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.GiftGrantContract>, LenderApiResponse>(giftsGrants, _response);
         }
@@ -516,18 +353,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.AdditionaLoans(guid, appGuid);
 
-            try
-            {
-                additionalLoans = await Get<List<LenderApiContractsV3.AdditionalLoanContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            additionalLoans = await Get<List<LenderApiContractsV3.AdditionalLoanContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.AdditionalLoanContract>, LenderApiResponse>(additionalLoans, _response);
         }
@@ -539,18 +365,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.OtherAssets(guid, appGuid);
 
-            try
-            {
-                otherAssets = await Get<List<LenderApiContractsV3.OtherAssetContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            otherAssets = await Get<List<LenderApiContractsV3.OtherAssetContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.OtherAssetContract>, LenderApiResponse>(otherAssets, _response);
         }
@@ -562,18 +377,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.OtherIncomeSources(guid, appGuid);
 
-            try
-            {
-                otherSources = await Get<List<LenderApiContractsV3.OtherIncomeSourceContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            otherSources = await Get<List<LenderApiContractsV3.OtherIncomeSourceContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.OtherIncomeSourceContract>, LenderApiResponse>(otherSources, _response);
         }
@@ -585,18 +389,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.OtherLiabilities(guid, appGuid);
 
-            try
-            {
-                otherLiabilities = await Get<List<LenderApiContractsV3.OtherLiabilityContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            otherLiabilities = await Get<List<LenderApiContractsV3.OtherLiabilityContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.OtherLiabilityContract>, LenderApiResponse>(otherLiabilities, _response);
         }
@@ -608,18 +401,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.NonVols(guid);
 
-            try
-            {
-                nonVols = await Get<List<LenderApiContractsV3.NonVolContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            nonVols = await Get<List<LenderApiContractsV3.NonVolContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.NonVolContract>, LenderApiResponse>(nonVols, _response);
         }
@@ -631,18 +413,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.AffiliatedBusinessArrangements(guid);
 
-            try
-            {
-                affs = await Get<List<LenderApiContractsV3.AffiliatedBusinessArrangementContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            affs = await Get<List<LenderApiContractsV3.AffiliatedBusinessArrangementContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.AffiliatedBusinessArrangementContract>, LenderApiResponse>(affs, _response);
         }
@@ -654,18 +425,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ServiceProviders(guid);
 
-            try
-            {
-                sps = await Get<List<LenderApiContractsV3.ServiceProviderContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            sps = await Get<List<LenderApiContractsV3.ServiceProviderContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.ServiceProviderContract>, LenderApiResponse>(sps, _response);
         }
@@ -677,18 +437,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ServiceProviders(guid);
 
-            try
-            {
-                hcps = await Get<List<LenderApiContractsV3.HomeCounselingProviderContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            hcps = await Get<List<LenderApiContractsV3.HomeCounselingProviderContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.HomeCounselingProviderContract>, LenderApiResponse>(hcps, _response);
         }
@@ -702,18 +451,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Employments(guid, appGuid, appType);
 
-            try
-            {
-                employments = await Get<List<LenderApiContractsV3.EmploymentContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            employments = await Get<List<LenderApiContractsV3.EmploymentContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.EmploymentContract>, LenderApiResponse>(employments, _response);
         }
@@ -725,18 +463,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ReoProperties(guid, appGuid);
 
-            try
-            {
-                reos = await Get<List<LenderApiContractsV3.ReoPropertyContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            reos = await Get<List<LenderApiContractsV3.ReoPropertyContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.ReoPropertyContract>, LenderApiResponse>(reos, _response);
         }
@@ -748,18 +475,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Vols(guid, appGuid);
 
-            try
-            {
-                vols = await Get<List<LenderApiContractsV3.VolContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            vols = await Get<List<LenderApiContractsV3.VolContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.VolContract>, LenderApiResponse>(vols, _response);
         }
@@ -771,18 +487,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Vods(guid, appGuid);
 
-            try
-            {
-                vods = await Get<List<LenderApiContractsV3.VodContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            vods = await Get<List<LenderApiContractsV3.VodContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.VodContract>, LenderApiResponse>(vods, _response);
         }
@@ -796,18 +501,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.URLAAlternateNames(guid, appGuid, appType);
 
-            try
-            {
-                alterNames = await Get<List<LenderApiContractsV3.UrlaAlternateNameContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            alterNames = await Get<List<LenderApiContractsV3.UrlaAlternateNameContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.UrlaAlternateNameContract>, LenderApiResponse>(alterNames, _response);
         }
@@ -820,17 +514,17 @@ namespace ICE.SDKtoAPI.Providers
                 var response = await client.PatchJsonAsync(contract);
 
                 if ((int)response.StatusCode >= 300)
-                    return new Tuple<HttpResponseMessage, LenderApiResponse>(null, BadResponse(response.StatusCode, response.ReasonPhrase, ""));
+                    return new Tuple<HttpResponseMessage, LenderApiResponse>(null, BadResponse(response.StatusCode, response.ReasonPhrase, "", ""));
                 else
                     return new Tuple<HttpResponseMessage, LenderApiResponse>(response, OkResponse(response, path));
             }
             catch (FlurlHttpException e)
             {
-                return new Tuple<HttpResponseMessage, LenderApiResponse>(null, BadResponse(e, path));
+                return new Tuple<HttpResponseMessage, LenderApiResponse>(null, BadResponse(e, path, ""));
             }
             catch (Exception exp)
             {
-                return new Tuple<HttpResponseMessage, LenderApiResponse>(null, BadResponse(exp, path));
+                return new Tuple<HttpResponseMessage, LenderApiResponse>(null, BadResponse(exp, path, ""));
             }
         }
         public async Task<Tuple<List<LenderApiContractsV3.ResidenceContract>, LenderApiResponse>> ManageResidence(string action, string guid, string appGuid, List<LenderApiContractsV3.ResidenceContract> contract, bool forBorrower = true)
@@ -844,7 +538,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.Residences(guid, appGuid, appType);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -868,7 +562,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.GiftsGrants(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -892,7 +586,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.AdditionaLoans(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
             if (apiResponse == null)
@@ -915,7 +609,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.OtherAssets(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -939,7 +633,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.OtherIncomeSources(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -964,7 +658,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.OtherLiabilities(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -988,7 +682,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.NonVols(guid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1012,7 +706,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.AffiliatedBusinessArrangements(guid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1036,7 +730,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.ServiceProviders(guid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1060,7 +754,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.HomeCouncelingProviders(guid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1086,7 +780,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.Employments(guid, appGuid, appType);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1110,7 +804,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.ReoProperties(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1134,7 +828,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.Vols(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1158,7 +852,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.Vods(guid, appGuid);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 
@@ -1184,7 +878,7 @@ namespace ICE.SDKtoAPI.Providers
             var usePath = paths.URLAAlternateNames(guid, appGuid, appType);
 
             if (action != "add" && action != "update" && action != "delete")
-                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "");
+                apiResponse = BadResponse(HttpStatusCode.BadRequest, "Invalid Action String", "", "");
 
             usePath += $"?action={action}&view=entity";
 

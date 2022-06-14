@@ -20,18 +20,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.RateLockRequests(guid);
 
-            try
-            {
-                list = await Get<List<RateLockSummaryContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            list = await Get<List<RateLockSummaryContract>>(usePath);
 
             return new Tuple<List<RateLockSummaryContract>, LenderApiResponse>(list, _response);
         }
@@ -41,18 +30,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ResourceLockList(guid);
 
-            try
-            {
-                theList = await Get<List<ResourceLockContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            theList = await Get<List<ResourceLockContract>>(usePath);
 
             return new Tuple<List<ResourceLockContract>, LenderApiResponse>(theList, _response);
         }
@@ -62,18 +40,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.LockRequestForResource(guid, resourceGuid);
 
-            try
-            {
-                item = await Get<RateLockDetail>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<RateLockDetail>(usePath);
 
             return new Tuple<RateLockDetail, LenderApiResponse>(item, _response);
         }
@@ -83,18 +50,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ExtendLockRequestForResource(guid, resourceId);
 
-            try
-            {
-                item = await Get<RateLockSummaryContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
@@ -104,18 +60,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ReLockRequestForResource(guid, resourceId);
 
-            try
-            {
-                item = await Get<RateLockSummaryContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
@@ -125,18 +70,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ConfirmLockRequestForResource(guid, resourceId);
 
-            try
-            {
-                item = await Get<RateLockSummaryContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
@@ -146,18 +80,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ReviseLockRequestForResource(guid, resourceId);
 
-            try
-            {
-                item = await Get<RateLockSummaryContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
@@ -167,18 +90,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.CancelRateLockRequest(guid, resourceId);
 
-            try
-            {
-                item = await Get<RateLockSummaryContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
@@ -188,18 +100,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.RateLockRequest(guid, resourceId);
 
-            try
-            {
-                item = await Get<RateLockSummaryContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
@@ -234,11 +135,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<List<LoanContractSnapshotFields>, LenderApiResponse>(snaps, apiResponse);
@@ -275,11 +176,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException ex)
             {
-                apiResponse = BadResponse(ex, usePath);
+                apiResponse = BadResponse(ex, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return new Tuple<string, LenderApiResponse>(lockId, apiResponse);
@@ -295,11 +196,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException fe)
             {
-                _response = BadResponse(fe, usePath);
+                _response = BadResponse(fe, usePath, "");
             }
             catch (Exception exp)
             {
-                _response = BadResponse(exp, usePath);
+                _response = BadResponse(exp, usePath, "");
             }
 
             return _response;

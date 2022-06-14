@@ -17,18 +17,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.EncompassPathFull + "/converter/loans?mediaType=mismo";
 
-            try
-            {
-                returnedResp = await GetString(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            returnedResp = await GetString(usePath);
 
             return new Tuple<string, LenderApiResponse>(returnedResp, _response);
         }
@@ -48,11 +37,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return apiResponse;
@@ -76,11 +65,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return apiResponse;

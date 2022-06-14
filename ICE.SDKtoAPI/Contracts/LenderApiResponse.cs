@@ -27,6 +27,7 @@ namespace ICE.SDKtoAPI.Contracts
             }
             return null;
         }
+        public string ResponseContext { get; set; } = string.Empty;
 
     }
 }

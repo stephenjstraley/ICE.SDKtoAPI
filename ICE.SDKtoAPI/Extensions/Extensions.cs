@@ -44,7 +44,8 @@ namespace ICE.SDKtoAPI.Extensions
             {
                 var content = resp.Content.ReadAsStringAsync().Result;
 
-                if (!string.IsNullOrEmpty(content)) return JsonConvert.DeserializeObject<T>(content);
+                if (!string.IsNullOrEmpty(content)) 
+                    return JsonConvert.DeserializeObject<T>(content);
 
             }
             return default(T);

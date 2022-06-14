@@ -18,18 +18,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.MilestonesPath(guid);
 
-            try
-            {
-                items = await Get<List<MilestoneContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            items = await Get<List<MilestoneContract>>(usePath);
 
             return new Tuple<List<MilestoneContract>, LenderApiResponse>(items, _response);
         }
@@ -39,18 +28,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.AssociatesPath(guid);
 
-            try
-            {
-                items = await Get<List<LoanContractLoanAssociate>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            items = await Get<List<LoanContractLoanAssociate>>(usePath);
 
             return new Tuple<List<LoanContractLoanAssociate>, LenderApiResponse>(items, _response);
         }
@@ -60,18 +38,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.AssociatePath(guid, logId);
 
-            try
-            {
-                item = await Get<LoanContractLoanAssociate>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<LoanContractLoanAssociate>(usePath);
 
             return new Tuple<LoanContractLoanAssociate, LenderApiResponse>(item, _response);
         }
@@ -81,18 +48,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.MilestonePath(guid, logId);
 
-            try
-            {
-                item = await Get<MilestoneContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<MilestoneContract>(usePath);
 
             return new Tuple<MilestoneContract, LenderApiResponse>(item, _response);
         }
@@ -112,11 +68,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath);
+                apiResponse = BadResponse(e, usePath, "");
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath);
+                apiResponse = BadResponse(exp, usePath, "");
             }
 
             return apiResponse;
@@ -127,18 +83,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.MilestoneFreeRolesPath(guid);
 
-            try
-            {
-                items = await Get<List<MilestoneFreeRoleContract>>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            items = await Get<List<MilestoneFreeRoleContract>>(usePath);
 
             return new Tuple<List<MilestoneFreeRoleContract>, LenderApiResponse>(items, _response);
         }
@@ -148,18 +93,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.MilestoneFreeRolePath(guid, logId);
 
-            try
-            {
-                item = await Get<MilestoneFreeRoleContract>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath);
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath);
-            }
+            item = await Get<MilestoneFreeRoleContract>(usePath);
 
             return new Tuple<MilestoneFreeRoleContract, LenderApiResponse>(item, _response);
         }

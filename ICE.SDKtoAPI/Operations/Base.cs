@@ -58,6 +58,7 @@ namespace ICE.SDKtoAPI
         public SDKAPIField Fields = new SDKAPIField();
         public string CurrentFolder => _meta?.LoanFolder ?? string.Empty;
         public string LoanGuid => _guid;
+        public bool SaveResponseContect = false;
         public AccessToken Token => _accessToken;
         public bool HasAccessToken
         {

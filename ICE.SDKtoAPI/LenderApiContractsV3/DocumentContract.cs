@@ -24,13 +24,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string StatusDate { get; set; }
 
         [DataMember(Name = "receivedBy")]
-        public string ReceivedBy { get; set; }
+        public EntityReferenceContract ReceivedBy { get; set; }
 
         [DataMember(Name = "receivedDate")]
         public string ReceivedDate { get; set; }
 
         [DataMember(Name = "requestedBy")]
-        public string RequestedBy { get; set; }
+        public EntityReferenceContract RequestedBy { get; set; }
 
         [DataMember(Name = "requestedDate")]
         public string RequestedDate { get; set; }
@@ -108,7 +108,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string PackageId { get; set; }
 
         [DataMember(Name = "application")]
-        public string Application { get; set; }
+        public ApplicationReferenceContract Application { get; set; }
 
         [DataMember(Name = "verification")]
         public string Verification { get; set; }
