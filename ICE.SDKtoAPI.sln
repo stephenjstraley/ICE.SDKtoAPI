@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICE.SDKtoAPI", "ICE.SDKtoAPI\ICE.SDKtoAPI.csproj", "{FD92D0C7-30D3-4F0F-98D7-418C12924EC6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LenderApi_Tests", "LenderApi_Tests\LenderApi_Tests.csproj", "{1A0785AD-6F65-49E6-9695-A0F1FCC4077E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICE.SDKtoAPI", "ICE.SDKtoAPI\ICE.SDKtoAPI.csproj", "{FD92D0C7-30D3-4F0F-98D7-418C12924EC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{FD92D0C7-30D3-4F0F-98D7-418C12924EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD92D0C7-30D3-4F0F-98D7-418C12924EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD92D0C7-30D3-4F0F-98D7-418C12924EC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A0785AD-6F65-49E6-9695-A0F1FCC4077E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A0785AD-6F65-49E6-9695-A0F1FCC4077E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A0785AD-6F65-49E6-9695-A0F1FCC4077E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A0785AD-6F65-49E6-9695-A0F1FCC4077E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

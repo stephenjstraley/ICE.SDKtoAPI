@@ -823,6 +823,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
                             var propertyInfo = newInstance.GetType().GetProperty(right);
                             propertyInfo.SetValue(newInstance, GetAPIValue(propertyInfo, value), null);
+
                         }
                         else { } // update a value
                     }

@@ -44,6 +44,20 @@ namespace ICE.SDKtoAPI.Providers
 
             return new Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>(fields, _response);
         }
+        public async Task<Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>> GetV3FieldSchemaAsync(List<string> ids)
+        {
+            List<LenderApiContractsV3.FieldSchemaContract> fields = new List<LenderApiContractsV3.FieldSchemaContract>();
+            ClearResponse();
+
+            var idList = string.Join(",", ids);
+
+            var usePath = paths.FieldSchemaV3Path + $"?ids={idList}";
+
+            fields = await Get<List<LenderApiContractsV3.FieldSchemaContract>>(usePath);
+
+            return new Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>(fields, _response);
+        }
+
         public async Task<Tuple<List<LenderApiContractsV3.FieldSchemaContract>, LenderApiResponse>> GetV3FieldSchemaAsync(string id)
         {
             List<LenderApiContractsV3.FieldSchemaContract> fields = new List<LenderApiContractsV3.FieldSchemaContract>();

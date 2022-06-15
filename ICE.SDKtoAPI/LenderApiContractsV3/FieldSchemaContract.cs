@@ -21,7 +21,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public bool ReadOnly { get; set; }
 
         [DataMember(Name = "nullable")]
-        public string Nullable { get; set; }
+        public bool Nullable { get; set; }
 
         [DataMember(Name = "category")]
         public string Category { get; set; }

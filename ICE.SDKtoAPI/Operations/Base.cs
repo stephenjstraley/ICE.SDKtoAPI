@@ -216,6 +216,14 @@ namespace ICE.SDKtoAPI
             _lastResponse = result.Item2;
             return result.Item1;
         }
+        public async Task<List<LenderApiContractsV3.FieldSchemaContract>> GetV3FieldSchemaAsync(List<string> ids)
+        {
+            SetResponse();
+            var provider = new BaseProviderService(_accessToken);
+            var result = await provider.GetV3FieldSchemaAsync(ids);
+            _lastResponse = result.Item2;
+            return result.Item1;
+        }
         public async Task<List<LenderApiContractsV3.FieldSchemaContract>> GetV3FieldSchemaAsync(int start = 0, int limit = 5000)
         {
             SetResponse();
@@ -280,11 +288,11 @@ namespace ICE.SDKtoAPI
             return retValue;
         }
 
-        public async Task<List<CustomFieldMeta>> GetCustomFieldsAsync()
+        public async Task<List<CustomFieldMeta>> GetCustomFieldsAsync(bool v3Schema = false)
         {
             SetResponse();
             var provider = new LoanProviderService(_accessToken);
-            var result = await provider.GetCustomFieldsAsync();
+            var result = await provider.GetCustomFieldsAsync(v3Schema);
             _lastResponse = result.Item2;
             if (result.Item2.IsSuccess)
             {
