@@ -15,41 +15,33 @@ namespace ICE.SDKtoAPI.Providers
 
         public async Task<Tuple<List<WebHookResource>, LenderApiResponse>> GetResourcesAsync()
         {
-            List<WebHookResource> res = null;
-
             var usePath = paths.WebHookFull + "/resources";
 
-            res = await Get<List<WebHookResource>>(usePath);
+            var res = await Get<List<WebHookResource>>(usePath);
 
             return new Tuple<List<WebHookResource>, LenderApiResponse>(res, _response);
         }
         public async Task<Tuple<List<WebHookResourceEvent>, LenderApiResponse>> GetResourceEventsAsync()
         {
-            List<WebHookResourceEvent> res = null;
-
             var usePath = paths.WebHookFull + "/resources/Loan/Events";
 
-            res = await Get<List<WebHookResourceEvent>>(usePath);
+            var res = await Get<List<WebHookResourceEvent>>(usePath);
 
             return new Tuple<List<WebHookResourceEvent>, LenderApiResponse>(res, _response);
         }
         public async Task<Tuple<List<WebHookSubscription>, LenderApiResponse>> GetSubscriptsionsAsync()
         {
-            List<WebHookSubscription> subs = null;
-
             var usePath = paths.WebHookFull + "/subscriptions";
 
-            subs = await Get<List<WebHookSubscription>>(usePath);
+            var subs = await Get<List<WebHookSubscription>>(usePath);
 
             return new Tuple<List<WebHookSubscription>, LenderApiResponse>(subs, _response);
         }
         public async Task<Tuple<WebHookSubscription, LenderApiResponse>> GetSubscriptsionAsync(string id)
         {
-            WebHookSubscription sub = null;
-
             var usePath = paths.WebHookFull + $"/subscriptions/{id}";
 
-            sub = await Get<WebHookSubscription>(usePath);
+            var sub = await Get<WebHookSubscription>(usePath);
 
             return new Tuple<WebHookSubscription, LenderApiResponse>(sub, _response);
         }

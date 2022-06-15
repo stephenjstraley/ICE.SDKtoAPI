@@ -21,7 +21,7 @@ namespace ICE.SDKtoAPI.Providers
             try
             {
                 var url = Authenticate(usePath);
-
+                
                 var response = await url.PostJsonAsync(model);
 
                 apiResponse = OkResponse(response.Headers, usePath);

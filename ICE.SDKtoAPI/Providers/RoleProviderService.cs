@@ -14,11 +14,9 @@ namespace ICE.SDKtoAPI.Providers
 
         public async Task<Tuple<List<RoleExtended>, LenderApiResponse>> GetRolesAsync()
         {
-            List<RoleExtended> roles = null;
-
             var usePath = paths.Settings + "/roles";
 
-            roles = await Get<List<RoleExtended>>(usePath);
+            var roles = await Get<List<RoleExtended>>(usePath);
 
             return new Tuple<List<RoleExtended>, LenderApiResponse>(roles, _response);
         }

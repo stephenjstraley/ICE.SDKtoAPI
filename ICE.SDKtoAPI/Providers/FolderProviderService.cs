@@ -43,21 +43,17 @@ namespace ICE.SDKtoAPI.Providers
         }
         public async Task<Tuple<List<LoanFolderContract>, LenderApiResponse>> GetLoanFoldersAsync()
         {
-            List<LoanFolderContract> folders = null;
-
             var usePath = paths.FolderPathFull;
 
-            folders = await Get<List<LoanFolderContract>>(usePath);
+            var folders = await Get<List<LoanFolderContract>>(usePath);
 
             return new Tuple<List<LoanFolderContract>, LenderApiResponse>(folders, _response);
         }
         public async Task<Tuple<LoanFolderContract, LenderApiResponse>> GetLoanFolderAsync(string name)
         {
-            LoanFolderContract folder = null;
-
             var usePath = paths.FolderPathFull + "/" + name;
 
-            folder = await Get<LoanFolderContract>(usePath);
+            var folder = await Get<LoanFolderContract>(usePath);
 
             return new Tuple<LoanFolderContract, LenderApiResponse>(folder, _response);
         }

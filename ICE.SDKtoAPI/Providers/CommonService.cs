@@ -158,17 +158,41 @@ namespace ICE.SDKtoAPI.Providers
         }
         protected async Task<T> Patch<T>(object item, string path)
         {
-            var client = Authenticate(path);
-            _lastMsg = await client.PatchJsonAsync(item);
-            var ret = _lastMsg.ReceiveJson<T>();
-            _response = OkResponse(_lastMsg.Headers, path);
-            return ret;
+            try
+            {
+                var client = Authenticate(path);
+                _lastMsg = await client.PatchJsonAsync(item);
+                var ret = _lastMsg.ReceiveJson<T>();
+                _response = OkResponse(_lastMsg.Headers, path);
+                return ret;
+            }
+            catch (FlurlHttpException fe)
+            {
+                _response = BadResponse(fe, path, string.Empty);
+            }
+            catch (Exception exp)
+            {
+                _response = BadResponse(exp, path, string.Empty);
+            }
+
+            return default;
         }
         protected async Task Patch(object item, string path)
         {
-            var client = Authenticate(path);
-            _lastMsg = await client.PatchJsonAsync(item);
-            _response = OkResponse(_lastMsg.Headers, path);
+            try
+            {
+                var client = Authenticate(path);
+                _lastMsg = await client.PatchJsonAsync(item);
+                _response = OkResponse(_lastMsg.Headers, path);
+            }
+            catch (FlurlHttpException fe)
+            {
+                _response = BadResponse(fe, path, string.Empty);
+            }
+            catch (Exception exp)
+            {
+                _response = BadResponse(exp, path, string.Empty);
+            }
         }
         protected async Task<T> Post<T>(object item, string path)
         {
@@ -199,15 +223,37 @@ namespace ICE.SDKtoAPI.Providers
         }
         protected async Task Post(object item, string path)
         {
-            var client = Authenticate(path);
-            _lastMsg = await client.PostJsonAsync(item);
-            _response = OkResponse(_lastMsg.Headers, path);
+            try
+            {
+                var client = Authenticate(path);
+                _lastMsg = await client.PostJsonAsync(item);
+                _response = OkResponse(_lastMsg.Headers, path);
+            }
+            catch (FlurlHttpException fe)
+            {
+                _response = BadResponse(fe, path, string.Empty);
+            }
+            catch (Exception exp)
+            {
+                _response = BadResponse(exp, path, string.Empty);
+            }
         }
         protected async Task Delete(string path)
         {
-            var client = Authenticate(path);
-            _lastMsg = await client.DeleteAsync();
-            _response = OkResponse(_lastMsg.Headers, path);
+            try
+            {
+                var client = Authenticate(path);
+                _lastMsg = await client.DeleteAsync();
+                _response = OkResponse(_lastMsg.Headers, path);
+            }
+            catch (FlurlHttpException fe)
+            {
+                _response = BadResponse(fe, path, string.Empty);
+            }
+            catch (Exception exp)
+            {
+                _response = BadResponse(exp, path, string.Empty);
+            }
         }
     }
 }

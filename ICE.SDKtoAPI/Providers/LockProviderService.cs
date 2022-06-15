@@ -16,91 +16,73 @@ namespace ICE.SDKtoAPI.Providers
         public LockProviderService(AccessToken token) : base(token) { paths.SetV1(); }
         public async Task<Tuple<List<RateLockSummaryContract>, LenderApiResponse>> GetLockRequestAsync(string guid)
         {
-            List<RateLockSummaryContract> list = null;
-
             var usePath = paths.RateLockRequests(guid);
 
-            list = await Get<List<RateLockSummaryContract>>(usePath);
+            var list = await Get<List<RateLockSummaryContract>>(usePath);
 
             return new Tuple<List<RateLockSummaryContract>, LenderApiResponse>(list, _response);
         }
         public async Task<Tuple<List<ResourceLockContract>, LenderApiResponse>> ResourceLockListAsync(string guid)
         {
-            List<ResourceLockContract> theList = null;            
-
             var usePath = paths.ResourceLockList(guid);
 
-            theList = await Get<List<ResourceLockContract>>(usePath);
+            var theList = await Get<List<ResourceLockContract>>(usePath);
 
             return new Tuple<List<ResourceLockContract>, LenderApiResponse>(theList, _response);
         }
         public async Task<Tuple<RateLockDetail, LenderApiResponse>> GetLockRequestAsync(string guid, string resourceGuid)
         {
-            RateLockDetail item = null;
-
             var usePath = paths.LockRequestForResource(guid, resourceGuid);
 
-            item = await Get<RateLockDetail>(usePath);
+            var item = await Get<RateLockDetail>(usePath);
 
             return new Tuple<RateLockDetail, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<RateLockSummaryContract, LenderApiResponse>> ExtendRateLockRequestAsync(string guid, string resourceId, ExtendRateLock rateLock)
         {
-            RateLockSummaryContract item = null;
-
             var usePath = paths.ExtendLockRequestForResource(guid, resourceId);
 
-            item = await Get<RateLockSummaryContract>(usePath);
+            var item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<RateLockSummaryContract, LenderApiResponse>> RelockRateLockRequestAsync(string guid, string resourceId, ExtendRateLock rateLock)
         {
-            RateLockSummaryContract item = null;
-
             var usePath = paths.ReLockRequestForResource(guid, resourceId);
 
-            item = await Get<RateLockSummaryContract>(usePath);
+            var item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<RateLockSummaryContract, LenderApiResponse>> ConfirmRateLockRequestAsync(string guid, string resourceId, ConfirmRateLock confirm)
         {
-            RateLockSummaryContract item = null;
-
             var usePath = paths.ConfirmLockRequestForResource(guid, resourceId);
 
-            item = await Get<RateLockSummaryContract>(usePath);
+            var item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<RateLockSummaryContract, LenderApiResponse>> ReviseRateLockRequestAsync(string guid, string resourceId, RateLockSummaryContract summary)
         {
-            RateLockSummaryContract item = null;
-
             var usePath = paths.ReviseLockRequestForResource(guid, resourceId);
 
-            item = await Get<RateLockSummaryContract>(usePath);
+            var item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<RateLockSummaryContract, LenderApiResponse>> CancelRateLockRequestAsync(string guid, string resourceId, RateLockSummaryContract summary)
         {
-            RateLockSummaryContract item = null;
-
             var usePath = paths.CancelRateLockRequest(guid, resourceId);
 
-            item = await Get<RateLockSummaryContract>(usePath);
+            var item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<RateLockSummaryContract, LenderApiResponse>> GetRateLockRequestAsync(string guid, string resourceId)
         {
-            RateLockSummaryContract item = null;
-
             var usePath = paths.RateLockRequest(guid, resourceId);
 
-            item = await Get<RateLockSummaryContract>(usePath);
+            var item = await Get<RateLockSummaryContract>(usePath);
 
             return new Tuple<RateLockSummaryContract, LenderApiResponse>(item, _response);
         }
@@ -190,18 +172,7 @@ namespace ICE.SDKtoAPI.Providers
             var value = forced ? "true" : "false";
             var usePath = paths.ResourceLock(guid, requestId, value);
 
-            try
-            {
-                var temp = await Get<string>(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+            await Get<string>(usePath);
 
             return _response;
         }

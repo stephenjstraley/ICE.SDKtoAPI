@@ -36,18 +36,18 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ApplicationsPath(guid);
 
-            try
-            {
+//            try
+//            {
                 appId = await Post<string>(app, usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+//            }
+//            catch (FlurlHttpException fe)
+//            {
+//                _response = BadResponse(fe, usePath, "");
+//            }
+//            catch (Exception exp)
+//            {
+//                _response = BadResponse(exp, usePath, "");
+//            }
 
             return new Tuple<string, LenderApiResponse>(appId, _response);
         }
@@ -57,18 +57,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.ApplicationsPath(guid) + $"/{appGuid}";
 
-            try
-            {
-                var temp = await Patch<object>(app, usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+            await Patch<object>(app, usePath);
 
             return _response;
         }

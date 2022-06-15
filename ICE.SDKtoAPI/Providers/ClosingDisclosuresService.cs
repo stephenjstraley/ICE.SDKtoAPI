@@ -14,11 +14,9 @@ namespace ICE.SDKtoAPI.Providers
 
         public async Task<Tuple<List<PlanCode>, LenderApiResponse>> GetPlanCodesAsync(string type)
         {
-            List<PlanCode> codes = null;
-
             var usePath = paths.EncompassDocsPathFull + $"/planCodes?planCodeType={type}";
 
-            codes = await Get<List<PlanCode>>(usePath);
+            List<PlanCode> codes = await Get<List<PlanCode>>(usePath);
 
             return new Tuple<List<PlanCode>, LenderApiResponse>(codes, _response);
         }

@@ -18,41 +18,33 @@ namespace ICE.SDKtoAPI.Providers
 
         public async Task<Tuple<List<DocumentContract>, LenderApiResponse>> GetDocumentsAsync(string guid)
         {
-            List<DocumentContract> list = null;
-
             var usePath = paths.Documents(guid);
 
-            list = await Get<List<DocumentContract>>(usePath);
+            List<DocumentContract> list = await Get<List<DocumentContract>>(usePath);
 
             return new Tuple<List<DocumentContract>, LenderApiResponse>(list, _response);
         }
         public async Task<Tuple<DocumentContract, LenderApiResponse>> GetDocumentAsync(string guid, string docId)
         {
-            DocumentContract item = null;
-
             var usePath = paths.Document(guid, docId);
 
-            item = await Get<DocumentContract>(usePath);
+            DocumentContract item = await Get<DocumentContract>(usePath);
 
             return new Tuple<DocumentContract, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<List<FileAttachmentContract>, LenderApiResponse>> GetAttachmentsAsync(string guid)
         {
-            List<FileAttachmentContract> list = null;
-
             var usePath = paths.Attachments(guid);
 
-            list = await Get<List<FileAttachmentContract>>(usePath);
+            List<FileAttachmentContract> list = await Get<List<FileAttachmentContract>>(usePath);
 
             return new Tuple<List<FileAttachmentContract>, LenderApiResponse>(list, _response);
         }
         public async Task<Tuple<List<FileAttachmentContract>, LenderApiResponse>> GetAttachmentsWithRemovedAsync(string guid)
         {
-            List<FileAttachmentContract> list = null;
-
             var usePath = paths.AttachmentsIncludingRemoved(guid);
 
-            list = await Get<List<FileAttachmentContract>>(usePath);
+            List<FileAttachmentContract> list = await Get<List<FileAttachmentContract>>(usePath);
 
             return new Tuple<List<FileAttachmentContract>, LenderApiResponse>(list, _response);
         }
@@ -79,11 +71,11 @@ namespace ICE.SDKtoAPI.Providers
             }
             catch (FlurlHttpException e)
             {
-                apiResponse = BadResponse(e, usePath, "");
+                apiResponse = BadResponse(e, usePath, string.Empty);
             }
             catch (Exception exp)
             {
-                apiResponse = BadResponse(exp, usePath, "");
+                apiResponse = BadResponse(exp, usePath, string.Empty);
             }
 
             return new Tuple<AttachmentUrlDownloadContract, LenderApiResponse>(item, apiResponse);
@@ -97,18 +89,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.Documents(guid);
 
-            try
-            {
-                doc = await Post<LenderApiContractsV1.LoanContractDocuments>(document, usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+            doc = await Post<LenderApiContractsV1.LoanContractDocuments>(document, usePath);
 
             return new Tuple<LenderApiContractsV1.LoanContractDocuments, LenderApiResponse>(doc, _response);
         }

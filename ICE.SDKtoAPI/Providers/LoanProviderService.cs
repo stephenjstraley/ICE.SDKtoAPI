@@ -17,11 +17,10 @@ namespace ICE.SDKtoAPI.Providers
         public async Task<Tuple<V3LoanSchema, LenderApiResponse>> GetV3LoanSchemaAsync()
         {
             paths.SetV3();
-            V3LoanSchema schema = null;
 
             var usePath = paths.EncompassPathFull.AppendPathSegment("/schema/loan");
 
-            schema = await Get<V3LoanSchema>(usePath);
+            var schema = await Get<V3LoanSchema>(usePath);
 
             return new Tuple<V3LoanSchema, LenderApiResponse>(schema, _response);
         }
@@ -29,11 +28,10 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV1();
             LenderApiContractsV1.LoanContract theFullLoan = null;
-            string rawLoan = null;
 
             var usePath = paths.LoanPathFull.AppendPathSegment($"/{guid}");
 
-            rawLoan = await GetString(usePath);
+            string rawLoan = await GetString(usePath);
 
             if (_response.IsSuccess)
                 theFullLoan = await Get<LenderApiContractsV1.LoanContract>(usePath);
@@ -62,14 +60,11 @@ namespace ICE.SDKtoAPI.Providers
         }
         public async Task<Tuple<LenderApiContractsV1.LoanContract, LenderApiResponse>> CreateLoanAsync(LenderApiContractsV1.LoanContractBase loan, string folderName)
         {
-            LenderApiContractsV1.LoanContract value = null;
-            LenderApiResponse apiResponse;
-
             paths.SetV3();
 
             var usePath = paths.CreateLoan(folderName);
 
-            value = await Post<LenderApiContractsV1.LoanContract>(loan, usePath);
+            var value = await Post<LenderApiContractsV1.LoanContract>(loan, usePath);
 
             paths.SetV1();
 
@@ -77,22 +72,19 @@ namespace ICE.SDKtoAPI.Providers
         }
         public async Task<Tuple<LenderApiContractsV1.LoanMetaData, LenderApiResponse>> GetLoanMetaDataAsync(string guid)
         {
-            LenderApiContractsV1.LoanMetaData data = null;
-
             var usePath = paths.GetMetaData(guid);
 
-            data = await Get<LenderApiContractsV1.LoanMetaData>(usePath);
+            var data = await Get<LenderApiContractsV1.LoanMetaData>(usePath);
 
             return new Tuple<LenderApiContractsV1.LoanMetaData, LenderApiResponse>(data, _response);
         }
         public async Task<Tuple<List<VirtualFieldMeta>, LenderApiResponse>> GetVirutalFieldsAsync()
         {
-            List<VirtualFieldMeta> fields = null;
             paths.SetV3(); // this only works for V3
 
             var usePath = paths.VirtualFieldPathFull;
 
-            fields = await Get<List<VirtualFieldMeta>>(usePath);
+            var fields = await Get<List<VirtualFieldMeta>>(usePath);
 
             return new Tuple<List<VirtualFieldMeta>, LenderApiResponse>(fields, _response);
         }
@@ -129,50 +121,44 @@ namespace ICE.SDKtoAPI.Providers
         }
         public async Task<Tuple<List<CustomFieldMeta>, LenderApiResponse>> GetCustomFieldsAsync(bool withV3 = false)
         {
-            List<CustomFieldMeta> fields = null;
-
-            if (withV3) paths.SetV3();
-            else paths.SetV1();
+            if (withV3)
+                paths.SetV3();
+            else
+                paths.SetV1();
 
             var usePath = paths.CustomFieldPathFull;
 
-            fields = await Get<List<CustomFieldMeta>>(usePath);
+            var fields = await Get<List<CustomFieldMeta>>(usePath);
 
             return new Tuple<List<CustomFieldMeta>, LenderApiResponse>(fields, _response);
         }
         public async Task<Tuple<List<LenderApiContractsV1.LoanContractLoanAssociate>, LenderApiResponse>> GetLoanAssociatesAsync(string guid)
         {
-            List<LenderApiContractsV1.LoanContractLoanAssociate> associates = null;
-
             paths.SetV1();
 
             var usePath = paths.AssociatesPath(guid);
 
-            associates = await Get<List<LenderApiContractsV1.LoanContractLoanAssociate>>(usePath); 
+            var associates = await Get<List<LenderApiContractsV1.LoanContractLoanAssociate>>(usePath); 
 
             return new Tuple<List<LenderApiContractsV1.LoanContractLoanAssociate>, LenderApiResponse>(associates, _response);
         }
         public async Task<Tuple<List<LenderApiContractsV1.LoanUnderwritingConditionsContract>, LenderApiResponse>> GetUnderwitingConditionsAsync(string guid)
         {
-            List<LenderApiContractsV1.LoanUnderwritingConditionsContract> conditions = null;
-
             var usePath = paths.UnderwritingConditionsPath(guid);
 
             paths.SetV1();
 
-            conditions = await Get<List<LenderApiContractsV1.LoanUnderwritingConditionsContract>>(usePath);
+            var conditions = await Get<List<LenderApiContractsV1.LoanUnderwritingConditionsContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.LoanUnderwritingConditionsContract>, LenderApiResponse>(conditions, _response);
         }
         public async Task<Tuple<LenderApiContractsV1.LoanContract, LenderApiResponse>> GetBorrowerCoborrowerAsync(string guid)
         {
-            LenderApiContractsV1.LoanContract theFullLoan = null;
-
             paths.SetV1();
 
             var usePath = paths.BorrowCorBorrowEntityPath(guid);
 
-            theFullLoan = await Get<LenderApiContractsV1.LoanContract>(usePath);
+            var theFullLoan = await Get<LenderApiContractsV1.LoanContract>(usePath);
 
             return new Tuple<LenderApiContractsV1.LoanContract, LenderApiResponse>(theFullLoan, _response);
         }
@@ -182,18 +168,7 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = $"{paths.LoanPathFull}/{guid}";
 
-            try
-            {
-                var temp = await Patch<string>(loan, usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+            await Patch<string>(loan, usePath);
 
             return _response;
         }
@@ -206,25 +181,10 @@ namespace ICE.SDKtoAPI.Providers
             if (!string.IsNullOrEmpty(lockId))
                 usePath += $"&lockId={lockId}";
 
-            try
-            {
-                if (!string.IsNullOrEmpty(guid) && loan != null)
-                {
-                    await Patch(loan, usePath);
-                }
-                else
-                {
-                    _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "LOAN is null or GUID was empty", "LOAN is null or GUID was empty", "");
-                }
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+            if (!string.IsNullOrEmpty(guid) && loan != null)
+                await Patch(loan, usePath);
+            else
+                _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "LOAN is null or GUID was empty", "LOAN is null or GUID was empty", string.Empty);
 
             return _response;
         }
@@ -240,18 +200,7 @@ namespace ICE.SDKtoAPI.Providers
             if (loanV3)
                 usePath += "?elli_idt=enterprise";
 
-            try
-            {
-                await Delete(usePath);
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+            await Delete(usePath);
 
             return _response;
         }
@@ -261,61 +210,40 @@ namespace ICE.SDKtoAPI.Providers
 
             var usePath = paths.BatchPath;
 
-            try
-            {
-                if (data != null)
-                {
-                    await Post(data, usePath);
-                }
-                else
-                {
-                    _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "Parameter was null", "Parameter was null", "");
-                }
-            }
-            catch (FlurlHttpException fe)
-            {
-                _response = BadResponse(fe, usePath, "");
-            }
-            catch (Exception exp)
-            {
-                _response = BadResponse(exp, usePath, "");
-            }
+            if (data != null)
+                await Post(data, usePath);
+            else
+                _response = BadResponse(System.Net.HttpStatusCode.BadRequest, "Parameter was null", "Parameter was null", string.Empty);
 
             return _response;
         }
         public async Task<Tuple<List<LenderApiContractsV1.LoanContractConversationLogs>, LenderApiResponse>> GetConversationLogsAsync(string guid)
         {
-            List<LenderApiContractsV1.LoanContractConversationLogs> conversations = null;
-
             paths.SetV1();
 
             var usePath = paths.ConversationsPath(guid);
 
-            conversations = await Get<List<LenderApiContractsV1.LoanContractConversationLogs>>(usePath);
+            var conversations = await Get<List<LenderApiContractsV1.LoanContractConversationLogs>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.LoanContractConversationLogs>, LenderApiResponse>(conversations, _response);
         }
         public async Task<Tuple<LenderApiContractsV1.LoanContractConversationLogs, LenderApiResponse>> GetConversationLogAsync(string guid, string id)
         {
-            LenderApiContractsV1.LoanContractConversationLogs conversation = null;
-
             paths.SetV1();
 
             var usePath = paths.ConversationsPath(guid) + $"/{id}";
 
-            conversation = await Get<LenderApiContractsV1.LoanContractConversationLogs>(usePath);
+            var conversation = await Get<LenderApiContractsV1.LoanContractConversationLogs>(usePath);
 
             return new Tuple<LenderApiContractsV1.LoanContractConversationLogs, LenderApiResponse>(conversation, _response);
         }
         public async Task<Tuple<List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs>, LenderApiResponse>> GetDisclosureTrackingLogsAsync(string guid)
         {
-            List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs> logs = null;
-
             paths.SetV1();
 
             var usePath = paths.DisclosureTrackingPath(guid);
 
-            logs = await Get<List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs>>(usePath);
+            var logs = await Get<List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs>>(usePath);
 
             return new Tuple<List<LenderApiContractsV1.LoanContractDisclosureTracking2015Logs>, LenderApiResponse>(logs, _response);
         }
@@ -323,13 +251,11 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.ResidenceContract> residences = null;
-
             string appType = borrower ? "borrower" : "coborrower";
 
             var usePath = paths.Residences(guid, appGuid, appType);
 
-            residences = await Get<List<LenderApiContractsV3.ResidenceContract>>(usePath);
+            var residences = await Get<List<LenderApiContractsV3.ResidenceContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.ResidenceContract>, LenderApiResponse>(residences, _response);
         }
@@ -337,11 +263,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.GiftGrantContract> giftsGrants = null;
-
             var usePath = paths.GiftsGrants(guid, appGuid);
 
-            giftsGrants = await Get<List<LenderApiContractsV3.GiftGrantContract>>(usePath);
+            var giftsGrants = await Get<List<LenderApiContractsV3.GiftGrantContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.GiftGrantContract>, LenderApiResponse>(giftsGrants, _response);
         }
@@ -361,11 +285,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.OtherAssetContract> otherAssets = null;
-
             var usePath = paths.OtherAssets(guid, appGuid);
 
-            otherAssets = await Get<List<LenderApiContractsV3.OtherAssetContract>>(usePath);
+            var otherAssets = await Get<List<LenderApiContractsV3.OtherAssetContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.OtherAssetContract>, LenderApiResponse>(otherAssets, _response);
         }
@@ -373,11 +295,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.OtherIncomeSourceContract> otherSources = null;
-
             var usePath = paths.OtherIncomeSources(guid, appGuid);
 
-            otherSources = await Get<List<LenderApiContractsV3.OtherIncomeSourceContract>>(usePath);
+            var otherSources = await Get<List<LenderApiContractsV3.OtherIncomeSourceContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.OtherIncomeSourceContract>, LenderApiResponse>(otherSources, _response);
         }
@@ -385,11 +305,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.OtherLiabilityContract> otherLiabilities = null;
-
             var usePath = paths.OtherLiabilities(guid, appGuid);
 
-            otherLiabilities = await Get<List<LenderApiContractsV3.OtherLiabilityContract>>(usePath);
+            var otherLiabilities = await Get<List<LenderApiContractsV3.OtherLiabilityContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.OtherLiabilityContract>, LenderApiResponse>(otherLiabilities, _response);
         }
@@ -397,11 +315,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.NonVolContract> nonVols = null;
-
             var usePath = paths.NonVols(guid);
 
-            nonVols = await Get<List<LenderApiContractsV3.NonVolContract>>(usePath);
+            var nonVols = await Get<List<LenderApiContractsV3.NonVolContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.NonVolContract>, LenderApiResponse>(nonVols, _response);
         }
@@ -409,11 +325,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.AffiliatedBusinessArrangementContract> affs = null;
-
             var usePath = paths.AffiliatedBusinessArrangements(guid);
 
-            affs = await Get<List<LenderApiContractsV3.AffiliatedBusinessArrangementContract>>(usePath);
+            var affs = await Get<List<LenderApiContractsV3.AffiliatedBusinessArrangementContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.AffiliatedBusinessArrangementContract>, LenderApiResponse>(affs, _response);
         }
@@ -421,11 +335,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.ServiceProviderContract> sps = null;
-
             var usePath = paths.ServiceProviders(guid);
 
-            sps = await Get<List<LenderApiContractsV3.ServiceProviderContract>>(usePath);
+            var sps = await Get<List<LenderApiContractsV3.ServiceProviderContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.ServiceProviderContract>, LenderApiResponse>(sps, _response);
         }
@@ -433,11 +345,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.HomeCounselingProviderContract> hcps = null;
-
             var usePath = paths.ServiceProviders(guid);
 
-            hcps = await Get<List<LenderApiContractsV3.HomeCounselingProviderContract>>(usePath);
+            var hcps = await Get<List<LenderApiContractsV3.HomeCounselingProviderContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.HomeCounselingProviderContract>, LenderApiResponse>(hcps, _response);
         }
@@ -445,13 +355,11 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.EmploymentContract> employments = null;
-
             string appType = borrower ? "borrower" : "coborrower";
 
             var usePath = paths.Employments(guid, appGuid, appType);
 
-            employments = await Get<List<LenderApiContractsV3.EmploymentContract>>(usePath);
+            var employments = await Get<List<LenderApiContractsV3.EmploymentContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.EmploymentContract>, LenderApiResponse>(employments, _response);
         }
@@ -459,11 +367,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.ReoPropertyContract> reos = null;
-
             var usePath = paths.ReoProperties(guid, appGuid);
 
-            reos = await Get<List<LenderApiContractsV3.ReoPropertyContract>>(usePath);
+            var reos = await Get<List<LenderApiContractsV3.ReoPropertyContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.ReoPropertyContract>, LenderApiResponse>(reos, _response);
         }
@@ -471,11 +377,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.VolContract> vols = null;
-
             var usePath = paths.Vols(guid, appGuid);
 
-            vols = await Get<List<LenderApiContractsV3.VolContract>>(usePath);
+            var vols = await Get<List<LenderApiContractsV3.VolContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.VolContract>, LenderApiResponse>(vols, _response);
         }
@@ -483,11 +387,9 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.VodContract> vods = null;
-
             var usePath = paths.Vods(guid, appGuid);
 
-            vods = await Get<List<LenderApiContractsV3.VodContract>>(usePath);
+            var vods = await Get<List<LenderApiContractsV3.VodContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.VodContract>, LenderApiResponse>(vods, _response);
         }
@@ -495,13 +397,11 @@ namespace ICE.SDKtoAPI.Providers
         {
             paths.SetV3();
 
-            List<LenderApiContractsV3.UrlaAlternateNameContract> alterNames = null;
-
             string appType = borrower ? "borrower" : "coborrower";
 
             var usePath = paths.URLAAlternateNames(guid, appGuid, appType);
 
-            alterNames = await Get<List<LenderApiContractsV3.UrlaAlternateNameContract>>(usePath);
+            var alterNames = await Get<List<LenderApiContractsV3.UrlaAlternateNameContract>>(usePath);
 
             return new Tuple<List<LenderApiContractsV3.UrlaAlternateNameContract>, LenderApiResponse>(alterNames, _response);
         }

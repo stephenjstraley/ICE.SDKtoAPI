@@ -14,41 +14,33 @@ namespace ICE.SDKtoAPI.Providers
 
         public async Task<Tuple<List<MilestoneContract>, LenderApiResponse>> GetAllMilestonesAsync(string guid)
         {
-            List<MilestoneContract> items = null;
-
             var usePath = paths.MilestonesPath(guid);
 
-            items = await Get<List<MilestoneContract>>(usePath);
+            var items = await Get<List<MilestoneContract>>(usePath);
 
             return new Tuple<List<MilestoneContract>, LenderApiResponse>(items, _response);
         }
         public async Task<Tuple<List<LoanContractLoanAssociate>, LenderApiResponse>> GetAllMilestoneAssociatesAsync(string guid)
         {
-            List<LoanContractLoanAssociate> items = null;
-
             var usePath = paths.AssociatesPath(guid);
 
-            items = await Get<List<LoanContractLoanAssociate>>(usePath);
+            var items = await Get<List<LoanContractLoanAssociate>>(usePath);
 
             return new Tuple<List<LoanContractLoanAssociate>, LenderApiResponse>(items, _response);
         }
         public async Task<Tuple<LoanContractLoanAssociate, LenderApiResponse>> GetMilestoneAssociateAsync(string guid, string logId)
         {
-            LoanContractLoanAssociate item = null;
-
             var usePath = paths.AssociatePath(guid, logId);
 
-            item = await Get<LoanContractLoanAssociate>(usePath);
+            var item = await Get<LoanContractLoanAssociate>(usePath);
 
             return new Tuple<LoanContractLoanAssociate, LenderApiResponse>(item, _response);
         }
         public async Task<Tuple<MilestoneContract, LenderApiResponse>> GetAllMilestonesAsync(string guid, string logId)
         {
-            MilestoneContract item = null;
-
             var usePath = paths.MilestonePath(guid, logId);
 
-            item = await Get<MilestoneContract>(usePath);
+            var item = await Get<MilestoneContract>(usePath);
 
             return new Tuple<MilestoneContract, LenderApiResponse>(item, _response);
         }
@@ -79,21 +71,17 @@ namespace ICE.SDKtoAPI.Providers
         }
         public async Task<Tuple<List<MilestoneFreeRoleContract>, LenderApiResponse>> GetMilestoneFreeRolesAsync(string guid)
         {
-            List<MilestoneFreeRoleContract> items = null;
-
             var usePath = paths.MilestoneFreeRolesPath(guid);
 
-            items = await Get<List<MilestoneFreeRoleContract>>(usePath);
+            var items = await Get<List<MilestoneFreeRoleContract>>(usePath);
 
             return new Tuple<List<MilestoneFreeRoleContract>, LenderApiResponse>(items, _response);
         }
         public async Task<Tuple<MilestoneFreeRoleContract, LenderApiResponse>> GetMilestoneFreeRoleAsync(string guid, string logId)
         {
-            MilestoneFreeRoleContract item = null;
-
             var usePath = paths.MilestoneFreeRolePath(guid, logId);
 
-            item = await Get<MilestoneFreeRoleContract>(usePath);
+            var item = await Get<MilestoneFreeRoleContract>(usePath);
 
             return new Tuple<MilestoneFreeRoleContract, LenderApiResponse>(item, _response);
         }

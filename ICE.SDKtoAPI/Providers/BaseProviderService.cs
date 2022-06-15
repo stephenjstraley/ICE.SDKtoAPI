@@ -86,9 +86,8 @@ namespace ICE.SDKtoAPI.Providers
                 path = paths.BasePath + "/encompass/v1/schema/loan";
 
             ClearResponse();
-            string result = null;
 
-            result = await GetString(path);
+            string result = await GetString(path);
 
             return new Tuple<string, LenderApiResponse>(result, _response);
         }

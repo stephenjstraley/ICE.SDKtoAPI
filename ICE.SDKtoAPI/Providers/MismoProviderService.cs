@@ -13,11 +13,9 @@ namespace ICE.SDKtoAPI.Providers
 
         public async Task<Tuple<string, LenderApiResponse>> ConvertMismoToLoan(string xml)
         {
-            string returnedResp = string.Empty;
-
             var usePath = paths.EncompassPathFull + "/converter/loans?mediaType=mismo";
 
-            returnedResp = await GetString(usePath);
+            var returnedResp = await GetString(usePath);
 
             return new Tuple<string, LenderApiResponse>(returnedResp, _response);
         }
@@ -49,7 +47,6 @@ namespace ICE.SDKtoAPI.Providers
         public async Task<LenderApiResponse> UpdateLoanFromMismoAsync(string guid, string xml)
         {
             LenderApiResponse apiResponse;
-            string returnedResp = string.Empty;
 
             var usePath = paths.EncompassPathFull + $"/loans/{guid}/importer?mediaType=mismo";
 
@@ -59,7 +56,7 @@ namespace ICE.SDKtoAPI.Providers
 
                 var resp = await url.PostStringAsync(xml);
 
-                returnedResp = resp.Content.ReadAsStringAsync().Result;
+                var returnedResp = resp.Content.ReadAsStringAsync().Result;
 
                 apiResponse = OkResponse(resp.Headers, usePath);
             }
