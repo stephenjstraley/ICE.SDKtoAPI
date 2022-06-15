@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eHUD1P1_X85</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85_1a16ea87093a97acf84ec39719f7e26ccd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHUD1P1_X85.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHUD1P1_X85.Empty</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13707" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85_1adf247ca050d92740a5a832e52bcac725" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHUD1P1_X85.Credit</definition>
+        <argsstring></argsstring>
+        <name>Credit</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHUD1P1_X85.Credit</qualifiedname>
+        <initializer>= &quot;Credit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13708" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13708" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85_1a1dd3735e7aabc68534039912dbdce07a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHUD1P1_X85.Debt</definition>
+        <argsstring></argsstring>
+        <name>Debt</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHUD1P1_X85.Debt</qualifiedname>
+        <initializer>= &quot;Debt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13709" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13709" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eHUD1P1_X85</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Credit</edgelabel>
+          <edgelabel>Debt</edgelabel>
+          <edgelabel>Empty</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13705" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13706" bodyend="13710"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85_1adf247ca050d92740a5a832e52bcac725" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHUD1P1_X85</scope><name>Credit</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85_1a1dd3735e7aabc68534039912dbdce07a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHUD1P1_X85</scope><name>Debt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_u_d1_p1___x85_1a16ea87093a97acf84ec39719f7e26ccd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHUD1P1_X85</scope><name>Empty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderAPI::DocumentLogs</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1a2abab2f127b6c1e3320fbf32947a9996" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i" kindref="compound">LenderAPI</ref></type>
+        <definition>LenderAPI ICE.SDKtoAPI.LenderAPI.DocumentLogs._ref</definition>
+        <argsstring></argsstring>
+        <name>_ref</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderAPI.DocumentLogs._ref</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" line="92" column="33" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1afc810094c47ffd9dc74a4a42f91ad8e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_logs" kindref="compound">LenderApiContractsV1.LoanContractDocumentLogs</ref> &gt;</type>
+        <definition>List&lt;LenderApiContractsV1.LoanContractDocumentLogs&gt; ICE.SDKtoAPI.LenderAPI.DocumentLogs.TrackedDocuments</definition>
+        <argsstring></argsstring>
+        <name>TrackedDocuments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderAPI.DocumentLogs.TrackedDocuments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" line="94" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1a56a086de6b9ac67e3c1a1850d33d12af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.LenderAPI.DocumentLogs.DocumentLogs</definition>
+        <argsstring>(LenderAPI parent)</argsstring>
+        <name>DocumentLogs</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderAPI.DocumentLogs.DocumentLogs</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i" kindref="compound">LenderAPI</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" line="93" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1a1d165f40e22bf414e62fe433bb896f32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_logs" kindref="compound">LenderApiContractsV1.LoanContractDocumentLogs</ref></type>
+        <definition>LenderApiContractsV1.LoanContractDocumentLogs ICE.SDKtoAPI.LenderAPI.DocumentLogs.TrackedDocumentAdd</definition>
+        <argsstring>(string title, string stage)</argsstring>
+        <name>TrackedDocumentAdd</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderAPI.DocumentLogs.TrackedDocumentAdd</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>stage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" line="95" column="65" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" bodystart="95" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderAPI.DocumentLogs</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Contracts.AccessToken</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token"/>
+      </node>
+      <node id="7">
+        <label>ICE.SDKtoAPI.Contracts.UserCredentials</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_user_credentials"/>
+      </node>
+      <node id="2">
+        <label>ICE.SDKtoAPI.LenderAPI</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_accessToken</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_batchRequest</edgelabel>
+          <edgelabel>_loanV1</edgelabel>
+          <edgelabel>_meta</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_loanV3</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_credentials</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_documentLog</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ICE.SDKtoAPI.LenderAPI.DocumentLogs</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_ref</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>LenderApiContractsV1</label>
+      </node>
+      <node id="6">
+        <label>LenderApiContractsV3</label>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" line="90" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Operations/Base.cs" bodystart="91" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1a2abab2f127b6c1e3320fbf32947a9996" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderAPI::DocumentLogs</scope><name>_ref</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1a56a086de6b9ac67e3c1a1850d33d12af" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderAPI::DocumentLogs</scope><name>DocumentLogs</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1a1d165f40e22bf414e62fe433bb896f32" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderAPI::DocumentLogs</scope><name>TrackedDocumentAdd</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_a_p_i_1_1_document_logs_1afc810094c47ffd9dc74a4a42f91ad8e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderAPI::DocumentLogs</scope><name>TrackedDocuments</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

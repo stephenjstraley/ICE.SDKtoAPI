@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_mismo_provider_service_8cs" kind="file" language="C#">
+    <compoundname>MismoProviderService.cs</compoundname>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service" prot="public">ICE::SDKtoAPI::Providers::MismoProviderService</innerclass>
+    <innernamespace refid="namespace_i_c_e">ICE</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i">ICE::SDKtoAPI</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers">ICE::SDKtoAPI::Providers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Flurl.Http;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts" kindref="compound">ICE.SDKtoAPI.Contracts</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers" kindref="compound">ICE.SDKtoAPI.Providers</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service" kindref="compound">MismoProviderService</ref><sp/>:<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service" kindref="compound">BaseProviderService</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service_1a0f1ca0044c1b348ae3f1593370bb9406" kindref="member">MismoProviderService</ref>(<ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref><sp/>token)<sp/>:<sp/>base(token)<sp/>{<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a5ae7d59de46d7df2f05fd1859916fc0d" kindref="member">paths</ref>.<ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths_1a77ddd176a929f326df418e60c07af44c" kindref="member">SetV3</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;Tuple&lt;string,<sp/>LenderApiResponse&gt;&gt;<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service_1a10103b238f8551dbc063caa11004a06c" kindref="member">ConvertMismoToLoan</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>xml)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>usePath<sp/>=<sp/>paths.EncompassPathFull<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/converter/loans?mediaType=mismo&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>returnedResp<sp/>=<sp/>await<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aefb2409254d928d851c16099ac29ca4d" kindref="member">GetString</ref>(usePath);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Tuple&lt;string,<sp/>LenderApiResponse&gt;(returnedResp,<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa8d15ca1b463876f7c5f5ee707477a0d" kindref="member">_response</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;LenderApiResponse&gt;<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service_1a5b2e096365819d452ee4411b75a3bc35" kindref="member">CreateLoanFromConvertedMemoAsync</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>loan,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>folder)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref><sp/>apiResponse;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>usePath<sp/>=<sp/>paths.EncompassPathFull<sp/>+<sp/>$</highlight><highlight class="stringliteral">&quot;/loans?loanFolder={folder}&amp;view=entity&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>url<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a31acaab6d054ebad8dc032ee9c2e13ab" kindref="member">Authenticate</ref>(usePath).WithHeader(</highlight><highlight class="stringliteral">&quot;Content-Type&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;application/json&quot;</highlight><highlight class="normal">);<sp/>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>resp<sp/>=<sp/>await<sp/>url.PostJsonAsync(loan);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>apiResponse<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ae9caa06065d640b18e8a7e2fdd1b87ec" kindref="member">OkResponse</ref>(resp.Headers,<sp/>usePath);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(FlurlHttpException<sp/>e)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>apiResponse<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" kindref="member">BadResponse</ref>(e,<sp/>usePath,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(Exception<sp/>exp)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>apiResponse<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" kindref="member">BadResponse</ref>(exp,<sp/>usePath,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>apiResponse;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;LenderApiResponse&gt;<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service_1a3a49a8061224c6b1d20e7533b584405f" kindref="member">UpdateLoanFromMismoAsync</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>guid,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>xml)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref><sp/>apiResponse;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>usePath<sp/>=<sp/>paths.EncompassPathFull<sp/>+<sp/>$</highlight><highlight class="stringliteral">&quot;/loans/{guid}/importer?mediaType=mismo&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>url<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a31acaab6d054ebad8dc032ee9c2e13ab" kindref="member">Authenticate</ref>(usePath).WithHeader(</highlight><highlight class="stringliteral">&quot;Content-Type&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;application/vnd.elliemae.mismo34+xml&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>resp<sp/>=<sp/>await<sp/>url.PostStringAsync(xml);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>returnedResp<sp/>=<sp/>resp.Content.ReadAsStringAsync().Result;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>apiResponse<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ae9caa06065d640b18e8a7e2fdd1b87ec" kindref="member">OkResponse</ref>(resp.Headers,<sp/>usePath);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(FlurlHttpException<sp/>e)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>apiResponse<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" kindref="member">BadResponse</ref>(e,<sp/>usePath,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(Exception<sp/>exp)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>apiResponse<sp/>=<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" kindref="member">BadResponse</ref>(exp,<sp/>usePath,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>apiResponse;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MismoProviderService.cs"/>
+  </compounddef>
+</doxygen>

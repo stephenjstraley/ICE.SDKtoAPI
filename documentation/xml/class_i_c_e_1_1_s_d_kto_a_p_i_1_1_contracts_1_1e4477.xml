@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4477" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4477</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4477_1afaa4da2f9acf8d9cefdc59c529ebd00d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4477.Plus</definition>
+        <argsstring></argsstring>
+        <name>Plus</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4477.Plus</qualifiedname>
+        <initializer>= &quot;+&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3266" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4477_1ab7debb16219554abdc9eb1456b44e2b5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4477.Minus</definition>
+        <argsstring></argsstring>
+        <name>Minus</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4477.Minus</qualifiedname>
+        <initializer>= &quot;-&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3267" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3267" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4477</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4477"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Minus</edgelabel>
+          <edgelabel>Plus</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3264" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3265" bodyend="3268"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4477_1ab7debb16219554abdc9eb1456b44e2b5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4477</scope><name>Minus</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4477_1afaa4da2f9acf8d9cefdc59c529ebd00d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4477</scope><name>Plus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

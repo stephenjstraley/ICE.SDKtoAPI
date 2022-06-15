@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1afbe7f5f8b6178f19c072128acf7b9ba2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Hud1EsPayToIndex</definition>
+        <argsstring></argsstring>
+        <name>Hud1EsPayToIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Hud1EsPayToIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="10" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1adf1a5780fa49d2bbfe378c5b28e2b64a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Address</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="13" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a3f9232ea8b01059e525f6a0e9c8314c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.AmountLastPay</definition>
+        <argsstring></argsstring>
+        <name>AmountLastPay</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.AmountLastPay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="16" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aba04f47e6ae01b1abd197cad159bee58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.AmountNextDue</definition>
+        <argsstring></argsstring>
+        <name>AmountNextDue</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.AmountNextDue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="19" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1af13f6981dded7400b735c85a91c5203c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.City</definition>
+        <argsstring></argsstring>
+        <name>City</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.City</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="22" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ac57c4656bf70436b5d14a64d83d0eb51" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.ContactName</definition>
+        <argsstring></argsstring>
+        <name>ContactName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.ContactName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="25" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aa2a161cadf9624f99ed86bcb17fc901d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.CoverageAmount</definition>
+        <argsstring></argsstring>
+        <name>CoverageAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.CoverageAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="28" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ab33fe84057eff5a0075b3ad2001aa7cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PaymentDate</definition>
+        <argsstring></argsstring>
+        <name>PaymentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PaymentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="31" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aa9e5ee1921bf0d23a1d775609784c565" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.DelinquentDate</definition>
+        <argsstring></argsstring>
+        <name>DelinquentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.DelinquentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="34" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1adba5b64544ffbe8a7d956c100c58b18c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Email</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="37" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ad655f6a2bfc1becacec39761d932baf4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Fax</definition>
+        <argsstring></argsstring>
+        <name>Fax</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Fax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="40" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a80bc81bdd09b01532bc6c664dd2e34a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.FeeType</definition>
+        <argsstring></argsstring>
+        <name>FeeType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.FeeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="43" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a38e8f64ecb3bec8757ed4f7bef2f1a70" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="46" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ad9e307c0e6bed350fc3003528cd1b8d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.NextDueDate</definition>
+        <argsstring></argsstring>
+        <name>NextDueDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.NextDueDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="49" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1afa7e70e4e359ca65f4e945882c5d2682" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PaymentSchedule</definition>
+        <argsstring></argsstring>
+        <name>PaymentSchedule</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PaymentSchedule</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="52" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aa2d3a03bc9b202c9d21cb29157da4a30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Phone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="55" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a49781cb446c6df2ab5ada34b0e2d7c79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PolicyNumber</definition>
+        <argsstring></argsstring>
+        <name>PolicyNumber</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PolicyNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="58" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a108ce0619b82c77e3b7e4222d72afc66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PostalCode</definition>
+        <argsstring></argsstring>
+        <name>PostalCode</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.PostalCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="61" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a38c18509c817caa2f83702acbf824795" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Premium</definition>
+        <argsstring></argsstring>
+        <name>Premium</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.Premium</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="64" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ac700f021016c5f02e3fee6508e951a23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.RenewalDate</definition>
+        <argsstring></argsstring>
+        <name>RenewalDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.RenewalDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="67" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a5752e8044de5919700d5dbb9f0df5c3f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.State</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="70" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a7e30cd54cb15cb0b6163fb933a85d38e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.MaxDeductiblePercentage</definition>
+        <argsstring></argsstring>
+        <name>MaxDeductiblePercentage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.MaxDeductiblePercentage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="73" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ad80bc1c672b4bb05975c2a3f4268da6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.MaxDeductibleAmount</definition>
+        <argsstring></argsstring>
+        <name>MaxDeductibleAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.Hud1EsPayToContract.MaxDeductibleAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="76" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/Hud1EsPayToContract.cs" bodystart="8" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1adf1a5780fa49d2bbfe378c5b28e2b64a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>Address</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a3f9232ea8b01059e525f6a0e9c8314c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>AmountLastPay</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aba04f47e6ae01b1abd197cad159bee58" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>AmountNextDue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1af13f6981dded7400b735c85a91c5203c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>City</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ac57c4656bf70436b5d14a64d83d0eb51" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>ContactName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aa2a161cadf9624f99ed86bcb17fc901d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>CoverageAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aa9e5ee1921bf0d23a1d775609784c565" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>DelinquentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1adba5b64544ffbe8a7d956c100c58b18c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>Email</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ad655f6a2bfc1becacec39761d932baf4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>Fax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a80bc81bdd09b01532bc6c664dd2e34a7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>FeeType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1afbe7f5f8b6178f19c072128acf7b9ba2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>Hud1EsPayToIndex</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ad80bc1c672b4bb05975c2a3f4268da6e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>MaxDeductibleAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a7e30cd54cb15cb0b6163fb933a85d38e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>MaxDeductiblePercentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a38e8f64ecb3bec8757ed4f7bef2f1a70" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>Name</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ad9e307c0e6bed350fc3003528cd1b8d7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>NextDueDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ab33fe84057eff5a0075b3ad2001aa7cc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>PaymentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1afa7e70e4e359ca65f4e945882c5d2682" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>PaymentSchedule</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1aa2d3a03bc9b202c9d21cb29157da4a30" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>Phone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a49781cb446c6df2ab5ada34b0e2d7c79" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>PolicyNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a108ce0619b82c77e3b7e4222d72afc66" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>PostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a38c18509c817caa2f83702acbf824795" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>Premium</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1ac700f021016c5f02e3fee6508e951a23" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>RenewalDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_hud1_es_pay_to_contract_1a5752e8044de5919700d5dbb9f0df5c3f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::Hud1EsPayToContract</scope><name>State</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

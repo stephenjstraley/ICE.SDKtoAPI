@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNEWHUD_X923</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923_1a307b194447607cd2c65a3e9315b04ce7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNEWHUD_X923.Broker</definition>
+        <argsstring></argsstring>
+        <name>Broker</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNEWHUD_X923.Broker</qualifiedname>
+        <initializer>= &quot;Broker&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="17886" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="17886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923_1af5831678997e299a7a5b2b5d4adb7a62" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNEWHUD_X923.Lender</definition>
+        <argsstring></argsstring>
+        <name>Lender</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNEWHUD_X923.Lender</qualifiedname>
+        <initializer>= &quot;Lender&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="17887" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="17887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923_1a4878cd3ce168bf23d1fe1980982f11b7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNEWHUD_X923.Other</definition>
+        <argsstring></argsstring>
+        <name>Other</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNEWHUD_X923.Other</qualifiedname>
+        <initializer>= &quot;Other&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="17888" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="17888" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNEWHUD_X923</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Broker</edgelabel>
+          <edgelabel>Lender</edgelabel>
+          <edgelabel>Other</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="17884" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="17885" bodyend="17889"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923_1a307b194447607cd2c65a3e9315b04ce7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNEWHUD_X923</scope><name>Broker</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923_1af5831678997e299a7a5b2b5d4adb7a62" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNEWHUD_X923</scope><name>Lender</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_e_w_h_u_d___x923_1a4878cd3ce168bf23d1fe1980982f11b7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNEWHUD_X923</scope><name>Other</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

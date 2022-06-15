@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eUSDA_X43</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43_1a5784bc35ab5818f8662ed2e88e98efdb" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X43.Section502</definition>
+        <argsstring></argsstring>
+        <name>Section502</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X43.Section502</qualifiedname>
+        <initializer>= &quot;Section 502&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31936" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31936" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43_1adf9873cbac4e08c3be056fff1461f68b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X43.Section504Loan</definition>
+        <argsstring></argsstring>
+        <name>Section504Loan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X43.Section504Loan</qualifiedname>
+        <initializer>= &quot;Section 504 Loan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31937" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31937" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43_1a01982d4db16257dc45c8df9408e08796" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X43.Grant</definition>
+        <argsstring></argsstring>
+        <name>Grant</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X43.Grant</qualifiedname>
+        <initializer>= &quot;Grant&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31938" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31938" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eUSDA_X43</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Grant</edgelabel>
+          <edgelabel>Section502</edgelabel>
+          <edgelabel>Section504Loan</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31934" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31935" bodyend="31939"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43_1a01982d4db16257dc45c8df9408e08796" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X43</scope><name>Grant</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43_1a5784bc35ab5818f8662ed2e88e98efdb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X43</scope><name>Section502</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x43_1adf9873cbac4e08c3be056fff1461f68b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X43</scope><name>Section504Loan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

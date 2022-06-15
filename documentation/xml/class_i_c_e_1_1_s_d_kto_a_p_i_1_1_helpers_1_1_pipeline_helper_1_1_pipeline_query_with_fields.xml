@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineQueryWithFields</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a265200409b49d9d0803b35ea67d311bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+        <definition>PipelineFilter ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.Filter</definition>
+        <argsstring></argsstring>
+        <name>Filter</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.Filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="231" column="35" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a6279551e7d62f69dc363c640bba52abc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.Fields</definition>
+        <argsstring></argsstring>
+        <name>Fields</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.Fields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="232" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="232" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a7a73bbbc87a1f2105cecfcd4d5276a3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_sort_order" kindref="compound">PipelineSortOrder</ref> &gt;</type>
+        <definition>List&lt;PipelineSortOrder&gt; ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.SortOrder</definition>
+        <argsstring></argsstring>
+        <name>SortOrder</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.SortOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="233" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="233" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a6fc90156fc8c6343093a62ee3f40595c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.LoanGuids</definition>
+        <argsstring></argsstring>
+        <name>LoanGuids</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineQueryWithFields.LoanGuids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="234" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="234" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="229" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="230" bodyend="235"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a6279551e7d62f69dc363c640bba52abc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineQueryWithFields</scope><name>Fields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a265200409b49d9d0803b35ea67d311bf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineQueryWithFields</scope><name>Filter</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a6fc90156fc8c6343093a62ee3f40595c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineQueryWithFields</scope><name>LoanGuids</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields_1a7a73bbbc87a1f2105cecfcd4d5276a3a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineQueryWithFields</scope><name>SortOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

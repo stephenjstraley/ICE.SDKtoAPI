@@ -1,0 +1,1185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af5679a2fd98419726a26fc665cb91537" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AccessedBy</definition>
+        <argsstring></argsstring>
+        <name>AccessedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AccessedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="11" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9b4c36e35005025011654d0aaba4152c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AccessedDateUtc</definition>
+        <argsstring></argsstring>
+        <name>AccessedDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AccessedDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="14" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a18978619dde914495fefbe8b3123dfbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AddedBy</definition>
+        <argsstring></argsstring>
+        <name>AddedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AddedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="17" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a02b5d98d541fdd42c05f0bbb5c085f4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_alerts" kindref="compound">LoanContractAlerts</ref> &gt;</type>
+        <definition>List&lt;LoanContractAlerts&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Alerts</definition>
+        <argsstring></argsstring>
+        <name>Alerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Alerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="20" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ab22dacdce3492d449a6c4bf67fd07f42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AlertsXml</definition>
+        <argsstring></argsstring>
+        <name>AlertsXml</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AlertsXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="23" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ad36ae16e4924146b58d2b81c5a14e829" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AllowedRoleDelimitedList</definition>
+        <argsstring></argsstring>
+        <name>AllowedRoleDelimitedList</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AllowedRoleDelimitedList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="26" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ad6cda6bb4d9fc908b59e30d02f227909" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_allowed_roles" kindref="compound">LoanContractAllowedRoles</ref> &gt;</type>
+        <definition>List&lt;LoanContractAllowedRoles&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AllowedRoles</definition>
+        <argsstring></argsstring>
+        <name>AllowedRoles</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AllowedRoles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="29" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a5e2c0e38dd155c035f7718be935f6533" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AllowedRolesXml</definition>
+        <argsstring></argsstring>
+        <name>AllowedRolesXml</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.AllowedRolesXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="32" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acbea975a8d5b4bc396a29f55e8472b12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ArchiveDateUtc</definition>
+        <argsstring></argsstring>
+        <name>ArchiveDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ArchiveDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="35" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a7c255050c68f2d7a0c6d872d17e34d06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ArchivedBy</definition>
+        <argsstring></argsstring>
+        <name>ArchivedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ArchivedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="38" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a6e243d22efc8faadbc93ae3179f4d80a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ClosingDocumentIndicator</definition>
+        <argsstring></argsstring>
+        <name>ClosingDocumentIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ClosingDocumentIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="41" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a65bcdccbc0cded656c117e13c11e375a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_log_record_comment_list" kindref="compound">LoanContractLogRecordCommentList</ref> &gt;</type>
+        <definition>List&lt;LoanContractLogRecordCommentList&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.CommentList</definition>
+        <argsstring></argsstring>
+        <name>CommentList</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.CommentList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="44" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2efec75c8b33fcdd290b43c7dbb423a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.CommentListXml</definition>
+        <argsstring></argsstring>
+        <name>CommentListXml</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.CommentListXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="47" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3970a7f7a692ee0ee01811f67d380967" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="50" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a197ad80a8608bcd36681d7c0568d6bf1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Company</definition>
+        <argsstring></argsstring>
+        <name>Company</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Company</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="53" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0a1bc290c9f26e9b74071ff1298b6115" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_allowed_roles" kindref="compound">LoanContractAllowedRoles</ref> &gt;</type>
+        <definition>List&lt;LoanContractAllowedRoles&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Conditions</definition>
+        <argsstring></argsstring>
+        <name>Conditions</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Conditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="56" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2443b834bd00798d9352029524b22727" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ConditionsXml</definition>
+        <argsstring></argsstring>
+        <name>ConditionsXml</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ConditionsXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="59" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a770fbf8d37decc59945ff015a5a899de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateAddedUtc</definition>
+        <argsstring></argsstring>
+        <name>DateAddedUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateAddedUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="62" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9a64baccbc5b276840cd95d0c2e33938" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateExpected</definition>
+        <argsstring></argsstring>
+        <name>DateExpected</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateExpected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="65" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acd95259545595e9374f01d44c3b84665" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateExpires</definition>
+        <argsstring></argsstring>
+        <name>DateExpires</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateExpires</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="68" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a82b7f2bb9ba2b3684ad5ce73a8edb610" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateReceived</definition>
+        <argsstring></argsstring>
+        <name>DateReceived</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateReceived</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="71" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aeb6079e5f92c35b879e0b6eef8b6d46c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateRequested</definition>
+        <argsstring></argsstring>
+        <name>DateRequested</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateRequested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="74" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a8feee1591e283607a2af051ddcfe42b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateRerequested</definition>
+        <argsstring></argsstring>
+        <name>DateRerequested</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateRerequested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="77" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9f23414eeaf41a4395f24f0fe14ba183" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateUtc</definition>
+        <argsstring></argsstring>
+        <name>DateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="80" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a562619b3e9f1049a82722dea709df692" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DaysDue</definition>
+        <argsstring></argsstring>
+        <name>DaysDue</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DaysDue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="83" column="12" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3e3339684e3c6a5ba557b5efc5fc1d9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DaysTillExpire</definition>
+        <argsstring></argsstring>
+        <name>DaysTillExpire</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DaysTillExpire</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="86" column="12" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a7af19bdd635076c6216d60e7bc586bfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="89" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ab6029120817a49f326ca0e9adb92b648" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DocumentDateTimeType</definition>
+        <argsstring></argsstring>
+        <name>DocumentDateTimeType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DocumentDateTimeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="92" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a71dd5502d67637a463f0cb429672460d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DocVerificationsXml</definition>
+        <argsstring></argsstring>
+        <name>DocVerificationsXml</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.DocVerificationsXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="95" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aff7114c66ad4ad8ae2a7630228b46407" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.EDisclosureIndicator</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.EDisclosureIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="98" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac540e400a0db8b4dd87d081fb85dc45f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.EPassSignature</definition>
+        <argsstring></argsstring>
+        <name>EPassSignature</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.EPassSignature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="101" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac5baf931a4af2246d868e6fde79a71a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Expected</definition>
+        <argsstring></argsstring>
+        <name>Expected</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Expected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="104" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a8f5c9ede543dc9b6587a2efdddadda16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Expires</definition>
+        <argsstring></argsstring>
+        <name>Expires</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Expires</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="107" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a7a095ff0eaf2b9d87f607cb41947d4e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.FileAttachmentsMigrated</definition>
+        <argsstring></argsstring>
+        <name>FileAttachmentsMigrated</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.FileAttachmentsMigrated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="110" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a94250b1720a18ccfc9118bc91cda2d36" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.FileAttachmentsXml</definition>
+        <argsstring></argsstring>
+        <name>FileAttachmentsXml</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.FileAttachmentsXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="113" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aca2ee23463c2ed8002274229e8af1839" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.GroupName</definition>
+        <argsstring></argsstring>
+        <name>GroupName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.GroupName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="116" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aa4b4f15a6f99896844946b47f25c5357" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Guid</definition>
+        <argsstring></argsstring>
+        <name>Guid</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Guid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="119" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acfdaa3ff7a5c224226cb37b183d4dc52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="122" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a02b7a8d7b3a88514d1291783dd456926" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsAssetVerification</definition>
+        <argsstring></argsstring>
+        <name>IsAssetVerification</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsAssetVerification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="125" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a10c4f724fb58f4be8de2be18ef33f176" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsEmploymentVerification</definition>
+        <argsstring></argsstring>
+        <name>IsEmploymentVerification</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsEmploymentVerification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="128" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a34d39b526244d7c6ae75d8480ab0e46c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsEPassIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsEPassIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsEPassIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="131" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a1a18aa9b34b1e63d84cf36ad2b565cfc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsExpired</definition>
+        <argsstring></argsstring>
+        <name>IsExpired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsExpired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="134" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aadce01381da49d6040c87dd520d43430" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsExternalIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsExternalIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsExternalIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="137" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3ce545e71c25ac51aaaf57f9faa8a4f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsIncomeVerification</definition>
+        <argsstring></argsstring>
+        <name>IsIncomeVerification</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsIncomeVerification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="140" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af79f9d028d82cd47444e890c18593f3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsObligationVerification</definition>
+        <argsstring></argsstring>
+        <name>IsObligationVerification</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsObligationVerification</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="143" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1afbad6770ea99c18006724af6cb489227" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsPastDue</definition>
+        <argsstring></argsstring>
+        <name>IsPastDue</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsPastDue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="146" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0e635d59277a49a2d16bec7d5e551129" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsSystemSpecificIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsSystemSpecificIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsSystemSpecificIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="149" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a562f0a1703f9b0c48cc4b9950e6d9724" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsThirdPartyDocIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsThirdPartyDocIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsThirdPartyDocIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="152" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a8e4db18ad5c550edbad854f30dfa5ee5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsTPOWebcenterPortalIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsTPOWebcenterPortalIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsTPOWebcenterPortalIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="155" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a266d13dbcf084a5df4190219daf820ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsWebCenterIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsWebCenterIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.IsWebCenterIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="158" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a6e4a73b0c10563af3875606e2e061c07" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.LastAttachmentDateUtc</definition>
+        <argsstring></argsstring>
+        <name>LastAttachmentDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.LastAttachmentDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="161" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0e2f635765045c06422c8e1245e88dd3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.LogId</definition>
+        <argsstring></argsstring>
+        <name>LogId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.LogId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="164" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2d64c749134df7475ea6a09e955f4fac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.LogRecordIndex</definition>
+        <argsstring></argsstring>
+        <name>LogRecordIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.LogRecordIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="167" column="12" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aaa4debb67c9092ed3c6e80fdb1784119" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.OrderDateUtc</definition>
+        <argsstring></argsstring>
+        <name>OrderDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.OrderDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="170" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac605821f20256c6f38e3e8d04e7a8cb6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.PairId</definition>
+        <argsstring></argsstring>
+        <name>PairId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.PairId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="173" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ad721bccfc8197e5c4669e6290f993b8c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.PreClosingDocumentIndicator</definition>
+        <argsstring></argsstring>
+        <name>PreClosingDocumentIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.PreClosingDocumentIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="176" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a1c8f36437c954457aaccb79d32f6489b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Received</definition>
+        <argsstring></argsstring>
+        <name>Received</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Received</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="179" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ab8665421034acc772baf3b5aaf288bd8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReceiveDateUtc</definition>
+        <argsstring></argsstring>
+        <name>ReceiveDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReceiveDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="182" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a801085ef499faa59282778adc36cec93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReceivedBy</definition>
+        <argsstring></argsstring>
+        <name>ReceivedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReceivedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="185" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="185" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a5872647d70410020db9c767c55feff06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReorderDateUtc</definition>
+        <argsstring></argsstring>
+        <name>ReorderDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReorderDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="188" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9146da087bfab1a09886581078cf92b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Requested</definition>
+        <argsstring></argsstring>
+        <name>Requested</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Requested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="191" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="191" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0f6122acb6e09277a7ef2ef6864713bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.RequestedBy</definition>
+        <argsstring></argsstring>
+        <name>RequestedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.RequestedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="194" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="194" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac2523964c59069c85e79dbee9c5f9df9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.RequestedFrom</definition>
+        <argsstring></argsstring>
+        <name>RequestedFrom</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.RequestedFrom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="197" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1add2697d9793139ecbfd42dbed8e35a3e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Rerequested</definition>
+        <argsstring></argsstring>
+        <name>Rerequested</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Rerequested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="200" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="200" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af62c1b42c11ab21b14d366a0b87e19c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.RerequestedBy</definition>
+        <argsstring></argsstring>
+        <name>RerequestedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.RerequestedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="203" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="203" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a703e99392c9d0e52b6d7b97d0012944b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Reviewed</definition>
+        <argsstring></argsstring>
+        <name>Reviewed</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Reviewed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="206" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="206" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a5650973523373a4e4c89c6d4710437cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReviewedBy</definition>
+        <argsstring></argsstring>
+        <name>ReviewedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReviewedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="209" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af7053e0523fd9d002bf4158ffdda0240" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReviewedDateUtc</definition>
+        <argsstring></argsstring>
+        <name>ReviewedDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ReviewedDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="212" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="212" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aa8b73c32d2a1852428b2dd0b068bce44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ShippingReady</definition>
+        <argsstring></argsstring>
+        <name>ShippingReady</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ShippingReady</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="215" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="215" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aa274bd4d2e36ebffe5a614909a905e64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ShippingReadyBy</definition>
+        <argsstring></argsstring>
+        <name>ShippingReadyBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ShippingReadyBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="218" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="218" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2f5795bc2bdfbb20b2ee3da2244e860e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ShippingReadyDateUtc</definition>
+        <argsstring></argsstring>
+        <name>ShippingReadyDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.ShippingReadyDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="221" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="221" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3ec21063436794333bcb589673d604e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Stage</definition>
+        <argsstring></argsstring>
+        <name>Stage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Stage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="224" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="224" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a638cf65beb126822ea1fdc859850ec91" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="227" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="227" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af830fab9bb0c90f389c7f88d59db460d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.SystemId</definition>
+        <argsstring></argsstring>
+        <name>SystemId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.SystemId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="230" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="230" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acae1dd2259c1b2ac94d5dcaa20afb700" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="233" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="233" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a20cf61ed8ef8933c25846345b1e7454e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.UnderwritingReady</definition>
+        <argsstring></argsstring>
+        <name>UnderwritingReady</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.UnderwritingReady</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="236" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="236" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0239069ef0ddf3507257da7b5c22e784" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.UnderwritingReadyBy</definition>
+        <argsstring></argsstring>
+        <name>UnderwritingReadyBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.UnderwritingReadyBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="239" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="239" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a109f7d1644fb4192b430c079b8726ee2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.UnderwritingReadyDateUtc</definition>
+        <argsstring></argsstring>
+        <name>UnderwritingReadyDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractVerificationLogs.UnderwritingReadyDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="242" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="242" bodyend="242"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" line="8" column="7" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractVerificationLogs.cs" bodystart="9" bodyend="244"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af5679a2fd98419726a26fc665cb91537" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>AccessedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9b4c36e35005025011654d0aaba4152c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>AccessedDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a18978619dde914495fefbe8b3123dfbf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>AddedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a02b5d98d541fdd42c05f0bbb5c085f4a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Alerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ab22dacdce3492d449a6c4bf67fd07f42" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>AlertsXml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ad36ae16e4924146b58d2b81c5a14e829" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>AllowedRoleDelimitedList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ad6cda6bb4d9fc908b59e30d02f227909" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>AllowedRoles</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a5e2c0e38dd155c035f7718be935f6533" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>AllowedRolesXml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acbea975a8d5b4bc396a29f55e8472b12" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ArchiveDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a7c255050c68f2d7a0c6d872d17e34d06" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ArchivedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a6e243d22efc8faadbc93ae3179f4d80a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ClosingDocumentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a65bcdccbc0cded656c117e13c11e375a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>CommentList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2efec75c8b33fcdd290b43c7dbb423a5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>CommentListXml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3970a7f7a692ee0ee01811f67d380967" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a197ad80a8608bcd36681d7c0568d6bf1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Company</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0a1bc290c9f26e9b74071ff1298b6115" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Conditions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2443b834bd00798d9352029524b22727" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ConditionsXml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a770fbf8d37decc59945ff015a5a899de" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DateAddedUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9a64baccbc5b276840cd95d0c2e33938" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DateExpected</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acd95259545595e9374f01d44c3b84665" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DateExpires</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a82b7f2bb9ba2b3684ad5ce73a8edb610" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DateReceived</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aeb6079e5f92c35b879e0b6eef8b6d46c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DateRequested</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a8feee1591e283607a2af051ddcfe42b3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DateRerequested</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9f23414eeaf41a4395f24f0fe14ba183" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a562619b3e9f1049a82722dea709df692" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DaysDue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3e3339684e3c6a5ba557b5efc5fc1d9f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DaysTillExpire</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a7af19bdd635076c6216d60e7bc586bfa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ab6029120817a49f326ca0e9adb92b648" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DocumentDateTimeType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a71dd5502d67637a463f0cb429672460d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>DocVerificationsXml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aff7114c66ad4ad8ae2a7630228b46407" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>EDisclosureIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac540e400a0db8b4dd87d081fb85dc45f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>EPassSignature</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac5baf931a4af2246d868e6fde79a71a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Expected</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a8f5c9ede543dc9b6587a2efdddadda16" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Expires</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a7a095ff0eaf2b9d87f607cb41947d4e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>FileAttachmentsMigrated</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a94250b1720a18ccfc9118bc91cda2d36" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>FileAttachmentsXml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aca2ee23463c2ed8002274229e8af1839" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>GroupName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aa4b4f15a6f99896844946b47f25c5357" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Guid</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acfdaa3ff7a5c224226cb37b183d4dc52" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a02b7a8d7b3a88514d1291783dd456926" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsAssetVerification</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a10c4f724fb58f4be8de2be18ef33f176" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsEmploymentVerification</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a34d39b526244d7c6ae75d8480ab0e46c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsEPassIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a1a18aa9b34b1e63d84cf36ad2b565cfc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsExpired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aadce01381da49d6040c87dd520d43430" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsExternalIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3ce545e71c25ac51aaaf57f9faa8a4f7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsIncomeVerification</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af79f9d028d82cd47444e890c18593f3a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsObligationVerification</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1afbad6770ea99c18006724af6cb489227" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsPastDue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0e635d59277a49a2d16bec7d5e551129" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsSystemSpecificIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a562f0a1703f9b0c48cc4b9950e6d9724" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsThirdPartyDocIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a8e4db18ad5c550edbad854f30dfa5ee5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsTPOWebcenterPortalIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a266d13dbcf084a5df4190219daf820ea" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>IsWebCenterIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a6e4a73b0c10563af3875606e2e061c07" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>LastAttachmentDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0e2f635765045c06422c8e1245e88dd3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>LogId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2d64c749134df7475ea6a09e955f4fac" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>LogRecordIndex</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aaa4debb67c9092ed3c6e80fdb1784119" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>OrderDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac605821f20256c6f38e3e8d04e7a8cb6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>PairId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ad721bccfc8197e5c4669e6290f993b8c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>PreClosingDocumentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a1c8f36437c954457aaccb79d32f6489b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Received</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ab8665421034acc772baf3b5aaf288bd8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ReceiveDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a801085ef499faa59282778adc36cec93" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ReceivedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a5872647d70410020db9c767c55feff06" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ReorderDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a9146da087bfab1a09886581078cf92b0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Requested</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0f6122acb6e09277a7ef2ef6864713bc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>RequestedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1ac2523964c59069c85e79dbee9c5f9df9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>RequestedFrom</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1add2697d9793139ecbfd42dbed8e35a3e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Rerequested</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af62c1b42c11ab21b14d366a0b87e19c0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>RerequestedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a703e99392c9d0e52b6d7b97d0012944b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Reviewed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a5650973523373a4e4c89c6d4710437cf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ReviewedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af7053e0523fd9d002bf4158ffdda0240" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ReviewedDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aa8b73c32d2a1852428b2dd0b068bce44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ShippingReady</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1aa274bd4d2e36ebffe5a614909a905e64" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ShippingReadyBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a2f5795bc2bdfbb20b2ee3da2244e860e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>ShippingReadyDateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a3ec21063436794333bcb589673d604e9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Stage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a638cf65beb126822ea1fdc859850ec91" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Status</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1af830fab9bb0c90f389c7f88d59db460d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>SystemId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1acae1dd2259c1b2ac94d5dcaa20afb700" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a20cf61ed8ef8933c25846345b1e7454e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>UnderwritingReady</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a0239069ef0ddf3507257da7b5c22e784" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>UnderwritingReadyBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_verification_logs_1a109f7d1644fb4192b430c079b8726ee2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractVerificationLogs</scope><name>UnderwritingReadyDateUtc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

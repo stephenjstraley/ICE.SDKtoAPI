@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x71" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eVAVOB_X71</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x71_1a20deeb8c2f3163594c33b2b062926fbd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAVOB_X71.Have</definition>
+        <argsstring></argsstring>
+        <name>Have</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAVOB_X71.Have</qualifiedname>
+        <initializer>= &quot;Have&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32552" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x71_1acef04fee361e3d2accbff1557650a0c4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAVOB_X71.HaveNot</definition>
+        <argsstring></argsstring>
+        <name>HaveNot</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAVOB_X71.HaveNot</qualifiedname>
+        <initializer>= &quot;Have Not&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32553" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32553" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eVAVOB_X71</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x71"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Have</edgelabel>
+          <edgelabel>HaveNot</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32550" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32551" bodyend="32554"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x71_1a20deeb8c2f3163594c33b2b062926fbd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAVOB_X71</scope><name>Have</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x71_1acef04fee361e3d2accbff1557650a0c4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAVOB_X71</scope><name>HaveNot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

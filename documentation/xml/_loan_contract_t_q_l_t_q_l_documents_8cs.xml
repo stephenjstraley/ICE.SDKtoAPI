@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_loan_contract_t_q_l_t_q_l_documents_8cs" kind="file" language="C#">
+    <compoundname>LoanContractTQLTQLDocuments.cs</compoundname>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_t_q_l_t_q_l_documents" prot="public">ICE::SDKtoAPI::LenderApiContractsV1::LoanContractTQLTQLDocuments</innerclass>
+    <innernamespace refid="namespace_i_c_e">ICE</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i">ICE::SDKtoAPI</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1">ICE::SDKtoAPI::LenderApiContractsV1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Runtime.Serialization;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1" kindref="compound">ICE.SDKtoAPI.LenderApiContractsV1</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>[DataContract]</highlight></codeline>
+<codeline lineno="6" refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_t_q_l_t_q_l_documents" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_t_q_l_t_q_l_documents" kindref="compound">LoanContractTQLTQLDocuments</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[DataMember(Name=</highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal">,<sp/>EmitDefaultValue=</highlight><highlight class="keyword">false</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_t_q_l_t_q_l_documents_1a2654d3dcb51c286f446c883a1991396d" kindref="member">Id</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[DataMember(Name=</highlight><highlight class="stringliteral">&quot;tQLDocumentDeliveredDate&quot;</highlight><highlight class="normal">,<sp/>EmitDefaultValue=</highlight><highlight class="keyword">false</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DateTime?<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_t_q_l_t_q_l_documents_1a665af592735e1f8a504dd04c23d2352f" kindref="member">TQLDocumentDeliveredDate</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractTQLTQLDocuments.cs"/>
+  </compounddef>
+</doxygen>

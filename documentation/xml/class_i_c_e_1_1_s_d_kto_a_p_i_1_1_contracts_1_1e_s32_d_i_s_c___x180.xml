@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x180" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eS32DISC_X180</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x180_1a0bbadeacc06c3e35da317249df420f19" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eS32DISC_X180.will</definition>
+        <argsstring></argsstring>
+        <name>will</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eS32DISC_X180.will</qualifiedname>
+        <initializer>= &quot;will&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26413" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x180_1a025a1195dba9adaf8031707f8b56f63c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eS32DISC_X180.willnot</definition>
+        <argsstring></argsstring>
+        <name>willnot</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eS32DISC_X180.willnot</qualifiedname>
+        <initializer>= &quot;will not&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26414" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26414" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eS32DISC_X180</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x180"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>will</edgelabel>
+          <edgelabel>willnot</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26411" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26412" bodyend="26415"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x180_1a0bbadeacc06c3e35da317249df420f19" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eS32DISC_X180</scope><name>will</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x180_1a025a1195dba9adaf8031707f8b56f63c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eS32DISC_X180</scope><name>willnot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

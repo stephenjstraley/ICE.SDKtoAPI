@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_liability_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_liability_contract_full_1ab5c270b5b08072db676589ef52c74734" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherLiabilityContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherLiabilityContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherLiabilityContract.cs" line="94" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherLiabilityContract.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.OtherLiabilityContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_liability_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OtherAssetContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.OtherLiabilityContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_liability_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OtherAssetContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherLiabilityContract.cs" line="91" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherLiabilityContract.cs" bodystart="92" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_liability_contract_full_1ab5c270b5b08072db676589ef52c74734" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ae08ba64955aaf3e9f88ee5b8be5ae3b4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>AssetType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8c0f80014e367b7cd45ee2757a8d2650" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>Attention</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1abfe92a311ce9b151720e0ce588ae9cd5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>BorrowerType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8530b650aefbc236895770767092df74" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>CashOrMarketValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1acc0ecc17ea8f96014fe6bef63e4df290" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderAddressCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a405e7502c27593972bfc443ec3d1237f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderAddressPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8e3db4c6a5a55e2faf9c39205d87c612" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderAddressState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1aedac8f074b6b08e36cd74e3fd71df4a5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderAddressStreetLine1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a50e380363145ff62b75dba024818d2a5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderEmail</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a6393ab3f0fa789f23f1be364f132d54a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a68a0b6d027056a849dcf05f82379dbbf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a2b96da875aba39bccd1d7f0f46e57b8e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>HolderPhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a7d32349d425372a6d4c29d6b8986321b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a829a04cd209ce767c846188dcd09c2a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>OtherAssetDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a251a38c6b0ce0bb20908b437c0a7affd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>OtherDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a6367b61ee5ed62b105b2ecb133942565" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>PrintAttachmentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ae856410bfd8423ccba3c482fd698e830" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ac545a64b709978048567fff532750bde" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>PrintUserNameIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ab0d62a8749d9b309666c2f6da23b6281" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a25cf0ca9db1a185e56ef3b165a4e576d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a1dc0ba59b047809699739a746ac71543" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherLiabilityContractFull</scope><name>TitlePhone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___doc_submission_indic" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_GNM_DocSubmissionIndic</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___doc_submission_indic_1a30cd26026d525d9bd85e9f9db8bb65ce" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_DocSubmissionIndic._TRUE</definition>
+        <argsstring></argsstring>
+        <name>_TRUE</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_DocSubmissionIndic._TRUE</qualifiedname>
+        <initializer>= &quot;true&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29751" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___doc_submission_indic_1a84f2e1a7845ce2d9cf873022a734c584" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_DocSubmissionIndic._FALSE</definition>
+        <argsstring></argsstring>
+        <name>_FALSE</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_DocSubmissionIndic._FALSE</qualifiedname>
+        <initializer>= &quot;false&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29752" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29752" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_GNM_DocSubmissionIndic</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___doc_submission_indic"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_FALSE</edgelabel>
+          <edgelabel>_TRUE</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29749" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29750" bodyend="29753"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___doc_submission_indic_1a84f2e1a7845ce2d9cf873022a734c584" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_DocSubmissionIndic</scope><name>_FALSE</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___doc_submission_indic_1a30cd26026d525d9bd85e9f9db8bb65ce" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_DocSubmissionIndic</scope><name>_TRUE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

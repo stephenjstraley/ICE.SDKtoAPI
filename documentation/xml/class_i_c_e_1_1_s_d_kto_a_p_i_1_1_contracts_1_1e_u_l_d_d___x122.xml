@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x122" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_X122</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x122_1a95356b105a4dc4bded4f005ff2d5c021" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X122.LandTrustAndBeneficiaryIsIndividual</definition>
+        <argsstring></argsstring>
+        <name>LandTrustAndBeneficiaryIsIndividual</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X122.LandTrustAndBeneficiaryIsIndividual</qualifiedname>
+        <initializer>= &quot;LandTrust And Beneficiary Is Individual&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29983" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x122_1ab8b3911b5802e8cb6921a1175bf043ba" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X122.LivingTrust</definition>
+        <argsstring></argsstring>
+        <name>LivingTrust</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X122.LivingTrust</qualifiedname>
+        <initializer>= &quot;LivingTrust&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29984" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29984" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_X122</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x122"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>LandTrustAndBeneficiaryIsIndividual</edgelabel>
+          <edgelabel>LivingTrust</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29981" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29982" bodyend="29985"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x122_1a95356b105a4dc4bded4f005ff2d5c021" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X122</scope><name>LandTrustAndBeneficiaryIsIndividual</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x122_1ab8b3911b5802e8cb6921a1175bf043ba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X122</scope><name>LivingTrust</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

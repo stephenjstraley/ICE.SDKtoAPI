@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_date_field_criterion" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Helpers::PipelineHelper::DateFieldCriterion</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_date_field_criterion_1a2127805407a2cacbf8e714a57acd6e63" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Helpers.PipelineHelper.DateFieldCriterion.IsEmpty</definition>
+        <argsstring></argsstring>
+        <name>IsEmpty</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.DateFieldCriterion.IsEmpty</qualifiedname>
+        <initializer>= &quot;isEmpty&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="293" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_date_field_criterion_1a9842686990d4b0914ed1f4486c3c06c7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Helpers.PipelineHelper.DateFieldCriterion.IsNotEmpty</definition>
+        <argsstring></argsstring>
+        <name>IsNotEmpty</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.DateFieldCriterion.IsNotEmpty</qualifiedname>
+        <initializer>= &quot;isNotEmpty&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="294" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Helpers.PipelineHelper.DateFieldCriterion</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>IsEmpty</edgelabel>
+          <edgelabel>IsNotEmpty</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="291" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="292" bodyend="295"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_date_field_criterion_1a2127805407a2cacbf8e714a57acd6e63" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::DateFieldCriterion</scope><name>IsEmpty</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_date_field_criterion_1a9842686990d4b0914ed1f4486c3c06c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::DateFieldCriterion</scope><name>IsNotEmpty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

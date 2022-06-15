@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1069</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069_1af1da45eb79eea5a3a66a9ed65d2c838b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1069.Sole</definition>
+        <argsstring></argsstring>
+        <name>Sole</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1069.Sole</qualifiedname>
+        <initializer>= &quot;Sole&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="938" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="938" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069_1ae1ede16e55edcb0d0ad5999f7a2d0216" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1069.JointWithSpouse</definition>
+        <argsstring></argsstring>
+        <name>JointWithSpouse</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1069.JointWithSpouse</qualifiedname>
+        <initializer>= &quot;JointWithSpouse&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="939" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="939" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069_1a97d90b5e0f2b168869dd44b6d69dd27d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1069.JointWithOtherThanSpouse</definition>
+        <argsstring></argsstring>
+        <name>JointWithOtherThanSpouse</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1069.JointWithOtherThanSpouse</qualifiedname>
+        <initializer>= &quot;JointWithOtherThanSpouse&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="940" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="940" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1069</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>JointWithOtherThanSpouse</edgelabel>
+          <edgelabel>JointWithSpouse</edgelabel>
+          <edgelabel>Sole</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="936" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="937" bodyend="941"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069_1a97d90b5e0f2b168869dd44b6d69dd27d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1069</scope><name>JointWithOtherThanSpouse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069_1ae1ede16e55edcb0d0ad5999f7a2d0216" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1069</scope><name>JointWithSpouse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1069_1af1da45eb79eea5a3a66a9ed65d2c838b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1069</scope><name>Sole</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

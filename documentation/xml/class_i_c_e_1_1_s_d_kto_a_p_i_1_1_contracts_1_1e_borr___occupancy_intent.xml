@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eBorr_OccupancyIntent</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent_1a42dbf242acb9ac617a395eae30eb702b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eBorr_OccupancyIntent.WillOccupy</definition>
+        <argsstring></argsstring>
+        <name>WillOccupy</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eBorr_OccupancyIntent.WillOccupy</qualifiedname>
+        <initializer>= &quot;Will Occupy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4197" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent_1ac5b8b05d411121b11fa3ab13f5cbeadb" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eBorr_OccupancyIntent.WillNotOccupy</definition>
+        <argsstring></argsstring>
+        <name>WillNotOccupy</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eBorr_OccupancyIntent.WillNotOccupy</qualifiedname>
+        <initializer>= &quot;Will Not Occupy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4198" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent_1a27182bd070e77568c71ad6b345d60108" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eBorr_OccupancyIntent.CurrentlyOccupy</definition>
+        <argsstring></argsstring>
+        <name>CurrentlyOccupy</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eBorr_OccupancyIntent.CurrentlyOccupy</qualifiedname>
+        <initializer>= &quot;Currently Occupy&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4199" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4199" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eBorr_OccupancyIntent</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CurrentlyOccupy</edgelabel>
+          <edgelabel>WillNotOccupy</edgelabel>
+          <edgelabel>WillOccupy</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4195" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4196" bodyend="4200"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent_1a27182bd070e77568c71ad6b345d60108" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eBorr_OccupancyIntent</scope><name>CurrentlyOccupy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent_1ac5b8b05d411121b11fa3ab13f5cbeadb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eBorr_OccupancyIntent</scope><name>WillNotOccupy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___occupancy_intent_1a42dbf242acb9ac617a395eae30eb702b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eBorr_OccupancyIntent</scope><name>WillOccupy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

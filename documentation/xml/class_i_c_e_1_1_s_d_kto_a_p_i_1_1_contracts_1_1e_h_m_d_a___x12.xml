@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eHMDA_X12</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12_1ad79407f445227546d8d949df00ec0036" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X12.Preapprovalwasrequested</definition>
+        <argsstring></argsstring>
+        <name>Preapprovalwasrequested</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X12.Preapprovalwasrequested</qualifiedname>
+        <initializer>= &quot;Preapproval was requested&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12759" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12759" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12_1acb516e1f64442783a3e11b8f6dbf0042" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X12.Preapprovalwasnotrequested</definition>
+        <argsstring></argsstring>
+        <name>Preapprovalwasnotrequested</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X12.Preapprovalwasnotrequested</qualifiedname>
+        <initializer>= &quot;Preapproval was not requested&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12760" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12760" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12_1aec317c7336321d84d4080e30c7384127" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X12.NotApplicable</definition>
+        <argsstring></argsstring>
+        <name>NotApplicable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X12.NotApplicable</qualifiedname>
+        <initializer>= &quot;Not Applicable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12761" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12761" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eHMDA_X12</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>NotApplicable</edgelabel>
+          <edgelabel>Preapprovalwasnotrequested</edgelabel>
+          <edgelabel>Preapprovalwasrequested</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12757" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12758" bodyend="12762"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12_1aec317c7336321d84d4080e30c7384127" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X12</scope><name>NotApplicable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12_1acb516e1f64442783a3e11b8f6dbf0042" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X12</scope><name>Preapprovalwasnotrequested</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x12_1ad79407f445227546d8d949df00ec0036" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X12</scope><name>Preapprovalwasrequested</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

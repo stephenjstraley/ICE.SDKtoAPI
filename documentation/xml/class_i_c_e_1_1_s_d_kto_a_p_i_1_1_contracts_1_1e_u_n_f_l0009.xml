@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eUNFL0009</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a6efb0412786f7d67a65a8c016ccf0b52" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUNFL0009.Borrower</definition>
+        <argsstring></argsstring>
+        <name>Borrower</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUNFL0009.Borrower</qualifiedname>
+        <initializer>= &quot;Borrower&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30555" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a788d2aa5a2f89874f17c43303ab63759" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUNFL0009.Seller</definition>
+        <argsstring></argsstring>
+        <name>Seller</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUNFL0009.Seller</qualifiedname>
+        <initializer>= &quot;Seller&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30556" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30556" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a5d27dc7e6b928208729f777d6828eead" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUNFL0009.Lender</definition>
+        <argsstring></argsstring>
+        <name>Lender</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUNFL0009.Lender</qualifiedname>
+        <initializer>= &quot;Lender&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30557" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30557" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a400656d87757621c9845381da5010039" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUNFL0009.BrokerRealtor</definition>
+        <argsstring></argsstring>
+        <name>BrokerRealtor</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUNFL0009.BrokerRealtor</qualifiedname>
+        <initializer>= &quot;Broker (Realtor)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30558" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30558" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eUNFL0009</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Borrower</edgelabel>
+          <edgelabel>BrokerRealtor</edgelabel>
+          <edgelabel>Lender</edgelabel>
+          <edgelabel>Seller</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30553" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30554" bodyend="30559"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a6efb0412786f7d67a65a8c016ccf0b52" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUNFL0009</scope><name>Borrower</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a400656d87757621c9845381da5010039" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUNFL0009</scope><name>BrokerRealtor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a5d27dc7e6b928208729f777d6828eead" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUNFL0009</scope><name>Lender</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_n_f_l0009_1a788d2aa5a2f89874f17c43303ab63759" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUNFL0009</scope><name>Seller</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

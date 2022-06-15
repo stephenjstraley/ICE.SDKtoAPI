@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3642" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e3642</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3642_1ae6ec05e90400558cb6ac7a1b3c4c0989" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3642.Guaranty</definition>
+        <argsstring></argsstring>
+        <name>Guaranty</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3642.Guaranty</qualifiedname>
+        <initializer>= &quot;Guaranty&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2428" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3642_1ac38c4f70d2e2e24a11f5b921987258d9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3642.Insurance</definition>
+        <argsstring></argsstring>
+        <name>Insurance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3642.Insurance</qualifiedname>
+        <initializer>= &quot;Insurance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2429" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2429" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e3642</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3642"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Guaranty</edgelabel>
+          <edgelabel>Insurance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2426" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2427" bodyend="2430"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3642_1ae6ec05e90400558cb6ac7a1b3c4c0989" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3642</scope><name>Guaranty</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3642_1ac38c4f70d2e2e24a11f5b921987258d9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3642</scope><name>Insurance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

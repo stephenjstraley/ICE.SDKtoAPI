@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a63ad89d0e790c2415472b6811918ee2f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.PrequalificationScenarioIndex</definition>
+        <argsstring></argsstring>
+        <name>PrequalificationScenarioIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.PrequalificationScenarioIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="10" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a7134b368fd81e2eb1a29083972c3eebd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.AppraisedValue</definition>
+        <argsstring></argsstring>
+        <name>AppraisedValue</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.AppraisedValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="13" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ab8fc598e708ff864c2f3d396610702e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Apr</definition>
+        <argsstring></argsstring>
+        <name>Apr</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Apr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="16" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a13d57e4c4df0485d2cc98bec3b6865d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.CashToClose</definition>
+        <argsstring></argsstring>
+        <name>CashToClose</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.CashToClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="19" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a8c00b7d3b22da153549cc70dbcc943ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.ClosingCost</definition>
+        <argsstring></argsstring>
+        <name>ClosingCost</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.ClosingCost</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="22" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa19234400b12a1b7efe275b2963d61ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Cltv</definition>
+        <argsstring></argsstring>
+        <name>Cltv</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Cltv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="25" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a0ed4c56a221cda51981a2e702a165cc5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="28" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a72f20f93dea827c727e0d3329c8e9ee0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.CreditScore</definition>
+        <argsstring></argsstring>
+        <name>CreditScore</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.CreditScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="31" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a07b2d6b128164eeac9a2a3fdd2e96f76" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.CurrentStatus</definition>
+        <argsstring></argsstring>
+        <name>CurrentStatus</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.CurrentStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="34" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa78e023200a0f45a6060fcbdc609dea2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.DownPaymentAmount</definition>
+        <argsstring></argsstring>
+        <name>DownPaymentAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.DownPaymentAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="37" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a1dfed1e9722b6258640bfa8bd0d7c8b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.DownPaymentPercent</definition>
+        <argsstring></argsstring>
+        <name>DownPaymentPercent</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.DownPaymentPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="40" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ac71bb1dbf4e8e63d8121a41bdf1d54fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.FhaUpfrontMiPremiumPercent</definition>
+        <argsstring></argsstring>
+        <name>FhaUpfrontMiPremiumPercent</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.FhaUpfrontMiPremiumPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="43" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a3ef3a8d78db128d5cdec25c49c48b799" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.GrossNegativeCashFlow</definition>
+        <argsstring></argsstring>
+        <name>GrossNegativeCashFlow</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.GrossNegativeCashFlow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="46" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a1793d62ef8acf51028ba636443ad54ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.LoanAmount</definition>
+        <argsstring></argsstring>
+        <name>LoanAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.LoanAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="49" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5f800f99ca3a435e9f155974b2ec4ec6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Ltv</definition>
+        <argsstring></argsstring>
+        <name>Ltv</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.Ltv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="52" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ae8a1c4edd446db9f5e482cc14e6f81bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MaximumDebt</definition>
+        <argsstring></argsstring>
+        <name>MaximumDebt</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MaximumDebt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="55" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa92f669a2371ae8de6ccb759ad66cf49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MaximumLoanAmount</definition>
+        <argsstring></argsstring>
+        <name>MaximumLoanAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MaximumLoanAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="58" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ad5d1e79b849d3eb2f774d15a09481f3d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MiAndFundingFeeFinancedAmount</definition>
+        <argsstring></argsstring>
+        <name>MiAndFundingFeeFinancedAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MiAndFundingFeeFinancedAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="61" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a80cf0f599059ffe0c7d7c06bfee75999" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MinimumIncome</definition>
+        <argsstring></argsstring>
+        <name>MinimumIncome</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MinimumIncome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="64" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ae5528a6efedbe79c0aa8bcceef0b7a5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MonthlyPayment</definition>
+        <argsstring></argsstring>
+        <name>MonthlyPayment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.MonthlyPayment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="67" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a8171f6768d88481551e6d3138cbaac3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.PrepaidItemsEstimatedAmount</definition>
+        <argsstring></argsstring>
+        <name>PrepaidItemsEstimatedAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.PrepaidItemsEstimatedAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="70" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a681b09d0b7c58b85bd988c53602bf45e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.QualBottomRatioPercent</definition>
+        <argsstring></argsstring>
+        <name>QualBottomRatioPercent</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.QualBottomRatioPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="73" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a8f52b82a36b909c2c626530f70e9bf50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.QualTopRatioPercent</definition>
+        <argsstring></argsstring>
+        <name>QualTopRatioPercent</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.QualTopRatioPercent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="76" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ac9cc8805a067a280e144435966dfeba5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.SalesPrice</definition>
+        <argsstring></argsstring>
+        <name>SalesPrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.SalesPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="79" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa3d066374a12e46cad5aa750a15bb4b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.SubordinateFin</definition>
+        <argsstring></argsstring>
+        <name>SubordinateFin</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.SubordinateFin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="82" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5f2e7bdfe172f25892c1765cea784348" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalBaseCost</definition>
+        <argsstring></argsstring>
+        <name>TotalBaseCost</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalBaseCost</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="85" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5a2645f79c842e537ef58c6c4b368985" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalCashAvailable</definition>
+        <argsstring></argsstring>
+        <name>TotalCashAvailable</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalCashAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="88" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a0cc28d88c3b6d0caaec2f69417aaf9b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalCashLeft</definition>
+        <argsstring></argsstring>
+        <name>TotalCashLeft</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalCashLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="91" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a514eaf1be039dcc6c52f9136ad6b078a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalCosts</definition>
+        <argsstring></argsstring>
+        <name>TotalCosts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalCosts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="94" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ab889965333029955536e687d81103e5f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalFinancing</definition>
+        <argsstring></argsstring>
+        <name>TotalFinancing</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalFinancing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="97" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a34314f49d6ea4b58af158b08c32f0faa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalHe</definition>
+        <argsstring></argsstring>
+        <name>TotalHe</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalHe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="100" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aed905e4621213a5ba75ad5266a3b9d69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalIncome</definition>
+        <argsstring></argsstring>
+        <name>TotalIncome</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalIncome</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="103" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa1bae0167537d09789695e26bc778da9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalLoanAmount</definition>
+        <argsstring></argsstring>
+        <name>TotalLoanAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalLoanAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="106" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a47365f0f5f9fc856b2de56d81db94ea9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalOtherExpense</definition>
+        <argsstring></argsstring>
+        <name>TotalOtherExpense</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalOtherExpense</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="109" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a9016e1f82b6c681efdaa466437ca3e97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalPaidOffMortgage</definition>
+        <argsstring></argsstring>
+        <name>TotalPaidOffMortgage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalPaidOffMortgage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="112" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5ebb0cc27d750ac2db897c3424748833" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalPaidOffOthers</definition>
+        <argsstring></argsstring>
+        <name>TotalPaidOffOthers</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalPaidOffOthers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="115" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa9ce2c9fbe462f2dd4baa47d996abe09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalPayments</definition>
+        <argsstring></argsstring>
+        <name>TotalPayments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PrequalificationScenarioContract.TotalPayments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="118" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="118" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PrequalificationScenarioContract.cs" bodystart="8" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a7134b368fd81e2eb1a29083972c3eebd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>AppraisedValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ab8fc598e708ff864c2f3d396610702e2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>Apr</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a13d57e4c4df0485d2cc98bec3b6865d8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>CashToClose</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a8c00b7d3b22da153549cc70dbcc943ec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>ClosingCost</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa19234400b12a1b7efe275b2963d61ff" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>Cltv</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a0ed4c56a221cda51981a2e702a165cc5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a72f20f93dea827c727e0d3329c8e9ee0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>CreditScore</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a07b2d6b128164eeac9a2a3fdd2e96f76" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>CurrentStatus</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa78e023200a0f45a6060fcbdc609dea2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>DownPaymentAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a1dfed1e9722b6258640bfa8bd0d7c8b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>DownPaymentPercent</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ac71bb1dbf4e8e63d8121a41bdf1d54fc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>FhaUpfrontMiPremiumPercent</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a3ef3a8d78db128d5cdec25c49c48b799" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>GrossNegativeCashFlow</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a1793d62ef8acf51028ba636443ad54ea" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>LoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5f800f99ca3a435e9f155974b2ec4ec6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>Ltv</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ae8a1c4edd446db9f5e482cc14e6f81bc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>MaximumDebt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa92f669a2371ae8de6ccb759ad66cf49" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>MaximumLoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ad5d1e79b849d3eb2f774d15a09481f3d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>MiAndFundingFeeFinancedAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a80cf0f599059ffe0c7d7c06bfee75999" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>MinimumIncome</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ae5528a6efedbe79c0aa8bcceef0b7a5e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>MonthlyPayment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a8171f6768d88481551e6d3138cbaac3c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>PrepaidItemsEstimatedAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a63ad89d0e790c2415472b6811918ee2f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>PrequalificationScenarioIndex</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a681b09d0b7c58b85bd988c53602bf45e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>QualBottomRatioPercent</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a8f52b82a36b909c2c626530f70e9bf50" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>QualTopRatioPercent</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ac9cc8805a067a280e144435966dfeba5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>SalesPrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa3d066374a12e46cad5aa750a15bb4b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>SubordinateFin</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5f2e7bdfe172f25892c1765cea784348" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalBaseCost</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5a2645f79c842e537ef58c6c4b368985" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalCashAvailable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a0cc28d88c3b6d0caaec2f69417aaf9b9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalCashLeft</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a514eaf1be039dcc6c52f9136ad6b078a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalCosts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1ab889965333029955536e687d81103e5f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalFinancing</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a34314f49d6ea4b58af158b08c32f0faa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalHe</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aed905e4621213a5ba75ad5266a3b9d69" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalIncome</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa1bae0167537d09789695e26bc778da9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalLoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a47365f0f5f9fc856b2de56d81db94ea9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalOtherExpense</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a9016e1f82b6c681efdaa466437ca3e97" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalPaidOffMortgage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1a5ebb0cc27d750ac2db897c3424748833" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalPaidOffOthers</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_prequalification_scenario_contract_1aa9ce2c9fbe462f2dd4baa47d996abe09" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PrequalificationScenarioContract</scope><name>TotalPayments</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

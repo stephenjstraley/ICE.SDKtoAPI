@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x9" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNOTICES_X9</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x9_1a9c61ada5ce84b4d6b27ae0aa620cc5c5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X9.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X9.Y</qualifiedname>
+        <initializer>= &quot;Y&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22399" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x9_1a95064f171781b27c2318cab1073f74b8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X9.N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X9.N</qualifiedname>
+        <initializer>= &quot;N&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22400" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22400" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNOTICES_X9</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x9"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>N</edgelabel>
+          <edgelabel>Y</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22397" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22398" bodyend="22401"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x9_1a95064f171781b27c2318cab1073f74b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X9</scope><name>N</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x9_1a9c61ada5ce84b4d6b27ae0aa620cc5c5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X9</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

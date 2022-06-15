@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_i_n_k__420" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eLINK_420</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_i_n_k__420_1a763753855ddec4b650cadc67cfe9f7b9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLINK_420.FirstLien</definition>
+        <argsstring></argsstring>
+        <name>FirstLien</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLINK_420.FirstLien</qualifiedname>
+        <initializer>= &quot;FirstLien&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14337" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_i_n_k__420_1a424d1c3835ddd1b85f6a96d13103b6ad" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLINK_420.SecondLien</definition>
+        <argsstring></argsstring>
+        <name>SecondLien</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLINK_420.SecondLien</qualifiedname>
+        <initializer>= &quot;SecondLien&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14338" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14338" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eLINK_420</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_i_n_k__420"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>FirstLien</edgelabel>
+          <edgelabel>SecondLien</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14335" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14336" bodyend="14339"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_i_n_k__420_1a763753855ddec4b650cadc67cfe9f7b9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLINK_420</scope><name>FirstLien</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_i_n_k__420_1a424d1c3835ddd1b85f6a96d13103b6ad" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLINK_420</scope><name>SecondLien</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

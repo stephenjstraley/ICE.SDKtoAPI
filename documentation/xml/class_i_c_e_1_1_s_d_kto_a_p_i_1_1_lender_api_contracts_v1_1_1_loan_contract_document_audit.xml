@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractDocumentAudit</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit_1a1c0087c32a9ec1826c6d2b82eb6f42e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit_alerts" kindref="compound">LoanContractDocumentAuditAlerts</ref> &gt;</type>
+        <definition>List&lt;LoanContractDocumentAuditAlerts&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractDocumentAudit.Alerts</definition>
+        <argsstring></argsstring>
+        <name>Alerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractDocumentAudit.Alerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" line="11" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit_1a4dba7c4e93082b96823513990cb5c3d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractDocumentAudit.ReportKey</definition>
+        <argsstring></argsstring>
+        <name>ReportKey</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractDocumentAudit.ReportKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" line="14" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit_1a63a30b2175ff3994f1b87e1955378034" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractDocumentAudit.TimeStamp</definition>
+        <argsstring></argsstring>
+        <name>TimeStamp</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractDocumentAudit.TimeStamp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" line="17" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" line="8" column="7" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractDocumentAudit.cs" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit_1a1c0087c32a9ec1826c6d2b82eb6f42e3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractDocumentAudit</scope><name>Alerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit_1a4dba7c4e93082b96823513990cb5c3d2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractDocumentAudit</scope><name>ReportKey</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_document_audit_1a63a30b2175ff3994f1b87e1955378034" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractDocumentAudit</scope><name>TimeStamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

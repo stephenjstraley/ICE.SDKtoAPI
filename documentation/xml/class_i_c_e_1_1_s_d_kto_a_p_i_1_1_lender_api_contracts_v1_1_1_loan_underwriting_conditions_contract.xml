@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a4fe57881460a2a09fc9342170191955d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.AllowToClear</definition>
+        <argsstring></argsstring>
+        <name>AllowToClear</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.AllowToClear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="12" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a360af84eae3fd9551db0a7326cb1dd71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Application</definition>
+        <argsstring></argsstring>
+        <name>Application</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Application</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="15" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3efb05c6d80dce72e7ca5b57b331f98c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Category</definition>
+        <argsstring></argsstring>
+        <name>Category</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Category</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a992e397217342b003f03a4aae6d8f43a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ClearedBy</definition>
+        <argsstring></argsstring>
+        <name>ClearedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ClearedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="21" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1add7985dab96af7c093095f890d805cd0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ClearedDate</definition>
+        <argsstring></argsstring>
+        <name>ClearedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ClearedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="24" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a287140690476741d5e6b2f437b7c8679" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_comment_contract" kindref="compound">LoanCommentContract</ref> &gt;</type>
+        <definition>List&lt;LoanCommentContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="27" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a53d286596f7a0961a7a80e598746c4db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ConditionType</definition>
+        <argsstring></argsstring>
+        <name>ConditionType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ConditionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="30" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aac978f5c97b0752cc553cdb210720e1a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.CreatedBy</definition>
+        <argsstring></argsstring>
+        <name>CreatedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.CreatedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="33" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a1ba99355ec6bb7cca31aa14cb2caed44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.CreatedDate</definition>
+        <argsstring></argsstring>
+        <name>CreatedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.CreatedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="36" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a92fd9293414c4dc62c883c4533a3421e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.DaysToReceive</definition>
+        <argsstring></argsstring>
+        <name>DaysToReceive</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.DaysToReceive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="39" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1adfc9dc22d7b2432b393bc77ab490a6b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="42" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ac7a0ab63dde822a4f875e01188a367f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Documents</definition>
+        <argsstring></argsstring>
+        <name>Documents</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Documents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="45" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a17f9b3e1e308d19644be57b8d9e67bd2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ExpectedDate</definition>
+        <argsstring></argsstring>
+        <name>ExpectedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ExpectedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="48" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a07972385ecab48f297c7774d54135ffb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ExpirationDate</definition>
+        <argsstring></argsstring>
+        <name>ExpirationDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ExpirationDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="51" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a720e583cba1bf092b825a02e551fc136" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.FulfilledBy</definition>
+        <argsstring></argsstring>
+        <name>FulfilledBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.FulfilledBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="54" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1afda7a5624dcfea81dfe062f698e77c3b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.FulfilledDate</definition>
+        <argsstring></argsstring>
+        <name>FulfilledDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.FulfilledDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="57" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a68d3a2b6bea32908f8a6dc37ccb8de00" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="60" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aab97688c7a02d2004cea4aececace0ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsAddedToConditionSet</definition>
+        <argsstring></argsstring>
+        <name>IsAddedToConditionSet</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsAddedToConditionSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="62" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1af51f81c30898d99f53f8ed4435add8b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsCleared</definition>
+        <argsstring></argsstring>
+        <name>IsCleared</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsCleared</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="65" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a68d448c300a21f77607e71d98e566151" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsFulfilled</definition>
+        <argsstring></argsstring>
+        <name>IsFulfilled</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsFulfilled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="68" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ad210c557f9e0c05f1c3e2e24fb2d6a24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsReceived</definition>
+        <argsstring></argsstring>
+        <name>IsReceived</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsReceived</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="71" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a4830f175ac31ba95cb31e77b1b8c4334" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRejected</definition>
+        <argsstring></argsstring>
+        <name>IsRejected</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRejected</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="74" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1af6d9c64964a575e159ffa6c902087e73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRemoved</definition>
+        <argsstring></argsstring>
+        <name>IsRemoved</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRemoved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="77" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1abea254ce849f13b31dce6dc6dad29fde" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRequested</definition>
+        <argsstring></argsstring>
+        <name>IsRequested</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRequested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="80" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ab5b476527598053fd76b2109c1818def" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRerequested</definition>
+        <argsstring></argsstring>
+        <name>IsRerequested</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsRerequested</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="83" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a8ee6df2c6474c85d3830826d062cf61c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsReviewed</definition>
+        <argsstring></argsstring>
+        <name>IsReviewed</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsReviewed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="86" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a74bd6ec09b3acb5b8f0a6ba1e2d34d49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsWaived</definition>
+        <argsstring></argsstring>
+        <name>IsWaived</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.IsWaived</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="89" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a5b2a5f03216cc181940017c983fed53c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Owner</definition>
+        <argsstring></argsstring>
+        <name>Owner</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="92" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3aed3d262ac5966014df97f7e5c76907" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.PrintExternally</definition>
+        <argsstring></argsstring>
+        <name>PrintExternally</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.PrintExternally</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="95" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ad8efc76392d8b5a3f56b6175878cda58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.PrintInternally</definition>
+        <argsstring></argsstring>
+        <name>PrintInternally</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.PrintInternally</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="98" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aea22b89391c5d3fe05f0081e27d97a0c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.PriorTo</definition>
+        <argsstring></argsstring>
+        <name>PriorTo</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.PriorTo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="101" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1af0ac0a0409c9875a66211c510c279ed6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReceivedBy</definition>
+        <argsstring></argsstring>
+        <name>ReceivedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReceivedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="104" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a7908d2b575021c16a70092dae76b95e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReceivedDate</definition>
+        <argsstring></argsstring>
+        <name>ReceivedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReceivedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="107" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a429584f46b515cedf7786733252d9dc6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RejectedBy</definition>
+        <argsstring></argsstring>
+        <name>RejectedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RejectedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="110" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3449ff094e412714b04a5ec124e7f98e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RejectedDate</definition>
+        <argsstring></argsstring>
+        <name>RejectedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RejectedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="113" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a47ee0015ce03b56e6c38cac6cf2925b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RequestedBy</definition>
+        <argsstring></argsstring>
+        <name>RequestedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RequestedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="116" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a6fe5d23937131c64cc72bb466666ac72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RequestedDate</definition>
+        <argsstring></argsstring>
+        <name>RequestedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RequestedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="119" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a57c57d13631423a3a1ff7396912c233b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RequestedFrom</definition>
+        <argsstring></argsstring>
+        <name>RequestedFrom</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RequestedFrom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="122" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a812d4292b69d85b3652f5adf0c380e09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RerequestedBy</definition>
+        <argsstring></argsstring>
+        <name>RerequestedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RerequestedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="125" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a5a3c42649d3c07789784d79a14eefee2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RerequestedDate</definition>
+        <argsstring></argsstring>
+        <name>RerequestedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.RerequestedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="128" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3220bf790c43308fbd4460b4958280e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReviewedBy</definition>
+        <argsstring></argsstring>
+        <name>ReviewedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReviewedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="131" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a166c52ec6e5a38002d73b3f228831b72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReviewedDate</definition>
+        <argsstring></argsstring>
+        <name>ReviewedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.ReviewedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="134" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ad875f3402195f0f17e1c2b4fd1143e41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Source</definition>
+        <argsstring></argsstring>
+        <name>Source</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Source</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="137" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a23eb1c5a8d40f045b57afb3fde2e59c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="140" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aa5646c6191dd86b64f9858f14de90a23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.StatusDate</definition>
+        <argsstring></argsstring>
+        <name>StatusDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.StatusDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="143" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a0b7da881edfedf7b52ff91861f615ace" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.TemplateId</definition>
+        <argsstring></argsstring>
+        <name>TemplateId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.TemplateId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="146" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aa345131d3e940454a770f84833c0c3aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="149" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a077f40295d69241cba8b2045dd9f8a38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.TpoConditionDocGuid</definition>
+        <argsstring></argsstring>
+        <name>TpoConditionDocGuid</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.TpoConditionDocGuid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="152" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a58e7a2acd6183195fe92c57292bb81a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.TpoConditionDocType</definition>
+        <argsstring></argsstring>
+        <name>TpoConditionDocType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.TpoConditionDocType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="155" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3bc3711489478a1b7dca0e7786618479" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.WaivedBy</definition>
+        <argsstring></argsstring>
+        <name>WaivedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.WaivedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="158" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a233c68aaaaa02ceb31a2f7b649a01223" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.WaivedDate</definition>
+        <argsstring></argsstring>
+        <name>WaivedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanUnderwritingConditionsContract.WaivedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="161" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanUnderwritingConditionsContract.cs" bodystart="10" bodyend="162"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a4fe57881460a2a09fc9342170191955d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>AllowToClear</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a360af84eae3fd9551db0a7326cb1dd71" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Application</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3efb05c6d80dce72e7ca5b57b331f98c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Category</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a992e397217342b003f03a4aae6d8f43a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ClearedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1add7985dab96af7c093095f890d805cd0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ClearedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a287140690476741d5e6b2f437b7c8679" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a53d286596f7a0961a7a80e598746c4db" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ConditionType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aac978f5c97b0752cc553cdb210720e1a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>CreatedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a1ba99355ec6bb7cca31aa14cb2caed44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>CreatedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a92fd9293414c4dc62c883c4533a3421e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>DaysToReceive</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1adfc9dc22d7b2432b393bc77ab490a6b6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ac7a0ab63dde822a4f875e01188a367f4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Documents</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a17f9b3e1e308d19644be57b8d9e67bd2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ExpectedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a07972385ecab48f297c7774d54135ffb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ExpirationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a720e583cba1bf092b825a02e551fc136" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>FulfilledBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1afda7a5624dcfea81dfe062f698e77c3b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>FulfilledDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a68d3a2b6bea32908f8a6dc37ccb8de00" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aab97688c7a02d2004cea4aececace0ce" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsAddedToConditionSet</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1af51f81c30898d99f53f8ed4435add8b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsCleared</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a68d448c300a21f77607e71d98e566151" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsFulfilled</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ad210c557f9e0c05f1c3e2e24fb2d6a24" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsReceived</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a4830f175ac31ba95cb31e77b1b8c4334" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsRejected</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1af6d9c64964a575e159ffa6c902087e73" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsRemoved</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1abea254ce849f13b31dce6dc6dad29fde" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsRequested</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ab5b476527598053fd76b2109c1818def" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsRerequested</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a8ee6df2c6474c85d3830826d062cf61c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsReviewed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a74bd6ec09b3acb5b8f0a6ba1e2d34d49" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>IsWaived</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a5b2a5f03216cc181940017c983fed53c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Owner</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3aed3d262ac5966014df97f7e5c76907" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>PrintExternally</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ad8efc76392d8b5a3f56b6175878cda58" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>PrintInternally</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aea22b89391c5d3fe05f0081e27d97a0c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>PriorTo</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1af0ac0a0409c9875a66211c510c279ed6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ReceivedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a7908d2b575021c16a70092dae76b95e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ReceivedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a429584f46b515cedf7786733252d9dc6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>RejectedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3449ff094e412714b04a5ec124e7f98e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>RejectedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a47ee0015ce03b56e6c38cac6cf2925b2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>RequestedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a6fe5d23937131c64cc72bb466666ac72" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>RequestedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a57c57d13631423a3a1ff7396912c233b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>RequestedFrom</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a812d4292b69d85b3652f5adf0c380e09" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>RerequestedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a5a3c42649d3c07789784d79a14eefee2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>RerequestedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3220bf790c43308fbd4460b4958280e6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ReviewedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a166c52ec6e5a38002d73b3f228831b72" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>ReviewedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1ad875f3402195f0f17e1c2b4fd1143e41" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Source</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a23eb1c5a8d40f045b57afb3fde2e59c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Status</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aa5646c6191dd86b64f9858f14de90a23" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>StatusDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a0b7da881edfedf7b52ff91861f615ace" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>TemplateId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1aa345131d3e940454a770f84833c0c3aa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a077f40295d69241cba8b2045dd9f8a38" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>TpoConditionDocGuid</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a58e7a2acd6183195fe92c57292bb81a8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>TpoConditionDocType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a3bc3711489478a1b7dca0e7786618479" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>WaivedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_underwriting_conditions_contract_1a233c68aaaaa02ceb31a2f7b649a01223" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanUnderwritingConditionsContract</scope><name>WaivedDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

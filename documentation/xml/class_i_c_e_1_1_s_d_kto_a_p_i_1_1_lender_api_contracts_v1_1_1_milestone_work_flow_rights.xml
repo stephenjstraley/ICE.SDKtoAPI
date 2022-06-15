@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneWorkFlowRights</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1abe6d40a7875679311c524f35bb4fe2fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.AcceptFiles</definition>
+        <argsstring></argsstring>
+        <name>AcceptFiles</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.AcceptFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="138" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a7ba9dbbab1c891689261c71ba3482f41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.ReturnFiles</definition>
+        <argsstring></argsstring>
+        <name>ReturnFiles</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.ReturnFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="139" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a41dead85748a363e89eb8d6f6c623bed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.ChangeExpectedDate</definition>
+        <argsstring></argsstring>
+        <name>ChangeExpectedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.ChangeExpectedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="140" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a841c18595137694ab1818edc7eb2feb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.FinishMilestones</definition>
+        <argsstring></argsstring>
+        <name>FinishMilestones</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.FinishMilestones</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="141" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a4b86da707141c6108f814c42c89561a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.AssignLoanTeamMembers</definition>
+        <argsstring></argsstring>
+        <name>AssignLoanTeamMembers</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.AssignLoanTeamMembers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="142" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="142" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a045e51a41969d7a70d124648a0081c27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.EditComments</definition>
+        <argsstring></argsstring>
+        <name>EditComments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneWorkFlowRights.EditComments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="143" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="143" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="136" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="137" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1abe6d40a7875679311c524f35bb4fe2fb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneWorkFlowRights</scope><name>AcceptFiles</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a4b86da707141c6108f814c42c89561a3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneWorkFlowRights</scope><name>AssignLoanTeamMembers</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a41dead85748a363e89eb8d6f6c623bed" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneWorkFlowRights</scope><name>ChangeExpectedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a045e51a41969d7a70d124648a0081c27" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneWorkFlowRights</scope><name>EditComments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a841c18595137694ab1818edc7eb2feb1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneWorkFlowRights</scope><name>FinishMilestones</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights_1a7ba9dbbab1c891689261c71ba3482f41" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneWorkFlowRights</scope><name>ReturnFiles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

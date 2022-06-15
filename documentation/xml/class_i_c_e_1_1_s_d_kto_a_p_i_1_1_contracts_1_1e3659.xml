@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3659" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e3659</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3659_1aae53609f69d537e9fd9da8da53f97692" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3659.CreditQualifying</definition>
+        <argsstring></argsstring>
+        <name>CreditQualifying</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3659.CreditQualifying</qualifiedname>
+        <initializer>= &quot;Credit Qualifying&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2433" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3659_1a9210ff8815a8c5e4c3fc903bc134fe08" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3659.NonCreditQualifying</definition>
+        <argsstring></argsstring>
+        <name>NonCreditQualifying</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3659.NonCreditQualifying</qualifiedname>
+        <initializer>= &quot;Non-Credit Qualifying&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2434" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2434" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e3659</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3659"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CreditQualifying</edgelabel>
+          <edgelabel>NonCreditQualifying</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2431" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2432" bodyend="2435"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3659_1aae53609f69d537e9fd9da8da53f97692" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3659</scope><name>CreditQualifying</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3659_1a9210ff8815a8c5e4c3fc903bc134fe08" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3659</scope><name>NonCreditQualifying</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e957</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957_1a5081d3404e6d4ce4a1cb5ab36ce98a7c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e957.SoleOwnership</definition>
+        <argsstring></argsstring>
+        <name>SoleOwnership</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e957.SoleOwnership</qualifiedname>
+        <initializer>= &quot;SoleOwnership&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="725" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957_1afac25641e4382a63a618e1039cc61d9b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e957.Joint2OrMoreVeterans</definition>
+        <argsstring></argsstring>
+        <name>Joint2OrMoreVeterans</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e957.Joint2OrMoreVeterans</qualifiedname>
+        <initializer>= &quot;Joint - 2 Or More Veterans&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="726" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957_1a66f51cd51b28494ccd1dc03be3c749d3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e957.JointVeteranNonVeteran</definition>
+        <argsstring></argsstring>
+        <name>JointVeteranNonVeteran</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e957.JointVeteranNonVeteran</qualifiedname>
+        <initializer>= &quot;Joint - Veteran/Non-Veteran&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="727" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e957</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Joint2OrMoreVeterans</edgelabel>
+          <edgelabel>JointVeteranNonVeteran</edgelabel>
+          <edgelabel>SoleOwnership</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="723" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="724" bodyend="728"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957_1afac25641e4382a63a618e1039cc61d9b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e957</scope><name>Joint2OrMoreVeterans</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957_1a66f51cd51b28494ccd1dc03be3c749d3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e957</scope><name>JointVeteranNonVeteran</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e957_1a5081d3404e6d4ce4a1cb5ab36ce98a7c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e957</scope><name>SoleOwnership</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

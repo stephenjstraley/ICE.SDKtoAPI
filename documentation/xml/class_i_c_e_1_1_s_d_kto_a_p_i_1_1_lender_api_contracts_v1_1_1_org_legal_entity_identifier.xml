@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_legal_entity_identifier" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::OrgLegalEntityIdentifier</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_legal_entity_identifier_1a5efcc3c52af9b60e4f80dcf4a30b4a84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.OrgLegalEntityIdentifier.UseParentInformation</definition>
+        <argsstring></argsstring>
+        <name>UseParentInformation</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.OrgLegalEntityIdentifier.UseParentInformation</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="45" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_legal_entity_identifier_1a7045e34cc787f27167c8ae8f4accd7ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.OrgLegalEntityIdentifier.HmdaProfile</definition>
+        <argsstring></argsstring>
+        <name>HmdaProfile</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.OrgLegalEntityIdentifier.HmdaProfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="46" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_legal_entity_identifier_1ae2b7e198543a65b4e967aa76dbb5d5d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.OrgLegalEntityIdentifier.Lei</definition>
+        <argsstring></argsstring>
+        <name>Lei</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.OrgLegalEntityIdentifier.Lei</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="47" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="43" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="44" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_legal_entity_identifier_1a7045e34cc787f27167c8ae8f4accd7ba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::OrgLegalEntityIdentifier</scope><name>HmdaProfile</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_legal_entity_identifier_1ae2b7e198543a65b4e967aa76dbb5d5d8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::OrgLegalEntityIdentifier</scope><name>Lei</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_legal_entity_identifier_1a5efcc3c52af9b60e4f80dcf4a30b4a84" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::OrgLegalEntityIdentifier</scope><name>UseParentInformation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

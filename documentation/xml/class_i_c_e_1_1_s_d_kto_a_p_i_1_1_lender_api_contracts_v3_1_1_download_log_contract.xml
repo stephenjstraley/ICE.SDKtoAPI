@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a7a7cf0c45f0c9f4a6b4d5b248f5f8a96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a2a7290d409b5e07e694b098a9c4ecbee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_log_alert_contract" kindref="compound">LogAlertContract</ref> &gt;</type>
+        <definition>List&lt;LogAlertContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Alerts</definition>
+        <argsstring></argsstring>
+        <name>Alerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Alerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="15" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1aec47731b34b282335ece15ba64536f32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.BarcodePage</definition>
+        <argsstring></argsstring>
+        <name>BarcodePage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.BarcodePage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ab29d821bf1ae947204bc305c46df96be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_log_comment_contract" kindref="compound">LogCommentContract</ref> &gt;</type>
+        <definition>List&lt;LogCommentContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.CommentList</definition>
+        <argsstring></argsstring>
+        <name>CommentList</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.CommentList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="21" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ab35efa7ad1fe7895c2fb63ece980de44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="24" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ad0567ed113c5ea803bd1cc3dc8d4adda" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.ReceivedDate</definition>
+        <argsstring></argsstring>
+        <name>ReceivedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.ReceivedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="27" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ad7977d47c107181cf8091229326243f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="30" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a6b81ff766b4d14682cd4c19c1c24706d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.DocumentId</definition>
+        <argsstring></argsstring>
+        <name>DocumentId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.DocumentId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="33" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a823f6ee6c84e76237184dfbb29e7a0a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.DownloadId</definition>
+        <argsstring></argsstring>
+        <name>DownloadId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.DownloadId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="36" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a5ae2a829048bf8fd8b8202b13deef6b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.FileSource</definition>
+        <argsstring></argsstring>
+        <name>FileSource</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.FileSource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="39" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1af596180dc3abecadaa94995cf0ede5eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.FileType</definition>
+        <argsstring></argsstring>
+        <name>FileType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.FileType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="42" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a263773cb0f041f441e3b0a13572f06a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.ReceivedBy</definition>
+        <argsstring></argsstring>
+        <name>ReceivedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.ReceivedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="45" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a521dd9a10ccfa7a4415572e1ef8f1bcf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Sender</definition>
+        <argsstring></argsstring>
+        <name>Sender</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="48" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a2f75bbc5e897c07f861ffaaa0f03bff5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownloadLogContract.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="51" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownloadLogContract.cs" bodystart="10" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a2a7290d409b5e07e694b098a9c4ecbee" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>Alerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1aec47731b34b282335ece15ba64536f32" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>BarcodePage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ab29d821bf1ae947204bc305c46df96be" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>CommentList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ab35efa7ad1fe7895c2fb63ece980de44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ad7977d47c107181cf8091229326243f5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>Date</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a6b81ff766b4d14682cd4c19c1c24706d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>DocumentId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a823f6ee6c84e76237184dfbb29e7a0a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>DownloadId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a5ae2a829048bf8fd8b8202b13deef6b4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>FileSource</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1af596180dc3abecadaa94995cf0ede5eb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>FileType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a7a7cf0c45f0c9f4a6b4d5b248f5f8a96" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a263773cb0f041f441e3b0a13572f06a3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>ReceivedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1ad0567ed113c5ea803bd1cc3dc8d4adda" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>ReceivedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a521dd9a10ccfa7a4415572e1ef8f1bcf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>Sender</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_download_log_contract_1a2f75bbc5e897c07f861ffaaa0f03bff5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownloadLogContract</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

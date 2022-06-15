@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_custom_field_meta_8cs" kind="file" language="C#">
+    <compoundname>CustomFieldMeta.cs</compoundname>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta" prot="public">ICE::SDKtoAPI::Contracts::CustomFieldMeta</innerclass>
+    <innernamespace refid="namespace_i_c_e">ICE</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i">ICE::SDKtoAPI</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts">ICE::SDKtoAPI::Contracts</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts" kindref="compound">ICE.SDKtoAPI.Contracts</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta" kindref="compound">CustomFieldMeta</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta_1aeef9c8bf83aeeec347cb97889700d212" kindref="member">Id</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta_1a1821ea12ce70b9568bb90aa4b9a2e2f0" kindref="member">Description</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta_1a0e58878e75b1efa663f035f983247e65" kindref="member">Format</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta_1a883564b4db4805d67bc930711748d9ce" kindref="member">MaxLength</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta_1a9dc3acbe7d523eec2683f397c60b70c6" kindref="member">ModelPath</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta_1a2036b7cd36c0c967be707edaec5177f1" kindref="member">IsCalcualted</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/CustomFieldMeta.cs"/>
+  </compounddef>
+</doxygen>

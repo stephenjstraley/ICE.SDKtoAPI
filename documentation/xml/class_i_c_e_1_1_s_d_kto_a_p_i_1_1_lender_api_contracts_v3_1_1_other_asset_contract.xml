@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</compoundname>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_full" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContractFull</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_liability_contract_full" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.OtherLiabilityContractFull</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a7d32349d425372a6d4c29d6b8986321b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1abfe92a311ce9b151720e0ce588ae9cd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.BorrowerType</definition>
+        <argsstring></argsstring>
+        <name>BorrowerType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.BorrowerType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="15" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ae08ba64955aaf3e9f88ee5b8be5ae3b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.AssetType</definition>
+        <argsstring></argsstring>
+        <name>AssetType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.AssetType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8530b650aefbc236895770767092df74" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.CashOrMarketValue</definition>
+        <argsstring></argsstring>
+        <name>CashOrMarketValue</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.CashOrMarketValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="21" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a251a38c6b0ce0bb20908b437c0a7affd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.OtherDescription</definition>
+        <argsstring></argsstring>
+        <name>OtherDescription</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.OtherDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="24" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a68a0b6d027056a849dcf05f82379dbbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderName</definition>
+        <argsstring></argsstring>
+        <name>HolderName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="27" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8c0f80014e367b7cd45ee2757a8d2650" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.Attention</definition>
+        <argsstring></argsstring>
+        <name>Attention</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.Attention</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="30" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1aedac8f074b6b08e36cd74e3fd71df4a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressStreetLine1</definition>
+        <argsstring></argsstring>
+        <name>HolderAddressStreetLine1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressStreetLine1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="33" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1acc0ecc17ea8f96014fe6bef63e4df290" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressCity</definition>
+        <argsstring></argsstring>
+        <name>HolderAddressCity</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressCity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="36" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8e3db4c6a5a55e2faf9c39205d87c612" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressState</definition>
+        <argsstring></argsstring>
+        <name>HolderAddressState</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="39" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a405e7502c27593972bfc443ec3d1237f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressPostalCode</definition>
+        <argsstring></argsstring>
+        <name>HolderAddressPostalCode</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderAddressPostalCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="42" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a2b96da875aba39bccd1d7f0f46e57b8e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderPhone</definition>
+        <argsstring></argsstring>
+        <name>HolderPhone</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderPhone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="45" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a6393ab3f0fa789f23f1be364f132d54a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderFax</definition>
+        <argsstring></argsstring>
+        <name>HolderFax</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderFax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="48" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a50e380363145ff62b75dba024818d2a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderEmail</definition>
+        <argsstring></argsstring>
+        <name>HolderEmail</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.HolderEmail</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="51" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ab0d62a8749d9b309666c2f6da23b6281" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="54" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ac545a64b709978048567fff532750bde" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.PrintUserNameIndicator</definition>
+        <argsstring></argsstring>
+        <name>PrintUserNameIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.PrintUserNameIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="57" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a1dc0ba59b047809699739a746ac71543" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.TitlePhone</definition>
+        <argsstring></argsstring>
+        <name>TitlePhone</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.TitlePhone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="60" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a25cf0ca9db1a185e56ef3b165a4e576d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.TitleFax</definition>
+        <argsstring></argsstring>
+        <name>TitleFax</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.TitleFax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="63" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a6367b61ee5ed62b105b2ecb133942565" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.PrintAttachmentIndicator</definition>
+        <argsstring></argsstring>
+        <name>PrintAttachmentIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.PrintAttachmentIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="66" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a829a04cd209ce767c846188dcd09c2a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.OtherAssetDate</definition>
+        <argsstring></argsstring>
+        <name>OtherAssetDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.OtherAssetDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="69" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ae856410bfd8423ccba3c482fd698e830" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.PrintUserJobTitleIndicator</definition>
+        <argsstring></argsstring>
+        <name>PrintUserJobTitleIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract.PrintUserJobTitleIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="72" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract"/>
+      </node>
+      <node id="2">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.OtherAssetContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_full"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.OtherLiabilityContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_liability_contract_full"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherAssetContract.cs" bodystart="10" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ae08ba64955aaf3e9f88ee5b8be5ae3b4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>AssetType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8c0f80014e367b7cd45ee2757a8d2650" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>Attention</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1abfe92a311ce9b151720e0ce588ae9cd5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>BorrowerType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8530b650aefbc236895770767092df74" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>CashOrMarketValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1acc0ecc17ea8f96014fe6bef63e4df290" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderAddressCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a405e7502c27593972bfc443ec3d1237f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderAddressPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a8e3db4c6a5a55e2faf9c39205d87c612" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderAddressState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1aedac8f074b6b08e36cd74e3fd71df4a5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderAddressStreetLine1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a50e380363145ff62b75dba024818d2a5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderEmail</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a6393ab3f0fa789f23f1be364f132d54a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a68a0b6d027056a849dcf05f82379dbbf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a2b96da875aba39bccd1d7f0f46e57b8e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>HolderPhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a7d32349d425372a6d4c29d6b8986321b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a829a04cd209ce767c846188dcd09c2a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>OtherAssetDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a251a38c6b0ce0bb20908b437c0a7affd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>OtherDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a6367b61ee5ed62b105b2ecb133942565" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>PrintAttachmentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ae856410bfd8423ccba3c482fd698e830" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ac545a64b709978048567fff532750bde" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>PrintUserNameIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1ab0d62a8749d9b309666c2f6da23b6281" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a25cf0ca9db1a185e56ef3b165a4e576d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_asset_contract_1a1dc0ba59b047809699739a746ac71543" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherAssetContract</scope><name>TitlePhone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

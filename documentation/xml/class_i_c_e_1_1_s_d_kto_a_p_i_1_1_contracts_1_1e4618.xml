@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4618</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1abd2b3ff0a1b8ed7a86e97eac52611325" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4618.theday</definition>
+        <argsstring></argsstring>
+        <name>theday</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4618.theday</qualifiedname>
+        <initializer>= &quot;the day&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3548" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3548" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1a28c163d360795755e71238419f221dbd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4618.thebusinessday</definition>
+        <argsstring></argsstring>
+        <name>thebusinessday</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4618.thebusinessday</qualifiedname>
+        <initializer>= &quot;the business day&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3549" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1ad759ab45bb5cbf23d68fa91b976add59" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4618.thefirstdayofthecalendarmonth</definition>
+        <argsstring></argsstring>
+        <name>thefirstdayofthecalendarmonth</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4618.thefirstdayofthecalendarmonth</qualifiedname>
+        <initializer>= &quot;the first day of the calendar month&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3550" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1a96d6c02f860e337643cd728536f1fa96" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4618.thefirstbusinessdayofthecalendarmonth</definition>
+        <argsstring></argsstring>
+        <name>thefirstbusinessdayofthecalendarmonth</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4618.thefirstbusinessdayofthecalendarmonth</qualifiedname>
+        <initializer>= &quot;the first business day of the calendar month&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3551" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3551" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4618</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>thebusinessday</edgelabel>
+          <edgelabel>theday</edgelabel>
+          <edgelabel>thefirstbusinessdayofthecalendarmonth</edgelabel>
+          <edgelabel>thefirstdayofthecalendarmonth</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3546" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3547" bodyend="3552"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1a28c163d360795755e71238419f221dbd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4618</scope><name>thebusinessday</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1abd2b3ff0a1b8ed7a86e97eac52611325" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4618</scope><name>theday</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1a96d6c02f860e337643cd728536f1fa96" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4618</scope><name>thefirstbusinessdayofthecalendarmonth</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4618_1ad759ab45bb5cbf23d68fa91b976add59" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4618</scope><name>thefirstdayofthecalendarmonth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

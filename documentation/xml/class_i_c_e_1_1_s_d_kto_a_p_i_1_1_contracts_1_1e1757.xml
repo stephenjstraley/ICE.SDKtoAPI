@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1757</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1a9ee37d68b9c5b5c06999b9a82ed0710c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1757.LoanAmount</definition>
+        <argsstring></argsstring>
+        <name>LoanAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1757.LoanAmount</qualifiedname>
+        <initializer>= &quot;Loan Amount&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1381" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1a7405bb9211d8a2adaa4efc8738fd7b72" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1757.PurchasePrice</definition>
+        <argsstring></argsstring>
+        <name>PurchasePrice</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1757.PurchasePrice</qualifiedname>
+        <initializer>= &quot;Purchase Price&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1382" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1abc03e1d1ceabf4843d4a2e20d0ae41be" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1757.AppraisalValue</definition>
+        <argsstring></argsstring>
+        <name>AppraisalValue</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1757.AppraisalValue</qualifiedname>
+        <initializer>= &quot;Appraisal Value&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1383" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1a3919da7dad63afe82915bb0a24e30f08" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1757.BaseLoanAmount</definition>
+        <argsstring></argsstring>
+        <name>BaseLoanAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1757.BaseLoanAmount</qualifiedname>
+        <initializer>= &quot;Base Loan Amount&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1384" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1384" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1757</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AppraisalValue</edgelabel>
+          <edgelabel>BaseLoanAmount</edgelabel>
+          <edgelabel>LoanAmount</edgelabel>
+          <edgelabel>PurchasePrice</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1379" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1380" bodyend="1385"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1abc03e1d1ceabf4843d4a2e20d0ae41be" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1757</scope><name>AppraisalValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1a3919da7dad63afe82915bb0a24e30f08" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1757</scope><name>BaseLoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1a9ee37d68b9c5b5c06999b9a82ed0710c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1757</scope><name>LoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1757_1a7405bb9211d8a2adaa4efc8738fd7b72" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1757</scope><name>PurchasePrice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eMAX23K_X73</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73_1a488c77b61371974015e50dd347aaf925" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eMAX23K_X73.PayNetInterest</definition>
+        <argsstring></argsstring>
+        <name>PayNetInterest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eMAX23K_X73.PayNetInterest</qualifiedname>
+        <initializer>= &quot;PayNetInterest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14449" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73_1a52f3efa1a2e3b018887b88c6c285594d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eMAX23K_X73.ApplyNetInterest</definition>
+        <argsstring></argsstring>
+        <name>ApplyNetInterest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eMAX23K_X73.ApplyNetInterest</qualifiedname>
+        <initializer>= &quot;ApplyNetInterest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14450" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73_1afe9ed4049413aadfc93466213f9a190d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eMAX23K_X73.Other</definition>
+        <argsstring></argsstring>
+        <name>Other</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eMAX23K_X73.Other</qualifiedname>
+        <initializer>= &quot;Other&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14451" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14451" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eMAX23K_X73</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ApplyNetInterest</edgelabel>
+          <edgelabel>Other</edgelabel>
+          <edgelabel>PayNetInterest</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14447" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14448" bodyend="14452"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73_1a52f3efa1a2e3b018887b88c6c285594d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eMAX23K_X73</scope><name>ApplyNetInterest</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73_1afe9ed4049413aadfc93466213f9a190d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eMAX23K_X73</scope><name>Other</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x73_1a488c77b61371974015e50dd347aaf925" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eMAX23K_X73</scope><name>PayNetInterest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

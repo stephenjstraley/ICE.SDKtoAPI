@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x250" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X250</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x250_1a7700d2388f9b34833896126c82806dbe" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X250.Uponsubmissionofthisapplication</definition>
+        <argsstring></argsstring>
+        <name>Uponsubmissionofthisapplication</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X250.Uponsubmissionofthisapplication</qualifiedname>
+        <initializer>= &quot;Upon submission of this application&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10458" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x250_1a90ab598b0ed39a7131e05415c4d7364a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X250.Attheendoffive5dayperiodfollowingthedateofreceiptofthisMDapplicationdisclosure</definition>
+        <argsstring></argsstring>
+        <name>Attheendoffive5dayperiodfollowingthedateofreceiptofthisMDapplicationdisclosure</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X250.Attheendoffive5dayperiodfollowingthedateofreceiptofthisMDapplicationdisclosure</qualifiedname>
+        <initializer>= &quot;At the end of five (5) day period following the date of receipt of this MD application disclosure&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10459" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10459" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X250</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x250"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Attheendoffive5dayperiodfollowingthedateofreceiptofthisMDapplicationdisclosure</edgelabel>
+          <edgelabel>Uponsubmissionofthisapplication</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10456" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10457" bodyend="10460"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x250_1a90ab598b0ed39a7131e05415c4d7364a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X250</scope><name>Attheendoffive5dayperiodfollowingthedateofreceiptofthisMDapplicationdisclosure</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x250_1a7700d2388f9b34833896126c82806dbe" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X250</scope><name>Uponsubmissionofthisapplication</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

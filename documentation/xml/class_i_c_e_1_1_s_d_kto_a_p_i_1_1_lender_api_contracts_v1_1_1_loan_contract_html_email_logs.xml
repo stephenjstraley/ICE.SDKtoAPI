@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a7596166722c3b62b79b1ccd21d158183" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_alerts" kindref="compound">LoanContractAlerts</ref> &gt;</type>
+        <definition>List&lt;LoanContractAlerts&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Alerts</definition>
+        <argsstring></argsstring>
+        <name>Alerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Alerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="11" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1af6f19eb22847192099761c5d0ba59659" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="14" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1aef05215ceda6a6dcc88df8f1148d1bec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_log_record_comment_list" kindref="compound">LoanContractLogRecordCommentList</ref> &gt;</type>
+        <definition>List&lt;LoanContractLogRecordCommentList&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.CommentList</definition>
+        <argsstring></argsstring>
+        <name>CommentList</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.CommentList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="17" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1aa467771dc2b5ba6314b8ac2f2b106a55" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="20" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a900adcf6bebdb22eb409d01cb0eb0a3f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Creator</definition>
+        <argsstring></argsstring>
+        <name>Creator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Creator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="23" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a5a9ad94a2f586a171bf1e20d52b56986" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.DateUtc</definition>
+        <argsstring></argsstring>
+        <name>DateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.DateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="26" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a9f007f612751a37c3a2409573c7f452b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="29" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a7d9cea5db080907125ec10426488282c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_doc_list" kindref="compound">LoanContractDocList</ref> &gt;</type>
+        <definition>List&lt;LoanContractDocList&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.DocList</definition>
+        <argsstring></argsstring>
+        <name>DocList</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.DocList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="32" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1abfeadb4ca59a5105890e8b4fdac3d2f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.FileAttachmentsMigrated</definition>
+        <argsstring></argsstring>
+        <name>FileAttachmentsMigrated</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.FileAttachmentsMigrated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="35" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ad2c1f96aaacc14b8da6237187273ef93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Guid</definition>
+        <argsstring></argsstring>
+        <name>Guid</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Guid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="38" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ad8fbf67603c0632bbe2b0b586755ffb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="41" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ade5d8e397b17034e0e3f9117c4e5714a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.IsSystemSpecificIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsSystemSpecificIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.IsSystemSpecificIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="44" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ac517c975dbf3468a4460ff02f0881744" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.LogRecordIndex</definition>
+        <argsstring></argsstring>
+        <name>LogRecordIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.LogRecordIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="47" column="12" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a2af29f12703984c9ac3a2f1617cc4e54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.ReadReceipt</definition>
+        <argsstring></argsstring>
+        <name>ReadReceipt</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.ReadReceipt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="50" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ad1d9f1d1f4fb9a0913eea86069016705" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Recipient</definition>
+        <argsstring></argsstring>
+        <name>Recipient</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Recipient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="53" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a561a147555624d4fc6b05c20108c0c32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Sender</definition>
+        <argsstring></argsstring>
+        <name>Sender</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Sender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="56" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a8b83e63d00e71832a1f17916409f5411" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Subject</definition>
+        <argsstring></argsstring>
+        <name>Subject</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.Subject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="59" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a7f41c6bdb732d4cba6cf1347763c5359" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.SystemId</definition>
+        <argsstring></argsstring>
+        <name>SystemId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.SystemId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="62" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ab64b2ad6e5aaa7d4f7640117e6a81554" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.UpdatedDateUtc</definition>
+        <argsstring></argsstring>
+        <name>UpdatedDateUtc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractHtmlEmailLogs.UpdatedDateUtc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="65" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" line="8" column="7" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractHtmlEmailLogs.cs" bodystart="9" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a7596166722c3b62b79b1ccd21d158183" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Alerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1af6f19eb22847192099761c5d0ba59659" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Body</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1aef05215ceda6a6dcc88df8f1148d1bec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>CommentList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1aa467771dc2b5ba6314b8ac2f2b106a55" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a900adcf6bebdb22eb409d01cb0eb0a3f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Creator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a5a9ad94a2f586a171bf1e20d52b56986" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>DateUtc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a9f007f612751a37c3a2409573c7f452b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a7d9cea5db080907125ec10426488282c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>DocList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1abfeadb4ca59a5105890e8b4fdac3d2f9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>FileAttachmentsMigrated</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ad2c1f96aaacc14b8da6237187273ef93" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Guid</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ad8fbf67603c0632bbe2b0b586755ffb0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ade5d8e397b17034e0e3f9117c4e5714a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>IsSystemSpecificIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ac517c975dbf3468a4460ff02f0881744" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>LogRecordIndex</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a2af29f12703984c9ac3a2f1617cc4e54" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>ReadReceipt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ad1d9f1d1f4fb9a0913eea86069016705" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Recipient</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a561a147555624d4fc6b05c20108c0c32" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Sender</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a8b83e63d00e71832a1f17916409f5411" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>Subject</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1a7f41c6bdb732d4cba6cf1347763c5359" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>SystemId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_html_email_logs_1ab64b2ad6e5aaa7d4f7640117e6a81554" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractHtmlEmailLogs</scope><name>UpdatedDateUtc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

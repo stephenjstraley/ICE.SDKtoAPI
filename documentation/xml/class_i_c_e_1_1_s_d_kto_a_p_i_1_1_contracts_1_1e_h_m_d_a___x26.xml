@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eHMDA_X26</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1ad0d82973f94ecfc9a92fabb88acd36b6" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X26.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X26.Empty</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12837" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1a90e3c0b5f3522fda630745e0d83f76d6" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X26.QM</definition>
+        <argsstring></argsstring>
+        <name>QM</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X26.QM</qualifiedname>
+        <initializer>= &quot;QM&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12838" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1abd0986cfe3254d576f92ef12c7134599" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X26.NonQM</definition>
+        <argsstring></argsstring>
+        <name>NonQM</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X26.NonQM</qualifiedname>
+        <initializer>= &quot;Non-<ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1a90e3c0b5f3522fda630745e0d83f76d6" kindref="member">QM</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12839" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1aeb3b0ccebe92ad6fe8dd0ea857e987f4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X26.Exempt</definition>
+        <argsstring></argsstring>
+        <name>Exempt</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X26.Exempt</qualifiedname>
+        <initializer>= &quot;Exempt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12840" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12840" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eHMDA_X26</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Empty</edgelabel>
+          <edgelabel>Exempt</edgelabel>
+          <edgelabel>NonQM</edgelabel>
+          <edgelabel>QM</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12835" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12836" bodyend="12841"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1ad0d82973f94ecfc9a92fabb88acd36b6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X26</scope><name>Empty</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1aeb3b0ccebe92ad6fe8dd0ea857e987f4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X26</scope><name>Exempt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1abd0986cfe3254d576f92ef12c7134599" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X26</scope><name>NonQM</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x26_1a90e3c0b5f3522fda630745e0d83f76d6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X26</scope><name>QM</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

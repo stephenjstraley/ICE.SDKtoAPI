@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_X198</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1a6926c7d055a8c296514b42f5edd8d7f4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X198.Equifax</definition>
+        <argsstring></argsstring>
+        <name>Equifax</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X198.Equifax</qualifiedname>
+        <initializer>= &quot;Equifax&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30273" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1ae994d85c1b1d8cc544c143e09b107141" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X198.Experian</definition>
+        <argsstring></argsstring>
+        <name>Experian</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X198.Experian</qualifiedname>
+        <initializer>= &quot;Experian&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30274" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1a1a6ba8d7eaa496efb80d6b744fca217c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X198.TransUnion</definition>
+        <argsstring></argsstring>
+        <name>TransUnion</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X198.TransUnion</qualifiedname>
+        <initializer>= &quot;TransUnion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30275" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1a62889a6362ca866927e8df7fc337e647" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X198.MergedData</definition>
+        <argsstring></argsstring>
+        <name>MergedData</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X198.MergedData</qualifiedname>
+        <initializer>= &quot;MergedData&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30276" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30276" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_X198</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Equifax</edgelabel>
+          <edgelabel>Experian</edgelabel>
+          <edgelabel>MergedData</edgelabel>
+          <edgelabel>TransUnion</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30271" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30272" bodyend="30277"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1a6926c7d055a8c296514b42f5edd8d7f4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X198</scope><name>Equifax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1ae994d85c1b1d8cc544c143e09b107141" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X198</scope><name>Experian</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1a62889a6362ca866927e8df7fc337e647" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X198</scope><name>MergedData</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x198_1a1a6ba8d7eaa496efb80d6b744fca217c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X198</scope><name>TransUnion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

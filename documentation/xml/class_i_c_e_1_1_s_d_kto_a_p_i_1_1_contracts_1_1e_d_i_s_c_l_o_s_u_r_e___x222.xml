@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x222" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X222</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x222_1acd5c0d5106b615b50b631e63c0d75c52" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X222.LenderAgree</definition>
+        <argsstring></argsstring>
+        <name>LenderAgree</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X222.LenderAgree</qualifiedname>
+        <initializer>= &quot;LenderAgree&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10428" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x222_1ace0ce9a11aef6ba9bfd443dcc9d18f4e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X222.BrokerAgree</definition>
+        <argsstring></argsstring>
+        <name>BrokerAgree</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X222.BrokerAgree</qualifiedname>
+        <initializer>= &quot;BrokerAgree&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10429" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10429" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X222</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x222"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BrokerAgree</edgelabel>
+          <edgelabel>LenderAgree</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10426" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10427" bodyend="10430"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x222_1ace0ce9a11aef6ba9bfd443dcc9d18f4e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X222</scope><name>BrokerAgree</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x222_1acd5c0d5106b615b50b631e63c0d75c52" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X222</scope><name>LenderAgree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

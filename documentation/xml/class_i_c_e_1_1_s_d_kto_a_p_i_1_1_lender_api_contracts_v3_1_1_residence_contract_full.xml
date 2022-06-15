@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.ResidenceContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_full_1a78780e7fb2b464766ba29654dcd69b75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.ResidenceContractFull.NoLinkToDocTrackIndicator</definition>
+        <argsstring></argsstring>
+        <name>NoLinkToDocTrackIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ResidenceContractFull.NoLinkToDocTrackIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ResidenceContract.cs" line="130" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ResidenceContract.cs" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_full_1a66ee92f4d8912152a4e25bce8cf88d9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ResidenceContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ResidenceContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ResidenceContract.cs" line="133" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ResidenceContract.cs" bodystart="133" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.ResidenceContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ResidenceContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.ResidenceContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ResidenceContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ResidenceContract.cs" line="127" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ResidenceContract.cs" bodystart="128" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a656ebb78e32231f45f03768713f801e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AccountName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a4ebf7213c66a4143d819be412a2a576b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AddressCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1adde7f401c10d1943d7b44a314f5472b5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AddressCounty</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1aa0b2616436d90229858a6109a61f058f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AddressPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a4988fa77a564457e4159d194ed298c0b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AddressState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a8ba762d0d82c71079fb4ba82ffe8a3ed" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AddressStreetLine1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1aa236a3d270b674a4d368ee4087159ed1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AddressUnitDesignatorType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1ac413764c86569b1f5e3d684d35178839" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AddressUnitIdentifier</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_full_1a66ee92f4d8912152a4e25bce8cf88d9f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1ad5b9aff49257eca0620734ef36678345" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>Country</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a1bf1120e57a0174bfc954d4a38654913" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>CountryCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a004d70752447257396018dd725dec687" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>County</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a35f4b08359b6f39841539c6fbb0f379f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>DoesNotApplyIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1accfdad5248b649952376106beb763226" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>DurationTermMonths</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1aa54fb764beeb9b2695950dba754dbf71" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>DurationTermYears</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1af7073758577e4f03f762c18deb094173" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>ForeignAddressIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1af2f4d14c4e9c903e2d686520d60673d2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1af851e8e5fea4c271fd3dfd3a3a7688cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordAttention</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a5f0bca0f4e41f8ae6e03e4908e948f33" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a3226fd2fd4522c697ae9884c6478f093" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordComments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1ade95bf1f54f8e0f9270c55cde8aed722" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordCountry</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a0e1ffc065dde2912d073d7f87a19941c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1aa13084c660e52e97f99638a7dfad1ce2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordForeignAddressIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a5f118b9fa44f9139f6c43d0b64b5607e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a1ccc9fb071b9607891ef080614e3d768" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordPhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a5749d281f59644daad5744b364be74a2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a6ac730a5a63ae8d77db02fa23e77051c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a0a093ab44c3446edad815f679df9d7ef" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>LandlordStreet</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_full_1a78780e7fb2b464766ba29654dcd69b75" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>NoLinkToDocTrackIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1ace9b1cd193064a26ccd78902f279f171" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>PrintAttachmentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a769d43bebef8594805063da76fdbf2ef" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1ab86a91602e7c7c240eb3cc3fdb06dbc5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>PrintUserNameIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a8804886e9ceb5b17b742cfdb2be5db09" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>Rent</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1aaaa7f3f348b47e37bd68304a8ed99f18" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>RequestDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1ac31854fa2022a3b4777c493d51ff8d2d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>ResidencyBasisType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1ad7af0d197028fe5e7aecfce01b19bbc9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>ResidencyType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a6834cb9d2c8620616d7a46e56db40703" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1aa35c9baeaf184592f7a8e97b5fea5f87" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a1bcbba9feebb6df731734e7c236332c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>TitlePhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_residence_contract_1a79566a9a93505cb810ca1f94dd9e1fdc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ResidenceContractFull</scope><name>Urla2020StreetAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a49a0b8c1421e9537454ce926dc270a7b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ApplicationMsword</definition>
+        <argsstring></argsstring>
+        <name>ApplicationMsword</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ApplicationMsword</qualifiedname>
+        <initializer>= &quot;application/msword&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="23" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a5287c48c2eb919456f9cc3fd91ed759b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ApplicationPdf</definition>
+        <argsstring></argsstring>
+        <name>ApplicationPdf</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ApplicationPdf</qualifiedname>
+        <initializer>= &quot;application/pdf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="24" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1af5bc78c9cadf5aa31a37c0ac8b6b7f30" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ApplicationOpenXml</definition>
+        <argsstring></argsstring>
+        <name>ApplicationOpenXml</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ApplicationOpenXml</qualifiedname>
+        <initializer>= &quot;application/vnd.openxmlformats-officedocument.wordprocessingml.document&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="25" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a6295a78645a1686e916b60ffe3fb24e1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ImageJpeg</definition>
+        <argsstring></argsstring>
+        <name>ImageJpeg</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ImageJpeg</qualifiedname>
+        <initializer>= &quot;image/jpeg&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="26" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a69e985c0c1e763eb025c63d87e339c95" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ImagePng</definition>
+        <argsstring></argsstring>
+        <name>ImagePng</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ImagePng</qualifiedname>
+        <initializer>= &quot;image/png&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="27" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a405055a42fe8baf96987426fba12e5a1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ImageTiff</definition>
+        <argsstring></argsstring>
+        <name>ImageTiff</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.ImageTiff</qualifiedname>
+        <initializer>= &quot;image/tiff&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="28" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a62481069c6834207fe5a29e1ec7baead" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.TextHtml</definition>
+        <argsstring></argsstring>
+        <name>TextHtml</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.TextHtml</qualifiedname>
+        <initializer>= &quot;text/html&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="29" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a84bb15e4a050af58dde161eab76862ce" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.TextPlain</definition>
+        <argsstring></argsstring>
+        <name>TextPlain</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia.TextPlain</qualifiedname>
+        <initializer>= &quot;text/plain&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="30" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.FileAttachmentContentTypeMedia</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ApplicationMsword</edgelabel>
+          <edgelabel>ApplicationOpenXml</edgelabel>
+          <edgelabel>ApplicationPdf</edgelabel>
+          <edgelabel>ImageJpeg</edgelabel>
+          <edgelabel>ImagePng</edgelabel>
+          <edgelabel>ImageTiff</edgelabel>
+          <edgelabel>TextHtml</edgelabel>
+          <edgelabel>TextPlain</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="21" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="22" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a49a0b8c1421e9537454ce926dc270a7b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>ApplicationMsword</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1af5bc78c9cadf5aa31a37c0ac8b6b7f30" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>ApplicationOpenXml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a5287c48c2eb919456f9cc3fd91ed759b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>ApplicationPdf</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a6295a78645a1686e916b60ffe3fb24e1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>ImageJpeg</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a69e985c0c1e763eb025c63d87e339c95" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>ImagePng</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a405055a42fe8baf96987426fba12e5a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>ImageTiff</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a62481069c6834207fe5a29e1ec7baead" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>TextHtml</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_content_type_media_1a84bb15e4a050af58dde161eab76862ce" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentContentTypeMedia</scope><name>TextPlain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

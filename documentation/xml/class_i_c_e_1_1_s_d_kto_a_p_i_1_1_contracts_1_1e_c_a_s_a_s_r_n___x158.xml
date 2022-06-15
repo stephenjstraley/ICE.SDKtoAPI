@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eCASASRN_X158</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158_1ab911c2030788e41fc936bd919ef9b04c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X158.BorrowerPaid</definition>
+        <argsstring></argsstring>
+        <name>BorrowerPaid</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X158.BorrowerPaid</qualifiedname>
+        <initializer>= &quot;Borrower Paid&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4480" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158_1a52cdaa223bad84bc0b8dee801f90c099" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X158.LenderPaid</definition>
+        <argsstring></argsstring>
+        <name>LenderPaid</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X158.LenderPaid</qualifiedname>
+        <initializer>= &quot;Lender Paid&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4481" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158_1a40e9e8f651bd1156a13ec09aef556220" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X158.LenderPaidOption2</definition>
+        <argsstring></argsstring>
+        <name>LenderPaidOption2</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X158.LenderPaidOption2</qualifiedname>
+        <initializer>= &quot;Lender Paid Option 2&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4482" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4482" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eCASASRN_X158</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BorrowerPaid</edgelabel>
+          <edgelabel>LenderPaid</edgelabel>
+          <edgelabel>LenderPaidOption2</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4478" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4479" bodyend="4483"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158_1ab911c2030788e41fc936bd919ef9b04c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X158</scope><name>BorrowerPaid</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158_1a52cdaa223bad84bc0b8dee801f90c099" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X158</scope><name>LenderPaid</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x158_1a40e9e8f651bd1156a13ec09aef556220" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X158</scope><name>LenderPaidOption2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.OtherIncomeSourceContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_full_1a3ca4352d2d021f7da0d47c91c240caab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.OtherIncomeSourceContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.OtherIncomeSourceContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherIncomeSourceContract.cs" line="76" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherIncomeSourceContract.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.OtherIncomeSourceContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OtherIncomeSourceContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.OtherIncomeSourceContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OtherIncomeSourceContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherIncomeSourceContract.cs" line="73" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/OtherIncomeSourceContract.cs" bodystart="74" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_full_1a3ca4352d2d021f7da0d47c91c240caab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1aa60701eaf0596f11e1024d18fbca7de0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>Attention</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a15961b01fcd9a894d5a1ad514c2fc009" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1ad8611dc222c85463e9253b08564c9874" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>ForeignIncomeIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1ac02bb937cdf77e1bef7680460c0ee2dd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>HolderAddressCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1aedb845b97339ae2a744192fca82cea0b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>HolderAddressPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a991818dc386ae6e859d1c32075315acb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>HolderAddressState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a097955410f6e4b3b3d8f8fc74ef24421" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>HolderAddressStreetLine1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a22b983dbd70e1c98cd1cd3844f2f8b73" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>HolderFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a6e990968ed1d3d45d2dc0e011ec9badb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>HolderName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a14c505242666f0175796a7e8d3a08e51" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>HolderPhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1afa04a5ae7f9eb7b1f34eaca2bc6869b4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a2e34d3155f6875296d77bf7ca038328a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>MonthlyAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a77400051042f0f2f6d70ee9fb272953a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>OtherDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a21f1313703ef234cf63ae5d3aec63b97" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>OtherIncomeSourceDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1aa440e199b63badab008d446c3a96ef96" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>Owner</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a4ae6a5f8c4297322f0daf96a8aa6ad8c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>PrintAttachmentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a8bc8671e0712d72e7e82211022239311" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a178f20e49ffa4dd972f28952e740d378" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>SeasonalIncomeIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1a1e7bfeead2214c22dd0e18c40da17c68" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_other_income_source_contract_1ab9012efd2f583933b06d2eab897433a6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::OtherIncomeSourceContractFull</scope><name>TitlePhone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

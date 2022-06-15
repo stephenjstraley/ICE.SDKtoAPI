@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eQM_X105</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1a7a12bf31781cb640d50f332a1cc519ba" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X105.CommunityDevelopmentFinancialInstitution</definition>
+        <argsstring></argsstring>
+        <name>CommunityDevelopmentFinancialInstitution</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X105.CommunityDevelopmentFinancialInstitution</qualifiedname>
+        <initializer>= &quot;Community Development Financial Institution&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25283" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1ab0b1c05d1f0c53b770eec6e8be3343fc" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X105.CommunityHousingDevelopmentOrganization</definition>
+        <argsstring></argsstring>
+        <name>CommunityHousingDevelopmentOrganization</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X105.CommunityHousingDevelopmentOrganization</qualifiedname>
+        <initializer>= &quot;Community Housing Development Organization&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25284" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1a5f19b51f204a68e58dbe7b0c7de5a46d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X105.DownpaymentAssistanceProvider</definition>
+        <argsstring></argsstring>
+        <name>DownpaymentAssistanceProvider</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X105.DownpaymentAssistanceProvider</qualifiedname>
+        <initializer>= &quot;Downpayment Assistance Provider&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25285" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1ae74747fe20564bc82eba9dc2a40b022c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X105.NonprofitOrganization</definition>
+        <argsstring></argsstring>
+        <name>NonprofitOrganization</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X105.NonprofitOrganization</qualifiedname>
+        <initializer>= &quot;Nonprofit Organization&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25286" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25286" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eQM_X105</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CommunityDevelopmentFinancialInstitution</edgelabel>
+          <edgelabel>CommunityHousingDevelopmentOrganization</edgelabel>
+          <edgelabel>DownpaymentAssistanceProvider</edgelabel>
+          <edgelabel>NonprofitOrganization</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25281" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25282" bodyend="25287"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1a7a12bf31781cb640d50f332a1cc519ba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X105</scope><name>CommunityDevelopmentFinancialInstitution</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1ab0b1c05d1f0c53b770eec6e8be3343fc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X105</scope><name>CommunityHousingDevelopmentOrganization</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1a5f19b51f204a68e58dbe7b0c7de5a46d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X105</scope><name>DownpaymentAssistanceProvider</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x105_1ae74747fe20564bc82eba9dc2a40b022c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X105</scope><name>NonprofitOrganization</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

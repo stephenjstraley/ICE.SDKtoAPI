@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4531" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4531</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4531_1a0ca22101e8d29aa14e8f46e19564ca7c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4531.FractionofBalance</definition>
+        <argsstring></argsstring>
+        <name>FractionofBalance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4531.FractionofBalance</qualifiedname>
+        <initializer>= &quot;Fraction of Balance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3387" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3387" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4531_1a848152b0d32b755913a61f1b3f79b0d0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4531.PercentageofBalance</definition>
+        <argsstring></argsstring>
+        <name>PercentageofBalance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4531.PercentageofBalance</qualifiedname>
+        <initializer>= &quot;Percentage of Balance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3388" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3388" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4531</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4531"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>FractionofBalance</edgelabel>
+          <edgelabel>PercentageofBalance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3385" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3386" bodyend="3389"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4531_1a0ca22101e8d29aa14e8f46e19564ca7c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4531</scope><name>FractionofBalance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4531_1a848152b0d32b755913a61f1b3f79b0d0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4531</scope><name>PercentageofBalance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

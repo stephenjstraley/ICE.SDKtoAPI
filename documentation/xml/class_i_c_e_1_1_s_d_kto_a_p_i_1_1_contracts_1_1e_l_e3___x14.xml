@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x14" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eLE3_X14</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x14_1a01aa1814b9eea3df341aeda671003208" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE3_X14.serviceyourloanIfsoyouwillmakeyourpaymentstous</definition>
+        <argsstring></argsstring>
+        <name>serviceyourloanIfsoyouwillmakeyourpaymentstous</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE3_X14.serviceyourloanIfsoyouwillmakeyourpaymentstous</qualifiedname>
+        <initializer>= &quot;service your loan. If so, you will make your payments to us.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14307" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x14_1a4bb01cc19a684aa184ddc670d30f4bac" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE3_X14.transferservicingofyourloan</definition>
+        <argsstring></argsstring>
+        <name>transferservicingofyourloan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE3_X14.transferservicingofyourloan</qualifiedname>
+        <initializer>= &quot;transfer servicing of your loan.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14308" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14308" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eLE3_X14</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x14"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>serviceyourloanIfsoyouwillmakeyourpaymentstous</edgelabel>
+          <edgelabel>transferservicingofyourloan</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14305" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14306" bodyend="14309"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x14_1a01aa1814b9eea3df341aeda671003208" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE3_X14</scope><name>serviceyourloanIfsoyouwillmakeyourpaymentstous</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x14_1a4bb01cc19a684aa184ddc670d30f4bac" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE3_X14</scope><name>transferservicingofyourloan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

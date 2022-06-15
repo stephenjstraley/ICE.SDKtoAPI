@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x98" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eLE1_X98</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x98_1a19566ec30fb46a794caab4e94a017010" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE1_X98.Year</definition>
+        <argsstring></argsstring>
+        <name>Year</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE1_X98.Year</qualifiedname>
+        <initializer>= &quot;Year&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14181" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x98_1afc15b5177d0cb37d539b09c48511ef33" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE1_X98.Month</definition>
+        <argsstring></argsstring>
+        <name>Month</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE1_X98.Month</qualifiedname>
+        <initializer>= &quot;Month&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14182" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14182" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eLE1_X98</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x98"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Month</edgelabel>
+          <edgelabel>Year</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14179" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14180" bodyend="14183"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x98_1afc15b5177d0cb37d539b09c48511ef33" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE1_X98</scope><name>Month</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x98_1a19566ec30fb46a794caab4e94a017010" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE1_X98</scope><name>Year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

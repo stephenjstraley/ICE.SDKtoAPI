@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x150" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_X150</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x150_1ab390be2f94afd1d1fa88935b9969e17a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X150.Individual</definition>
+        <argsstring></argsstring>
+        <name>Individual</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X150.Individual</qualifiedname>
+        <initializer>= &quot;Individual&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30168" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x150_1a0c7e7970c372d6f32e13a42bf7d23299" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X150.LegalEntity</definition>
+        <argsstring></argsstring>
+        <name>LegalEntity</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X150.LegalEntity</qualifiedname>
+        <initializer>= &quot;Legal Entity&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30169" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_X150</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x150"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Individual</edgelabel>
+          <edgelabel>LegalEntity</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30166" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30167" bodyend="30170"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x150_1ab390be2f94afd1d1fa88935b9969e17a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X150</scope><name>Individual</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x150_1a0c7e7970c372d6f32e13a42bf7d23299" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X150</scope><name>LegalEntity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

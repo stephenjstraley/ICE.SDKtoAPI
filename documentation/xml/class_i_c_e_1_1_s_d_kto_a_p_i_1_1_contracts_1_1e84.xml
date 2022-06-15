@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e84</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84_1a6d11bf4c1ae35dd4b958585aa0e4ddc1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e84.Married</definition>
+        <argsstring></argsstring>
+        <name>Married</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e84.Married</qualifiedname>
+        <initializer>= &quot;Married&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="96" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84_1a7fa067ecc11d87a218dedb8e8b2ab6a9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e84.Unmarried</definition>
+        <argsstring></argsstring>
+        <name>Unmarried</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e84.Unmarried</qualifiedname>
+        <initializer>= &quot;Unmarried&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="97" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84_1aa37f0083baa621c58be8fb9b96c141c7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e84.Separated</definition>
+        <argsstring></argsstring>
+        <name>Separated</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e84.Separated</qualifiedname>
+        <initializer>= &quot;Separated&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="98" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e84</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Married</edgelabel>
+          <edgelabel>Separated</edgelabel>
+          <edgelabel>Unmarried</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="94" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="95" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84_1a6d11bf4c1ae35dd4b958585aa0e4ddc1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e84</scope><name>Married</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84_1aa37f0083baa621c58be8fb9b96c141c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e84</scope><name>Separated</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e84_1a7fa067ecc11d87a218dedb8e8b2ab6a9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e84</scope><name>Unmarried</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

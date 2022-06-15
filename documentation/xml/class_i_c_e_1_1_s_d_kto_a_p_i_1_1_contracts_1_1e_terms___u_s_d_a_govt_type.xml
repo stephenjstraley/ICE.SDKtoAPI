@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_terms___u_s_d_a_govt_type" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eTerms_USDAGovtType</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_terms___u_s_d_a_govt_type_1a4251b164d495a8ec27605bf5eb41d1c8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTerms_USDAGovtType.VA</definition>
+        <argsstring></argsstring>
+        <name>VA</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTerms_USDAGovtType.VA</qualifiedname>
+        <initializer>= &quot;VA&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="28921" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="28921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_terms___u_s_d_a_govt_type_1ac78ff773b507f4a23ecd658c29ea666d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTerms_USDAGovtType.FHA</definition>
+        <argsstring></argsstring>
+        <name>FHA</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTerms_USDAGovtType.FHA</qualifiedname>
+        <initializer>= &quot;FHA&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="28922" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="28922" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eTerms_USDAGovtType</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_terms___u_s_d_a_govt_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>FHA</edgelabel>
+          <edgelabel>VA</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="28919" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="28920" bodyend="28923"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_terms___u_s_d_a_govt_type_1ac78ff773b507f4a23ecd658c29ea666d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTerms_USDAGovtType</scope><name>FHA</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_terms___u_s_d_a_govt_type_1a4251b164d495a8ec27605bf5eb41d1c8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTerms_USDAGovtType</scope><name>VA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eVAELIG_X30</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a2cf92a9b840f705e49a6d11a938b4cd2" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAELIG_X30.VAGuaranteedLoan</definition>
+        <argsstring></argsstring>
+        <name>VAGuaranteedLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAELIG_X30.VAGuaranteedLoan</qualifiedname>
+        <initializer>= &quot;VA-Guaranteed Loan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32074" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32074" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a5538740019689ae6abb79f2122027858" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAELIG_X30.OneTimeOnlyRestoration</definition>
+        <argsstring></argsstring>
+        <name>OneTimeOnlyRestoration</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAELIG_X30.OneTimeOnlyRestoration</qualifiedname>
+        <initializer>= &quot;One-Time Only Restoration&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32075" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32075" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a6a5574285e7e7611b8697f5992f02e70" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAELIG_X30.RegularCashOutRefinance</definition>
+        <argsstring></argsstring>
+        <name>RegularCashOutRefinance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAELIG_X30.RegularCashOutRefinance</qualifiedname>
+        <initializer>= &quot;Regular Cash-Out Refinance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32076" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32076" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a38dbce3ea864e9b9952b5dca9715af8c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAELIG_X30.RegularNoneCashOutRefinance</definition>
+        <argsstring></argsstring>
+        <name>RegularNoneCashOutRefinance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAELIG_X30.RegularNoneCashOutRefinance</qualifiedname>
+        <initializer>= &quot;Regular None Cash-Out Refinance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32077" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32077" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eVAELIG_X30</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>OneTimeOnlyRestoration</edgelabel>
+          <edgelabel>RegularCashOutRefinance</edgelabel>
+          <edgelabel>RegularNoneCashOutRefinance</edgelabel>
+          <edgelabel>VAGuaranteedLoan</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32072" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32073" bodyend="32078"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a5538740019689ae6abb79f2122027858" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAELIG_X30</scope><name>OneTimeOnlyRestoration</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a6a5574285e7e7611b8697f5992f02e70" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAELIG_X30</scope><name>RegularCashOutRefinance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a38dbce3ea864e9b9952b5dca9715af8c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAELIG_X30</scope><name>RegularNoneCashOutRefinance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_e_l_i_g___x30_1a2cf92a9b840f705e49a6d11a938b4cd2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAELIG_X30</scope><name>VAGuaranteedLoan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

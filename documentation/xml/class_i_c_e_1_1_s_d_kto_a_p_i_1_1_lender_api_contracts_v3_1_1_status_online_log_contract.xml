@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a3d15082f01dffbdd7a8ebf3acb427e4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="10" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1ac55ef300aef68ed0135b9e6f943e05a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_log_alert_contract" kindref="compound">LogAlertContract</ref> &gt;</type>
+        <definition>List&lt;LogAlertContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Alerts</definition>
+        <argsstring></argsstring>
+        <name>Alerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Alerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="13" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a2cc925d392bb33b1273b934c2f3621b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_log_comment_contract" kindref="compound">LogCommentContract</ref> &gt;</type>
+        <definition>List&lt;LogCommentContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.CommentList</definition>
+        <argsstring></argsstring>
+        <name>CommentList</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.CommentList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="16" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a9a25d9f82ae2e17501e0e16d1212e529" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="19" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a4f189b65bb2c3b0e467a39c1d7c6443c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Creator</definition>
+        <argsstring></argsstring>
+        <name>Creator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Creator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="22" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1ab5682338d6bfd03bb077127c8e7f565b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="25" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a80b9b6e0a757680697014ae310bfe45f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_event_contract" kindref="compound">StatusOnlineEventContract</ref> &gt;</type>
+        <definition>List&lt;StatusOnlineEventContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Events</definition>
+        <argsstring></argsstring>
+        <name>Events</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Events</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="28" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a72a6b6a4935113bb8c6535487774dd33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.StatusOnlineLogContract.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="31" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/StatusOnlineLogContract.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1ac55ef300aef68ed0135b9e6f943e05a9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>Alerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a2cc925d392bb33b1273b934c2f3621b2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>CommentList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a9a25d9f82ae2e17501e0e16d1212e529" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a4f189b65bb2c3b0e467a39c1d7c6443c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>Creator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1ab5682338d6bfd03bb077127c8e7f565b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>Date</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a72a6b6a4935113bb8c6535487774dd33" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a80b9b6e0a757680697014ae310bfe45f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>Events</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_status_online_log_contract_1a3d15082f01dffbdd7a8ebf3acb427e4b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::StatusOnlineLogContract</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

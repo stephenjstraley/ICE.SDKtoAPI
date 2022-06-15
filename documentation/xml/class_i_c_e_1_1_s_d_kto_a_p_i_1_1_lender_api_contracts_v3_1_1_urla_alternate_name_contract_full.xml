@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.UrlaAlternateNameContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_full_1af8ba2b5d9de7d0d9ececfaa6b1a04125" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.UrlaAlternateNameContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.UrlaAlternateNameContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/UrlaAlternateNameContract.cs" line="34" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/UrlaAlternateNameContract.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.UrlaAlternateNameContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UrlaAlternateNameContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.UrlaAlternateNameContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UrlaAlternateNameContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/UrlaAlternateNameContract.cs" line="31" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/UrlaAlternateNameContract.cs" bodystart="32" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_full_1af8ba2b5d9de7d0d9ececfaa6b1a04125" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_1afa62b43507badbfd435adaeea207e5ba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</scope><name>FirstName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_1a636911c7a3649cea03d422a26483d696" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</scope><name>FullName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_1af29602f893b63b21286acad2767d94d9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_1a2c3ff4780a6622aa580b562bbcd52f8b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</scope><name>LastName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_1a7f48fe5650017ae00d8cbb25333f7212" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</scope><name>MiddleName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_urla_alternate_name_contract_1a0d9de8f9ed6dc56df8f84b70fdd8b567" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::UrlaAlternateNameContractFull</scope><name>Suffix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

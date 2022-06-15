@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eLE1_X4</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1a70991f713c891e61726cb2071b1d0eb4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE1_X4.Purchase</definition>
+        <argsstring></argsstring>
+        <name>Purchase</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE1_X4.Purchase</qualifiedname>
+        <initializer>= &quot;Purchase&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14082" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14082" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1a817dd3a20ba028bca709e492de254c4e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE1_X4.Refinance</definition>
+        <argsstring></argsstring>
+        <name>Refinance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE1_X4.Refinance</qualifiedname>
+        <initializer>= &quot;Refinance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14083" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14083" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1aa915e15f2e78199ac4680abf94e3cb5c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE1_X4.Construction</definition>
+        <argsstring></argsstring>
+        <name>Construction</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE1_X4.Construction</qualifiedname>
+        <initializer>= &quot;Construction&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14084" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14084" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1a2ea8dad6a574acef31ac3bfa9338a079" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE1_X4.HomeEquityLoan</definition>
+        <argsstring></argsstring>
+        <name>HomeEquityLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE1_X4.HomeEquityLoan</qualifiedname>
+        <initializer>= &quot;Home Equity Loan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14085" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14085" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eLE1_X4</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Construction</edgelabel>
+          <edgelabel>HomeEquityLoan</edgelabel>
+          <edgelabel>Purchase</edgelabel>
+          <edgelabel>Refinance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14080" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14081" bodyend="14086"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1aa915e15f2e78199ac4680abf94e3cb5c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE1_X4</scope><name>Construction</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1a2ea8dad6a574acef31ac3bfa9338a079" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE1_X4</scope><name>HomeEquityLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1a70991f713c891e61726cb2071b1d0eb4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE1_X4</scope><name>Purchase</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e1___x4_1a817dd3a20ba028bca709e492de254c4e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE1_X4</scope><name>Refinance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

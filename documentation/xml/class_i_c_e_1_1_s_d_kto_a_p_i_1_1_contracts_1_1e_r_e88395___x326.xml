@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eRE88395_X326</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1ad251d0f2ab99c5976f0f3b590cc07586" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X326.FixedRateLoan</definition>
+        <argsstring></argsstring>
+        <name>FixedRateLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X326.FixedRateLoan</qualifiedname>
+        <initializer>= &quot;Fixed Rate Loan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25987" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1a74664c2f895cb73ab33831ed40fc1ad2" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X326.InitialFixedRateLoan</definition>
+        <argsstring></argsstring>
+        <name>InitialFixedRateLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X326.InitialFixedRateLoan</qualifiedname>
+        <initializer>= &quot;Initial Fixed Rate Loan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25988" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1a7361277033f700b6267c9c2c9625c90e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X326.AdjustableRateLoan</definition>
+        <argsstring></argsstring>
+        <name>AdjustableRateLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X326.AdjustableRateLoan</qualifiedname>
+        <initializer>= &quot;Adjustable Rate Loan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25989" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25989" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1a93fbc519f7db094ca6df722ee436adac" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X326.InitialAdjustableRateLoan</definition>
+        <argsstring></argsstring>
+        <name>InitialAdjustableRateLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X326.InitialAdjustableRateLoan</qualifiedname>
+        <initializer>= &quot;Initial Adjustable Rate Loan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25990" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25990" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eRE88395_X326</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AdjustableRateLoan</edgelabel>
+          <edgelabel>FixedRateLoan</edgelabel>
+          <edgelabel>InitialAdjustableRateLoan</edgelabel>
+          <edgelabel>InitialFixedRateLoan</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25985" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25986" bodyend="25991"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1a7361277033f700b6267c9c2c9625c90e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X326</scope><name>AdjustableRateLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1ad251d0f2ab99c5976f0f3b590cc07586" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X326</scope><name>FixedRateLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1a93fbc519f7db094ca6df722ee436adac" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X326</scope><name>InitialAdjustableRateLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x326_1a74664c2f895cb73ab33831ed40fc1ad2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X326</scope><name>InitialFixedRateLoan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

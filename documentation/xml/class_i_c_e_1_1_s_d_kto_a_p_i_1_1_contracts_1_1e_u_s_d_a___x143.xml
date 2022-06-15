@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eUSDA_X143</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a72e6640e99b92e41ec78a3388454aa33" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X143._1SingleVariable</definition>
+        <argsstring></argsstring>
+        <name>_1SingleVariable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X143._1SingleVariable</qualifiedname>
+        <initializer>= &quot;1 - Single Variable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31826" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a229dc59afd3e436f446ae7351723c208" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X143._2SingleFixed</definition>
+        <argsstring></argsstring>
+        <name>_2SingleFixed</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X143._2SingleFixed</qualifiedname>
+        <initializer>= &quot;2 - Single Fixed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31827" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a658561c2b48ab799c9a71f61eba64dd5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X143._3MultiVariable</definition>
+        <argsstring></argsstring>
+        <name>_3MultiVariable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X143._3MultiVariable</qualifiedname>
+        <initializer>= &quot;3 - Multi Variable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31828" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a77413e72d3f5d971d8d912243ca08424" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X143._4MultiFixed</definition>
+        <argsstring></argsstring>
+        <name>_4MultiFixed</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X143._4MultiFixed</qualifiedname>
+        <initializer>= &quot;4 - Multi Fixed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31829" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31829" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eUSDA_X143</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_1SingleVariable</edgelabel>
+          <edgelabel>_2SingleFixed</edgelabel>
+          <edgelabel>_3MultiVariable</edgelabel>
+          <edgelabel>_4MultiFixed</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31824" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31825" bodyend="31830"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a72e6640e99b92e41ec78a3388454aa33" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X143</scope><name>_1SingleVariable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a229dc59afd3e436f446ae7351723c208" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X143</scope><name>_2SingleFixed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a658561c2b48ab799c9a71f61eba64dd5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X143</scope><name>_3MultiVariable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x143_1a77413e72d3f5d971d8d912243ca08424" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X143</scope><name>_4MultiFixed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

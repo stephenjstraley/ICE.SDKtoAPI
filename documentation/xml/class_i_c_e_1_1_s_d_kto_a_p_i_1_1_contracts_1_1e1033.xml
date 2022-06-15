@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1033</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033_1a8967edc0ae0619c34713f5ccaead6b98" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1033._99Years</definition>
+        <argsstring></argsstring>
+        <name>_99Years</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1033._99Years</qualifiedname>
+        <initializer>= &quot;99 Years&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="871" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033_1a51439107e6180b7937edcf4e65cf0714" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1033.Renewable</definition>
+        <argsstring></argsstring>
+        <name>Renewable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1033.Renewable</qualifiedname>
+        <initializer>= &quot;Renewable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="872" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033_1a08fe3a80636bea051a8db87855c6086c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1033.HUDVAapproved</definition>
+        <argsstring></argsstring>
+        <name>HUDVAapproved</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1033.HUDVAapproved</qualifiedname>
+        <initializer>= &quot;HUD/VA approved&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="873" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="873" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1033</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>HUDVAapproved</edgelabel>
+          <edgelabel>Renewable</edgelabel>
+          <edgelabel>_99Years</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="869" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="870" bodyend="874"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033_1a8967edc0ae0619c34713f5ccaead6b98" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1033</scope><name>_99Years</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033_1a08fe3a80636bea051a8db87855c6086c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1033</scope><name>HUDVAapproved</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1033_1a51439107e6180b7937edcf4e65cf0714" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1033</scope><name>Renewable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

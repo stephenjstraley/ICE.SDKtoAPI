@@ -1,0 +1,795 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a4b3496337c248b9767321ebc106dae0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.AntiSteeringLoanOptionIndex</definition>
+        <argsstring></argsstring>
+        <name>AntiSteeringLoanOptionIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.AntiSteeringLoanOptionIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="9" column="12" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a61c3d98ed2a67a7f400af8d50859c0ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerCompensationFeeAmount</definition>
+        <argsstring></argsstring>
+        <name>BrokerCompensationFeeAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerCompensationFeeAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="12" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a7d92213dedf5f8b85da33cf963a9dd26" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerCompensationFeeBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>BrokerCompensationFeeBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerCompensationFeeBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="15" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a516ac88db3184e41408511bcd26b7968" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerCompensationFeePercentage</definition>
+        <argsstring></argsstring>
+        <name>BrokerCompensationFeePercentage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerCompensationFeePercentage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="18" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a513b7480e3aea1a351526841411727c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeeAmount</definition>
+        <argsstring></argsstring>
+        <name>BrokerFeeAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeeAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="21" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a41978df4b35f8868a9be20e32a5bd759" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeeBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>BrokerFeeBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeeBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="24" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a0c5bce7ffc5b5cffa5df21541dd1f6d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeePercentage</definition>
+        <argsstring></argsstring>
+        <name>BrokerFeePercentage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeePercentage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="27" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1abb579c0335fe61493995d939aaf76070" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeeSellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>BrokerFeeSellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.BrokerFeeSellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="30" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a7e10d177a814f6920f708efb748394dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.CreditorName</definition>
+        <argsstring></argsstring>
+        <name>CreditorName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.CreditorName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="33" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afd62ab932e556656d39fe9d15a27385d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountAdditionalAmount</definition>
+        <argsstring></argsstring>
+        <name>DiscountAdditionalAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountAdditionalAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="36" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a7cc0d8c5c2103264ffa5a452f4d64058" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountAmount</definition>
+        <argsstring></argsstring>
+        <name>DiscountAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="39" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a087b0d18ce40c1e9f1e4b90d520f84fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountFeeBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>DiscountFeeBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountFeeBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="42" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a5d634e2b81de9908d03f228440d53730" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountFeeSellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>DiscountFeeSellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountFeeSellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="45" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a782cf36d6890619cdf8d58a8ecbbe1a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountPercentage</definition>
+        <argsstring></argsstring>
+        <name>DiscountPercentage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountPercentage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="48" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a671feaffe1050dc2412a393a5e325907" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountPoints</definition>
+        <argsstring></argsstring>
+        <name>DiscountPoints</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.DiscountPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="51" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a8e6bae416235fc6dfd5e602d64196c0f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.FixedRatePeriod</definition>
+        <argsstring></argsstring>
+        <name>FixedRatePeriod</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.FixedRatePeriod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="54" column="12" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ad9631f01380d83e736114e1c7b549283" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.HaveDemandFeature</definition>
+        <argsstring></argsstring>
+        <name>HaveDemandFeature</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.HaveDemandFeature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="57" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a9fcc99a9b574a41b73bc1ffb348a80b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.HavePrepaymentPenalty</definition>
+        <argsstring></argsstring>
+        <name>HavePrepaymentPenalty</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.HavePrepaymentPenalty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="60" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a5022d094bbf542db48f5f211e7496475" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="63" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a4ed55664dd3af0b19283c9832149409f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.InspectionFeeBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>InspectionFeeBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.InspectionFeeBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="66" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2d50b3d96b1756068e99108982460f84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.InspectionFeeSellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>InspectionFeeSellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.InspectionFeeSellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="69" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2e9033af56f35d0d198d619cc92c6986" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.InterestRate</definition>
+        <argsstring></argsstring>
+        <name>InterestRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.InterestRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="72" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a4e2b6263827e7958be2e983162baac39" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.IsBalloonPaymentIn7Years</definition>
+        <argsstring></argsstring>
+        <name>IsBalloonPaymentIn7Years</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.IsBalloonPaymentIn7Years</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="75" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afee80ca0da6b885f74f4c7850ea607f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.IsInterestOnlyLoan</definition>
+        <argsstring></argsstring>
+        <name>IsInterestOnlyLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.IsInterestOnlyLoan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="78" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a26b574624b5976113281afd59b8bc671" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.IsNegativeAmortization</definition>
+        <argsstring></argsstring>
+        <name>IsNegativeAmortization</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.IsNegativeAmortization</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="81" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ab26b50c2d09b293cdf68d91d9875f12f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.LoanTerm</definition>
+        <argsstring></argsstring>
+        <name>LoanTerm</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.LoanTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="84" column="12" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a3b928d0a0675e4c26c47f5a77a94e470" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.LoanType</definition>
+        <argsstring></argsstring>
+        <name>LoanType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.LoanType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="87" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2e503144642cf451e51872135fe2c0b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationFeeBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>OriginationFeeBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationFeeBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="90" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1adcbad524036df800b0cfcc5c56bed923" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationFeePercentage</definition>
+        <argsstring></argsstring>
+        <name>OriginationFeePercentage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationFeePercentage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="93" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ab9a994fecbd5cd272b53bf967faa0bd1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationFeeSellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>OriginationFeeSellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationFeeSellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="96" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afaca889638dc0c6ef56bf2347496f7db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationPointsFees</definition>
+        <argsstring></argsstring>
+        <name>OriginationPointsFees</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationPointsFees</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="99" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a1630b863de82403e6e5f8627f629511d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationPointsPercetange</definition>
+        <argsstring></argsstring>
+        <name>OriginationPointsPercetange</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.OriginationPointsPercetange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="102" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1aa4cc5bc5c7ff86d0a9f1b9daf11c0c5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.ProcessingFeeBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>ProcessingFeeBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.ProcessingFeeBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="105" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ac471cbfd3bb0e2584f9795c94c1c90bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.ProcessingFeeSellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>ProcessingFeeSellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.ProcessingFeeSellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="108" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ad18461f41a9f741cf4cb3e8407e479af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.TotalOriginationDiscountAmount</definition>
+        <argsstring></argsstring>
+        <name>TotalOriginationDiscountAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.TotalOriginationDiscountAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="111" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ae4c55c6078193c2942e39ea380639ca6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UnderwritingFeeBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UnderwritingFeeBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UnderwritingFeeBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="114" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a59dfa87a26a2513b454c0761d5b9acc6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UnderwritingFeeSellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UnderwritingFeeSellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UnderwritingFeeSellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="117" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a1dd4ed3054cda95ed0475d6c8b3ea907" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee1BorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee1BorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee1BorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="120" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a9bd684cb1afb485f592c196e227aeca2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee1Description</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee1Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee1Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="123" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1aa5946c2daa665161afdb7bf8ebc928fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee1SellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee1SellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee1SellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="126" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afeb58adf204efa97dc4a1e869064937c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee2BorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee2BorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee2BorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="129" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1aba2b80846d016ac1cf0de26aca0b04e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee2Description</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee2Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee2Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="132" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a16fc5b7cc132c2a42d7effabef7f2735" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee2SellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee2SellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee2SellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="135" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a41b3811f6d81f147877739d821be397b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee3BorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee3BorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee3BorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="138" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a3d38294224e510add7ea747252f1fd5c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee3Description</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee3Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee3Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="141" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a8381e403540f69f53001deac3aae11ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee3SellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee3SellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee3SellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="144" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a321d0cc8108b055de80feec931899878" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee4BorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee4BorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee4BorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="147" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1af62e5e942700378c831d6208c83bf339" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee4Description</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee4Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee4Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="150" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a0837d42b7cf996f7b7cab1f5d559fa59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee4SellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee4SellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee4SellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="153" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2b8f0fe9ae10fdff502d56cb27c67e17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee5BorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee5BorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee5BorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="156" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a91d056b5ade468d99b97f253d8c8f56a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee5Description</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee5Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee5Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="159" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a9b292ea4715aa82f4dbaa159e85c2b07" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee5SellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedFee5SellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanContractClosingDocumentAntiSteeringLoanOptions.UserDefinedFee5SellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="162" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" line="6" column="7" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanContractClosingDocumentAntiSteeringLoanOptions.cs" bodystart="7" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a4b3496337c248b9767321ebc106dae0e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>AntiSteeringLoanOptionIndex</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a61c3d98ed2a67a7f400af8d50859c0ba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>BrokerCompensationFeeAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a7d92213dedf5f8b85da33cf963a9dd26" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>BrokerCompensationFeeBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a516ac88db3184e41408511bcd26b7968" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>BrokerCompensationFeePercentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a513b7480e3aea1a351526841411727c8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>BrokerFeeAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a41978df4b35f8868a9be20e32a5bd759" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>BrokerFeeBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a0c5bce7ffc5b5cffa5df21541dd1f6d5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>BrokerFeePercentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1abb579c0335fe61493995d939aaf76070" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>BrokerFeeSellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a7e10d177a814f6920f708efb748394dd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>CreditorName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afd62ab932e556656d39fe9d15a27385d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>DiscountAdditionalAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a7cc0d8c5c2103264ffa5a452f4d64058" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>DiscountAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a087b0d18ce40c1e9f1e4b90d520f84fa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>DiscountFeeBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a5d634e2b81de9908d03f228440d53730" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>DiscountFeeSellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a782cf36d6890619cdf8d58a8ecbbe1a8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>DiscountPercentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a671feaffe1050dc2412a393a5e325907" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>DiscountPoints</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a8e6bae416235fc6dfd5e602d64196c0f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>FixedRatePeriod</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ad9631f01380d83e736114e1c7b549283" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>HaveDemandFeature</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a9fcc99a9b574a41b73bc1ffb348a80b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>HavePrepaymentPenalty</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a5022d094bbf542db48f5f211e7496475" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a4ed55664dd3af0b19283c9832149409f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>InspectionFeeBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2d50b3d96b1756068e99108982460f84" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>InspectionFeeSellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2e9033af56f35d0d198d619cc92c6986" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>InterestRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a4e2b6263827e7958be2e983162baac39" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>IsBalloonPaymentIn7Years</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afee80ca0da6b885f74f4c7850ea607f6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>IsInterestOnlyLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a26b574624b5976113281afd59b8bc671" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>IsNegativeAmortization</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ab26b50c2d09b293cdf68d91d9875f12f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>LoanTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a3b928d0a0675e4c26c47f5a77a94e470" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>LoanType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2e503144642cf451e51872135fe2c0b4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>OriginationFeeBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1adcbad524036df800b0cfcc5c56bed923" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>OriginationFeePercentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ab9a994fecbd5cd272b53bf967faa0bd1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>OriginationFeeSellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afaca889638dc0c6ef56bf2347496f7db" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>OriginationPointsFees</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a1630b863de82403e6e5f8627f629511d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>OriginationPointsPercetange</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1aa4cc5bc5c7ff86d0a9f1b9daf11c0c5b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>ProcessingFeeBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ac471cbfd3bb0e2584f9795c94c1c90bd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>ProcessingFeeSellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ad18461f41a9f741cf4cb3e8407e479af" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>TotalOriginationDiscountAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1ae4c55c6078193c2942e39ea380639ca6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UnderwritingFeeBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a59dfa87a26a2513b454c0761d5b9acc6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UnderwritingFeeSellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a1dd4ed3054cda95ed0475d6c8b3ea907" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee1BorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a9bd684cb1afb485f592c196e227aeca2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee1Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1aa5946c2daa665161afdb7bf8ebc928fa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee1SellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1afeb58adf204efa97dc4a1e869064937c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee2BorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1aba2b80846d016ac1cf0de26aca0b04e8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee2Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a16fc5b7cc132c2a42d7effabef7f2735" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee2SellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a41b3811f6d81f147877739d821be397b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee3BorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a3d38294224e510add7ea747252f1fd5c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee3Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a8381e403540f69f53001deac3aae11ac" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee3SellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a321d0cc8108b055de80feec931899878" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee4BorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1af62e5e942700378c831d6208c83bf339" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee4Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a0837d42b7cf996f7b7cab1f5d559fa59" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee4SellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a2b8f0fe9ae10fdff502d56cb27c67e17" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee5BorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a91d056b5ade468d99b97f253d8c8f56a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee5Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_closing_document_anti_steering_loan_options_1a9b292ea4715aa82f4dbaa159e85c2b07" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanContractClosingDocumentAntiSteeringLoanOptions</scope><name>UserDefinedFee5SellerPaidAmount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::LoanBatchUpdateRequestContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1a3941c9fc300d94af818e585f1b089686" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_filter" kindref="compound">LoanBatchUpdateRequestContractFilter</ref></type>
+        <definition>LoanBatchUpdateRequestContractFilter ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.Filter</definition>
+        <argsstring></argsstring>
+        <name>Filter</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.Filter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" line="11" column="45" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1a6de1e9ac948090aa769ff5d970743ee5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract" kindref="compound">LoanContract</ref></type>
+        <definition>LoanContract ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.LoanData</definition>
+        <argsstring></argsstring>
+        <name>LoanData</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.LoanData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" line="14" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1aca0a08556cb7a1a5009ec0f9f8e72207" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_loan_fields" kindref="compound">LoanBatchUpdateRequestContractLoanFields</ref> &gt;</type>
+        <definition>List&lt;LoanBatchUpdateRequestContractLoanFields&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.LoanFields</definition>
+        <argsstring></argsstring>
+        <name>LoanFields</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.LoanFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" line="17" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1a9b757a06601c22f492fbe24949bfa509" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.LoanGuids</definition>
+        <argsstring></argsstring>
+        <name>LoanGuids</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LoanBatchUpdateRequestContract.LoanGuids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" line="20" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" line="8" column="7" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LoanBatchUpdateRequestContract.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1a3941c9fc300d94af818e585f1b089686" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanBatchUpdateRequestContract</scope><name>Filter</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1a6de1e9ac948090aa769ff5d970743ee5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanBatchUpdateRequestContract</scope><name>LoanData</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1aca0a08556cb7a1a5009ec0f9f8e72207" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanBatchUpdateRequestContract</scope><name>LoanFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract_1a9b757a06601c22f492fbe24949bfa509" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LoanBatchUpdateRequestContract</scope><name>LoanGuids</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

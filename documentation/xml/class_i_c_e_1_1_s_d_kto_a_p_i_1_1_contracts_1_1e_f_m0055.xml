@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eFM0055</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a3c3253f6fd453f3028e70b5d0e7d745a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFM0055.PrimaryResidence</definition>
+        <argsstring></argsstring>
+        <name>PrimaryResidence</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFM0055.PrimaryResidence</qualifiedname>
+        <initializer>= &quot;PrimaryResidence&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12411" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a97b47a91379d091aeeddf1ea7fa9beab" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFM0055.SecondHome</definition>
+        <argsstring></argsstring>
+        <name>SecondHome</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFM0055.SecondHome</qualifiedname>
+        <initializer>= &quot;SecondHome&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12412" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a1640c62dbbfbe5f61b9dfa783b92cf82" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFM0055.Investment</definition>
+        <argsstring></argsstring>
+        <name>Investment</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFM0055.Investment</qualifiedname>
+        <initializer>= &quot;Investment&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12413" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a3557cbfeebe555c8dbd38fc088441e56" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFM0055.Other</definition>
+        <argsstring></argsstring>
+        <name>Other</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFM0055.Other</qualifiedname>
+        <initializer>= &quot;Other&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12414" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12414" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eFM0055</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Investment</edgelabel>
+          <edgelabel>Other</edgelabel>
+          <edgelabel>PrimaryResidence</edgelabel>
+          <edgelabel>SecondHome</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12409" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12410" bodyend="12415"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a1640c62dbbfbe5f61b9dfa783b92cf82" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFM0055</scope><name>Investment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a3557cbfeebe555c8dbd38fc088441e56" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFM0055</scope><name>Other</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a3c3253f6fd453f3028e70b5d0e7d745a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFM0055</scope><name>PrimaryResidence</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_m0055_1a97b47a91379d091aeeddf1ea7fa9beab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFM0055</scope><name>SecondHome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

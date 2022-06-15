@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4614</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614_1af69c3a6b3e6f0d90501a229e76b953ad" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4614.tothenearest</definition>
+        <argsstring></argsstring>
+        <name>tothenearest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4614.tothenearest</qualifiedname>
+        <initializer>= &quot;to the nearest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3537" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614_1a00994f9c8dcff78b6052b14de8fb0456" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4614.downtothenearest</definition>
+        <argsstring></argsstring>
+        <name>downtothenearest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4614.downtothenearest</qualifiedname>
+        <initializer>= &quot;down to the nearest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3538" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614_1ac65c1c6ba6c90ba89c8615f4e7afa3ce" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4614.uptothenearest</definition>
+        <argsstring></argsstring>
+        <name>uptothenearest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4614.uptothenearest</qualifiedname>
+        <initializer>= &quot;up to the nearest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3539" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3539" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4614</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>downtothenearest</edgelabel>
+          <edgelabel>tothenearest</edgelabel>
+          <edgelabel>uptothenearest</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3535" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3536" bodyend="3540"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614_1a00994f9c8dcff78b6052b14de8fb0456" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4614</scope><name>downtothenearest</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614_1af69c3a6b3e6f0d90501a229e76b953ad" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4614</scope><name>tothenearest</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4614_1ac65c1c6ba6c90ba89c8615f4e7afa3ce" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4614</scope><name>uptothenearest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

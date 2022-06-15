@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_LoanIdentifierValueType</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type_1a2293169114d1c407fc913a9ee01f6175" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_LoanIdentifierValueType.BuyUpBuyDown</definition>
+        <argsstring></argsstring>
+        <name>BuyUpBuyDown</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_LoanIdentifierValueType.BuyUpBuyDown</qualifiedname>
+        <initializer>= &quot;BuyUpBuyDown&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29847" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type_1a98fff382cb0f1f9c9dd2cb41c874d44b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_LoanIdentifierValueType.WholeLoan</definition>
+        <argsstring></argsstring>
+        <name>WholeLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_LoanIdentifierValueType.WholeLoan</qualifiedname>
+        <initializer>= &quot;WholeLoan&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29848" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type_1a2e1123763e3725e8424442aa84493e59" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_LoanIdentifierValueType.GuarantyFee</definition>
+        <argsstring></argsstring>
+        <name>GuarantyFee</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_LoanIdentifierValueType.GuarantyFee</qualifiedname>
+        <initializer>= &quot;GuarantyFee&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29849" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29849" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_LoanIdentifierValueType</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BuyUpBuyDown</edgelabel>
+          <edgelabel>GuarantyFee</edgelabel>
+          <edgelabel>WholeLoan</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29845" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29846" bodyend="29850"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type_1a2293169114d1c407fc913a9ee01f6175" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_LoanIdentifierValueType</scope><name>BuyUpBuyDown</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type_1a2e1123763e3725e8424442aa84493e59" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_LoanIdentifierValueType</scope><name>GuarantyFee</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___loan_identifier_value_type_1a98fff382cb0f1f9c9dd2cb41c874d44b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_LoanIdentifierValueType</scope><name>WholeLoan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

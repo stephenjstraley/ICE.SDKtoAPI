@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_grant_write_access" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::GrantWriteAccess</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_grant_write_access_1a969bcca911bca46f23d924b83770e8c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.GrantWriteAccess.Access</definition>
+        <argsstring></argsstring>
+        <name>Access</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.GrantWriteAccess.Access</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="108" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_grant_write_access_1a12670ed58b69e0cc4b784f93257acb30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_team_access" kindref="compound">LoanTeamAccess</ref> &gt;</type>
+        <definition>List&lt;LoanTeamAccess&gt; ICE.SDKtoAPI.LenderApiContractsV1.GrantWriteAccess.LoanTeam</definition>
+        <argsstring></argsstring>
+        <name>LoanTeam</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.GrantWriteAccess.LoanTeam</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="109" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="106" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="107" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_grant_write_access_1a969bcca911bca46f23d924b83770e8c0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::GrantWriteAccess</scope><name>Access</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_grant_write_access_1a12670ed58b69e0cc4b784f93257acb30" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::GrantWriteAccess</scope><name>LoanTeam</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

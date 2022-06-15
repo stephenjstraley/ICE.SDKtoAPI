@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x125" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eVASUMM_X125</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x125_1a1f2b492543afbade16432034d2747cc8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X125.TypeICashOutRefinance</definition>
+        <argsstring></argsstring>
+        <name>TypeICashOutRefinance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X125.TypeICashOutRefinance</qualifiedname>
+        <initializer>= &quot;Type I Cash-Out Refinance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32317" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x125_1acf808ccbd4379848920d00285e2bb9c8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X125.TypeIICashOutRefinance</definition>
+        <argsstring></argsstring>
+        <name>TypeIICashOutRefinance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X125.TypeIICashOutRefinance</qualifiedname>
+        <initializer>= &quot;Type II Cash-Out Refinance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32318" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32318" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eVASUMM_X125</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x125"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>TypeICashOutRefinance</edgelabel>
+          <edgelabel>TypeIICashOutRefinance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32315" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32316" bodyend="32319"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x125_1a1f2b492543afbade16432034d2747cc8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X125</scope><name>TypeICashOutRefinance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x125_1acf808ccbd4379848920d00285e2bb9c8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X125</scope><name>TypeIICashOutRefinance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

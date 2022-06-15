@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eCD3_X340</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340_1aaa70cbb21421431ead071f6a9e470a7a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD3_X340.CityPropertyTax</definition>
+        <argsstring></argsstring>
+        <name>CityPropertyTax</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD3_X340.CityPropertyTax</qualifiedname>
+        <initializer>= &quot;CityPropertyTax&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="6994" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="6994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340_1a73525f1c41fc5ea9a8d33c50dbee77fe" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD3_X340.DistrictPropertyTax</definition>
+        <argsstring></argsstring>
+        <name>DistrictPropertyTax</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD3_X340.DistrictPropertyTax</qualifiedname>
+        <initializer>= &quot;DistrictPropertyTax&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="6995" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="6995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340_1a837d136128bc6777bd560f6d4df0e7d0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD3_X340.TownPropertyTax</definition>
+        <argsstring></argsstring>
+        <name>TownPropertyTax</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD3_X340.TownPropertyTax</qualifiedname>
+        <initializer>= &quot;TownPropertyTax&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="6996" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="6996" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eCD3_X340</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CityPropertyTax</edgelabel>
+          <edgelabel>DistrictPropertyTax</edgelabel>
+          <edgelabel>TownPropertyTax</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="6992" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="6993" bodyend="6997"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340_1aaa70cbb21421431ead071f6a9e470a7a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD3_X340</scope><name>CityPropertyTax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340_1a73525f1c41fc5ea9a8d33c50dbee77fe" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD3_X340</scope><name>DistrictPropertyTax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x340_1a837d136128bc6777bd560f6d4df0e7d0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD3_X340</scope><name>TownPropertyTax</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

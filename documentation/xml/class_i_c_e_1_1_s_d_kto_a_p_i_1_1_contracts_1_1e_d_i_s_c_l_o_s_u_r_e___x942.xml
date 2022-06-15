@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X942</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a5fe47df0d7dcdeb315148836cbff64c8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Monthly</definition>
+        <argsstring></argsstring>
+        <name>Monthly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Monthly</qualifiedname>
+        <initializer>= &quot;Monthly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11523" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a14913348b6bd6d38aff9ef88bc652970" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Quarterly</definition>
+        <argsstring></argsstring>
+        <name>Quarterly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Quarterly</qualifiedname>
+        <initializer>= &quot;Quarterly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11524" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a2883f90ce83314ffe5e5f777fd56f3a7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Yearly</definition>
+        <argsstring></argsstring>
+        <name>Yearly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Yearly</qualifiedname>
+        <initializer>= &quot;Yearly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11525" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a7ccc293799bcf932e596a358443e8159" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Other</definition>
+        <argsstring></argsstring>
+        <name>Other</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942.Other</qualifiedname>
+        <initializer>= &quot;Other&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11526" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11526" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X942</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Monthly</edgelabel>
+          <edgelabel>Other</edgelabel>
+          <edgelabel>Quarterly</edgelabel>
+          <edgelabel>Yearly</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11521" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11522" bodyend="11527"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a5fe47df0d7dcdeb315148836cbff64c8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X942</scope><name>Monthly</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a7ccc293799bcf932e596a358443e8159" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X942</scope><name>Other</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a14913348b6bd6d38aff9ef88bc652970" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X942</scope><name>Quarterly</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x942_1a2883f90ce83314ffe5e5f777fd56f3a7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X942</scope><name>Yearly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

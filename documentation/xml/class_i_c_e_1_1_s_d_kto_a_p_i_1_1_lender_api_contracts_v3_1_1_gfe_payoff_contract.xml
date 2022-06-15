@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payoff_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::GfePayoffContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payoff_contract_1af4a6baa56abc2d1844adbe0468a89867" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.GfePayoffContract.GfePayoffIndex</definition>
+        <argsstring></argsstring>
+        <name>GfePayoffIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePayoffContract.GfePayoffIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" line="12" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payoff_contract_1a4d8fc691fa591d5149a25d3fc848457b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePayoffContract.Amount</definition>
+        <argsstring></argsstring>
+        <name>Amount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePayoffContract.Amount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" line="15" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payoff_contract_1ab90fea694233eb487cbcc9d63413e934" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.GfePayoffContract.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePayoffContract.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePayoffContract.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payoff_contract_1a4d8fc691fa591d5149a25d3fc848457b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePayoffContract</scope><name>Amount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payoff_contract_1ab90fea694233eb487cbcc9d63413e934" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePayoffContract</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payoff_contract_1af4a6baa56abc2d1844adbe0468a89867" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePayoffContract</scope><name>GfePayoffIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_template_entity_ref_8cs" kind="file" language="C#">
+    <compoundname>TemplateEntityRef.cs</compoundname>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref" prot="public">ICE::SDKtoAPI::Contracts::TemplateEntityRef</innerclass>
+    <innernamespace refid="namespace_i_c_e">ICE</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i">ICE::SDKtoAPI</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts">ICE::SDKtoAPI::Contracts</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts" kindref="compound">ICE.SDKtoAPI.Contracts</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref" kindref="compound">TemplateEntityRef</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref_1ac068091bd4914fa6e42766483a498f1d" kindref="member">EntityName</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref_1a7978a3a254143bca18cf10aab4a428f5" kindref="member">EtntityType</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref_1ac5db788964d37980324a4245d0ddb903" kindref="member">EntityPath</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">?<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref_1a573b2b8fb25ce23fc91a6a79838a7747" kindref="member">HasSubFolders</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref_1a74ad3e07771309aaa1077d31a0142112" kindref="member">Description</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/TemplateEntityRef.cs"/>
+  </compounddef>
+</doxygen>

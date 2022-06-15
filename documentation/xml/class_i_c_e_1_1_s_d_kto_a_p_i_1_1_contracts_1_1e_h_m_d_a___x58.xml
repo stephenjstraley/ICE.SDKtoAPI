@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eHMDA_X58</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58_1aa48f0fba49245726cdd2cbcb29610814" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X58.Primarilyforabusinessorcommercialpurpose</definition>
+        <argsstring></argsstring>
+        <name>Primarilyforabusinessorcommercialpurpose</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X58.Primarilyforabusinessorcommercialpurpose</qualifiedname>
+        <initializer>= &quot;Primarily for a business or commercial purpose&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13090" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13090" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58_1ad0a7c3fa0fc781121c224c6720d33124" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X58.Notprimarilyforabusinessorcommercialpurpose</definition>
+        <argsstring></argsstring>
+        <name>Notprimarilyforabusinessorcommercialpurpose</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X58.Notprimarilyforabusinessorcommercialpurpose</qualifiedname>
+        <initializer>= &quot;Not primarily for a business or commercial purpose&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13091" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13091" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58_1adc68cdae92656ac62fe8e9832a8a0bf7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X58.Exempt</definition>
+        <argsstring></argsstring>
+        <name>Exempt</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X58.Exempt</qualifiedname>
+        <initializer>= &quot;Exempt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13092" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13092" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eHMDA_X58</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Exempt</edgelabel>
+          <edgelabel>Notprimarilyforabusinessorcommercialpurpose</edgelabel>
+          <edgelabel>Primarilyforabusinessorcommercialpurpose</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13088" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13089" bodyend="13093"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58_1adc68cdae92656ac62fe8e9832a8a0bf7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X58</scope><name>Exempt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58_1ad0a7c3fa0fc781121c224c6720d33124" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X58</scope><name>Notprimarilyforabusinessorcommercialpurpose</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x58_1aa48f0fba49245726cdd2cbcb29610814" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X58</scope><name>Primarilyforabusinessorcommercialpurpose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

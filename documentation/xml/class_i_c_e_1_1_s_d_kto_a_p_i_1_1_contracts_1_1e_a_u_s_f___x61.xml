@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eAUSF_X61</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61_1ad9d9b2d5a1dc29acee65df450880f475" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eAUSF_X61.Eligible</definition>
+        <argsstring></argsstring>
+        <name>Eligible</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eAUSF_X61.Eligible</qualifiedname>
+        <initializer>= &quot;Eligible&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4094" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4094" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61_1a1b73e52160d8551f78731ae38e871a34" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eAUSF_X61.NotEligible</definition>
+        <argsstring></argsstring>
+        <name>NotEligible</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eAUSF_X61.NotEligible</qualifiedname>
+        <initializer>= &quot;NotEligible&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4095" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4095" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61_1a90f607a32eb2507014f2c9a17269b820" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eAUSF_X61.Unavailable</definition>
+        <argsstring></argsstring>
+        <name>Unavailable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eAUSF_X61.Unavailable</qualifiedname>
+        <initializer>= &quot;Unavailable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4096" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4096" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eAUSF_X61</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Eligible</edgelabel>
+          <edgelabel>NotEligible</edgelabel>
+          <edgelabel>Unavailable</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4092" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4093" bodyend="4097"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61_1ad9d9b2d5a1dc29acee65df450880f475" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eAUSF_X61</scope><name>Eligible</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61_1a1b73e52160d8551f78731ae38e871a34" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eAUSF_X61</scope><name>NotEligible</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s_f___x61_1a90f607a32eb2507014f2c9a17269b820" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eAUSF_X61</scope><name>Unavailable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

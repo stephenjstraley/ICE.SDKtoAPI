@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eQM_X88</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88_1adc4fff07de93b9d4987586672d084d0b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X88.MeetsStandard</definition>
+        <argsstring></argsstring>
+        <name>MeetsStandard</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X88.MeetsStandard</qualifiedname>
+        <initializer>= &quot;Meets Standard&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25869" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88_1a4df198a3ecf49e45ac9273f37469a953" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X88.NotMeet</definition>
+        <argsstring></argsstring>
+        <name>NotMeet</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X88.NotMeet</qualifiedname>
+        <initializer>= &quot;Not Meet&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25870" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88_1a943df38a18cff4e1c0a6709d09773bdd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X88.ReviewNeeded</definition>
+        <argsstring></argsstring>
+        <name>ReviewNeeded</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X88.ReviewNeeded</qualifiedname>
+        <initializer>= &quot;Review Needed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25871" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25871" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eQM_X88</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>MeetsStandard</edgelabel>
+          <edgelabel>NotMeet</edgelabel>
+          <edgelabel>ReviewNeeded</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25867" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25868" bodyend="25872"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88_1adc4fff07de93b9d4987586672d084d0b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X88</scope><name>MeetsStandard</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88_1a4df198a3ecf49e45ac9273f37469a953" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X88</scope><name>NotMeet</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x88_1a943df38a18cff4e1c0a6709d09773bdd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X88</scope><name>ReviewNeeded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

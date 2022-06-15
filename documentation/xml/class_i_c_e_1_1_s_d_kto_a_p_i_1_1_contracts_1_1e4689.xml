@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4689</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a570cabfbd6b0d2ea403fb5dbd72eb466" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4689.InkOnly</definition>
+        <argsstring></argsstring>
+        <name>InkOnly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4689.InkOnly</qualifiedname>
+        <initializer>= &quot;InkOnly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3700" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a97053985c37e44c7c4e303115008a3a6" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4689.Hybrid</definition>
+        <argsstring></argsstring>
+        <name>Hybrid</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4689.Hybrid</qualifiedname>
+        <initializer>= &quot;Hybrid&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3701" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a916966a1bc024f4144d5bf9ef9819e1c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4689.HybridWithENote</definition>
+        <argsstring></argsstring>
+        <name>HybridWithENote</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4689.HybridWithENote</qualifiedname>
+        <initializer>= &quot;HybridWithENote&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3702" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3702" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a37a941ff310dd686fc4afbb5c7990825" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4689.ESignOnly</definition>
+        <argsstring></argsstring>
+        <name>ESignOnly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4689.ESignOnly</qualifiedname>
+        <initializer>= &quot;ESignOnly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3703" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3703" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4689</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ESignOnly</edgelabel>
+          <edgelabel>Hybrid</edgelabel>
+          <edgelabel>HybridWithENote</edgelabel>
+          <edgelabel>InkOnly</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3698" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3699" bodyend="3704"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a37a941ff310dd686fc4afbb5c7990825" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4689</scope><name>ESignOnly</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a97053985c37e44c7c4e303115008a3a6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4689</scope><name>Hybrid</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a916966a1bc024f4144d5bf9ef9819e1c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4689</scope><name>HybridWithENote</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4689_1a570cabfbd6b0d2ea403fb5dbd72eb466" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4689</scope><name>InkOnly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

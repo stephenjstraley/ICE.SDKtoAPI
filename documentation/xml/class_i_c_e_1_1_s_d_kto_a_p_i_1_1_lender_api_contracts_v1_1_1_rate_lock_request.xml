@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_request" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::RateLockRequest</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_sheet" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV1.RateLockSheet</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_request_1aa4956ac6d3209613dfa1a3647b7863e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.RateLockRequest.RequestedBy</definition>
+        <argsstring></argsstring>
+        <name>RequestedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.RateLockRequest.RequestedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/RateLock.cs" line="54" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/RateLock.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV1.RateLockRequest</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RateLockSheet</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_sheet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV1.RateLockRequest</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_request"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RateLockSheet</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_sheet"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/RateLock.cs" line="51" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/RateLock.cs" bodystart="52" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_sheet_1a9a6983c3b8ca505ec99bd82d583f2fe2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::RateLockRequest</scope><name>LockDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_sheet_1af714de78414fb0ceb803d69b18a5ea07" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::RateLockRequest</scope><name>LockExpirationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_sheet_1a6aaa5d16efd602912c199f68fc9667ee" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::RateLockRequest</scope><name>LockNumberOfDays</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_sheet_1afc6387e9c00cdeb9375cc360970d352b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::RateLockRequest</scope><name>RateSheetId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_request_1aa4956ac6d3209613dfa1a3647b7863e2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::RateLockRequest</scope><name>RequestedBy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

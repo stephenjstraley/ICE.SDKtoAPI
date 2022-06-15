@@ -1,0 +1,975 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1acf0f0c04d887402edab40eb52922d305" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.AdjustmentFactor</definition>
+        <argsstring></argsstring>
+        <name>AdjustmentFactor</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.AdjustmentFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="12" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae64f96757249c64e575e8d58b60ee32c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.AggregateAdjustmentFwbc</definition>
+        <argsstring></argsstring>
+        <name>AggregateAdjustmentFwbc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.AggregateAdjustmentFwbc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="15" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3607d670bd4fb6b9c28b2bd573177358" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BorrowerPaidDiscountPointsTotalAmount</definition>
+        <argsstring></argsstring>
+        <name>BorrowerPaidDiscountPointsTotalAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BorrowerPaidDiscountPointsTotalAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="18" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ab94418d63e45d16f6adab395ef05978d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BrokerCommissionBasedPrice</definition>
+        <argsstring></argsstring>
+        <name>BrokerCommissionBasedPrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BrokerCommissionBasedPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="21" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1af156018fd0319bb1675e56168b3e74f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BrokerCommissionBasedUnitPercentage</definition>
+        <argsstring></argsstring>
+        <name>BrokerCommissionBasedUnitPercentage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BrokerCommissionBasedUnitPercentage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="24" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a2530161a5b7fe6a900798d7ec4bfbe8c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BrokerCommissionBasedUnitPrice</definition>
+        <argsstring></argsstring>
+        <name>BrokerCommissionBasedUnitPrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.BrokerCommissionBasedUnitPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="27" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad39cffa3c6e29d3241d16a3d2e003e14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingCostProgram</definition>
+        <argsstring></argsstring>
+        <name>ClosingCostProgram</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingCostProgram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="30" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a8a9188b46267fce57bb5c6822a8aa049" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.DisclosedSalesPrice</definition>
+        <argsstring></argsstring>
+        <name>DisclosedSalesPrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.DisclosedSalesPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="33" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad6a010d688f6a0ebcfb866ae9482ddca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowCompanyName</definition>
+        <argsstring></argsstring>
+        <name>EscrowCompanyName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowCompanyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="36" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a68a6f96868cd48bb72e263b14ddf5f4e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc1</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableDesc1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="39" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a0f9ac8ceb63202fea0bccc27b47e08ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc2</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableDesc2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="42" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a8cb52406583280edea27dda3793d59e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc3</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableDesc3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="45" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a8f533a96b76479b40cf9c3b49f084e51" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc4</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableDesc4</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="48" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aafdcd38880abd2f70062e8d1866e774d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc5</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableDesc5</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableDesc5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="51" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aab4e51063c3fa79194b29c10cb31afef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableFee</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="54" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1abae5f86dfc4ee8f907a45e058d3c70ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee1</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableFee1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="57" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3a50a03f3f408dc77ddebcc984b497a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee2</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableFee2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="60" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a442a20f6846b4886df07d2c665529ed1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee3</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableFee3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="63" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a2a4c93d48fedad37008728af16cb3065" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee4</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableFee4</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="66" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a342c5672671044339ea71ad626cba3c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee5</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableFee5</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableFee5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="69" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aadb0a3be5779baf3d9583ff80aea430f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableName</definition>
+        <argsstring></argsstring>
+        <name>EscrowTableName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.EscrowTableName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="72" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3a838dc220cfe78398446bb8b7260f1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_disclosure5_contract" kindref="compound">ClosingDisclosure5Contract</ref></type>
+        <definition>ClosingDisclosure5Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure5</definition>
+        <argsstring></argsstring>
+        <name>ClosingDisclosure5</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="75" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aa45d0f425dbeb6fe4c4de8bda728475d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe2010_contract" kindref="compound">Gfe2010Contract</ref></type>
+        <definition>Gfe2010Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Gfe2010</definition>
+        <argsstring></argsstring>
+        <name>Gfe2010</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Gfe2010</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="78" column="32" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a43e3ae91400c2a5aa198d90ddc7e187c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe2010_page_contract" kindref="compound">Gfe2010PageContract</ref></type>
+        <definition>Gfe2010PageContract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Gfe2010Page</definition>
+        <argsstring></argsstring>
+        <name>Gfe2010Page</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Gfe2010Page</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="81" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3cba652aacf91ff362e760871dfda95e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe2010_section_contract" kindref="compound">Gfe2010SectionContract</ref></type>
+        <definition>Gfe2010SectionContract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Gfe2010Section</definition>
+        <argsstring></argsstring>
+        <name>Gfe2010Section</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Gfe2010Section</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="84" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a64f554fd7372674adc0f32f8ce227a77" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundHazInsRate</definition>
+        <argsstring></argsstring>
+        <name>ImpoundHazInsRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundHazInsRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="87" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae7e429ef2b0ed75ee3ac0a31688e452f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundMortgInsPremRate</definition>
+        <argsstring></argsstring>
+        <name>ImpoundMortgInsPremRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundMortgInsPremRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="90" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a6e7d8e38dcd8ab1e1842e6b438fb7513" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundMortgInsPremYearlyBasis</definition>
+        <argsstring></argsstring>
+        <name>ImpoundMortgInsPremYearlyBasis</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundMortgInsPremYearlyBasis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="93" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a80f990b3da23958545c78f901dde0358" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundTaxesRate</definition>
+        <argsstring></argsstring>
+        <name>ImpoundTaxesRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundTaxesRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="96" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a05c8981796176026e81e0bd6c03d0fa1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType1</definition>
+        <argsstring></argsstring>
+        <name>ImpoundType1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="99" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a66304d72ca48d7ca3255a8736139d207" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType2</definition>
+        <argsstring></argsstring>
+        <name>ImpoundType2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="102" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae68c34a34f7bd3db040d6b8411b468b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType3</definition>
+        <argsstring></argsstring>
+        <name>ImpoundType3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="105" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aefd6c794d1847c17bfbaeeb239c02f6a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType4</definition>
+        <argsstring></argsstring>
+        <name>ImpoundType4</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ImpoundType4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="108" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a95f7cabc04c03d983cda7f62f51a6c0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ProposedMonthlyHazardInsurance</definition>
+        <argsstring></argsstring>
+        <name>ProposedMonthlyHazardInsurance</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ProposedMonthlyHazardInsurance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="111" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ab6917ee588429d62930ec0631ba4e8c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ProposedMonthlyMortgageInsurance</definition>
+        <argsstring></argsstring>
+        <name>ProposedMonthlyMortgageInsurance</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ProposedMonthlyMortgageInsurance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="114" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aaa637fa0181529d8819dca4cbca35088" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Section1000BorrowerPaidTotalAmount</definition>
+        <argsstring></argsstring>
+        <name>Section1000BorrowerPaidTotalAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Section1000BorrowerPaidTotalAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="117" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1af9121ee1db167b1b7478a5cebe9367eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Section1000SellerPaidTotalAmount</definition>
+        <argsstring></argsstring>
+        <name>Section1000SellerPaidTotalAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.Section1000SellerPaidTotalAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="120" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a1729db7bf63b87154e961d4432e5b73a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.SettlementClosingFeeNewHudBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>SettlementClosingFeeNewHudBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.SettlementClosingFeeNewHudBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="123" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a81191947de491a93683a4dcc47f3ccef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.SettlementClosingFeeNewHudSelPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>SettlementClosingFeeNewHudSelPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.SettlementClosingFeeNewHudSelPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="126" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a9e0a605bb067f82eeb2bcb94b70e3caa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleCompanyName</definition>
+        <argsstring></argsstring>
+        <name>TitleCompanyName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleCompanyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="129" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a12c7eee66abd57fe3b17f4e77e3f690c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleExaminationNewHudSelPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>TitleExaminationNewHudSelPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleExaminationNewHudSelPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="132" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a49e7cb2d53f7924a58f2d14167d17e00" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleTable2010Name</definition>
+        <argsstring></argsstring>
+        <name>TitleTable2010Name</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleTable2010Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="135" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a1bcea49ac00fdf5159c76016f1af396a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleTableName</definition>
+        <argsstring></argsstring>
+        <name>TitleTableName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TitleTableName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="138" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1addc3e10a53b839661687e7e08fdaa77d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid1</definition>
+        <argsstring></argsstring>
+        <name>TotalForBorPaid1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="141" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ac4656b9408394d90446cdc2af08875c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid2</definition>
+        <argsstring></argsstring>
+        <name>TotalForBorPaid2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="144" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a069010aadd8a3f53e1ecc3997c467f57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid3</definition>
+        <argsstring></argsstring>
+        <name>TotalForBorPaid3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="147" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a783aae8e88d3429946dd6221a9eeddca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid4</definition>
+        <argsstring></argsstring>
+        <name>TotalForBorPaid4</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="150" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a972733814058d93e9888b2e5cd0a1e79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid5</definition>
+        <argsstring></argsstring>
+        <name>TotalForBorPaid5</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="153" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a06982131e37dababd565bd0699e393b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid6</definition>
+        <argsstring></argsstring>
+        <name>TotalForBorPaid6</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForBorPaid6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="156" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ac07d07820e531d18b90cfe7cdaa48066" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid1</definition>
+        <argsstring></argsstring>
+        <name>TotalForSellerPaid1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="159" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aeab0aaa08e0edc38951d23bff71d7835" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid2</definition>
+        <argsstring></argsstring>
+        <name>TotalForSellerPaid2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="162" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae34802a5fe2d4ac859070929d0bb77c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid3</definition>
+        <argsstring></argsstring>
+        <name>TotalForSellerPaid3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="165" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aff928d3f0d2aab29635981eab1866a0c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid4</definition>
+        <argsstring></argsstring>
+        <name>TotalForSellerPaid4</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="168" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ab00466da3d81a2f90a5a92de102872db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid5</definition>
+        <argsstring></argsstring>
+        <name>TotalForSellerPaid5</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="171" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a7c8f922a9b961f9ebd51567cf5cf5fa7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid6</definition>
+        <argsstring></argsstring>
+        <name>TotalForSellerPaid6</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.TotalForSellerPaid6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="174" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aa31193104ce75dfc4f9e5aebf696f20b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_estimate1_contract" kindref="compound">LoanEstimate1Contract</ref></type>
+        <definition>LoanEstimate1Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.LoanEstimate1</definition>
+        <argsstring></argsstring>
+        <name>LoanEstimate1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.LoanEstimate1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="177" column="38" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a75092813d70136eb1f4ae8f83975f994" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_estimate2_contract" kindref="compound">LoanEstimate2Contract</ref></type>
+        <definition>LoanEstimate2Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.LoanEstimate2</definition>
+        <argsstring></argsstring>
+        <name>LoanEstimate2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.LoanEstimate2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="180" column="38" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a09f7f139e7d0f7d795b0d86dfc99da4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_estimate3_contract" kindref="compound">LoanEstimate3Contract</ref></type>
+        <definition>LoanEstimate3Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.LoanEstimate3</definition>
+        <argsstring></argsstring>
+        <name>LoanEstimate3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.LoanEstimate3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="183" column="38" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a7ec5057c0e5b9124f2f2de76dd82332f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_disclosure1_contract" kindref="compound">ClosingDisclosure1Contract</ref></type>
+        <definition>ClosingDisclosure1Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure1</definition>
+        <argsstring></argsstring>
+        <name>ClosingDisclosure1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="186" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aa89bc231c58aa848e4a95ef51a7d7e8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_disclosure2_contract" kindref="compound">ClosingDisclosure2Contract</ref></type>
+        <definition>ClosingDisclosure2Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure2</definition>
+        <argsstring></argsstring>
+        <name>ClosingDisclosure2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="189" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad0d155f42907f3d60959124ec2452a03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_disclosure3_contract" kindref="compound">ClosingDisclosure3Contract</ref></type>
+        <definition>ClosingDisclosure3Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure3</definition>
+        <argsstring></argsstring>
+        <name>ClosingDisclosure3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="192" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="192" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a83d18f97c43be17c62fc01ba859e7df1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_disclosure4_contract" kindref="compound">ClosingDisclosure4Contract</ref></type>
+        <definition>ClosingDisclosure4Contract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure4</definition>
+        <argsstring></argsstring>
+        <name>ClosingDisclosure4</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.ClosingDisclosure4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="195" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1acc3a08b14f8d0505c3cc13848a93f021" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_variance_other_contract" kindref="compound">FeeVarianceOtherContract</ref></type>
+        <definition>FeeVarianceOtherContract ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.FeeVarianceOther</definition>
+        <argsstring></argsstring>
+        <name>FeeVarianceOther</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.FeeVarianceOther</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="198" column="41" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="198" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad4cfe5bc4d8e2236f364b9c0625bb5d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_variance_contract" kindref="compound">FeeVarianceContract</ref> &gt;</type>
+        <definition>List&lt;FeeVarianceContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.FeeVariances</definition>
+        <argsstring></argsstring>
+        <name>FeeVariances</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ClosingCostContract.FeeVariances</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="201" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="201" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ClosingCostContract.cs" bodystart="10" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1acf0f0c04d887402edab40eb52922d305" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>AdjustmentFactor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae64f96757249c64e575e8d58b60ee32c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>AggregateAdjustmentFwbc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3607d670bd4fb6b9c28b2bd573177358" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>BorrowerPaidDiscountPointsTotalAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ab94418d63e45d16f6adab395ef05978d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>BrokerCommissionBasedPrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1af156018fd0319bb1675e56168b3e74f1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>BrokerCommissionBasedUnitPercentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a2530161a5b7fe6a900798d7ec4bfbe8c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>BrokerCommissionBasedUnitPrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad39cffa3c6e29d3241d16a3d2e003e14" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ClosingCostProgram</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a7ec5057c0e5b9124f2f2de76dd82332f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ClosingDisclosure1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aa89bc231c58aa848e4a95ef51a7d7e8b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ClosingDisclosure2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad0d155f42907f3d60959124ec2452a03" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ClosingDisclosure3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a83d18f97c43be17c62fc01ba859e7df1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ClosingDisclosure4</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3a838dc220cfe78398446bb8b7260f1d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ClosingDisclosure5</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a8a9188b46267fce57bb5c6822a8aa049" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>DisclosedSalesPrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad6a010d688f6a0ebcfb866ae9482ddca" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowCompanyName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a68a6f96868cd48bb72e263b14ddf5f4e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableDesc1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a0f9ac8ceb63202fea0bccc27b47e08ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableDesc2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a8cb52406583280edea27dda3793d59e2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableDesc3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a8f533a96b76479b40cf9c3b49f084e51" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableDesc4</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aafdcd38880abd2f70062e8d1866e774d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableDesc5</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aab4e51063c3fa79194b29c10cb31afef" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableFee</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1abae5f86dfc4ee8f907a45e058d3c70ef" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableFee1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3a50a03f3f408dc77ddebcc984b497a4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableFee2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a442a20f6846b4886df07d2c665529ed1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableFee3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a2a4c93d48fedad37008728af16cb3065" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableFee4</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a342c5672671044339ea71ad626cba3c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableFee5</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aadb0a3be5779baf3d9583ff80aea430f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>EscrowTableName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1acc3a08b14f8d0505c3cc13848a93f021" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>FeeVarianceOther</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ad4cfe5bc4d8e2236f364b9c0625bb5d0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>FeeVariances</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aa45d0f425dbeb6fe4c4de8bda728475d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>Gfe2010</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a43e3ae91400c2a5aa198d90ddc7e187c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>Gfe2010Page</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a3cba652aacf91ff362e760871dfda95e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>Gfe2010Section</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a64f554fd7372674adc0f32f8ce227a77" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundHazInsRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae7e429ef2b0ed75ee3ac0a31688e452f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundMortgInsPremRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a6e7d8e38dcd8ab1e1842e6b438fb7513" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundMortgInsPremYearlyBasis</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a80f990b3da23958545c78f901dde0358" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundTaxesRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a05c8981796176026e81e0bd6c03d0fa1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundType1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a66304d72ca48d7ca3255a8736139d207" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundType2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae68c34a34f7bd3db040d6b8411b468b3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundType3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aefd6c794d1847c17bfbaeeb239c02f6a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ImpoundType4</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aa31193104ce75dfc4f9e5aebf696f20b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>LoanEstimate1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a75092813d70136eb1f4ae8f83975f994" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>LoanEstimate2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a09f7f139e7d0f7d795b0d86dfc99da4b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>LoanEstimate3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a95f7cabc04c03d983cda7f62f51a6c0d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ProposedMonthlyHazardInsurance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ab6917ee588429d62930ec0631ba4e8c6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>ProposedMonthlyMortgageInsurance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aaa637fa0181529d8819dca4cbca35088" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>Section1000BorrowerPaidTotalAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1af9121ee1db167b1b7478a5cebe9367eb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>Section1000SellerPaidTotalAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a1729db7bf63b87154e961d4432e5b73a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>SettlementClosingFeeNewHudBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a81191947de491a93683a4dcc47f3ccef" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>SettlementClosingFeeNewHudSelPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a9e0a605bb067f82eeb2bcb94b70e3caa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TitleCompanyName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a12c7eee66abd57fe3b17f4e77e3f690c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TitleExaminationNewHudSelPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a49e7cb2d53f7924a58f2d14167d17e00" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TitleTable2010Name</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a1bcea49ac00fdf5159c76016f1af396a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TitleTableName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1addc3e10a53b839661687e7e08fdaa77d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForBorPaid1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ac4656b9408394d90446cdc2af08875c6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForBorPaid2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a069010aadd8a3f53e1ecc3997c467f57" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForBorPaid3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a783aae8e88d3429946dd6221a9eeddca" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForBorPaid4</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a972733814058d93e9888b2e5cd0a1e79" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForBorPaid5</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a06982131e37dababd565bd0699e393b2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForBorPaid6</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ac07d07820e531d18b90cfe7cdaa48066" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForSellerPaid1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aeab0aaa08e0edc38951d23bff71d7835" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForSellerPaid2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ae34802a5fe2d4ac859070929d0bb77c4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForSellerPaid3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1aff928d3f0d2aab29635981eab1866a0c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForSellerPaid4</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1ab00466da3d81a2f90a5a92de102872db" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForSellerPaid5</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_closing_cost_contract_1a7c8f922a9b961f9ebd51567cf5cf5fa7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ClosingCostContract</scope><name>TotalForSellerPaid6</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

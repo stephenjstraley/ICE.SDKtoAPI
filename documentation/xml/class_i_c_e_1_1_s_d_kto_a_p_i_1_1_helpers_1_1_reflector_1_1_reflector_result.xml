@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result" kind="class" language="C#" prot="private">
+    <compoundname>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1abd03a7f96d046632465ae91f2e76864c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>MemberInfo</type>
+        <definition>MemberInfo ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.MemberInfo</definition>
+        <argsstring></argsstring>
+        <name>MemberInfo</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.MemberInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="566" column="31" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="566" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a9a072e596ce5c838986f0d5a99345cd4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>object[]</type>
+        <definition>object [] ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.MemberInfoParameters</definition>
+        <argsstring></argsstring>
+        <name>MemberInfoParameters</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.MemberInfoParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="567" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="567" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a9de87dd77a5ecafdb130c7fdb526ea88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.PreviousValue</definition>
+        <argsstring></argsstring>
+        <name>PreviousValue</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.PreviousValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="568" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="568" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a0a0abe9ac0f5a8056b9d858391464c97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="569" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="569" bodyend="569"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a4b07486bf5b1b410f74fb026f52f3519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.ReflectorResult</definition>
+        <argsstring>(object startValue)</argsstring>
+        <name>ReflectorResult</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.ReflectorResult</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>startValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="562" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="562" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1ae473c076ea9cacc4f43c0ad30ed61a0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.SetResult</definition>
+        <argsstring>(object value, MemberInfo info, object[] infoParms)</argsstring>
+        <name>SetResult</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.SetResult</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MemberInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>infoParms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="571" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="571" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a07260e6adb22622c98678fef3ad0bb4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.ReflectorResult.Clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="578" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="578" bodyend="583"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="560" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="561" bodyend="584"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a07260e6adb22622c98678fef3ad0bb4c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</scope><name>Clear</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1abd03a7f96d046632465ae91f2e76864c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</scope><name>MemberInfo</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a9a072e596ce5c838986f0d5a99345cd4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</scope><name>MemberInfoParameters</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a9de87dd77a5ecafdb130c7fdb526ea88" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</scope><name>PreviousValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a4b07486bf5b1b410f74fb026f52f3519" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</scope><name>ReflectorResult</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1ae473c076ea9cacc4f43c0ad30ed61a0f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</scope><name>SetResult</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_reflector_result_1a0a0abe9ac0f5a8056b9d858391464c97" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::ReflectorResult</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

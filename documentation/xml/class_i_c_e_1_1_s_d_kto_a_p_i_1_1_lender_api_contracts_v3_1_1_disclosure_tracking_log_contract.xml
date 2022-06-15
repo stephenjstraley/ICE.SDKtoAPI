@@ -1,0 +1,1005 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ae30c523f9a29e7c261693e0d8fdd03f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa23af7fe0d787a914ed73868025d0374" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_log_alert_contract" kindref="compound">LogAlertContract</ref> &gt;</type>
+        <definition>List&lt;LogAlertContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Alerts</definition>
+        <argsstring></argsstring>
+        <name>Alerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Alerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="15" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a72119162680a26e9f3f4839079e30a5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.BorrowerPairId</definition>
+        <argsstring></argsstring>
+        <name>BorrowerPairId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.BorrowerPairId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a46eaadecc113c3a2aec6455eb12c977d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_log_comment_contract" kindref="compound">LogCommentContract</ref> &gt;</type>
+        <definition>List&lt;LogCommentContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.CommentList</definition>
+        <argsstring></argsstring>
+        <name>CommentList</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.CommentList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="21" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a763f568691284975bfa9bcbc0833973c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="24" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a84f02b3f65a9a14c3338240c08d6086c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ContainGfe</definition>
+        <argsstring></argsstring>
+        <name>ContainGfe</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ContainGfe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="27" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a96a2a4b56a999b73f6d8a0a2fb5b0d5f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ContainSafeHarbor</definition>
+        <argsstring></argsstring>
+        <name>ContainSafeHarbor</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ContainSafeHarbor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="30" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abcb089d263bc13dadfc9b06c66d1b02e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ContainTil</definition>
+        <argsstring></argsstring>
+        <name>ContainTil</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ContainTil</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="33" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ab954e403be6b1f03ea599ec8f4f98dd1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="36" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a7a8cf94c5c1274beea246a41af9d7d69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedBy</definition>
+        <argsstring></argsstring>
+        <name>DisclosedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="39" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a0235638af5d3294b96471bca3cd65d25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedByFullName</definition>
+        <argsstring></argsstring>
+        <name>DisclosedByFullName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedByFullName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="42" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a44594336210550beb7ecd841d3caab8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedMethod</definition>
+        <argsstring></argsstring>
+        <name>DisclosedMethod</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="45" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ac5a79266c55826a4ef07e9113633ddf8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosureCreatedDateTime</definition>
+        <argsstring></argsstring>
+        <name>DisclosureCreatedDateTime</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosureCreatedDateTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="48" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abaa38ec544e1056b6d9ae70e2fbdbb0a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureApplicationPackageIndicator</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureApplicationPackageIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureApplicationPackageIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="51" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a97e0e7908ec518cb4a806f22f4b8bdf5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureApprovalPackageIndicator</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureApprovalPackageIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureApprovalPackageIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="54" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa604d4af3b78556d7e27bff67bdf6be1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerAcceptConsentDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureBorrowerAcceptConsentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerAcceptConsentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="57" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6a36dbffafb260c8f5f371d068ce30cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowereSignedDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureBorrowereSignedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowereSignedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="60" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a5357cb39c2d04778e6d7a44b1260ae51" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerRejectConsentDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureBorrowerRejectConsentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerRejectConsentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="63" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a63c32cf156607e7141c9bbf6f80d4788" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerViewConsentDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureBorrowerViewConsentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerViewConsentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="66" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a496edd3cd3ee907d51b4b845dff861b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerViewMessageDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureBorrowerViewMessageDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerViewMessageDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="69" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1adb0395d641d3bb5669049207066fcb42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerWetSignedDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureBorrowerWetSignedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureBorrowerWetSignedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="72" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6ec20a2e68d957454cc2d20f9763ffc8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerAcceptConsentDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureCoBorrowerAcceptConsentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerAcceptConsentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="75" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3b95d8d90d6d1bb2642d5ba958bbd8ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowereSignedDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureCoBorrowereSignedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowereSignedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="78" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3b5c4d87bc0b06dee6b56e47312b35d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerRejectConsentDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureCoBorrowerRejectConsentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerRejectConsentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="81" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a42eec6a25ccafef728753c02e95afb85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerViewConsentDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureCoBorrowerViewConsentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerViewConsentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="84" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a90ad5a641de786b3bbabe3b57f3a6f02" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerViewMessageDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureCoBorrowerViewMessageDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerViewMessageDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="87" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a18ea1816f51fa8eb35de5122e98453b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerWebSignedDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureCoBorrowerWebSignedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureCoBorrowerWebSignedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="90" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a7ffcbc43b4f45a239334e788cc1bc323" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureConsentPdf</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureConsentPdf</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureConsentPdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="93" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a22b75ecdce4fbf50263b921638608200" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureDisclosedMessage</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureDisclosedMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureDisclosedMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="96" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abd13955a28aa6fb7a0f8be6a123b4f73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureLockPackageIndicator</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureLockPackageIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureLockPackageIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="99" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a1480971062d24e64badd443355695960" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManualFulfillmentComment</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureManualFulfillmentComment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManualFulfillmentComment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="102" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a91e6c6734ec9f2f7df6896cfd500ac2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManualFulfillmentDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureManualFulfillmentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManualFulfillmentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="105" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ab5cf3e904e7888596adefa79b0cbb5cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManualFulfillmentMethod</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureManualFulfillmentMethod</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManualFulfillmentMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="108" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1acdf8e6a218b212de3923ae3ad5add9e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManuallyFulfilledBy</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureManuallyFulfilledBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureManuallyFulfilledBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="111" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ae0036944148189cf54f15a7c5df4f85b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosurePackageCreatedDate</definition>
+        <argsstring></argsstring>
+        <name>EDisclosurePackageCreatedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosurePackageCreatedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="114" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4a2dcc7b0950f5bd7f186109ef28bcb9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosurePackageId</definition>
+        <argsstring></argsstring>
+        <name>EDisclosurePackageId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosurePackageId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="117" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa60fcfc7521a5d76948041951ffbd723" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosurePackageViewableFile</definition>
+        <argsstring></argsstring>
+        <name>EDisclosurePackageViewableFile</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosurePackageViewableFile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="120" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3d4bd56f5f5644814bb559b50e1e3e9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureThreeDayPackageIndicator</definition>
+        <argsstring></argsstring>
+        <name>EDisclosureThreeDayPackageIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.EDisclosureThreeDayPackageIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="123" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1afffd8fb29541963d4c5a5388912eca69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_form_contract" kindref="compound">DisclosureFormContract</ref> &gt;</type>
+        <definition>List&lt;DisclosureFormContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Forms</definition>
+        <argsstring></argsstring>
+        <name>Forms</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.Forms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="126" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3196a8a449bd6a528a154d814752321a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.FulfillmentOrderedBy</definition>
+        <argsstring></argsstring>
+        <name>FulfillmentOrderedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.FulfillmentOrderedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="129" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1acb547e15aedcb295188a3100bffd103e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.FulfillmentProcessedDate</definition>
+        <argsstring></argsstring>
+        <name>FulfillmentProcessedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.FulfillmentProcessedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="132" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a74fb9095f78dfe11cf242777c03460e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosed</definition>
+        <argsstring></argsstring>
+        <name>IsDisclosed</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="135" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a929cf5c2d82d4dd190f848b0a4bfc1f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedAprLocked</definition>
+        <argsstring></argsstring>
+        <name>IsDisclosedAprLocked</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedAprLocked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="138" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a2b2077f1cc0946784ca338bb753bc4ae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedByLocked</definition>
+        <argsstring></argsstring>
+        <name>IsDisclosedByLocked</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedByLocked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="141" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ac92e2b7deb3c93be96358d096ddc93ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedFinanceChargeLocked</definition>
+        <argsstring></argsstring>
+        <name>IsDisclosedFinanceChargeLocked</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedFinanceChargeLocked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="144" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ada8a64266c0c7efb13c9b70b43132d85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedReceivedDateLocked</definition>
+        <argsstring></argsstring>
+        <name>IsDisclosedReceivedDateLocked</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsDisclosedReceivedDateLocked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="147" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a215244033a782c57361a761c94dd95ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsLocked</definition>
+        <argsstring></argsstring>
+        <name>IsLocked</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsLocked</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="150" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6b7c161841dacb7b4318741830021531" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsWetSignedIndicator</definition>
+        <argsstring></argsstring>
+        <name>IsWetSignedIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.IsWetSignedIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="153" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a995ae7a5a33ed9ada2ab468c8da47c60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedAprField</definition>
+        <argsstring></argsstring>
+        <name>LockedDisclosedAprField</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedAprField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="156" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a879ac21f57510ba0f04377ac2113b8a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedByField</definition>
+        <argsstring></argsstring>
+        <name>LockedDisclosedByField</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedByField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="159" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ac900d176b192aa20bb24d9c516581a20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedFinanceChargeField</definition>
+        <argsstring></argsstring>
+        <name>LockedDisclosedFinanceChargeField</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedFinanceChargeField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="162" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a0fd5b7af56b5b9c574eeb50df2eeda7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedReceivedDate</definition>
+        <argsstring></argsstring>
+        <name>LockedDisclosedReceivedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LockedDisclosedReceivedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="165" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abbf348c95bf955a86574fcae4a7ac27f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ManuallyCreated</definition>
+        <argsstring></argsstring>
+        <name>ManuallyCreated</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ManuallyCreated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="168" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4b7a9777f8eb8494eb54850f6ef9d7f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ReceivedDate</definition>
+        <argsstring></argsstring>
+        <name>ReceivedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ReceivedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="171" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a56ca8f971d182629d0ec465d0dc3e411" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_log_snapshot_field_contract" kindref="compound">LogSnapshotFieldContract</ref> &gt;</type>
+        <definition>List&lt;LogSnapshotFieldContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.SnapshotFields</definition>
+        <argsstring></argsstring>
+        <name>SnapshotFields</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.SnapshotFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="174" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a0b9db7f55d048b76ce38d14f880e3bcc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ApplicationDate</definition>
+        <argsstring></argsstring>
+        <name>ApplicationDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.ApplicationDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="177" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a9957d397510683fef8e450b1e6c8d7ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.BorrowerName</definition>
+        <argsstring></argsstring>
+        <name>BorrowerName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.BorrowerName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="180" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ab12c9cfbc9803563520b0369c9464bad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.CoBorrowerName</definition>
+        <argsstring></argsstring>
+        <name>CoBorrowerName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.CoBorrowerName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="183" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a27fa631cc59bcb5960721ea3f8dc125e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedApr</definition>
+        <argsstring></argsstring>
+        <name>DisclosedApr</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.DisclosedApr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="186" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a2148f6e2101ba77e60dd21a5ee32e515" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.FinanceCharge</definition>
+        <argsstring></argsstring>
+        <name>FinanceCharge</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.FinanceCharge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="189" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a844985d6b56577ea13dde74184f6d447" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LoanProgram</definition>
+        <argsstring></argsstring>
+        <name>LoanProgram</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LoanProgram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="192" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="192" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a96a0a672ff81a4bb56e187cdea806a84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LoanAmount</definition>
+        <argsstring></argsstring>
+        <name>LoanAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.LoanAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="195" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6054985e970949c327d437b473735d80" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyAddress</definition>
+        <argsstring></argsstring>
+        <name>PropertyAddress</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyAddress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="198" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="198" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa2943a5ef298d2b5530e4b988a404e42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyCity</definition>
+        <argsstring></argsstring>
+        <name>PropertyCity</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyCity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="201" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4b6956d23958b8c5e60cd1c92116a151" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyState</definition>
+        <argsstring></argsstring>
+        <name>PropertyState</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="204" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="204" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4db6269477ab27ad4d02e6629a61d72c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyZip</definition>
+        <argsstring></argsstring>
+        <name>PropertyZip</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DisclosureTrackingLogContract.PropertyZip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="207" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="207" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DisclosureTrackingLogContract.cs" bodystart="10" bodyend="208"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa23af7fe0d787a914ed73868025d0374" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>Alerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a0b9db7f55d048b76ce38d14f880e3bcc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>ApplicationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a9957d397510683fef8e450b1e6c8d7ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>BorrowerName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a72119162680a26e9f3f4839079e30a5e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>BorrowerPairId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ab12c9cfbc9803563520b0369c9464bad" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>CoBorrowerName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a46eaadecc113c3a2aec6455eb12c977d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>CommentList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a763f568691284975bfa9bcbc0833973c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a84f02b3f65a9a14c3338240c08d6086c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>ContainGfe</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a96a2a4b56a999b73f6d8a0a2fb5b0d5f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>ContainSafeHarbor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abcb089d263bc13dadfc9b06c66d1b02e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>ContainTil</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ab954e403be6b1f03ea599ec8f4f98dd1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>Date</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a27fa631cc59bcb5960721ea3f8dc125e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>DisclosedApr</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a7a8cf94c5c1274beea246a41af9d7d69" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>DisclosedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a0235638af5d3294b96471bca3cd65d25" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>DisclosedByFullName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a44594336210550beb7ecd841d3caab8d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>DisclosedMethod</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ac5a79266c55826a4ef07e9113633ddf8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>DisclosureCreatedDateTime</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abaa38ec544e1056b6d9ae70e2fbdbb0a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureApplicationPackageIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a97e0e7908ec518cb4a806f22f4b8bdf5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureApprovalPackageIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa604d4af3b78556d7e27bff67bdf6be1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureBorrowerAcceptConsentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6a36dbffafb260c8f5f371d068ce30cb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureBorrowereSignedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a5357cb39c2d04778e6d7a44b1260ae51" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureBorrowerRejectConsentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a63c32cf156607e7141c9bbf6f80d4788" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureBorrowerViewConsentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a496edd3cd3ee907d51b4b845dff861b5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureBorrowerViewMessageDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1adb0395d641d3bb5669049207066fcb42" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureBorrowerWetSignedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6ec20a2e68d957454cc2d20f9763ffc8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureCoBorrowerAcceptConsentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3b95d8d90d6d1bb2642d5ba958bbd8ed" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureCoBorrowereSignedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3b5c4d87bc0b06dee6b56e47312b35d8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureCoBorrowerRejectConsentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a42eec6a25ccafef728753c02e95afb85" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureCoBorrowerViewConsentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a90ad5a641de786b3bbabe3b57f3a6f02" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureCoBorrowerViewMessageDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a18ea1816f51fa8eb35de5122e98453b6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureCoBorrowerWebSignedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a7ffcbc43b4f45a239334e788cc1bc323" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureConsentPdf</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a22b75ecdce4fbf50263b921638608200" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureDisclosedMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abd13955a28aa6fb7a0f8be6a123b4f73" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureLockPackageIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a1480971062d24e64badd443355695960" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureManualFulfillmentComment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a91e6c6734ec9f2f7df6896cfd500ac2d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureManualFulfillmentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ab5cf3e904e7888596adefa79b0cbb5cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureManualFulfillmentMethod</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1acdf8e6a218b212de3923ae3ad5add9e9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureManuallyFulfilledBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ae0036944148189cf54f15a7c5df4f85b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosurePackageCreatedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4a2dcc7b0950f5bd7f186109ef28bcb9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosurePackageId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa60fcfc7521a5d76948041951ffbd723" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosurePackageViewableFile</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3d4bd56f5f5644814bb559b50e1e3e9c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>EDisclosureThreeDayPackageIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a2148f6e2101ba77e60dd21a5ee32e515" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>FinanceCharge</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1afffd8fb29541963d4c5a5388912eca69" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>Forms</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a3196a8a449bd6a528a154d814752321a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>FulfillmentOrderedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1acb547e15aedcb295188a3100bffd103e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>FulfillmentProcessedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ae30c523f9a29e7c261693e0d8fdd03f6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a74fb9095f78dfe11cf242777c03460e3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>IsDisclosed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a929cf5c2d82d4dd190f848b0a4bfc1f2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>IsDisclosedAprLocked</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a2b2077f1cc0946784ca338bb753bc4ae" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>IsDisclosedByLocked</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ac92e2b7deb3c93be96358d096ddc93ba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>IsDisclosedFinanceChargeLocked</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ada8a64266c0c7efb13c9b70b43132d85" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>IsDisclosedReceivedDateLocked</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a215244033a782c57361a761c94dd95ac" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>IsLocked</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6b7c161841dacb7b4318741830021531" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>IsWetSignedIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a96a0a672ff81a4bb56e187cdea806a84" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>LoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a844985d6b56577ea13dde74184f6d447" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>LoanProgram</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a995ae7a5a33ed9ada2ab468c8da47c60" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>LockedDisclosedAprField</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a879ac21f57510ba0f04377ac2113b8a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>LockedDisclosedByField</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1ac900d176b192aa20bb24d9c516581a20" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>LockedDisclosedFinanceChargeField</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a0fd5b7af56b5b9c574eeb50df2eeda7c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>LockedDisclosedReceivedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1abbf348c95bf955a86574fcae4a7ac27f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>ManuallyCreated</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a6054985e970949c327d437b473735d80" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>PropertyAddress</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1aa2943a5ef298d2b5530e4b988a404e42" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>PropertyCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4b6956d23958b8c5e60cd1c92116a151" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>PropertyState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4db6269477ab27ad4d02e6629a61d72c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>PropertyZip</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a4b7a9777f8eb8494eb54850f6ef9d7f3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>ReceivedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_disclosure_tracking_log_contract_1a56ca8f971d182629d0ec465d0dc3e411" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DisclosureTrackingLogContract</scope><name>SnapshotFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

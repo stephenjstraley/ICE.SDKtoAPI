@@ -1,0 +1,1431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a96dc64c2504e7aa4ea487f2b4d7bf520" prot="protected" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref> &gt;</type>
+        <definition>Dictionary&lt;string, APISchema&gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField._fields</definition>
+        <argsstring></argsstring>
+        <name>_fields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._fields</qualifiedname>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref>&gt;(StringComparer.InvariantCultureIgnoreCase)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="165" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ae25125c7d5b771956129c8af5f7a32c6" prot="protected" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref> &gt;</type>
+        <definition>Dictionary&lt;string, APISchema&gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField._dynamicFields</definition>
+        <argsstring></argsstring>
+        <name>_dynamicFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._dynamicFields</qualifiedname>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref>&gt;(StringComparer.InvariantCultureIgnoreCase)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="166" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a92e0a4ba248396de73d230cf207f2bc1" prot="protected" static="no" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField._virtualFields</definition>
+        <argsstring></argsstring>
+        <name>_virtualFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._virtualFields</qualifiedname>
+        <initializer>= new Dictionary&lt;string, string&gt;(StringComparer.InvariantCultureIgnoreCase)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="167" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a624bdf86108eead0a42aa312d6bd44c6" prot="protected" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta" kindref="compound">CustomFieldMeta</ref> &gt;</type>
+        <definition>List&lt;CustomFieldMeta&gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField._customFields</definition>
+        <argsstring></argsstring>
+        <name>_customFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._customFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="169" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2eefa8b927d5ae5b0d4d09896c18c4bc" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract" kindref="compound">LenderApiContractsV1.LoanContract</ref></type>
+        <definition>LenderApiContractsV1.LoanContract ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loan</definition>
+        <argsstring></argsstring>
+        <name>_loan</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="170" column="52" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab0c071269fbccc7f5297e288eb2dfa7d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract" kindref="compound">LenderApiContractsV1.LoanContract</ref></type>
+        <definition>LenderApiContractsV1.LoanContract ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanToUpdate</definition>
+        <argsstring></argsstring>
+        <name>_loanToUpdate</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanToUpdate</qualifiedname>
+        <initializer>= new <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract" kindref="compound">LenderApiContractsV1.LoanContract</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="171" column="52" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a52695e1ff8389583baa220491c2320fd" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_contract" kindref="compound">LenderApiContractsV3.LoanContract</ref></type>
+        <definition>LenderApiContractsV3.LoanContract ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanV3</definition>
+        <argsstring></argsstring>
+        <name>_loanV3</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanV3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="173" column="52" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a68d95f6007e843c7bca2ee60c3526895" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_contract" kindref="compound">LenderApiContractsV3.LoanContract</ref></type>
+        <definition>LenderApiContractsV3.LoanContract ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanToUpdateV3</definition>
+        <argsstring></argsstring>
+        <name>_loanToUpdateV3</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanToUpdateV3</qualifiedname>
+        <initializer>= new <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_contract" kindref="compound">LenderApiContractsV3.LoanContract</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="174" column="52" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a6995e1fb867a002dfb98be76b634ef6c" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.SupportingClasses.SDKAPIField._lastCallId</definition>
+        <argsstring></argsstring>
+        <name>_lastCallId</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._lastCallId</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="176" column="26" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a27ee82e0ee8dd97fb8f6d9633fde5a97" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref></type>
+        <definition>AccessToken ICE.SDKtoAPI.SupportingClasses.SDKAPIField._accessToken</definition>
+        <argsstring></argsstring>
+        <name>_accessToken</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._accessToken</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="178" column="31" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a53039e47b2f328c42282a2627edc351a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanWasUpdated</definition>
+        <argsstring></argsstring>
+        <name>_loanWasUpdated</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loanWasUpdated</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="181" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9f3b37e6845cf6e5a5afc6e60783343f" prot="protected" static="no" mutable="no">
+        <type>List&lt; Tuple&lt; string, string &gt; &gt;</type>
+        <definition>List&lt;Tuple&lt;string, string&gt; &gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField._badFields</definition>
+        <argsstring></argsstring>
+        <name>_badFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._badFields</qualifiedname>
+        <initializer>= new List&lt;Tuple&lt;string, string&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="182" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a297774fa9394dacf8c486fd37e45caf8" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loadV3</definition>
+        <argsstring></argsstring>
+        <name>_loadV3</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loadV3</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="184" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abf75e336d2ec79db786baeb87a9e22f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoanWasUpdated</definition>
+        <argsstring></argsstring>
+        <name>LoanWasUpdated</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoanWasUpdated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="180" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9286e9e2ee4ee0fe4b72c47fcf759258" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loadV1</definition>
+        <argsstring></argsstring>
+        <name>_loadV1</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._loadV1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="185" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a33a9bb935810bd5a299f6e5780543728" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref> &gt;</type>
+        <definition>List&lt;APISchema&gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField.FieldSchema</definition>
+        <argsstring></argsstring>
+        <name>FieldSchema</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.FieldSchema</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="187" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="188" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a90a41b24b4efb56e8bb7fe031df983b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref> &gt;</type>
+        <definition>List&lt;APISchema&gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField.DynamicSchema</definition>
+        <argsstring></argsstring>
+        <name>DynamicSchema</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.DynamicSchema</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="204" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abffbf60037800a680b8e58e22edd4c45" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField.VirtualSchema</definition>
+        <argsstring></argsstring>
+        <name>VirtualSchema</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.VirtualSchema</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="205" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a55c502903f05b6b358ac6fb84d297092" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.SupportingClasses.SDKAPIField.UpdatedLoan</definition>
+        <argsstring></argsstring>
+        <name>UpdatedLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.UpdatedLoan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="247" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="248" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a8e165d0e64b7659782d0e79549e6bebc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.SupportingClasses.SDKAPIField.this[string idField]</definition>
+        <argsstring></argsstring>
+        <name>this[string idField]</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.this[string idField]</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="419" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="420" bodyend="484"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab517c919a5c96651194752ef3244f8a3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.SupportingClasses.SDKAPIField._successfullyLoaded</definition>
+        <argsstring></argsstring>
+        <name>_successfullyLoaded</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField._successfullyLoaded</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="183" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a183867f36661e0519c1c9c8b66cf3688" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ReloadDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadDictionary</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ReloadDictionary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="198" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="198" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aed2f6ca93e80e452e7b4e85f44e5a944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetLoanVersion</definition>
+        <argsstring>(bool v3=false)</argsstring>
+        <name>SetLoanVersion</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetLoanVersion</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>v3</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="207" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a86c05552e43645d293a942a1407e94e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SDKAPIField</definition>
+        <argsstring>()</argsstring>
+        <name>SDKAPIField</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SDKAPIField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="209" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="209" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2eea63a0168dd7abd7cdaedba2f8e240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearLoan</definition>
+        <argsstring>()</argsstring>
+        <name>ClearLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearLoan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="216" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2430f9dfb46e64f73d1b58de8edb2321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearPreviousUpdatedLoan</definition>
+        <argsstring>()</argsstring>
+        <name>ClearPreviousUpdatedLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearPreviousUpdatedLoan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="217" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="217" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a22e29e6593af62c12529fc8c8b2659b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetLoan</definition>
+        <argsstring>(LenderApiContractsV1.LoanContract loan)</argsstring>
+        <name>SetLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetLoan</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract" kindref="compound">LenderApiContractsV1.LoanContract</ref></type>
+          <declname>loan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="225" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="225" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a8c746a89ae40d06f6e6695ea5b5b3b88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetLoan</definition>
+        <argsstring>(LenderApiContractsV3.LoanContract loan)</argsstring>
+        <name>SetLoan</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetLoan</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_contract" kindref="compound">LenderApiContractsV3.LoanContract</ref></type>
+          <declname>loan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="230" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="230" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a0563e843bf153c86076a6caff691ed26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetAccessToken</definition>
+        <argsstring>(AccessToken token)</argsstring>
+        <name>SetAccessToken</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetAccessToken</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref></type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="236" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a27d2778b27e8e2ce7cda3108432a4deb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</definition>
+        <argsstring>(List&lt; CustomFieldMeta &gt; meta)</argsstring>
+        <name>SetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta" kindref="compound">CustomFieldMeta</ref> &gt;</type>
+          <declname>meta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="237" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aa5d1857c8b7b14dd62fb3bf4b4dadc4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetVirtualFields</definition>
+        <argsstring>(List&lt; VirtualFieldMeta &gt; meta)</argsstring>
+        <name>SetVirtualFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetVirtualFields</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_virtual_field_meta" kindref="compound">VirtualFieldMeta</ref> &gt;</type>
+          <declname>meta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="238" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="238" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab28c1af670d9b48f8c123962c97dca93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearCustomFields</definition>
+        <argsstring>()</argsstring>
+        <name>ClearCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearCustomFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="246" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9c51d7779d149c191d2882693b41e76c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref></type>
+        <definition>APISchema ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetDictionaryItem</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetDictionaryItem</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetDictionaryItem</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="486" column="26" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="486" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a62b2a2cfeddc02b7f95ffb8a18e56787" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetInstance</definition>
+        <argsstring>(string strFullyQualifiedName)</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetInstance</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>strFullyQualifiedName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="1850" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="1850" bodyend="1854"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9510d7b103b6f76980bf5ff8c9b9cd22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</definition>
+        <argsstring>(string name, string value)</argsstring>
+        <name>SetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2438" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2438" bodyend="2527"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a91754169d48a027eb29be3f233dd1377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</definition>
+        <argsstring>(string name, int value)</argsstring>
+        <name>SetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2528" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2528" bodyend="2592"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a410a735d6c2748102e2c6683ddc7583e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</definition>
+        <argsstring>(string name, bool value)</argsstring>
+        <name>SetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2593" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2593" bodyend="2596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abf8447c07f6f4b462a515e4378dd4145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</definition>
+        <argsstring>(string name, double value)</argsstring>
+        <name>SetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2597" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2597" bodyend="2664"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ad0edf39d61fd3ae33dafa2529b83847f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</definition>
+        <argsstring>(string name, DateTime value)</argsstring>
+        <name>SetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2665" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2665" bodyend="2727"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a0db919a3f88b1d732e01030b0c9049f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta" kindref="compound">CustomFieldMeta</ref></type>
+        <definition>CustomFieldMeta ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldMetaExists</definition>
+        <argsstring>(string name)</argsstring>
+        <name>CustomFieldMetaExists</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldMetaExists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2731" column="32" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2731" bodyend="2735"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ad13f3366b7db01ba8ab169271cd535b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_custom_fields" kindref="compound">LenderApiContractsV1.LoanContractCustomFields</ref></type>
+        <definition>LenderApiContractsV1.LoanContractCustomFields ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldExists</definition>
+        <argsstring>(string id)</argsstring>
+        <name>CustomFieldExists</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldExists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2736" column="61" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2736" bodyend="2740"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a802380bf3a0db2c03ef4cd79ff272a6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_custom_field_contract" kindref="compound">LenderApiContractsV3.CustomFieldContract</ref></type>
+        <definition>LenderApiContractsV3.CustomFieldContract ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldV3Exists</definition>
+        <argsstring>(string id)</argsstring>
+        <name>CustomFieldV3Exists</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldV3Exists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2741" column="56" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2741" bodyend="2745"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a7981bccf1419f602f4863c6cecddff4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_custom_fields" kindref="compound">LenderApiContractsV1.LoanContractCustomFields</ref></type>
+        <definition>LenderApiContractsV1.LoanContractCustomFields ICE.SDKtoAPI.SupportingClasses.SDKAPIField.UpdateCustomFieldsExist</definition>
+        <argsstring>(string name)</argsstring>
+        <name>UpdateCustomFieldsExist</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.UpdateCustomFieldsExist</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2746" column="61" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2746" bodyend="2750"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a937ebed3d90e8154ea6c0a7fbd903523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldDefined</definition>
+        <argsstring>(string id)</argsstring>
+        <name>CustomFieldDefined</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFieldDefined</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2751" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2751" bodyend="2755"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a98a12bde29f581ad3f0ced7c25b8fb0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.PrepCustomFields</definition>
+        <argsstring>()</argsstring>
+        <name>PrepCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.PrepCustomFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2756" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2756" bodyend="2775"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ac6b6be5d625eb1ddcec21e35921b2360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</definition>
+        <argsstring>()</argsstring>
+        <name>SetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetCustomFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2776" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2776" bodyend="2779"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1af1f5b9567cd48c62840ed652edefee20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ICE.SDKtoAPI.SupportingClasses.SDKAPIField.MainField&lt; T &gt;</definition>
+        <argsstring>(string id)</argsstring>
+        <name>MainField&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.MainField&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2785" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2785" bodyend="2851"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a3814cd93901ee0f10d6ecde8bc671f61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetVirtualFieldValue</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetVirtualFieldValue</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetVirtualFieldValue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2853" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2853" bodyend="2863"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ac2e86ec2e05994ff7689a071006a60ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoadVirtualFields</definition>
+        <argsstring>()</argsstring>
+        <name>LoadVirtualFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoadVirtualFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2865" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2865" bodyend="2875"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a510406c1941ce1ac9de9e4236f315863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoadVirtualFields</definition>
+        <argsstring>(object fields)</argsstring>
+        <name>LoadVirtualFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoadVirtualFields</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2876" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2876" bodyend="2887"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ae0220329c52d511723f16db7f660b986" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearVirtualFields</definition>
+        <argsstring>()</argsstring>
+        <name>ClearVirtualFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ClearVirtualFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2888" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abca59a24b6db7d7913488d5b9f6418d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFields&lt; T &gt;</definition>
+        <argsstring>(string name)</argsstring>
+        <name>CustomFields&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CustomFields&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2890" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2890" bodyend="2925"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab80a3fdc0625713fec6573ead3bdd7c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ParseWithInnerBraces</definition>
+        <argsstring>(string source, bool withPound, int index, out string left, out string right)</argsstring>
+        <name>ParseWithInnerBraces</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ParseWithInnerBraces</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withPound</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3200" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3200" bodyend="3209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aaf21625dc794a10fb6de1f5a85975533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ParseInnerIndexer</definition>
+        <argsstring>(ref string item)</argsstring>
+        <name>ParseInnerIndexer</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ParseInnerIndexer</qualifiedname>
+        <param>
+          <type>ref string</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3210" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3210" bodyend="3228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aa3b04410022436efb8b5ff74c4446884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string[] ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ParseInnerBrackets</definition>
+        <argsstring>(string innerData)</argsstring>
+        <name>ParseInnerBrackets</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ParseInnerBrackets</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>innerData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3229" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3229" bodyend="3237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9b8083127536c8e5b2c210412154f807" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_custom_field_meta" kindref="compound">CustomFieldMeta</ref> &gt; &gt;</type>
+        <definition>async Task&lt; List&lt; CustomFieldMeta &gt; &gt; ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetCustomFields</definition>
+        <argsstring>()</argsstring>
+        <name>GetCustomFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetCustomFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3258" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3258" bodyend="3286"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a69e0aa6690bf50ffba95ebe7ba71384e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoadDictionary</definition>
+        <argsstring>()</argsstring>
+        <name>LoadDictionary</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.LoadDictionary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="257" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="257" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1adabe085db63bf9005bb8ddb631d30a70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.Add</definition>
+        <argsstring>(APISchema schema)</argsstring>
+        <name>Add</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.Add</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref></type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="399" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="399" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a58b2ad3dc4c86f3ab5cacfbdf41ef5bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetTheFields</definition>
+        <argsstring>(string id, object value)</argsstring>
+        <name>SetTheFields</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetTheFields</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="517" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="517" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2265552a1c02993a283d8669061e39ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetPropertyValue</definition>
+        <argsstring>(string applicationId, object instance, string middle, string right, object value)</argsstring>
+        <name>SetPropertyValue</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetPropertyValue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>applicationId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>middle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="787" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="787" bodyend="1848"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ac058aff4bfc622d20595decf5f871aeb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetPropertyValue</definition>
+        <argsstring>(object instance, string right, object value)</argsstring>
+        <name>SetPropertyValue</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetPropertyValue</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="1856" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="1856" bodyend="2358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aa9f704d76d54a5a6eb64ed1d7983e7c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetPropertyValue</definition>
+        <argsstring>(string propertyName, object value)</argsstring>
+        <name>SetPropertyValue</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.SetPropertyValue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2360" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2360" bodyend="2434"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a3a1670548dc0ff384c4eb4a7b657b2dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ProcessObject&lt; T &gt;</definition>
+        <argsstring>(string item, string id=&quot;&quot;)</argsstring>
+        <name>ProcessObject&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ProcessObject&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="2930" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="2930" bodyend="3018"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab69ffc0135571ede81a029a14e1e95c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ProcessList&lt; T &gt;</definition>
+        <argsstring>(object loanContext, string item, int indexer)</argsstring>
+        <name>ProcessList&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ProcessList&lt; T &gt;</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>loanContext</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indexer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3019" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3019" bodyend="3063"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a7dffdd4134c7e6ac3058417d5540780b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ReturnValue&lt; T &gt;</definition>
+        <argsstring>(object foundValue)</argsstring>
+        <name>ReturnValue&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ReturnValue&lt; T &gt;</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>foundValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3064" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3064" bodyend="3081"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab9ab1bcaa9cc0d5881a03e54d08b00ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetAPIValue</definition>
+        <argsstring>(PropertyInfo info, object value)</argsstring>
+        <name>GetAPIValue</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetAPIValue</qualifiedname>
+        <param>
+          <type>PropertyInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3082" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3082" bodyend="3092"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a1a58a776b2aa8a714b5586d2845cb43f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ReturnFinalValue&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>ReturnFinalValue&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ReturnFinalValue&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3093" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3093" bodyend="3103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2db1f8a019176740443d950d272c8bea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetPropertyValue&lt; T &gt;</definition>
+        <argsstring>(object obj, string propertyName, string id)</argsstring>
+        <name>GetPropertyValue&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.GetPropertyValue&lt; T &gt;</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3104" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3104" bodyend="3172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a124fb4d5cf0fa5e965135953cb1cefee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.SupportingClasses.SDKAPIField.PropertyExists</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>PropertyExists</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.PropertyExists</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3175" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3175" bodyend="3197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a030e112d9dc6a559557f2c9c4b355a7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.SupportingClasses.SDKAPIField.FindIndexedObject</definition>
+        <argsstring>(IList context, string typeProperties, string findProperty, int indexer)</argsstring>
+        <name>FindIndexedObject</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.FindIndexedObject</qualifiedname>
+        <param>
+          <type>IList</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>typeProperties</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>findProperty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indexer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3288" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3288" bodyend="3329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a79aa1ab18d4e15db1c5d791377611218" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CheckApplicationObject</definition>
+        <argsstring>(string id)</argsstring>
+        <name>CheckApplicationObject</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.CheckApplicationObject</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3331" column="22" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3331" bodyend="3365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a00c8fc26ed1c85dfda4f8dcf57d9ee35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ConvertValue</definition>
+        <argsstring>(Type propertyType, object value)</argsstring>
+        <name>ConvertValue</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.ConvertValue</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>propertyType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3367" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3367" bodyend="3423"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1adcacfcefe3508a1be6f7b84ad1ce0071" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.SupportingClasses.SDKAPIField.UpdateInnerProperties</definition>
+        <argsstring>(object owningObject, string propertyList)</argsstring>
+        <name>UpdateInnerProperties</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIField.UpdateInnerProperties</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>owningObject</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>propertyList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="3240" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="3240" bodyend="3256"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.SupportingClasses.SDKAPIField</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_loan</edgelabel>
+          <edgelabel>_loanToUpdate</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_loanToUpdateV3</edgelabel>
+          <edgelabel>_loanV3</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_accessToken</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Contracts.AccessToken</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token"/>
+      </node>
+      <node id="2">
+        <label>LenderApiContractsV1</label>
+      </node>
+      <node id="3">
+        <label>LenderApiContractsV3</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="160" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="161" bodyend="3424"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a27ee82e0ee8dd97fb8f6d9633fde5a97" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_accessToken</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9f3b37e6845cf6e5a5afc6e60783343f" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_badFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a624bdf86108eead0a42aa312d6bd44c6" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_customFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ae25125c7d5b771956129c8af5f7a32c6" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_dynamicFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a96dc64c2504e7aa4ea487f2b4d7bf520" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_fields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a6995e1fb867a002dfb98be76b634ef6c" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_lastCallId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9286e9e2ee4ee0fe4b72c47fcf759258" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_loadV1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a297774fa9394dacf8c486fd37e45caf8" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_loadV3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2eefa8b927d5ae5b0d4d09896c18c4bc" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_loan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab0c071269fbccc7f5297e288eb2dfa7d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_loanToUpdate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a68d95f6007e843c7bca2ee60c3526895" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_loanToUpdateV3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a52695e1ff8389583baa220491c2320fd" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_loanV3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a53039e47b2f328c42282a2627edc351a" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_loanWasUpdated</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab517c919a5c96651194752ef3244f8a3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_successfullyLoaded</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a92e0a4ba248396de73d230cf207f2bc1" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>_virtualFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1adabe085db63bf9005bb8ddb631d30a70" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>Add</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a79aa1ab18d4e15db1c5d791377611218" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>CheckApplicationObject</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab28c1af670d9b48f8c123962c97dca93" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ClearCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2eea63a0168dd7abd7cdaedba2f8e240" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ClearLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2430f9dfb46e64f73d1b58de8edb2321" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ClearPreviousUpdatedLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ae0220329c52d511723f16db7f660b986" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ClearVirtualFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a00c8fc26ed1c85dfda4f8dcf57d9ee35" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ConvertValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a937ebed3d90e8154ea6c0a7fbd903523" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>CustomFieldDefined</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ad13f3366b7db01ba8ab169271cd535b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>CustomFieldExists</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a0db919a3f88b1d732e01030b0c9049f0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>CustomFieldMetaExists</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abca59a24b6db7d7913488d5b9f6418d5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>CustomFields&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a802380bf3a0db2c03ef4cd79ff272a6c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>CustomFieldV3Exists</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a90a41b24b4efb56e8bb7fe031df983b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>DynamicSchema</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a33a9bb935810bd5a299f6e5780543728" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>FieldSchema</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a030e112d9dc6a559557f2c9c4b355a7e" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>FindIndexedObject</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab9ab1bcaa9cc0d5881a03e54d08b00ec" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>GetAPIValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9b8083127536c8e5b2c210412154f807" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>GetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9c51d7779d149c191d2882693b41e76c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>GetDictionaryItem</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a62b2a2cfeddc02b7f95ffb8a18e56787" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>GetInstance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2db1f8a019176740443d950d272c8bea" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>GetPropertyValue&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a3814cd93901ee0f10d6ecde8bc671f61" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>GetVirtualFieldValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a69e0aa6690bf50ffba95ebe7ba71384e" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>LoadDictionary</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ac2e86ec2e05994ff7689a071006a60ff" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>LoadVirtualFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a510406c1941ce1ac9de9e4236f315863" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>LoadVirtualFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abf75e336d2ec79db786baeb87a9e22f8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>LoanWasUpdated</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1af1f5b9567cd48c62840ed652edefee20" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>MainField&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aa3b04410022436efb8b5ff74c4446884" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ParseInnerBrackets</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aaf21625dc794a10fb6de1f5a85975533" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ParseInnerIndexer</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab80a3fdc0625713fec6573ead3bdd7c2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ParseWithInnerBraces</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a98a12bde29f581ad3f0ced7c25b8fb0a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>PrepCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ab69ffc0135571ede81a029a14e1e95c8" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ProcessList&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a3a1670548dc0ff384c4eb4a7b657b2dd" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ProcessObject&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a124fb4d5cf0fa5e965135953cb1cefee" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>PropertyExists</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a183867f36661e0519c1c9c8b66cf3688" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ReloadDictionary</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a1a58a776b2aa8a714b5586d2845cb43f" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ReturnFinalValue&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a7dffdd4134c7e6ac3058417d5540780b" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>ReturnValue&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a86c05552e43645d293a942a1407e94e8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SDKAPIField</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a0563e843bf153c86076a6caff691ed26" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetAccessToken</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a27d2778b27e8e2ce7cda3108432a4deb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a9510d7b103b6f76980bf5ff8c9b9cd22" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a91754169d48a027eb29be3f233dd1377" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a410a735d6c2748102e2c6683ddc7583e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abf8447c07f6f4b462a515e4378dd4145" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ad0edf39d61fd3ae33dafa2529b83847f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ac6b6be5d625eb1ddcec21e35921b2360" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetCustomFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a22e29e6593af62c12529fc8c8b2659b0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a8c746a89ae40d06f6e6695ea5b5b3b88" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aed2f6ca93e80e452e7b4e85f44e5a944" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetLoanVersion</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a2265552a1c02993a283d8669061e39ff" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetPropertyValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1ac058aff4bfc622d20595decf5f871aeb" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetPropertyValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aa9f704d76d54a5a6eb64ed1d7983e7c3" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetPropertyValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a58b2ad3dc4c86f3ab5cacfbdf41ef5bb" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetTheFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1aa5d1857c8b7b14dd62fb3bf4b4dadc4f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>SetVirtualFields</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a8e165d0e64b7659782d0e79549e6bebc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>this[string idField]</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a7981bccf1419f602f4863c6cecddff4b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>UpdateCustomFieldsExist</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1a55c502903f05b6b358ac6fb84d297092" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>UpdatedLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1adcacfcefe3508a1be6f7b84ad1ce0071" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>UpdateInnerProperties</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_1abffbf60037800a680b8e58e22edd4c45" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIField</scope><name>VirtualSchema</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

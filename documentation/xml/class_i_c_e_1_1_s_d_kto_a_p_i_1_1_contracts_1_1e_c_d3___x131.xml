@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eCD3_X131</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131_1a6109f8b86e80b5cbfbed00fda0d8276d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD3_X131.TotalLoanCostsD</definition>
+        <argsstring></argsstring>
+        <name>TotalLoanCostsD</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD3_X131.TotalLoanCostsD</qualifiedname>
+        <initializer>= &quot;Total Loan Costs (D)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="5395" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="5395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131_1a9ddcf66c124f942df6a3d07f1e913d69" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD3_X131.TotalOtherCostsI</definition>
+        <argsstring></argsstring>
+        <name>TotalOtherCostsI</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD3_X131.TotalOtherCostsI</qualifiedname>
+        <initializer>= &quot;Total Other Costs (I)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="5396" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="5396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131_1a1b7284f7b4e01424d22aa5c0e3a33a74" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD3_X131.TotalLoanCostsDandTotalOtherCostsI</definition>
+        <argsstring></argsstring>
+        <name>TotalLoanCostsDandTotalOtherCostsI</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD3_X131.TotalLoanCostsDandTotalOtherCostsI</qualifiedname>
+        <initializer>= &quot;Total Loan Costs (D) and Total Other Costs (I)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="5397" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="5397" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eCD3_X131</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>TotalLoanCostsD</edgelabel>
+          <edgelabel>TotalLoanCostsDandTotalOtherCostsI</edgelabel>
+          <edgelabel>TotalOtherCostsI</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="5393" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="5394" bodyend="5398"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131_1a6109f8b86e80b5cbfbed00fda0d8276d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD3_X131</scope><name>TotalLoanCostsD</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131_1a1b7284f7b4e01424d22aa5c0e3a33a74" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD3_X131</scope><name>TotalLoanCostsDandTotalOtherCostsI</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d3___x131_1a9ddcf66c124f942df6a3d07f1e913d69" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD3_X131</scope><name>TotalOtherCostsI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eUSDA_X124</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124_1aabc52cd2a3352974b29f61640e5cdf07" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X124._1Approved</definition>
+        <argsstring></argsstring>
+        <name>_1Approved</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X124._1Approved</qualifiedname>
+        <initializer>= &quot;1. Approved&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31759" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31759" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124_1aeff3189742ba5b9ade23bb30843f2fb8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X124._2Eligible</definition>
+        <argsstring></argsstring>
+        <name>_2Eligible</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X124._2Eligible</qualifiedname>
+        <initializer>= &quot;2. Eligible&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31760" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31760" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124_1abf1bd6c48d36157518589e4587a0faf5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X124._3Certified</definition>
+        <argsstring></argsstring>
+        <name>_3Certified</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X124._3Certified</qualifiedname>
+        <initializer>= &quot;3. Certified&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31761" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31761" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eUSDA_X124</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_1Approved</edgelabel>
+          <edgelabel>_2Eligible</edgelabel>
+          <edgelabel>_3Certified</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31757" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31758" bodyend="31762"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124_1aabc52cd2a3352974b29f61640e5cdf07" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X124</scope><name>_1Approved</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124_1aeff3189742ba5b9ade23bb30843f2fb8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X124</scope><name>_2Eligible</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x124_1abf1bd6c48d36157518589e4587a0faf5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X124</scope><name>_3Certified</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_down_payment_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::DownPaymentContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_down_payment_contract_1a591bb967180c59b2f979f2ea6af21b29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.DownPaymentContract.Amount</definition>
+        <argsstring></argsstring>
+        <name>Amount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownPaymentContract.Amount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" line="12" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_down_payment_contract_1aed4091cd7a3d891f80357c1569f94d74" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownPaymentContract.DownPaymentType</definition>
+        <argsstring></argsstring>
+        <name>DownPaymentType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownPaymentContract.DownPaymentType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" line="15" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_down_payment_contract_1afc35488c289913d93af15b1f137f51aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.DownPaymentContract.SourceDescription</definition>
+        <argsstring></argsstring>
+        <name>SourceDescription</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.DownPaymentContract.SourceDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/DownPaymentContract.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_down_payment_contract_1a591bb967180c59b2f979f2ea6af21b29" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownPaymentContract</scope><name>Amount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_down_payment_contract_1aed4091cd7a3d891f80357c1569f94d74" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownPaymentContract</scope><name>DownPaymentType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_down_payment_contract_1afc35488c289913d93af15b1f137f51aa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::DownPaymentContract</scope><name>SourceDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a1f725c946a1bf2c5a7219022b4a08948" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_disclosure_tracking2015_contract_alerts" kindref="compound">DisclosureTracking2015ContractAlerts</ref> &gt;</type>
+        <definition>List&lt;DisclosureTracking2015ContractAlerts&gt; ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Alerts</definition>
+        <argsstring></argsstring>
+        <name>Alerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Alerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="11" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1aace1f4b1a5089de76a8026d47fbb306a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="14" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab6de0980249af1258907bbd2ea5fa588" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Company</definition>
+        <argsstring></argsstring>
+        <name>Company</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Company</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="17" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a2cb546c92bf326526dd951cb733bddc0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.ContactMethod</definition>
+        <argsstring></argsstring>
+        <name>ContactMethod</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.ContactMethod</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="20" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab95df36860eedfac0ae15ec7ce54543c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.CreatedDate</definition>
+        <argsstring></argsstring>
+        <name>CreatedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.CreatedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="23" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ad64a810ec09c081f80688b518fddd4cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Email</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="26" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a27aaa5d3c18ac60143fe07a3b27feb5e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="29" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab4acbc2b58a519439fbd11689620ee54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="32" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab61ab0b6312352961b9905c1b489d907" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.Phone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="35" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ace412227f953a626f440edbda356a65b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.ShowInLoanLog</definition>
+        <argsstring></argsstring>
+        <name>ShowInLoanLog</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.ShowInLoanLog</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="38" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1af24a4fc7a83d1a52df345ebe4bfca835" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.UpdatedDate</definition>
+        <argsstring></argsstring>
+        <name>UpdatedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.UpdatedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="41" column="17" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a45f59367fb2dfc6064453c494c1180bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref></type>
+        <definition>EntityRefContract ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.ConversationContract.User</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="44" column="26" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" line="8" column="7" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/ConversationContract.cs" bodystart="9" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a1f725c946a1bf2c5a7219022b4a08948" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>Alerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1aace1f4b1a5089de76a8026d47fbb306a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab6de0980249af1258907bbd2ea5fa588" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>Company</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a2cb546c92bf326526dd951cb733bddc0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>ContactMethod</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab95df36860eedfac0ae15ec7ce54543c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>CreatedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ad64a810ec09c081f80688b518fddd4cf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>Email</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a27aaa5d3c18ac60143fe07a3b27feb5e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab4acbc2b58a519439fbd11689620ee54" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>Name</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ab61ab0b6312352961b9905c1b489d907" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>Phone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1ace412227f953a626f440edbda356a65b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>ShowInLoanLog</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1af24a4fc7a83d1a52df345ebe4bfca835" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>UpdatedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_conversation_contract_1a45f59367fb2dfc6064453c494c1180bb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::ConversationContract</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

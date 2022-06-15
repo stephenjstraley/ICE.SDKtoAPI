@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eClosing_AllngToNtSignedByTyp</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ_1a4e9124ec709ac43e1e09152e85ff3b58" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_AllngToNtSignedByTyp.LoanOriginator</definition>
+        <argsstring></argsstring>
+        <name>LoanOriginator</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_AllngToNtSignedByTyp.LoanOriginator</qualifiedname>
+        <initializer>= &quot;Loan Originator&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8152" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ_1ae5378f5806cb00a7b206fbb4dab6b62f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_AllngToNtSignedByTyp.LoanCloser</definition>
+        <argsstring></argsstring>
+        <name>LoanCloser</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_AllngToNtSignedByTyp.LoanCloser</qualifiedname>
+        <initializer>= &quot;Loan Closer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8153" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ_1a2923d734a3b71407a97ec94beb76c586" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_AllngToNtSignedByTyp.LenderContact</definition>
+        <argsstring></argsstring>
+        <name>LenderContact</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_AllngToNtSignedByTyp.LenderContact</qualifiedname>
+        <initializer>= &quot;Lender Contact&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8154" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eClosing_AllngToNtSignedByTyp</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>LenderContact</edgelabel>
+          <edgelabel>LoanCloser</edgelabel>
+          <edgelabel>LoanOriginator</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8150" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8151" bodyend="8155"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ_1a2923d734a3b71407a97ec94beb76c586" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_AllngToNtSignedByTyp</scope><name>LenderContact</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ_1ae5378f5806cb00a7b206fbb4dab6b62f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_AllngToNtSignedByTyp</scope><name>LoanCloser</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___allng_to_nt_signed_by_typ_1a4e9124ec709ac43e1e09152e85ff3b58" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_AllngToNtSignedByTyp</scope><name>LoanOriginator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

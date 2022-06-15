@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e2626</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1a9468c21de50a090d6d242db5eb136b82" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2626.BankedRetail</definition>
+        <argsstring></argsstring>
+        <name>BankedRetail</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2626.BankedRetail</qualifiedname>
+        <initializer>= &quot;Banked - Retail&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1740" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1a067dbe4ed8a9511d7db8f7d91a971882" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2626.BankedWholesale</definition>
+        <argsstring></argsstring>
+        <name>BankedWholesale</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2626.BankedWholesale</qualifiedname>
+        <initializer>= &quot;Banked - Wholesale&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1741" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1741" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1ac0c8fdf17f68cc7428eb5f07e438c831" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2626.Brokered</definition>
+        <argsstring></argsstring>
+        <name>Brokered</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2626.Brokered</qualifiedname>
+        <initializer>= &quot;Brokered&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1742" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1742" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1aab960b7455216b26e7f14f2fd867e665" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2626.Correspondent</definition>
+        <argsstring></argsstring>
+        <name>Correspondent</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2626.Correspondent</qualifiedname>
+        <initializer>= &quot;Correspondent&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1743" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1743" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e2626</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BankedRetail</edgelabel>
+          <edgelabel>BankedWholesale</edgelabel>
+          <edgelabel>Brokered</edgelabel>
+          <edgelabel>Correspondent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1738" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1739" bodyend="1744"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1a9468c21de50a090d6d242db5eb136b82" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2626</scope><name>BankedRetail</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1a067dbe4ed8a9511d7db8f7d91a971882" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2626</scope><name>BankedWholesale</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1ac0c8fdf17f68cc7428eb5f07e438c831" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2626</scope><name>Brokered</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2626_1aab960b7455216b26e7f14f2fd867e665" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2626</scope><name>Correspondent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

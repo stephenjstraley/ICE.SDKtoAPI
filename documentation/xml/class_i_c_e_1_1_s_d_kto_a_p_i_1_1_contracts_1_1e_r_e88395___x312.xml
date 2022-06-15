@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eRE88395_X312</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312_1a912011f2ede512850aabb020b669524c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X312.didnotchange</definition>
+        <argsstring></argsstring>
+        <name>didnotchange</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X312.didnotchange</qualifiedname>
+        <initializer>= &quot;did not change&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25976" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25976" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312_1a8e4d0ee5ec8edca7e8648f9d60525f4c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X312.increased</definition>
+        <argsstring></argsstring>
+        <name>increased</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X312.increased</qualifiedname>
+        <initializer>= &quot;increased&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25977" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25977" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312_1aa723cef77502a94dbb7b9d5359d55b4c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X312.decreased</definition>
+        <argsstring></argsstring>
+        <name>decreased</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X312.decreased</qualifiedname>
+        <initializer>= &quot;decreased&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25978" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25978" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eRE88395_X312</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>decreased</edgelabel>
+          <edgelabel>didnotchange</edgelabel>
+          <edgelabel>increased</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25974" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25975" bodyend="25979"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312_1aa723cef77502a94dbb7b9d5359d55b4c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X312</scope><name>decreased</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312_1a912011f2ede512850aabb020b669524c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X312</scope><name>didnotchange</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x312_1a8e4d0ee5ec8edca7e8648f9d60525f4c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X312</scope><name>increased</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

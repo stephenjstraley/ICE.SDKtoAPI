@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eVAVOB_X72</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72_1a5d33941f5e4f0005f45b5092fe8bc698" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAVOB_X72.RegularMilitary</definition>
+        <argsstring></argsstring>
+        <name>RegularMilitary</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAVOB_X72.RegularMilitary</qualifiedname>
+        <initializer>= &quot;Regular Military&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32557" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32557" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72_1a107c6ba9711b5e29523e707328902b42" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAVOB_X72.Reserves</definition>
+        <argsstring></argsstring>
+        <name>Reserves</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAVOB_X72.Reserves</qualifiedname>
+        <initializer>= &quot;Reserves&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32558" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72_1a7bdfddcc4985ae08cf03eb0b2a46f7b9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVAVOB_X72.NationalGuard</definition>
+        <argsstring></argsstring>
+        <name>NationalGuard</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVAVOB_X72.NationalGuard</qualifiedname>
+        <initializer>= &quot;National Guard&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32559" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32559" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eVAVOB_X72</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>NationalGuard</edgelabel>
+          <edgelabel>RegularMilitary</edgelabel>
+          <edgelabel>Reserves</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32555" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32556" bodyend="32560"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72_1a7bdfddcc4985ae08cf03eb0b2a46f7b9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAVOB_X72</scope><name>NationalGuard</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72_1a5d33941f5e4f0005f45b5092fe8bc698" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAVOB_X72</scope><name>RegularMilitary</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_v_o_b___x72_1a107c6ba9711b5e29523e707328902b42" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVAVOB_X72</scope><name>Reserves</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

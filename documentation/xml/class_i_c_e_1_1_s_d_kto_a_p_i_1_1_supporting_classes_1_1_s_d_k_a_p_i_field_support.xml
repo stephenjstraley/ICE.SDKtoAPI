@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_support" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::SupportingClasses::SDKAPIFieldSupport</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_support_1aa5881d1d859a8c0668efc8afa4a52b58" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.SupportingClasses.SDKAPIFieldSupport._pairLimit</definition>
+        <argsstring></argsstring>
+        <name>_pairLimit</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIFieldSupport._pairLimit</qualifiedname>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="22" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_support_1a0a49ab49d10f08e74bc7d1f1c7667e1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ICE.SDKtoAPI.SupportingClasses.SDKAPIFieldSupport.ParseDictionary</definition>
+        <argsstring>(string content, Dictionary&lt; string, APISchema &gt; fields, Dictionary&lt; string, APISchema &gt; dynamicFields)</argsstring>
+        <name>ParseDictionary</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIFieldSupport.ParseDictionary</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref> &gt;</type>
+          <declname>fields</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kindref="compound">APISchema</ref> &gt;</type>
+          <declname>dynamicFields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="23" column="28" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="23" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.SupportingClasses.SDKAPIFieldSupport</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_pairLimit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" line="20" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIField.cs" bodystart="21" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_support_1aa5881d1d859a8c0668efc8afa4a52b58" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIFieldSupport</scope><name>_pairLimit</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_field_support_1a0a49ab49d10f08e74bc7d1f1c7667e1b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIFieldSupport</scope><name>ParseDictionary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

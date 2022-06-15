@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eHMDA_X43</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1a7a3b20b1ffde0ecf0d41afabec360df2" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X43.Initiallypayabletoyourinstitution</definition>
+        <argsstring></argsstring>
+        <name>Initiallypayabletoyourinstitution</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X43.Initiallypayabletoyourinstitution</qualifiedname>
+        <initializer>= &quot;Initially payable to your institution&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12892" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1aea8d7eb46c580d59edbaacb4f941df97" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X43.Notinitiallypayabletoyourinstitution</definition>
+        <argsstring></argsstring>
+        <name>Notinitiallypayabletoyourinstitution</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X43.Notinitiallypayabletoyourinstitution</qualifiedname>
+        <initializer>= &quot;Not initially payable to your institution&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12893" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1a8228cf6a23a0c64710cea1a3a3e18745" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X43.Notapplicable</definition>
+        <argsstring></argsstring>
+        <name>Notapplicable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X43.Notapplicable</qualifiedname>
+        <initializer>= &quot;Not applicable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12894" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1a0e4094e4dc383693fd49e7638c3b05dd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X43.Exempt</definition>
+        <argsstring></argsstring>
+        <name>Exempt</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X43.Exempt</qualifiedname>
+        <initializer>= &quot;Exempt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12895" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12895" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eHMDA_X43</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Exempt</edgelabel>
+          <edgelabel>Initiallypayabletoyourinstitution</edgelabel>
+          <edgelabel>Notapplicable</edgelabel>
+          <edgelabel>Notinitiallypayabletoyourinstitution</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12890" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12891" bodyend="12896"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1a0e4094e4dc383693fd49e7638c3b05dd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X43</scope><name>Exempt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1a7a3b20b1ffde0ecf0d41afabec360df2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X43</scope><name>Initiallypayabletoyourinstitution</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1a8228cf6a23a0c64710cea1a3a3e18745" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X43</scope><name>Notapplicable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x43_1aea8d7eb46c580d59edbaacb4f941df97" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X43</scope><name>Notinitiallypayabletoyourinstitution</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

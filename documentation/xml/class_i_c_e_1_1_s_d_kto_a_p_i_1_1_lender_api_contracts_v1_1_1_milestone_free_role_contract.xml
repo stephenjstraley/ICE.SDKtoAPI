@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneFreeRoleContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract_1a366b9d8cc464c7269a2a964b967c12de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.MilestoneFreeRoleContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneFreeRoleContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/MilestoneFreeRoleContract.cs" line="9" column="15" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/MilestoneFreeRoleContract.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract_1a4fa070b363de1fe46d4ad7bbb65d7990" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract_loan_associate" kindref="compound">MilestoneFreeRoleContractLoanAssociate</ref></type>
+        <definition>MilestoneFreeRoleContractLoanAssociate ICE.SDKtoAPI.LenderApiContractsV1.MilestoneFreeRoleContract.LoanAssociate</definition>
+        <argsstring></argsstring>
+        <name>LoanAssociate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MilestoneFreeRoleContract.LoanAssociate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/MilestoneFreeRoleContract.cs" line="12" column="47" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/MilestoneFreeRoleContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/MilestoneFreeRoleContract.cs" line="6" column="7" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/MilestoneFreeRoleContract.cs" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract_1a366b9d8cc464c7269a2a964b967c12de" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneFreeRoleContract</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract_1a4fa070b363de1fe46d4ad7bbb65d7990" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MilestoneFreeRoleContract</scope><name>LoanAssociate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x126" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eRE88395_X126</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x126_1aa11bbea1f5a764888bf6507220558468" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X126.OriginalBalance</definition>
+        <argsstring></argsstring>
+        <name>OriginalBalance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X126.OriginalBalance</qualifiedname>
+        <initializer>= &quot;Original Balance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25955" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25955" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x126_1a5f08ec62282f2c271a4800b734803b9a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eRE88395_X126.UnpaidBalance</definition>
+        <argsstring></argsstring>
+        <name>UnpaidBalance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eRE88395_X126.UnpaidBalance</qualifiedname>
+        <initializer>= &quot;Unpaid Balance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25956" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25956" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eRE88395_X126</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x126"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>OriginalBalance</edgelabel>
+          <edgelabel>UnpaidBalance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25953" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25954" bodyend="25957"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x126_1aa11bbea1f5a764888bf6507220558468" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X126</scope><name>OriginalBalance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_r_e88395___x126_1a5f08ec62282f2c271a4800b734803b9a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eRE88395_X126</scope><name>UnpaidBalance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e988</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1ae1d6da878aa868ae92c7482a521af864" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e988.ExistingOrUsedHome</definition>
+        <argsstring></argsstring>
+        <name>ExistingOrUsedHome</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e988.ExistingOrUsedHome</qualifiedname>
+        <initializer>= &quot;ExistingOrUsedHome&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="791" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1a446588a7136564b4b4a54ac6f08b84d5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e988.ProposedConstruction</definition>
+        <argsstring></argsstring>
+        <name>ProposedConstruction</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e988.ProposedConstruction</qualifiedname>
+        <initializer>= &quot;ProposedConstruction&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="792" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1aaa285dde39d84eaf55376db83d5313df" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e988.NewExistingNeverOccupied</definition>
+        <argsstring></argsstring>
+        <name>NewExistingNeverOccupied</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e988.NewExistingNeverOccupied</qualifiedname>
+        <initializer>= &quot;NewExisting-NeverOccupied&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="793" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="793" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1a498b69ec36ea1c8d1d33a28123bf7108" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e988.EnergyImprovements</definition>
+        <argsstring></argsstring>
+        <name>EnergyImprovements</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e988.EnergyImprovements</qualifiedname>
+        <initializer>= &quot;EnergyImprovements&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="794" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="794" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e988</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>EnergyImprovements</edgelabel>
+          <edgelabel>ExistingOrUsedHome</edgelabel>
+          <edgelabel>NewExistingNeverOccupied</edgelabel>
+          <edgelabel>ProposedConstruction</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="789" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="790" bodyend="795"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1a498b69ec36ea1c8d1d33a28123bf7108" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e988</scope><name>EnergyImprovements</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1ae1d6da878aa868ae92c7482a521af864" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e988</scope><name>ExistingOrUsedHome</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1aaa285dde39d84eaf55376db83d5313df" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e988</scope><name>NewExistingNeverOccupied</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e988_1a446588a7136564b4b4a54ac6f08b84d5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e988</scope><name>ProposedConstruction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

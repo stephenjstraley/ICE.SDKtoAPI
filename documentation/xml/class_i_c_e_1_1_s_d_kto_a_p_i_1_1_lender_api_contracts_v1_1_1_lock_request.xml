@@ -1,0 +1,750 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab27a51acb2fa5429bb4131f1826e401c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.UnDiscountedRate</definition>
+        <argsstring></argsstring>
+        <name>UnDiscountedRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.UnDiscountedRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="9" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ad2f17e49c564f87552486115fa9f6616" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.StartingAdjustRate</definition>
+        <argsstring></argsstring>
+        <name>StartingAdjustRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.StartingAdjustRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="10" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a8fd3ceba721d93746796b67732d9410a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.StartingAdjustPrice</definition>
+        <argsstring></argsstring>
+        <name>StartingAdjustPrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.StartingAdjustPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="11" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab1208e872e3fb69354bc9b58869b2c0b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ProgramNotes</definition>
+        <argsstring></argsstring>
+        <name>ProgramNotes</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ProgramNotes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a50161d10b812c4068ce0659595726634" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExpectedNetPrice</definition>
+        <argsstring></argsstring>
+        <name>ExpectedNetPrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExpectedNetPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="13" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ae3862348b97b34188e22d93ee6d27def" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OnrpDate</definition>
+        <argsstring></argsstring>
+        <name>OnrpDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OnrpDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="14" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a2770ef4a8e13d4229da4e254f3a84e3f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OnrpEligible</definition>
+        <argsstring></argsstring>
+        <name>OnrpEligible</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OnrpEligible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="15" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab7f1f8aaaf2a632b69e4ba8efc468788" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CorrespondentCommitmentType</definition>
+        <argsstring></argsstring>
+        <name>CorrespondentCommitmentType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CorrespondentCommitmentType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="16" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ac0c72998bcec7b8b0073bc961a6de443" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CorrespondentDeliveryType</definition>
+        <argsstring></argsstring>
+        <name>CorrespondentDeliveryType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CorrespondentDeliveryType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="17" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a9b3d646e49f1321df7e759a5a3a94244" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CumulatedDaystoExtend</definition>
+        <argsstring></argsstring>
+        <name>CumulatedDaystoExtend</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CumulatedDaystoExtend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="18" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ad0637379d154bdb5a199234a4c6277c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExtensionSequenceNumber</definition>
+        <argsstring></argsstring>
+        <name>ExtensionSequenceNumber</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExtensionSequenceNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="19" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ac06bedb02ddb083fbb6e7dec8a4163e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OnrpLock</definition>
+        <argsstring></argsstring>
+        <name>OnrpLock</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OnrpLock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="20" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a545c4c2e346ec3eca2feaef25ad6fdf5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.Hedging</definition>
+        <argsstring></argsstring>
+        <name>Hedging</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.Hedging</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="21" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1adf52dddadfdbe975cddf24865cc4f150" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.PenaltyTerm</definition>
+        <argsstring></argsstring>
+        <name>PenaltyTerm</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.PenaltyTerm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="22" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a090dca75211596d1765b91ebe550a96e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.PrepayPenalty</definition>
+        <argsstring></argsstring>
+        <name>PrepayPenalty</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.PrepayPenalty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="23" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a631f58bf484581a2650265b6539a6520" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.DaystoExtend</definition>
+        <argsstring></argsstring>
+        <name>DaystoExtend</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.DaystoExtend</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="24" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aaedaafe4661f95992ceec2add1327422" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExtendedLockExpirationDate</definition>
+        <argsstring></argsstring>
+        <name>ExtendedLockExpirationDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExtendedLockExpirationDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="25" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab852971609c04f12c396992e2fccf4d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.FulfilledDate</definition>
+        <argsstring></argsstring>
+        <name>FulfilledDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.FulfilledDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="26" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a02156dabc3615af5ee76bb068ee68c17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockCancellationComment</definition>
+        <argsstring></argsstring>
+        <name>LockCancellationComment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockCancellationComment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="27" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1acd5f9410a700b97938252b7a97ecfd45" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockCancellationDate</definition>
+        <argsstring></argsstring>
+        <name>LockCancellationDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockCancellationDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="28" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a3bc63331ecd482a7ec6304e4ba23f9da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockExtendComment</definition>
+        <argsstring></argsstring>
+        <name>LockExtendComment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockExtendComment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="29" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a7a5c5f160ff32b8a384106606ef37d67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockExtendPriceAdjustment</definition>
+        <argsstring></argsstring>
+        <name>LockExtendPriceAdjustment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockExtendPriceAdjustment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="30" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ac132a11d96ad3bdd51ec1eb7db355e64" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.MarginSrpPaidOut</definition>
+        <argsstring></argsstring>
+        <name>MarginSrpPaidOut</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.MarginSrpPaidOut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="31" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a97bb86b1a7283867ae2e27f128311f86" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.IsDeliveryType</definition>
+        <argsstring></argsstring>
+        <name>IsDeliveryType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.IsDeliveryType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="32" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aca31d07685e7a0aaeb1fd12f2f59213c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.IsCancelled</definition>
+        <argsstring></argsstring>
+        <name>IsCancelled</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.IsCancelled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="33" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a7b6e21c891610b9d6656f9809063664e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.RateStatus</definition>
+        <argsstring></argsstring>
+        <name>RateStatus</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.RateStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="34" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a97bef3ce3d202a806b2b4759e36b2588" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.RequestPending</definition>
+        <argsstring></argsstring>
+        <name>RequestPending</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.RequestPending</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="35" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1af9ea598c89a9cabde2f2b0cc6e232b2e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExtensionRequestPending</definition>
+        <argsstring></argsstring>
+        <name>ExtensionRequestPending</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ExtensionRequestPending</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="36" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a57665120370124d542c5b77da7bf929a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CancellationRequestPending</definition>
+        <argsstring></argsstring>
+        <name>CancellationRequestPending</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.CancellationRequestPending</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="37" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a5bfe8d70ffe66e75ccd986ce82eb3946" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ReLockRequestPending</definition>
+        <argsstring></argsstring>
+        <name>ReLockRequestPending</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.ReLockRequestPending</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="38" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a7de5f8048ea7686902ca380bcf98d1b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.RateSheetId</definition>
+        <argsstring></argsstring>
+        <name>RateSheetId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.RateSheetId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="39" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a1af9a505ed6b1f5a7af59271d697a264" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LastRateSetDate</definition>
+        <argsstring></argsstring>
+        <name>LastRateSetDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LastRateSetDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="40" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a2ac382601e8793bdee6b7471e1dba757" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockNumberOfDays</definition>
+        <argsstring></argsstring>
+        <name>LockNumberOfDays</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockNumberOfDays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="41" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a2f9599996a9f48d81b5720612ea3ceb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockDate</definition>
+        <argsstring></argsstring>
+        <name>LockDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="42" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a02ebdd7380565f497879ad903428c5ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockExpirationDate</definition>
+        <argsstring></argsstring>
+        <name>LockExpirationDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LockExpirationDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="43" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a437c488225a9ccae7777859235c7a019" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.BaseRate</definition>
+        <argsstring></argsstring>
+        <name>BaseRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.BaseRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="44" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a27f733ad1be76bd31b2913c761a67e29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_adjustment" kindref="compound">RateAdjustment</ref> &gt;</type>
+        <definition>List&lt;RateAdjustment&gt; ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.Adjustments</definition>
+        <argsstring></argsstring>
+        <name>Adjustments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.Adjustments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="45" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a98395266665d5c75a779c816edba4f1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.TotalRateAdjustments</definition>
+        <argsstring></argsstring>
+        <name>TotalRateAdjustments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.TotalRateAdjustments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="46" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a50349b063bf6731b02a924f547c7f954" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.NetRate</definition>
+        <argsstring></argsstring>
+        <name>NetRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.NetRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="47" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1abeba81a5b150298cd86a339eff6ac100" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.BasePrice</definition>
+        <argsstring></argsstring>
+        <name>BasePrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.BasePrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="48" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a30db9328280829f97601f1f561c67b29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.TotalPriceAdjustments</definition>
+        <argsstring></argsstring>
+        <name>TotalPriceAdjustments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.TotalPriceAdjustments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="49" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1afc9a4073fe66d93fa79cb3ae52d6c589" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.NetPrice</definition>
+        <argsstring></argsstring>
+        <name>NetPrice</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.NetPrice</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="50" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a20f4a26487af3d331686c7d85646f30a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.BaseMarginRate</definition>
+        <argsstring></argsstring>
+        <name>BaseMarginRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.BaseMarginRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="51" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a32caae6e313172127e20108767ff064f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.TotalMarginAdjustments</definition>
+        <argsstring></argsstring>
+        <name>TotalMarginAdjustments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.TotalMarginAdjustments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="52" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aa79a7878960affedc481b8e0d85b1b5f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.NetMarginRate</definition>
+        <argsstring></argsstring>
+        <name>NetMarginRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.NetMarginRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="53" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aa5099439b8ad9156734e5bf5da00560b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="54" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aaf383333e722c9b6d11b43168cc555b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OriginalLockExpirationDate</definition>
+        <argsstring></argsstring>
+        <name>OriginalLockExpirationDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.OriginalLockExpirationDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="55" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ade19ea15f0d6483a5de1fa1c3c127653" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.SrpPaidOut</definition>
+        <argsstring></argsstring>
+        <name>SrpPaidOut</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.SrpPaidOut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="56" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a47e9e681428a3920dc2d15a402ac69d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LoanProgram</definition>
+        <argsstring></argsstring>
+        <name>LoanProgram</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.LockRequest.LoanProgram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="57" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/LockRequest.cs" bodystart="8" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a27f733ad1be76bd31b2913c761a67e29" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>Adjustments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a20f4a26487af3d331686c7d85646f30a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>BaseMarginRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1abeba81a5b150298cd86a339eff6ac100" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>BasePrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a437c488225a9ccae7777859235c7a019" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>BaseRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a57665120370124d542c5b77da7bf929a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>CancellationRequestPending</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aa5099439b8ad9156734e5bf5da00560b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab7f1f8aaaf2a632b69e4ba8efc468788" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>CorrespondentCommitmentType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ac0c72998bcec7b8b0073bc961a6de443" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>CorrespondentDeliveryType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a9b3d646e49f1321df7e759a5a3a94244" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>CumulatedDaystoExtend</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a631f58bf484581a2650265b6539a6520" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>DaystoExtend</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a50161d10b812c4068ce0659595726634" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>ExpectedNetPrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aaedaafe4661f95992ceec2add1327422" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>ExtendedLockExpirationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1af9ea598c89a9cabde2f2b0cc6e232b2e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>ExtensionRequestPending</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ad0637379d154bdb5a199234a4c6277c0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>ExtensionSequenceNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab852971609c04f12c396992e2fccf4d6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>FulfilledDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a545c4c2e346ec3eca2feaef25ad6fdf5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>Hedging</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aca31d07685e7a0aaeb1fd12f2f59213c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>IsCancelled</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a97bb86b1a7283867ae2e27f128311f86" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>IsDeliveryType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a1af9a505ed6b1f5a7af59271d697a264" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LastRateSetDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a47e9e681428a3920dc2d15a402ac69d7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LoanProgram</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a02156dabc3615af5ee76bb068ee68c17" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LockCancellationComment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1acd5f9410a700b97938252b7a97ecfd45" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LockCancellationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a2f9599996a9f48d81b5720612ea3ceb1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LockDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a02ebdd7380565f497879ad903428c5ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LockExpirationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a3bc63331ecd482a7ec6304e4ba23f9da" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LockExtendComment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a7a5c5f160ff32b8a384106606ef37d67" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LockExtendPriceAdjustment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a2ac382601e8793bdee6b7471e1dba757" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>LockNumberOfDays</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ac132a11d96ad3bdd51ec1eb7db355e64" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>MarginSrpPaidOut</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aa79a7878960affedc481b8e0d85b1b5f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>NetMarginRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1afc9a4073fe66d93fa79cb3ae52d6c589" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>NetPrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a50349b063bf6731b02a924f547c7f954" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>NetRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ae3862348b97b34188e22d93ee6d27def" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>OnrpDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a2770ef4a8e13d4229da4e254f3a84e3f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>OnrpEligible</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ac06bedb02ddb083fbb6e7dec8a4163e3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>OnrpLock</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1aaf383333e722c9b6d11b43168cc555b4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>OriginalLockExpirationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1adf52dddadfdbe975cddf24865cc4f150" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>PenaltyTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a090dca75211596d1765b91ebe550a96e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>PrepayPenalty</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab1208e872e3fb69354bc9b58869b2c0b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>ProgramNotes</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a7de5f8048ea7686902ca380bcf98d1b6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>RateSheetId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a7b6e21c891610b9d6656f9809063664e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>RateStatus</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a5bfe8d70ffe66e75ccd986ce82eb3946" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>ReLockRequestPending</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a97bef3ce3d202a806b2b4759e36b2588" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>RequestPending</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ade19ea15f0d6483a5de1fa1c3c127653" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>SrpPaidOut</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a8fd3ceba721d93746796b67732d9410a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>StartingAdjustPrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ad2f17e49c564f87552486115fa9f6616" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>StartingAdjustRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a32caae6e313172127e20108767ff064f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>TotalMarginAdjustments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a30db9328280829f97601f1f561c67b29" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>TotalPriceAdjustments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1a98395266665d5c75a779c816edba4f1c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>TotalRateAdjustments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_lock_request_1ab27a51acb2fa5429bb4131f1826e401c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::LockRequest</scope><name>UnDiscountedRate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Providers::CommonService</compoundname>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.BaseProviderService</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ab9e708e2331a997afa900d51465bf6a8" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref></type>
+        <definition>AccessToken ICE.SDKtoAPI.Providers.CommonService._token</definition>
+        <argsstring></argsstring>
+        <name>_token</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService._token</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="18" column="31" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa7b2a662f3b757e33fbfc98bf26473b6" prot="protected" static="no" mutable="no">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage ICE.SDKtoAPI.Providers.CommonService._lastMsg</definition>
+        <argsstring></argsstring>
+        <name>_lastMsg</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService._lastMsg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="19" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa8d15ca1b463876f7c5f5ee707477a0d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService._response</definition>
+        <argsstring></argsstring>
+        <name>_response</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService._response</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="20" column="37" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a5ae7d59de46d7df2f05fd1859916fc0d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths" kindref="compound">UrlPaths</ref></type>
+        <definition>UrlPaths ICE.SDKtoAPI.Providers.CommonService.paths</definition>
+        <argsstring></argsstring>
+        <name>paths</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.paths</qualifiedname>
+        <initializer>= new <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths" kindref="compound">UrlPaths</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="21" column="28" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a642e4bf412951f34574ffeed7d109bd7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.Providers.CommonService.SaveResponse</definition>
+        <argsstring></argsstring>
+        <name>SaveResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.SaveResponse</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="22" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aecb677e70e8afda6090578a159f8b038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Providers.CommonService.CommonService</definition>
+        <argsstring>(AccessToken token)</argsstring>
+        <name>CommonService</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.CommonService</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref></type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="24" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a31acaab6d054ebad8dc032ee9c2e13ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IFlurlRequest</type>
+        <definition>IFlurlRequest ICE.SDKtoAPI.Providers.CommonService.Authenticate</definition>
+        <argsstring>(string url)</argsstring>
+        <name>Authenticate</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.Authenticate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="25" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a87102226cd38ffc5a231c2a7fae29925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.Providers.CommonService.ClearResponse</definition>
+        <argsstring>()</argsstring>
+        <name>ClearResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.ClearResponse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="30" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ae9caa06065d640b18e8a7e2fdd1b87ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.OkResponse</definition>
+        <argsstring>(string url=&quot;&quot;)</argsstring>
+        <name>OkResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.OkResponse</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="35" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="35" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1afda0f99ff2d1077c730390365cb1330c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.OkResponse</definition>
+        <argsstring>(HttpResponseHeaders headers, string url=&quot;&quot;)</argsstring>
+        <name>OkResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.OkResponse</qualifiedname>
+        <param>
+          <type>HttpResponseHeaders</type>
+          <declname>headers</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="44" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="44" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a0fc73cdfac8a069fe55ab220f4856a28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.OkResponse</definition>
+        <argsstring>(HttpResponseMessage response, string url=&quot;&quot;)</argsstring>
+        <name>OkResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.OkResponse</qualifiedname>
+        <param>
+          <type>HttpResponseMessage</type>
+          <declname>response</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="54" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a10542411058de814149f1420879fe913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.OkResponse</definition>
+        <argsstring>(HttpResponseMessage response, string url, string query)</argsstring>
+        <name>OkResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.OkResponse</qualifiedname>
+        <param>
+          <type>HttpResponseMessage</type>
+          <declname>response</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="64" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="64" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.BadResponse</definition>
+        <argsstring>(FlurlHttpException e, string path, string respCont)</argsstring>
+        <name>BadResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.BadResponse</qualifiedname>
+        <param>
+          <type>FlurlHttpException</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>respCont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="75" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1adf2fff3f0f72d729f20c912068e37f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.BadResponse</definition>
+        <argsstring>(Exception ex, string path, string respCont)</argsstring>
+        <name>BadResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.BadResponse</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>respCont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="81" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a151d7499eed883c06d3468154a125503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.BadResponse</definition>
+        <argsstring>(HttpStatusCode status, string message, string errorMessage, string respCont, string url=&quot;&quot;)</argsstring>
+        <name>BadResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.BadResponse</qualifiedname>
+        <param>
+          <type>HttpStatusCode</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>errorMessage</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>respCont</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="86" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa0e201b04c20da01f382d89440715e2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref></type>
+        <definition>LenderApiResponse ICE.SDKtoAPI.Providers.CommonService.BadResponse</definition>
+        <argsstring>(HttpStatusCode status, string message, object errorMessage, string respCont, string url=&quot;&quot;)</argsstring>
+        <name>BadResponse</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.BadResponse</qualifiedname>
+        <param>
+          <type>HttpStatusCode</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>errorMessage</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>respCont</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>url</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="98" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="98" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a2947b6e3a8030ac7b34318064fa1818a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; T &gt;</type>
+        <definition>async Task&lt; T &gt; ICE.SDKtoAPI.Providers.CommonService.Get&lt; T &gt;</definition>
+        <argsstring>(string path)</argsstring>
+        <name>Get&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.Get&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="111" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="111" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aefb2409254d928d851c16099ac29ca4d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; string &gt;</type>
+        <definition>async Task&lt; string &gt; ICE.SDKtoAPI.Providers.CommonService.GetString</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetString</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.GetString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="137" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="137" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a8ee1c885b8c14485a0252dac7e9814c0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; T &gt;</type>
+        <definition>async Task&lt; T &gt; ICE.SDKtoAPI.Providers.CommonService.Patch&lt; T &gt;</definition>
+        <argsstring>(object item, string path)</argsstring>
+        <name>Patch&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.Patch&lt; T &gt;</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="159" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="159" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a159e7930cc58e07d85bd58895a7dbb80" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ICE.SDKtoAPI.Providers.CommonService.Patch</definition>
+        <argsstring>(object item, string path)</argsstring>
+        <name>Patch</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.Patch</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="180" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="180" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a85226ec22697fb840caac8d53459326f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; T &gt;</type>
+        <definition>async Task&lt; T &gt; ICE.SDKtoAPI.Providers.CommonService.Post&lt; T &gt;</definition>
+        <argsstring>(object item, string path)</argsstring>
+        <name>Post&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.Post&lt; T &gt;</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="197" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="197" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ac78506a742216515e6e2b480458647e0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ICE.SDKtoAPI.Providers.CommonService.Post</definition>
+        <argsstring>(object item, string path)</argsstring>
+        <name>Post</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.Post</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="224" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="224" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a07660f86bc474578caf0d4863722b97c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ICE.SDKtoAPI.Providers.CommonService.Delete</definition>
+        <argsstring>(string path)</argsstring>
+        <name>Delete</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.CommonService.Delete</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="241" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="241" bodyend="257"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+      </node>
+      <node id="2">
+        <label>ICE.SDKtoAPI.Providers.BaseProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICE.SDKtoAPI.Providers.BatchProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_batch_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Providers.BorrowerPairProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_borrower_pair_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ICE.SDKtoAPI.Providers.ClosingDisclosuresService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_closing_disclosures_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ICE.SDKtoAPI.Providers.DocumentProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ICE.SDKtoAPI.Providers.EnhancedConditionsProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_enhanced_conditions_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ICE.SDKtoAPI.Providers.FolderProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_folder_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ICE.SDKtoAPI.Providers.LoanProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_loan_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ICE.SDKtoAPI.Providers.LockProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ICE.SDKtoAPI.Providers.MilestoneProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ICE.SDKtoAPI.Providers.MismoProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ICE.SDKtoAPI.Providers.PipelineProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_pipeline_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ICE.SDKtoAPI.Providers.RoleProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ICE.SDKtoAPI.Providers.SettingProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ICE.SDKtoAPI.Providers.TokenProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_token_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>ICE.SDKtoAPI.Providers.WebHookProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_web_hook_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_token</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_response</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ICE.SDKtoAPI.Contracts.AccessToken</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token"/>
+      </node>
+      <node id="3">
+        <label>ICE.SDKtoAPI.Contracts.LenderApiResponse</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response"/>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Contracts.UrlPaths</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" line="16" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/CommonService.cs" bodystart="17" bodyend="258"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa7b2a662f3b757e33fbfc98bf26473b6" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>_lastMsg</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa8d15ca1b463876f7c5f5ee707477a0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>_response</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ab9e708e2331a997afa900d51465bf6a8" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>_token</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a31acaab6d054ebad8dc032ee9c2e13ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>Authenticate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1adf2fff3f0f72d729f20c912068e37f44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a151d7499eed883c06d3468154a125503" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa0e201b04c20da01f382d89440715e2f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a87102226cd38ffc5a231c2a7fae29925" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>ClearResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aecb677e70e8afda6090578a159f8b038" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>CommonService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a07660f86bc474578caf0d4863722b97c" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>Delete</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a2947b6e3a8030ac7b34318064fa1818a" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aefb2409254d928d851c16099ac29ca4d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>GetString</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ae9caa06065d640b18e8a7e2fdd1b87ec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1afda0f99ff2d1077c730390365cb1330c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a0fc73cdfac8a069fe55ab220f4856a28" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a10542411058de814149f1420879fe913" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a159e7930cc58e07d85bd58895a7dbb80" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>Patch</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a8ee1c885b8c14485a0252dac7e9814c0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>Patch&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a5ae7d59de46d7df2f05fd1859916fc0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>paths</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ac78506a742216515e6e2b480458647e0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>Post</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a85226ec22697fb840caac8d53459326f" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>Post&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a642e4bf412951f34574ffeed7d109bd7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::CommonService</scope><name>SaveResponse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e2217</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217_1a7c730d156c44e109d9c2554432acd2a1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2217._1Year</definition>
+        <argsstring></argsstring>
+        <name>_1Year</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2217._1Year</qualifiedname>
+        <initializer>= &quot;1 Year&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1581" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217_1a69795cb53f942b6ad160bf7d9a4e7123" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2217._2Years</definition>
+        <argsstring></argsstring>
+        <name>_2Years</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2217._2Years</qualifiedname>
+        <initializer>= &quot;2 Years&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1582" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217_1a48b9582ff669e2c65186d4667b807b3d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2217._3Years</definition>
+        <argsstring></argsstring>
+        <name>_3Years</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2217._3Years</qualifiedname>
+        <initializer>= &quot;3 Years&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1583" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1583" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e2217</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_1Year</edgelabel>
+          <edgelabel>_2Years</edgelabel>
+          <edgelabel>_3Years</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1579" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1580" bodyend="1584"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217_1a7c730d156c44e109d9c2554432acd2a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2217</scope><name>_1Year</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217_1a69795cb53f942b6ad160bf7d9a4e7123" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2217</scope><name>_2Years</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2217_1a48b9582ff669e2c65186d4667b807b3d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2217</scope><name>_3Years</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

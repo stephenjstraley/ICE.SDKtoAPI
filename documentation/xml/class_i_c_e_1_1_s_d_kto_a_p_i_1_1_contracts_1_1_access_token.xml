@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::AccessToken</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1af0ab1c5f97ddd3d9910355b70ad78a4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.AccessToken.Access_Token</definition>
+        <argsstring></argsstring>
+        <name>Access_Token</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.AccessToken.Access_Token</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" line="9" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1a14c729e4276ba7be440a9904cded1266" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.AccessToken.Token_Type</definition>
+        <argsstring></argsstring>
+        <name>Token_Type</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.AccessToken.Token_Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" line="10" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1a93eaae78caf97d5542ac88559271b85f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ICE.SDKtoAPI.Contracts.AccessToken.GeneratedAt</definition>
+        <argsstring></argsstring>
+        <name>GeneratedAt</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.AccessToken.GeneratedAt</qualifiedname>
+        <initializer>= DateTime.Now</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" line="11" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1a24de9910b787eab3e5a6e1ffc0fa0757" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ICE.SDKtoAPI.Contracts.AccessToken.LastUsage</definition>
+        <argsstring></argsstring>
+        <name>LastUsage</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.AccessToken.LastUsage</qualifiedname>
+        <initializer>= DateTime.Now</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" line="12" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1aaeb0062f30a50c6a6dd8386235f31c42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.Contracts.AccessToken.Success</definition>
+        <argsstring></argsstring>
+        <name>Success</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.AccessToken.Success</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" line="13" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/AccessToken.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1af0ab1c5f97ddd3d9910355b70ad78a4f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::AccessToken</scope><name>Access_Token</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1a93eaae78caf97d5542ac88559271b85f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::AccessToken</scope><name>GeneratedAt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1a24de9910b787eab3e5a6e1ffc0fa0757" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::AccessToken</scope><name>LastUsage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1aaeb0062f30a50c6a6dd8386235f31c42" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::AccessToken</scope><name>Success</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token_1a14c729e4276ba7be440a9904cded1266" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::AccessToken</scope><name>Token_Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

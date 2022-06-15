@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.ReoPropertyContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_full_1aa22266748e561bdcfa1ecf8f3ddfbc4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.ReoPropertyContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ReoPropertyContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ReoPropertyContract.cs" line="139" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ReoPropertyContract.cs" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_full_1acdd5a1ff6e5187f9115adb3b302da489" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.ReoPropertyContractFull.NoLinkToDocTrackIndicator</definition>
+        <argsstring></argsstring>
+        <name>NoLinkToDocTrackIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.ReoPropertyContractFull.NoLinkToDocTrackIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ReoPropertyContract.cs" line="142" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ReoPropertyContract.cs" bodystart="142" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.ReoPropertyContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ReoPropertyContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.ReoPropertyContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ReoPropertyContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ReoPropertyContract.cs" line="136" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/ReoPropertyContract.cs" bodystart="137" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a11aaaa4a7dd0329ebd5f787cd8587158" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>AcquiredDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_full_1aa22266748e561bdcfa1ecf8f3ddfbc4a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a49824e45f276e8fdc2258807bfd63942" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>City</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a374da1af10225504e1a04eaa80e5bed2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>Country</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1acc048f262a9f59481d5d674d9d424c9d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>CountryCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a71ae3b98276ca1d8e131e5a855e0e1ac" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>DispositionStatusType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a5f9d97333d23ab6efcf6d72f2f45162e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>ForeignAddressIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a500b2ae166e809deda75479dee683d8f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>FuturePropertyUsageType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1add59d924150062ba28d29717b0fbd6da" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>FutureUsageTypeOtherDesc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1aeb520c36e0096015556c86eb9349d048" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>GsePropertyType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a5032b4bf2834956ae7225a556d10ac3e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a1282dbfe501fa4680fdfb37de19e3851" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>IncludeInAusExport</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a9a7fa25e0601c08bbf14d1419e24d417" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>LiabilityDoesNotApply</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1abbc351e67fa0633d9021c9379770ce1a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>LienInstallmentAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1aaa6a5a4bc2eaf2fa197677cf1c09ec2c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>LienUpbAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a1b0fe280178408564fc76da87168d016" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>MaintenanceExpenseAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a99b28be5f7ff8156aa2a62dd268bf88a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>MarketValueAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_full_1acdd5a1ff6e5187f9115adb3b302da489" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>NoLinkToDocTrackIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a82ac71c88a9abccbe0a86aa25645a66d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>NumberOfUnits</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1afa9c3eceef4e6ba3e964d51e88c95893" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>Owner</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1abc72c975f3f5c2fcac7b8bad4b37eb48" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>ParticipationPercentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a8f0e5bc822f39c5ae8e6158f4cad217b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PendingSaleDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1ae514e36822686db7659323efa6ca551e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PercentageofRental</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a259e8bab6361b67a83fbc9c24f83bff5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a8acc908ca280f537ad5a466fa60e9763" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PrintAttachIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a02b060b859fc7a3d37e84d7f5305bd72" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a21378123858349b888697a108a157815" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PrintUserNameIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a7e35e4b6c44242cdfda2a3169c1f01d6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PropertyUsageType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1acd41c66016759a079abe9e0f0c8d251d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>PurchasePrice</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a42d3bdc84ad0a4350960013090e26fff" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>RentalIncomeGrossAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1aea965a0f4a4a2d378944fc4db220a936" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>RentalIncomeNetAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a0860348a8dccfb26af5c2a5eb7f9bc46" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>ReoComments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a08dd099858e29ba801fa0061947c203e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>RequestDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a57c42015a76ee5e7a66adb4de2f5638b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>State</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a16d20e1cce251329dfed0152a358f2ed" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>StreetAddress</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a2e2f4023a145688ae430fe0cf0c0cf08" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>SubjectIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1af89f4373e6ae706b18e03a5d921a902d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a512f4a04159b0d258c67d1b1fec54214" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a322ea59131dcce6bb7d71dadcf93fec4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>TitlePhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1aad675d3601ac43f9334c9c9fb34d0327" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>UnitNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1ad9e692d8098511040054ae68d2913f89" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>UnitType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a830b1cc8c7fffce8bc915696ac36e14b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>Urla2020StreetAddress</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_reo_property_contract_1a217c33a318ee79aac35a816702ec648d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::ReoPropertyContractFull</scope><name>YearBuilt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___trustee_of" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eBorr_TrusteeOf</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___trustee_of_1a33fe28c64cfab3462aff1f085e3d55d9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eBorr_TrusteeOf.Trust1</definition>
+        <argsstring></argsstring>
+        <name>Trust1</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eBorr_TrusteeOf.Trust1</qualifiedname>
+        <initializer>= &quot;Trust 1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4203" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___trustee_of_1aa98ab994dedbd83dc368edb52757919c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eBorr_TrusteeOf.Trust2</definition>
+        <argsstring></argsstring>
+        <name>Trust2</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eBorr_TrusteeOf.Trust2</qualifiedname>
+        <initializer>= &quot;Trust 2&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4204" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eBorr_TrusteeOf</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___trustee_of"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Trust1</edgelabel>
+          <edgelabel>Trust2</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4201" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4202" bodyend="4205"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___trustee_of_1a33fe28c64cfab3462aff1f085e3d55d9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eBorr_TrusteeOf</scope><name>Trust1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_borr___trustee_of_1aa98ab994dedbd83dc368edb52757919c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eBorr_TrusteeOf</scope><name>Trust2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

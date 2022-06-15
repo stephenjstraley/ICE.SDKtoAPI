@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eUCD_X6</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6_1a89e486131040ca3cf40a9c7f267c2ee6" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUCD_X6.esigned</definition>
+        <argsstring></argsstring>
+        <name>esigned</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUCD_X6.esigned</qualifiedname>
+        <initializer>= &quot;esigned&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29085" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29085" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6_1a752b74c7265af31fb8e74970681f1936" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUCD_X6.wetsigned</definition>
+        <argsstring></argsstring>
+        <name>wetsigned</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUCD_X6.wetsigned</qualifiedname>
+        <initializer>= &quot;wetsigned&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29086" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29086" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6_1ab51c77465cb38b622fc592a177969e9a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUCD_X6.other</definition>
+        <argsstring></argsstring>
+        <name>other</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUCD_X6.other</qualifiedname>
+        <initializer>= &quot;other&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29087" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29087" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eUCD_X6</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>esigned</edgelabel>
+          <edgelabel>other</edgelabel>
+          <edgelabel>wetsigned</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29083" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29084" bodyend="29088"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6_1a89e486131040ca3cf40a9c7f267c2ee6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUCD_X6</scope><name>esigned</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6_1ab51c77465cb38b622fc592a177969e9a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUCD_X6</scope><name>other</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_c_d___x6_1a752b74c7265af31fb8e74970681f1936" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUCD_X6</scope><name>wetsigned</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

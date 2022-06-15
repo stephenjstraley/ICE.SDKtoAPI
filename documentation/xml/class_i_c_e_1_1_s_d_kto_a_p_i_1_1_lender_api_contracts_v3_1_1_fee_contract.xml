@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1abbe2f7bbc91a2c375a781432fbbf2c22" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.FeeType</definition>
+        <argsstring></argsstring>
+        <name>FeeType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.FeeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a1ebf85d60fd06463b9a0e992585739cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Amount</definition>
+        <argsstring></argsstring>
+        <name>Amount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Amount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="15" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a309a61068ccec62f0283f30a840c9e7f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.AmountPerDay</definition>
+        <argsstring></argsstring>
+        <name>AmountPerDay</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.AmountPerDay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="18" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1aeef8307deef98b68688a6c17c96b9a57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.TruncatedAmountPerDay</definition>
+        <argsstring></argsstring>
+        <name>TruncatedAmountPerDay</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.TruncatedAmountPerDay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="21" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ae1ea54235ad69b8074f285dbde622cae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.BorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>BorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.BorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="24" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a71c7296068a94c8010fdc2146315d616" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.FromDate</definition>
+        <argsstring></argsstring>
+        <name>FromDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.FromDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="27" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a0181fd392cbd79c2938e014ad345df8a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.ToDate</definition>
+        <argsstring></argsstring>
+        <name>ToDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.ToDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="30" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1af8e1d6a27c2692f610f79106766c4967" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Days</definition>
+        <argsstring></argsstring>
+        <name>Days</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Days</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="33" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ae5b98cbf235c1968b244b469f15027f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.DeedAmount</definition>
+        <argsstring></argsstring>
+        <name>DeedAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.DeedAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="36" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a5afc107860b927349ad74cd8e2857230" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="39" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a322b812d6fc40babf9eb41541aade48d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Fha</definition>
+        <argsstring></argsstring>
+        <name>Fha</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Fha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="42" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1afb2f28ebfcb44dbe832e09c9986f3ae8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Fwbc</definition>
+        <argsstring></argsstring>
+        <name>Fwbc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Fwbc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="45" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a8ecbc8cbe1045a259c7678614fb2530d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Fwsc</definition>
+        <argsstring></argsstring>
+        <name>Fwsc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Fwsc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="48" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a9d8121181291bc0d82acef419c084115" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.IncludeAboveNumber</definition>
+        <argsstring></argsstring>
+        <name>IncludeAboveNumber</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.IncludeAboveNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="51" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1aac277fe60946d126206b6e125c61118d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.LenderCoverage</definition>
+        <argsstring></argsstring>
+        <name>LenderCoverage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.LenderCoverage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="54" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a00d940fc0b2f6878942d5bea7c75588f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.MonthlyPayment</definition>
+        <argsstring></argsstring>
+        <name>MonthlyPayment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.MonthlyPayment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="57" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a9625116bcf12beb48ec7ae80debfbea8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.MortgageAmount</definition>
+        <argsstring></argsstring>
+        <name>MortgageAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.MortgageAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="60" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a50252f49b2e85dc66b436a413a50e12b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.NewHudBorPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>NewHudBorPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.NewHudBorPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="63" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1acfe7930214ced2e4ff53e97ba0bf0e8a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.NumberOfMonths</definition>
+        <argsstring></argsstring>
+        <name>NumberOfMonths</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.NumberOfMonths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="66" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a8880030eba05161c0713ec3543c8f4f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.OwnerCoverage</definition>
+        <argsstring></argsstring>
+        <name>OwnerCoverage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.OwnerCoverage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="69" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1acd0c695db795b4071b1598d0e6ead7f8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidBy</definition>
+        <argsstring></argsstring>
+        <name>PaidBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="72" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1afe6807264d184ae66e57f5aeaa0bbad5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidInAdvance</definition>
+        <argsstring></argsstring>
+        <name>PaidInAdvance</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidInAdvance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="75" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ab6a0fac6dd85a9e0bc3250a91003a5cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidToBroker</definition>
+        <argsstring></argsstring>
+        <name>PaidToBroker</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidToBroker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="78" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1abb4918f9be02d6ff918a924512ad200e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidToName</definition>
+        <argsstring></argsstring>
+        <name>PaidToName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidToName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="81" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a8987e407ade4a729ed9beb304d1eabea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidToOthers</definition>
+        <argsstring></argsstring>
+        <name>PaidToOthers</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.PaidToOthers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="84" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a21050a3fe1cf20fda1e887000e07b08b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Percentage</definition>
+        <argsstring></argsstring>
+        <name>Percentage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Percentage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="87" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a652f86625ed3602853a4a835eb673220" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Pfc</definition>
+        <argsstring></argsstring>
+        <name>Pfc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Pfc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="90" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a658a03c81c2f65131638cd7499a309fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Poc</definition>
+        <argsstring></argsstring>
+        <name>Poc</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Poc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="93" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a7774d1cb87b69eb2af4622a5e6d371da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Ptb</definition>
+        <argsstring></argsstring>
+        <name>Ptb</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Ptb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="96" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a080102f2c6f1617b9ec412f4794d0eb6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.ReleasesAmount</definition>
+        <argsstring></argsstring>
+        <name>ReleasesAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.ReleasesAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="99" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1acda753689d381b973f422b003dadd1c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.SellerPaidAmount</definition>
+        <argsstring></argsstring>
+        <name>SellerPaidAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.SellerPaidAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="102" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ac0310bcd605b0a449ada8509303d4956" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Use4Decimals</definition>
+        <argsstring></argsstring>
+        <name>Use4Decimals</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.FeeContract.Use4Decimals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="105" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/FeeContract.cs" bodystart="10" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a1ebf85d60fd06463b9a0e992585739cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Amount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a309a61068ccec62f0283f30a840c9e7f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>AmountPerDay</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ae1ea54235ad69b8074f285dbde622cae" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>BorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1af8e1d6a27c2692f610f79106766c4967" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Days</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ae5b98cbf235c1968b244b469f15027f4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>DeedAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a5afc107860b927349ad74cd8e2857230" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1abbe2f7bbc91a2c375a781432fbbf2c22" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>FeeType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a322b812d6fc40babf9eb41541aade48d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Fha</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a71c7296068a94c8010fdc2146315d616" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>FromDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1afb2f28ebfcb44dbe832e09c9986f3ae8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Fwbc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a8ecbc8cbe1045a259c7678614fb2530d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Fwsc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a9d8121181291bc0d82acef419c084115" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>IncludeAboveNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1aac277fe60946d126206b6e125c61118d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>LenderCoverage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a00d940fc0b2f6878942d5bea7c75588f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>MonthlyPayment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a9625116bcf12beb48ec7ae80debfbea8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>MortgageAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a50252f49b2e85dc66b436a413a50e12b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>NewHudBorPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1acfe7930214ced2e4ff53e97ba0bf0e8a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>NumberOfMonths</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a8880030eba05161c0713ec3543c8f4f7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>OwnerCoverage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1acd0c695db795b4071b1598d0e6ead7f8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>PaidBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1afe6807264d184ae66e57f5aeaa0bbad5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>PaidInAdvance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ab6a0fac6dd85a9e0bc3250a91003a5cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>PaidToBroker</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1abb4918f9be02d6ff918a924512ad200e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>PaidToName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a8987e407ade4a729ed9beb304d1eabea" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>PaidToOthers</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a21050a3fe1cf20fda1e887000e07b08b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Percentage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a652f86625ed3602853a4a835eb673220" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Pfc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a658a03c81c2f65131638cd7499a309fc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Poc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a7774d1cb87b69eb2af4622a5e6d371da" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Ptb</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a080102f2c6f1617b9ec412f4794d0eb6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>ReleasesAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1acda753689d381b973f422b003dadd1c4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>SellerPaidAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1a0181fd392cbd79c2938e014ad345df8a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>ToDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1aeef8307deef98b68688a6c17c96b9a57" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>TruncatedAmountPerDay</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_fee_contract_1ac0310bcd605b0a449ada8509303d4956" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::FeeContract</scope><name>Use4Decimals</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

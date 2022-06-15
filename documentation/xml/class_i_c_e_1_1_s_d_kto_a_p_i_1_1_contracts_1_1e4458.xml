@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4458</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1ad48bbd213c0bae06078ee0eb617ae606" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4458.Pending</definition>
+        <argsstring></argsstring>
+        <name>Pending</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4458.Pending</qualifiedname>
+        <initializer>= &quot;Pending&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3199" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1adc3d8213b2821496fe157ce27ede75d5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4458.Accepted</definition>
+        <argsstring></argsstring>
+        <name>Accepted</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4458.Accepted</qualifiedname>
+        <initializer>= &quot;Accepted&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3200" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1a724cf017e5ecc09b5af74a2de9634fc6" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4458.Declined</definition>
+        <argsstring></argsstring>
+        <name>Declined</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4458.Declined</qualifiedname>
+        <initializer>= &quot;Declined&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3201" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1a12c46fbc36d2443191223a8d09aa1715" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4458.Withdrawn</definition>
+        <argsstring></argsstring>
+        <name>Withdrawn</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4458.Withdrawn</qualifiedname>
+        <initializer>= &quot;Withdrawn&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3202" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4458</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Accepted</edgelabel>
+          <edgelabel>Declined</edgelabel>
+          <edgelabel>Pending</edgelabel>
+          <edgelabel>Withdrawn</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3197" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3198" bodyend="3203"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1adc3d8213b2821496fe157ce27ede75d5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4458</scope><name>Accepted</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1a724cf017e5ecc09b5af74a2de9634fc6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4458</scope><name>Declined</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1ad48bbd213c0bae06078ee0eb617ae606" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4458</scope><name>Pending</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4458_1a12c46fbc36d2443191223a8d09aa1715" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4458</scope><name>Withdrawn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

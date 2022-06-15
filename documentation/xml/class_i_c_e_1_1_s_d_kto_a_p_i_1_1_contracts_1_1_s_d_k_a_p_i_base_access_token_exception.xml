@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_access_token_exception" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::SDKAPIBaseAccessTokenException</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error" prot="public" virt="non-virtual">ICE.SDKtoAPI.Contracts.SDKAPIBaseError</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_access_token_exception_1a141a3f94d7d11c6a8ef139065e236e79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Contracts.SDKAPIBaseAccessTokenException.SDKAPIBaseAccessTokenException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SDKAPIBaseAccessTokenException</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseAccessTokenException.SDKAPIBaseAccessTokenException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="25" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_access_token_exception_1aac3c21d5991f8ebcd96ee97ca12d7840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Contracts.SDKAPIBaseAccessTokenException.SDKAPIBaseAccessTokenException</definition>
+        <argsstring>(string message, Exception inner)</argsstring>
+        <name>SDKAPIBaseAccessTokenException</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseAccessTokenException.SDKAPIBaseAccessTokenException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>inner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="26" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.SDKAPIBaseAccessTokenException</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_access_token_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SDKAPIBaseError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.SDKAPIBaseAccessTokenException</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_access_token_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SDKAPIBaseError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="23" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="24" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a7b8c383935aeb47b6eaab5d4025a2067" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseAccessTokenException</scope><name>LoanId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a96d414d78a0da2455acacb3d87ebf792" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseAccessTokenException</scope><name>LoanNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_access_token_exception_1a141a3f94d7d11c6a8ef139065e236e79" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseAccessTokenException</scope><name>SDKAPIBaseAccessTokenException</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_access_token_exception_1aac3c21d5991f8ebcd96ee97ca12d7840" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseAccessTokenException</scope><name>SDKAPIBaseAccessTokenException</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1ac9f6bcb71b535d252df70a5a301846fa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseAccessTokenException</scope><name>SDKAPIBaseError</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a356bc605647568da48e756fff0ad914a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseAccessTokenException</scope><name>SDKAPIBaseError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

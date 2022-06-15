@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1523</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1a4984fc324cdb766493e8bd57df72c8e8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1523.HispanicorLatino</definition>
+        <argsstring></argsstring>
+        <name>HispanicorLatino</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1523.HispanicorLatino</qualifiedname>
+        <initializer>= &quot;Hispanic or Latino&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1159" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1aa508465dffc14ba98f10c811a378039c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1523.NotHispanicorLatino</definition>
+        <argsstring></argsstring>
+        <name>NotHispanicorLatino</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1523.NotHispanicorLatino</qualifiedname>
+        <initializer>= &quot;Not Hispanic or Latino&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1160" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1a1a2d483b73dd012889713bedce7564d7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1523.Informationnotprovided</definition>
+        <argsstring></argsstring>
+        <name>Informationnotprovided</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1523.Informationnotprovided</qualifiedname>
+        <initializer>= &quot;Information not provided&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1161" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1a063eac5c8372dd09714df383dd969d2f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1523.Notapplicable</definition>
+        <argsstring></argsstring>
+        <name>Notapplicable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1523.Notapplicable</qualifiedname>
+        <initializer>= &quot;Not applicable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1162" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1523</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>HispanicorLatino</edgelabel>
+          <edgelabel>Informationnotprovided</edgelabel>
+          <edgelabel>NotHispanicorLatino</edgelabel>
+          <edgelabel>Notapplicable</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1157" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1158" bodyend="1163"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1a4984fc324cdb766493e8bd57df72c8e8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1523</scope><name>HispanicorLatino</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1a1a2d483b73dd012889713bedce7564d7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1523</scope><name>Informationnotprovided</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1a063eac5c8372dd09714df383dd969d2f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1523</scope><name>Notapplicable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1523_1aa508465dffc14ba98f10c811a378039c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1523</scope><name>NotHispanicorLatino</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

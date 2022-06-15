@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.VodContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_full_1ae6558cc1c371cde1fc5e92ef496f5bf4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.VodContractFull.NoLinkToDocTrackIndicator</definition>
+        <argsstring></argsstring>
+        <name>NoLinkToDocTrackIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.VodContractFull.NoLinkToDocTrackIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/VodContract.cs" line="88" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/VodContract.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_full_1a6235ac5013e9524a080a7481011c95c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.VodContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.VodContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/VodContract.cs" line="91" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/VodContract.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.VodContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VodContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.VodContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VodContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/VodContract.cs" line="85" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/VodContract.cs" bodystart="86" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_full_1a6235ac5013e9524a080a7481011c95c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a568e5f34938a7f1a9a3c6c9c33114c8d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>Attention</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a90bab54bcada85d387feb9c43a0adf49" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>Country</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a380556e85bbd91e12109cfc7e690bb34" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>DepositoryRequestDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a94b9bcfaf0b8b93dc01232605df69c44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>ForeignAddressIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1af1af4e08e94b84e039f73378c78e78f4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderAddressCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a0ddf947250956ea9551caf18f70b9451" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderAddressPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1af16e3add20ba3967bf603cc3341fb21b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderAddressState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1aae4e0dd66fe8fe064a0b2d45fb7366e3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderAddressStreetLine1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a5915a259f497036d75b5e8d8900c8cc3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderComments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a98ae846dbb418c9a72f9511c3448ce43" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderEmail</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a0bbd913e940234b4b54232e23e6d99bd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a39a4957392f93bac038876c7feac7c10" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1ac3dbfdcad922d64451df2875c2eb32a6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>HolderPhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a65cb91f4d617812cc0f15ceaf56a1bfd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a10a254470758390876272fc2bba049c3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>IncludeInAusExport</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a0faff609f4541691a51dcf0e98753031" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>Items</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_full_1ae6558cc1c371cde1fc5e92ef496f5bf4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>NoLinkToDocTrackIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a66fd35ee25ae5a30984990312dc243a3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>Owner</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1ac545f240618d5fada7762f95ba913096" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>PrintAttachmentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a35f103c31520f2f18a416494599dd0a0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a1ff3707c9a2bb08367f5c60a6e04b015" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>PrintUserNameIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a863c41519adeb781ce4b598c243beff3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a430bb8a0bb93292e94e79e022e402a01" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a3e261a9ec3c0ac626eceab19905f778e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>TitlePhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_vod_contract_1a49bb08ce15ca7ceb805a302a38b698b0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::VodContractFull</scope><name>Total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

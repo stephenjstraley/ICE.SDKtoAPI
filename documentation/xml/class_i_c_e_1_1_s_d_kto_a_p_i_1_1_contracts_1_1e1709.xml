@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1709</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709_1a9769268344faa22421967e995b94e047" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1709.Property</definition>
+        <argsstring></argsstring>
+        <name>Property</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1709.Property</qualifiedname>
+        <initializer>= &quot;Property&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1344" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709_1ade29c54687c32aa84e06e413a2812a7b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1709.Flood</definition>
+        <argsstring></argsstring>
+        <name>Flood</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1709.Flood</qualifiedname>
+        <initializer>= &quot;Flood&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1345" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709_1ad462661b21332e496c8eb5e08323d81b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1709.PropertyandFlood</definition>
+        <argsstring></argsstring>
+        <name>PropertyandFlood</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1709.PropertyandFlood</qualifiedname>
+        <initializer>= &quot;Property and <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709_1ade29c54687c32aa84e06e413a2812a7b" kindref="member">Flood</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1346" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1709</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Flood</edgelabel>
+          <edgelabel>Property</edgelabel>
+          <edgelabel>PropertyandFlood</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1342" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1343" bodyend="1347"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709_1ade29c54687c32aa84e06e413a2812a7b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1709</scope><name>Flood</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709_1a9769268344faa22421967e995b94e047" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1709</scope><name>Property</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1709_1ad462661b21332e496c8eb5e08323d81b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1709</scope><name>PropertyandFlood</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

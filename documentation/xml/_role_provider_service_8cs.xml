@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="_role_provider_service_8cs" kind="file" language="C#">
+    <compoundname>RoleProviderService.cs</compoundname>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service" prot="public">ICE::SDKtoAPI::Providers::RoleProviderService</innerclass>
+    <innernamespace refid="namespace_i_c_e">ICE</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i">ICE::SDKtoAPI</innernamespace>
+    <innernamespace refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers">ICE::SDKtoAPI::Providers</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">Flurl.Http;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts" kindref="compound">ICE.SDKtoAPI.Contracts</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1" kindref="compound">ICE.SDKtoAPI.LenderApiContractsV1</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers" kindref="compound">ICE.SDKtoAPI.Providers</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service" kindref="compound">RoleProviderService</ref><sp/>:<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service" kindref="compound">BaseProviderService</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service_1af3ce3b683f501fdc7b377b1a5a0bd608" kindref="member">RoleProviderService</ref>(<ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref><sp/>token)<sp/>:<sp/>base(token)<sp/>{<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a5ae7d59de46d7df2f05fd1859916fc0d" kindref="member">paths</ref>.<ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths_1a7e9a3c63ea4c91277116aa776f04c0bc" kindref="member">SetV1</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;Tuple&lt;List&lt;RoleExtended&gt;,<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref>&gt;&gt;<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service_1aa978d894eb3560b7f5de5da411d648ec" kindref="member">GetRolesAsync</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>usePath<sp/>=<sp/>paths.Settings<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/roles&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roles<sp/>=<sp/>await<sp/>Get&lt;List&lt;RoleExtended&gt;&gt;(usePath);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Tuple&lt;List&lt;RoleExtended&gt;,<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref>&gt;(roles,<sp/><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa8d15ca1b463876f7c5f5ee707477a0d" kindref="member">_response</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/RoleProviderService.cs"/>
+  </compounddef>
+</doxygen>

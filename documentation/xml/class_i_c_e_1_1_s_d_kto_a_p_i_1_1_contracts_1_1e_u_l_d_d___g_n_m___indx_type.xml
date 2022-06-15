@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___indx_type" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_GNM_IndxType</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___indx_type_1a86caa7c2d067f6e186f04f1401396908" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_IndxType.ConstantMaturityTreasury</definition>
+        <argsstring></argsstring>
+        <name>ConstantMaturityTreasury</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_IndxType.ConstantMaturityTreasury</qualifiedname>
+        <initializer>= &quot;ConstantMaturityTreasury&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29796" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29796" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___indx_type_1a7c0fc7e66b565a40d38f13e245430af9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_IndxType.LIBOR</definition>
+        <argsstring></argsstring>
+        <name>LIBOR</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_IndxType.LIBOR</qualifiedname>
+        <initializer>= &quot;LIBOR&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29797" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29797" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_GNM_IndxType</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___indx_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ConstantMaturityTreasury</edgelabel>
+          <edgelabel>LIBOR</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29794" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29795" bodyend="29798"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___indx_type_1a86caa7c2d067f6e186f04f1401396908" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_IndxType</scope><name>ConstantMaturityTreasury</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___indx_type_1a7c0fc7e66b565a40d38f13e245430af9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_IndxType</scope><name>LIBOR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

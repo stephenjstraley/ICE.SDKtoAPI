@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eAUS_X22</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1a66e239cdb16728b1578614416f89ee8b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eAUS_X22.Fixed</definition>
+        <argsstring></argsstring>
+        <name>Fixed</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eAUS_X22.Fixed</qualifiedname>
+        <initializer>= &quot;Fixed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4041" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4041" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1acfe499e90d036095acb56c4ed99866aa" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eAUS_X22.GraduatedPaymentMortgage</definition>
+        <argsstring></argsstring>
+        <name>GraduatedPaymentMortgage</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eAUS_X22.GraduatedPaymentMortgage</qualifiedname>
+        <initializer>= &quot;GraduatedPaymentMortgage&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4042" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4042" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1a695b51167018ddc4b86b8d7b892687e3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eAUS_X22.AdjustableRate</definition>
+        <argsstring></argsstring>
+        <name>AdjustableRate</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eAUS_X22.AdjustableRate</qualifiedname>
+        <initializer>= &quot;AdjustableRate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4043" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1a852565d04962e154076168920aab83d0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eAUS_X22.OtherAmortizationType</definition>
+        <argsstring></argsstring>
+        <name>OtherAmortizationType</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eAUS_X22.OtherAmortizationType</qualifiedname>
+        <initializer>= &quot;OtherAmortizationType&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4044" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4044" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eAUS_X22</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AdjustableRate</edgelabel>
+          <edgelabel>Fixed</edgelabel>
+          <edgelabel>GraduatedPaymentMortgage</edgelabel>
+          <edgelabel>OtherAmortizationType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4039" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4040" bodyend="4045"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1a695b51167018ddc4b86b8d7b892687e3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eAUS_X22</scope><name>AdjustableRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1a66e239cdb16728b1578614416f89ee8b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eAUS_X22</scope><name>Fixed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1acfe499e90d036095acb56c4ed99866aa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eAUS_X22</scope><name>GraduatedPaymentMortgage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_u_s___x22_1a852565d04962e154076168920aab83d0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eAUS_X22</scope><name>OtherAmortizationType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

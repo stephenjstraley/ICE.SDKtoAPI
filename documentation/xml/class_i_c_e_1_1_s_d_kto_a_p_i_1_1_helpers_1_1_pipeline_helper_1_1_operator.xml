@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_operator" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Helpers::PipelineHelper::Operator</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_operator_1a444d57533c0615911b34bb5249e46597" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Helpers.PipelineHelper.Operator.OR</definition>
+        <argsstring></argsstring>
+        <name>OR</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.Operator.OR</qualifiedname>
+        <initializer>= &quot;or&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="288" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_operator_1a77484c19cf9e15a294642b711786d3f8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Helpers.PipelineHelper.Operator.AND</definition>
+        <argsstring></argsstring>
+        <name>AND</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.Operator.AND</qualifiedname>
+        <initializer>= &quot;and&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="289" column="43" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Helpers.PipelineHelper.Operator</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AND</edgelabel>
+          <edgelabel>OR</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="286" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="287" bodyend="290"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_operator_1a77484c19cf9e15a294642b711786d3f8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::Operator</scope><name>AND</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_operator_1a444d57533c0615911b34bb5249e46597" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper::Operator</scope><name>OR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

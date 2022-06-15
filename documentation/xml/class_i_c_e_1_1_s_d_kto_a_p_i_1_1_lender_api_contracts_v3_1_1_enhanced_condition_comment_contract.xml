@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1ab2a7c02b4cc28c07669c6728b45d81e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a498afe4829562180bd777558a1135980" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_entity_reference_contract" kindref="compound">EntityReferenceContract</ref></type>
+        <definition>EntityReferenceContract ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.AddedBy</definition>
+        <argsstring></argsstring>
+        <name>AddedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.AddedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="15" column="40" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a8a3567eb56f74b3ca546dfed4c76b795" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1aae36191ce12ebfda2d48fd7f6d778515" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.AddedDate</definition>
+        <argsstring></argsstring>
+        <name>AddedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.AddedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="21" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1adcb8187d8c738f46e6542d25f708ad90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_entity_reference_contract" kindref="compound">EntityReferenceContract</ref></type>
+        <definition>EntityReferenceContract ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.ForRole</definition>
+        <argsstring></argsstring>
+        <name>ForRole</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.ForRole</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="24" column="40" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a6aab28686bdb5bc1c51ed0894362a603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_entity_reference_contract" kindref="compound">EntityReferenceContract</ref></type>
+        <definition>EntityReferenceContract ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.ReviewedBy</definition>
+        <argsstring></argsstring>
+        <name>ReviewedBy</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.ReviewedBy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="27" column="40" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1abf67d570950f99612d5fae4b2b2c69ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.ReviewedDate</definition>
+        <argsstring></argsstring>
+        <name>ReviewedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.ReviewedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="30" column="25" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a34c7cbe463078792b22ca39d401b3a1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.IsExternal</definition>
+        <argsstring></argsstring>
+        <name>IsExternal</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.EnhancedConditionCommentContract.IsExternal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="33" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/EnhancedConditionCommentContract.cs" bodystart="10" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a498afe4829562180bd777558a1135980" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>AddedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1aae36191ce12ebfda2d48fd7f6d778515" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>AddedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a8a3567eb56f74b3ca546dfed4c76b795" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1adcb8187d8c738f46e6542d25f708ad90" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>ForRole</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1ab2a7c02b4cc28c07669c6728b45d81e6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a34c7cbe463078792b22ca39d401b3a1b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>IsExternal</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1a6aab28686bdb5bc1c51ed0894362a603" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>ReviewedBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_enhanced_condition_comment_contract_1abf67d570950f99612d5fae4b2b2c69ec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::EnhancedConditionCommentContract</scope><name>ReviewedDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

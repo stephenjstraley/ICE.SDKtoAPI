@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eTPO_X119</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119_1a3d92f3f613216496d6c0d49ccaa9adec" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTPO_X119.NoPreference</definition>
+        <argsstring></argsstring>
+        <name>NoPreference</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTPO_X119.NoPreference</qualifiedname>
+        <initializer>= &quot;NoPreference&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="28931" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="28931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119_1a1b30d32a47393efff19bef9113517a92" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTPO_X119.DU</definition>
+        <argsstring></argsstring>
+        <name>DU</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTPO_X119.DU</qualifiedname>
+        <initializer>= &quot;DU&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="28932" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="28932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119_1a5dc80f21c47168c994879f5271fb2da3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTPO_X119.LPA</definition>
+        <argsstring></argsstring>
+        <name>LPA</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTPO_X119.LPA</qualifiedname>
+        <initializer>= &quot;LPA&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="28933" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="28933" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eTPO_X119</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>DU</edgelabel>
+          <edgelabel>LPA</edgelabel>
+          <edgelabel>NoPreference</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="28929" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="28930" bodyend="28934"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119_1a1b30d32a47393efff19bef9113517a92" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTPO_X119</scope><name>DU</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119_1a5dc80f21c47168c994879f5271fb2da3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTPO_X119</scope><name>LPA</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_p_o___x119_1a3d92f3f613216496d6c0d49ccaa9adec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTPO_X119</scope><name>NoPreference</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

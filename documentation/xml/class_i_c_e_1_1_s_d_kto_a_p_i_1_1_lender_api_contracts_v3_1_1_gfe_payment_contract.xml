@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aec45c4e56203f1c677be7c5f92801117" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.GfePaymentIndex</definition>
+        <argsstring></argsstring>
+        <name>GfePaymentIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.GfePaymentIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="12" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a1f503c141296e26b7791b89e44d451be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.FixedRate</definition>
+        <argsstring></argsstring>
+        <name>FixedRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.FixedRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="15" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a7110ea4112360ce5b18f9d3fb8e60fe6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.IndexRate</definition>
+        <argsstring></argsstring>
+        <name>IndexRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.IndexRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="18" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a3fbd0c50b885bb6e43873881f9c708b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.IsBalanceReduced</definition>
+        <argsstring></argsstring>
+        <name>IsBalanceReduced</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.IsBalanceReduced</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="21" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aa5724cd5e62bb34a28116f0bca2aab76" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.LoanTypeExplanation</definition>
+        <argsstring></argsstring>
+        <name>LoanTypeExplanation</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.LoanTypeExplanation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="24" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aa9db496323a323a793b9a9652e3e2657" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MarginRate</definition>
+        <argsstring></argsstring>
+        <name>MarginRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MarginRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="27" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a372e133f99e3a7ec3db46488a0c88c27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MaximumDifference</definition>
+        <argsstring></argsstring>
+        <name>MaximumDifference</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MaximumDifference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="30" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a85095f3644a00a6c75e8020c6b219789" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MaximumRate</definition>
+        <argsstring></argsstring>
+        <name>MaximumRate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MaximumRate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="33" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1ae241c5a25e0655000e4570eab9506f14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MinimumDifference</definition>
+        <argsstring></argsstring>
+        <name>MinimumDifference</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MinimumDifference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="36" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a7d431b0ecdf973ab9bab71a9d258323c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MinimumMonthlyPayment</definition>
+        <argsstring></argsstring>
+        <name>MinimumMonthlyPayment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MinimumMonthlyPayment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="39" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aebe1077037e519bd4c7a2b728b3384a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear1</definition>
+        <argsstring></argsstring>
+        <name>MonthlyPaymentYear1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="42" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aff59ccb0c56602d343106ae401358e4e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear6</definition>
+        <argsstring></argsstring>
+        <name>MonthlyPaymentYear6</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="45" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a20cb6424489b03a96a59ece44895e905" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear6Change</definition>
+        <argsstring></argsstring>
+        <name>MonthlyPaymentYear6Change</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear6Change</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="48" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a9b567314f5831c8bbc9dbe83835c0d01" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear6MaxChange</definition>
+        <argsstring></argsstring>
+        <name>MonthlyPaymentYear6MaxChange</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.MonthlyPaymentYear6MaxChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="51" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a57a3083d96863752c7c8f56b3cf7727e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.NotOfferedIndicator</definition>
+        <argsstring></argsstring>
+        <name>NotOfferedIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.NotOfferedIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="54" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aef1a486e6ed56140d84da2229a2a0fb8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.OwedAfter5Years</definition>
+        <argsstring></argsstring>
+        <name>OwedAfter5Years</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.OwedAfter5Years</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="57" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a5a160386a06c3262d5216aa4f297dc79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.RateInMonth2</definition>
+        <argsstring></argsstring>
+        <name>RateInMonth2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.RateInMonth2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="60" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a96f1b42cb07b04c35698b3a8754b0499" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.ReducedLoanBalance</definition>
+        <argsstring></argsstring>
+        <name>ReducedLoanBalance</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.ReducedLoanBalance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="63" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1af2fb6176c1ec5d4325f2a612a9d45b60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.ReducedStatus</definition>
+        <argsstring></argsstring>
+        <name>ReducedStatus</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GfePaymentContract.ReducedStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="66" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GfePaymentContract.cs" bodystart="10" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a1f503c141296e26b7791b89e44d451be" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>FixedRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aec45c4e56203f1c677be7c5f92801117" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>GfePaymentIndex</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a7110ea4112360ce5b18f9d3fb8e60fe6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>IndexRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a3fbd0c50b885bb6e43873881f9c708b3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>IsBalanceReduced</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aa5724cd5e62bb34a28116f0bca2aab76" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>LoanTypeExplanation</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aa9db496323a323a793b9a9652e3e2657" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MarginRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a372e133f99e3a7ec3db46488a0c88c27" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MaximumDifference</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a85095f3644a00a6c75e8020c6b219789" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MaximumRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1ae241c5a25e0655000e4570eab9506f14" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MinimumDifference</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a7d431b0ecdf973ab9bab71a9d258323c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MinimumMonthlyPayment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aebe1077037e519bd4c7a2b728b3384a5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MonthlyPaymentYear1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aff59ccb0c56602d343106ae401358e4e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MonthlyPaymentYear6</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a20cb6424489b03a96a59ece44895e905" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MonthlyPaymentYear6Change</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a9b567314f5831c8bbc9dbe83835c0d01" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>MonthlyPaymentYear6MaxChange</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a57a3083d96863752c7c8f56b3cf7727e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>NotOfferedIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1aef1a486e6ed56140d84da2229a2a0fb8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>OwedAfter5Years</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a5a160386a06c3262d5216aa4f297dc79" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>RateInMonth2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1a96f1b42cb07b04c35698b3a8754b0499" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>ReducedLoanBalance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gfe_payment_contract_1af2fb6176c1ec5d4325f2a612a9d45b60" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GfePaymentContract</scope><name>ReducedStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

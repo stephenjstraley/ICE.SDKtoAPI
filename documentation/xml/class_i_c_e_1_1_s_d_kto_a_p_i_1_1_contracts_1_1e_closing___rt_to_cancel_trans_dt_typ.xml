@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___rt_to_cancel_trans_dt_typ" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eClosing_RtToCancelTransDtTyp</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___rt_to_cancel_trans_dt_typ_1a4d5c43f07f6ec4228cb770f09e1493d7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_RtToCancelTransDtTyp.ClosingDate</definition>
+        <argsstring></argsstring>
+        <name>ClosingDate</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_RtToCancelTransDtTyp.ClosingDate</qualifiedname>
+        <initializer>= &quot;Closing Date&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8783" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8783" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___rt_to_cancel_trans_dt_typ_1a905106ca045a3f3571373bbc1980efb7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_RtToCancelTransDtTyp.DocumentDate</definition>
+        <argsstring></argsstring>
+        <name>DocumentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_RtToCancelTransDtTyp.DocumentDate</qualifiedname>
+        <initializer>= &quot;Document Date&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8784" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8784" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eClosing_RtToCancelTransDtTyp</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___rt_to_cancel_trans_dt_typ"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ClosingDate</edgelabel>
+          <edgelabel>DocumentDate</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8781" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8782" bodyend="8785"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___rt_to_cancel_trans_dt_typ_1a4d5c43f07f6ec4228cb770f09e1493d7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_RtToCancelTransDtTyp</scope><name>ClosingDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___rt_to_cancel_trans_dt_typ_1a905106ca045a3f3571373bbc1980efb7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_RtToCancelTransDtTyp</scope><name>DocumentDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

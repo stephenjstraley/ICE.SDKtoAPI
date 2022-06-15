@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eOpening_LoanProgTyp</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ_1ac872f211169c12d7f3c3d95e519084dd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eOpening_LoanProgTyp.Opening</definition>
+        <argsstring></argsstring>
+        <name>Opening</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eOpening_LoanProgTyp.Opening</qualifiedname>
+        <initializer>= &quot;Opening&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22647" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22647" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ_1ab673816d6015e5d661c0d140f9072bb2" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eOpening_LoanProgTyp.Closing</definition>
+        <argsstring></argsstring>
+        <name>Closing</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eOpening_LoanProgTyp.Closing</qualifiedname>
+        <initializer>= &quot;Closing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22648" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22648" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ_1af8fc53e5765c73ea563790520a2e1b5c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eOpening_LoanProgTyp.Both</definition>
+        <argsstring></argsstring>
+        <name>Both</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eOpening_LoanProgTyp.Both</qualifiedname>
+        <initializer>= &quot;Both&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22649" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22649" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eOpening_LoanProgTyp</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Both</edgelabel>
+          <edgelabel>Closing</edgelabel>
+          <edgelabel>Opening</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22645" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22646" bodyend="22650"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ_1af8fc53e5765c73ea563790520a2e1b5c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eOpening_LoanProgTyp</scope><name>Both</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ_1ab673816d6015e5d661c0d140f9072bb2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eOpening_LoanProgTyp</scope><name>Closing</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_opening___loan_prog_typ_1ac872f211169c12d7f3c3d95e519084dd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eOpening_LoanProgTyp</scope><name>Opening</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

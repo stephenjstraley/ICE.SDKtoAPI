@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eHMDA_X57</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57_1a78f2a6cfd010b6d58780bdbb0d44a9a3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X57.Openendlineofcredit</definition>
+        <argsstring></argsstring>
+        <name>Openendlineofcredit</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X57.Openendlineofcredit</qualifiedname>
+        <initializer>= &quot;Open-end line of credit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13084" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13084" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57_1ac3006138c944e216189d6e507adea0b7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X57.Notanopenendlineofcredit</definition>
+        <argsstring></argsstring>
+        <name>Notanopenendlineofcredit</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X57.Notanopenendlineofcredit</qualifiedname>
+        <initializer>= &quot;Not an open-end line of credit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13085" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13085" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57_1ab6cffbdf4d6d14ee89d4fa456466c2e8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X57.Exempt</definition>
+        <argsstring></argsstring>
+        <name>Exempt</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X57.Exempt</qualifiedname>
+        <initializer>= &quot;Exempt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13086" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13086" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eHMDA_X57</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Exempt</edgelabel>
+          <edgelabel>Notanopenendlineofcredit</edgelabel>
+          <edgelabel>Openendlineofcredit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="13082" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="13083" bodyend="13087"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57_1ab6cffbdf4d6d14ee89d4fa456466c2e8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X57</scope><name>Exempt</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57_1ac3006138c944e216189d6e507adea0b7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X57</scope><name>Notanopenendlineofcredit</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x57_1a78f2a6cfd010b6d58780bdbb0d44a9a3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X57</scope><name>Openendlineofcredit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

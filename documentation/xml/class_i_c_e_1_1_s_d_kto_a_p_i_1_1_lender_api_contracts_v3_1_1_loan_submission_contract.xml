@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab36d23726e93d76584219490a432bc93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.AmountAvailable</definition>
+        <argsstring></argsstring>
+        <name>AmountAvailable</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.AmountAvailable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="10" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a9ff085b624533a6a58a34d34b16b3dcd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.AmountRequiredToClose</definition>
+        <argsstring></argsstring>
+        <name>AmountRequiredToClose</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.AmountRequiredToClose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="13" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a853865672b5d210149015a026db360a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.BuydownDescription</definition>
+        <argsstring></argsstring>
+        <name>BuydownDescription</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.BuydownDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="16" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a6c412eade0f16649fa21d975ded3da70" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.BuydownMonthsPerAdjustment</definition>
+        <argsstring></argsstring>
+        <name>BuydownMonthsPerAdjustment</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.BuydownMonthsPerAdjustment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="19" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a1898ca39e513c3a10cf22a4788e1d156" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.Comments</definition>
+        <argsstring></argsstring>
+        <name>Comments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.Comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="22" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1aa7f998cccb8373f12fbeb2bfaec1c3ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.CurrentRateSetDate</definition>
+        <argsstring></argsstring>
+        <name>CurrentRateSetDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.CurrentRateSetDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="25" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a1941bdc5fd3e4672c5941cc7fd0718b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.RateLockDisclosureDate</definition>
+        <argsstring></argsstring>
+        <name>RateLockDisclosureDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.RateLockDisclosureDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="28" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a07d30252986907877739abc173061914" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LastPaymentReceivedDate</definition>
+        <argsstring></argsstring>
+        <name>LastPaymentReceivedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LastPaymentReceivedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="31" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab2de8586107c3a7b1b0e4581f42bcb1b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.FloodIndicator</definition>
+        <argsstring></argsstring>
+        <name>FloodIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.FloodIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="34" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ae3d0357dbcd906c41ce983dc663aaea1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.HazardIndicator</definition>
+        <argsstring></argsstring>
+        <name>HazardIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.HazardIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="37" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a439fd4a2f5fc22ba530a237338925a2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_fee_contract" kindref="compound">LoanSubmissionFeeContract</ref> &gt;</type>
+        <definition>List&lt;LoanSubmissionFeeContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LoanSubmissionFees</definition>
+        <argsstring></argsstring>
+        <name>LoanSubmissionFees</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LoanSubmissionFees</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="40" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a9b76cf347acf7a6a7813eb2c40f0245b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LockDate</definition>
+        <argsstring></argsstring>
+        <name>LockDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LockDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="43" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1aea846fa691552cbd0777cd48892aab1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LockDateTime</definition>
+        <argsstring></argsstring>
+        <name>LockDateTime</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LockDateTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="46" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a6a38f2231233379530e7bb16b53caa4d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LockExpiresDate</definition>
+        <argsstring></argsstring>
+        <name>LockExpiresDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.LockExpiresDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="49" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1affc3b1ce5865b3b31c30a947e22aeb38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.MmmPmiIndicator</definition>
+        <argsstring></argsstring>
+        <name>MmmPmiIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.MmmPmiIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="52" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a36d53bd38d038e3f108e4e7f3b4b4db7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.NumberOfDays</definition>
+        <argsstring></argsstring>
+        <name>NumberOfDays</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.NumberOfDays</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="55" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab50a2c17c1b951673861a1eafedca424" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.OtherDescription</definition>
+        <argsstring></argsstring>
+        <name>OtherDescription</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.OtherDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="58" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ae79021050fe2378949be50e8c602a0b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.OtherIndicator</definition>
+        <argsstring></argsstring>
+        <name>OtherIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.OtherIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="61" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a86e49fb02de53350840404c1d4aebae2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.ProgramCode</definition>
+        <argsstring></argsstring>
+        <name>ProgramCode</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.ProgramCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="64" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a3f4d1bc76696aada4c4bf2fc102853b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.RateLock</definition>
+        <argsstring></argsstring>
+        <name>RateLock</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.RateLock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="67" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a3d8f201341c3b53059f31b0f32e4e4e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.ReducedDocsIndicator</definition>
+        <argsstring></argsstring>
+        <name>ReducedDocsIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.ReducedDocsIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="70" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1abf17402c103c64168292a4ba05c2b437" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TaxesIndicator</definition>
+        <argsstring></argsstring>
+        <name>TaxesIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TaxesIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="73" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ad7570ecce83cab614e56650334c6f7c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.Total</definition>
+        <argsstring></argsstring>
+        <name>Total</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.Total</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="76" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1adccf834649003bb8d23309862e4d2acf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalDiscountPointCharged</definition>
+        <argsstring></argsstring>
+        <name>TotalDiscountPointCharged</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalDiscountPointCharged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="79" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1afa764c9d217aa4c8ac68a23ae3f766a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalForDueBroker</definition>
+        <argsstring></argsstring>
+        <name>TotalForDueBroker</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalForDueBroker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="82" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a0e7496754d454ca911a4ae2ce6539bb8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalForDueLender</definition>
+        <argsstring></argsstring>
+        <name>TotalForDueLender</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalForDueLender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="85" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a763b8cfb693a04bc1502fb51d3db9712" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalForPrimaryResidence</definition>
+        <argsstring></argsstring>
+        <name>TotalForPrimaryResidence</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.TotalForPrimaryResidence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="88" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab75a332d969933fe84b44f55b90d8dee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.IsSecondaryRegistration</definition>
+        <argsstring></argsstring>
+        <name>IsSecondaryRegistration</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanSubmissionContract.IsSecondaryRegistration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="91" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanSubmissionContract.cs" bodystart="8" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab36d23726e93d76584219490a432bc93" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>AmountAvailable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a9ff085b624533a6a58a34d34b16b3dcd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>AmountRequiredToClose</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a853865672b5d210149015a026db360a8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>BuydownDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a6c412eade0f16649fa21d975ded3da70" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>BuydownMonthsPerAdjustment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a1898ca39e513c3a10cf22a4788e1d156" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>Comments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1aa7f998cccb8373f12fbeb2bfaec1c3ac" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>CurrentRateSetDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab2de8586107c3a7b1b0e4581f42bcb1b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>FloodIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ae3d0357dbcd906c41ce983dc663aaea1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>HazardIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab75a332d969933fe84b44f55b90d8dee" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>IsSecondaryRegistration</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a07d30252986907877739abc173061914" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>LastPaymentReceivedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a439fd4a2f5fc22ba530a237338925a2d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>LoanSubmissionFees</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a9b76cf347acf7a6a7813eb2c40f0245b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>LockDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1aea846fa691552cbd0777cd48892aab1c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>LockDateTime</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a6a38f2231233379530e7bb16b53caa4d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>LockExpiresDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1affc3b1ce5865b3b31c30a947e22aeb38" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>MmmPmiIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a36d53bd38d038e3f108e4e7f3b4b4db7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>NumberOfDays</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ab50a2c17c1b951673861a1eafedca424" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>OtherDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ae79021050fe2378949be50e8c602a0b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>OtherIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a86e49fb02de53350840404c1d4aebae2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>ProgramCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a3f4d1bc76696aada4c4bf2fc102853b0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>RateLock</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a1941bdc5fd3e4672c5941cc7fd0718b6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>RateLockDisclosureDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a3d8f201341c3b53059f31b0f32e4e4e9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>ReducedDocsIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1abf17402c103c64168292a4ba05c2b437" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>TaxesIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1ad7570ecce83cab614e56650334c6f7c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>Total</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1adccf834649003bb8d23309862e4d2acf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>TotalDiscountPointCharged</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1afa764c9d217aa4c8ac68a23ae3f766a4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>TotalForDueBroker</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a0e7496754d454ca911a4ae2ce6539bb8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>TotalForDueLender</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_submission_contract_1a763b8cfb693a04bc1502fb51d3db9712" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanSubmissionContract</scope><name>TotalForPrimaryResidence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

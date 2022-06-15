@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1541</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541_1ad3ecf351a326431f80080dd1a9a09f66" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1541.ExteriorInterior</definition>
+        <argsstring></argsstring>
+        <name>ExteriorInterior</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1541.ExteriorInterior</qualifiedname>
+        <initializer>= &quot;Exterior/Interior&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1244" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541_1a32cf1ca2797b998d5a6e25ba5ccbf9c0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1541.ExteriorOnly</definition>
+        <argsstring></argsstring>
+        <name>ExteriorOnly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1541.ExteriorOnly</qualifiedname>
+        <initializer>= &quot;Exterior Only&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1245" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541_1a46c352fe3987e766cc84d9c6f854f6ce" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1541.NoAppraisal</definition>
+        <argsstring></argsstring>
+        <name>NoAppraisal</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1541.NoAppraisal</qualifiedname>
+        <initializer>= &quot;No Appraisal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1246" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1246" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1541</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ExteriorInterior</edgelabel>
+          <edgelabel>ExteriorOnly</edgelabel>
+          <edgelabel>NoAppraisal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1242" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1243" bodyend="1247"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541_1ad3ecf351a326431f80080dd1a9a09f66" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1541</scope><name>ExteriorInterior</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541_1a32cf1ca2797b998d5a6e25ba5ccbf9c0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1541</scope><name>ExteriorOnly</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1541_1a46c352fe3987e766cc84d9c6f854f6ce" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1541</scope><name>NoAppraisal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

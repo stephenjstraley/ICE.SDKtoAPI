@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x198" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X198</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x198_1a6241ccf3dd677d301dc4e450295fec20" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X198.Charged</definition>
+        <argsstring></argsstring>
+        <name>Charged</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X198.Charged</qualifiedname>
+        <initializer>= &quot;Charged&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10332" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x198_1ae3dd898ed6873d973af19e885b4f7a9a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDISCLOSURE_X198.Refundable</definition>
+        <argsstring></argsstring>
+        <name>Refundable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X198.Refundable</qualifiedname>
+        <initializer>= &quot;Refundable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10333" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10333" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eDISCLOSURE_X198</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x198"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Charged</edgelabel>
+          <edgelabel>Refundable</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="10330" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="10331" bodyend="10334"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x198_1a6241ccf3dd677d301dc4e450295fec20" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X198</scope><name>Charged</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_d_i_s_c_l_o_s_u_r_e___x198_1ae3dd898ed6873d973af19e885b4f7a9a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDISCLOSURE_X198</scope><name>Refundable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

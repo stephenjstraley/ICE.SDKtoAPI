@@ -1,0 +1,85 @@
+\hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service}{}\doxysection{ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service Class Reference}
+\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service}\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+
+
+Inherits \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service}{ICE.\+SDKto\+API.\+Providers.\+Base\+Provider\+Service}}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a9a2907601c83f01d5f47f64ec9a0f4e6}{Milestone\+Provider\+Service}} (\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}} token=null)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_contract}{Milestone\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a1bc574c8e39e73850c873c1770efa3a2}{Get\+All\+Milestones\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate}{Loan\+Contract\+Loan\+Associate}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a2b8afb5effb54f539c0c6a903301d3c0}{Get\+All\+Milestone\+Associates\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate}{Loan\+Contract\+Loan\+Associate}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a639bc174c0d249622da89832ef73f9de}{Get\+Milestone\+Associate\+Async}} (string guid, string log\+Id)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_contract}{Milestone\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a2a4c3a4bdb38867dde5b7ce7996a4f7c}{Get\+All\+Milestones\+Async}} (string guid, string log\+Id)
+\item 
+async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_acf3d968afac4395aaa578b59fef2cc29}{Assign\+Milestone\+Associate\+Async}} (string guid, string log\+Id, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate}{Loan\+Contract\+Loan\+Associate}} associate)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract}{Milestone\+Free\+Role\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a12aeefec3143c329377f52a5f588e363}{Get\+Milestone\+Free\+Roles\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract}{Milestone\+Free\+Role\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a160b251f97ddd0f2f1ad6925ebdd8a82}{Get\+Milestone\+Free\+Role\+Async}} (string guid, string log\+Id)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a9a2907601c83f01d5f47f64ec9a0f4e6}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a9a2907601c83f01d5f47f64ec9a0f4e6}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!MilestoneProviderService@{MilestoneProviderService}}
+\index{MilestoneProviderService@{MilestoneProviderService}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{MilestoneProviderService()}{MilestoneProviderService()}}
+{\footnotesize\ttfamily ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Milestone\+Provider\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}}}]{token = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_acf3d968afac4395aaa578b59fef2cc29}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_acf3d968afac4395aaa578b59fef2cc29}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!AssignMilestoneAssociateAsync@{AssignMilestoneAssociateAsync}}
+\index{AssignMilestoneAssociateAsync@{AssignMilestoneAssociateAsync}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{AssignMilestoneAssociateAsync()}{AssignMilestoneAssociateAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Assign\+Milestone\+Associate\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{log\+Id,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate}{Loan\+Contract\+Loan\+Associate}}}]{associate }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a2b8afb5effb54f539c0c6a903301d3c0}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a2b8afb5effb54f539c0c6a903301d3c0}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!GetAllMilestoneAssociatesAsync@{GetAllMilestoneAssociatesAsync}}
+\index{GetAllMilestoneAssociatesAsync@{GetAllMilestoneAssociatesAsync}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{GetAllMilestoneAssociatesAsync()}{GetAllMilestoneAssociatesAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate}{Loan\+Contract\+Loan\+Associate}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Get\+All\+Milestone\+Associates\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a1bc574c8e39e73850c873c1770efa3a2}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a1bc574c8e39e73850c873c1770efa3a2}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!GetAllMilestonesAsync@{GetAllMilestonesAsync}}
+\index{GetAllMilestonesAsync@{GetAllMilestonesAsync}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{GetAllMilestonesAsync()}{GetAllMilestonesAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_contract}{Milestone\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Get\+All\+Milestones\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a2a4c3a4bdb38867dde5b7ce7996a4f7c}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a2a4c3a4bdb38867dde5b7ce7996a4f7c}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!GetAllMilestonesAsync@{GetAllMilestonesAsync}}
+\index{GetAllMilestonesAsync@{GetAllMilestonesAsync}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{GetAllMilestonesAsync()}{GetAllMilestonesAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_contract}{Milestone\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Get\+All\+Milestones\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{log\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a639bc174c0d249622da89832ef73f9de}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a639bc174c0d249622da89832ef73f9de}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!GetMilestoneAssociateAsync@{GetMilestoneAssociateAsync}}
+\index{GetMilestoneAssociateAsync@{GetMilestoneAssociateAsync}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{GetMilestoneAssociateAsync()}{GetMilestoneAssociateAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate}{Loan\+Contract\+Loan\+Associate}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Get\+Milestone\+Associate\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{log\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a160b251f97ddd0f2f1ad6925ebdd8a82}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a160b251f97ddd0f2f1ad6925ebdd8a82}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!GetMilestoneFreeRoleAsync@{GetMilestoneFreeRoleAsync}}
+\index{GetMilestoneFreeRoleAsync@{GetMilestoneFreeRoleAsync}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{GetMilestoneFreeRoleAsync()}{GetMilestoneFreeRoleAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract}{Milestone\+Free\+Role\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Get\+Milestone\+Free\+Role\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{log\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a12aeefec3143c329377f52a5f588e363}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_a12aeefec3143c329377f52a5f588e363}} 
+\index{ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}!GetMilestoneFreeRolesAsync@{GetMilestoneFreeRolesAsync}}
+\index{GetMilestoneFreeRolesAsync@{GetMilestoneFreeRolesAsync}!ICE.SDKtoAPI.Providers.MilestoneProviderService@{ICE.SDKtoAPI.Providers.MilestoneProviderService}}
+\doxysubsubsection{\texorpdfstring{GetMilestoneFreeRolesAsync()}{GetMilestoneFreeRolesAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract}{Milestone\+Free\+Role\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Milestone\+Provider\+Service.\+Get\+Milestone\+Free\+Roles\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Development\+\_\+2020/\+ICE.\+SDKto\+API/\+ICE.\+SDKto\+API/\+Providers/\mbox{\hyperlink{_milestone_provider_service_8cs}{Milestone\+Provider\+Service.\+cs}}\end{DoxyCompactItemize}

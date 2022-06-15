@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___clos_instr_ttl_plcy_typ" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eClosing_ClosInstrTtlPlcyTyp</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___clos_instr_ttl_plcy_typ_1af32e7231a3d4f027dce290a1021dd416" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_ClosInstrTtlPlcyTyp.ALTA</definition>
+        <argsstring></argsstring>
+        <name>ALTA</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_ClosInstrTtlPlcyTyp.ALTA</qualifiedname>
+        <initializer>= &quot;ALTA&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8219" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___clos_instr_ttl_plcy_typ_1a37fab8f34b3235ccf99140adb39018e1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_ClosInstrTtlPlcyTyp.TLTA</definition>
+        <argsstring></argsstring>
+        <name>TLTA</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_ClosInstrTtlPlcyTyp.TLTA</qualifiedname>
+        <initializer>= &quot;TLTA&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8220" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8220" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eClosing_ClosInstrTtlPlcyTyp</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___clos_instr_ttl_plcy_typ"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ALTA</edgelabel>
+          <edgelabel>TLTA</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8217" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8218" bodyend="8221"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___clos_instr_ttl_plcy_typ_1af32e7231a3d4f027dce290a1021dd416" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_ClosInstrTtlPlcyTyp</scope><name>ALTA</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___clos_instr_ttl_plcy_typ_1a37fab8f34b3235ccf99140adb39018e1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_ClosInstrTtlPlcyTyp</scope><name>TLTA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

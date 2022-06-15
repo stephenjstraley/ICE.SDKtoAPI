@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>ICE::SDKtoAPI::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a2d368348e63c795bb87aa5e291d43c22" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager ICE.SDKtoAPI.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <qualifiedname>ICE.SDKtoAPI.Properties.Resources.resourceMan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="27" column="63" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a377ada9bc5c824702aaeacc4ff985baa" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo ICE.SDKtoAPI.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <qualifiedname>ICE.SDKtoAPI.Properties.Resources.resourceCulture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="29" column="63" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1ac0258c22e6001a4efb68df5d75951fd7" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager ICE.SDKtoAPI.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <qualifiedname>ICE.SDKtoAPI.Properties.Resources.ResourceManager</qualifiedname>
+        <briefdescription>
+<para>Returns the cached ResourceManager instance used by this class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="39" column="64" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a7cc5a175a21ea8796783c70ad61aaba6" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo ICE.SDKtoAPI.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <qualifiedname>ICE.SDKtoAPI.Properties.Resources.Culture</qualifiedname>
+        <briefdescription>
+<para>Overrides the current thread&apos;s CurrentUICulture property for all resource lookups using this strongly typed resource class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="54" column="64" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a7c034c4e246043c53129f02e4a18fb1a" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Properties.Resources.DictionaryFieldsV1</definition>
+        <argsstring></argsstring>
+        <name>DictionaryFieldsV1</name>
+        <qualifiedname>ICE.SDKtoAPI.Properties.Resources.DictionaryFieldsV1</qualifiedname>
+        <briefdescription>
+<para>Looks up a localized string similar to 2~BaseLoanAmount~True~decimal~False~Trans Details Total Loan Amt (w/ MIP/FF)~False~~DECIMAL_2 3~RequestedInterestRatePercent~False~decimal~False~Trans Details Interest Rate~False~~DECIMAL_2 4~LoanAmortizationTermMonths~False~int~False~Trans Details Term (Mos)~False~~INTEGER 5~PrincipalAndInterestMonthlyPaymentAmount~False~decimal~False~Trans Details Mo Pymt (P&amp;I)~True~~DECIMAL_2 6~Fees[FeeType=UserDefinedFee_817].SellerPaidAmount~False~decimal~False~Fees Line 817 Seller~False~~DECIMAL_2 8~RegulationZ.P [rest of string was truncated]";. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="71" column="32" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1af65aafcfbb0e88f44430790456a6094a" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Properties.Resources.DictionaryFieldsV3</definition>
+        <argsstring></argsstring>
+        <name>DictionaryFieldsV3</name>
+        <qualifiedname>ICE.SDKtoAPI.Properties.Resources.DictionaryFieldsV3</qualifiedname>
+        <briefdescription>
+<para>Looks up a localized string similar to 2~BaseLoanAmount~True~decimal~True~Trans Details Total Loan Amt (w/ MIP/FF)~False~~DECIMAL_2 3~RequestedInterestRatePercent~False~decimal~True~Trans Details Interest Rate~False~~DECIMAL_3 4~LoanAmortizationTermMonths~False~int~True~Trans Details Term (Mos)~False~~INTEGER 5~PrincipalAndInterestMonthlyPaymentAmount~False~decimal~True~Trans Details Mo Pymt (P&amp;I)~False~~DECIMAL_2 6~Fees[FeeType=UserDefinedFee_817].SellerPaidAmount~False~decimal~True~Fees Line 817 Seller~False~~DECIMAL_2 8~RegulationZ.PmiIn [rest of string was truncated]";. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="85" column="32" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="85" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1aac0b169bd52d3fe0c5468c6be6933ff4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <qualifiedname>ICE.SDKtoAPI.Properties.Resources.Resources</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="32" column="18" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A strongly-typed resource class, for looking up localized strings, etc. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" line="25" column="13" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Properties/Resources.Designer.cs" bodystart="25" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a7cc5a175a21ea8796783c70ad61aaba6" prot="package" virt="non-virtual"><scope>ICE::SDKtoAPI::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a7c034c4e246043c53129f02e4a18fb1a" prot="package" virt="non-virtual"><scope>ICE::SDKtoAPI::Properties::Resources</scope><name>DictionaryFieldsV1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1af65aafcfbb0e88f44430790456a6094a" prot="package" virt="non-virtual"><scope>ICE::SDKtoAPI::Properties::Resources</scope><name>DictionaryFieldsV3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a377ada9bc5c824702aaeacc4ff985baa" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1a2d368348e63c795bb87aa5e291d43c22" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1ac0258c22e6001a4efb68df5d75951fd7" prot="package" virt="non-virtual"><scope>ICE::SDKtoAPI::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_properties_1_1_resources_1aac0b169bd52d3fe0c5468c6be6933ff4" prot="package" virt="non-virtual"><scope>ICE::SDKtoAPI::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

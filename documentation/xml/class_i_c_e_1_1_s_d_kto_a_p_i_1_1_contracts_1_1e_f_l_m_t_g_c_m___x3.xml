@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x3" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eFLMTGCM_X3</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x3_1a7ba3e4dc16a8fdcf2c3507dbff8d754f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFLMTGCM_X3.DetermineAtClosing</definition>
+        <argsstring></argsstring>
+        <name>DetermineAtClosing</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFLMTGCM_X3.DetermineAtClosing</qualifiedname>
+        <initializer>= &quot;DetermineAtClosing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12314" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x3_1a50c3949c4f2649a0b0ae56381b54a2a3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFLMTGCM_X3.EstablishedByLender</definition>
+        <argsstring></argsstring>
+        <name>EstablishedByLender</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFLMTGCM_X3.EstablishedByLender</qualifiedname>
+        <initializer>= &quot;EstablishedByLender&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12315" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12315" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eFLMTGCM_X3</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>DetermineAtClosing</edgelabel>
+          <edgelabel>EstablishedByLender</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12312" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12313" bodyend="12316"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x3_1a7ba3e4dc16a8fdcf2c3507dbff8d754f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFLMTGCM_X3</scope><name>DetermineAtClosing</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x3_1a50c3949c4f2649a0b0ae56381b54a2a3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFLMTGCM_X3</scope><name>EstablishedByLender</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

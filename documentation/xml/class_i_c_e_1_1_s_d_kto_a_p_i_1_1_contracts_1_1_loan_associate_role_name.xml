@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::LoanAssociateRoleName</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1a620e9f640b3c8f1e9ade763c88c5e170" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.LoanOfficer</definition>
+        <argsstring></argsstring>
+        <name>LoanOfficer</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.LoanOfficer</qualifiedname>
+        <initializer>= &quot;Loan Officer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" line="9" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1afd0517b91d7738591a905f5f34c3581d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.LoanProcessor</definition>
+        <argsstring></argsstring>
+        <name>LoanProcessor</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.LoanProcessor</qualifiedname>
+        <initializer>= &quot;Loan Processor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" line="10" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1a9574dc8c1ed116183800b5078ccadc7c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.LoanCloser</definition>
+        <argsstring></argsstring>
+        <name>LoanCloser</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.LoanCloser</qualifiedname>
+        <initializer>= &quot;Loan Closer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" line="11" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1aeb9fe1a546608d924ac88d7cf14deb0b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.Underwriter</definition>
+        <argsstring></argsstring>
+        <name>Underwriter</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanAssociateRoleName.Underwriter</qualifiedname>
+        <initializer>= &quot;Underwriter&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" line="12" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.LoanAssociateRoleName</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>LoanCloser</edgelabel>
+          <edgelabel>LoanOfficer</edgelabel>
+          <edgelabel>LoanProcessor</edgelabel>
+          <edgelabel>Underwriter</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanAssociateRoleName.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1a9574dc8c1ed116183800b5078ccadc7c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanAssociateRoleName</scope><name>LoanCloser</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1a620e9f640b3c8f1e9ade763c88c5e170" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanAssociateRoleName</scope><name>LoanOfficer</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1afd0517b91d7738591a905f5f34c3581d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanAssociateRoleName</scope><name>LoanProcessor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_associate_role_name_1aeb9fe1a546608d924ac88d7cf14deb0b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanAssociateRoleName</scope><name>Underwriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

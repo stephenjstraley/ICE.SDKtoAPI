@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e602</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1ae530b412b3ca3bf41c723cbf0f3083bc" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e602.Detached</definition>
+        <argsstring></argsstring>
+        <name>Detached</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e602.Detached</qualifiedname>
+        <initializer>= &quot;Detached&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="565" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1ae680e8a156ae27c91259d9b842dd56d3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e602.SemiDetached</definition>
+        <argsstring></argsstring>
+        <name>SemiDetached</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e602.SemiDetached</qualifiedname>
+        <initializer>= &quot;Semi-<ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1ae530b412b3ca3bf41c723cbf0f3083bc" kindref="member">Detached</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="566" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="566" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1ac81d6fa2ca6141c909e2f95e48aad005" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e602.Row</definition>
+        <argsstring></argsstring>
+        <name>Row</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e602.Row</qualifiedname>
+        <initializer>= &quot;Row&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="567" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1a777cc6a9196365b7e24ed811e56db0a4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e602.AptUnit</definition>
+        <argsstring></argsstring>
+        <name>AptUnit</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e602.AptUnit</qualifiedname>
+        <initializer>= &quot;Apt Unit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="568" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="568" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e602</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AptUnit</edgelabel>
+          <edgelabel>Detached</edgelabel>
+          <edgelabel>Row</edgelabel>
+          <edgelabel>SemiDetached</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="563" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="564" bodyend="569"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1a777cc6a9196365b7e24ed811e56db0a4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e602</scope><name>AptUnit</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1ae530b412b3ca3bf41c723cbf0f3083bc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e602</scope><name>Detached</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1ac81d6fa2ca6141c909e2f95e48aad005" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e602</scope><name>Row</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e602_1ae680e8a156ae27c91259d9b842dd56d3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e602</scope><name>SemiDetached</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

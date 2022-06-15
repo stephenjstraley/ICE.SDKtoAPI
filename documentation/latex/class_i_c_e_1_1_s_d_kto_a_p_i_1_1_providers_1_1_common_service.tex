@@ -1,0 +1,216 @@
+\hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service}{}\doxysection{ICE.\+SDKto\+API.\+Providers.\+Common\+Service Class Reference}
+\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service}\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+
+
+Inherited by \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service}{ICE.\+SDKto\+API.\+Providers.\+Base\+Provider\+Service}}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aecb677e70e8afda6090578a159f8b038}{Common\+Service}} (\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}} token)
+\item 
+IFlurl\+Request \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a31acaab6d054ebad8dc032ee9c2e13ab}{Authenticate}} (string url)
+\item 
+void \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a87102226cd38ffc5a231c2a7fae29925}{Clear\+Response}} ()
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ae9caa06065d640b18e8a7e2fdd1b87ec}{Ok\+Response}} (string url=\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_afda0f99ff2d1077c730390365cb1330c}{Ok\+Response}} (Http\+Response\+Headers headers, string url=\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a0fc73cdfac8a069fe55ab220f4856a28}{Ok\+Response}} (Http\+Response\+Message response, string url=\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a10542411058de814149f1420879fe913}{Ok\+Response}} (Http\+Response\+Message response, string url, string query)
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a861a5e3114e6853a5b1aade135c3b8c9}{Bad\+Response}} (Flurl\+Http\+Exception e, string path, string resp\+Cont)
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_adf2fff3f0f72d729f20c912068e37f44}{Bad\+Response}} (Exception ex, string path, string resp\+Cont)
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a151d7499eed883c06d3468154a125503}{Bad\+Response}} (Http\+Status\+Code status, string message, string error\+Message, string resp\+Cont, string url=\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa0e201b04c20da01f382d89440715e2f}{Bad\+Response}} (Http\+Status\+Code status, string message, object error\+Message, string resp\+Cont, string url=\char`\"{}\char`\"{})
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a642e4bf412951f34574ffeed7d109bd7}{Save\+Response}} = false
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task$<$ T $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a2947b6e3a8030ac7b34318064fa1818a}{Get$<$ T $>$}} (string path)
+\item 
+async Task$<$ string $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aefb2409254d928d851c16099ac29ca4d}{Get\+String}} (string path)
+\item 
+async Task$<$ T $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a8ee1c885b8c14485a0252dac7e9814c0}{Patch$<$ T $>$}} (object item, string path)
+\item 
+async Task \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a159e7930cc58e07d85bd58895a7dbb80}{Patch}} (object item, string path)
+\item 
+async Task$<$ T $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a85226ec22697fb840caac8d53459326f}{Post$<$ T $>$}} (object item, string path)
+\item 
+async Task \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ac78506a742216515e6e2b480458647e0}{Post}} (object item, string path)
+\item 
+async Task \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a07660f86bc474578caf0d4863722b97c}{Delete}} (string path)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ab9e708e2331a997afa900d51465bf6a8}{\+\_\+token}}
+\item 
+Http\+Response\+Message \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa7b2a662f3b757e33fbfc98bf26473b6}{\+\_\+last\+Msg}}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa8d15ca1b463876f7c5f5ee707477a0d}{\+\_\+response}}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths}{Url\+Paths}} \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a5ae7d59de46d7df2f05fd1859916fc0d}{paths}} = new \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths}{Url\+Paths}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aecb677e70e8afda6090578a159f8b038}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aecb677e70e8afda6090578a159f8b038}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!CommonService@{CommonService}}
+\index{CommonService@{CommonService}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{CommonService()}{CommonService()}}
+{\footnotesize\ttfamily ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Common\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}}}]{token }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a31acaab6d054ebad8dc032ee9c2e13ab}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a31acaab6d054ebad8dc032ee9c2e13ab}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!Authenticate@{Authenticate}}
+\index{Authenticate@{Authenticate}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{Authenticate()}{Authenticate()}}
+{\footnotesize\ttfamily IFlurl\+Request ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Authenticate (\begin{DoxyParamCaption}\item[{string}]{url }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_adf2fff3f0f72d729f20c912068e37f44}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_adf2fff3f0f72d729f20c912068e37f44}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!BadResponse@{BadResponse}}
+\index{BadResponse@{BadResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{BadResponse()}{BadResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Bad\+Response (\begin{DoxyParamCaption}\item[{Exception}]{ex,  }\item[{string}]{path,  }\item[{string}]{resp\+Cont }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a861a5e3114e6853a5b1aade135c3b8c9}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a861a5e3114e6853a5b1aade135c3b8c9}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!BadResponse@{BadResponse}}
+\index{BadResponse@{BadResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{BadResponse()}{BadResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Bad\+Response (\begin{DoxyParamCaption}\item[{Flurl\+Http\+Exception}]{e,  }\item[{string}]{path,  }\item[{string}]{resp\+Cont }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa0e201b04c20da01f382d89440715e2f}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa0e201b04c20da01f382d89440715e2f}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!BadResponse@{BadResponse}}
+\index{BadResponse@{BadResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{BadResponse()}{BadResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Bad\+Response (\begin{DoxyParamCaption}\item[{Http\+Status\+Code}]{status,  }\item[{string}]{message,  }\item[{object}]{error\+Message,  }\item[{string}]{resp\+Cont,  }\item[{string}]{url = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a151d7499eed883c06d3468154a125503}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a151d7499eed883c06d3468154a125503}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!BadResponse@{BadResponse}}
+\index{BadResponse@{BadResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{BadResponse()}{BadResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Bad\+Response (\begin{DoxyParamCaption}\item[{Http\+Status\+Code}]{status,  }\item[{string}]{message,  }\item[{string}]{error\+Message,  }\item[{string}]{resp\+Cont,  }\item[{string}]{url = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a87102226cd38ffc5a231c2a7fae29925}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a87102226cd38ffc5a231c2a7fae29925}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!ClearResponse@{ClearResponse}}
+\index{ClearResponse@{ClearResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{ClearResponse()}{ClearResponse()}}
+{\footnotesize\ttfamily void ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Clear\+Response (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a07660f86bc474578caf0d4863722b97c}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a07660f86bc474578caf0d4863722b97c}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!Delete@{Delete}}
+\index{Delete@{Delete}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily async Task ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Delete (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a2947b6e3a8030ac7b34318064fa1818a}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a2947b6e3a8030ac7b34318064fa1818a}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!Get$<$ T $>$@{Get$<$ T $>$}}
+\index{Get$<$ T $>$@{Get$<$ T $>$}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{Get$<$ T $>$()}{Get< T >()}}
+{\footnotesize\ttfamily async Task$<$ T $>$ ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Get$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aefb2409254d928d851c16099ac29ca4d}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aefb2409254d928d851c16099ac29ca4d}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!GetString@{GetString}}
+\index{GetString@{GetString}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{GetString()}{GetString()}}
+{\footnotesize\ttfamily async Task$<$ string $>$ ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Get\+String (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_afda0f99ff2d1077c730390365cb1330c}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_afda0f99ff2d1077c730390365cb1330c}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!OkResponse@{OkResponse}}
+\index{OkResponse@{OkResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{OkResponse()}{OkResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Ok\+Response (\begin{DoxyParamCaption}\item[{Http\+Response\+Headers}]{headers,  }\item[{string}]{url = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a10542411058de814149f1420879fe913}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a10542411058de814149f1420879fe913}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!OkResponse@{OkResponse}}
+\index{OkResponse@{OkResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{OkResponse()}{OkResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Ok\+Response (\begin{DoxyParamCaption}\item[{Http\+Response\+Message}]{response,  }\item[{string}]{url,  }\item[{string}]{query }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a0fc73cdfac8a069fe55ab220f4856a28}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a0fc73cdfac8a069fe55ab220f4856a28}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!OkResponse@{OkResponse}}
+\index{OkResponse@{OkResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{OkResponse()}{OkResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Ok\+Response (\begin{DoxyParamCaption}\item[{Http\+Response\+Message}]{response,  }\item[{string}]{url = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ae9caa06065d640b18e8a7e2fdd1b87ec}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ae9caa06065d640b18e8a7e2fdd1b87ec}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!OkResponse@{OkResponse}}
+\index{OkResponse@{OkResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{OkResponse()}{OkResponse()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Ok\+Response (\begin{DoxyParamCaption}\item[{string}]{url = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a159e7930cc58e07d85bd58895a7dbb80}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a159e7930cc58e07d85bd58895a7dbb80}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!Patch@{Patch}}
+\index{Patch@{Patch}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{Patch()}{Patch()}}
+{\footnotesize\ttfamily async Task ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Patch (\begin{DoxyParamCaption}\item[{object}]{item,  }\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a8ee1c885b8c14485a0252dac7e9814c0}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a8ee1c885b8c14485a0252dac7e9814c0}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!Patch$<$ T $>$@{Patch$<$ T $>$}}
+\index{Patch$<$ T $>$@{Patch$<$ T $>$}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{Patch$<$ T $>$()}{Patch< T >()}}
+{\footnotesize\ttfamily async Task$<$ T $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a159e7930cc58e07d85bd58895a7dbb80}{ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Patch}}$<$ T $>$ (\begin{DoxyParamCaption}\item[{object}]{item,  }\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ac78506a742216515e6e2b480458647e0}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ac78506a742216515e6e2b480458647e0}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!Post@{Post}}
+\index{Post@{Post}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{Post()}{Post()}}
+{\footnotesize\ttfamily async Task ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Post (\begin{DoxyParamCaption}\item[{object}]{item,  }\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a85226ec22697fb840caac8d53459326f}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a85226ec22697fb840caac8d53459326f}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!Post$<$ T $>$@{Post$<$ T $>$}}
+\index{Post$<$ T $>$@{Post$<$ T $>$}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{Post$<$ T $>$()}{Post< T >()}}
+{\footnotesize\ttfamily async Task$<$ T $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ac78506a742216515e6e2b480458647e0}{ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Post}}$<$ T $>$ (\begin{DoxyParamCaption}\item[{object}]{item,  }\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa7b2a662f3b757e33fbfc98bf26473b6}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa7b2a662f3b757e33fbfc98bf26473b6}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!\_lastMsg@{\_lastMsg}}
+\index{\_lastMsg@{\_lastMsg}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{\_lastMsg}{\_lastMsg}}
+{\footnotesize\ttfamily Http\+Response\+Message ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+\_\+last\+Msg\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa8d15ca1b463876f7c5f5ee707477a0d}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_aa8d15ca1b463876f7c5f5ee707477a0d}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!\_response@{\_response}}
+\index{\_response@{\_response}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{\_response}{\_response}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+\_\+response\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ab9e708e2331a997afa900d51465bf6a8}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_ab9e708e2331a997afa900d51465bf6a8}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!\_token@{\_token}}
+\index{\_token@{\_token}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{\_token}{\_token}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+\_\+token\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a5ae7d59de46d7df2f05fd1859916fc0d}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a5ae7d59de46d7df2f05fd1859916fc0d}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!paths@{paths}}
+\index{paths@{paths}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{paths}{paths}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths}{Url\+Paths}} ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+paths = new \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths}{Url\+Paths}}()\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a642e4bf412951f34574ffeed7d109bd7}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_a642e4bf412951f34574ffeed7d109bd7}} 
+\index{ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}!SaveResponse@{SaveResponse}}
+\index{SaveResponse@{SaveResponse}!ICE.SDKtoAPI.Providers.CommonService@{ICE.SDKtoAPI.Providers.CommonService}}
+\doxysubsubsection{\texorpdfstring{SaveResponse}{SaveResponse}}
+{\footnotesize\ttfamily bool ICE.\+SDKto\+API.\+Providers.\+Common\+Service.\+Save\+Response = false}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Development\+\_\+2020/\+ICE.\+SDKto\+API/\+ICE.\+SDKto\+API/\+Providers/\mbox{\hyperlink{_common_service_8cs}{Common\+Service.\+cs}}\end{DoxyCompactItemize}

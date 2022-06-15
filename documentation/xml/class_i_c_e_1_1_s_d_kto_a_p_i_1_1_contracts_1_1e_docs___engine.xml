@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_docs___engine" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eDocs_Engine</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_docs___engine_1a23bd875eeffd5f3b409cec1c27810681" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDocs_Engine.Old_ODI_Encompass_Docs</definition>
+        <argsstring></argsstring>
+        <name>Old_ODI_Encompass_Docs</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDocs_Engine.Old_ODI_Encompass_Docs</qualifiedname>
+        <initializer>= &quot;Old_ODI_Encompass_Docs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11656" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_docs___engine_1afdea91cd880d5a706e306b07fc14d988" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eDocs_Engine.New_Encompass_Docs_Solution</definition>
+        <argsstring></argsstring>
+        <name>New_Encompass_Docs_Solution</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eDocs_Engine.New_Encompass_Docs_Solution</qualifiedname>
+        <initializer>= &quot;New_Encompass_Docs_Solution&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11657" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11657" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eDocs_Engine</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_docs___engine"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>New_Encompass_Docs_Solution</edgelabel>
+          <edgelabel>Old_ODI_Encompass_Docs</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11654" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11655" bodyend="11658"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_docs___engine_1afdea91cd880d5a706e306b07fc14d988" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDocs_Engine</scope><name>New_Encompass_Docs_Solution</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_docs___engine_1a23bd875eeffd5f3b409cec1c27810681" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eDocs_Engine</scope><name>Old_ODI_Encompass_Docs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

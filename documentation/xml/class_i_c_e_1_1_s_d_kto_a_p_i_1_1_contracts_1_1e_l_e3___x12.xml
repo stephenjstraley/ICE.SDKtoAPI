@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x12" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eLE3_X12</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x12_1a15c9e5aa42456d18b9ee7a57be495e39" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE3_X12.WillAllowAssumption</definition>
+        <argsstring></argsstring>
+        <name>WillAllowAssumption</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE3_X12.WillAllowAssumption</qualifiedname>
+        <initializer>= &quot;WillAllowAssumption&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14297" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x12_1ae64390de973d8390dbd845a6569b08cd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eLE3_X12.WillNotAllowAssumption</definition>
+        <argsstring></argsstring>
+        <name>WillNotAllowAssumption</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eLE3_X12.WillNotAllowAssumption</qualifiedname>
+        <initializer>= &quot;WillNotAllowAssumption&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14298" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14298" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eLE3_X12</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x12"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>WillAllowAssumption</edgelabel>
+          <edgelabel>WillNotAllowAssumption</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14295" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14296" bodyend="14299"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x12_1a15c9e5aa42456d18b9ee7a57be495e39" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE3_X12</scope><name>WillAllowAssumption</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_l_e3___x12_1ae64390de973d8390dbd845a6569b08cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eLE3_X12</scope><name>WillNotAllowAssumption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

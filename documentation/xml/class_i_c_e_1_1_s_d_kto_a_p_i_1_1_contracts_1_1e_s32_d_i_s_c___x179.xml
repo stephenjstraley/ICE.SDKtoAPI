@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x179" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eS32DISC_X179</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x179_1a631169d6ac93068627b4392f736494fa" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eS32DISC_X179.does</definition>
+        <argsstring></argsstring>
+        <name>does</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eS32DISC_X179.does</qualifiedname>
+        <initializer>= &quot;does&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26403" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x179_1a2873e1b9f749e351894fac8674217117" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eS32DISC_X179.doesnot</definition>
+        <argsstring></argsstring>
+        <name>doesnot</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eS32DISC_X179.doesnot</qualifiedname>
+        <initializer>= &quot;does not&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26404" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26404" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eS32DISC_X179</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x179"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>does</edgelabel>
+          <edgelabel>doesnot</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26401" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26402" bodyend="26405"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x179_1a631169d6ac93068627b4392f736494fa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eS32DISC_X179</scope><name>does</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s32_d_i_s_c___x179_1a2873e1b9f749e351894fac8674217117" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eS32DISC_X179</scope><name>doesnot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

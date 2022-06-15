@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d4___x1" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eCD4_X1</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d4___x1_1a07cf592863b53852a42dbcefdbf3a7f2" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD4_X1.HasDemandFeature</definition>
+        <argsstring></argsstring>
+        <name>HasDemandFeature</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD4_X1.HasDemandFeature</qualifiedname>
+        <initializer>= &quot;HasDemandFeature&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="7950" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="7950" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d4___x1_1ae618d8fcf8ded875d23d3608b4e0f2db" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCD4_X1.NoDemandFeature</definition>
+        <argsstring></argsstring>
+        <name>NoDemandFeature</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCD4_X1.NoDemandFeature</qualifiedname>
+        <initializer>= &quot;NoDemandFeature&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="7951" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="7951" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eCD4_X1</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d4___x1"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>HasDemandFeature</edgelabel>
+          <edgelabel>NoDemandFeature</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="7948" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="7949" bodyend="7952"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d4___x1_1a07cf592863b53852a42dbcefdbf3a7f2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD4_X1</scope><name>HasDemandFeature</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_d4___x1_1ae618d8fcf8ded875d23d3608b4e0f2db" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCD4_X1</scope><name>NoDemandFeature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

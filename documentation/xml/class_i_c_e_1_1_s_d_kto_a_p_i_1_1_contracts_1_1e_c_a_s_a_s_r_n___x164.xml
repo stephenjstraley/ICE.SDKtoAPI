@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x164" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eCASASRN_X164</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x164_1a1653aa4de0799f3517f5875a61d837f3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X164.Apply</definition>
+        <argsstring></argsstring>
+        <name>Apply</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X164.Apply</qualifiedname>
+        <initializer>= &quot;Apply&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4508" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x164_1a4673d28c461d468403258db79e1f0b6f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X164.Cancel</definition>
+        <argsstring></argsstring>
+        <name>Cancel</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X164.Cancel</qualifiedname>
+        <initializer>= &quot;Cancel&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4509" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4509" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eCASASRN_X164</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x164"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Apply</edgelabel>
+          <edgelabel>Cancel</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4506" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4507" bodyend="4510"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x164_1a1653aa4de0799f3517f5875a61d837f3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X164</scope><name>Apply</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x164_1a4673d28c461d468403258db79e1f0b6f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X164</scope><name>Cancel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

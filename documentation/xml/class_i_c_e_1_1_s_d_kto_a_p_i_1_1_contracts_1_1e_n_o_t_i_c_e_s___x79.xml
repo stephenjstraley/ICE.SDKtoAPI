@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNOTICES_X79</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79_1a896ca19ebd78f3e6fa8e46710dab7045" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X79.Wedonothaveaffiliates</definition>
+        <argsstring></argsstring>
+        <name>Wedonothaveaffiliates</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X79.Wedonothaveaffiliates</qualifiedname>
+        <initializer>= &quot;We do not have affiliates&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22378" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79_1a923429bda3cdbb4aa500e40037799b7f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X79.Wehaveaffiliatesbutdonotsharepersonalinformationwiththem</definition>
+        <argsstring></argsstring>
+        <name>Wehaveaffiliatesbutdonotsharepersonalinformationwiththem</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X79.Wehaveaffiliatesbutdonotsharepersonalinformationwiththem</qualifiedname>
+        <initializer>= &quot;We have affiliates but do not share personal information with them&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22379" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79_1a633afb38391b1e76c9060884e90a85db" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X79.Wehaveaffiliatesandsharepersonalinformationwiththem</definition>
+        <argsstring></argsstring>
+        <name>Wehaveaffiliatesandsharepersonalinformationwiththem</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X79.Wehaveaffiliatesandsharepersonalinformationwiththem</qualifiedname>
+        <initializer>= &quot;We have affiliates and share personal information with them&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22380" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22380" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNOTICES_X79</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Wedonothaveaffiliates</edgelabel>
+          <edgelabel>Wehaveaffiliatesandsharepersonalinformationwiththem</edgelabel>
+          <edgelabel>Wehaveaffiliatesbutdonotsharepersonalinformationwiththem</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22376" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22377" bodyend="22381"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79_1a896ca19ebd78f3e6fa8e46710dab7045" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X79</scope><name>Wedonothaveaffiliates</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79_1a633afb38391b1e76c9060884e90a85db" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X79</scope><name>Wehaveaffiliatesandsharepersonalinformationwiththem</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x79_1a923429bda3cdbb4aa500e40037799b7f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X79</scope><name>Wehaveaffiliatesbutdonotsharepersonalinformationwiththem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

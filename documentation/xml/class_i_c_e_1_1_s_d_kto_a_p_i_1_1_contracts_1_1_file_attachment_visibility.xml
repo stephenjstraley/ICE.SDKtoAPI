@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_visibility" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::FileAttachmentVisibility</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_visibility_1ab64d9b7dc2d107a801b8cf02a5452254" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentVisibility.Public</definition>
+        <argsstring></argsstring>
+        <name>Public</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentVisibility.Public</qualifiedname>
+        <initializer>= &quot;Public&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" line="9" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_visibility_1ada380987721c6ff6b07de46487ff24fa" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentVisibility.Internal</definition>
+        <argsstring></argsstring>
+        <name>Internal</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentVisibility.Internal</qualifiedname>
+        <initializer>= &quot;Internal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" line="10" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_visibility_1ac313def1d505be2638afe7b761d51cf0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentVisibility.Personal</definition>
+        <argsstring></argsstring>
+        <name>Personal</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentVisibility.Personal</qualifiedname>
+        <initializer>= &quot;Personal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" line="11" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.FileAttachmentVisibility</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Internal</edgelabel>
+          <edgelabel>Personal</edgelabel>
+          <edgelabel>Public</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" line="7" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentVisibility.cs" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_visibility_1ada380987721c6ff6b07de46487ff24fa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentVisibility</scope><name>Internal</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_visibility_1ac313def1d505be2638afe7b761d51cf0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentVisibility</scope><name>Personal</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_visibility_1ab64d9b7dc2d107a801b8cf02a5452254" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentVisibility</scope><name>Public</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

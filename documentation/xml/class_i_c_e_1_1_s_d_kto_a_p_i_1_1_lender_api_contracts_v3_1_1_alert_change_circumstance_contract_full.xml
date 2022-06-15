@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.AlertChangeCircumstanceContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_full_1ac94eee4efc26b69ceed7acdf140df142" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.AlertChangeCircumstanceContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.AlertChangeCircumstanceContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AlertChangeCircumstanceContract.cs" line="66" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AlertChangeCircumstanceContract.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AlertChangeCircumstanceContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.AlertChangeCircumstanceContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AlertChangeCircumstanceContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.AlertChangeCircumstanceContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AlertChangeCircumstanceContract.cs" line="62" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AlertChangeCircumstanceContract.cs" bodystart="63" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1a708f8dc5ab3b25afc7ff822e7f9b3990" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>AlertChangeCircumstanceIndex</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1acdc9f256b75669f10df6c4ee2b1cbc57" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>AlertTriggerFieldId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_full_1ac94eee4efc26b69ceed7acdf140df142" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1a90ce661497505aae89f06f5f8c9ebc28" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceAlertBaseline</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1ad02151e446b11ec7677cf2209d5d5e91" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceAlertDisclosedAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1afbcb2233e8ba7f1376470a15e6c0e016" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceAlertFeeDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1a7146177fd88abb4909444166bf469cbe" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceAlertInitialAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1a24a4dfd07e76ab015cc931e0a10d7098" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceAlertItemizationAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1aaca54f1fd3825cc70172a98ed7690512" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceAlertVarianceAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1a34abe30fe5cb230602419b4b8b123ace" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceCategory</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1ab1ea38dca3a357ba4a63730f96d30e87" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceComments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1aabff9dab9aae6728b52726ec0d4da09f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1adb7f4a4234c5b10771ecbeeef758be7e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1a7b0c4bf6947d14072efecdd39de876ea" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceReason</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1aeabffc893c3c68056adadb7f87b3d9b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>ChangedCircumstanceReasonOther</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1af656dbd5668e138d862cb89d775272fe" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_alert_change_circumstance_contract_1a1b2e3fc9a3dba4ef50d8c118eec5d18a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AlertChangeCircumstanceContractFull</scope><name>RevisedDueDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

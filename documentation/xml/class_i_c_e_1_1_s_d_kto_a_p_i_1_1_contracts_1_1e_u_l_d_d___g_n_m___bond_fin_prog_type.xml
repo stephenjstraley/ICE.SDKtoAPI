@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_GNM_BondFinProgType</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type_1a88138f2efe2a44f1848e4da790f602b2" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_BondFinProgType.BuilderBond</definition>
+        <argsstring></argsstring>
+        <name>BuilderBond</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_BondFinProgType.BuilderBond</qualifiedname>
+        <initializer>= &quot;BuilderBond&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29735" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type_1a02e9d4f5ecc2f212df257cb0d67f1b7b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_BondFinProgType.ConsolidatedBond</definition>
+        <argsstring></argsstring>
+        <name>ConsolidatedBond</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_BondFinProgType.ConsolidatedBond</qualifiedname>
+        <initializer>= &quot;ConsolidatedBond&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29736" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type_1a1def0b76e8bca64ec1b9b27eea889f89" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_BondFinProgType.FinalBond</definition>
+        <argsstring></argsstring>
+        <name>FinalBond</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_BondFinProgType.FinalBond</qualifiedname>
+        <initializer>= &quot;FinalBond&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29737" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29737" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_GNM_BondFinProgType</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BuilderBond</edgelabel>
+          <edgelabel>ConsolidatedBond</edgelabel>
+          <edgelabel>FinalBond</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29733" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29734" bodyend="29738"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type_1a88138f2efe2a44f1848e4da790f602b2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_BondFinProgType</scope><name>BuilderBond</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type_1a02e9d4f5ecc2f212df257cb0d67f1b7b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_BondFinProgType</scope><name>ConsolidatedBond</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___bond_fin_prog_type_1a1def0b76e8bca64ec1b9b27eea889f89" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_BondFinProgType</scope><name>FinalBond</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eClosing_NtEndsmtThrdPtyScsrClaus</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus_1a790733759f6ed473652f61ec6a3c9843" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_NtEndsmtThrdPtyScsrClaus.ItsSuccessorsAndOrAssigns</definition>
+        <argsstring></argsstring>
+        <name>ItsSuccessorsAndOrAssigns</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_NtEndsmtThrdPtyScsrClaus.ItsSuccessorsAndOrAssigns</qualifiedname>
+        <initializer>= &quot;Its Successors And/Or Assigns&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8634" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus_1a049a4a4c8b570e047e9e6549a0641c55" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_NtEndsmtThrdPtyScsrClaus.ItsSuccessorsAndOrAssignsAsTheirInterestMayAppear</definition>
+        <argsstring></argsstring>
+        <name>ItsSuccessorsAndOrAssignsAsTheirInterestMayAppear</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_NtEndsmtThrdPtyScsrClaus.ItsSuccessorsAndOrAssignsAsTheirInterestMayAppear</qualifiedname>
+        <initializer>= &quot;Its Successors And/Or Assigns, As Their Interest May Appear&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8635" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8635" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus_1af4810df743a3517bfb7f78d7f6c5a3e3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eClosing_NtEndsmtThrdPtyScsrClaus.ItsSuccessorsAndOrAssignsATIMA</definition>
+        <argsstring></argsstring>
+        <name>ItsSuccessorsAndOrAssignsATIMA</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eClosing_NtEndsmtThrdPtyScsrClaus.ItsSuccessorsAndOrAssignsATIMA</qualifiedname>
+        <initializer>= &quot;Its Successors And/Or Assigns, A.T.I.M.A.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8636" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8636" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eClosing_NtEndsmtThrdPtyScsrClaus</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ItsSuccessorsAndOrAssigns</edgelabel>
+          <edgelabel>ItsSuccessorsAndOrAssignsATIMA</edgelabel>
+          <edgelabel>ItsSuccessorsAndOrAssignsAsTheirInterestMayAppear</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="8632" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="8633" bodyend="8637"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus_1a790733759f6ed473652f61ec6a3c9843" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_NtEndsmtThrdPtyScsrClaus</scope><name>ItsSuccessorsAndOrAssigns</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus_1a049a4a4c8b570e047e9e6549a0641c55" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_NtEndsmtThrdPtyScsrClaus</scope><name>ItsSuccessorsAndOrAssignsAsTheirInterestMayAppear</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_closing___nt_endsmt_thrd_pty_scsr_claus_1af4810df743a3517bfb7f78d7f6c5a3e3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eClosing_NtEndsmtThrdPtyScsrClaus</scope><name>ItsSuccessorsAndOrAssignsATIMA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

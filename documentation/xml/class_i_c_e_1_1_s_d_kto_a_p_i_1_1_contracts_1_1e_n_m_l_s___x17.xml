@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNMLS_X17</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17_1a07b3a21aea31871234142ab0ecbadd2e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNMLS_X17.Securedbyafirstlien</definition>
+        <argsstring></argsstring>
+        <name>Securedbyafirstlien</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNMLS_X17.Securedbyafirstlien</qualifiedname>
+        <initializer>= &quot;Secured by a first lien&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21870" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17_1a36c51356e34ab8b983ba808113a7618f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNMLS_X17.Securedbyasubordinatelien</definition>
+        <argsstring></argsstring>
+        <name>Securedbyasubordinatelien</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNMLS_X17.Securedbyasubordinatelien</qualifiedname>
+        <initializer>= &quot;Secured by a subordinate lien&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21871" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17_1a140dae6ed2afd9eafb8d398854379c1a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNMLS_X17.Notsecuredbyalien</definition>
+        <argsstring></argsstring>
+        <name>Notsecuredbyalien</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNMLS_X17.Notsecuredbyalien</qualifiedname>
+        <initializer>= &quot;Not secured by a lien&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21872" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21872" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNMLS_X17</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Notsecuredbyalien</edgelabel>
+          <edgelabel>Securedbyafirstlien</edgelabel>
+          <edgelabel>Securedbyasubordinatelien</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21868" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21869" bodyend="21873"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17_1a140dae6ed2afd9eafb8d398854379c1a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNMLS_X17</scope><name>Notsecuredbyalien</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17_1a07b3a21aea31871234142ab0ecbadd2e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNMLS_X17</scope><name>Securedbyafirstlien</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x17_1a36c51356e34ab8b983ba808113a7618f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNMLS_X17</scope><name>Securedbyasubordinatelien</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

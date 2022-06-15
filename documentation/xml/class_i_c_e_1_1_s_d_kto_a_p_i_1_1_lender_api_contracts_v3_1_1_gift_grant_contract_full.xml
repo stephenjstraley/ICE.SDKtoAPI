@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.GiftGrantContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_full_1a2c6066024250d138d60bea3832ca2eaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.GiftGrantContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.GiftGrantContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GiftGrantContractFull.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GiftGrantContractFull.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>GiftGrantContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.GiftGrantContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>GiftGrantContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.GiftGrantContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GiftGrantContractFull.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/GiftGrantContractFull.cs" bodystart="10" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_full_1a2c6066024250d138d60bea3832ca2eaa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a1e647a295a34468ef450c638a334ae55" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>Amount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a4ed87cb42f4b0fdaabfd1785e2ec067f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>AssetType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a5206b5d01302956ef68e259dc3e7a248" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>Attention</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a7b3b0cd0ed6ec49a668b8cb901f938d5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>DepositedIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1ad50db87d8121643f9a0d197c5ee8426c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>GiftorGrantDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a85a674d175b8b721fd867a02fe20a1e9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderAddressCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1ae0a543b2d7d85f381e49ead9ad6cf8e5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderAddressPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a9538af549c6fa2e895c52fb1bbca1291" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderAddressState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1ac9347302803b5ac3a6770aaa554b55da" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderAddressStreetLine1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1ac984200c75057a6de4d6fb0ea3131ef7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderEmail</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a96b0698de1cd9a3712aff44b87bd01dd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1adb1b8646728df55e6debb172fee2dac5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a1ffce848413953ca9cc4a3aad266cd30" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>HolderPhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a06ad538d9463b18db090868a981f8679" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a346bac26fbb4bb8c8b36f2275ce0cb8b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>OtherSourceDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a24ac3ad2bbf520c366dc5e609628c8d8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>Owner</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a0ebca413f905b799fbd20a9ee860d305" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>PrintAttachmentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a5d4a062a972f5f71dc6ecfad3bd599fe" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a6e704d2cb9478796e5dac6f4d14ec088" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>PrintUserNameIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a58b70723e484c489e57db4f0aff1e9ff" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>Source</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a01518c929354b857b8c76de72ad835ed" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1a9a6a70a2ddb6bcbb843611a0fcfc56b6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gift_grant_contract_1ae9ececa8e004cee58a31883028eb393c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::GiftGrantContractFull</scope><name>TitlePhone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

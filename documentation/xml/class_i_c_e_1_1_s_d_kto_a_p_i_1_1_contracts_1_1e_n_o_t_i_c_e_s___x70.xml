@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNOTICES_X70</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70_1a0fc06ddc1e71dfc3f02045a87b483755" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X70.Yes</definition>
+        <argsstring></argsstring>
+        <name>Yes</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X70.Yes</qualifiedname>
+        <initializer>= &quot;Yes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22181" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70_1a92bdf4433e117a729e490fc8380213d5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X70.No</definition>
+        <argsstring></argsstring>
+        <name>No</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X70.No</qualifiedname>
+        <initializer>= &quot;No&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22182" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70_1abab46aad984b86099ca10cf322e2743f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X70.WeDontShare</definition>
+        <argsstring></argsstring>
+        <name>WeDontShare</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X70.WeDontShare</qualifiedname>
+        <initializer>= &quot;We Don&apos;t Share&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22183" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22183" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNOTICES_X70</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>No</edgelabel>
+          <edgelabel>WeDontShare</edgelabel>
+          <edgelabel>Yes</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22179" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22180" bodyend="22184"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70_1a92bdf4433e117a729e490fc8380213d5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X70</scope><name>No</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70_1abab46aad984b86099ca10cf322e2743f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X70</scope><name>WeDontShare</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x70_1a0fc06ddc1e71dfc3f02045a87b483755" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X70</scope><name>Yes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

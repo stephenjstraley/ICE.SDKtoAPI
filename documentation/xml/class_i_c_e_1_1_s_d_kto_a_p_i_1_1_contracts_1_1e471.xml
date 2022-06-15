@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e471</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1a009b022cfe1d9d5f984f74dc9105a23d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e471.Male</definition>
+        <argsstring></argsstring>
+        <name>Male</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e471.Male</qualifiedname>
+        <initializer>= &quot;Male&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="495" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1ae7e079ae90b848812a2681fe0e1ea5d3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e471.Female</definition>
+        <argsstring></argsstring>
+        <name>Female</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e471.Female</qualifiedname>
+        <initializer>= &quot;Female&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="496" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1ac4b638d8b8f00947df688015f4c8b21d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e471.InformationNotProvidedUnknown</definition>
+        <argsstring></argsstring>
+        <name>InformationNotProvidedUnknown</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e471.InformationNotProvidedUnknown</qualifiedname>
+        <initializer>= &quot;InformationNotProvidedUnknown&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="497" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1a7661f8ce3eace18d1fda5aeb46c9b1a1" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e471.NotApplicable</definition>
+        <argsstring></argsstring>
+        <name>NotApplicable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e471.NotApplicable</qualifiedname>
+        <initializer>= &quot;NotApplicable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="498" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e471</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Female</edgelabel>
+          <edgelabel>InformationNotProvidedUnknown</edgelabel>
+          <edgelabel>Male</edgelabel>
+          <edgelabel>NotApplicable</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="493" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="494" bodyend="499"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1ae7e079ae90b848812a2681fe0e1ea5d3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e471</scope><name>Female</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1ac4b638d8b8f00947df688015f4c8b21d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e471</scope><name>InformationNotProvidedUnknown</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1a009b022cfe1d9d5f984f74dc9105a23d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e471</scope><name>Male</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e471_1a7661f8ce3eace18d1fda5aeb46c9b1a1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e471</scope><name>NotApplicable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

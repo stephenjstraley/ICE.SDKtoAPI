@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eUSDA_X152</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152_1ad3b543fb3425c101bf9b2888332a0856" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X152.Accept</definition>
+        <argsstring></argsstring>
+        <name>Accept</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X152.Accept</qualifiedname>
+        <initializer>= &quot;Accept&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31843" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152_1a632f3c03371cace601a2b535e8a55e80" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X152.Refer</definition>
+        <argsstring></argsstring>
+        <name>Refer</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X152.Refer</qualifiedname>
+        <initializer>= &quot;Refer&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31844" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152_1a9f230ce10b12cbd3f5196cfbb2e54064" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eUSDA_X152.ReferwithCautionManualUW</definition>
+        <argsstring></argsstring>
+        <name>ReferwithCautionManualUW</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eUSDA_X152.ReferwithCautionManualUW</qualifiedname>
+        <initializer>= &quot;Refer with Caution (Manual U/W)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31845" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31845" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eUSDA_X152</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Accept</edgelabel>
+          <edgelabel>Refer</edgelabel>
+          <edgelabel>ReferwithCautionManualUW</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31841" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31842" bodyend="31846"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152_1ad3b543fb3425c101bf9b2888332a0856" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X152</scope><name>Accept</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152_1a632f3c03371cace601a2b535e8a55e80" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X152</scope><name>Refer</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_s_d_a___x152_1a9f230ce10b12cbd3f5196cfbb2e54064" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eUSDA_X152</scope><name>ReferwithCautionManualUW</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

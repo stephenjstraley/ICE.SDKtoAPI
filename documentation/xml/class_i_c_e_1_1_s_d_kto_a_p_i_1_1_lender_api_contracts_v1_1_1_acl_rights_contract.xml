@@ -1,0 +1,891 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_base_encompass_model" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV1.BaseEncompassModel</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1accb3708d9c5dda185a53cda03cadefec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Access</definition>
+        <argsstring></argsstring>
+        <name>Access</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Access</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="34" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a87cfd42d590ffb2a801c2ec4d0014391" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.AditionalService</definition>
+        <argsstring></argsstring>
+        <name>AditionalService</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.AditionalService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="35" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1afd1a09365fa7aafb65391fa01952abbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.AusTracking</definition>
+        <argsstring></argsstring>
+        <name>AusTracking</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.AusTracking</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="36" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a345aab4bb33f9016ec4f83ebdc26b1b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.BorrowContacts</definition>
+        <argsstring></argsstring>
+        <name>BorrowContacts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.BorrowContacts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="37" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a169c6316674ee2abb1aeaf1fbd3b4881" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.BusinessRules</definition>
+        <argsstring></argsstring>
+        <name>BusinessRules</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.BusinessRules</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="38" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a27ac1956cfbe735d5c68a185ebaaa903" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ClosingDocs</definition>
+        <argsstring></argsstring>
+        <name>ClosingDocs</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ClosingDocs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="39" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a0bdcf09775fa6b4e6534e6c977f3ff6a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.CompanyUserSetup</definition>
+        <argsstring></argsstring>
+        <name>CompanyUserSetup</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.CompanyUserSetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="40" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ac543320cc177b3d81250661c4b5d6469" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Contacts</definition>
+        <argsstring></argsstring>
+        <name>Contacts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Contacts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="41" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ad325c5aac0abe6efde724a4a5de9c8ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ConsumerConnect</definition>
+        <argsstring></argsstring>
+        <name>ConsumerConnect</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ConsumerConnect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="42" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a3191a69fc77a7adfdf52032811be80e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Dashboard</definition>
+        <argsstring></argsstring>
+        <name>Dashboard</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Dashboard</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="43" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a5ebdc629131db29b7c359693d1d07d4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DisclosureTracking</definition>
+        <argsstring></argsstring>
+        <name>DisclosureTracking</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DisclosureTracking</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="44" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a8f0a6e4515f6eb130895d40ca407ba4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DeliveryConditions</definition>
+        <argsstring></argsstring>
+        <name>DeliveryConditions</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DeliveryConditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="45" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ace87d2cfced60a69724f76849b87c9d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DocsSetup</definition>
+        <argsstring></argsstring>
+        <name>DocsSetup</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DocsSetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="46" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a4a124276f0ecd0ee4c9c12802256ba7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights" kindref="compound">DocumentAccessRights</ref></type>
+        <definition>DocumentAccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Documents</definition>
+        <argsstring></argsstring>
+        <name>Documents</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Documents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="47" column="37" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a5aa6e852c25f6bb488f8c16c429096e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DuplicateLoans</definition>
+        <argsstring></argsstring>
+        <name>DuplicateLoans</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DuplicateLoans</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="48" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1af248ccce098397633fb002b8142093ae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DynamicDataManagement</definition>
+        <argsstring></argsstring>
+        <name>DynamicDataManagement</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.DynamicDataManagement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="49" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ad614934589c77a55710b6adf9a9b8126" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EDisclosures</definition>
+        <argsstring></argsstring>
+        <name>EDisclosures</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EDisclosures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="50" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a29f7d48740fc8b9d24ddf1c21b841ab5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EFolderHistory</definition>
+        <argsstring></argsstring>
+        <name>EFolderHistory</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EFolderHistory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="51" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aff0255536f1ac3d516866a7537ec4ec3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EFolderSetup</definition>
+        <argsstring></argsstring>
+        <name>EFolderSetup</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EFolderSetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="52" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a3c5ae5abd8fbbdd2e514d6e0919dd2ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EncompassWebServices</definition>
+        <argsstring></argsstring>
+        <name>EncompassWebServices</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EncompassWebServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="53" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa49604074c98e7cf3b2aa3c6855361a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EnhancedConditions</definition>
+        <argsstring></argsstring>
+        <name>EnhancedConditions</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.EnhancedConditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="54" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1abb2992f05aa0ebf8e67774d40d7ac859" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ExternalSettings</definition>
+        <argsstring></argsstring>
+        <name>ExternalSettings</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ExternalSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="55" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1affffdf89d98dea3917abbc58844c573f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_grant_write_access" kindref="compound">GrantWriteAccess</ref></type>
+        <definition>GrantWriteAccess ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.FileContacts</definition>
+        <argsstring></argsstring>
+        <name>FileContacts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.FileContacts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="56" column="33" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6ff6e5d20aee5a21264127923516ef4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Forms</definition>
+        <argsstring></argsstring>
+        <name>Forms</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Forms</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="57" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a75c29391bce32f9a8ebdb1db4a0e7ac4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.GseServices</definition>
+        <argsstring></argsstring>
+        <name>GseServices</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.GseServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="58" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a441c77a1d59b9a17b47a03165438ba38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Loan</definition>
+        <argsstring></argsstring>
+        <name>Loan</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Loan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="59" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6cce509b25bbbfbf4c14b8afe7a8f4da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.LoConnectTasks</definition>
+        <argsstring></argsstring>
+        <name>LoConnectTasks</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.LoConnectTasks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="60" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aec2086c0c9533f49fad2d978d0c5eeb3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.LoanSetup</definition>
+        <argsstring></argsstring>
+        <name>LoanSetup</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.LoanSetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="61" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a9b94bdbf3d13b3a38d8d4e0a1881089f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ManageServiceProviders</definition>
+        <argsstring></argsstring>
+        <name>ManageServiceProviders</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ManageServiceProviders</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="62" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a7ea5bd8099e6fd7c4f857527b7002e7f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_work_flow_rights" kindref="compound">MilestoneWorkFlowRights</ref></type>
+        <definition>MilestoneWorkFlowRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.MilestoneWorkFlowManagement</definition>
+        <argsstring></argsstring>
+        <name>MilestoneWorkFlowManagement</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.MilestoneWorkFlowManagement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="63" column="40" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6ac375cc8a8a27e6341914ba4a57d512" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract" kindref="compound">MoveLoansContract</ref></type>
+        <definition>MoveLoansContract ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.MoveLoans</definition>
+        <argsstring></argsstring>
+        <name>MoveLoans</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.MoveLoans</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="64" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a36c034a8c2f97d28803551f243385cb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PersonalSettings</definition>
+        <argsstring></argsstring>
+        <name>PersonalSettings</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PersonalSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="65" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ac9382eca8166ab58116a26cccdbbb451" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_export_service_rights" kindref="compound">ExportServiceRights</ref></type>
+        <definition>ExportServiceRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ExportServices</definition>
+        <argsstring></argsstring>
+        <name>ExportServices</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.ExportServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="66" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a89dcb1043e15a00450ce64690dd9fa43" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PersonalTemplates</definition>
+        <argsstring></argsstring>
+        <name>PersonalTemplates</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PersonalTemplates</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="67" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1abfdab56b359530cea52ec61ead78e1eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PostClosingConditions</definition>
+        <argsstring></argsstring>
+        <name>PostClosingConditions</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PostClosingConditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="68" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa899338def1a9b95c1197f7c4d2e891e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PreliminaryConditions</definition>
+        <argsstring></argsstring>
+        <name>PreliminaryConditions</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PreliminaryConditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="69" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1af70007d674b04c8a237ccb2d99c0ff7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_pipeline_rights" kindref="compound">PipelineRights</ref></type>
+        <definition>PipelineRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Pipeline</definition>
+        <argsstring></argsstring>
+        <name>Pipeline</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Pipeline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="70" column="31" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a754266c9b7ed3453607142fd6136e8e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Print</definition>
+        <argsstring></argsstring>
+        <name>Print</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Print</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="71" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aab1ed86dd94edc66b6f777e2ab558610" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PurchaseConditions</definition>
+        <argsstring></argsstring>
+        <name>PurchaseConditions</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.PurchaseConditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="72" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a2f75251814699765593215dfe388aa13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Reports</definition>
+        <argsstring></argsstring>
+        <name>Reports</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Reports</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="73" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aeb47a3c272b2b8f8249e8b9b505038f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_service_rights" kindref="compound">ServiceRights</ref></type>
+        <definition>ServiceRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Services</definition>
+        <argsstring></argsstring>
+        <name>Services</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Services</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="74" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aefc13ac15d6efe42729c9405fdb2e01b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.SecondarySetup</definition>
+        <argsstring></argsstring>
+        <name>SecondarySetup</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.SecondarySetup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="75" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1afc565c4bf72cadc89ea46fdb27cd3302" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.SmartClient</definition>
+        <argsstring></argsstring>
+        <name>SmartClient</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.SmartClient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="76" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa5e952a1b5dca6726785a7eda6554fe3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.SystemAdminitration</definition>
+        <argsstring></argsstring>
+        <name>SystemAdminitration</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.SystemAdminitration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="77" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a1e2e40c27af6e6172f8a30ff997c7f43" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TablesAndFees</definition>
+        <argsstring></argsstring>
+        <name>TablesAndFees</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TablesAndFees</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="78" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a7f07f12ffa29ba2194d3b2e541f32350" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Tools</definition>
+        <argsstring></argsstring>
+        <name>Tools</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Tools</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="79" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa190fd371e5bf85ad657007a67757b57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoCompanyDetails</definition>
+        <argsstring></argsstring>
+        <name>TpoCompanyDetails</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoCompanyDetails</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="80" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ada3bb18c15fb205e6b5481e14a2682d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoConnectSiteSettings</definition>
+        <argsstring></argsstring>
+        <name>TpoConnectSiteSettings</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoConnectSiteSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="81" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aeba65ee6818580067e1ac2965c1f4cf9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoContacts</definition>
+        <argsstring></argsstring>
+        <name>TpoContacts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoContacts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="82" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a09715ab12d2e156cc5fcdd3c37cac667" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoFees</definition>
+        <argsstring></argsstring>
+        <name>TpoFees</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoFees</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="83" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1abfc9d53a4aadbf65773f5618afa2c3d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoInformation</definition>
+        <argsstring></argsstring>
+        <name>TpoInformation</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoInformation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="84" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a54794a6650d90a4ff18d8e869b51bbf8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoOrganizationSettings</definition>
+        <argsstring></argsstring>
+        <name>TpoOrganizationSettings</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TpoOrganizationSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="85" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ac9d1e4f94cfa492f38454fd08499f297" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TqlServices</definition>
+        <argsstring></argsstring>
+        <name>TqlServices</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.TqlServices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="86" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a24a77bcfbd2ddc4047d8d4a1d253dae5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Trades</definition>
+        <argsstring></argsstring>
+        <name>Trades</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.Trades</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="87" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6f25e3c3d078d109cbe809da9c5784f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.UnderwritingConditions</definition>
+        <argsstring></argsstring>
+        <name>UnderwritingConditions</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.UnderwritingConditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="88" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aef184a3e3888c10f3b3c2d9ecd71af4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" kindref="compound">AccessRights</ref></type>
+        <definition>AccessRights ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.UnderwritingCenter</definition>
+        <argsstring></argsstring>
+        <name>UnderwritingCenter</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract.UnderwritingCenter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="89" column="29" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseEncompassModel</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_base_encompass_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IValidatableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseEncompassModel</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_base_encompass_model"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV1.AclRightsContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IValidatableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="32" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="33" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1accb3708d9c5dda185a53cda03cadefec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Access</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a87cfd42d590ffb2a801c2ec4d0014391" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>AditionalService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1afd1a09365fa7aafb65391fa01952abbf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>AusTracking</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a345aab4bb33f9016ec4f83ebdc26b1b2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>BorrowContacts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a169c6316674ee2abb1aeaf1fbd3b4881" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>BusinessRules</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a27ac1956cfbe735d5c68a185ebaaa903" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>ClosingDocs</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a0bdcf09775fa6b4e6534e6c977f3ff6a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>CompanyUserSetup</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ad325c5aac0abe6efde724a4a5de9c8ed" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>ConsumerConnect</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ac543320cc177b3d81250661c4b5d6469" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Contacts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a3191a69fc77a7adfdf52032811be80e9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Dashboard</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a8f0a6e4515f6eb130895d40ca407ba4a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>DeliveryConditions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a5ebdc629131db29b7c359693d1d07d4f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>DisclosureTracking</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ace87d2cfced60a69724f76849b87c9d7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>DocsSetup</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a4a124276f0ecd0ee4c9c12802256ba7d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Documents</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a5aa6e852c25f6bb488f8c16c429096e2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>DuplicateLoans</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1af248ccce098397633fb002b8142093ae" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>DynamicDataManagement</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ad614934589c77a55710b6adf9a9b8126" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>EDisclosures</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a29f7d48740fc8b9d24ddf1c21b841ab5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>EFolderHistory</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aff0255536f1ac3d516866a7537ec4ec3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>EFolderSetup</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a3c5ae5abd8fbbdd2e514d6e0919dd2ca" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>EncompassWebServices</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa49604074c98e7cf3b2aa3c6855361a4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>EnhancedConditions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ac9382eca8166ab58116a26cccdbbb451" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>ExportServices</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1abb2992f05aa0ebf8e67774d40d7ac859" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>ExternalSettings</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1affffdf89d98dea3917abbc58844c573f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>FileContacts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6ff6e5d20aee5a21264127923516ef4b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Forms</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a75c29391bce32f9a8ebdb1db4a0e7ac4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>GseServices</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a441c77a1d59b9a17b47a03165438ba38" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Loan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aec2086c0c9533f49fad2d978d0c5eeb3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>LoanSetup</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6cce509b25bbbfbf4c14b8afe7a8f4da" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>LoConnectTasks</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a9b94bdbf3d13b3a38d8d4e0a1881089f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>ManageServiceProviders</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a7ea5bd8099e6fd7c4f857527b7002e7f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>MilestoneWorkFlowManagement</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6ac375cc8a8a27e6341914ba4a57d512" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>MoveLoans</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a36c034a8c2f97d28803551f243385cb5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>PersonalSettings</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a89dcb1043e15a00450ce64690dd9fa43" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>PersonalTemplates</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1af70007d674b04c8a237ccb2d99c0ff7c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Pipeline</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1abfdab56b359530cea52ec61ead78e1eb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>PostClosingConditions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa899338def1a9b95c1197f7c4d2e891e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>PreliminaryConditions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a754266c9b7ed3453607142fd6136e8e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Print</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aab1ed86dd94edc66b6f777e2ab558610" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>PurchaseConditions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a2f75251814699765593215dfe388aa13" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Reports</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aefc13ac15d6efe42729c9405fdb2e01b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>SecondarySetup</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aeb47a3c272b2b8f8249e8b9b505038f0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Services</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1afc565c4bf72cadc89ea46fdb27cd3302" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>SmartClient</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa5e952a1b5dca6726785a7eda6554fe3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>SystemAdminitration</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a1e2e40c27af6e6172f8a30ff997c7f43" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TablesAndFees</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_base_encompass_model_1a721105537a9a4fce645b60930cc823aa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>ToJson</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a7f07f12ffa29ba2194d3b2e541f32350" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Tools</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aa190fd371e5bf85ad657007a67757b57" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TpoCompanyDetails</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ada3bb18c15fb205e6b5481e14a2682d3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TpoConnectSiteSettings</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aeba65ee6818580067e1ac2965c1f4cf9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TpoContacts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a09715ab12d2e156cc5fcdd3c37cac667" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TpoFees</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1abfc9d53a4aadbf65773f5618afa2c3d0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TpoInformation</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a54794a6650d90a4ff18d8e869b51bbf8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TpoOrganizationSettings</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1ac9d1e4f94cfa492f38454fd08499f297" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>TqlServices</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a24a77bcfbd2ddc4047d8d4a1d253dae5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>Trades</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1aef184a3e3888c10f3b3c2d9ecd71af4b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>UnderwritingCenter</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_acl_rights_contract_1a6f25e3c3d078d109cbe809da9c5784f1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::AclRightsContract</scope><name>UnderwritingConditions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

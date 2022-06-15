@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___pooling_method_type" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_GNM_PoolingMethodType</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___pooling_method_type_1a45cd1b7e767435293220bccf28bf8de0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_PoolingMethodType.ConcurrentDate</definition>
+        <argsstring></argsstring>
+        <name>ConcurrentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_PoolingMethodType.ConcurrentDate</qualifiedname>
+        <initializer>= &quot;ConcurrentDate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29835" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___pooling_method_type_1a5a58b14df034e3cdb0f636b774077bde" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_PoolingMethodType.InternalReserve</definition>
+        <argsstring></argsstring>
+        <name>InternalReserve</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_PoolingMethodType.InternalReserve</qualifiedname>
+        <initializer>= &quot;InternalReserve&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29836" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29836" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_GNM_PoolingMethodType</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___pooling_method_type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ConcurrentDate</edgelabel>
+          <edgelabel>InternalReserve</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29833" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29834" bodyend="29837"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___pooling_method_type_1a45cd1b7e767435293220bccf28bf8de0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_PoolingMethodType</scope><name>ConcurrentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___pooling_method_type_1a5a58b14df034e3cdb0f636b774077bde" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_PoolingMethodType</scope><name>InternalReserve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

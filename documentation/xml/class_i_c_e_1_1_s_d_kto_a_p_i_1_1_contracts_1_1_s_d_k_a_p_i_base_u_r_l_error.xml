@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_u_r_l_error" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::SDKAPIBaseURLError</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error" prot="public" virt="non-virtual">ICE.SDKtoAPI.Contracts.SDKAPIBaseError</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_u_r_l_error_1ac2ddc78c2f1452fdf4107d417f1517e0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.SDKAPIBaseURLError.HTTPCde</definition>
+        <argsstring></argsstring>
+        <name>HTTPCde</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseURLError.HTTPCde</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_u_r_l_error_1a05ad1839ed14e7f46fcb806c7b9b19af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Contracts.SDKAPIBaseURLError.SDKAPIBaseURLError</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SDKAPIBaseURLError</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseURLError.SDKAPIBaseURLError</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="20" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.SDKAPIBaseURLError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_u_r_l_error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SDKAPIBaseError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.SDKAPIBaseURLError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_u_r_l_error"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SDKAPIBaseError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="16" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="17" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_u_r_l_error_1ac2ddc78c2f1452fdf4107d417f1517e0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseURLError</scope><name>HTTPCde</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a7b8c383935aeb47b6eaab5d4025a2067" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseURLError</scope><name>LoanId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a96d414d78a0da2455acacb3d87ebf792" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseURLError</scope><name>LoanNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1ac9f6bcb71b535d252df70a5a301846fa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseURLError</scope><name>SDKAPIBaseError</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a356bc605647568da48e756fff0ad914a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseURLError</scope><name>SDKAPIBaseError</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_u_r_l_error_1a05ad1839ed14e7f46fcb806c7b9b19af" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseURLError</scope><name>SDKAPIBaseURLError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

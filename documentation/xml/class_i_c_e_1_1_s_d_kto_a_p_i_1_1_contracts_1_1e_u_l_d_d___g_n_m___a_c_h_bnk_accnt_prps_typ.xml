@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___a_c_h_bnk_accnt_prps_typ" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_GNM_ACHBnkAccntPrpsTyp</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___a_c_h_bnk_accnt_prps_typ_1afdf754b0900bac84efc75450f04d9025" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_ACHBnkAccntPrpsTyp.PrincipalAndInterest</definition>
+        <argsstring></argsstring>
+        <name>PrincipalAndInterest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_ACHBnkAccntPrpsTyp.PrincipalAndInterest</qualifiedname>
+        <initializer>= &quot;PrincipalAndInterest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29725" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___a_c_h_bnk_accnt_prps_typ_1a7fc0686ffe011bcba1371632eba0b038" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_GNM_ACHBnkAccntPrpsTyp.TaxesAndInsurance</definition>
+        <argsstring></argsstring>
+        <name>TaxesAndInsurance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_GNM_ACHBnkAccntPrpsTyp.TaxesAndInsurance</qualifiedname>
+        <initializer>= &quot;TaxesAndInsurance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29726" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29726" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_GNM_ACHBnkAccntPrpsTyp</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___a_c_h_bnk_accnt_prps_typ"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>PrincipalAndInterest</edgelabel>
+          <edgelabel>TaxesAndInsurance</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29723" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29724" bodyend="29727"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___a_c_h_bnk_accnt_prps_typ_1afdf754b0900bac84efc75450f04d9025" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_ACHBnkAccntPrpsTyp</scope><name>PrincipalAndInterest</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___g_n_m___a_c_h_bnk_accnt_prps_typ_1a7fc0686ffe011bcba1371632eba0b038" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_GNM_ACHBnkAccntPrpsTyp</scope><name>TaxesAndInsurance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eURLA_X262</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262_1a61f5d173aaafae63d30272efde15bed0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X262.Original</definition>
+        <argsstring></argsstring>
+        <name>Original</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X262.Original</qualifiedname>
+        <initializer>= &quot;Original&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31099" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31099" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262_1a60f82aca2f7dad326bf4b8f133117653" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X262.Appraised</definition>
+        <argsstring></argsstring>
+        <name>Appraised</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X262.Appraised</qualifiedname>
+        <initializer>= &quot;Appraised&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31100" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262_1a67fee1060a89cd05011376deb738d1c8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X262.NotApplicable</definition>
+        <argsstring></argsstring>
+        <name>NotApplicable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X262.NotApplicable</qualifiedname>
+        <initializer>= &quot;NotApplicable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31101" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eURLA_X262</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Appraised</edgelabel>
+          <edgelabel>NotApplicable</edgelabel>
+          <edgelabel>Original</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31097" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31098" bodyend="31102"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262_1a60f82aca2f7dad326bf4b8f133117653" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X262</scope><name>Appraised</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262_1a67fee1060a89cd05011376deb738d1c8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X262</scope><name>NotApplicable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x262_1a61f5d173aaafae63d30272efde15bed0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X262</scope><name>Original</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

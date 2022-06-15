@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_invalid_code_fragment_exception" kind="class" language="C#" prot="private">
+    <compoundname>ICE::SDKtoAPI::Helpers::Reflector::InvalidCodeFragmentException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_invalid_code_fragment_exception_1ab2ddc998f4b2e6f2c49fa6f9b59cfdd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Helpers.Reflector.InvalidCodeFragmentException.InvalidCodeFragmentException</definition>
+        <argsstring>(String invalidFragment)</argsstring>
+        <name>InvalidCodeFragmentException</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.Reflector.InvalidCodeFragmentException.InvalidCodeFragmentException</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>invalidFragment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="591" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="591" bodyend="592"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Helpers.Reflector.InvalidCodeFragmentException</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Helpers.Reflector.InvalidCodeFragmentException</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" line="589" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/Reflector.cs" bodystart="590" bodyend="594"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_reflector_1_1_invalid_code_fragment_exception_1ab2ddc998f4b2e6f2c49fa6f9b59cfdd2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::Reflector::InvalidCodeFragmentException</scope><name>InvalidCodeFragmentException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

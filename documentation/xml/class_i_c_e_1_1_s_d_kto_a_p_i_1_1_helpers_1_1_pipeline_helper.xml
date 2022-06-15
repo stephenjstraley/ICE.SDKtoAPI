@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Helpers::PipelineHelper</compoundname>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_date_field_criterion" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::DateFieldCriterion</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_date_field_match_precision" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::DateFieldMatchPrecision</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_operator" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::Operator</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_ordinal_field_match_type" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::OrdinalFieldMatchType</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineFilter</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineQuery</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineQueryWithFields</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_sort_order" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineSortOrder</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_term" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::PipelineTerm</innerclass>
+    <innerclass refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_string_field_match_type" prot="public">ICE::SDKtoAPI::Helpers::PipelineHelper::StringFieldMatchType</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a10d01f26b72e51a4bfa9d1fbca394445" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_term" kindref="compound">PipelineTerm</ref></type>
+        <definition>static PipelineTerm ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</definition>
+        <argsstring>(string canonicalName, string dateMatchType)</argsstring>
+        <name>GetPipelineTerm</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>canonicalName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dateMatchType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="11" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="11" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a1806a073bdeb5a1148b87b28c5ba8932" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_term" kindref="compound">PipelineTerm</ref></type>
+        <definition>static PipelineTerm ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</definition>
+        <argsstring>(string canonicalName, object matchValue, string matchType, bool include, string precision)</argsstring>
+        <name>GetPipelineTerm</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>canonicalName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>matchValue</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>matchType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>include</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="22" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1aa58bfb3851aa82f25cd3c66f0c00f74a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_term" kindref="compound">PipelineTerm</ref></type>
+        <definition>static PipelineTerm ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</definition>
+        <argsstring>(string canonicalName, object matchValue, string matchType, string precision)</argsstring>
+        <name>GetPipelineTerm</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>canonicalName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>matchValue</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>matchType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>precision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="28" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ad1d4e9845da48cb23c09ae68b1b21b40" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_term" kindref="compound">PipelineTerm</ref></type>
+        <definition>static PipelineTerm ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</definition>
+        <argsstring>(string canonicalName, object matchValue, string matchType, bool include)</argsstring>
+        <name>GetPipelineTerm</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>canonicalName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>matchValue</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>matchType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>include</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="35" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a612e7399171248ebab65c931ae7eaf1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_term" kindref="compound">PipelineTerm</ref></type>
+        <definition>static PipelineTerm ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</definition>
+        <argsstring>(string canonicalName, object matchValue, string matchType)</argsstring>
+        <name>GetPipelineTerm</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineTerm</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>canonicalName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>matchValue</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>matchType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="41" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="41" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a59a748bada6ed46e7841b7fe23d57fbb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+        <definition>static PipelineFilter ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContractAnd</definition>
+        <argsstring>(params object[] terms)</argsstring>
+        <name>GetFilterContractAnd</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContractAnd</qualifiedname>
+        <param>
+          <type>params object[]</type>
+          <declname>terms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="56" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a4654b87dbb8d586e1a9769cfebf10187" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+        <definition>static PipelineFilter ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContractOr</definition>
+        <argsstring>(params object[] terms)</argsstring>
+        <name>GetFilterContractOr</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContractOr</qualifiedname>
+        <param>
+          <type>params object[]</type>
+          <declname>terms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="57" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a0bc45615bd1fb6652715029d6d47c9aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+        <definition>static PipelineFilter ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContract</definition>
+        <argsstring>(List&lt; object &gt; terms)</argsstring>
+        <name>GetFilterContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContract</qualifiedname>
+        <param>
+          <type>List&lt; object &gt;</type>
+          <declname>terms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="58" column="38" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ac73ed08ea5f4f37896e2eb6f60451f97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+        <definition>static PipelineFilter ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContract</definition>
+        <argsstring>(string compOp, params object[] terms)</argsstring>
+        <name>GetFilterContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetFilterContract</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>compOp</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>terms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="71" column="38" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="71" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1aa2d7a1cc29ca13abe4f5ae03390fc435" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" kindref="compound">PipelineQueryWithFields</ref></type>
+        <definition>static PipelineQueryWithFields ICE.SDKtoAPI.Helpers.PipelineHelper.GetContract</definition>
+        <argsstring>(PipelineFilter filter, params string[] fields)</argsstring>
+        <name>GetContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetContract</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="98" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ae535215b473188782b3b6da79066fdc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" kindref="compound">PipelineQueryWithFields</ref></type>
+        <definition>static PipelineQueryWithFields ICE.SDKtoAPI.Helpers.PipelineHelper.GetContract</definition>
+        <argsstring>(List&lt; PipelineSortOrder &gt; order, PipelineFilter filter, params string[] fields)</argsstring>
+        <name>GetContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetContract</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_sort_order" kindref="compound">PipelineSortOrder</ref> &gt;</type>
+          <declname>order</declname>
+        </param>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="99" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a26e8c54267cbcc279dea649722677804" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" kindref="compound">PipelineQueryWithFields</ref></type>
+        <definition>static PipelineQueryWithFields ICE.SDKtoAPI.Helpers.PipelineHelper.GetContract</definition>
+        <argsstring>(List&lt; string &gt; fields, List&lt; string &gt; guids)</argsstring>
+        <name>GetContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetContract</qualifiedname>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>fields</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>guids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="100" column="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ae4018f4832a61a85e03730236cc21ff9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" kindref="compound">PipelineQueryWithFields</ref></type>
+        <definition>static PipelineQueryWithFields ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineContract</definition>
+        <argsstring>(PipelineFilter filter, params string[] fields)</argsstring>
+        <name>GetPipelineContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineContract</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="101" column="47" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="101" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ac3e193d60e3514f70fe8569e87144483" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" kindref="compound">PipelineQueryWithFields</ref></type>
+        <definition>static PipelineQueryWithFields ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineContract</definition>
+        <argsstring>(List&lt; PipelineSortOrder &gt; order, PipelineFilter filter, params string[] fields)</argsstring>
+        <name>GetPipelineContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineContract</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_sort_order" kindref="compound">PipelineSortOrder</ref> &gt;</type>
+          <declname>order</declname>
+        </param>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_filter" kindref="compound">PipelineFilter</ref></type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="128" column="47" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1aac5374e18d5a6aa04c5e07b83668254d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_query_with_fields" kindref="compound">PipelineQueryWithFields</ref></type>
+        <definition>static PipelineQueryWithFields ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineContract</definition>
+        <argsstring>(List&lt; string &gt; fields, List&lt; string &gt; guids)</argsstring>
+        <name>GetPipelineContract</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.GetPipelineContract</qualifiedname>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>fields</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>guids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="134" column="47" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ab423f6e329c15640b7005899bf8e0af8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_sort_order" kindref="compound">PipelineSortOrder</ref> &gt;</type>
+        <definition>static List&lt; PipelineSortOrder &gt; ICE.SDKtoAPI.Helpers.PipelineHelper.SortCriterionList</definition>
+        <argsstring>()</argsstring>
+        <name>SortCriterionList</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.SortCriterionList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="145" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a9c731e327ec26571b1eb78ac1a257d8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1_1_pipeline_sort_order" kindref="compound">PipelineSortOrder</ref></type>
+        <definition>static PipelineSortOrder ICE.SDKtoAPI.Helpers.PipelineHelper.SortCriterionList</definition>
+        <argsstring>(string field, string order=&quot;asc&quot;)</argsstring>
+        <name>SortCriterionList</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.SortCriterionList</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>order</declname>
+          <defval>&quot;asc&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="146" column="41" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="146" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1abd29ffc9c6ae71116c36beb27878d74e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineField&lt; T &gt;</definition>
+        <argsstring>(LoanPipelineItemContract data, string field)</argsstring>
+        <name>PipelineField&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineField&lt; T &gt;</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_pipeline_item_contract" kindref="compound">LoanPipelineItemContract</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="156" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="156" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a37e15211dbdb302d5b7bb33568d402ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineField&lt; T &gt;</definition>
+        <argsstring>(GuidCursor data, string field)</argsstring>
+        <name>PipelineField&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.PipelineHelper.PipelineField&lt; T &gt;</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_guid_cursor" kindref="compound">GuidCursor</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="190" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="190" bodyend="223"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" line="8" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/PipelineHelper.cs" bodystart="9" bodyend="296"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1aa2d7a1cc29ca13abe4f5ae03390fc435" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ae535215b473188782b3b6da79066fdc7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a26e8c54267cbcc279dea649722677804" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a0bc45615bd1fb6652715029d6d47c9aa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetFilterContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ac73ed08ea5f4f37896e2eb6f60451f97" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetFilterContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a59a748bada6ed46e7841b7fe23d57fbb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetFilterContractAnd</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a4654b87dbb8d586e1a9769cfebf10187" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetFilterContractOr</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ae4018f4832a61a85e03730236cc21ff9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ac3e193d60e3514f70fe8569e87144483" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1aac5374e18d5a6aa04c5e07b83668254d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineContract</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a10d01f26b72e51a4bfa9d1fbca394445" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a1806a073bdeb5a1148b87b28c5ba8932" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1aa58bfb3851aa82f25cd3c66f0c00f74a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ad1d4e9845da48cb23c09ae68b1b21b40" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a612e7399171248ebab65c931ae7eaf1c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>GetPipelineTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1abd29ffc9c6ae71116c36beb27878d74e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>PipelineField&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a37e15211dbdb302d5b7bb33568d402ff" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>PipelineField&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1ab423f6e329c15640b7005899bf8e0af8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>SortCriterionList</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_pipeline_helper_1a9c731e327ec26571b1eb78ac1a257d8f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::PipelineHelper</scope><name>SortCriterionList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

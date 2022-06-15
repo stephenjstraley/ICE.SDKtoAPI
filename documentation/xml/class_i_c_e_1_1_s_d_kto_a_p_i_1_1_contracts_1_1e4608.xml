@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4608</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1a9c9dd10910532dc76ce8a8f366973a95" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4608.dailybalanceincludingcurrenttransactions</definition>
+        <argsstring></argsstring>
+        <name>dailybalanceincludingcurrenttransactions</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4608.dailybalanceincludingcurrenttransactions</qualifiedname>
+        <initializer>= &quot;daily balance (including current transactions)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3503" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1a3948e6b18d5b1fa29ce3101d83232e9e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4608.dailybalanceexcludingcurrenttransactions</definition>
+        <argsstring></argsstring>
+        <name>dailybalanceexcludingcurrenttransactions</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4608.dailybalanceexcludingcurrenttransactions</qualifiedname>
+        <initializer>= &quot;daily  balance (excluding current transactions)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3504" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1aaeffddfd1bbe72c99753a5cd4685b496" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4608.averagedailybalanceincludingcurrenttransactions</definition>
+        <argsstring></argsstring>
+        <name>averagedailybalanceincludingcurrenttransactions</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4608.averagedailybalanceincludingcurrenttransactions</qualifiedname>
+        <initializer>= &quot;average daily balance (including current transactions)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3505" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1aa937ec50bb816d70c474a86f4a1e1851" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4608.averagedailybalanceexcludingcurrenttransactions</definition>
+        <argsstring></argsstring>
+        <name>averagedailybalanceexcludingcurrenttransactions</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4608.averagedailybalanceexcludingcurrenttransactions</qualifiedname>
+        <initializer>= &quot;average daily balance (excluding current transactions)&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3506" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3506" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4608</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>averagedailybalanceexcludingcurrenttransactions</edgelabel>
+          <edgelabel>averagedailybalanceincludingcurrenttransactions</edgelabel>
+          <edgelabel>dailybalanceexcludingcurrenttransactions</edgelabel>
+          <edgelabel>dailybalanceincludingcurrenttransactions</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3501" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3502" bodyend="3507"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1aa937ec50bb816d70c474a86f4a1e1851" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4608</scope><name>averagedailybalanceexcludingcurrenttransactions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1aaeffddfd1bbe72c99753a5cd4685b496" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4608</scope><name>averagedailybalanceincludingcurrenttransactions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1a3948e6b18d5b1fa29ce3101d83232e9e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4608</scope><name>dailybalanceexcludingcurrenttransactions</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4608_1a9c9dd10910532dc76ce8a8f366973a95" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4608</scope><name>dailybalanceincludingcurrenttransactions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

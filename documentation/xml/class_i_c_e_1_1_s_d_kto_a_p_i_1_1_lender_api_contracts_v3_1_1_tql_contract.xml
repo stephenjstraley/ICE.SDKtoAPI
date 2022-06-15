@@ -1,0 +1,1845 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3e56577219a0125a7b3e5e53c896a814" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CurrentInvestorPublishingStatus</definition>
+        <argsstring></argsstring>
+        <name>CurrentInvestorPublishingStatus</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CurrentInvestorPublishingStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="10" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac690bd5a8cc301667ef624540af9872a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_gse_tracker_contract" kindref="compound">GseTrackerContract</ref> &gt;</type>
+        <definition>List&lt;GseTrackerContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.GseTrackers</definition>
+        <argsstring></argsstring>
+        <name>GseTrackers</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.GseTrackers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="13" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7fa3ea0be61a6e729d4508ea9998b190" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpCompletedDate</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpCompletedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpCompletedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="16" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4f8c5b2429334c8b06e4eed37407a75e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpConfidenceScore</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpConfidenceScore</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpConfidenceScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="19" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa60be79c535c57138d8618f355234685" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpEstimatedValue</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpEstimatedValue</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpEstimatedValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="22" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1f4a932056b8731ad366071857563c36" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpForecastDeviationScore</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpForecastDeviationScore</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpForecastDeviationScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="25" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa2ea62c18a1e3351649f2a1c8f55d5e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportHistoryProResult</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpReportHistoryProResult</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportHistoryProResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="28" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a731f11fbe16ffdadaaf4705e1ad15d5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportId</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpReportId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="31" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a657f738149488235fbdef11f992f58bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportOrdered</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpReportOrdered</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportOrdered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="34" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae93773dede49496d27913f0d3c8c3c2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportPassResult</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpReportPassResult</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpReportPassResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="37" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac578e95817f3e547cce03345a7a70f90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpResultsReportReturned</definition>
+        <argsstring></argsstring>
+        <name>LastCcvpResultsReportReturned</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastCcvpResultsReportReturned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="40" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa034434ce208fef238efbdbb2ea9af72" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceCompletedDate</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceCompletedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceCompletedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="43" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3f78918e3a2257123d24559c12d13d15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfAlertMessages</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceNumberOfAlertMessages</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfAlertMessages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="46" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aac75c870b10f273ba58299311619f182" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfErrorMessages</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceNumberOfErrorMessages</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfErrorMessages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="49" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af2e7477580d56beb5b5c3900cebe698d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfFailMessages</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceNumberOfFailMessages</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfFailMessages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="52" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a56cfe178d91ca9404228e63ed6ece0a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfPassMessages</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceNumberOfPassMessages</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfPassMessages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="55" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7315dab121576e6fb4db7b9ba016f190" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfWarningMessages</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceNumberOfWarningMessages</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceNumberOfWarningMessages</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="58" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1abc9a939b7cf744e6cb83e714d3ed426d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceOrderType</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceOrderType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceOrderType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="61" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a01e80b4947b187b0a4139183787be2c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceProductNameReportOrdered</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceProductNameReportOrdered</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceProductNameReportOrdered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="64" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aafc46dbe479750902b146773e380287a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceReportId</definition>
+        <argsstring></argsstring>
+        <name>LastComplianceReportId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastComplianceReportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="67" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a9cadb8d93838dc705cdcf901da05af13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudOrderAlerts</definition>
+        <argsstring></argsstring>
+        <name>LastFraudOrderAlerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudOrderAlerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="70" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab76630d664048d1fafe2c49633f30144" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudOrderCompletedDate</definition>
+        <argsstring></argsstring>
+        <name>LastFraudOrderCompletedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudOrderCompletedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="73" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7667f17acba6b0769bc07af5fb9f8ee6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudOrderProduct</definition>
+        <argsstring></argsstring>
+        <name>LastFraudOrderProduct</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudOrderProduct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="76" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4a87d17ce64a25a9bd924d952c7c66d4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudReportId</definition>
+        <argsstring></argsstring>
+        <name>LastFraudReportId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastFraudReportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="79" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0a63c9ed37a73b725352d6a78a9364b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastInvestorPublishingInvestor</definition>
+        <argsstring></argsstring>
+        <name>LastInvestorPublishingInvestor</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastInvestorPublishingInvestor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="82" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a927e5be6fc05e8b9d898cd7979e68f15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastInvestorPublishingStatusChangeDate</definition>
+        <argsstring></argsstring>
+        <name>LastInvestorPublishingStatusChangeDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastInvestorPublishingStatusChangeDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="85" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a48f90d7b5267bb2c9224aa30aad0e022" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastInvestorPublishingUserWhoChangeStatus</definition>
+        <argsstring></argsstring>
+        <name>LastInvestorPublishingUserWhoChangeStatus</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastInvestorPublishingUserWhoChangeStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="88" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a653363e708dbec123fa51cce5576538f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastUserIdWhoOrderedCcvp</definition>
+        <argsstring></argsstring>
+        <name>LastUserIdWhoOrderedCcvp</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastUserIdWhoOrderedCcvp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="91" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab68492f680cc82b984baf21a6eeb557c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastUserIdWhoOrderedCompliance</definition>
+        <argsstring></argsstring>
+        <name>LastUserIdWhoOrderedCompliance</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastUserIdWhoOrderedCompliance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="94" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae8e5cea36d4c1c9d44c31f08931dcfc3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastUserIdWhoOrderedFraudOrder</definition>
+        <argsstring></argsstring>
+        <name>LastUserIdWhoOrderedFraudOrder</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LastUserIdWhoOrderedFraudOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="97" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1535be9db5b0581e49e54afa5398c784" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_compliance_alert_contract" kindref="compound">TqlComplianceAlertContract</ref> &gt;</type>
+        <definition>List&lt;TqlComplianceAlertContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlComplianceAlerts</definition>
+        <argsstring></argsstring>
+        <name>TqlComplianceAlerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlComplianceAlerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="100" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae09f59f1ec01f7ff61082da59797a5e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_fraud_alert_contract" kindref="compound">TqlFraudAlertContract</ref> &gt;</type>
+        <definition>List&lt;TqlFraudAlertContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlerts</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlerts</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="103" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6991a7f4c038ba8050b32da00fd469ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargo4506TBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>WellsFargo4506TBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargo4506TBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="106" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7a66330c5791ff57edf3ae4d95a04f7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargoFraudBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>WellsFargoFraudBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargoFraudBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="109" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af4707874024e286d90a3a5e84104b51c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargoComplianceBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>WellsFargoComplianceBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargoComplianceBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="112" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a5f4b2bfa187f9e4daac8c416fea54de3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargoFloodBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>WellsFargoFloodBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.WellsFargoFloodBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="115" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1ac08b32b814ebe273bf0a7dfce6586f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankCcvpBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>CitibankCcvpBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankCcvpBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="118" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a69ec9078d67a2a004feddbae6b771e80" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankFraudBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>CitibankFraudBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankFraudBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="121" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4a95fa8c662c82c9b9753b93fbf7cdf8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankComplianceBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>CitibankComplianceBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankComplianceBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="124" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a15f4239d1631cd38f7f0c37d5a2093fc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Citibank4506TBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>Citibank4506TBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Citibank4506TBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="127" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a16101dfd64a7876773dd37d77a9a3190" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankFloodBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>CitibankFloodBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CitibankFloodBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="130" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a8feaec54f6500b3dfc0b1fadb76c9967" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Homeward4506TBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>Homeward4506TBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Homeward4506TBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="133" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a5effe6a6b772bbcca4707e59995c4ac8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.HomewardFraudBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>HomewardFraudBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.HomewardFraudBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="136" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1adca3ac3a10d7193c61a172454b3b0e5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.HomewardComplianceBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>HomewardComplianceBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.HomewardComplianceBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="139" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aca0eb0d37ca4257f5a665463132df37a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.HomewardFloodBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>HomewardFloodBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.HomewardFloodBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="142" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="142" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6aea1a1cad1aaae5f6cc7b1bc9fd7d25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Stonegate4506TBaselineReport</definition>
+        <argsstring></argsstring>
+        <name>Stonegate4506TBaselineReport</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Stonegate4506TBaselineReport</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="145" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab71472f81aacd76ebc1320b296f03c02" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.StonegateFraudBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>StonegateFraudBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.StonegateFraudBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="148" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a72016910249c6255a668462583ac06e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.StonegateComplianceBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>StonegateComplianceBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.StonegateComplianceBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="151" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae2ebae1f47c9b371a0d9c9de42fed1fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.StonegateFloodBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>StonegateFloodBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.StonegateFloodBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="154" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="154" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1abdf72259543e1e9cddb033ba21fcea63" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Phh4506TBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>Phh4506TBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.Phh4506TBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="157" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a255dc6144e193a883975d78279add1a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.PhhFraudBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>PhhFraudBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.PhhFraudBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="160" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af5f4d645e49d2f7e73c0e9b6a18a0132" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.PhhComplianceBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>PhhComplianceBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.PhhComplianceBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="163" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad4df9ad27085807288b706ce9f8a3a3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.PhhFloodBaselineReportRequired</definition>
+        <argsstring></argsstring>
+        <name>PhhFloodBaselineReportRequired</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.PhhFloodBaselineReportRequired</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="166" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1accf919066f73e5b1e03a2fb611aabd50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotal</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlertsTotal</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="169" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab085f6e6cc754a81e6915bad435e2eb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalHigh</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlertsTotalHigh</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalHigh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="172" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6d7e17cbcf7d6125be34ac85d513ca20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalMedium</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlertsTotalMedium</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalMedium</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="175" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a351c0014c9822588c2644cc103a7dc0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalLow</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlertsTotalLow</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalLow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="178" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="178" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aad67dd1e6ee193ce7b81a1b7166d6f97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalHighUnaddressed</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlertsTotalHighUnaddressed</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalHighUnaddressed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="181" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af4e6d1e6b410ba98159cd5d6cf4b0d29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalMediumUnaddressed</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlertsTotalMediumUnaddressed</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalMediumUnaddressed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="184" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="184" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1acbc99a1772ca2953632fd4a7170f4746" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalLowUnaddressed</definition>
+        <argsstring></argsstring>
+        <name>TqlFraudAlertsTotalLowUnaddressed</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlFraudAlertsTotalLowUnaddressed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="187" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="187" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a632a9525da7c5f1d40526bd6d32bec69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveScore</definition>
+        <argsstring></argsstring>
+        <name>DriveScore</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="190" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="190" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac00c4702123345310e86f82122257e53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveStatus</definition>
+        <argsstring></argsstring>
+        <name>DriveStatus</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="193" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a143e790a541ca1833e47dc640886c0d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveIdVerifyScore</definition>
+        <argsstring></argsstring>
+        <name>DriveIdVerifyScore</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveIdVerifyScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="196" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4434f4f4b39ed403dd79c842e0ca99e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveAppVerifyScore</definition>
+        <argsstring></argsstring>
+        <name>DriveAppVerifyScore</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DriveAppVerifyScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="199" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="199" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a82dea50a8a4fb5eb476beb7b355d62e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DrivePropertyVerifyScore</definition>
+        <argsstring></argsstring>
+        <name>DrivePropertyVerifyScore</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DrivePropertyVerifyScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="202" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="202" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6c8cc7f1bae0d9039be1043831d5c83a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.MiVendorsArchAutoOrderIndicator</definition>
+        <argsstring></argsstring>
+        <name>MiVendorsArchAutoOrderIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.MiVendorsArchAutoOrderIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="205" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="205" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae57e663d5b9ea68111af7850325ce6b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.MiVendorsRadianAutoOrderIndicator</definition>
+        <argsstring></argsstring>
+        <name>MiVendorsRadianAutoOrderIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.MiVendorsRadianAutoOrderIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="208" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aaeec254c3bce62edc873629510b57c90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.MiVendorsMgicAutoOrderIndicator</definition>
+        <argsstring></argsstring>
+        <name>MiVendorsMgicAutoOrderIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.MiVendorsMgicAutoOrderIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="211" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a958db387933ac49160dc12f70e5ce318" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_document_contract" kindref="compound">TqlDocumentContract</ref> &gt;</type>
+        <definition>List&lt;TqlDocumentContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlDocuments</definition>
+        <argsstring></argsstring>
+        <name>TqlDocuments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.TqlDocuments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="214" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="214" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af2b706d49ecc7fe423343907d2b5416d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAppraisalWaiverOffered</definition>
+        <argsstring></argsstring>
+        <name>LpAppraisalWaiverOffered</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAppraisalWaiverOffered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="217" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="217" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad0238afe837f23ec7fa6b5e75d94d910" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAppraisalWaiverMessage</definition>
+        <argsstring></argsstring>
+        <name>LpAppraisalWaiverMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAppraisalWaiverMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="220" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="220" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0adc6e540a92f5302ec3333b14511b67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpDocumentationLevel</definition>
+        <argsstring></argsstring>
+        <name>LpDocumentationLevel</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpDocumentationLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="223" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="223" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0d0f81581049a25636a247eeb6223b71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpDocumentationLevelMessage</definition>
+        <argsstring></argsstring>
+        <name>LpDocumentationLevelMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpDocumentationLevelMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="226" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="226" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a305f1419d9a8003d4d31087909d61479" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpaPurchaseEligibility</definition>
+        <argsstring></argsstring>
+        <name>LpaPurchaseEligibility</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpaPurchaseEligibility</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="229" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aedf5af77c20d0b4d897f63771082294e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpCollateralRepWarrantyMessage</definition>
+        <argsstring></argsstring>
+        <name>LpCollateralRepWarrantyMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpCollateralRepWarrantyMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="232" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="232" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1dbaaa9d4e50395bc8c7f282d61f57d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAssetRepWarrantyIndicator</definition>
+        <argsstring></argsstring>
+        <name>LpAssetRepWarrantyIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAssetRepWarrantyIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="235" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="235" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1afd4a9cb90612c4cf3f3ac3fc709ae446" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAssetRepWarrantyMessage</definition>
+        <argsstring></argsstring>
+        <name>LpAssetRepWarrantyMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpAssetRepWarrantyMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="238" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="238" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a340a9784a284c2868c6e7fd8e0c14bbc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpIncomeRepWarrantyIndicator</definition>
+        <argsstring></argsstring>
+        <name>LpIncomeRepWarrantyIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpIncomeRepWarrantyIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="241" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="241" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a8fd0c7a35b5b06c394f320108a374c4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpIncomeRepWarrantyMessage</definition>
+        <argsstring></argsstring>
+        <name>LpIncomeRepWarrantyMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpIncomeRepWarrantyMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="244" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="244" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4981fb35c3db3ccb65d76d7e36f709f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuPropertyDataId</definition>
+        <argsstring></argsstring>
+        <name>DuPropertyDataId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuPropertyDataId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="247" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="247" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1adc3341cb45c821748825443898996098" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuPropertyDataMessage</definition>
+        <argsstring></argsstring>
+        <name>DuPropertyDataMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuPropertyDataMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="250" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="250" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa6055ce6fa0bff80266a712d3b72e78d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuFindingsMessageDateTime</definition>
+        <argsstring></argsstring>
+        <name>DuFindingsMessageDateTime</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuFindingsMessageDateTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="253" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="253" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a2bfaaa0a0040308b706245f9b141c5be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodTransactionType</definition>
+        <argsstring></argsstring>
+        <name>FloodTransactionType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodTransactionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="256" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="256" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aae8bd2a5a86efbefad9ad436d1931280" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodProductType</definition>
+        <argsstring></argsstring>
+        <name>FloodProductType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodProductType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="259" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="259" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab6b4fe1a662c3a9e9860374f7be27992" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodStatus</definition>
+        <argsstring></argsstring>
+        <name>FloodStatus</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="262" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="262" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad35e3267dc07dccb73174fe1aafbbceb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodOrderDate</definition>
+        <argsstring></argsstring>
+        <name>FloodOrderDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodOrderDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="265" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="265" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a703bce9ff8e02ec63c92be25e80faf79" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodReceivedDate</definition>
+        <argsstring></argsstring>
+        <name>FloodReceivedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodReceivedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="268" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="268" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aeff8a281f678e1cf1a9d1e599254a1f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LomaOrLomrIndicator</definition>
+        <argsstring></argsstring>
+        <name>LomaOrLomrIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LomaOrLomrIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="271" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="271" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a46fdab4287428805a6c3b792ba73c027" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LomaOrLomrDate</definition>
+        <argsstring></argsstring>
+        <name>LomaOrLomrDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LomaOrLomrDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="274" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="274" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab86899bd4dca76bd892a9209a8e6fec7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LomaOrLomrCaseNumber</definition>
+        <argsstring></argsstring>
+        <name>LomaOrLomrCaseNumber</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LomaOrLomrCaseNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="277" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="277" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3dd14d191bcf6e90b5de05327b491b9a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodProgramCode</definition>
+        <argsstring></argsstring>
+        <name>FloodProgramCode</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FloodProgramCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="280" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="280" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aeb51fa45ee9d86bd1aad3c73b21c1d0c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuRecommendationDate</definition>
+        <argsstring></argsstring>
+        <name>DuRecommendationDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DuRecommendationDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="283" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="283" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa00ea6584e5a25dd79062b450e8967e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieUcdpStatusDate</definition>
+        <argsstring></argsstring>
+        <name>FannieUcdpStatusDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieUcdpStatusDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="286" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a814731961435a262df459f046ec6b963" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CuRiskScoreDate</definition>
+        <argsstring></argsstring>
+        <name>CuRiskScoreDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CuRiskScoreDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="289" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="289" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a14018de6e0accef5cb7dc7cb63b137da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.EcStatus1003Date</definition>
+        <argsstring></argsstring>
+        <name>EcStatus1003Date</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.EcStatus1003Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="292" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="292" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a04a52ab2e7f909f0cfe6587c13f6ce14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.EcStatusUlddDate</definition>
+        <argsstring></argsstring>
+        <name>EcStatusUlddDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.EcStatusUlddDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="295" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="295" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad45bda52d5882b764551ba1466e6ada0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.UcdCollectionDate</definition>
+        <argsstring></argsstring>
+        <name>UcdCollectionDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.UcdCollectionDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="298" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="298" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af9cf522e5f0e3b9e85ede31179b750f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpaRiskClassDate</definition>
+        <argsstring></argsstring>
+        <name>LpaRiskClassDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpaRiskClassDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="301" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="301" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a2bb0c44f97bf95d154608bddf78f819f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpaPurchEligDate</definition>
+        <argsstring></argsstring>
+        <name>LpaPurchEligDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LpaPurchEligDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="304" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="304" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab18714d71319b7c8af084204de4621f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DocumentationLevelDate</definition>
+        <argsstring></argsstring>
+        <name>DocumentationLevelDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.DocumentationLevelDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="307" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="307" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae5763586ae5db3cf4e3acd7295543b83" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieUcdpStatusDate</definition>
+        <argsstring></argsstring>
+        <name>FreddieUcdpStatusDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieUcdpStatusDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="310" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="310" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a82170fc45232cda7cb81e636e385b523" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CollRiskScoreDate</definition>
+        <argsstring></argsstring>
+        <name>CollRiskScoreDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.CollRiskScoreDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="313" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="313" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a720a7fbb4724e1c6fd88747b03a4dedd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LqaPurchEligDate</definition>
+        <argsstring></argsstring>
+        <name>LqaPurchEligDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LqaPurchEligDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="316" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="316" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac1508ce448836710f33d2d72ce4ef0d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LqaRiskAssessmentDate</definition>
+        <argsstring></argsstring>
+        <name>LqaRiskAssessmentDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LqaRiskAssessmentDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="319" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="319" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a474596564a03d60d063329388793243c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LclaUcdReqDate</definition>
+        <argsstring></argsstring>
+        <name>LclaUcdReqDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.LclaUcdReqDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="322" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="322" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac2f0a01694cd6a9c5a819e058463cef7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieApprWaiverOfferedDate</definition>
+        <argsstring></argsstring>
+        <name>FannieApprWaiverOfferedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieApprWaiverOfferedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="325" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="325" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0f46f81dcad818f1cfad36c1eaf21e4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieValueRepAndWarrantDate</definition>
+        <argsstring></argsstring>
+        <name>FannieValueRepAndWarrantDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieValueRepAndWarrantDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="328" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="328" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac87d3c8d802d9c362f7843beebe07bf8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieAssetRepAndWarrantDate</definition>
+        <argsstring></argsstring>
+        <name>FannieAssetRepAndWarrantDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieAssetRepAndWarrantDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="331" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="331" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af2cb8510c66e925ac47adb22bf4e4dc7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieMiscDate1</definition>
+        <argsstring></argsstring>
+        <name>FannieMiscDate1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieMiscDate1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="334" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="334" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af55bbbd5c45cf650bc437c33b2307671" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieMiscDate2</definition>
+        <argsstring></argsstring>
+        <name>FannieMiscDate2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FannieMiscDate2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="337" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="337" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4a2568ba71e2eff8ca8cb1d193264a17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieApprWaiverOfferedDate</definition>
+        <argsstring></argsstring>
+        <name>FreddieApprWaiverOfferedDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieApprWaiverOfferedDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="340" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="340" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7c56f5218cdd07ba1ff59ba3d348fc6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieColRepAndWarrantDate</definition>
+        <argsstring></argsstring>
+        <name>FreddieColRepAndWarrantDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieColRepAndWarrantDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="343" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="343" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af8fbfadc05a48d4850e57f735981ba62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieAssetRepAndWarrantDate</definition>
+        <argsstring></argsstring>
+        <name>FreddieAssetRepAndWarrantDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieAssetRepAndWarrantDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="346" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a715f861e43a43ad27efe37cd8a9f482e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieIncomeRepAndWarrantDate</definition>
+        <argsstring></argsstring>
+        <name>FreddieIncomeRepAndWarrantDate</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieIncomeRepAndWarrantDate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="349" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="349" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6c006077d400698d96086dd004af9ec1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieMiscDate1</definition>
+        <argsstring></argsstring>
+        <name>FreddieMiscDate1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieMiscDate1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="352" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="352" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a5d6da6b0940f36d098695cb5e4037f06" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieMiscDate2</definition>
+        <argsstring></argsstring>
+        <name>FreddieMiscDate2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.FreddieMiscDate2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="355" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="355" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa05ca3171f0c2fb900c4ae1404493404" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMisc1</definition>
+        <argsstring></argsstring>
+        <name>RwtMisc1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMisc1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="358" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="358" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a8eaaa4102d8394af86d7cc083cc61876" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMisc2</definition>
+        <argsstring></argsstring>
+        <name>RwtMisc2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMisc2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="361" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="361" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0eee9b3d6dfd9f3eb7a669a2d363b13a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMisc3</definition>
+        <argsstring></argsstring>
+        <name>RwtMisc3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMisc3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="364" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="364" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3ed5ae8375554756072caac0ac288673" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMiscDate1</definition>
+        <argsstring></argsstring>
+        <name>RwtMiscDate1</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMiscDate1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="367" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="367" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1ca4c4855821ebe10ae63b9281ffe887" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMiscDate2</definition>
+        <argsstring></argsstring>
+        <name>RwtMiscDate2</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMiscDate2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="370" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="370" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af4d08ccceb8f09bf9eeff0aeee34cece" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMiscDate3</definition>
+        <argsstring></argsstring>
+        <name>RwtMiscDate3</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TqlContract.RwtMiscDate3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="373" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="373" bodyend="373"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TqlContract.cs" bodystart="8" bodyend="375"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a15f4239d1631cd38f7f0c37d5a2093fc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>Citibank4506TBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1ac08b32b814ebe273bf0a7dfce6586f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>CitibankCcvpBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4a95fa8c662c82c9b9753b93fbf7cdf8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>CitibankComplianceBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a16101dfd64a7876773dd37d77a9a3190" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>CitibankFloodBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a69ec9078d67a2a004feddbae6b771e80" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>CitibankFraudBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a82170fc45232cda7cb81e636e385b523" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>CollRiskScoreDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a814731961435a262df459f046ec6b963" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>CuRiskScoreDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3e56577219a0125a7b3e5e53c896a814" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>CurrentInvestorPublishingStatus</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab18714d71319b7c8af084204de4621f7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DocumentationLevelDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4434f4f4b39ed403dd79c842e0ca99e9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DriveAppVerifyScore</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a143e790a541ca1833e47dc640886c0d1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DriveIdVerifyScore</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a82dea50a8a4fb5eb476beb7b355d62e1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DrivePropertyVerifyScore</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a632a9525da7c5f1d40526bd6d32bec69" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DriveScore</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac00c4702123345310e86f82122257e53" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DriveStatus</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa6055ce6fa0bff80266a712d3b72e78d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DuFindingsMessageDateTime</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4981fb35c3db3ccb65d76d7e36f709f4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DuPropertyDataId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1adc3341cb45c821748825443898996098" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DuPropertyDataMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aeb51fa45ee9d86bd1aad3c73b21c1d0c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>DuRecommendationDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a14018de6e0accef5cb7dc7cb63b137da" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>EcStatus1003Date</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a04a52ab2e7f909f0cfe6587c13f6ce14" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>EcStatusUlddDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac2f0a01694cd6a9c5a819e058463cef7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FannieApprWaiverOfferedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac87d3c8d802d9c362f7843beebe07bf8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FannieAssetRepAndWarrantDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af2cb8510c66e925ac47adb22bf4e4dc7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FannieMiscDate1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af55bbbd5c45cf650bc437c33b2307671" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FannieMiscDate2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa00ea6584e5a25dd79062b450e8967e2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FannieUcdpStatusDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0f46f81dcad818f1cfad36c1eaf21e4f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FannieValueRepAndWarrantDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad35e3267dc07dccb73174fe1aafbbceb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FloodOrderDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aae8bd2a5a86efbefad9ad436d1931280" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FloodProductType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3dd14d191bcf6e90b5de05327b491b9a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FloodProgramCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a703bce9ff8e02ec63c92be25e80faf79" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FloodReceivedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab6b4fe1a662c3a9e9860374f7be27992" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FloodStatus</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a2bfaaa0a0040308b706245f9b141c5be" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FloodTransactionType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4a2568ba71e2eff8ca8cb1d193264a17" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FreddieApprWaiverOfferedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af8fbfadc05a48d4850e57f735981ba62" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FreddieAssetRepAndWarrantDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7c56f5218cdd07ba1ff59ba3d348fc6d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FreddieColRepAndWarrantDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a715f861e43a43ad27efe37cd8a9f482e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FreddieIncomeRepAndWarrantDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6c006077d400698d96086dd004af9ec1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FreddieMiscDate1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a5d6da6b0940f36d098695cb5e4037f06" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FreddieMiscDate2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae5763586ae5db3cf4e3acd7295543b83" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>FreddieUcdpStatusDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac690bd5a8cc301667ef624540af9872a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>GseTrackers</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a8feaec54f6500b3dfc0b1fadb76c9967" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>Homeward4506TBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1adca3ac3a10d7193c61a172454b3b0e5b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>HomewardComplianceBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aca0eb0d37ca4257f5a665463132df37a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>HomewardFloodBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a5effe6a6b772bbcca4707e59995c4ac8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>HomewardFraudBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7fa3ea0be61a6e729d4508ea9998b190" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpCompletedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4f8c5b2429334c8b06e4eed37407a75e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpConfidenceScore</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa60be79c535c57138d8618f355234685" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpEstimatedValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1f4a932056b8731ad366071857563c36" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpForecastDeviationScore</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa2ea62c18a1e3351649f2a1c8f55d5e3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpReportHistoryProResult</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a731f11fbe16ffdadaaf4705e1ad15d5b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpReportId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a657f738149488235fbdef11f992f58bf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpReportOrdered</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae93773dede49496d27913f0d3c8c3c2d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpReportPassResult</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac578e95817f3e547cce03345a7a70f90" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastCcvpResultsReportReturned</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa034434ce208fef238efbdbb2ea9af72" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceCompletedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3f78918e3a2257123d24559c12d13d15" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceNumberOfAlertMessages</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aac75c870b10f273ba58299311619f182" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceNumberOfErrorMessages</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af2e7477580d56beb5b5c3900cebe698d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceNumberOfFailMessages</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a56cfe178d91ca9404228e63ed6ece0a2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceNumberOfPassMessages</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7315dab121576e6fb4db7b9ba016f190" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceNumberOfWarningMessages</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1abc9a939b7cf744e6cb83e714d3ed426d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceOrderType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a01e80b4947b187b0a4139183787be2c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceProductNameReportOrdered</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aafc46dbe479750902b146773e380287a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastComplianceReportId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a9cadb8d93838dc705cdcf901da05af13" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastFraudOrderAlerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab76630d664048d1fafe2c49633f30144" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastFraudOrderCompletedDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7667f17acba6b0769bc07af5fb9f8ee6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastFraudOrderProduct</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a4a87d17ce64a25a9bd924d952c7c66d4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastFraudReportId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0a63c9ed37a73b725352d6a78a9364b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastInvestorPublishingInvestor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a927e5be6fc05e8b9d898cd7979e68f15" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastInvestorPublishingStatusChangeDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a48f90d7b5267bb2c9224aa30aad0e022" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastInvestorPublishingUserWhoChangeStatus</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a653363e708dbec123fa51cce5576538f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastUserIdWhoOrderedCcvp</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab68492f680cc82b984baf21a6eeb557c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastUserIdWhoOrderedCompliance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae8e5cea36d4c1c9d44c31f08931dcfc3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LastUserIdWhoOrderedFraudOrder</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a474596564a03d60d063329388793243c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LclaUcdReqDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab86899bd4dca76bd892a9209a8e6fec7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LomaOrLomrCaseNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a46fdab4287428805a6c3b792ba73c027" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LomaOrLomrDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aeff8a281f678e1cf1a9d1e599254a1f6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LomaOrLomrIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad0238afe837f23ec7fa6b5e75d94d910" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpAppraisalWaiverMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af2b706d49ecc7fe423343907d2b5416d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpAppraisalWaiverOffered</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a305f1419d9a8003d4d31087909d61479" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpaPurchaseEligibility</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a2bb0c44f97bf95d154608bddf78f819f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpaPurchEligDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af9cf522e5f0e3b9e85ede31179b750f7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpaRiskClassDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1dbaaa9d4e50395bc8c7f282d61f57d0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpAssetRepWarrantyIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1afd4a9cb90612c4cf3f3ac3fc709ae446" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpAssetRepWarrantyMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aedf5af77c20d0b4d897f63771082294e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpCollateralRepWarrantyMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0adc6e540a92f5302ec3333b14511b67" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpDocumentationLevel</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0d0f81581049a25636a247eeb6223b71" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpDocumentationLevelMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a340a9784a284c2868c6e7fd8e0c14bbc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpIncomeRepWarrantyIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a8fd0c7a35b5b06c394f320108a374c4c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LpIncomeRepWarrantyMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a720a7fbb4724e1c6fd88747b03a4dedd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LqaPurchEligDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ac1508ce448836710f33d2d72ce4ef0d3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>LqaRiskAssessmentDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6c8cc7f1bae0d9039be1043831d5c83a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>MiVendorsArchAutoOrderIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aaeec254c3bce62edc873629510b57c90" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>MiVendorsMgicAutoOrderIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae57e663d5b9ea68111af7850325ce6b5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>MiVendorsRadianAutoOrderIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1abdf72259543e1e9cddb033ba21fcea63" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>Phh4506TBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af5f4d645e49d2f7e73c0e9b6a18a0132" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>PhhComplianceBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad4df9ad27085807288b706ce9f8a3a3a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>PhhFloodBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a255dc6144e193a883975d78279add1a6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>PhhFraudBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aa05ca3171f0c2fb900c4ae1404493404" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>RwtMisc1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a8eaaa4102d8394af86d7cc083cc61876" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>RwtMisc2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a0eee9b3d6dfd9f3eb7a669a2d363b13a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>RwtMisc3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a3ed5ae8375554756072caac0ac288673" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>RwtMiscDate1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1ca4c4855821ebe10ae63b9281ffe887" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>RwtMiscDate2</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af4d08ccceb8f09bf9eeff0aeee34cece" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>RwtMiscDate3</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6aea1a1cad1aaae5f6cc7b1bc9fd7d25" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>Stonegate4506TBaselineReport</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a72016910249c6255a668462583ac06e8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>StonegateComplianceBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae2ebae1f47c9b371a0d9c9de42fed1fd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>StonegateFloodBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab71472f81aacd76ebc1320b296f03c02" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>StonegateFraudBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a1535be9db5b0581e49e54afa5398c784" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlComplianceAlerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a958db387933ac49160dc12f70e5ce318" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlDocuments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ae09f59f1ec01f7ff61082da59797a5e7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlerts</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1accf919066f73e5b1e03a2fb611aabd50" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlertsTotal</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ab085f6e6cc754a81e6915bad435e2eb1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlertsTotalHigh</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1aad67dd1e6ee193ce7b81a1b7166d6f97" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlertsTotalHighUnaddressed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a351c0014c9822588c2644cc103a7dc0e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlertsTotalLow</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1acbc99a1772ca2953632fd4a7170f4746" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlertsTotalLowUnaddressed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6d7e17cbcf7d6125be34ac85d513ca20" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlertsTotalMedium</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af4e6d1e6b410ba98159cd5d6cf4b0d29" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>TqlFraudAlertsTotalMediumUnaddressed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1ad45bda52d5882b764551ba1466e6ada0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>UcdCollectionDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a6991a7f4c038ba8050b32da00fd469ad" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>WellsFargo4506TBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1af4707874024e286d90a3a5e84104b51c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>WellsFargoComplianceBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a5f4b2bfa187f9e4daac8c416fea54de3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>WellsFargoFloodBaselineReportRequired</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tql_contract_1a7a66330c5791ff57edf3ae4d95a04f7c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TqlContract</scope><name>WellsFargoFraudBaselineReportRequired</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

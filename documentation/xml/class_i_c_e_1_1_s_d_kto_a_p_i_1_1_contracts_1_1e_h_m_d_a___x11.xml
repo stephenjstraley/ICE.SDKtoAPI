@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eHMDA_X11</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11_1a00314dc681cccc50370a512ac591b828" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X11.OnetofourFamily</definition>
+        <argsstring></argsstring>
+        <name>OnetofourFamily</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X11.OnetofourFamily</qualifiedname>
+        <initializer>= &quot;One-to-fourFamily&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12694" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11_1a9f88efb55d063c5934b0f5f9bb0dd9e5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X11.ManufacturedHousing</definition>
+        <argsstring></argsstring>
+        <name>ManufacturedHousing</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X11.ManufacturedHousing</qualifiedname>
+        <initializer>= &quot;ManufacturedHousing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12695" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11_1ae517de276141c442a23a17eab9a72f04" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eHMDA_X11.MultifamilyDwelling</definition>
+        <argsstring></argsstring>
+        <name>MultifamilyDwelling</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eHMDA_X11.MultifamilyDwelling</qualifiedname>
+        <initializer>= &quot;MultifamilyDwelling&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12696" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12696" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eHMDA_X11</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ManufacturedHousing</edgelabel>
+          <edgelabel>MultifamilyDwelling</edgelabel>
+          <edgelabel>OnetofourFamily</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12692" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12693" bodyend="12697"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11_1a9f88efb55d063c5934b0f5f9bb0dd9e5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X11</scope><name>ManufacturedHousing</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11_1ae517de276141c442a23a17eab9a72f04" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X11</scope><name>MultifamilyDwelling</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_h_m_d_a___x11_1a00314dc681cccc50370a512ac591b828" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eHMDA_X11</scope><name>OnetofourFamily</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

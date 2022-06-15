@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a4a87c7f3dc77d0090ddc89621b264a85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.FolderName</definition>
+        <argsstring></argsstring>
+        <name>FolderName</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.FolderName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a04bd381f1534b699d564e51e43d6e10d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.FolderType</definition>
+        <argsstring></argsstring>
+        <name>FolderType</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.FolderType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="14" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a6ee74089ad7d6ad877656505513caf11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.ActionsAllowed</definition>
+        <argsstring></argsstring>
+        <name>ActionsAllowed</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.ActionsAllowed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="17" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a6473d25f490bfc6cdba108ae3847b038" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.IsArchiveFolder</definition>
+        <argsstring></argsstring>
+        <name>IsArchiveFolder</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.IsArchiveFolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="20" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a070db74ac9734369942b4fcd298d08c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.IncludeDuplicateLoanCheck</definition>
+        <argsstring></argsstring>
+        <name>IncludeDuplicateLoanCheck</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.IncludeDuplicateLoanCheck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="23" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a9bdd22f9737d08ea4ff91bc39800dba7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansBeDuplicatedFrom</definition>
+        <argsstring></argsstring>
+        <name>CanLoansBeDuplicatedFrom</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansBeDuplicatedFrom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="24" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a383d49b48100ff58b11084db126446e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansBeDumplicatedFrom</definition>
+        <argsstring></argsstring>
+        <name>CanLoansBeDumplicatedFrom</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansBeDumplicatedFrom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="25" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1ab8994f9ae281208b066f73ab56c0449e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansBeImportedInto</definition>
+        <argsstring></argsstring>
+        <name>CanLoansBeImportedInto</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansBeImportedInto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="26" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a52dbc566a9d6191942b1d41a45876239" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansByOriginatedInto</definition>
+        <argsstring></argsstring>
+        <name>CanLoansByOriginatedInto</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.LoanFolderContract.CanLoansByOriginatedInto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="27" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" line="9" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/LoanFolderContract.cs" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a6ee74089ad7d6ad877656505513caf11" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>ActionsAllowed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a383d49b48100ff58b11084db126446e5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>CanLoansBeDumplicatedFrom</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a9bdd22f9737d08ea4ff91bc39800dba7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>CanLoansBeDuplicatedFrom</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1ab8994f9ae281208b066f73ab56c0449e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>CanLoansBeImportedInto</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a52dbc566a9d6191942b1d41a45876239" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>CanLoansByOriginatedInto</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a4a87c7f3dc77d0090ddc89621b264a85" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>FolderName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a04bd381f1534b699d564e51e43d6e10d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>FolderType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a070db74ac9734369942b4fcd298d08c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>IncludeDuplicateLoanCheck</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_loan_folder_contract_1a6473d25f490bfc6cdba108ae3847b038" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::LoanFolderContract</scope><name>IsArchiveFolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

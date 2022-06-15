@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e4075</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1a71f174988e4e83616f3c4cbfb0132c9c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4075.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4075.Phone</qualifiedname>
+        <initializer>= &quot;Phone&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2712" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2712" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1a5453bc62c786f03849262b5426ea187b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4075.FacetoFace</definition>
+        <argsstring></argsstring>
+        <name>FacetoFace</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4075.FacetoFace</qualifiedname>
+        <initializer>= &quot;Face to Face&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2713" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1af005c2ec927b174bbad69a5ae1f6dcbc" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4075.Internet</definition>
+        <argsstring></argsstring>
+        <name>Internet</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4075.Internet</qualifiedname>
+        <initializer>= &quot;Internet&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2714" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2714" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1a6a099cc1e38f0c33a850173af58fbba5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e4075.Mail</definition>
+        <argsstring></argsstring>
+        <name>Mail</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e4075.Mail</qualifiedname>
+        <initializer>= &quot;Mail&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2715" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2715" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e4075</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>FacetoFace</edgelabel>
+          <edgelabel>Internet</edgelabel>
+          <edgelabel>Mail</edgelabel>
+          <edgelabel>Phone</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2710" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2711" bodyend="2716"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1a5453bc62c786f03849262b5426ea187b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4075</scope><name>FacetoFace</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1af005c2ec927b174bbad69a5ae1f6dcbc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4075</scope><name>Internet</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1a6a099cc1e38f0c33a850173af58fbba5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4075</scope><name>Mail</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e4075_1a71f174988e4e83616f3c4cbfb0132c9c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e4075</scope><name>Phone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

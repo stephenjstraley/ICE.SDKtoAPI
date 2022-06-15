@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Providers::BaseProviderService</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.CommonService</basecompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_batch_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.BatchProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_borrower_pair_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.BorrowerPairProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_closing_disclosures_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.ClosingDisclosuresService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.DocumentProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_enhanced_conditions_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.EnhancedConditionsProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_folder_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.FolderProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_loan_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.LoanProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.LockProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.MilestoneProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.MismoProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_pipeline_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.PipelineProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.RoleProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.SettingProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_token_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.TokenProviderService</derivedcompoundref>
+    <derivedcompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_web_hook_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.WebHookProviderService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1afaf63f722588a2e6ada5b874e6a59917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Providers.BaseProviderService.BaseProviderService</definition>
+        <argsstring>(AccessToken token=null)</argsstring>
+        <name>BaseProviderService</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.BaseProviderService</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref></type>
+          <declname>token</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="13" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aaceca56e654b0c1a02cd7432b4e89282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_organization_contract" kindref="compound">LenderApiContractsV1.OrganizationContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV1.OrganizationContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetOrganizationsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetOrganizationsAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetOrganizationsAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="14" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a8354f1ecc1935927430ab3bcef6569e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_organization_hierarchy_contract" kindref="compound">LenderApiContractsV1.OrganizationHierarchyContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV1.OrganizationHierarchyContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetOrganizationsHierarchyAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetOrganizationsHierarchyAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetOrganizationsHierarchyAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="25" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="25" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a74099b559290dc780ea7e60cb2198fe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_field_schema_contract" kindref="compound">LenderApiContractsV3.FieldSchemaContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV3.FieldSchemaContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetV3FieldSchemaAsync</definition>
+        <argsstring>(int start=0, int limit=500)</argsstring>
+        <name>GetV3FieldSchemaAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetV3FieldSchemaAsync</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limit</declname>
+          <defval>500</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="36" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="36" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a20d9c1ea80096ecccc83cac3645a94c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_field_schema_contract" kindref="compound">LenderApiContractsV3.FieldSchemaContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV3.FieldSchemaContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetV3FieldSchemaAsync</definition>
+        <argsstring>(List&lt; string &gt; ids)</argsstring>
+        <name>GetV3FieldSchemaAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetV3FieldSchemaAsync</qualifiedname>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>ids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="47" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a3a7eefc965aa98cf3b3cd2c9c8d936b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_field_schema_contract" kindref="compound">LenderApiContractsV3.FieldSchemaContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV3.FieldSchemaContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetV3FieldSchemaAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetV3FieldSchemaAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetV3FieldSchemaAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="61" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="61" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a35e51d09c8780464ba0350150a42f113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_field_schema_contract" kindref="compound">LenderApiContractsV1.FieldSchemaContract</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LenderApiContractsV1.FieldSchemaContract, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetV1FieldSchemaAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetV1FieldSchemaAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetV1FieldSchemaAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="72" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="72" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63b7e76f48872f5be2699a69aaee6e05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_organization_contract" kindref="compound">LenderApiContractsV1.OrganizationContract</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LenderApiContractsV1.OrganizationContract, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetOrganizationAsync</definition>
+        <argsstring>(string id)</argsstring>
+        <name>GetOrganizationAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetOrganizationAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="83" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="83" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a19d782be998b518996f289be00b60d17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; string, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanSchemaAsync</definition>
+        <argsstring>(bool useV3)</argsstring>
+        <name>GetLoanSchemaAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanSchemaAsync</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useV3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="94" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="94" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63f80c9de623d4307e78e16d902aab74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Providers.BaseProviderService.TemplatePath</definition>
+        <argsstring>(string folder, string param)</argsstring>
+        <name>TemplatePath</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.TemplatePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>folder</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="108" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="108" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a2462ab5e91224aa21f2e810444c3f5b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">LenderApiContractsV1.EntityRefContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV1.EntityRefContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanTemplateFoldersAsyc</definition>
+        <argsstring>(string param)</argsstring>
+        <name>GetLoanTemplateFoldersAsyc</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanTemplateFoldersAsyc</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="115" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="115" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aa2f272c446168ce341fbd01aa5b200cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">LenderApiContractsV1.EntityRefContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV1.EntityRefContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanTemplatesAsyc</definition>
+        <argsstring>(string param)</argsstring>
+        <name>GetLoanTemplatesAsyc</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanTemplatesAsyc</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="126" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="126" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1ad3b19704594b7c1620d682f0e75de762" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set" kindref="compound">LoanTemplateSet</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LoanTemplateSet, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanProgramTemplatesAsyc</definition>
+        <argsstring>(string param)</argsstring>
+        <name>GetLoanProgramTemplatesAsyc</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanProgramTemplatesAsyc</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="137" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="137" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a73513e07dff4c2059dd6dbf33849a63c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set" kindref="compound">LoanTemplateSet</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LoanTemplateSet, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanClosingCostTemplatesAsyc</definition>
+        <argsstring>(string param)</argsstring>
+        <name>GetLoanClosingCostTemplatesAsyc</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanClosingCostTemplatesAsyc</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="149" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="149" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a46c9375c784b05ecfdf52c720a21e5d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set" kindref="compound">LoanTemplateSet</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LoanTemplateSet, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanSSPTemplatesAsyc</definition>
+        <argsstring>(string param)</argsstring>
+        <name>GetLoanSSPTemplatesAsyc</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanSSPTemplatesAsyc</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="161" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="161" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a38a0fa93a03f2f1b04db437301d6f6ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_recipient_contract" kindref="compound">LenderApiContractsV3.RecipientContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV3.RecipientContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanRecipients</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetLoanRecipients</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetLoanRecipients</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="173" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="173" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1af4728da92db8809c834c974059923900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_registration_log_contract" kindref="compound">LenderApiContractsV3.RegistrationLogContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LenderApiContractsV3.RegistrationLogContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetRegistrationLogs</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetRegistrationLogs</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetRegistrationLogs</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="185" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="185" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a380df9c74d24e8d1eb9f0636d78cbdbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_registration_log_contract" kindref="compound">LenderApiContractsV3.RegistrationLogContract</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LenderApiContractsV3.RegistrationLogContract, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.BaseProviderService.GetRegistrationLog</definition>
+        <argsstring>(string guid, string logId)</argsstring>
+        <name>GetRegistrationLog</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.BaseProviderService.GetRegistrationLog</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>logId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="197" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="197" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.BaseProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICE.SDKtoAPI.Providers.BatchProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_batch_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Providers.BorrowerPairProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_borrower_pair_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ICE.SDKtoAPI.Providers.ClosingDisclosuresService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_closing_disclosures_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ICE.SDKtoAPI.Providers.DocumentProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ICE.SDKtoAPI.Providers.EnhancedConditionsProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_enhanced_conditions_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ICE.SDKtoAPI.Providers.FolderProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_folder_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ICE.SDKtoAPI.Providers.LoanProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_loan_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ICE.SDKtoAPI.Providers.LockProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ICE.SDKtoAPI.Providers.MilestoneProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ICE.SDKtoAPI.Providers.MismoProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_mismo_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ICE.SDKtoAPI.Providers.PipelineProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_pipeline_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ICE.SDKtoAPI.Providers.RoleProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_role_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ICE.SDKtoAPI.Providers.SettingProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ICE.SDKtoAPI.Providers.TokenProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_token_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>ICE.SDKtoAPI.Providers.WebHookProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_web_hook_provider_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_token</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_response</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.BaseProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ICE.SDKtoAPI.Contracts.AccessToken</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token"/>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Contracts.LenderApiResponse</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response"/>
+      </node>
+      <node id="5">
+        <label>ICE.SDKtoAPI.Contracts.UrlPaths</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" line="11" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/BaseProviderService.cs" bodystart="12" bodyend="212"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa7b2a662f3b757e33fbfc98bf26473b6" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>_lastMsg</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa8d15ca1b463876f7c5f5ee707477a0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>_response</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ab9e708e2331a997afa900d51465bf6a8" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>_token</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a31acaab6d054ebad8dc032ee9c2e13ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>Authenticate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1adf2fff3f0f72d729f20c912068e37f44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a151d7499eed883c06d3468154a125503" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa0e201b04c20da01f382d89440715e2f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1afaf63f722588a2e6ada5b874e6a59917" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>BaseProviderService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a87102226cd38ffc5a231c2a7fae29925" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>ClearResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aecb677e70e8afda6090578a159f8b038" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>CommonService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a07660f86bc474578caf0d4863722b97c" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>Delete</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a2947b6e3a8030ac7b34318064fa1818a" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a73513e07dff4c2059dd6dbf33849a63c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetLoanClosingCostTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1ad3b19704594b7c1620d682f0e75de762" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetLoanProgramTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a38a0fa93a03f2f1b04db437301d6f6ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetLoanRecipients</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a19d782be998b518996f289be00b60d17" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetLoanSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a46c9375c784b05ecfdf52c720a21e5d4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetLoanSSPTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a2462ab5e91224aa21f2e810444c3f5b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetLoanTemplateFoldersAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aa2f272c446168ce341fbd01aa5b200cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetLoanTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63b7e76f48872f5be2699a69aaee6e05" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetOrganizationAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aaceca56e654b0c1a02cd7432b4e89282" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetOrganizationsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a8354f1ecc1935927430ab3bcef6569e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetOrganizationsHierarchyAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a380df9c74d24e8d1eb9f0636d78cbdbb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetRegistrationLog</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1af4728da92db8809c834c974059923900" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetRegistrationLogs</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aefb2409254d928d851c16099ac29ca4d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetString</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a35e51d09c8780464ba0350150a42f113" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetV1FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a74099b559290dc780ea7e60cb2198fe9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a20d9c1ea80096ecccc83cac3645a94c5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a3a7eefc965aa98cf3b3cd2c9c8d936b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ae9caa06065d640b18e8a7e2fdd1b87ec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1afda0f99ff2d1077c730390365cb1330c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a0fc73cdfac8a069fe55ab220f4856a28" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a10542411058de814149f1420879fe913" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a159e7930cc58e07d85bd58895a7dbb80" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>Patch</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a8ee1c885b8c14485a0252dac7e9814c0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>Patch&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a5ae7d59de46d7df2f05fd1859916fc0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>paths</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ac78506a742216515e6e2b480458647e0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>Post</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a85226ec22697fb840caac8d53459326f" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>Post&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a642e4bf412951f34574ffeed7d109bd7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>SaveResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63f80c9de623d4307e78e16d902aab74" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::BaseProviderService</scope><name>TemplatePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNBOC0009</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1aa4832f8e493347465dd9699de66b3acf" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNBOC0009.NonTitleSpouse</definition>
+        <argsstring></argsstring>
+        <name>NonTitleSpouse</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNBOC0009.NonTitleSpouse</qualifiedname>
+        <initializer>= &quot;Non Title Spouse&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14813" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14813" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1a34470912fe0261adce5cb662596fc540" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNBOC0009.Titleonly</definition>
+        <argsstring></argsstring>
+        <name>Titleonly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNBOC0009.Titleonly</qualifiedname>
+        <initializer>= &quot;Title only&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14814" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14814" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1a815a8f41e761a082f42b504d3cf96d64" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNBOC0009.TitleOnlyTrustee</definition>
+        <argsstring></argsstring>
+        <name>TitleOnlyTrustee</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNBOC0009.TitleOnlyTrustee</qualifiedname>
+        <initializer>= &quot;Title Only Trustee&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14815" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1aa5818fca69a0a063ec147664783f5b68" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNBOC0009.TitleOnlySettlorTrustee</definition>
+        <argsstring></argsstring>
+        <name>TitleOnlySettlorTrustee</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNBOC0009.TitleOnlySettlorTrustee</qualifiedname>
+        <initializer>= &quot;Title Only Settlor Trustee&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14816" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14816" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNBOC0009</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>NonTitleSpouse</edgelabel>
+          <edgelabel>TitleOnlySettlorTrustee</edgelabel>
+          <edgelabel>TitleOnlyTrustee</edgelabel>
+          <edgelabel>Titleonly</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14811" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14812" bodyend="14817"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1aa4832f8e493347465dd9699de66b3acf" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNBOC0009</scope><name>NonTitleSpouse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1a34470912fe0261adce5cb662596fc540" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNBOC0009</scope><name>Titleonly</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1aa5818fca69a0a063ec147664783f5b68" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNBOC0009</scope><name>TitleOnlySettlorTrustee</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_b_o_c0009_1a815a8f41e761a082f42b504d3cf96d64" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNBOC0009</scope><name>TitleOnlyTrustee</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

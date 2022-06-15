@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_health" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::SupportingClasses::SDKAPIHealth</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_health_1adbf283dde10b74005b5bfefb257e6593" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ICE.SDKtoAPI.SupportingClasses.SDKAPIHealth.Check</definition>
+        <argsstring>(string instance, string apiClient, string userName, string password, string secret)</argsstring>
+        <name>Check</name>
+        <qualifiedname>ICE.SDKtoAPI.SupportingClasses.SDKAPIHealth.Check</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>apiClient</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>secret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIHealth.cs" line="9" column="28" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIHealth.cs" bodystart="9" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIHealth.cs" line="7" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/SupportingClasses/SDKAPIHealth.cs" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_supporting_classes_1_1_s_d_k_a_p_i_health_1adbf283dde10b74005b5bfefb257e6593" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::SupportingClasses::SDKAPIHealth</scope><name>Check</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

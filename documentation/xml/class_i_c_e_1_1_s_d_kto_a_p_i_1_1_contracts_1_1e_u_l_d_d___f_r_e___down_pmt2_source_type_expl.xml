@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_FRE_DownPmt2SourceTypeExpl</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl_1a15d5ffd9879650bed9fb9d84c491117b" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_FRE_DownPmt2SourceTypeExpl.AggregatedRemainingSourceTypes</definition>
+        <argsstring></argsstring>
+        <name>AggregatedRemainingSourceTypes</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_FRE_DownPmt2SourceTypeExpl.AggregatedRemainingSourceTypes</qualifiedname>
+        <initializer>= &quot;AggregatedRemainingSourceTypes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29505" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl_1a26d1ff2350e38c4392bf847ed11d7cec" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_FRE_DownPmt2SourceTypeExpl.FHLBAffordableHousingProgram</definition>
+        <argsstring></argsstring>
+        <name>FHLBAffordableHousingProgram</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_FRE_DownPmt2SourceTypeExpl.FHLBAffordableHousingProgram</qualifiedname>
+        <initializer>= &quot;FHLBAffordableHousingProgram&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29506" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29506" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl_1af0a496101c340007f7c9ae5a7c47adee" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_FRE_DownPmt2SourceTypeExpl.USDARuralHousing</definition>
+        <argsstring></argsstring>
+        <name>USDARuralHousing</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_FRE_DownPmt2SourceTypeExpl.USDARuralHousing</qualifiedname>
+        <initializer>= &quot;USDARuralHousing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29507" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29507" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_FRE_DownPmt2SourceTypeExpl</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AggregatedRemainingSourceTypes</edgelabel>
+          <edgelabel>FHLBAffordableHousingProgram</edgelabel>
+          <edgelabel>USDARuralHousing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29503" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29504" bodyend="29508"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl_1a15d5ffd9879650bed9fb9d84c491117b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_FRE_DownPmt2SourceTypeExpl</scope><name>AggregatedRemainingSourceTypes</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl_1a26d1ff2350e38c4392bf847ed11d7cec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_FRE_DownPmt2SourceTypeExpl</scope><name>FHLBAffordableHousingProgram</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___f_r_e___down_pmt2_source_type_expl_1af0a496101c340007f7c9ae5a7c47adee" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_FRE_DownPmt2SourceTypeExpl</scope><name>USDARuralHousing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

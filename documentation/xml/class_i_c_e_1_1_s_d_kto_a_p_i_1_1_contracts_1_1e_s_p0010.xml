@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eSP0010</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1abe5284627c500b0e42cf134c58d080c9" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eSP0010.TitleSettlementandClosing</definition>
+        <argsstring></argsstring>
+        <name>TitleSettlementandClosing</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eSP0010.TitleSettlementandClosing</qualifiedname>
+        <initializer>= &quot;Title - Settlement and Closing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26747" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1a0eb4f0f5c6e52d93b1013c5101eb847c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eSP0010.TitleInsurance</definition>
+        <argsstring></argsstring>
+        <name>TitleInsurance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eSP0010.TitleInsurance</qualifiedname>
+        <initializer>= &quot;Title - Insurance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26748" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1a9abc68c89ee83cc77dcd9f3e936dd061" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eSP0010.EscrowSettlementandClosing</definition>
+        <argsstring></argsstring>
+        <name>EscrowSettlementandClosing</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eSP0010.EscrowSettlementandClosing</qualifiedname>
+        <initializer>= &quot;Escrow - Settlement and Closing&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26749" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1a23536471d863fa118c20a02be1dc8858" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eSP0010.EscrowInsurance</definition>
+        <argsstring></argsstring>
+        <name>EscrowInsurance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eSP0010.EscrowInsurance</qualifiedname>
+        <initializer>= &quot;Escrow - Insurance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26750" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26750" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eSP0010</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>EscrowInsurance</edgelabel>
+          <edgelabel>EscrowSettlementandClosing</edgelabel>
+          <edgelabel>TitleInsurance</edgelabel>
+          <edgelabel>TitleSettlementandClosing</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="26745" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="26746" bodyend="26751"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1a23536471d863fa118c20a02be1dc8858" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eSP0010</scope><name>EscrowInsurance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1a9abc68c89ee83cc77dcd9f3e936dd061" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eSP0010</scope><name>EscrowSettlementandClosing</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1a0eb4f0f5c6e52d93b1013c5101eb847c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eSP0010</scope><name>TitleInsurance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_s_p0010_1abe5284627c500b0e42cf134c58d080c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eSP0010</scope><name>TitleSettlementandClosing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

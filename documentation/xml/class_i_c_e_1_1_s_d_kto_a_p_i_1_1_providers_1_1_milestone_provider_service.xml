@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Providers::MilestoneProviderService</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.BaseProviderService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a9a2907601c83f01d5f47f64ec9a0f4e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Providers.MilestoneProviderService.MilestoneProviderService</definition>
+        <argsstring>(AccessToken token=null)</argsstring>
+        <name>MilestoneProviderService</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.MilestoneProviderService</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref></type>
+          <declname>token</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="13" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a1bc574c8e39e73850c873c1770efa3a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_contract" kindref="compound">MilestoneContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; MilestoneContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.MilestoneProviderService.GetAllMilestonesAsync</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetAllMilestonesAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.GetAllMilestonesAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="15" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a2b8afb5effb54f539c0c6a903301d3c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate" kindref="compound">LoanContractLoanAssociate</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; LoanContractLoanAssociate &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.MilestoneProviderService.GetAllMilestoneAssociatesAsync</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetAllMilestoneAssociatesAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.GetAllMilestoneAssociatesAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="23" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="23" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a639bc174c0d249622da89832ef73f9de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate" kindref="compound">LoanContractLoanAssociate</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LoanContractLoanAssociate, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.MilestoneProviderService.GetMilestoneAssociateAsync</definition>
+        <argsstring>(string guid, string logId)</argsstring>
+        <name>GetMilestoneAssociateAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.GetMilestoneAssociateAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>logId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="31" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a2a4c3a4bdb38867dde5b7ce7996a4f7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_contract" kindref="compound">MilestoneContract</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; MilestoneContract, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.MilestoneProviderService.GetAllMilestonesAsync</definition>
+        <argsstring>(string guid, string logId)</argsstring>
+        <name>GetAllMilestonesAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.GetAllMilestonesAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>logId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="39" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1acf3d968afac4395aaa578b59fef2cc29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt;</type>
+        <definition>async Task&lt; LenderApiResponse &gt; ICE.SDKtoAPI.Providers.MilestoneProviderService.AssignMilestoneAssociateAsync</definition>
+        <argsstring>(string guid, string logId, LoanContractLoanAssociate associate)</argsstring>
+        <name>AssignMilestoneAssociateAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.AssignMilestoneAssociateAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>logId</declname>
+        </param>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_loan_associate" kindref="compound">LoanContractLoanAssociate</ref></type>
+          <declname>associate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="48" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="48" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a12aeefec3143c329377f52a5f588e363" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract" kindref="compound">MilestoneFreeRoleContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; MilestoneFreeRoleContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.MilestoneProviderService.GetMilestoneFreeRolesAsync</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetMilestoneFreeRolesAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.GetMilestoneFreeRolesAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="72" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="72" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a160b251f97ddd0f2f1ad6925ebdd8a82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_milestone_free_role_contract" kindref="compound">MilestoneFreeRoleContract</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; MilestoneFreeRoleContract, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.MilestoneProviderService.GetMilestoneFreeRoleAsync</definition>
+        <argsstring>(string guid, string logId)</argsstring>
+        <name>GetMilestoneFreeRoleAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.MilestoneProviderService.GetMilestoneFreeRoleAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>logId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="80" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="80" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.MilestoneProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_token</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_response</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.MilestoneProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Contracts.AccessToken</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token"/>
+      </node>
+      <node id="5">
+        <label>ICE.SDKtoAPI.Contracts.LenderApiResponse</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response"/>
+      </node>
+      <node id="6">
+        <label>ICE.SDKtoAPI.Contracts.UrlPaths</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" line="11" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/MilestoneProviderService.cs" bodystart="12" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa7b2a662f3b757e33fbfc98bf26473b6" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>_lastMsg</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa8d15ca1b463876f7c5f5ee707477a0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>_response</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ab9e708e2331a997afa900d51465bf6a8" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>_token</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1acf3d968afac4395aaa578b59fef2cc29" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>AssignMilestoneAssociateAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a31acaab6d054ebad8dc032ee9c2e13ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>Authenticate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1adf2fff3f0f72d729f20c912068e37f44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a151d7499eed883c06d3468154a125503" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa0e201b04c20da01f382d89440715e2f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1afaf63f722588a2e6ada5b874e6a59917" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>BaseProviderService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a87102226cd38ffc5a231c2a7fae29925" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>ClearResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aecb677e70e8afda6090578a159f8b038" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>CommonService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a07660f86bc474578caf0d4863722b97c" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>Delete</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a2947b6e3a8030ac7b34318064fa1818a" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a2b8afb5effb54f539c0c6a903301d3c0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetAllMilestoneAssociatesAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a1bc574c8e39e73850c873c1770efa3a2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetAllMilestonesAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a2a4c3a4bdb38867dde5b7ce7996a4f7c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetAllMilestonesAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a73513e07dff4c2059dd6dbf33849a63c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetLoanClosingCostTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1ad3b19704594b7c1620d682f0e75de762" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetLoanProgramTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a38a0fa93a03f2f1b04db437301d6f6ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetLoanRecipients</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a19d782be998b518996f289be00b60d17" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetLoanSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a46c9375c784b05ecfdf52c720a21e5d4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetLoanSSPTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a2462ab5e91224aa21f2e810444c3f5b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetLoanTemplateFoldersAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aa2f272c446168ce341fbd01aa5b200cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetLoanTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a639bc174c0d249622da89832ef73f9de" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetMilestoneAssociateAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a160b251f97ddd0f2f1ad6925ebdd8a82" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetMilestoneFreeRoleAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a12aeefec3143c329377f52a5f588e363" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetMilestoneFreeRolesAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63b7e76f48872f5be2699a69aaee6e05" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetOrganizationAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aaceca56e654b0c1a02cd7432b4e89282" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetOrganizationsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a8354f1ecc1935927430ab3bcef6569e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetOrganizationsHierarchyAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a380df9c74d24e8d1eb9f0636d78cbdbb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetRegistrationLog</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1af4728da92db8809c834c974059923900" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetRegistrationLogs</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aefb2409254d928d851c16099ac29ca4d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetString</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a35e51d09c8780464ba0350150a42f113" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetV1FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a74099b559290dc780ea7e60cb2198fe9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a20d9c1ea80096ecccc83cac3645a94c5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a3a7eefc965aa98cf3b3cd2c9c8d936b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_milestone_provider_service_1a9a2907601c83f01d5f47f64ec9a0f4e6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>MilestoneProviderService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ae9caa06065d640b18e8a7e2fdd1b87ec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1afda0f99ff2d1077c730390365cb1330c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a0fc73cdfac8a069fe55ab220f4856a28" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a10542411058de814149f1420879fe913" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a159e7930cc58e07d85bd58895a7dbb80" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>Patch</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a8ee1c885b8c14485a0252dac7e9814c0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>Patch&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a5ae7d59de46d7df2f05fd1859916fc0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>paths</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ac78506a742216515e6e2b480458647e0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>Post</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a85226ec22697fb840caac8d53459326f" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>Post&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a642e4bf412951f34574ffeed7d109bd7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>SaveResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63f80c9de623d4307e78e16d902aab74" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::MilestoneProviderService</scope><name>TemplatePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

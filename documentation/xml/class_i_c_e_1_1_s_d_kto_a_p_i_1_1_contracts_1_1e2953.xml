@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e2953</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1aceffb44d010a4a082ce8992f129a306a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2953.Fixed</definition>
+        <argsstring></argsstring>
+        <name>Fixed</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2953.Fixed</qualifiedname>
+        <initializer>= &quot;Fixed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1884" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1a87d90693570f362caa1d0340ae8b7b9d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2953.GraduatedPaymentMortgage</definition>
+        <argsstring></argsstring>
+        <name>GraduatedPaymentMortgage</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2953.GraduatedPaymentMortgage</qualifiedname>
+        <initializer>= &quot;GraduatedPaymentMortgage&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1885" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1a6235fdab2f78407ecabb4ac2926280ca" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2953.AdjustableRate</definition>
+        <argsstring></argsstring>
+        <name>AdjustableRate</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2953.AdjustableRate</qualifiedname>
+        <initializer>= &quot;AdjustableRate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1886" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1a7f8177fb6d663856c7947aca8b590dae" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e2953.OtherAmortizationType</definition>
+        <argsstring></argsstring>
+        <name>OtherAmortizationType</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e2953.OtherAmortizationType</qualifiedname>
+        <initializer>= &quot;OtherAmortizationType&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1887" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1887" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e2953</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AdjustableRate</edgelabel>
+          <edgelabel>Fixed</edgelabel>
+          <edgelabel>GraduatedPaymentMortgage</edgelabel>
+          <edgelabel>OtherAmortizationType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1882" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1883" bodyend="1888"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1a6235fdab2f78407ecabb4ac2926280ca" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2953</scope><name>AdjustableRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1aceffb44d010a4a082ce8992f129a306a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2953</scope><name>Fixed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1a87d90693570f362caa1d0340ae8b7b9d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2953</scope><name>GraduatedPaymentMortgage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e2953_1a7f8177fb6d663856c7947aca8b590dae" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e2953</scope><name>OtherAmortizationType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

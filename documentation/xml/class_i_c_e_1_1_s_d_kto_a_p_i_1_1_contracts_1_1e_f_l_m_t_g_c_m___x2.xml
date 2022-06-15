@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x2" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eFLMTGCM_X2</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x2_1a9682cad14a321979c684ab1b3c66d2e0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFLMTGCM_X2.Are</definition>
+        <argsstring></argsstring>
+        <name>Are</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFLMTGCM_X2.Are</qualifiedname>
+        <initializer>= &quot;Are&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12309" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x2_1a2bfbe2650c150d9e8c7aca78080de474" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFLMTGCM_X2.AreNot</definition>
+        <argsstring></argsstring>
+        <name>AreNot</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFLMTGCM_X2.AreNot</qualifiedname>
+        <initializer>= &quot;AreNot&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12310" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12310" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eFLMTGCM_X2</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Are</edgelabel>
+          <edgelabel>AreNot</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="12307" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="12308" bodyend="12311"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x2_1a9682cad14a321979c684ab1b3c66d2e0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFLMTGCM_X2</scope><name>Are</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_l_m_t_g_c_m___x2_1a2bfbe2650c150d9e8c7aca78080de474" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFLMTGCM_X2</scope><name>AreNot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

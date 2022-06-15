@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eCASASRN_X148</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148_1a8bbe00e4c76962cd0e99081d8f727e12" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X148.Guaranteed</definition>
+        <argsstring></argsstring>
+        <name>Guaranteed</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X148.Guaranteed</qualifiedname>
+        <initializer>= &quot;Guaranteed&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4438" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148_1a18916ec8925ca0584bce85e4a0ac593d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X148.Variable</definition>
+        <argsstring></argsstring>
+        <name>Variable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X148.Variable</qualifiedname>
+        <initializer>= &quot;Variable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4439" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148_1ad8d59ef66a9f98ec76f9019268a24326" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X148.NotApplicable</definition>
+        <argsstring></argsstring>
+        <name>NotApplicable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X148.NotApplicable</qualifiedname>
+        <initializer>= &quot;Not Applicable&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4440" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4440" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eCASASRN_X148</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Guaranteed</edgelabel>
+          <edgelabel>NotApplicable</edgelabel>
+          <edgelabel>Variable</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4436" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4437" bodyend="4441"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148_1a8bbe00e4c76962cd0e99081d8f727e12" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X148</scope><name>Guaranteed</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148_1ad8d59ef66a9f98ec76f9019268a24326" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X148</scope><name>NotApplicable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x148_1a18916ec8925ca0584bce85e4a0ac593d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X148</scope><name>Variable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

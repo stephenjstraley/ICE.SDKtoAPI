@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e671" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e671</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e671_1ad236e053a84dfa618dcb6c591f72cd63" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e671.TheGoodsOrPropertyBeingPurchased</definition>
+        <argsstring></argsstring>
+        <name>TheGoodsOrPropertyBeingPurchased</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e671.TheGoodsOrPropertyBeingPurchased</qualifiedname>
+        <initializer>= &quot;TheGoodsOrPropertyBeingPurchased&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="609" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="609" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e671_1a464ca7f8943621b0ed1f37b380b0ea70" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e671.RealPropertyYouAlreadyOwn</definition>
+        <argsstring></argsstring>
+        <name>RealPropertyYouAlreadyOwn</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e671.RealPropertyYouAlreadyOwn</qualifiedname>
+        <initializer>= &quot;RealPropertyYouAlreadyOwn&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="610" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="610" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e671</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e671"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>RealPropertyYouAlreadyOwn</edgelabel>
+          <edgelabel>TheGoodsOrPropertyBeingPurchased</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="607" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="608" bodyend="611"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e671_1a464ca7f8943621b0ed1f37b380b0ea70" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e671</scope><name>RealPropertyYouAlreadyOwn</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e671_1ad236e053a84dfa618dcb6c591f72cd63" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e671</scope><name>TheGoodsOrPropertyBeingPurchased</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

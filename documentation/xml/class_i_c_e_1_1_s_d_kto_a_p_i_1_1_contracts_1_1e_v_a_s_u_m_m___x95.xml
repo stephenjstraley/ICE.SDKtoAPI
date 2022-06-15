@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eVASUMM_X95</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1a5b9fbfc83aa07a7fa438d7e4f2b6f251" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X95.Northeast</definition>
+        <argsstring></argsstring>
+        <name>Northeast</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X95.Northeast</qualifiedname>
+        <initializer>= &quot;Northeast&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32525" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1ad11361b60bb94e0610b69c1382ea1689" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X95.Midwest</definition>
+        <argsstring></argsstring>
+        <name>Midwest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X95.Midwest</qualifiedname>
+        <initializer>= &quot;Midwest&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32526" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32526" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1a328b8e8354a795e0349da74204ae4684" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X95.South</definition>
+        <argsstring></argsstring>
+        <name>South</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X95.South</qualifiedname>
+        <initializer>= &quot;South&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32527" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32527" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1ab93f826b3d516fefe2639e88de022efb" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X95.West</definition>
+        <argsstring></argsstring>
+        <name>West</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X95.West</qualifiedname>
+        <initializer>= &quot;West&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32528" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32528" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eVASUMM_X95</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Midwest</edgelabel>
+          <edgelabel>Northeast</edgelabel>
+          <edgelabel>South</edgelabel>
+          <edgelabel>West</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32523" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32524" bodyend="32529"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1ad11361b60bb94e0610b69c1382ea1689" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X95</scope><name>Midwest</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1a5b9fbfc83aa07a7fa438d7e4f2b6f251" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X95</scope><name>Northeast</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1a328b8e8354a795e0349da74204ae4684" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X95</scope><name>South</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x95_1ab93f826b3d516fefe2639e88de022efb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X95</scope><name>West</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

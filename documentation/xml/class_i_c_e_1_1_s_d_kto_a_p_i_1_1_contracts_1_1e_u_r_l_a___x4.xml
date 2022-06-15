@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x4" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eURLA_X4</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x4_1a165e0ba7bfc2e1945ee97e4c371d7cfe" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X4.Jointly</definition>
+        <argsstring></argsstring>
+        <name>Jointly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X4.Jointly</qualifiedname>
+        <initializer>= &quot;Jointly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31200" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x4_1a00bda6803faa053c84bae3363085df07" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X4.NotJointly</definition>
+        <argsstring></argsstring>
+        <name>NotJointly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X4.NotJointly</qualifiedname>
+        <initializer>= &quot;NotJointly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31201" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31201" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eURLA_X4</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x4"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Jointly</edgelabel>
+          <edgelabel>NotJointly</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31198" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31199" bodyend="31202"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x4_1a165e0ba7bfc2e1945ee97e4c371d7cfe" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X4</scope><name>Jointly</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x4_1a00bda6803faa053c84bae3363085df07" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X4</scope><name>NotJointly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

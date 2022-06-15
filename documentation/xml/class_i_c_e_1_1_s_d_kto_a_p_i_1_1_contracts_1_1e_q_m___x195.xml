@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eQM_X195</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195_1a3ba6390fc7da2555f3fbe9d0b6fc3dd7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X195.FHAAssumedMortgagePayment</definition>
+        <argsstring></argsstring>
+        <name>FHAAssumedMortgagePayment</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X195.FHAAssumedMortgagePayment</qualifiedname>
+        <initializer>= &quot;FHA Assumed Mortgage Payment&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25355" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195_1a5e11b1d5e092721babd424fc15ed6012" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X195.VAAssumedMortgagePayment</definition>
+        <argsstring></argsstring>
+        <name>VAAssumedMortgagePayment</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X195.VAAssumedMortgagePayment</qualifiedname>
+        <initializer>= &quot;VA Assumed Mortgage Payment&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25356" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195_1a55e08b5d7d57d8a6cdf7274cb60e79ec" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eQM_X195.ConventionalAssumedMortgagePayment</definition>
+        <argsstring></argsstring>
+        <name>ConventionalAssumedMortgagePayment</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eQM_X195.ConventionalAssumedMortgagePayment</qualifiedname>
+        <initializer>= &quot;Conventional Assumed Mortgage Payment&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25357" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25357" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eQM_X195</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ConventionalAssumedMortgagePayment</edgelabel>
+          <edgelabel>FHAAssumedMortgagePayment</edgelabel>
+          <edgelabel>VAAssumedMortgagePayment</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="25353" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="25354" bodyend="25358"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195_1a55e08b5d7d57d8a6cdf7274cb60e79ec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X195</scope><name>ConventionalAssumedMortgagePayment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195_1a3ba6390fc7da2555f3fbe9d0b6fc3dd7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X195</scope><name>FHAAssumedMortgagePayment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_q_m___x195_1a5e11b1d5e092721babd424fc15ed6012" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eQM_X195</scope><name>VAAssumedMortgagePayment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

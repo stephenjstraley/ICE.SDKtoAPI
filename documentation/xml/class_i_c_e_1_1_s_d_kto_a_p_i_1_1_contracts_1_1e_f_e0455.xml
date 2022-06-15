@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_e0455" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eFE0455</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_e0455_1a5bb8a9458b23952416232c42e698d114" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFE0455.LessThan25Percent</definition>
+        <argsstring></argsstring>
+        <name>LessThan25Percent</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFE0455.LessThan25Percent</qualifiedname>
+        <initializer>= &quot;LessThan25Percent&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11957" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11957" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_e0455_1a27d2de9e9371bd9ca0a3b40ff64c2253" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eFE0455.GreaterThanOrEqualTo25Percent</definition>
+        <argsstring></argsstring>
+        <name>GreaterThanOrEqualTo25Percent</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eFE0455.GreaterThanOrEqualTo25Percent</qualifiedname>
+        <initializer>= &quot;GreaterThanOrEqualTo25Percent&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11958" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11958" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eFE0455</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_e0455"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>GreaterThanOrEqualTo25Percent</edgelabel>
+          <edgelabel>LessThan25Percent</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="11955" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="11956" bodyend="11959"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_e0455_1a27d2de9e9371bd9ca0a3b40ff64c2253" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFE0455</scope><name>GreaterThanOrEqualTo25Percent</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_f_e0455_1a5bb8a9458b23952416232c42e698d114" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eFE0455</scope><name>LessThan25Percent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

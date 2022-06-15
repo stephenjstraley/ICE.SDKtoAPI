@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eMAX23K_X69</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69_1a647d1a2ef0391363fa43acf165074099" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eMAX23K_X69.OwnedOccupant</definition>
+        <argsstring></argsstring>
+        <name>OwnedOccupant</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eMAX23K_X69.OwnedOccupant</qualifiedname>
+        <initializer>= &quot;OwnedOccupant&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14443" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69_1a8390c95f99cc7424fa22aff9ff2d6ac8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eMAX23K_X69.GovernmentAgency</definition>
+        <argsstring></argsstring>
+        <name>GovernmentAgency</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eMAX23K_X69.GovernmentAgency</qualifiedname>
+        <initializer>= &quot;GovernmentAgency&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14444" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69_1ae2b17875b7346b4409c1caa292f428dc" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eMAX23K_X69.Nonprofit</definition>
+        <argsstring></argsstring>
+        <name>Nonprofit</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eMAX23K_X69.Nonprofit</qualifiedname>
+        <initializer>= &quot;Nonprofit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14445" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14445" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eMAX23K_X69</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>GovernmentAgency</edgelabel>
+          <edgelabel>Nonprofit</edgelabel>
+          <edgelabel>OwnedOccupant</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="14441" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="14442" bodyend="14446"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69_1a8390c95f99cc7424fa22aff9ff2d6ac8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eMAX23K_X69</scope><name>GovernmentAgency</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69_1ae2b17875b7346b4409c1caa292f428dc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eMAX23K_X69</scope><name>Nonprofit</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_m_a_x23_k___x69_1a647d1a2ef0391363fa43acf165074099" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eMAX23K_X69</scope><name>OwnedOccupant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e728</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1a0d0604959e041a2877cec5e3a168aa2a" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e728.Occupiedbyowner</definition>
+        <argsstring></argsstring>
+        <name>Occupiedbyowner</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e728.Occupiedbyowner</qualifiedname>
+        <initializer>= &quot;Occupied by owner&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="665" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1abe977f6feb524a71a59e5f05e5a24404" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e728.Neveroccupied</definition>
+        <argsstring></argsstring>
+        <name>Neveroccupied</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e728.Neveroccupied</qualifiedname>
+        <initializer>= &quot;Never occupied&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="666" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1a9ebd1eb4f42feaedb829fdf7619a4727" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e728.Vacant</definition>
+        <argsstring></argsstring>
+        <name>Vacant</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e728.Vacant</qualifiedname>
+        <initializer>= &quot;Vacant&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="667" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1a33f4a1a6d492ebb01519bc26b7b26a51" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e728.Occupiedbytenant</definition>
+        <argsstring></argsstring>
+        <name>Occupiedbytenant</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e728.Occupiedbytenant</qualifiedname>
+        <initializer>= &quot;Occupied by tenant&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="668" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="668" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e728</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Neveroccupied</edgelabel>
+          <edgelabel>Occupiedbyowner</edgelabel>
+          <edgelabel>Occupiedbytenant</edgelabel>
+          <edgelabel>Vacant</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="663" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="664" bodyend="669"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1abe977f6feb524a71a59e5f05e5a24404" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e728</scope><name>Neveroccupied</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1a0d0604959e041a2877cec5e3a168aa2a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e728</scope><name>Occupiedbyowner</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1a33f4a1a6d492ebb01519bc26b7b26a51" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e728</scope><name>Occupiedbytenant</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e728_1a9ebd1eb4f42feaedb829fdf7619a4727" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e728</scope><name>Vacant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

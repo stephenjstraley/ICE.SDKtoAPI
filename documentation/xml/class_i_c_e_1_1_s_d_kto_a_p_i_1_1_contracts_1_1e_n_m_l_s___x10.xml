@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNMLS_X10</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10_1ab9042cf6a9a12ef7ab324cd6ffe990a4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNMLS_X10.HECMStandard</definition>
+        <argsstring></argsstring>
+        <name>HECMStandard</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNMLS_X10.HECMStandard</qualifiedname>
+        <initializer>= &quot;HECM-Standard&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21843" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10_1abd5ed1d791a03e5d9e8aa154c9097953" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNMLS_X10.HECMSaver</definition>
+        <argsstring></argsstring>
+        <name>HECMSaver</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNMLS_X10.HECMSaver</qualifiedname>
+        <initializer>= &quot;HECM-Saver&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21844" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10_1aa97d8bef048869500afd46d4c20492d3" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNMLS_X10.ProprietaryOther</definition>
+        <argsstring></argsstring>
+        <name>ProprietaryOther</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNMLS_X10.ProprietaryOther</qualifiedname>
+        <initializer>= &quot;Proprietary/Other&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21845" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21845" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNMLS_X10</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>HECMSaver</edgelabel>
+          <edgelabel>HECMStandard</edgelabel>
+          <edgelabel>ProprietaryOther</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="21841" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="21842" bodyend="21846"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10_1abd5ed1d791a03e5d9e8aa154c9097953" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNMLS_X10</scope><name>HECMSaver</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10_1ab9042cf6a9a12ef7ab324cd6ffe990a4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNMLS_X10</scope><name>HECMStandard</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_m_l_s___x10_1aa97d8bef048869500afd46d4c20492d3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNMLS_X10</scope><name>ProprietaryOther</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

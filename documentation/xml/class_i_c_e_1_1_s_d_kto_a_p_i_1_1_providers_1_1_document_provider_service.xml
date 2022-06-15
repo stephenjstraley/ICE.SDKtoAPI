@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Providers::DocumentProviderService</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service" prot="public" virt="non-virtual">ICE.SDKtoAPI.Providers.BaseProviderService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1ae2317b14378150f66f4b4c413be29f8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Providers.DocumentProviderService.DocumentProviderService</definition>
+        <argsstring>(AccessToken token)</argsstring>
+        <name>DocumentProviderService</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.DocumentProviderService</qualifiedname>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token" kindref="compound">AccessToken</ref></type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="17" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a46295a75e916a28ff7fc483652b9c79c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; DocumentContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.GetDocumentsAsync</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetDocumentsAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.GetDocumentsAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="19" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="19" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1ad4033a6ea5dd0e2aa91238d46190d2ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; DocumentContract, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.GetDocumentAsync</definition>
+        <argsstring>(string guid, string docId)</argsstring>
+        <name>GetDocumentAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.GetDocumentAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>docId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="27" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a60106ee3b5877c9e372e6d26dc444907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract" kindref="compound">FileAttachmentContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; FileAttachmentContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.GetAttachmentsAsync</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetAttachmentsAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.GetAttachmentsAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="35" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1aee5383b6ce7f75621002e49dbfd263c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract" kindref="compound">FileAttachmentContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; FileAttachmentContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.GetAttachmentsWithRemovedAsync</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetAttachmentsWithRemovedAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.GetAttachmentsWithRemovedAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="43" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1acd799ed7eda25655ae5365a10dbf31bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_attachment_url_download_contract" kindref="compound">AttachmentUrlDownloadContract</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; AttachmentUrlDownloadContract, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.GetDownloadAttachmentByIdAsync</definition>
+        <argsstring>(string guid, string id)</argsstring>
+        <name>GetDownloadAttachmentByIdAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.GetDownloadAttachmentByIdAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="52" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="52" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1acfa0194403236c4d8bbbea32c8c19aea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_documents" kindref="compound">LenderApiContractsV1.LoanContractDocuments</ref>, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; LenderApiContractsV1.LoanContractDocuments, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentAsync</definition>
+        <argsstring>(string guid, LenderApiContractsV1.LoanContractDocuments document)</argsstring>
+        <name>CreateDocumentAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_documents" kindref="compound">LenderApiContractsV1.LoanContractDocuments</ref></type>
+          <declname>document</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="85" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="85" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1ae6d5c34a06b74b808eaeec11dea91268" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; string, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.DownloadAttachment</definition>
+        <argsstring>(string guid, FileAttachmentContract contract, string path, string fileName)</argsstring>
+        <name>DownloadAttachment</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.DownloadAttachment</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract" kindref="compound">FileAttachmentContract</ref></type>
+          <declname>contract</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="97" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="97" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a7ee16c16e9b4de43cb930f35e0c554dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; string, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.DownloadAttachment</definition>
+        <argsstring>(string guid, string attachmentId, string path, string fileName)</argsstring>
+        <name>DownloadAttachment</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.DownloadAttachment</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>attachmentId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="113" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="113" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a08b94acc29d905b9959962ba4420d5c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; DocumentContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</definition>
+        <argsstring>(string guid, string docTitle, string description)</argsstring>
+        <name>CreateDocumentsAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>docTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="125" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a5f84237b6f24e185615422278ef89dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; DocumentContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</definition>
+        <argsstring>(string guid, string lockId, string docTitle, string description)</argsstring>
+        <name>CreateDocumentsAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lockId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>docTitle</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="132" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1af44a465dc8a2189a75b21df1690f9218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; DocumentContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</definition>
+        <argsstring>(string guid, string lockId, Dictionary&lt; string, string &gt; documents)</argsstring>
+        <name>CreateDocumentsAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lockId</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, string &gt;</type>
+          <declname>documents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="139" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="139" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a485f07a3e97edee74f92e7ab8e10f1a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref> &gt;, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; List&lt; DocumentContract &gt;, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</definition>
+        <argsstring>(string guid, string lockId, List&lt; DocumentContract &gt; documents)</argsstring>
+        <name>CreateDocumentsAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.CreateDocumentsAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lockId</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref> &gt;</type>
+          <declname>documents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="153" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="153" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a0a02db34bb622c493dd0cb056a140e0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; bool, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; bool, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.UpdateDocumentAsync</definition>
+        <argsstring>(string guid, List&lt; DocumentContract &gt; documents)</argsstring>
+        <name>UpdateDocumentAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.UpdateDocumentAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract" kindref="compound">DocumentContract</ref> &gt;</type>
+          <declname>documents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="188" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="188" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a736f824ec76f480fbe21a5c29838111f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt;</type>
+        <definition>async Task&lt; LenderApiResponse &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.RemoveDocumentAsync</definition>
+        <argsstring>(string guid, string documentId)</argsstring>
+        <name>RemoveDocumentAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.RemoveDocumentAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>documentId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="217" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="217" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a3ebd75e281c5e0e37a9c572430ffba93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt;</type>
+        <definition>async Task&lt; LenderApiResponse &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.AssignAttachmentToDocumentAsync</definition>
+        <argsstring>(string guid, string documentId, string attachId)</argsstring>
+        <name>AssignAttachmentToDocumentAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.AssignAttachmentToDocumentAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>documentId</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>attachId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="251" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="251" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a5ea3cd28de90c9e70cd4af6b8a765b4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; Tuple&lt; string, <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kindref="compound">LenderApiResponse</ref> &gt; &gt;</type>
+        <definition>async Task&lt; Tuple&lt; string, LenderApiResponse &gt; &gt; ICE.SDKtoAPI.Providers.DocumentProviderService.UploadAttachemntAsync</definition>
+        <argsstring>(string guid, string lockId, MemoryStream stream, string fileName, string fileType, string title)</argsstring>
+        <name>UploadAttachemntAsync</name>
+        <qualifiedname>ICE.SDKtoAPI.Providers.DocumentProviderService.UploadAttachemntAsync</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lockId</declname>
+        </param>
+        <param>
+          <type>MemoryStream</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="286" column="27" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="286" bodyend="360"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.DocumentProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CommonService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_token</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_response</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>paths</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Providers.DocumentProviderService</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ICE.SDKtoAPI.Contracts.AccessToken</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token"/>
+      </node>
+      <node id="5">
+        <label>ICE.SDKtoAPI.Contracts.LenderApiResponse</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response"/>
+      </node>
+      <node id="6">
+        <label>ICE.SDKtoAPI.Contracts.UrlPaths</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_url_paths"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" line="15" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Providers/DocumentProviderService.cs" bodystart="16" bodyend="361"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa7b2a662f3b757e33fbfc98bf26473b6" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>_lastMsg</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa8d15ca1b463876f7c5f5ee707477a0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>_response</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ab9e708e2331a997afa900d51465bf6a8" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>_token</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a3ebd75e281c5e0e37a9c572430ffba93" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>AssignAttachmentToDocumentAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a31acaab6d054ebad8dc032ee9c2e13ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>Authenticate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a861a5e3114e6853a5b1aade135c3b8c9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1adf2fff3f0f72d729f20c912068e37f44" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a151d7499eed883c06d3468154a125503" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aa0e201b04c20da01f382d89440715e2f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>BadResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1afaf63f722588a2e6ada5b874e6a59917" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>BaseProviderService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a87102226cd38ffc5a231c2a7fae29925" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>ClearResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aecb677e70e8afda6090578a159f8b038" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>CommonService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1acfa0194403236c4d8bbbea32c8c19aea" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>CreateDocumentAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a08b94acc29d905b9959962ba4420d5c5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>CreateDocumentsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a5f84237b6f24e185615422278ef89dff" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>CreateDocumentsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1af44a465dc8a2189a75b21df1690f9218" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>CreateDocumentsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a485f07a3e97edee74f92e7ab8e10f1a7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>CreateDocumentsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a07660f86bc474578caf0d4863722b97c" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>Delete</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1ae2317b14378150f66f4b4c413be29f8b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>DocumentProviderService</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1ae6d5c34a06b74b808eaeec11dea91268" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>DownloadAttachment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a7ee16c16e9b4de43cb930f35e0c554dd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>DownloadAttachment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a2947b6e3a8030ac7b34318064fa1818a" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a60106ee3b5877c9e372e6d26dc444907" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetAttachmentsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1aee5383b6ce7f75621002e49dbfd263c1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetAttachmentsWithRemovedAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1ad4033a6ea5dd0e2aa91238d46190d2ba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetDocumentAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a46295a75e916a28ff7fc483652b9c79c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetDocumentsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1acd799ed7eda25655ae5365a10dbf31bb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetDownloadAttachmentByIdAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a73513e07dff4c2059dd6dbf33849a63c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetLoanClosingCostTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1ad3b19704594b7c1620d682f0e75de762" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetLoanProgramTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a38a0fa93a03f2f1b04db437301d6f6ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetLoanRecipients</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a19d782be998b518996f289be00b60d17" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetLoanSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a46c9375c784b05ecfdf52c720a21e5d4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetLoanSSPTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a2462ab5e91224aa21f2e810444c3f5b1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetLoanTemplateFoldersAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aa2f272c446168ce341fbd01aa5b200cd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetLoanTemplatesAsyc</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63b7e76f48872f5be2699a69aaee6e05" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetOrganizationAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1aaceca56e654b0c1a02cd7432b4e89282" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetOrganizationsAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a8354f1ecc1935927430ab3bcef6569e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetOrganizationsHierarchyAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a380df9c74d24e8d1eb9f0636d78cbdbb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetRegistrationLog</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1af4728da92db8809c834c974059923900" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetRegistrationLogs</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1aefb2409254d928d851c16099ac29ca4d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetString</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a35e51d09c8780464ba0350150a42f113" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetV1FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a74099b559290dc780ea7e60cb2198fe9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a20d9c1ea80096ecccc83cac3645a94c5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a3a7eefc965aa98cf3b3cd2c9c8d936b8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>GetV3FieldSchemaAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ae9caa06065d640b18e8a7e2fdd1b87ec" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1afda0f99ff2d1077c730390365cb1330c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a0fc73cdfac8a069fe55ab220f4856a28" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a10542411058de814149f1420879fe913" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>OkResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a159e7930cc58e07d85bd58895a7dbb80" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>Patch</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a8ee1c885b8c14485a0252dac7e9814c0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>Patch&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a5ae7d59de46d7df2f05fd1859916fc0d" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>paths</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1ac78506a742216515e6e2b480458647e0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>Post</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a85226ec22697fb840caac8d53459326f" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>Post&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a736f824ec76f480fbe21a5c29838111f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>RemoveDocumentAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_common_service_1a642e4bf412951f34574ffeed7d109bd7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>SaveResponse</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service_1a63f80c9de623d4307e78e16d902aab74" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>TemplatePath</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a0a02db34bb622c493dd0cb056a140e0c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>UpdateDocumentAsync</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_1a5ea3cd28de90c9e70cd4af6b8a765b4c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Providers::DocumentProviderService</scope><name>UploadAttachemntAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

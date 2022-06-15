@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a_r_a_l0016" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eURLARAL0016</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a_r_a_l0016_1abd2e98612054c4e5e2cf5a49006eba46" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLARAL0016.HELOC</definition>
+        <argsstring></argsstring>
+        <name>HELOC</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLARAL0016.HELOC</qualifiedname>
+        <initializer>= &quot;HELOC&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31448" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a_r_a_l0016_1a0d93675c2577eb4becd896fa65dc134d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLARAL0016.Mortgage</definition>
+        <argsstring></argsstring>
+        <name>Mortgage</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLARAL0016.Mortgage</qualifiedname>
+        <initializer>= &quot;Mortgage&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31449" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31449" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eURLARAL0016</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a_r_a_l0016"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>HELOC</edgelabel>
+          <edgelabel>Mortgage</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="31446" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="31447" bodyend="31450"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a_r_a_l0016_1abd2e98612054c4e5e2cf5a49006eba46" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLARAL0016</scope><name>HELOC</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a_r_a_l0016_1a0d93675c2577eb4becd896fa65dc134d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLARAL0016</scope><name>Mortgage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

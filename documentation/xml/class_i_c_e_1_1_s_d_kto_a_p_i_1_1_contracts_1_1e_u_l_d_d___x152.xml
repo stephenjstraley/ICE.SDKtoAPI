@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_X152</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152_1aaf29bfbfe63a8f68c50bc09150163937" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X152.BorrowerDidNotParticipate</definition>
+        <argsstring></argsstring>
+        <name>BorrowerDidNotParticipate</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X152.BorrowerDidNotParticipate</qualifiedname>
+        <initializer>= &quot;Borrower Did Not Participate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30178" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152_1ad46ae8a3427cd7d31f87133a8d5f3c04" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X152.MortgageInsuranceCompany</definition>
+        <argsstring></argsstring>
+        <name>MortgageInsuranceCompany</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X152.MortgageInsuranceCompany</qualifiedname>
+        <initializer>= &quot;Mortgage Insurance Company&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30179" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152_1a839c4b489ffb944ef7100e3770785ed2" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X152.NonprofitOrganization</definition>
+        <argsstring></argsstring>
+        <name>NonprofitOrganization</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X152.NonprofitOrganization</qualifiedname>
+        <initializer>= &quot;Nonprofit Organization&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30180" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30180" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_X152</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BorrowerDidNotParticipate</edgelabel>
+          <edgelabel>MortgageInsuranceCompany</edgelabel>
+          <edgelabel>NonprofitOrganization</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30176" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30177" bodyend="30181"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152_1aaf29bfbfe63a8f68c50bc09150163937" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X152</scope><name>BorrowerDidNotParticipate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152_1ad46ae8a3427cd7d31f87133a8d5f3c04" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X152</scope><name>MortgageInsuranceCompany</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x152_1a839c4b489ffb944ef7100e3770785ed2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X152</scope><name>NonprofitOrganization</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

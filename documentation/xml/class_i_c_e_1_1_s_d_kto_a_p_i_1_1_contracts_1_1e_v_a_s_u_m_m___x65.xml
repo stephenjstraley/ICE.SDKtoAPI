@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x65" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eVASUMM_X65</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x65_1a39ffec5e219c29e0831bd92b1d34efcb" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X65.Escrow</definition>
+        <argsstring></argsstring>
+        <name>Escrow</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X65.Escrow</qualifiedname>
+        <initializer>= &quot;Escrow&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32480" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x65_1a41a1637ee6bb00c5abcaa628dad734f0" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eVASUMM_X65.EarmarkedAccount</definition>
+        <argsstring></argsstring>
+        <name>EarmarkedAccount</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eVASUMM_X65.EarmarkedAccount</qualifiedname>
+        <initializer>= &quot;Earmarked Account&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32481" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32481" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eVASUMM_X65</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x65"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>EarmarkedAccount</edgelabel>
+          <edgelabel>Escrow</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="32478" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="32479" bodyend="32482"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x65_1a41a1637ee6bb00c5abcaa628dad734f0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X65</scope><name>EarmarkedAccount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_v_a_s_u_m_m___x65_1a39ffec5e219c29e0831bd92b1d34efcb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eVASUMM_X65</scope><name>Escrow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

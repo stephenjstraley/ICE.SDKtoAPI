@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNTB_X34</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34_1a09bef0e7fd290c61864e68367580c839" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNTB_X34.Originatedbythesamebrokeroraffiliaterelatedentityofthebroker</definition>
+        <argsstring></argsstring>
+        <name>Originatedbythesamebrokeroraffiliaterelatedentityofthebroker</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNTB_X34.Originatedbythesamebrokeroraffiliaterelatedentityofthebroker</qualifiedname>
+        <initializer>= &quot;Originated by the same broker or affiliate/related entity of the broker&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22469" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34_1a96ebea2a5dca47bcd07aa1220d83a967" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNTB_X34.Originatedbythesamebrokerandisfundedbythesamecreditor</definition>
+        <argsstring></argsstring>
+        <name>Originatedbythesamebrokerandisfundedbythesamecreditor</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNTB_X34.Originatedbythesamebrokerandisfundedbythesamecreditor</qualifiedname>
+        <initializer>= &quot;Originated by the same broker and is funded by the same creditor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22470" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34_1a50cfcc419bb6f31d8bdf2e11cdc9ec61" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNTB_X34.Madeoriscurrentlyheldbythesamecreditororanaffiliateofthecreditor</definition>
+        <argsstring></argsstring>
+        <name>Madeoriscurrentlyheldbythesamecreditororanaffiliateofthecreditor</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNTB_X34.Madeoriscurrentlyheldbythesamecreditororanaffiliateofthecreditor</qualifiedname>
+        <initializer>= &quot;Made or is currently held by the same creditor or an affiliate of the creditor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22471" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22471" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNTB_X34</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Madeoriscurrentlyheldbythesamecreditororanaffiliateofthecreditor</edgelabel>
+          <edgelabel>Originatedbythesamebrokerandisfundedbythesamecreditor</edgelabel>
+          <edgelabel>Originatedbythesamebrokeroraffiliaterelatedentityofthebroker</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22467" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22468" bodyend="22472"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34_1a50cfcc419bb6f31d8bdf2e11cdc9ec61" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNTB_X34</scope><name>Madeoriscurrentlyheldbythesamecreditororanaffiliateofthecreditor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34_1a96ebea2a5dca47bcd07aa1220d83a967" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNTB_X34</scope><name>Originatedbythesamebrokerandisfundedbythesamecreditor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_t_b___x34_1a09bef0e7fd290c61864e68367580c839" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNTB_X34</scope><name>Originatedbythesamebrokeroraffiliaterelatedentityofthebroker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

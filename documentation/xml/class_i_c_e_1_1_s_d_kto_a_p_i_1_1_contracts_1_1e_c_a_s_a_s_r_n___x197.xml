@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x197" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eCASASRN_X197</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x197_1a4d6cbebba3a4c12729038bc03381edf4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X197.NewlyBuilt</definition>
+        <argsstring></argsstring>
+        <name>NewlyBuilt</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X197.NewlyBuilt</qualifiedname>
+        <initializer>= &quot;NewlyBuilt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4530" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x197_1a6d81c8cb9cef6734a8d42d381adc608c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eCASASRN_X197.ConstructionConversion</definition>
+        <argsstring></argsstring>
+        <name>ConstructionConversion</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eCASASRN_X197.ConstructionConversion</qualifiedname>
+        <initializer>= &quot;ConstructionConversion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4531" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4531" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eCASASRN_X197</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x197"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ConstructionConversion</edgelabel>
+          <edgelabel>NewlyBuilt</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="4528" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="4529" bodyend="4532"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x197_1a6d81c8cb9cef6734a8d42d381adc608c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X197</scope><name>ConstructionConversion</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_c_a_s_a_s_r_n___x197_1a4d6cbebba3a4c12729038bc03381edf4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eCASASRN_X197</scope><name>NewlyBuilt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

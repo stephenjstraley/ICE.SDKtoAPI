@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1669</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1a7f481ff88b2b2371c72eda12bed505c7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1669.CashOutRefinance</definition>
+        <argsstring></argsstring>
+        <name>CashOutRefinance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1669.CashOutRefinance</qualifiedname>
+        <initializer>= &quot;CashOutRefinance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1317" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1a26a2d009e1c68dede1231b59ec0ace4e" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1669.RegularRefinance</definition>
+        <argsstring></argsstring>
+        <name>RegularRefinance</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1669.RegularRefinance</qualifiedname>
+        <initializer>= &quot;RegularRefinance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1318" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1acbd2cc375dd326e62cc13e0ebfbeece5" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1669.StreamlineWithAppraisal</definition>
+        <argsstring></argsstring>
+        <name>StreamlineWithAppraisal</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1669.StreamlineWithAppraisal</qualifiedname>
+        <initializer>= &quot;StreamlineWithAppraisal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1319" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1a0de9d56b8605ce24f3cf799221a937f8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1669.StreamlineWithoutAppraisal</definition>
+        <argsstring></argsstring>
+        <name>StreamlineWithoutAppraisal</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1669.StreamlineWithoutAppraisal</qualifiedname>
+        <initializer>= &quot;StreamlineWithoutAppraisal&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1320" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1320" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1669</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CashOutRefinance</edgelabel>
+          <edgelabel>RegularRefinance</edgelabel>
+          <edgelabel>StreamlineWithAppraisal</edgelabel>
+          <edgelabel>StreamlineWithoutAppraisal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="1315" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="1316" bodyend="1321"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1a7f481ff88b2b2371c72eda12bed505c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1669</scope><name>CashOutRefinance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1a26a2d009e1c68dede1231b59ec0ace4e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1669</scope><name>RegularRefinance</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1acbd2cc375dd326e62cc13e0ebfbeece5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1669</scope><name>StreamlineWithAppraisal</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1669_1a0de9d56b8605ce24f3cf799221a937f8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1669</scope><name>StreamlineWithoutAppraisal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::DocumentAccessRights</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV1.AccessRights</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights_1a503db0772dc368389397240878bf04ae" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights.ProtectedDocuments</definition>
+        <argsstring></argsstring>
+        <name>ProtectedDocuments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights.ProtectedDocuments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="122" column="14" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights_1a8c41c049724360afd32a2128dce87ac0" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights.UnprotectedDocuments</definition>
+        <argsstring></argsstring>
+        <name>UnprotectedDocuments</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights.UnprotectedDocuments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="123" column="14" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights_1afec7106440ea76a82ade1dc51795296c" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights.unassignedFiles</definition>
+        <argsstring></argsstring>
+        <name>unassignedFiles</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights.unassignedFiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="124" column="14" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="124" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AccessRights</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseEncompassModel</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_base_encompass_model"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IValidatableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AccessRights</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BaseEncompassModel</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_base_encompass_model"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV1.DocumentAccessRights</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IValidatableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="120" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="121" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights_1ae5cba40f75e8cf136199a846a18f41bc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::DocumentAccessRights</scope><name>Access</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights_1a503db0772dc368389397240878bf04ae" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::DocumentAccessRights</scope><name>ProtectedDocuments</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_access_rights_1a85beb7665ce1f51915a0009f97801077" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::DocumentAccessRights</scope><name>Rights</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_base_encompass_model_1a721105537a9a4fce645b60930cc823aa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::DocumentAccessRights</scope><name>ToJson</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights_1afec7106440ea76a82ade1dc51795296c" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::DocumentAccessRights</scope><name>unassignedFiles</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_document_access_rights_1a8c41c049724360afd32a2128dce87ac0" prot="private" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::DocumentAccessRights</scope><name>UnprotectedDocuments</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

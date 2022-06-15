@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3062" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e3062</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3062_1a0e1553a93a65bf2d9144f04db9f36651" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3062.NotCounseled</definition>
+        <argsstring></argsstring>
+        <name>NotCounseled</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3062.NotCounseled</qualifiedname>
+        <initializer>= &quot;Not Counseled&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2076" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2076" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3062_1a473610e7f6d6bf3522299ccc83ee1845" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3062.HUDApprovedCounselingAgency</definition>
+        <argsstring></argsstring>
+        <name>HUDApprovedCounselingAgency</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3062.HUDApprovedCounselingAgency</qualifiedname>
+        <initializer>= &quot;HUD Approved Counseling Agency&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2077" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2077" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e3062</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3062"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>HUDApprovedCounselingAgency</edgelabel>
+          <edgelabel>NotCounseled</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2074" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2075" bodyend="2078"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3062_1a473610e7f6d6bf3522299ccc83ee1845" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3062</scope><name>HUDApprovedCounselingAgency</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3062_1a0e1553a93a65bf2d9144f04db9f36651" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3062</scope><name>NotCounseled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

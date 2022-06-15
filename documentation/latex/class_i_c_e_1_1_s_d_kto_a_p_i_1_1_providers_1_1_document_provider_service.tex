@@ -1,0 +1,157 @@
+\hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service}{}\doxysection{ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service Class Reference}
+\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service}\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+
+
+Inherits \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service}{ICE.\+SDKto\+API.\+Providers.\+Base\+Provider\+Service}}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ae2317b14378150f66f4b4c413be29f8b}{Document\+Provider\+Service}} (\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}} token)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a46295a75e916a28ff7fc483652b9c79c}{Get\+Documents\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ad4033a6ea5dd0e2aa91238d46190d2ba}{Get\+Document\+Async}} (string guid, string doc\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract}{File\+Attachment\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a60106ee3b5877c9e372e6d26dc444907}{Get\+Attachments\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract}{File\+Attachment\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_aee5383b6ce7f75621002e49dbfd263c1}{Get\+Attachments\+With\+Removed\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_attachment_url_download_contract}{Attachment\+Url\+Download\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_acd799ed7eda25655ae5365a10dbf31bb}{Get\+Download\+Attachment\+By\+Id\+Async}} (string guid, string id)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_documents}{Lender\+Api\+Contracts\+V1.\+Loan\+Contract\+Documents}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_acfa0194403236c4d8bbbea32c8c19aea}{Create\+Document\+Async}} (string guid, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_documents}{Lender\+Api\+Contracts\+V1.\+Loan\+Contract\+Documents}} document)
+\item 
+async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ae6d5c34a06b74b808eaeec11dea91268}{Download\+Attachment}} (string guid, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract}{File\+Attachment\+Contract}} contract, string path, string file\+Name)
+\item 
+async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a7ee16c16e9b4de43cb930f35e0c554dd}{Download\+Attachment}} (string guid, string attachment\+Id, string path, string file\+Name)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a08b94acc29d905b9959962ba4420d5c5}{Create\+Documents\+Async}} (string guid, string doc\+Title, string description)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a5f84237b6f24e185615422278ef89dff}{Create\+Documents\+Async}} (string guid, string lock\+Id, string doc\+Title, string description)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_af44a465dc8a2189a75b21df1690f9218}{Create\+Documents\+Async}} (string guid, string lock\+Id, Dictionary$<$ string, string $>$ documents)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a485f07a3e97edee74f92e7ab8e10f1a7}{Create\+Documents\+Async}} (string guid, string lock\+Id, List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$ documents)
+\item 
+async Task$<$ Tuple$<$ bool, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a0a02db34bb622c493dd0cb056a140e0c}{Update\+Document\+Async}} (string guid, List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$ documents)
+\item 
+async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a736f824ec76f480fbe21a5c29838111f}{Remove\+Document\+Async}} (string guid, string document\+Id)
+\item 
+async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a3ebd75e281c5e0e37a9c572430ffba93}{Assign\+Attachment\+To\+Document\+Async}} (string guid, string document\+Id, string attach\+Id)
+\item 
+async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a5ea3cd28de90c9e70cd4af6b8a765b4c}{Upload\+Attachemnt\+Async}} (string guid, string lock\+Id, Memory\+Stream stream, string file\+Name, string file\+Type, string title)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ae2317b14378150f66f4b4c413be29f8b}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ae2317b14378150f66f4b4c413be29f8b}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!DocumentProviderService@{DocumentProviderService}}
+\index{DocumentProviderService@{DocumentProviderService}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{DocumentProviderService()}{DocumentProviderService()}}
+{\footnotesize\ttfamily ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Document\+Provider\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}}}]{token }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a3ebd75e281c5e0e37a9c572430ffba93}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a3ebd75e281c5e0e37a9c572430ffba93}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!AssignAttachmentToDocumentAsync@{AssignAttachmentToDocumentAsync}}
+\index{AssignAttachmentToDocumentAsync@{AssignAttachmentToDocumentAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{AssignAttachmentToDocumentAsync()}{AssignAttachmentToDocumentAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Assign\+Attachment\+To\+Document\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{document\+Id,  }\item[{string}]{attach\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_acfa0194403236c4d8bbbea32c8c19aea}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_acfa0194403236c4d8bbbea32c8c19aea}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!CreateDocumentAsync@{CreateDocumentAsync}}
+\index{CreateDocumentAsync@{CreateDocumentAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{CreateDocumentAsync()}{CreateDocumentAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_documents}{Lender\+Api\+Contracts\+V1.\+Loan\+Contract\+Documents}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Create\+Document\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_documents}{Lender\+Api\+Contracts\+V1.\+Loan\+Contract\+Documents}}}]{document }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a08b94acc29d905b9959962ba4420d5c5}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a08b94acc29d905b9959962ba4420d5c5}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!CreateDocumentsAsync@{CreateDocumentsAsync}}
+\index{CreateDocumentsAsync@{CreateDocumentsAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{CreateDocumentsAsync()}{CreateDocumentsAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Create\+Documents\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{doc\+Title,  }\item[{string}]{description }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_af44a465dc8a2189a75b21df1690f9218}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_af44a465dc8a2189a75b21df1690f9218}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!CreateDocumentsAsync@{CreateDocumentsAsync}}
+\index{CreateDocumentsAsync@{CreateDocumentsAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{CreateDocumentsAsync()}{CreateDocumentsAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Create\+Documents\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{lock\+Id,  }\item[{Dictionary$<$ string, string $>$}]{documents }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a485f07a3e97edee74f92e7ab8e10f1a7}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a485f07a3e97edee74f92e7ab8e10f1a7}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!CreateDocumentsAsync@{CreateDocumentsAsync}}
+\index{CreateDocumentsAsync@{CreateDocumentsAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{CreateDocumentsAsync()}{CreateDocumentsAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Create\+Documents\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{lock\+Id,  }\item[{List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$}]{documents }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a5f84237b6f24e185615422278ef89dff}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a5f84237b6f24e185615422278ef89dff}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!CreateDocumentsAsync@{CreateDocumentsAsync}}
+\index{CreateDocumentsAsync@{CreateDocumentsAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{CreateDocumentsAsync()}{CreateDocumentsAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Create\+Documents\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{lock\+Id,  }\item[{string}]{doc\+Title,  }\item[{string}]{description }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ae6d5c34a06b74b808eaeec11dea91268}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ae6d5c34a06b74b808eaeec11dea91268}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!DownloadAttachment@{DownloadAttachment}}
+\index{DownloadAttachment@{DownloadAttachment}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{DownloadAttachment()}{DownloadAttachment()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Download\+Attachment (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract}{File\+Attachment\+Contract}}}]{contract,  }\item[{string}]{path,  }\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a7ee16c16e9b4de43cb930f35e0c554dd}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a7ee16c16e9b4de43cb930f35e0c554dd}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!DownloadAttachment@{DownloadAttachment}}
+\index{DownloadAttachment@{DownloadAttachment}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{DownloadAttachment()}{DownloadAttachment()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Download\+Attachment (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{attachment\+Id,  }\item[{string}]{path,  }\item[{string}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a60106ee3b5877c9e372e6d26dc444907}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a60106ee3b5877c9e372e6d26dc444907}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!GetAttachmentsAsync@{GetAttachmentsAsync}}
+\index{GetAttachmentsAsync@{GetAttachmentsAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{GetAttachmentsAsync()}{GetAttachmentsAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract}{File\+Attachment\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Get\+Attachments\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_aee5383b6ce7f75621002e49dbfd263c1}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_aee5383b6ce7f75621002e49dbfd263c1}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!GetAttachmentsWithRemovedAsync@{GetAttachmentsWithRemovedAsync}}
+\index{GetAttachmentsWithRemovedAsync@{GetAttachmentsWithRemovedAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{GetAttachmentsWithRemovedAsync()}{GetAttachmentsWithRemovedAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_file_attachment_contract}{File\+Attachment\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Get\+Attachments\+With\+Removed\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ad4033a6ea5dd0e2aa91238d46190d2ba}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_ad4033a6ea5dd0e2aa91238d46190d2ba}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!GetDocumentAsync@{GetDocumentAsync}}
+\index{GetDocumentAsync@{GetDocumentAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{GetDocumentAsync()}{GetDocumentAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Get\+Document\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{doc\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a46295a75e916a28ff7fc483652b9c79c}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a46295a75e916a28ff7fc483652b9c79c}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!GetDocumentsAsync@{GetDocumentsAsync}}
+\index{GetDocumentsAsync@{GetDocumentsAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{GetDocumentsAsync()}{GetDocumentsAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Get\+Documents\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_acd799ed7eda25655ae5365a10dbf31bb}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_acd799ed7eda25655ae5365a10dbf31bb}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!GetDownloadAttachmentByIdAsync@{GetDownloadAttachmentByIdAsync}}
+\index{GetDownloadAttachmentByIdAsync@{GetDownloadAttachmentByIdAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{GetDownloadAttachmentByIdAsync()}{GetDownloadAttachmentByIdAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_attachment_url_download_contract}{Attachment\+Url\+Download\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Get\+Download\+Attachment\+By\+Id\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a736f824ec76f480fbe21a5c29838111f}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a736f824ec76f480fbe21a5c29838111f}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!RemoveDocumentAsync@{RemoveDocumentAsync}}
+\index{RemoveDocumentAsync@{RemoveDocumentAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{RemoveDocumentAsync()}{RemoveDocumentAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Remove\+Document\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{document\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a0a02db34bb622c493dd0cb056a140e0c}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a0a02db34bb622c493dd0cb056a140e0c}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!UpdateDocumentAsync@{UpdateDocumentAsync}}
+\index{UpdateDocumentAsync@{UpdateDocumentAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{UpdateDocumentAsync()}{UpdateDocumentAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ bool, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Update\+Document\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_document_contract}{Document\+Contract}} $>$}]{documents }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a5ea3cd28de90c9e70cd4af6b8a765b4c}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_document_provider_service_a5ea3cd28de90c9e70cd4af6b8a765b4c}} 
+\index{ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}!UploadAttachemntAsync@{UploadAttachemntAsync}}
+\index{UploadAttachemntAsync@{UploadAttachemntAsync}!ICE.SDKtoAPI.Providers.DocumentProviderService@{ICE.SDKtoAPI.Providers.DocumentProviderService}}
+\doxysubsubsection{\texorpdfstring{UploadAttachemntAsync()}{UploadAttachemntAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Document\+Provider\+Service.\+Upload\+Attachemnt\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{lock\+Id,  }\item[{Memory\+Stream}]{stream,  }\item[{string}]{file\+Name,  }\item[{string}]{file\+Type,  }\item[{string}]{title }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Development\+\_\+2020/\+ICE.\+SDKto\+API/\+ICE.\+SDKto\+API/\+Providers/\mbox{\hyperlink{_document_provider_service_8cs}{Document\+Provider\+Service.\+cs}}\end{DoxyCompactItemize}

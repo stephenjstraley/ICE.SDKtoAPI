@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Extensions::Extensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a77337067c77538de39436466dedb8adc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ICE.SDKtoAPI.Extensions.Extensions.ToStringNullSafe</definition>
+        <argsstring>(this object value)</argsstring>
+        <name>ToStringNullSafe</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.ToStringNullSafe</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="11" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a698c25e875b2ce21c75762a1995bb289" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ICE.SDKtoAPI.Extensions.Extensions.ToStringNullSafe</definition>
+        <argsstring>(this object value, int places)</argsstring>
+        <name>ToStringNullSafe</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.ToStringNullSafe</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>places</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="12" column="30" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" bodystart="12" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a54cd39e0ae0562e2b1732a85a9a20b19" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>? DateTime</type>
+        <definition>static ? DateTime ICE.SDKtoAPI.Extensions.Extensions.ToDate</definition>
+        <argsstring>(this object value)</argsstring>
+        <name>ToDate</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.ToDate</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="31" column="32" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a8d4ebb6255cc8354538a18e98e8d1e6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ICE.SDKtoAPI.Extensions.Extensions.IsYes</definition>
+        <argsstring>(this object value)</argsstring>
+        <name>IsYes</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.IsYes</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="36" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a08c87742e1213cf5c3b50c94c02bbeba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ICE.SDKtoAPI.Extensions.Extensions.IsNo</definition>
+        <argsstring>(this object value)</argsstring>
+        <name>IsNo</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.IsNo</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="37" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1aba0ef8272a458a1c9f7067c2f438de9c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ICE.SDKtoAPI.Extensions.Extensions.IsEmpty</definition>
+        <argsstring>(this object value)</argsstring>
+        <name>IsEmpty</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.IsEmpty</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="38" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1af71fb4399f8a013d9eef2c4695bf6281" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string ICE.SDKtoAPI.Extensions.Extensions.UnformattedValue</definition>
+        <argsstring>(this object value)</argsstring>
+        <name>UnformattedValue</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.UnformattedValue</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="39" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a55f7aa00fbda1310791fb4bc8d839c72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ICE.SDKtoAPI.Extensions.Extensions.Is</definition>
+        <argsstring>(this object value, string compare)</argsstring>
+        <name>Is</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.Is</qualifiedname>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>compare</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="40" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a33cab004049b6c51b0534904c7602033" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ICE.SDKtoAPI.Extensions.Extensions.ReceiveJson&lt; T &gt;</definition>
+        <argsstring>(this HttpResponseMessage resp)</argsstring>
+        <name>ReceiveJson&lt; T &gt;</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.ReceiveJson&lt; T &gt;</qualifiedname>
+        <param>
+          <type>this HttpResponseMessage</type>
+          <declname>resp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="41" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" bodystart="41" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a6ca7183915724f6a1eec2efb13e17350" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringBuilder</type>
+        <definition>static StringBuilder ICE.SDKtoAPI.Extensions.Extensions.AppendEnd</definition>
+        <argsstring>(this StringBuilder s, object item1, object item2)</argsstring>
+        <name>AppendEnd</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.AppendEnd</qualifiedname>
+        <param>
+          <type>this StringBuilder</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="53" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a9007589282ebe6dcb9709e8fc838b7d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringBuilder</type>
+        <definition>static StringBuilder ICE.SDKtoAPI.Extensions.Extensions.AppendEnd</definition>
+        <argsstring>(this StringBuilder s, object item)</argsstring>
+        <name>AppendEnd</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.AppendEnd</qualifiedname>
+        <param>
+          <type>this StringBuilder</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="54" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1abd22d08e4f3d29635d60a9c1699e569b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringBuilder</type>
+        <definition>static StringBuilder ICE.SDKtoAPI.Extensions.Extensions.StartClass</definition>
+        <argsstring>(this StringBuilder s, string className)</argsstring>
+        <name>StartClass</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.StartClass</qualifiedname>
+        <param>
+          <type>this StringBuilder</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>className</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="55" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a77b4a941f90303a9eab7145dc6bd1c60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>StringBuilder</type>
+        <definition>static StringBuilder ICE.SDKtoAPI.Extensions.Extensions.EndClass</definition>
+        <argsstring>(this StringBuilder s)</argsstring>
+        <name>EndClass</name>
+        <qualifiedname>ICE.SDKtoAPI.Extensions.Extensions.EndClass</qualifiedname>
+        <param>
+          <type>this StringBuilder</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="56" column="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" line="9" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Extensions/Extensions.cs" bodystart="10" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a6ca7183915724f6a1eec2efb13e17350" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>AppendEnd</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a9007589282ebe6dcb9709e8fc838b7d7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>AppendEnd</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a77b4a941f90303a9eab7145dc6bd1c60" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>EndClass</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a55f7aa00fbda1310791fb4bc8d839c72" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>Is</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1aba0ef8272a458a1c9f7067c2f438de9c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>IsEmpty</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a08c87742e1213cf5c3b50c94c02bbeba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>IsNo</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a8d4ebb6255cc8354538a18e98e8d1e6e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>IsYes</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a33cab004049b6c51b0534904c7602033" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>ReceiveJson&lt; T &gt;</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1abd22d08e4f3d29635d60a9c1699e569b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>StartClass</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a54cd39e0ae0562e2b1732a85a9a20b19" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>ToDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a77337067c77538de39436466dedb8adc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>ToStringNullSafe</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1a698c25e875b2ce21c75762a1995bb289" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>ToStringNullSafe</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_extensions_1_1_extensions_1af71fb4399f8a013d9eef2c4695bf6281" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Extensions::Extensions</scope><name>UnformattedValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

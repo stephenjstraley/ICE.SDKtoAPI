@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::LenderApiResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a34f2ad316f01b3e95f02dc7d0a58d1da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.Contracts.LenderApiResponse.IsSuccess</definition>
+        <argsstring></argsstring>
+        <name>IsSuccess</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.IsSuccess</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="10" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a666b1ca4c38704734e63c3463b2b5c49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LenderApiResponse.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.Message</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="11" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1adbe1d3e5dae7e986d52ec7a036f069d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LenderApiResponse.ErrorMessage</definition>
+        <argsstring></argsstring>
+        <name>ErrorMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.ErrorMessage</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a6f4bc38896c9a0e2d45889f1863ea083" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>HttpStatusCode</type>
+        <definition>HttpStatusCode ICE.SDKtoAPI.Contracts.LenderApiResponse.StatusCode</definition>
+        <argsstring></argsstring>
+        <name>StatusCode</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.StatusCode</qualifiedname>
+        <initializer>= HttpStatusCode.OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="13" column="31" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1ac6f339ab3d03bbe09fe487b8bc726ad8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LenderApiResponse.ExtraInfo</definition>
+        <argsstring></argsstring>
+        <name>ExtraInfo</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.ExtraInfo</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="14" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1aa11bff2477c7ba30b992a890c1775b57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LenderApiResponse.Url</definition>
+        <argsstring></argsstring>
+        <name>Url</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.Url</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="15" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a219aaef1a53b64e04c88a008b9a7f03f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LenderApiResponse.Query</definition>
+        <argsstring></argsstring>
+        <name>Query</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.Query</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="16" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1af21d0c583011f795b3c04c0c6a301d5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>HttpResponseHeaders</type>
+        <definition>HttpResponseHeaders ICE.SDKtoAPI.Contracts.LenderApiResponse.Headers</definition>
+        <argsstring></argsstring>
+        <name>Headers</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.Headers</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="17" column="36" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1ab554cac5995c6e2fb6566a804a3e97c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LenderApiResponse.ResponseContext</definition>
+        <argsstring></argsstring>
+        <name>ResponseContext</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.ResponseContext</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="30" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1ab807b392b9f38d164aff19a1df3b3292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LenderApiResponse.GetHeaderValue</definition>
+        <argsstring>(string header)</argsstring>
+        <name>GetHeaderValue</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LenderApiResponse.GetHeaderValue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="18" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="18" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" line="8" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LenderApiResponse.cs" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1adbe1d3e5dae7e986d52ec7a036f069d9" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>ErrorMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1ac6f339ab3d03bbe09fe487b8bc726ad8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>ExtraInfo</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1ab807b392b9f38d164aff19a1df3b3292" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>GetHeaderValue</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1af21d0c583011f795b3c04c0c6a301d5d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>Headers</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a34f2ad316f01b3e95f02dc7d0a58d1da" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>IsSuccess</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a666b1ca4c38704734e63c3463b2b5c49" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>Message</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a219aaef1a53b64e04c88a008b9a7f03f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>Query</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1ab554cac5995c6e2fb6566a804a3e97c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>ResponseContext</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1a6f4bc38896c9a0e2d45889f1863ea083" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>StatusCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response_1aa11bff2477c7ba30b992a890c1775b57" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LenderApiResponse</scope><name>Url</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

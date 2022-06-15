@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::LoanTemplateSet</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1a247af1767bd435b0441ff60bcf40d4f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LoanTemplateSet.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanTemplateSet.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" line="7" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1ac0daedb49957b0298023b33ece03d522" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.LoanTemplateSet.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanTemplateSet.Path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" line="8" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1acd0dfe4f302d7d1a7062958e2e906865" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref" kindref="compound">TemplateEntityRef</ref></type>
+        <definition>TemplateEntityRef ICE.SDKtoAPI.Contracts.LoanTemplateSet.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanTemplateSet.Parent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" line="9" column="34" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1a40ad5773c5875608db4cac7f8e8387dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_template_entity_ref" kindref="compound">TemplateEntityRef</ref> &gt;</type>
+        <definition>List&lt;TemplateEntityRef&gt; ICE.SDKtoAPI.Contracts.LoanTemplateSet.Contents</definition>
+        <argsstring></argsstring>
+        <name>Contents</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.LoanTemplateSet.Contents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" line="10" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" line="5" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/LoanTemplateSet.cs" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1a40ad5773c5875608db4cac7f8e8387dc" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanTemplateSet</scope><name>Contents</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1a247af1767bd435b0441ff60bcf40d4f2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanTemplateSet</scope><name>Name</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1acd0dfe4f302d7d1a7062958e2e906865" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanTemplateSet</scope><name>Parent</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_loan_template_set_1ac0daedb49957b0298023b33ece03d522" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::LoanTemplateSet</scope><name>Path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eULDD_X71</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71_1ac78152a8333114d5cf574c2361d58df4" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X71.InvestorDefinedMultipleLender</definition>
+        <argsstring></argsstring>
+        <name>InvestorDefinedMultipleLender</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X71.InvestorDefinedMultipleLender</qualifiedname>
+        <initializer>= &quot;InvestorDefinedMultipleLender&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30440" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71_1a132eda2dadd8e200c0f4290e1c0c0f70" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X71.LenderInitiatedMultipleLender</definition>
+        <argsstring></argsstring>
+        <name>LenderInitiatedMultipleLender</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X71.LenderInitiatedMultipleLender</qualifiedname>
+        <initializer>= &quot;LenderInitiatedMultipleLender&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30441" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71_1a47e28b62e14230db35c8e03a510eda26" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eULDD_X71.SingleLender</definition>
+        <argsstring></argsstring>
+        <name>SingleLender</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eULDD_X71.SingleLender</qualifiedname>
+        <initializer>= &quot;SingleLender&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30442" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30442" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eULDD_X71</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>InvestorDefinedMultipleLender</edgelabel>
+          <edgelabel>LenderInitiatedMultipleLender</edgelabel>
+          <edgelabel>SingleLender</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30438" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30439" bodyend="30443"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71_1ac78152a8333114d5cf574c2361d58df4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X71</scope><name>InvestorDefinedMultipleLender</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71_1a132eda2dadd8e200c0f4290e1c0c0f70" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X71</scope><name>LenderInitiatedMultipleLender</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_l_d_d___x71_1a47e28b62e14230db35c8e03a510eda26" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eULDD_X71</scope><name>SingleLender</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

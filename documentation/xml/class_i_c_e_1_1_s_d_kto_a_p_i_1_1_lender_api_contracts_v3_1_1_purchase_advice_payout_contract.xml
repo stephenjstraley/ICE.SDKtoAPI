@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::PurchaseAdvicePayoutContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1af119228befbb00280a75ca5d72a19168" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.PurchaseAdvicePayoutIndex</definition>
+        <argsstring></argsstring>
+        <name>PurchaseAdvicePayoutIndex</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.PurchaseAdvicePayoutIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" line="10" column="20" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1adc1c4d8492bc4948dbb597e82c908ee2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.Amount</definition>
+        <argsstring></argsstring>
+        <name>Amount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.Amount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" line="13" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1a3786393f955fa9cf460f83cc9eed65a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" line="16" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1af55bd0f9f5c87dbf799050aa1cfc69f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.DiffAmount</definition>
+        <argsstring></argsstring>
+        <name>DiffAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.DiffAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" line="19" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1ad4d3eae8af34d77fbe2862bd2e58231b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal?</type>
+        <definition>decimal? ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.ExpectedAmount</definition>
+        <argsstring></argsstring>
+        <name>ExpectedAmount</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.PurchaseAdvicePayoutContract.ExpectedAmount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" line="22" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/PurchaseAdvicePayoutContract.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1adc1c4d8492bc4948dbb597e82c908ee2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PurchaseAdvicePayoutContract</scope><name>Amount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1a3786393f955fa9cf460f83cc9eed65a6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PurchaseAdvicePayoutContract</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1af55bd0f9f5c87dbf799050aa1cfc69f0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PurchaseAdvicePayoutContract</scope><name>DiffAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1ad4d3eae8af34d77fbe2862bd2e58231b" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PurchaseAdvicePayoutContract</scope><name>ExpectedAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_purchase_advice_payout_contract_1af119228befbb00280a75ca5d72a19168" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::PurchaseAdvicePayoutContract</scope><name>PurchaseAdvicePayoutIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

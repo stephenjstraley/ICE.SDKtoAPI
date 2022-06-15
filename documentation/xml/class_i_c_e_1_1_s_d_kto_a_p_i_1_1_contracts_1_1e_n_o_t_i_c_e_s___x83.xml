@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x83" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eNOTICES_X83</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x83_1aaf44a183c7f96738133baf6262863caa" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X83.Wedonotsharepersonalinformationwithnonaffiliatedthirdparties</definition>
+        <argsstring></argsstring>
+        <name>Wedonotsharepersonalinformationwithnonaffiliatedthirdparties</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X83.Wedonotsharepersonalinformationwithnonaffiliatedthirdparties</qualifiedname>
+        <initializer>= &quot;We do not share personal information with nonaffiliated third parties&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22384" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x83_1a513a7ec18a5f0ca8f86ab5abd69204c8" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eNOTICES_X83.Wesharepersonalinformationwithnonaffiliatedthirdparties</definition>
+        <argsstring></argsstring>
+        <name>Wesharepersonalinformationwithnonaffiliatedthirdparties</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eNOTICES_X83.Wesharepersonalinformationwithnonaffiliatedthirdparties</qualifiedname>
+        <initializer>= &quot;We share personal information with nonaffiliated third parties&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22385" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22385" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eNOTICES_X83</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x83"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Wedonotsharepersonalinformationwithnonaffiliatedthirdparties</edgelabel>
+          <edgelabel>Wesharepersonalinformationwithnonaffiliatedthirdparties</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="22382" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="22383" bodyend="22386"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x83_1aaf44a183c7f96738133baf6262863caa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X83</scope><name>Wedonotsharepersonalinformationwithnonaffiliatedthirdparties</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_n_o_t_i_c_e_s___x83_1a513a7ec18a5f0ca8f86ab5abd69204c8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eNOTICES_X83</scope><name>Wesharepersonalinformationwithnonaffiliatedthirdparties</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

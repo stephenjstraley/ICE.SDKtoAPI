@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::FileAttachmentDownloadType</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1a2fb693bcc8333dd3d68035d837cfe09c" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Native</definition>
+        <argsstring></argsstring>
+        <name>Native</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Native</qualifiedname>
+        <initializer>= &quot;Native&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="35" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1a7a05ae1a9627b7e6ca8a6deb9daacf8f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Image</definition>
+        <argsstring></argsstring>
+        <name>Image</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Image</qualifiedname>
+        <initializer>= &quot;Image&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="36" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1abcde9418f333e570358b2c2ee7b85093" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Background</definition>
+        <argsstring></argsstring>
+        <name>Background</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Background</qualifiedname>
+        <initializer>= &quot;Background&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="37" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1a7e8c1c092ab5df9e9de67ed016c10ffd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Cloud</definition>
+        <argsstring></argsstring>
+        <name>Cloud</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType.Cloud</qualifiedname>
+        <initializer>= &quot;Cloud&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="38" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.FileAttachmentDownloadType</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Background</edgelabel>
+          <edgelabel>Cloud</edgelabel>
+          <edgelabel>Image</edgelabel>
+          <edgelabel>Native</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" line="33" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/FileAttachmentContentTypeCloud.cs" bodystart="34" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1abcde9418f333e570358b2c2ee7b85093" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentDownloadType</scope><name>Background</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1a7e8c1c092ab5df9e9de67ed016c10ffd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentDownloadType</scope><name>Cloud</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1a7a05ae1a9627b7e6ca8a6deb9daacf8f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentDownloadType</scope><name>Image</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_file_attachment_download_type_1a2fb693bcc8333dd3d68035d837cfe09c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::FileAttachmentDownloadType</scope><name>Native</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

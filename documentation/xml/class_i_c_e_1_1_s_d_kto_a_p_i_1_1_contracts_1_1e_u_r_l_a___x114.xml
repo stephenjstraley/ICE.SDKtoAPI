@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eURLA_X114</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1a572ca1fa1c6526a7fad80b2df6fecb0d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X114.CivilUnion</definition>
+        <argsstring></argsstring>
+        <name>CivilUnion</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X114.CivilUnion</qualifiedname>
+        <initializer>= &quot;CivilUnion&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30630" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30630" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1abbfcf8fc24c150ba23a17ae614d90911" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X114.DomesticPartnership</definition>
+        <argsstring></argsstring>
+        <name>DomesticPartnership</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X114.DomesticPartnership</qualifiedname>
+        <initializer>= &quot;DomesticPartnership&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30631" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1a83dadbdf66c3e31baf3275748f352073" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X114.Other</definition>
+        <argsstring></argsstring>
+        <name>Other</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X114.Other</qualifiedname>
+        <initializer>= &quot;Other&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30632" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1a52c330de601b217c24c106e1d47dd4e6" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eURLA_X114.RegisteredReciprocalBeneficiaryRelationship</definition>
+        <argsstring></argsstring>
+        <name>RegisteredReciprocalBeneficiaryRelationship</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eURLA_X114.RegisteredReciprocalBeneficiaryRelationship</qualifiedname>
+        <initializer>= &quot;RegisteredReciprocalBeneficiaryRelationship&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30633" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30633" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eURLA_X114</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CivilUnion</edgelabel>
+          <edgelabel>DomesticPartnership</edgelabel>
+          <edgelabel>Other</edgelabel>
+          <edgelabel>RegisteredReciprocalBeneficiaryRelationship</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="30628" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="30629" bodyend="30634"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1a572ca1fa1c6526a7fad80b2df6fecb0d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X114</scope><name>CivilUnion</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1abbfcf8fc24c150ba23a17ae614d90911" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X114</scope><name>DomesticPartnership</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1a83dadbdf66c3e31baf3275748f352073" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X114</scope><name>Other</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_u_r_l_a___x114_1a52c330de601b217c24c106e1d47dd4e6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eURLA_X114</scope><name>RegisteredReciprocalBeneficiaryRelationship</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

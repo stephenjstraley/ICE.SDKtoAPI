@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3831" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e3831</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3831_1afe68ff2dc0282fddc4f60fd448d9ea65" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3831.ServiceRetained</definition>
+        <argsstring></argsstring>
+        <name>ServiceRetained</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3831.ServiceRetained</qualifiedname>
+        <initializer>= &quot;Service Retained&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2448" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3831_1a565e517a20eb22a689f570041f36a883" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e3831.ServiceReleased</definition>
+        <argsstring></argsstring>
+        <name>ServiceReleased</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e3831.ServiceReleased</qualifiedname>
+        <initializer>= &quot;Service Released&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2449" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2449" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e3831</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3831"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ServiceReleased</edgelabel>
+          <edgelabel>ServiceRetained</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="2446" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="2447" bodyend="2450"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3831_1a565e517a20eb22a689f570041f36a883" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3831</scope><name>ServiceReleased</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e3831_1afe68ff2dc0282fddc4f60fd448d9ea65" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e3831</scope><name>ServiceRetained</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

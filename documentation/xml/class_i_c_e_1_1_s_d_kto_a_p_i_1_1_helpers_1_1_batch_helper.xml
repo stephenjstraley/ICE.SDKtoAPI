@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_batch_helper" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Helpers::BatchHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_batch_helper_1a982fba5e93b9dacf825bd7d62c0c7686" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract" kindref="compound">LoanBatchUpdateRequestContract</ref></type>
+        <definition>static LoanBatchUpdateRequestContract ICE.SDKtoAPI.Helpers.BatchHelper.BatchUpdate</definition>
+        <argsstring>(List&lt; string &gt; guids)</argsstring>
+        <name>BatchUpdate</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.BatchHelper.BatchUpdate</qualifiedname>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>guids</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" line="10" column="54" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" bodystart="10" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_batch_helper_1a12d8a78f4b6795e69da591dad75e441f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract" kindref="compound">LoanBatchUpdateRequestContract</ref></type>
+        <definition>static LoanBatchUpdateRequestContract ICE.SDKtoAPI.Helpers.BatchHelper.BatchUpdate</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>BatchUpdate</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.BatchHelper.BatchUpdate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" line="22" column="54" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" bodystart="22" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_batch_helper_1a163712a6fed47e9e9c562bd390f33641" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ICE.SDKtoAPI.Helpers.BatchHelper.FieldsAdd</definition>
+        <argsstring>(this LoanBatchUpdateRequestContract obj, string id, object value)</argsstring>
+        <name>FieldsAdd</name>
+        <qualifiedname>ICE.SDKtoAPI.Helpers.BatchHelper.FieldsAdd</qualifiedname>
+        <param>
+          <type>this <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_batch_update_request_contract" kindref="compound">LoanBatchUpdateRequestContract</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" line="37" column="28" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" line="8" column="19" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Helpers/BatchHelper.cs" bodystart="9" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_batch_helper_1a982fba5e93b9dacf825bd7d62c0c7686" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::BatchHelper</scope><name>BatchUpdate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_batch_helper_1a12d8a78f4b6795e69da591dad75e441f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::BatchHelper</scope><name>BatchUpdate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_helpers_1_1_batch_helper_1a163712a6fed47e9e9c562bd390f33641" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Helpers::BatchHelper</scope><name>FieldsAdd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

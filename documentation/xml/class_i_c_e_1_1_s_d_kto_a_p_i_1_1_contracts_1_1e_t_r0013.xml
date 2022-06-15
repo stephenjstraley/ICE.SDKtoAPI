@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eTR0013</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013_1a4a6eccbfcf268012bf66436e4e70e44d" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTR0013.PrimaryResidence</definition>
+        <argsstring></argsstring>
+        <name>PrimaryResidence</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTR0013.PrimaryResidence</qualifiedname>
+        <initializer>= &quot;PrimaryResidence&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29045" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29045" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013_1ac2ee5da3135bda002f895071a463b7fd" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTR0013.SecondHome</definition>
+        <argsstring></argsstring>
+        <name>SecondHome</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTR0013.SecondHome</qualifiedname>
+        <initializer>= &quot;SecondHome&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29046" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29046" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013_1a8b3f3b0e073b4df121123398f529d559" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eTR0013.Investor</definition>
+        <argsstring></argsstring>
+        <name>Investor</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eTR0013.Investor</qualifiedname>
+        <initializer>= &quot;Investor&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29047" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29047" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eTR0013</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Investor</edgelabel>
+          <edgelabel>PrimaryResidence</edgelabel>
+          <edgelabel>SecondHome</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="29043" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="29044" bodyend="29048"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013_1a8b3f3b0e073b4df121123398f529d559" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTR0013</scope><name>Investor</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013_1a4a6eccbfcf268012bf66436e4e70e44d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTR0013</scope><name>PrimaryResidence</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_t_r0013_1ac2ee5da3135bda002f895071a463b7fd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eTR0013</scope><name>SecondHome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

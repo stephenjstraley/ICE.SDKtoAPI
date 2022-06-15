@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::OrgInformationContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1a683ecd87c1cd0705dfd65db6e4b6ee83" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.UseParentInformation</definition>
+        <argsstring></argsstring>
+        <name>UseParentInformation</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.UseParentInformation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="25" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1af8ae8fd643e1f59da3d6bf1891072569" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="26" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1a590e194d28663ddeed14259e26d47516" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_address_contract" kindref="compound">OrgAddressContract</ref></type>
+        <definition>OrgAddressContract ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.Address</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="27" column="35" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1a16f6bb815b5cd5e5c5a94c515c829328" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.Phone</definition>
+        <argsstring></argsstring>
+        <name>Phone</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.OrgInformationContract.Phone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="28" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" line="23" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/OrganizationContract.cs" bodystart="24" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1a590e194d28663ddeed14259e26d47516" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::OrgInformationContract</scope><name>Address</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1af8ae8fd643e1f59da3d6bf1891072569" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::OrgInformationContract</scope><name>Name</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1a16f6bb815b5cd5e5c5a94c515c829328" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::OrgInformationContract</scope><name>Phone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_org_information_contract_1a683ecd87c1cd0705dfd65db6e4b6ee83" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::OrgInformationContract</scope><name>UseParentInformation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

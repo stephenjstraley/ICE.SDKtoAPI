@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV1::MoveLoansContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract_1a6f1311e4a3d401e51102d3cb29fcfdcd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.LenderApiContractsV1.MoveLoansContract.Access</definition>
+        <argsstring></argsstring>
+        <name>Access</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MoveLoansContract.Access</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="149" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract_1ad97bace4749a85c4554e1227ec851aa3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MoveLoansContract.MoveFrom</definition>
+        <argsstring></argsstring>
+        <name>MoveFrom</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MoveLoansContract.MoveFrom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="150" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract_1a5b9f87c6e1be2f99f32153b45d96e12a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract" kindref="compound">EntityRefContract</ref> &gt;</type>
+        <definition>List&lt;EntityRefContract&gt; ICE.SDKtoAPI.LenderApiContractsV1.MoveLoansContract.MoveTo</definition>
+        <argsstring></argsstring>
+        <name>MoveTo</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV1.MoveLoansContract.MoveTo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="151" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="151" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" line="147" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV1/PersonaContract.cs" bodystart="148" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract_1a6f1311e4a3d401e51102d3cb29fcfdcd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MoveLoansContract</scope><name>Access</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract_1ad97bace4749a85c4554e1227ec851aa3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MoveLoansContract</scope><name>MoveFrom</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_move_loans_contract_1a5b9f87c6e1be2f99f32153b45d96e12a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV1::MoveLoansContract</scope><name>MoveTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

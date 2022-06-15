@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::APISchema</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1ad89548c8d392988b0764f82f87a75568" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.APISchema.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.Key</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="9" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a7c177a845734c8eb4beb7e0c77afba47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.APISchema.Meta</definition>
+        <argsstring></argsstring>
+        <name>Meta</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.Meta</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="10" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a27096d61ea148ee17faa26d87354cef1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.Contracts.APISchema.ReadOnly</definition>
+        <argsstring></argsstring>
+        <name>ReadOnly</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.ReadOnly</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="11" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a1d9ee9b2e242b13116261834dff5c1f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.APISchema.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.Type</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a8268dd67f5c9a8e11ce182f77a3ae4e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.Contracts.APISchema.Nullable</definition>
+        <argsstring></argsstring>
+        <name>Nullable</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.Nullable</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="13" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a7ed931789d808b5a868d790c3e50f476" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.APISchema.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.Description</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="14" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1afa212511f287e1a880472da965f10886" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ICE.SDKtoAPI.Contracts.APISchema.LockedField</definition>
+        <argsstring></argsstring>
+        <name>LockedField</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.LockedField</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="15" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a83e57e1e1bcec8e02cd9201cab333d3d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.APISchema.ENum</definition>
+        <argsstring></argsstring>
+        <name>ENum</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.ENum</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="16" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a89f1e341c4bd3954e663803350d81100" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.APISchema.Format</definition>
+        <argsstring></argsstring>
+        <name>Format</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.APISchema.Format</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="17" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" line="7" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/APISchema.cs" bodystart="8" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a7ed931789d808b5a868d790c3e50f476" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>Description</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a83e57e1e1bcec8e02cd9201cab333d3d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>ENum</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a89f1e341c4bd3954e663803350d81100" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>Format</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1ad89548c8d392988b0764f82f87a75568" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>Key</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1afa212511f287e1a880472da965f10886" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>LockedField</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a7c177a845734c8eb4beb7e0c77afba47" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>Meta</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a8268dd67f5c9a8e11ce182f77a3ae4e4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>Nullable</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a27096d61ea148ee17faa26d87354cef1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>ReadOnly</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_a_p_i_schema_1a1d9ee9b2e242b13116261834dff5c1f4" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::APISchema</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

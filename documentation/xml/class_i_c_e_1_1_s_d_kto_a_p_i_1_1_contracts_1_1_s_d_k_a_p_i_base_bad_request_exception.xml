@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error" prot="public" virt="non-virtual">ICE.SDKtoAPI.Contracts.SDKAPIBaseError</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1a153293781c23d9e8d9dffbbf3d359528" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.RootRequest</definition>
+        <argsstring></argsstring>
+        <name>RootRequest</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.RootRequest</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="31" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1aeb16281d5527c0fdb97f25545036038e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.Summary</definition>
+        <argsstring></argsstring>
+        <name>Summary</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.Summary</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="32" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1a0299a09858d210033c307bebdd610104" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.Details</definition>
+        <argsstring></argsstring>
+        <name>Details</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.Details</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="33" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1a7de956d4d542ee28cd5a52bdb0ecc9b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.SDKAPIBaseBadRequestException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SDKAPIBaseBadRequestException</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.SDKAPIBaseBadRequestException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="34" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1abbf7961dd91c815050d872bb59e21cff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.SDKAPIBaseBadRequestException</definition>
+        <argsstring>(string message, Exception inner)</argsstring>
+        <name>SDKAPIBaseBadRequestException</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.SDKAPIBaseBadRequestException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>inner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="38" column="16" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1afbd7979bbd6ee3b36aafb13bd543f0b0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.ParseMessage</definition>
+        <argsstring>(string msg)</argsstring>
+        <name>ParseMessage</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException.ParseMessage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="42" column="24" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="42" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SDKAPIBaseError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>ApplicationException</label>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.SDKAPIBaseBadRequestException</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SDKAPIBaseError</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" line="29" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseExceptions.cs" bodystart="30" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1a0299a09858d210033c307bebdd610104" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>Details</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a7b8c383935aeb47b6eaab5d4025a2067" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>LoanId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a96d414d78a0da2455acacb3d87ebf792" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>LoanNumber</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1afbd7979bbd6ee3b36aafb13bd543f0b0" prot="protected" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>ParseMessage</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1a153293781c23d9e8d9dffbbf3d359528" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>RootRequest</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1a7de956d4d542ee28cd5a52bdb0ecc9b5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>SDKAPIBaseBadRequestException</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1abbf7961dd91c815050d872bb59e21cff" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>SDKAPIBaseBadRequestException</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1ac9f6bcb71b535d252df70a5a301846fa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>SDKAPIBaseError</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_error_1a356bc605647568da48e756fff0ad914a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>SDKAPIBaseError</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_s_d_k_a_p_i_base_bad_request_exception_1aeb16281d5527c0fdb97f25545036038e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::SDKAPIBaseBadRequestException</scope><name>Summary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

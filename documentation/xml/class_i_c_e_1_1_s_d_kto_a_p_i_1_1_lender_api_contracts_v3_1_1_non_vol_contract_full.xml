@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.NonVolContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_full_1ae4e75476307c0180e808d0cd6784a6ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.NonVolContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.NonVolContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/NonVolContract.cs" line="46" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/NonVolContract.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.NonVolContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>NonVolContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.NonVolContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>NonVolContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/NonVolContract.cs" line="43" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/NonVolContract.cs" bodystart="44" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1aebe479ac4f2e4908a7917b35baf028e1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>AdjustmentAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1a5ceef7ead79fcbd6ac81b80c737d07f1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>AdjustmentDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1a54a9b4ca2fb6b1f35684c2d24d54a846" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>AdjustmentOtherDescription</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1ab82f51bcb738238f38ab3016aaaeb2ed" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>AdjustmentType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_full_1ae4e75476307c0180e808d0cd6784a6ab" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1ad128eb024c410bf6bb896d55fa171b37" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1a9719d888fa06656a58a6acedd947a87e" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>IncludedIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1a7d14fe827db96a012ccfcdf4fa4cda22" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>PaidBy</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1ac4cd6e4ef585734f7c9b78b418e4b62d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>PaidTo</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1a151ff411d476af1b7c249668e7be5038" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>PocIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_non_vol_contract_1a47132e8b20a166dfdf177467ec43f7e1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::NonVolContractFull</scope><name>PrincipalCureAddendum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

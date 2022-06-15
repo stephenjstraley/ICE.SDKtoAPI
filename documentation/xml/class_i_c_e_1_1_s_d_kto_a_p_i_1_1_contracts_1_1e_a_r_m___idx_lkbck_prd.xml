@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::eARM_IdxLkbckPrd</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd_1a96f2fe230446ee407bd8a56fda64ed84" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eARM_IdxLkbckPrd._30days</definition>
+        <argsstring></argsstring>
+        <name>_30days</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eARM_IdxLkbckPrd._30days</qualifiedname>
+        <initializer>= &quot;30 days&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3950" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3950" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd_1ab85b1cec19ab199976ac5115dd3555c7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eARM_IdxLkbckPrd._45days</definition>
+        <argsstring></argsstring>
+        <name>_45days</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eARM_IdxLkbckPrd._45days</qualifiedname>
+        <initializer>= &quot;45 days&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3951" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3951" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd_1a2232dc585d4e35e06f66f70204fc372f" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.eARM_IdxLkbckPrd.FirstBusinessDay</definition>
+        <argsstring></argsstring>
+        <name>FirstBusinessDay</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.eARM_IdxLkbckPrd.FirstBusinessDay</qualifiedname>
+        <initializer>= &quot;First Business Day&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3952" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3952" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.eARM_IdxLkbckPrd</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>FirstBusinessDay</edgelabel>
+          <edgelabel>_30days</edgelabel>
+          <edgelabel>_45days</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="3948" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="3949" bodyend="3953"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd_1a96f2fe230446ee407bd8a56fda64ed84" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eARM_IdxLkbckPrd</scope><name>_30days</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd_1ab85b1cec19ab199976ac5115dd3555c7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eARM_IdxLkbckPrd</scope><name>_45days</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e_a_r_m___idx_lkbck_prd_1a2232dc585d4e35e06f66f70204fc372f" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::eARM_IdxLkbckPrd</scope><name>FirstBusinessDay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

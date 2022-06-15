@@ -1,0 +1,125 @@
+\hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service}{}\doxysection{ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service Class Reference}
+\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service}\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+
+
+Inherits \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service}{ICE.\+SDKto\+API.\+Providers.\+Base\+Provider\+Service}}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a1dee2e01f0a9375324dbbab4b8aa7e87}{Setting\+Provider\+Service}} (\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}} token)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_contract}{User\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a73a792ede4355780d915136bb1349354}{Get\+Users\+Async}} (int limit=10000)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_contract}{User\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_ad74a727901a4925b201133a256d44142}{Get\+User\+Async}} (string id)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_profile_contract}{User\+Profile\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a0bffb7cb207684728b1902f89a68ea35}{Get\+User\+Profile\+Async}} (string user\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_groups_contract}{User\+Groups\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a75f14a4be2de450d6d995ece71096f4d}{Get\+User\+Groups\+Async}} (string user\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_compensation_plan_contract}{User\+Compensation\+Plan\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a913cf30d9d9148abbc03cfafbd3f69de}{Get\+User\+Compensation\+Plans\+Async}} (string user\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_license_contract}{User\+License\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a55940e377ff90186ffed7b9bd0da1aeb}{Get\+Licenses\+Async}} (string user\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ object $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a5f184bd115772baa859ba5495c706a52}{Get\+User\+Assigned\+Rights\+Async}} (string user\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ object $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_afb401c8df81e38ea48e26186eec5fb49}{Get\+User\+Effective\+Rights\+Async}} (string user\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract}{Entity\+Ref\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a8c63ffc98d412d06dd1b41f51b576835}{Get\+User\+Eligible\+Roles\+Async}} (string user\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_persona_contract}{Persona\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_ac389be856c50b1f15906977ef061595f}{Get\+Personas\+Async}} ()
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_persona_contract}{Persona\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a14bf85fe51e0ee733552b90c5517c274}{Get\+Persona\+Async}} (string id)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_persona_contract}{Persona\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_abf2e0475f3be9bb63f34faaa456f9b2a}{Get\+Persona\+Categories\+Async}} (string id, string cats)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a1dee2e01f0a9375324dbbab4b8aa7e87}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a1dee2e01f0a9375324dbbab4b8aa7e87}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!SettingProviderService@{SettingProviderService}}
+\index{SettingProviderService@{SettingProviderService}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{SettingProviderService()}{SettingProviderService()}}
+{\footnotesize\ttfamily ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Setting\+Provider\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}}}]{token }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a55940e377ff90186ffed7b9bd0da1aeb}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a55940e377ff90186ffed7b9bd0da1aeb}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetLicensesAsync@{GetLicensesAsync}}
+\index{GetLicensesAsync@{GetLicensesAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetLicensesAsync()}{GetLicensesAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_license_contract}{User\+License\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+Licenses\+Async (\begin{DoxyParamCaption}\item[{string}]{user\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a14bf85fe51e0ee733552b90c5517c274}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a14bf85fe51e0ee733552b90c5517c274}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetPersonaAsync@{GetPersonaAsync}}
+\index{GetPersonaAsync@{GetPersonaAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetPersonaAsync()}{GetPersonaAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_persona_contract}{Persona\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+Persona\+Async (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_abf2e0475f3be9bb63f34faaa456f9b2a}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_abf2e0475f3be9bb63f34faaa456f9b2a}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetPersonaCategoriesAsync@{GetPersonaCategoriesAsync}}
+\index{GetPersonaCategoriesAsync@{GetPersonaCategoriesAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetPersonaCategoriesAsync()}{GetPersonaCategoriesAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_persona_contract}{Persona\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+Persona\+Categories\+Async (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{string}]{cats }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_ac389be856c50b1f15906977ef061595f}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_ac389be856c50b1f15906977ef061595f}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetPersonasAsync@{GetPersonasAsync}}
+\index{GetPersonasAsync@{GetPersonasAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetPersonasAsync()}{GetPersonasAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_persona_contract}{Persona\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+Personas\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a5f184bd115772baa859ba5495c706a52}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a5f184bd115772baa859ba5495c706a52}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUserAssignedRightsAsync@{GetUserAssignedRightsAsync}}
+\index{GetUserAssignedRightsAsync@{GetUserAssignedRightsAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUserAssignedRightsAsync()}{GetUserAssignedRightsAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ object $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+User\+Assigned\+Rights\+Async (\begin{DoxyParamCaption}\item[{string}]{user\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_ad74a727901a4925b201133a256d44142}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_ad74a727901a4925b201133a256d44142}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUserAsync@{GetUserAsync}}
+\index{GetUserAsync@{GetUserAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUserAsync()}{GetUserAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_contract}{User\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+User\+Async (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a913cf30d9d9148abbc03cfafbd3f69de}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a913cf30d9d9148abbc03cfafbd3f69de}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUserCompensationPlansAsync@{GetUserCompensationPlansAsync}}
+\index{GetUserCompensationPlansAsync@{GetUserCompensationPlansAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUserCompensationPlansAsync()}{GetUserCompensationPlansAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_compensation_plan_contract}{User\+Compensation\+Plan\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+User\+Compensation\+Plans\+Async (\begin{DoxyParamCaption}\item[{string}]{user\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_afb401c8df81e38ea48e26186eec5fb49}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_afb401c8df81e38ea48e26186eec5fb49}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUserEffectiveRightsAsync@{GetUserEffectiveRightsAsync}}
+\index{GetUserEffectiveRightsAsync@{GetUserEffectiveRightsAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUserEffectiveRightsAsync()}{GetUserEffectiveRightsAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ object $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+User\+Effective\+Rights\+Async (\begin{DoxyParamCaption}\item[{string}]{user\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a8c63ffc98d412d06dd1b41f51b576835}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a8c63ffc98d412d06dd1b41f51b576835}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUserEligibleRolesAsync@{GetUserEligibleRolesAsync}}
+\index{GetUserEligibleRolesAsync@{GetUserEligibleRolesAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUserEligibleRolesAsync()}{GetUserEligibleRolesAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_entity_ref_contract}{Entity\+Ref\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+User\+Eligible\+Roles\+Async (\begin{DoxyParamCaption}\item[{string}]{user\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a75f14a4be2de450d6d995ece71096f4d}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a75f14a4be2de450d6d995ece71096f4d}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUserGroupsAsync@{GetUserGroupsAsync}}
+\index{GetUserGroupsAsync@{GetUserGroupsAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUserGroupsAsync()}{GetUserGroupsAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_groups_contract}{User\+Groups\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+User\+Groups\+Async (\begin{DoxyParamCaption}\item[{string}]{user\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a0bffb7cb207684728b1902f89a68ea35}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a0bffb7cb207684728b1902f89a68ea35}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUserProfileAsync@{GetUserProfileAsync}}
+\index{GetUserProfileAsync@{GetUserProfileAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUserProfileAsync()}{GetUserProfileAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_profile_contract}{User\+Profile\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+User\+Profile\+Async (\begin{DoxyParamCaption}\item[{string}]{user\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a73a792ede4355780d915136bb1349354}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_setting_provider_service_a73a792ede4355780d915136bb1349354}} 
+\index{ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}!GetUsersAsync@{GetUsersAsync}}
+\index{GetUsersAsync@{GetUsersAsync}!ICE.SDKtoAPI.Providers.SettingProviderService@{ICE.SDKtoAPI.Providers.SettingProviderService}}
+\doxysubsubsection{\texorpdfstring{GetUsersAsync()}{GetUsersAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_user_contract}{User\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Setting\+Provider\+Service.\+Get\+Users\+Async (\begin{DoxyParamCaption}\item[{int}]{limit = {\ttfamily 10000} }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Development\+\_\+2020/\+ICE.\+SDKto\+API/\+ICE.\+SDKto\+API/\+Providers/\mbox{\hyperlink{_setting_provider_service_8cs}{Setting\+Provider\+Service.\+cs}}\end{DoxyCompactItemize}

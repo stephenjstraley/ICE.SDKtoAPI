@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::Contracts::e1067</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067_1ab37851ef5e21292190a8d939c2097854" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1067.ExistingConstruction</definition>
+        <argsstring></argsstring>
+        <name>ExistingConstruction</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1067.ExistingConstruction</qualifiedname>
+        <initializer>= &quot;ExistingConstruction&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="932" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067_1af6566a7c2407c1b55c4620a42c323b12" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1067.ProposedConstruction</definition>
+        <argsstring></argsstring>
+        <name>ProposedConstruction</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1067.ProposedConstruction</qualifiedname>
+        <initializer>= &quot;ProposedConstruction&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="933" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="933" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067_1a2cff185857ffe50af81ac8caf0fdfcb7" prot="public" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string ICE.SDKtoAPI.Contracts.e1067.NewConstruction</definition>
+        <argsstring></argsstring>
+        <name>NewConstruction</name>
+        <qualifiedname>ICE.SDKtoAPI.Contracts.e1067.NewConstruction</qualifiedname>
+        <initializer>= &quot;NewConstruction&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="934" column="39" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="934" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ICE.SDKtoAPI.Contracts.e1067</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ExistingConstruction</edgelabel>
+          <edgelabel>NewConstruction</edgelabel>
+          <edgelabel>ProposedConstruction</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" line="930" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/Contracts/SDKAPIBaseEnums.cs" bodystart="931" bodyend="935"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067_1ab37851ef5e21292190a8d939c2097854" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1067</scope><name>ExistingConstruction</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067_1a2cff185857ffe50af81ac8caf0fdfcb7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1067</scope><name>NewConstruction</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1e1067_1af6566a7c2407c1b55c4620a42c323b12" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::Contracts::e1067</scope><name>ProposedConstruction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

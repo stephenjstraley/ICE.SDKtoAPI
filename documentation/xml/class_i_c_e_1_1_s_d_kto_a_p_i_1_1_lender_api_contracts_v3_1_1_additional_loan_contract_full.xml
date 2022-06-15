@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_full" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</compoundname>
+    <basecompoundref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract" prot="public" virt="non-virtual">ICE.SDKtoAPI.LenderApiContractsV3.AdditionalLoanContract</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_full_1a21f3a9677178effe63f85f7fa6eb7466" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.AdditionalLoanContractFull.LinkedPiggybackIndicator</definition>
+        <argsstring></argsstring>
+        <name>LinkedPiggybackIndicator</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.AdditionalLoanContractFull.LinkedPiggybackIndicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AdditionalLoanContract.cs" line="117" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AdditionalLoanContract.cs" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_full_1a3023a9a853949f48c57984183cf7c170" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.AdditionalLoanContractFull.AltId</definition>
+        <argsstring></argsstring>
+        <name>AltId</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.AdditionalLoanContractFull.AltId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AdditionalLoanContract.cs" line="120" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AdditionalLoanContract.cs" bodystart="120" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AdditionalLoanContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.AdditionalLoanContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AdditionalLoanContract</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract"/>
+      </node>
+      <node id="1">
+        <label>ICE.SDKtoAPI.LenderApiContractsV3.AdditionalLoanContractFull</label>
+        <link refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_full"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AdditionalLoanContract.cs" line="114" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/AdditionalLoanContract.cs" bodystart="115" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a807526312eae743ffb82d3c6ebb145e5" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>AccountType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1ae6c8a5afdf3e86d285c31428827c2639" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>AdditionalLoanRequestDate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1acddc95b82e08f857554bfc2b47beac1c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>AffordableLoan</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_full_1a3023a9a853949f48c57984183cf7c170" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>AltId</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a72dbfa2927fdf5071552f65879a8bf1d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>AmountAppliedToDownpayment</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1aa732f0360fbdd45b66e4828e4653eee0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>Attention</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1ad62b87d6c1a04c6f72f5e005afea0fba" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>BorrowerType</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a67234b90ddf36ad6d2bd0056559e1690" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HelocCreditLimitAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1af005f60f8b16f6764983a908a285b3c2" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HelocInitialDraw</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a8ee93d1cd23acf5d30e2f716b6f91f69" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderAddressCity</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a364d1c1db93b457bf12af0284edc2817" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderAddressPostalCode</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a2f65c557405f2ef43c40dca0938dff0c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderAddressState</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a899991bdcb46e4546ac4666490fe4ffd" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderAddressStreetLine1</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a32e0f57490b931101af45dea8339c950" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderEmail</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1aa643493d8fa604cf3ad3913764c1c34a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a4ac6ed876a8084275f20bb9b505bbc02" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderName</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1adac558903dc92a5b853683acf543fcf3" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>HolderPhone</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a92b26aefbec8f993b2baaf072466e625" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>Id</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a5a9abe29b47535940910e31cbbdc1d9d" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>IndividualCreditorIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1ad7df6bd023c5347d579c852b8b99ec87" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>LienPosition</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_full_1a21f3a9677178effe63f85f7fa6eb7466" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>LinkedPiggybackIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1ad9a549ae224bc56d005e772bbdf63577" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>MaximumPiLoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a9067db1e04f003e890a3a0c67b0f3720" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>MaximumPiNoteRate</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1ae7f05d92b7d6ae6d0ba45ad9ca477837" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>MaximumPiTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1ad459a0c07c27449f64395e8cd03a63aa" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>MaximumPrincipalAndInterestIn5Years</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a195bad1bb713d05314d06e3736d187f0" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>MonthlyPiLoanAmount</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a1cbb526c533012c4d43cd4e629c29e25" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>MonthlyPiTerm</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a63147730274d0a8f11492a98610fc142" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>MonthlyPrincipalAndInterest</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a0cb41e382e7a079825ed177e2a974cb1" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>PaymentDeferredFirstFiveYears</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1aa8d14a2666564e63e62d77582c517ab8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>PrintAttachmentIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a74869e2196823a40c85c625a9627e76c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>PrintUserJobTitleIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a35c6bc4af9cb4e70fa6a56e5efd3ec98" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>PrintUserNameIndicator</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1aa74aaf614a142b25bbcbed3133211af8" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>SourceOfFunds</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a620130d2dd49bf5bd2c5477ae4bd12b6" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>Title</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1ae0b9f4625f689ff46b523d682612c376" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>TitleFax</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_additional_loan_contract_1a040e9d53200f411220ecd3a1609817f7" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::AdditionalLoanContractFull</scope><name>TitlePhone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.4" xml:lang="en-US">
+  <compounddef id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tracking_definition_contract" kind="class" language="C#" prot="public">
+    <compoundname>ICE::SDKtoAPI::LenderApiContractsV3::TrackingDefinitionContract</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tracking_definition_contract_1a5dceb8d03e49227518be861a52ecbfdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ICE.SDKtoAPI.LenderApiContractsV3.TrackingDefinitionContract.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TrackingDefinitionContract.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" line="12" column="23" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tracking_definition_contract_1a607d6e9ea75c0de890163d1419bcfd3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool?</type>
+        <definition>bool? ICE.SDKtoAPI.LenderApiContractsV3.TrackingDefinitionContract.Open</definition>
+        <argsstring></argsstring>
+        <name>Open</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TrackingDefinitionContract.Open</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" line="15" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tracking_definition_contract_1a94fc063f659523c9b6290651e6aaa88a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_entity_reference_contract" kindref="compound">EntityReferenceContract</ref> &gt;</type>
+        <definition>List&lt;EntityReferenceContract&gt; ICE.SDKtoAPI.LenderApiContractsV3.TrackingDefinitionContract.Roles</definition>
+        <argsstring></argsstring>
+        <name>Roles</name>
+        <qualifiedname>ICE.SDKtoAPI.LenderApiContractsV3.TrackingDefinitionContract.Roles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" line="18" column="21" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" line="9" column="11" bodyfile="C:/Development_2020/ICE.SDKtoAPI/ICE.SDKtoAPI/LenderApiContractsV3/TrackingDefinitionContract.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tracking_definition_contract_1a5dceb8d03e49227518be861a52ecbfdb" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TrackingDefinitionContract</scope><name>Name</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tracking_definition_contract_1a607d6e9ea75c0de890163d1419bcfd3c" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TrackingDefinitionContract</scope><name>Open</name></member>
+      <member refid="class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v3_1_1_tracking_definition_contract_1a94fc063f659523c9b6290651e6aaa88a" prot="public" virt="non-virtual"><scope>ICE::SDKtoAPI::LenderApiContractsV3::TrackingDefinitionContract</scope><name>Roles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+\hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service}{}\doxysection{ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service Class Reference}
+\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service}\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+
+
+Inherits \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_base_provider_service}{ICE.\+SDKto\+API.\+Providers.\+Base\+Provider\+Service}}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ac0b77d81fe31722d8adf0bcf76d2724a}{Lock\+Provider\+Service}} (\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}} token)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a58ef8939adc1e2bb0c9fee04d35bb74e}{Get\+Lock\+Request\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_resource_lock_contract}{Resource\+Lock\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a073ef70145a70f2c1e2c35cf5be2b657}{Resource\+Lock\+List\+Async}} (string guid)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_detail}{Rate\+Lock\+Detail}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_aa458b1bd326a811b56ed1c3361d01212}{Get\+Lock\+Request\+Async}} (string guid, string resource\+Guid)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_aa948c172a1cf3412a504b5c4e3596fd0}{Extend\+Rate\+Lock\+Request\+Async}} (string guid, string resource\+Id, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_extend_rate_lock}{Extend\+Rate\+Lock}} rate\+Lock)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ae4ae14c7e4da3bc39dbafdf942b26906}{Relock\+Rate\+Lock\+Request\+Async}} (string guid, string resource\+Id, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_extend_rate_lock}{Extend\+Rate\+Lock}} rate\+Lock)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a282381411eeca66d9b25bca5d894f5aa}{Confirm\+Rate\+Lock\+Request\+Async}} (string guid, string resource\+Id, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_confirm_rate_lock}{Confirm\+Rate\+Lock}} confirm)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a34ad0073ce763c473a8a3b249db8e9ef}{Revise\+Rate\+Lock\+Request\+Async}} (string guid, string resource\+Id, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}} summary)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a754f4249b76d5f905dcb2f92bcabd310}{Cancel\+Rate\+Lock\+Request\+Async}} (string guid, string resource\+Id, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}} summary)
+\item 
+async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a67bbe9add1cf9d3bbe344d31204e7307}{Get\+Rate\+Lock\+Request\+Async}} (string guid, string resource\+Id)
+\item 
+async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_snapshot_fields}{Loan\+Contract\+Snapshot\+Fields}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ad3217b9ec41e4d849c5109c3fe82d79f}{Get\+Rate\+Lock\+Snapshot\+Async}} (string guid, string resource\+Guid)
+\item 
+async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a1f23647e5f2d51ad5d9a935c926417ac}{Lock\+Loan\+Async}} (string guid, bool exclusive=true)
+\item 
+async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_af0efc58159682d2062e19c848fc8e951}{Unlock\+Async}} (string guid, string request\+Id, bool forced=false)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ac0b77d81fe31722d8adf0bcf76d2724a}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ac0b77d81fe31722d8adf0bcf76d2724a}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!LockProviderService@{LockProviderService}}
+\index{LockProviderService@{LockProviderService}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{LockProviderService()}{LockProviderService()}}
+{\footnotesize\ttfamily ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Lock\+Provider\+Service (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_access_token}{Access\+Token}}}]{token }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a754f4249b76d5f905dcb2f92bcabd310}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a754f4249b76d5f905dcb2f92bcabd310}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!CancelRateLockRequestAsync@{CancelRateLockRequestAsync}}
+\index{CancelRateLockRequestAsync@{CancelRateLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{CancelRateLockRequestAsync()}{CancelRateLockRequestAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Cancel\+Rate\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Id,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}}]{summary }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a282381411eeca66d9b25bca5d894f5aa}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a282381411eeca66d9b25bca5d894f5aa}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!ConfirmRateLockRequestAsync@{ConfirmRateLockRequestAsync}}
+\index{ConfirmRateLockRequestAsync@{ConfirmRateLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{ConfirmRateLockRequestAsync()}{ConfirmRateLockRequestAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Confirm\+Rate\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Id,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_confirm_rate_lock}{Confirm\+Rate\+Lock}}}]{confirm }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_aa948c172a1cf3412a504b5c4e3596fd0}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_aa948c172a1cf3412a504b5c4e3596fd0}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!ExtendRateLockRequestAsync@{ExtendRateLockRequestAsync}}
+\index{ExtendRateLockRequestAsync@{ExtendRateLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{ExtendRateLockRequestAsync()}{ExtendRateLockRequestAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Extend\+Rate\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Id,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_extend_rate_lock}{Extend\+Rate\+Lock}}}]{rate\+Lock }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a58ef8939adc1e2bb0c9fee04d35bb74e}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a58ef8939adc1e2bb0c9fee04d35bb74e}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!GetLockRequestAsync@{GetLockRequestAsync}}
+\index{GetLockRequestAsync@{GetLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{GetLockRequestAsync()}{GetLockRequestAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Get\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_aa458b1bd326a811b56ed1c3361d01212}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_aa458b1bd326a811b56ed1c3361d01212}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!GetLockRequestAsync@{GetLockRequestAsync}}
+\index{GetLockRequestAsync@{GetLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{GetLockRequestAsync()}{GetLockRequestAsync()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_detail}{Rate\+Lock\+Detail}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Get\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a67bbe9add1cf9d3bbe344d31204e7307}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a67bbe9add1cf9d3bbe344d31204e7307}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!GetRateLockRequestAsync@{GetRateLockRequestAsync}}
+\index{GetRateLockRequestAsync@{GetRateLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{GetRateLockRequestAsync()}{GetRateLockRequestAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Get\+Rate\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Id }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ad3217b9ec41e4d849c5109c3fe82d79f}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ad3217b9ec41e4d849c5109c3fe82d79f}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!GetRateLockSnapshotAsync@{GetRateLockSnapshotAsync}}
+\index{GetRateLockSnapshotAsync@{GetRateLockSnapshotAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{GetRateLockSnapshotAsync()}{GetRateLockSnapshotAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_loan_contract_snapshot_fields}{Loan\+Contract\+Snapshot\+Fields}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Get\+Rate\+Lock\+Snapshot\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a1f23647e5f2d51ad5d9a935c926417ac}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a1f23647e5f2d51ad5d9a935c926417ac}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!LockLoanAsync@{LockLoanAsync}}
+\index{LockLoanAsync@{LockLoanAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{LockLoanAsync()}{LockLoanAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ string, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Lock\+Loan\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{bool}]{exclusive = {\ttfamily true} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ae4ae14c7e4da3bc39dbafdf942b26906}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_ae4ae14c7e4da3bc39dbafdf942b26906}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!RelockRateLockRequestAsync@{RelockRateLockRequestAsync}}
+\index{RelockRateLockRequestAsync@{RelockRateLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{RelockRateLockRequestAsync()}{RelockRateLockRequestAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Relock\+Rate\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Id,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_extend_rate_lock}{Extend\+Rate\+Lock}}}]{rate\+Lock }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a073ef70145a70f2c1e2c35cf5be2b657}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a073ef70145a70f2c1e2c35cf5be2b657}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!ResourceLockListAsync@{ResourceLockListAsync}}
+\index{ResourceLockListAsync@{ResourceLockListAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{ResourceLockListAsync()}{ResourceLockListAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ List$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_resource_lock_contract}{Resource\+Lock\+Contract}} $>$, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Resource\+Lock\+List\+Async (\begin{DoxyParamCaption}\item[{string}]{guid }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a34ad0073ce763c473a8a3b249db8e9ef}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_a34ad0073ce763c473a8a3b249db8e9ef}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!ReviseRateLockRequestAsync@{ReviseRateLockRequestAsync}}
+\index{ReviseRateLockRequestAsync@{ReviseRateLockRequestAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{ReviseRateLockRequestAsync()}{ReviseRateLockRequestAsync()}}
+{\footnotesize\ttfamily async Task$<$ Tuple$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}, \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Revise\+Rate\+Lock\+Request\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{resource\+Id,  }\item[{\mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_lender_api_contracts_v1_1_1_rate_lock_summary_contract}{Rate\+Lock\+Summary\+Contract}}}]{summary }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_af0efc58159682d2062e19c848fc8e951}\label{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_providers_1_1_lock_provider_service_af0efc58159682d2062e19c848fc8e951}} 
+\index{ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}!UnlockAsync@{UnlockAsync}}
+\index{UnlockAsync@{UnlockAsync}!ICE.SDKtoAPI.Providers.LockProviderService@{ICE.SDKtoAPI.Providers.LockProviderService}}
+\doxysubsubsection{\texorpdfstring{UnlockAsync()}{UnlockAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_i_c_e_1_1_s_d_kto_a_p_i_1_1_contracts_1_1_lender_api_response}{Lender\+Api\+Response}} $>$ ICE.\+SDKto\+API.\+Providers.\+Lock\+Provider\+Service.\+Unlock\+Async (\begin{DoxyParamCaption}\item[{string}]{guid,  }\item[{string}]{request\+Id,  }\item[{bool}]{forced = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Development\+\_\+2020/\+ICE.\+SDKto\+API/\+ICE.\+SDKto\+API/\+Providers/\mbox{\hyperlink{_lock_provider_service_8cs}{Lock\+Provider\+Service.\+cs}}\end{DoxyCompactItemize}
