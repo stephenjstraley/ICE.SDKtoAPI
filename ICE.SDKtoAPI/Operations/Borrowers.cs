@@ -2,151 +2,24 @@
 using ICE.SDKtoAPI.Providers;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
     {
-        //public bool? BorrowerCoBorrowerMarriedIndicator() => BorrowerCoBorrowerMarriedIndicator(LoanGuid);
-        //public bool? BorrowerCoBorrowerMarriedIndicator(string guid)
-        //{
-        //    try
-        //    { 
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.BorrowerCoBorrowerMarriedIndicator;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public double? BorrowerPaidClosingCostsAmount() => BorrowerPaidClosingCostsAmount(LoanGuid);
-        //public double? BorrowerPaidClosingCostsAmount(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.BorrowerPaidClosingCostsAmount;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public double? BorrowerPaidDiscountPointsAmount() => BorrowerPaidDiscountPointsAmount(LoanGuid);
-        //public double? BorrowerPaidDiscountPointsAmount(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.BorrowerPaidDiscountPointsAmount;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public double? BorrowerPaidFHAVAClosingCostsAmount() => BorrowerPaidFHAVAClosingCostsAmount(LoanGuid);
-        //public double? BorrowerPaidFHAVAClosingCostsAmount(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.BorrowerPaidFHAVAClosingCostsAmount;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public int? BorrowerPairCount() => BorrowerPairCount(LoanGuid);
-        //public int? BorrowerPairCount(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.BorrowerPairCount;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public double? BorrowerRequestedLoanAmount() => BorrowerRequestedLoanAmount(LoanGuid);
-        //public double? BorrowerRequestedLoanAmount(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.BorrowerRequestedLoanAmount;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public double? CashFromToBorrowerAmount() => CashFromToBorrowerAmount(LoanGuid);
-        //public double? CashFromToBorrowerAmount(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.CashFromToBorrowerAmount;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public bool? IsCreditorProhibitsBorrower() => IsCreditorProhibitsBorrower(LoanGuid);
-        //public bool? IsCreditorProhibitsBorrower(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.IsCreditorProhibitsBorrower;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-        //public double? LinkedBorrowerRequestedLoanAmount() => LinkedBorrowerRequestedLoanAmount(LoanGuid);
-        //public double? LinkedBorrowerRequestedLoanAmount(string guid)
-        //{
-        //    try
-        //    {
-        //        var loanApiClient = ApiClientProvider.GetApiClient<LoanContract>(_accessToken);
-        //        return loanApiClient.LinkedBorrowerRequestedLoanAmount;
-        //    }
-        //    catch
-        //    {
-        //        _lastCode = System.Net.HttpStatusCode.ExpectationFailed;
-        //        throw;
-        //    }
-        //}
-
-
-        //}
-
+        List<ApplicationContract> GetAllBorrowerPairs();
+        Task<List<ApplicationContract>> GetAllBorrowerPairsAsync();
+        Task<List<ApplicationContract>> GetAllBorrowerPairsAsync(string guid);
+        Task<ApplicationContract> GetBorrowerPairAsync(string guid, int app);
+        Task<ApplicationContract> GetBorrowerPairAsync(string guid, string appGuid);
+        Task<string> CreateBorrowerPair(string guid, ApplicationContract pair);
+        // Update Borrow Pair
+        Task<bool> UpdateBorrowerPair(string guid, int app, ApplicationContract pair);
+        Task<bool> UpdateBorrowerPair(string guid, string appGuid, ApplicationContract pair);
+    }
+    public partial class LenderAPI : ILenderAPI
+    {
         public List<ApplicationContract> GetAllBorrowerPairs() => GetAllBorrowerPairsAsync(LoanGuid).Result;
         public async Task<List<ApplicationContract>> GetAllBorrowerPairsAsync() => await GetAllBorrowerPairsAsync(LoanGuid);
         public async Task<List<ApplicationContract>> GetAllBorrowerPairsAsync(string guid)
@@ -202,8 +75,7 @@ namespace ICE.SDKtoAPI
             else
                 return null;
         }
-
-        public async Task<string> CreateBorrowerPaid(string guid, ApplicationContract pair)
+        public async Task<string> CreateBorrowerPair(string guid, ApplicationContract pair)
         {
             SetResponse();
             var provider = new BorrowerPairProviderService(_accessToken);
@@ -211,7 +83,6 @@ namespace ICE.SDKtoAPI
             _lastResponse = results.Item2;
             return results.Item1;
         }
-
         // Update Borrow Pair
         public async Task<bool> UpdateBorrowerPair(string guid, int app, ApplicationContract pair)
         {

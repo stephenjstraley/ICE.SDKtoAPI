@@ -1,19 +1,22 @@
 ﻿using ICE.SDKtoAPI.Contracts;
+using ICE.SDKtoAPI.Extensions;
+using ICE.SDKtoAPI.SupportingClasses;
 using System;
 using System.Collections.Generic;
-using System.Net;
-using ICE.SDKtoAPI.Extensions;
-using Flurl.Http;
-using Newtonsoft.Json;
-using System.Threading.Tasks;
 using System.Linq;
-using ICE.SDKtoAPI.Providers;
-using ICE.SDKtoAPI.SupportingClasses;
+using System.Net;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI : IDisposable
+    public partial interface ILenderAPI
     {
+        void SetLoanGuid(string guid);
+        LenderAPI SetV3Loan();
+        LenderAPI SetV1Loan();
+    }
+    public partial class LenderAPI : ILenderAPI, IDisposable
+    {
+        #region properties
         protected AccessToken _accessToken;
         protected LenderApiContractsV1.LoanContract _loanV1;
         protected LenderApiContractsV3.LoanContract _loanV3;
@@ -26,7 +29,6 @@ namespace ICE.SDKtoAPI
         protected string _password = string.Empty;
         protected string _secret = string.Empty;
         protected bool _loadV3 = false;
-
         protected List<LenderApiContractsV1.UserContract> _users;
         protected List<LenderApiContractsV1.PersonaContract> _personas;
         protected List<LenderApiContractsV1.LoanContractLoanAssociate> _associates;
@@ -84,9 +86,16 @@ namespace ICE.SDKtoAPI
         public List<APISchema> DynamicSchema => Fields?.DynamicSchema ?? null;
         public List<string> CustomFields => Fields?.GetCustomFields().Result.Select(testc => testc.Id).ToList() ?? null;
         public List<string> VirtualFields => Fields?.VirtualSchema ?? null;
+        public bool IsLoanLocked
+        {
+            get
+            {
+                var locklist = GetCurrentLockAsync().Result;
+                return !(locklist == null);
+            }
+        }
         protected DocumentLogs _documentLog = null;
         public DocumentLogs Log => _documentLog;
-
         public class DocumentLogs
         {
             protected LenderAPI _ref = null;
@@ -106,11 +115,11 @@ namespace ICE.SDKtoAPI
                 };
             }
         }
-
         public LenderAPI()
         {
             _documentLog = new DocumentLogs(this);
         }
+        #endregion
 
         public LenderAPI(string instance, string apiClient, string userName, string password, string secret)
         {
@@ -141,6 +150,29 @@ namespace ICE.SDKtoAPI
             _secret = creds.ClientSecret;
         }
 
+        protected void SetResponse()
+        {
+            _lastResponse = new LenderApiResponse()
+            {
+                IsSuccess = true,
+                ErrorMessage = "",
+                ExtraInfo = "",
+                Message = "",
+                StatusCode = HttpStatusCode.OK
+            };
+        }
+        protected void SetBadResponse(HttpStatusCode code, string message)
+        {
+            _lastResponse = new LenderApiResponse()
+            {
+                ErrorMessage = message,
+                Message = message,
+                IsSuccess = false,
+                StatusCode = code
+            };
+        }
+
+        public void SetLoanGuid(string guid) => _guid = guid;
         public LenderAPI SetV3Loan()
         {
             _loadV3 = true;
@@ -153,224 +185,9 @@ namespace ICE.SDKtoAPI
             Fields.SetLoanVersion(_loadV3);
             return this;
         }
-        public void SetResponse()
-        {
-            _lastResponse = new LenderApiResponse()
-            {
-                IsSuccess = true,
-                ErrorMessage = "",
-                ExtraInfo = "",
-                Message = "",
-                StatusCode = HttpStatusCode.OK
-            };
-        }
-        public void SetLoanGuid(string guid) => _guid = guid;
 
-        public void SetBadResponse(HttpStatusCode code, string message)
-        {
-            _lastResponse = new LenderApiResponse()
-            {
-                ErrorMessage = message,
-                Message = message,
-                IsSuccess = false,
-                StatusCode = code
-            };
-        }
-        public void MetaData(string guid)
-        {
-            _meta = new LenderApiContractsV1.LoanMetaData();
 
-            try
-            {
-                var paths = new UrlPaths();
-                var baseUrl = paths.GetMetaData(guid);
 
-                _meta = baseUrl.WithHeader("Authorization", _accessToken.Access_Token)
-                               .GetJsonAsync<LenderApiContractsV1.LoanMetaData>().Result;
-            }
-            catch
-            {
-                throw;
-            }
-        }
-        public string Serialize()
-        {
-            if (_loadV3)
-                return JsonConvert.SerializeObject(_loanV3, Formatting.Indented);
-            else
-                return JsonConvert.SerializeObject(_loanV1, Formatting.Indented);
-        }
-        public async Task<LenderApiContractsV1.FieldSchemaContract> GetV1FieldSchemaAsync(string id)
-        {
-            SetResponse();
-            var provider = new BaseProviderService(_accessToken);
-            var result = await provider.GetV1FieldSchemaAsync(id);
-            _lastResponse = result.Item2;
-            return result.Item1;
-        }
-        public async Task<List<LenderApiContractsV3.FieldSchemaContract>> GetV3FieldSchemaAsync(string id)
-        {
-            SetResponse();
-            var provider = new BaseProviderService(_accessToken);
-            var result = await provider.GetV3FieldSchemaAsync(id);
-            _lastResponse = result.Item2;
-            return result.Item1;
-        }
-        public async Task<List<LenderApiContractsV3.FieldSchemaContract>> GetV3FieldSchemaAsync(List<string> ids)
-        {
-            SetResponse();
-            var provider = new BaseProviderService(_accessToken);
-            var result = await provider.GetV3FieldSchemaAsync(ids);
-            _lastResponse = result.Item2;
-            return result.Item1;
-        }
-        public async Task<List<LenderApiContractsV3.FieldSchemaContract>> GetV3FieldSchemaAsync(int start = 0, int limit = 5000)
-        {
-            SetResponse();
-            var provider = new BaseProviderService(_accessToken);
-            var result = await provider.GetV3FieldSchemaAsync(start, limit);
-            _lastResponse = result.Item2;
-            return result.Item1;
-        }
-        public async Task<string> GetLoanSchemaAsync(string version)
-        {
-            SetResponse();
-            bool v3 = (version.ToUpper() == "V3");
-            var provider = new BaseProviderService(_accessToken);
-            var result = await provider.GetLoanSchemaAsync(v3);
-            _lastResponse = result.Item2;
-            return result.Item1;
-        }
-        public async Task<List<string>> GetAllFieldIdsAsync()
-        {
-            List<string> retValue = new List<string>();
-
-            // get first 500 and the number of total fields
-            SetResponse();
-            var provider = new BaseProviderService(_accessToken);
-            var range = 5000;
-            var result = await provider.GetV3FieldSchemaAsync(0, range);
-            var startingAt = range;
-            _lastResponse = result.Item2;
-            if (result.Item2.IsSuccess)
-            {
-                var fieldCount = _lastResponse.GetHeaderValue("X-Total-Count");
-                if (!string.IsNullOrEmpty(fieldCount))
-                {
-                    // convert the results to IDS
-                    if (result.Item2.IsSuccess && result.Item1.Count != 0)
-                    {
-                        foreach (var item in result.Item1)
-                            retValue.Add(item.Id);
-
-                        while (result.Item1.Count != 0)
-                        {
-                            Process();
-                        }
-                    }
-                }
-            }
-            void Process()
-            {
-                result = provider.GetV3FieldSchemaAsync(startingAt, 5000).Result;
-                _lastResponse = result.Item2;
-                if (result.Item2.IsSuccess && result.Item1.Count != 0)
-                {
-                    foreach (var item in result.Item1)
-                    {
-                        if (!retValue.Contains(item.Id))
-                            retValue.Add(item.Id);
-                    }
-                }
-                startingAt += range;
-            }
-
-            return retValue;
-        }
-
-        public async Task<List<CustomFieldMeta>> GetCustomFieldsAsync(bool v3Schema = false)
-        {
-            SetResponse();
-            var provider = new LoanProviderService(_accessToken);
-            var result = await provider.GetCustomFieldsAsync(v3Schema);
-            _lastResponse = result.Item2;
-            if (result.Item2.IsSuccess)
-            {
-                Fields.SetCustomFields(result.Item1);
-                return result.Item1;
-            }
-            else
-            {
-                Fields.ClearCustomFields();
-                return result.Item1;
-            }
-        }
-
-        public async Task<List<VirtualFieldMeta>> GetVirtualFieldsAsync()
-        {
-            SetResponse();
-            var provider = new LoanProviderService(_accessToken);
-            var result = await provider.GetVirutalFieldsAsync();
-            _lastResponse = result.Item2;
-            if (result.Item2.IsSuccess)
-            {
-                Fields.SetVirtualFields(result.Item1);
-                return result.Item1;
-            }
-            else
-            {
-                Fields.ClearCustomFields();
-                return result.Item1;
-            }
-        }
-
-        public async Task<object> GetFieldValuesAsync(string guid, List<string> fields)
-        {
-            SetResponse();
-            var provider = new LoanProviderService(_accessToken);
-            var result = await provider.GetFieldValuesAsync(guid, fields);
-            _lastResponse = result.Item2;
-            return result.Item1;
-        }
-
-        public async Task<bool> SendToProcessingAsync(LenderApiContractsV1.UserContract loanProcessor)
-        {
-            var pMs = GetMilestoneByNameAsync("Processing").Result;
-            if (pMs != null)
-                return await AssignLoanAssociateAsync(LoanGuid, pMs.Id, FixedRole.LoanProcessor, loanProcessor.Id);
-
-            return false;
-        }
-
-        public async Task<bool> SubmitBatchUpdateAsync(LenderApiContractsV1.LoanBatchUpdateRequestContract contract)
-        {
-            try
-            {
-                SetResponse();
-                var service = new BatchProviderService(_accessToken);
-                var values = await service.BatchUpdateEncompass(contract);
-                _lastResponse = values;
-                return values.IsSuccess;
-            }
-            catch (Exception err)
-            {
-                SetBadResponse(HttpStatusCode.ExpectationFailed, err.Message);
-            }
-            return false;
-        }
-
-        public void BatchUpdateKeys(string key, string value)
-        {
-            if (_batchRequest != null)
-            {
-                //  && _fields.ContainsKey(key)
-                var contract = _batchRequest.LoanData.Contacts[0];
-                // map the field to the object
-                //                var realName =  _fields[key];
-                // add propert to object and assing VALUE
-                //                contract.GetType().GetProperty(realName).SetValue(contract, value, null);
-            }
-        }
         #region Field Enhancement Ops
         public T Field<T>(string id) => Fields.MainField<T>(id);
         public bool FieldIsReadOnly(string id)

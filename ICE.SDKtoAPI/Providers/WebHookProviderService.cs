@@ -29,7 +29,7 @@ namespace ICE.SDKtoAPI.Providers
 
             return new Tuple<List<WebHookResourceEvent>, LenderApiResponse>(res, _response);
         }
-        public async Task<Tuple<List<WebHookSubscription>, LenderApiResponse>> GetSubscriptsionsAsync()
+        public async Task<Tuple<List<WebHookSubscription>, LenderApiResponse>> GetSubscriptionsAsync()
         {
             var usePath = paths.WebHookFull + "/subscriptions";
 
@@ -37,13 +37,21 @@ namespace ICE.SDKtoAPI.Providers
 
             return new Tuple<List<WebHookSubscription>, LenderApiResponse>(subs, _response);
         }
-        public async Task<Tuple<WebHookSubscription, LenderApiResponse>> GetSubscriptsionAsync(string id)
+        public async Task<Tuple<WebHookSubscription, LenderApiResponse>> GetSubscriptionAsync(string id)
         {
             var usePath = paths.WebHookFull + $"/subscriptions/{id}";
 
             var sub = await Get<WebHookSubscription>(usePath);
 
             return new Tuple<WebHookSubscription, LenderApiResponse>(sub, _response);
+        }
+        public async Task<Tuple<WebHookSubscription, LenderApiResponse>> CreateSubscriptionAsync(WebHookSubscription webEvent)
+        {
+            var usePath = paths.WebHookFull + $"/subscriptions";
+
+            var ret = await Post<WebHookSubscription>(webEvent, usePath);
+
+            return new Tuple<WebHookSubscription, LenderApiResponse>(ret, _response);
         }
         public async Task<Tuple<List<WebHookEvent>, LenderApiResponse>> GetEventsAsync(WebHookEventParameters details = null)
         {

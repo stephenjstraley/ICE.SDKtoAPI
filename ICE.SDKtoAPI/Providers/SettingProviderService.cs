@@ -1,6 +1,7 @@
 ﻿using Flurl.Http;
 using ICE.SDKtoAPI.Contracts;
 using ICE.SDKtoAPI.LenderApiContractsV1;
+using ICE.SDKtoAPI.LenderApiContractsV3;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -112,9 +113,103 @@ namespace ICE.SDKtoAPI.Providers
 
             return new Tuple<PersonaContract, LenderApiResponse>(persona, _response);
         }
+        public async Task<Tuple<UrlaConfiguration, LenderApiResponse>> GetUrlaConfiguration()
+        {
+            paths.SetV3();
 
-        /// TODO
-        /// Secondary Settings (v3)
-        /// External Users (v3)
+            var usePath = paths.Settings + "/policies/urla";
+
+            var config = await Get<UrlaConfiguration>(usePath);
+
+            return new Tuple<UrlaConfiguration, LenderApiResponse>(config, _response);
+        }
+
+        public async Task<Tuple<DisclosureTrackingSettings, LenderApiResponse>> GetDisclosureTrackingSettingsAsync()
+        {
+            paths.SetV3();
+
+            var usePath = paths.Settings + "/loan/disclosureTracking";
+
+            var track = await Get<DisclosureTrackingSettings>(usePath);
+
+            return new Tuple<DisclosureTrackingSettings, LenderApiResponse>(track, _response);
+        }
+
+        public async Task<Tuple<List<FundingTemplateContract>, LenderApiResponse>> GetFundingTemplatesAsync()
+        {
+            paths.SetV3();
+
+            var usePath = paths.Settings + "/secondary/fundingTemplate";
+
+            var temps = await Get<List<FundingTemplateContract>>(usePath);
+
+            return new Tuple<List<FundingTemplateContract>, LenderApiResponse>(temps, _response);
+        }
+
+        public async Task<Tuple<List<InvestorTemplateContract>, LenderApiResponse>> GetInvestorTemplatesAsync()
+        {
+            paths.SetV3();
+
+            var usePath = paths.Settings + "/secondary/investorTemplates";
+
+            var temps = await Get<List<InvestorTemplateContract>>(usePath);
+
+            return new Tuple<List<InvestorTemplateContract>, LenderApiResponse>(temps, _response);
+        }
+        public async Task<Tuple<InvestorTemplateContract, LenderApiResponse>> GetInvestorTemplateAsync(string guid)
+        {
+            paths.SetV3();
+
+            var usePath = paths.Settings + $"/secondary/investorTemplates/{guid}";
+
+            var temps = await Get<InvestorTemplateContract>(usePath);
+
+            return new Tuple<InvestorTemplateContract, LenderApiResponse>(temps, _response);
+        }
+        public async Task<Tuple<List<ExternalOrganizationContract>, LenderApiResponse>> GetExternalOrganizationsAsync()
+        {
+            paths.SetV3();
+
+            var usePath = paths.EncompassPathFull + $"/externalOrganizations/tpos";
+
+            var exs = await Get<List<ExternalOrganizationContract>>(usePath);
+
+            return new Tuple<List<ExternalOrganizationContract>, LenderApiResponse>(exs, _response);
+        }
+        public async Task<Tuple<ExternalOrganizationContract, LenderApiResponse>> GetExternalOrganizationAsync(string guid)
+        {
+            paths.SetV3();
+
+            var usePath = paths.EncompassPathFull + $"/externalOrganizations/tpos/{guid}?entities=all";
+
+            var exs = await Get<ExternalOrganizationContract>(usePath);
+
+            return new Tuple<ExternalOrganizationContract, LenderApiResponse>(exs, _response);
+        }
+        public async Task<Tuple<List<ExternalUserContract>, LenderApiResponse>> GetExternalUsersAsync()
+        {
+            paths.SetV3();
+
+            var usePath = paths.EncompassPathFull + $"/externalUsers";
+
+            var exs = await Get<List<ExternalUserContract>>(usePath);
+
+            return new Tuple<List<ExternalUserContract>, LenderApiResponse>(exs, _response);
+        }
+        public async Task<Tuple<ExternalUserContract, LenderApiResponse>> GetExternalUserAsync(string guid)
+        {
+            paths.SetV3();
+
+            var usePath = paths.EncompassPathFull + $"/externalUsers/{guid}";
+
+            var exs = await Get<ExternalUserContract>(usePath);
+
+            return new Tuple<ExternalUserContract, LenderApiResponse>(exs, _response);
+        }
+
+
+
+        // get ecternal user effetive rights
+
     }
 }

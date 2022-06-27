@@ -1,14 +1,40 @@
-﻿using ICE.SDKtoAPI.LenderApiContractsV3;
+﻿using ICE.SDKtoAPI.Contracts;
+using ICE.SDKtoAPI.LenderApiContractsV3;
 using ICE.SDKtoAPI.Providers;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
     {
+        bool MoveToFolder(string newName);
+        bool MoveToFolder(string guid, string newName);
+        Task<LenderApiResponse> MoveToFolderAsync(string guid, string newName);
+        Task<List<LoanFolderContract>> GetLoanFoldersAsync();
+        Task<LoanFolderContract> GetLoanFolderAsync(string name);
+    }
+    public partial class LenderAPI : ILenderAPI
+    {
+        public bool MoveToFolder(string newName) => MoveToFolder(LoanGuid, newName);
+        public bool MoveToFolder(string guid, string newName)
+        {
+            SetResponse();
+            LenderApiResponse results = MoveToFolderAsync(guid, newName).Result;
+            if (!results.IsSuccess)
+            {
+                _lastResponse = results;
+            }
+            return results.IsSuccess;
+        }
+        public async Task<LenderApiResponse> MoveToFolderAsync(string guid, string newName)
+        {
+            SetResponse();
+            var provider = new FolderProviderService(_accessToken);
+            var resp = await provider.MoveToFolderAsync(guid, newName);
+            _lastResponse = resp;
+            return resp;
+        }
         public async Task<List<LoanFolderContract>> GetLoanFoldersAsync()
         {
             SetResponse();

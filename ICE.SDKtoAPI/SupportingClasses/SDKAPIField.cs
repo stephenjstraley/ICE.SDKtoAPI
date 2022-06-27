@@ -1,19 +1,12 @@
-﻿using System;
+﻿using ICE.SDKtoAPI.Contracts;
+using ICE.SDKtoAPI.Providers;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Net.Mime;
 using System.Reflection;
 using System.Threading.Tasks;
-using Flurl;
-using Flurl.Http;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using ICE.SDKtoAPI.Contracts;
-using ICE.SDKtoAPI.Providers;
 
 namespace ICE.SDKtoAPI.SupportingClasses
 {
@@ -124,7 +117,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                         }
                     }
                 }
-                catch (Exception ex)
+                catch 
                 {
                     retValue = false;
                 }

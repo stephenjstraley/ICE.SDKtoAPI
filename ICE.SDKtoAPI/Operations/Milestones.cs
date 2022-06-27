@@ -8,10 +8,22 @@ using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<MilestoneContract> LastCompletedMilestoneAsync();
+        Task<MilestoneContract> LastCompletedMilestoneAsync(string guid);
+        Task<MilestoneContract> NextMilestoneAsync();
+        Task<MilestoneContract> NextMilestoneAsync(string guid);
+        Task<List<MilestoneContract>> GetMilestonesAsync();
+        Task<List<MilestoneContract>> GetMilestonesAsync(string guid);
+        Task<MilestoneContract> GetMilestoneByNameAsync(string name);
+        Task<MilestoneContract> GetMilestoneByNameAsync(string guid, string name);
+        Task<List<MilestoneFreeRoleContract>> GetMilestoneFreeRolesAsync();
+        Task<List<MilestoneFreeRoleContract>> GetMilestoneFreeRolesAsync(string guid);
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         public async Task<MilestoneContract> LastCompletedMilestoneAsync() => await LastCompletedMilestoneAsync(LoanGuid);
-
         public async Task<MilestoneContract> LastCompletedMilestoneAsync(string guid)
         {
             var milestones = await GetMilestonesAsync(guid);

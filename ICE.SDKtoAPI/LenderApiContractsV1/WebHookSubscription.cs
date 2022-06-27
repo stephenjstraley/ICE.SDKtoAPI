@@ -18,7 +18,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
         public string SubscriptionId { get; set; }
 
         [DataMember(Name = "filters")]
-        public object Filters { get; set; }
+        public List<string> Filters { get; set; }
 
         [DataMember(Name = "ClientId")]
         public string ClientId { get; set; }

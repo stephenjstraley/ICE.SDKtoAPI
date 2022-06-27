@@ -1,15 +1,53 @@
-﻿using ICE.SDKtoAPI.Contracts;
-using ICE.SDKtoAPI.Providers;
-using System;
+﻿using ICE.SDKtoAPI.Providers;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<LenderApiContractsV3.DocumentContract>> GetDocumentsAsync();
+        Task<List<LenderApiContractsV3.DocumentContract>> GetDocumentsAsync(string guid);
+        Task<List<LenderApiContractsV3.DocumentContract>> GetDocumentsByTitleAsync(string title);
+        Task<List<LenderApiContractsV3.DocumentContract>> GetDocumentsByTitleAsync(string guid, string title);
+        Task<LenderApiContractsV3.DocumentContract> GetDocumentAsync(string guid, string id);
+        Task<List<LenderApiContractsV3.FileAttachmentContract>> GetAttachmentsAsync();
+        Task<List<LenderApiContractsV3.FileAttachmentContract>> GetAttachmentsAsync(string guid);
+        Task<List<LenderApiContractsV3.FileAttachmentContract>> GetAttachmentsForDocIdAsync(string docId);
+        Task<List<LenderApiContractsV3.FileAttachmentContract>> GetAttachmentsForDocIdAsync(string guid, string docId);
+        Task<List<LenderApiContractsV3.FileAttachmentContract>> GetAttachmentByTitleAsync(string title);
+        Task<List<LenderApiContractsV3.FileAttachmentContract>> GetAttachmentByTitleAsync(string guid, string title);
+        Task<string> DownloadAttachmentAsync(LenderApiContractsV3.FileAttachmentContract contract, string path, string fileName);
+        Task<string> DownloadAttachmentAsync(string guid, LenderApiContractsV3.FileAttachmentContract contract, string path, string fileName);
+        Task<string> DownloadAttachmentAsync(string attachmentId, string path, string fileName);
+        Task<string> DownloadAttachmentAsync(string guid, string attachmentId, string path, string fileName);
+        Task<LenderApiContractsV1.LoanContractDocuments> CreateDocAsync(string title, string description);
+        Task<LenderApiContractsV1.LoanContractDocuments> CreateDocAsync(string guid, string title, string description);
+        Task<LenderApiContractsV1.LoanContractDocuments> CreateDocAsync(LenderApiContractsV1.LoanContractDocuments doc);
+        Task<LenderApiContractsV1.LoanContractDocuments> CreateDocAsync(string guid, LenderApiContractsV1.LoanContractDocuments doc);
+        Task<LenderApiContractsV3.DocumentContract> CreateDocumentAsync(string title, string description);
+        Task<LenderApiContractsV3.DocumentContract> CreateDocumentAsync(string lockId, string title, string description);
+        Task<LenderApiContractsV3.DocumentContract> CreateDocumentAsync(string guid, string lockId, string title, string description);
+        Task<LenderApiContractsV3.DocumentContract> CreateDocumentAsync(string lockId, LenderApiContractsV3.DocumentContract doc);
+        Task<LenderApiContractsV3.DocumentContract> CreateDocumentAsync(string guid, string lockId, LenderApiContractsV3.DocumentContract doc);
+        Task<List<LenderApiContractsV3.DocumentContract>> CreateDocumentsAsync(string guid, string lockId, Dictionary<string, string> docs);
+        Task<List<LenderApiContractsV3.DocumentContract>> CreateDocumentsAsync(string guid, string lockId, List<LenderApiContractsV3.DocumentContract> docs);
+        LenderApiContractsV3.DocumentContract PrepareUpdateDocument(LenderApiContractsV3.DocumentContract cont);
+        Task DeleteDocumentAsync(string documentID);
+        Task DeleteDocumentAsync(string guid, string documentID);
+        Task<bool> UpdateDocumentAsync(LenderApiContractsV3.DocumentContract doc);
+        Task<bool> UpdateDocumentAsync(string guid, LenderApiContractsV3.DocumentContract doc);
+        Task AssignAtachmentToDocumentAsync(string docId, string attachId);
+        Task AssignAtachmentToDocumentAsync(string guid, string docId, string attachId);
+        Task<string> UploadAttachmentAsync(string file, string fileName, string fileType, string fileTitle);
+        Task<string> UploadAttachmentAsync(string lockId, string file, string fileName, string fileType, string fileTitle);
+        Task<string> UploadAttachmentAsync(string guid, string lockId, string file, string fileName, string fileType, string fileTitle);
+        Task<string> UploadAttachmentAsync(string lockId, MemoryStream stream, string fileName, string fileType, string fileTitle);
+        Task<string> UploadAttachmentAsync(string guid, string lockId, MemoryStream stream, string fileName, string fileType, string fileTitle);
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         #region V3 GETS
         public async Task<List<LenderApiContractsV3.DocumentContract>> GetDocumentsAsync() => await GetDocumentsAsync(LoanGuid);
@@ -271,42 +309,6 @@ namespace ICE.SDKtoAPI
         //    return null;
         //}
 
-        public bool MoveToFolder(string newName) => MoveToFolder(LoanGuid, newName);
-        public bool MoveToFolder(string guid, string newName)
-        {
-            SetResponse();
-            LenderApiResponse results = MoveToFolderAsync(guid, newName).Result;
-            if (!results.IsSuccess)
-            {
-                _lastResponse = results;
-            }
-            return results.IsSuccess;
-        }
-        public async Task<LenderApiResponse> MoveToFolderAsync(string guid, string newName)
-        {
-            SetResponse();
-            var provider = new FolderProviderService(_accessToken);
-            var resp = await provider.MoveToFolderAsync(guid, newName);
-            _lastResponse = resp;
-            return resp;
-        }
-
-        public async Task<List<LenderApiContractsV1.PlanCode>> GetOpeningPlanCodes()
-        {
-            SetResponse();
-            var provider = new ClosingDisclosuresService(_accessToken);
-            var resp = await provider.GetPlanCodesAsync("Opening");
-            _lastResponse = resp.Item2;
-            return resp.Item1;
-        }
-        public async Task<List<LenderApiContractsV1.PlanCode>> GetClosingPlanCodes()
-        {
-            SetResponse();
-            var provider = new ClosingDisclosuresService(_accessToken);
-            var resp = await provider.GetPlanCodesAsync("Closing");
-            _lastResponse = resp.Item2;
-            return resp.Item1;
-        }
 
 
         //        public void AddAttachmentsToDocument(string documentId, List<EFolderEntityRefContract> attachments)

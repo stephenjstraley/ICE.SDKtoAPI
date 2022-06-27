@@ -1,13 +1,21 @@
 ﻿using ICE.SDKtoAPI.LenderApiContractsV1;
 using ICE.SDKtoAPI.Providers;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<UserContract>> GetUsersAsync(int limit = 1000);
+        Task<UserContract> GetUserAsync(string id);
+        Task<UserProfileContract> GetUserProfileAsync(string userId);
+        Task<List<UserGroupsContract>> GetUserGroupsAsync(string userId);
+        Task<List<UserCompensationPlanContract>> GetUserCompensationPlansAsync(string userId);
+        Task<List<UserLicenseContract>> GetUserLicensesAsync(string userId);
+        Task<List<EntityRefContract>> GetUserEligibleRolesAsync(string userId);
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         public async Task<List<UserContract>> GetUsersAsync(int limit = 1000)
         {

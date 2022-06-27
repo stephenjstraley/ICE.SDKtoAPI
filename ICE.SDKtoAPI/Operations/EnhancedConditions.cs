@@ -7,7 +7,53 @@ using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<EnhancedConditionType>> GetEnhancedConditionTypesAsync();
+        Task<EnhancedConditionType> GetEnhancedConditionTypeAsync(string id);
+        Task<List<EnhancedConditionType>> AddEnhancedConditionTypeAsync(EnhancedConditionType cond);
+        Task<List<EnhancedConditionType>> AddEnhancedConditionTypesAsync(List<EnhancedConditionType> conds);
+        Task<List<EnhancedConditionType>> UpdateEnhancedConditionTypeAsync(EnhancedConditionType cond);
+        Task<List<EnhancedConditionType>> UpdateEnhancedConditionTypesAsync(List<EnhancedConditionType> cond);
+        Task<List<EnhancedConditionType>> DeleteEnhancedConditionTypeAsync(EnhancedConditionType cond);
+        Task<List<EnhancedConditionType>> DeleteEnhancedConditionTypesAsync(List<EnhancedConditionType> cond);
+        Task<List<EnhancedConditionTemplate>> GetEnhancedConditionTemplatesAsync();
+        Task<EnhancedConditionTemplate> GetEnhancedConditionTemplateAsync(string id);
+        Task<List<EnhancedConditionTemplate>> AddEnhancedConditionTemplateAsync(EnhancedConditionTemplate temp);
+        Task<List<EnhancedConditionTemplate>> AddEnhancedConditionTemplatesAsync(List<EnhancedConditionTemplate> temps);
+        Task<List<EnhancedConditionTemplate>> UpdateEnhancedConditionTemplateAsync(EnhancedConditionTemplate temp);
+        Task<List<EnhancedConditionTemplate>> UpdateEnhancedConditionTemplatesAsync(List<EnhancedConditionTemplate> temps);
+        Task<List<EnhancedConditionTemplate>> DeleteEnhancedConditionTemplateAsync(EnhancedConditionTemplate temp);
+        Task<List<EnhancedConditionTemplate>> DeleteEnhancedConditionTemplatesAsync(List<EnhancedConditionTemplate> temps);
+        Task<List<EnhancedConditionSet>> GetEnhancedConditionSetsAsync();
+        Task<EnhancedConditionSet> GetEnhancedConditionSetAsync(string id);
+        Task<List<EnhancedConditionTracking>> GetEnhancedConditionTrackingAsync(string loanGuid, string condId);
+        Task<List<EnhancedConditionTracking>> AddEnhancedConditionTrackingAsync(string loanGuid, string condId, EnhancedConditionTracking track);
+        Task<List<EnhancedConditionTracking>> AddEnhancedConditionTrackingsAsync(string loanGuid, string condId, List<EnhancedConditionTracking> tracks);
+        Task<List<EnhancedConditionTracking>> UpdateEnhancedConditionTrackingAsync(string loanGuid, string condId, EnhancedConditionTracking track);
+        Task<List<EnhancedConditionTracking>> UpdateEnhancedConditionTrackingsAsync(string loanGuid, string condId, List<EnhancedConditionTracking> tracks);
+        Task<List<EnhancedConditionTracking>> DeleteEnhancedConditionTrackingAsync(string loanGuid, string condId, EnhancedConditionTracking track);
+        Task<List<EnhancedConditionTracking>> DeleteEnhancedConditionTrackingsAsync(string loanGuid, string condId, List<EnhancedConditionTracking> tracks);
+        Task<List<EnhancedConditionContract>> GetEnhancedConditionsAsync(string loanGuid);
+        Task<EnhancedConditionContract> GetEnhancedConditionAsync(string loanGuid, string condId);
+        Task<List<EnhancedConditionContract>> AddEnhancedConditionAsync(string loanGuid, EnhancedConditionContract condition);
+        Task<List<EnhancedConditionContract>> AddEnhancedConditionsAsync(string loanGuid, List<EnhancedConditionContract> conditions);
+        Task<List<EnhancedConditionContract>> UpdateEnhancedConditionAsync(string loanGuid, EnhancedConditionContract condition);
+        Task<List<EnhancedConditionContract>> UpdateEnhancedConditionsAsync(string loanGuid, List<EnhancedConditionContract> conditions);
+        Task<List<EnhancedConditionContract>> DuplicateEnhancedConditionAsync(string loanGuid, EnhancedConditionContract condition);
+        Task<List<EnhancedConditionContract>> DuplicateEnhancedConditionsAsync(string loanGuid, List<EnhancedConditionContract> conditions);
+        Task<List<EnhancedConditionContract>> DeleteEnhancedConditionAsync(string loanGuid, EnhancedConditionContract condition);
+        Task<List<EnhancedConditionContract>> DeleteEnhancedConditionsAsync(string loanGuid, List<EnhancedConditionContract> conditions);
+        Task<List<EnhancedConditionCommentContract>> GetEnhancedConditionCommentsAsync(string loanGuid, string conditionGuid);
+        Task<List<EnhancedConditionCommentContract>> AddEnhancedConditionCommentAsync(string loanGuid, string condId, EnhancedConditionCommentContract comm);
+        Task<List<EnhancedConditionCommentContract>> AddEnhancedConditionCommentsAsync(string loanGuid, string condId, List<EnhancedConditionCommentContract> comms);
+        Task<List<EnhancedConditionCommentContract>> UpdateEnhancedConditionCommentAsync(string loanGuid, string condId, EnhancedConditionCommentContract comm);
+        Task<List<EnhancedConditionCommentContract>> UpdateEnhancedConditionCommentsAsync(string loanGuid, string condId, List<EnhancedConditionCommentContract> comms);
+        Task<List<EnhancedConditionCommentContract>> DeleteEnhancedConditionCommentAsync(string loanGuid, string condId, EnhancedConditionCommentContract comm);
+        Task<List<EnhancedConditionCommentContract>> DeleteEnhancedConditionCommentsAsync(string loanGuid, string condId, List<EnhancedConditionCommentContract> comms);
+        Task<List<EntityReferenceContract>> GetEnhancedConditionDocumentsAsync(string loanGuid, string conditionGuid);
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         #region Enhanced Condition Types
         public async Task<List<EnhancedConditionType>> GetEnhancedConditionTypesAsync()

@@ -1,14 +1,23 @@
 ﻿using ICE.SDKtoAPI.LenderApiContractsV1;
 using ICE.SDKtoAPI.Providers;
-using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<LoanContractLoanAssociate>> GetLoanAssociatesAsync();
+        Task<List<LoanContractLoanAssociate>> GetLoanAssociatesAsync(string guid);
+        Task<List<LoanContractLoanAssociate>> GetLoanAssociatesByRoleNameAsync(string roleName);
+        Task<List<LoanContractLoanAssociate>> GetLoanAssociatesByRoleNameAsync(string guid, string roleName);
+        Task<bool> AssignLoanAssociateAsync(string logId, LoanContractLoanAssociate user);
+        Task<bool> AssignLoanAssociateAsync(string logId, string associateType, string userId);
+        Task<bool> AssignLoanAssociateAsync(string guid, string logId, string associateType, string userId);
+        Task<bool> AssignLoanAssociateAsync(string guid, string logId, LoanContractLoanAssociate user);
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         public async Task<List<LoanContractLoanAssociate>> GetLoanAssociatesAsync() => await GetLoanAssociatesAsync(LoanGuid);
         public async Task<List<LoanContractLoanAssociate>> GetLoanAssociatesAsync(string guid)
@@ -25,7 +34,6 @@ namespace ICE.SDKtoAPI
             return null;
         }
         public async Task<List<LoanContractLoanAssociate>> GetLoanAssociatesByRoleNameAsync(string roleName) => await GetLoanAssociatesByRoleNameAsync(LoanGuid, roleName);
-
         public async Task<List<LoanContractLoanAssociate>> GetLoanAssociatesByRoleNameAsync(string guid, string roleName)
         {
             List<LoanContractLoanAssociate> associates = new List<LoanContractLoanAssociate>();

@@ -1,13 +1,18 @@
 ﻿using ICE.SDKtoAPI.Providers;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<string> ConvertMismoLoanAsync(string xml);
+        Task<bool> CreateLoanFromConvertedMismoAsync(string loan, string folder = "");
+        Task<bool> CreateLoanFromConvertedMismoAsync(object loan, string folder = "");
+        Task<bool> UpdateLoanFromMismoAsync(string guid, string xml);
+
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         public async Task<string> ConvertMismoLoanAsync(string xml)
         {

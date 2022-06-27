@@ -1,14 +1,21 @@
 ﻿using ICE.SDKtoAPI.LenderApiContractsV1;
 using ICE.SDKtoAPI.Providers;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<PersonaContract>> GetPersonasAsync();
+        Task<PersonaContract> GetPersonaAsync(string id);
+        Task<PersonaContract> GetPersonaGategoriesAsync(string id, string cats);
+        Task<PersonaContract> GetPersonaByNameAsync(string name);
+        Task<List<UserContract>> GetUsersWithPersonaAsync(PersonaContract persona);
+
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         public async Task<List<PersonaContract>> GetPersonasAsync()
         {

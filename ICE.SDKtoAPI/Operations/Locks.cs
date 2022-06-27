@@ -4,12 +4,39 @@ using ICE.SDKtoAPI.Providers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<RateLockSummaryContract>> GetRateLockSummaryRequestsAsync();
+        Task<List<RateLockSummaryContract>> GetRateLockSummaryRequestsAsync(string guid);
+        Task<List<ResourceLockContract>> GetResourceLockListAsync();
+        Task<List<ResourceLockContract>> GetResourceLockListAsync(string guid);
+        Task<ResourceLockContract> GetCurrentLockAsync(bool exclusiveOnly = false);
+        Task<string> GetCurrentLockByAsync(bool exclusiveOnly = false);
+        Task<bool> ForceUnlockAsync();
+        bool Unlock();
+        Task<bool> UnlockLoanAsync();
+        Task<bool> UnlockLoanAsync(bool force = false);
+        Task<bool> UnlockLoanAsync(string guid, bool force = false);
+        bool Lock();
+        Task<bool> LockLoanAsync();
+        Task<bool> LockLoanAsync(bool force);
+        Task<bool> LockLoanAsync(string guid, bool exclusive);
+        Task<RateLockSummaryContract> GetRateLockRequestAsync(string resourceGuid);
+        Task<RateLockSummaryContract> GetRateLockRequestAsync(string guid, string resourceGuid);
+        Task<RateLockSummaryContract> ExtendRateLockAsync(string guid, string resourceGuid, ExtendRateLock detail);
+        Task<RateLockSummaryContract> RelockRateLockAsync(string guid, string resourceGuid, ExtendRateLock detail);
+        Task<RateLockSummaryContract> ConfirmRateLockAsync(string guid, string resourceGuid, ConfirmRateLock detail);
+        Task<RateLockSummaryContract> ReviseRateLockAsync(string guid, string resourceGuid, RateLockSummaryContract detail);
+        Task<RateLockSummaryContract> CancelRateLockAsync(string guid, string resourceGuid, RateLockSummaryContract detail);
+        Task<List<LoanContractSnapshotFields>> GetRateLockShapshotAsync(string resourceGuid);
+        Task<List<LoanContractSnapshotFields>> GetRateLockSnapshotAsync(string guid, string resourceGuid);
+        Task<bool> ForceUnlockIfMoveToCancelDeclineFolderAsync(LoanFolder loanFolderToMoveTo);
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         #region Summary
         public async Task<List<RateLockSummaryContract>> GetRateLockSummaryRequestsAsync() => await GetRateLockSummaryRequestsAsync(LoanGuid);
@@ -54,17 +81,6 @@ namespace ICE.SDKtoAPI
             ResourceLockContract userId = await GetCurrentLockAsync(exclusiveOnly);
 
             return (userId != null) ? userId.Userid : string.Empty;
-        }
-        public bool IsLoanLocked
-        {
-            get
-            {
-                var locklist = GetCurrentLockAsync().Result;
-                if (locklist == null)
-                    return false;
-                else
-                    return true;
-            }
         }
         #endregion
 
@@ -234,6 +250,5 @@ namespace ICE.SDKtoAPI
             return result;
         }
         #endregion
-
     }
 }

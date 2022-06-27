@@ -1,14 +1,19 @@
 ﻿using ICE.SDKtoAPI.Contracts;
 using ICE.SDKtoAPI.Providers;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using static ICE.SDKtoAPI.Helpers.PipelineHelper;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<PipelineCanonicalFieldList> GetPipelineCanonicalNamesAsync();
+        Task<List<GuidCursor>> PipelineRequestAsync(PipelineQueryWithFields contract);
+        Task<List<GuidCursor>> PipelineRequestAsync(PipelineQueryWithFields contract, int limit);
+
+    }
+    public partial class LenderAPI : ILenderAPI
     {        
         public async Task<PipelineCanonicalFieldList> GetPipelineCanonicalNamesAsync()
         {

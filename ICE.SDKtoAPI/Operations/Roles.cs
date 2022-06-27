@@ -1,14 +1,20 @@
 ﻿using ICE.SDKtoAPI.LenderApiContractsV1;
 using ICE.SDKtoAPI.Providers;
-using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<RoleExtended>> GetRolesAsync();
+        Task<RoleExtended> GetRoleByNameAsync(string name);
+        Task<RoleExtended> GetRoleByAbbr(string abv);
+        Task<List<RoleExtended>> GetRoleLikeByNameAsync(string name);
+
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         public async Task<List<RoleExtended>> GetRolesAsync()
         {

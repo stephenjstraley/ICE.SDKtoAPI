@@ -9,7 +9,19 @@ using System.Threading.Tasks;
 
 namespace ICE.SDKtoAPI
 {
-    public partial class LenderAPI
+    public partial interface ILenderAPI
+    {
+        Task<List<WebHookResource>> GetWebHookResourcesAsync();
+        Task<List<WebHookResourceEvent>> GetWebHookResourceEventsAsync();
+        Task<List<WebHookSubscription>> GetWebHookSubscriptionsAsync();
+        Task<WebHookSubscription> GetWebHookSubscriptionAsync(string id);
+        Task<WebHookSubscription> CreateWebHookSubscriptionAsync(WebHookSubscription data);
+        Task<List<WebHookEvent>> GetWebHookEventsAsync(WebHookEventParameters parms = null);
+        Task<List<WebHookEvent>> GetWebHookEventsAsync(int numberToGet, WebHookEventParameters parms);
+        Task<List<WebHookEvent>> GetWebHookEventsAsync(DateTime date);
+        Task<List<WebHookEvent>> GetWebHookEventsAsync(WebHookEventParameters parms, DateTime date);
+    }
+    public partial class LenderAPI : ILenderAPI
     {
         public async Task<List<WebHookResource>> GetWebHookResourcesAsync()
         {
@@ -31,7 +43,7 @@ namespace ICE.SDKtoAPI
         {
             SetResponse();
             var provider = new WebHookProviderService(_accessToken);
-            var results = await provider.GetSubscriptsionsAsync();
+            var results = await provider.GetSubscriptionsAsync();
             _lastResponse = results.Item2;
             return results.Item1;
         }
@@ -39,7 +51,15 @@ namespace ICE.SDKtoAPI
         {
             SetResponse();
             var provider = new WebHookProviderService(_accessToken);
-            var results = await provider.GetSubscriptsionAsync(id);
+            var results = await provider.GetSubscriptionAsync(id);
+            _lastResponse = results.Item2;
+            return results.Item1;
+        }
+        public async Task<WebHookSubscription> CreateWebHookSubscriptionAsync(WebHookSubscription data)
+        {
+            SetResponse();
+            var provider = new WebHookProviderService(_accessToken);
+            var results = await provider.CreateSubscriptionAsync(data);
             _lastResponse = results.Item2;
             return results.Item1;
         }
@@ -120,7 +140,6 @@ namespace ICE.SDKtoAPI
                 return null;
         }
         public async Task<List<WebHookEvent>> GetWebHookEventsAsync(DateTime date) => await GetWebHookEventsAsync(new WebHookEventParameters(), date);
-
         public async Task<List<WebHookEvent>> GetWebHookEventsAsync(WebHookEventParameters parms, DateTime date)
         {
             var startDate = new DateTime(date.Year, date.Month, date.Day) + TimeSpan.Parse("00:00:00");
