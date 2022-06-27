@@ -17,8 +17,8 @@ namespace ICE.SDKtoAPI.Providers
         public async Task<Tuple<V3LoanSchema, LenderApiResponse>> GetV3LoanSchemaAsync()
         {
             paths.SetV3();
-
-            var usePath = paths.EncompassPathFull.AppendPathSegment("/schema/loan");
+            
+            var usePath = paths.EncompassPathFull.AppendPathSegment("/schemas/loan");
 
             var schema = await Get<V3LoanSchema>(usePath);
 

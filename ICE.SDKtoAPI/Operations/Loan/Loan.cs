@@ -258,6 +258,7 @@ namespace ICE.SDKtoAPI
         public async Task<V3LoanSchema> GetV3LoanSchemaAsync()
         {
             SetResponse();
+
             var service = new LoanProviderService(_accessToken);
             var results = await service.GetV3LoanSchemaAsync();
             _lastResponse = results.Item2;
