@@ -8309,7 +8309,7 @@ DISCLOSURE.X1170~ClosingDocument.AdditionalStateDisclosures[StateCode=NJ|Disclos
 DISCLOSURE.X1171~ClosingDocument.AdditionalStateDisclosures[StateCode=NJ|DisclosureName=AppraisalFeeRefundableIndicator].DisclosureValue~False~bool~False~State Disc - NJ -  Appraisal Fee Refundable Indicator~False~eDISCLOSURE_X1171~YN
 DISCLOSURE.X1172~ClosingDocument.AdditionalStateDisclosures[StateCode=NJ|DisclosureName=CreditReportFeeRefundableIndicator].DisclosureValue~False~bool~False~State Disc - NJ -  Credit Report Fee Refundable Indicator~False~eDISCLOSURE_X1172~YN
 DISCLOSURE.X1173~ClosingDocument.AdditionalStateDisclosures[StateCode=ND|DisclosureName=TotalNonRefundableCosts].DisclosureValue~False~decimal~False~North Dakota State Specific Disclosure - Total non refundable costs and expenses~False~~DECIMAL_2
-DISCLOSURE.X1174~ClosingDocument.AdditionalStateDisclosures[StateCode=TX|DisclosureName=Texas50a4].DisclosureValue~False~decimal~False~State Disc - Texas 50(a)(4)~False~eDISCLOSURE_X1174~YN
+DISCLOSURE.X1174~ClosingDocument.AdditionalStateDisclosures[StateCode=TX|DisclosureName=Texas50a4].DisclosureValue~False~bool~False~State Disc - Texas 50(a)(4)~False~eDISCLOSURE_X1174~YN
 DISCLOSURE.X1175~ClosingDocument.AdditionalStateDisclosures[StateCode=CT|DisclosureName=ApplicationFeeAmount].DisclosureValue~False~decimal~False~Connecticut State Specific Disclosure - Application Fee Amount~False~~DECIMAL_2
 DISCLOSURE.X1176~ClosingDocument.AdditionalStateDisclosures[StateCode=CT|DisclosureName=CreditReportFeeAmount].DisclosureValue~False~decimal~False~Connecticut State Specific Disclosure - Credit Report Fee Amount~False~~DECIMAL_2
 DISCLOSURE.X1177~ClosingDocument.AdditionalStateDisclosures[StateCode=CT|DisclosureName=AppraisalFeeAmount].DisclosureValue~False~decimal~False~Connecticut State Specific Disclosure - Appraisal Fee Amount~False~~DECIMAL_2
@@ -8804,7 +8804,7 @@ FICC.X23~FhaVaLoan.ConventionalUMIP~False~decimal~False~Informed Consumer Choice
 ^(FL)(\d2)(37$)~Applications{current}.Liabilities[AccountIndicator=True(1)].Title~False~string~False~Liability From Title~False~~STRING
 ^(FL)(\d2)(38$)~Applications{current}.Liabilities[AccountIndicator=True(1)].PrintUserNameIndicator~False~bool~False~Unk~False~eFL0038~YN
 ^(FL)(\d2)(39$)~Applications{current}.Liabilities[AccountIndicator=True(1)].PrepaymentPenaltyAmount~False~decimal~False~Liability PrePymt Penalty ~False~~DECIMAL_2
-^(FL)(\d2)(43$)~Applications{current}.Liabilities[AccountIndicator=True(1)].DescriptionOfPurpose~False~bool~False~Description Of Purpose~False~~STRING
+^(FL)(\d2)(43$)~Applications{current}.Liabilities[AccountIndicator=True(1)].DescriptionOfPurpose~False~string~False~Description Of Purpose~False~~STRING
 ^(FL)(\d2)(44$)~Applications{current}.Liabilities[AccountIndicator=True(1)].TitlePhone~False~string~False~Borr Employer From Phone~False~~PHONE
 ^(FL)(\d2)(45$)~Applications{current}.Liabilities[AccountIndicator=True(1)].TitleFax~False~string~False~Borr Employer From Fax~False~~PHONE
 ^(FL)(\d2)(46$)~Applications{current}.Liabilities[AccountIndicator=True(1)].Lates12Month30Day~False~int~False~Liability 12 Month 30 Day Lates~False~~INTEGER

@@ -49,7 +49,9 @@ namespace ICE.SDKtoAPI.Providers
             if (withNulls)
                 additional += "?includeEmpty=true";
 
-            var usePath = paths.LoanPathFull.AppendPathSegment($"/{guid}{additional}");
+            SaveResponse = true;
+
+            var usePath = paths.LoanPathFull + $"/{guid}{additional}";
 
             theFullLoan = await Get<LenderApiContractsV3.LoanContract>(usePath);
 

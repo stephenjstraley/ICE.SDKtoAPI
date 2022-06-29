@@ -34,7 +34,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string Description { get; set; }
 
         [DataMember(Name = "borrowerPair")]
-        public string BorrowerPair { get; set; }
+        public EntityReferenceContract BorrowerPair { get; set; }
 
         [DataMember(Name = "source")]
         public string Source { get; set; }
@@ -49,7 +49,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string AddedDate { get; set; }
 
         [DataMember(Name = "addedBy")]
-        public string AddedBy { get; set; }
+        public EntityReferenceContract AddedBy { get; set; }
 
         [DataMember(Name = "expectedDate")]
         public string ExpectedDate { get; set; }

@@ -52,7 +52,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string WaivedDate { get; set; }
 
         [DataMember(Name = "waivedBy")]
-        public string WaivedBy { get; set; }
+        public EntityReferenceContract WaivedBy { get; set; }
 
         [DataMember(Name = "expiredDate")]
         public string ExpiredDate { get; set; }

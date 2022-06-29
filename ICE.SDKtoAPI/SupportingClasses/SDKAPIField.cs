@@ -430,10 +430,17 @@ namespace ICE.SDKtoAPI.SupportingClasses
                                 return Convert.ToDecimal(value);
 
                         case "BOOL":
-                            if (string.IsNullOrEmpty(value.ToString()))
-                                return value.ToString();
+                            if (value.ToString() == "Y")
+                                return true;
+                            else if (value.ToString() == "N")
+                                return false;
                             else
-                                return Convert.ToBoolean(value);
+                            {
+                                if (string.IsNullOrEmpty(value.ToString()))
+                                    return value.ToString();
+                                else
+                                    return Convert.ToBoolean(value);
+                            }
 
                         case "DATE":
                         case "DATETIME":  // check for V1 if "//" for empty
@@ -2777,9 +2784,9 @@ namespace ICE.SDKtoAPI.SupportingClasses
         //}
         public T MainField<T>(string id)
         {
-            if (id.StartsWith("CX.TQLGS"))
+            if (id.StartsWith("DISCLOSURE.X1174"))
             {
-                // var stopHere = true;
+                var stopHere = true;
             }
 
             _lastCallId = id;
@@ -2948,10 +2955,33 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     //object qq = null;
                     IList property = null;
 
-                    if (_loadV3)
+                    if (left == "Applications")
                     {
+                        dynamic t;
+                        dynamic u;
+                        dynamic v;
+
+                        if (_loadV3)
+                        {
+                            t = _loanV3.GetType();
+                            u = t.GetProperty(left);
+                            v = u.GetValue(_loanV3);
+                        }
+                        else
+                        {
+                            t = _loan.GetType();
+                            u = t.GetProperty(left);
+                            v = u.GetValue(_loan);
+                        }
+
+                        var w = (IList)v;
+
                         //    q = _loanV3.GetType().GetProperty("Applications");
                         //    qq = q.GetValue(_loanV3);
+                    }
+
+                    if (_loadV3)
+                    {
                         property = (IList)_loanV3.GetType().GetProperty(left).GetValue(_loanV3);
                     }
                     else

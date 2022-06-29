@@ -643,7 +643,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public bool? SofDCoBorrForeignAddressIndicator { get; set; }
 
         [DataMember(Name = "ausTracking")]
-        public string AusTracking { get; set; }
+        public AUSTrackingContract AusTracking { get; set; }
 
         [DataMember(Name = "ausTrackingLogs")]
         public List<AUSTrackingLogContract> AusTrackingLogs { get; set; }
