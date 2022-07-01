@@ -2955,30 +2955,30 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     //object qq = null;
                     IList property = null;
 
-                    if (left == "Applications")
-                    {
-                        dynamic t;
-                        dynamic u;
-                        dynamic v;
+                    //if (left == "Applications")
+                    //{
+                    //    dynamic t;
+                    //    dynamic u;
+                    //    dynamic v;
 
-                        if (_loadV3)
-                        {
-                            t = _loanV3.GetType();
-                            u = t.GetProperty(left);
-                            v = u.GetValue(_loanV3);
-                        }
-                        else
-                        {
-                            t = _loan.GetType();
-                            u = t.GetProperty(left);
-                            v = u.GetValue(_loan);
-                        }
+                    //    if (_loadV3)
+                    //    {
+                    //        t = _loanV3.GetType();
+                    //        u = t.GetProperty(left);
+                    //        v = u.GetValue(_loanV3);
+                    //    }
+                    //    else
+                    //    {
+                    //        t = _loan.GetType();
+                    //        u = t.GetProperty(left);
+                    //        v = u.GetValue(_loan);
+                    //    }
 
-                        var w = (IList)v;
+                    //    var w = (IList)v;
 
-                        //    q = _loanV3.GetType().GetProperty("Applications");
-                        //    qq = q.GetValue(_loanV3);
-                    }
+                    //    //    q = _loanV3.GetType().GetProperty("Applications");
+                    //    //    qq = q.GetValue(_loanV3);
+                    //}
 
                     if (_loadV3)
                     {

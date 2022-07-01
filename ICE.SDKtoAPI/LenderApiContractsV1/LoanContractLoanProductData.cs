@@ -175,6 +175,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="helocRepaymentDrawPeriods", EmitDefaultValue=false)]
 		public List<LoanContractLoanProductDataHelocRepaymentDrawPeriods> HelocRepaymentDrawPeriods { get; set; }
 
+		[DataMember(Name = "helocRepaymentBasis", EmitDefaultValue = false)]
+		public bool? HelocRepaymentBasis { get; set; }
+
 		[DataMember(Name="id", EmitDefaultValue=false)]
 		public string Id { get; set; }
 
@@ -417,6 +420,129 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="wireFee", EmitDefaultValue=false)]
 		public double? WireFee { get; set; }
+
+		[DataMember(Name = "helocEscrowAccountIndicator", EmitDefaultValue = false)]
+		public bool? HelocEscrowAccountIndicator { get; set; }
+
+		[DataMember(Name = "helocDrawPaymentBasis", EmitDefaultValue = false)]
+		public bool? HelocDrawPaymentBasis { get; set; }
+
+		[DataMember(Name = "helocDrawPaymentBasisType", EmitDefaultValue = false)]
+		public string HelocDrawPaymentBasisType { get; set; }
+
+		[DataMember(Name = "helocTaRepaymentTermEndBy", EmitDefaultValue = false)]
+		public string HelocTaRepaymentTermEndBy { get; set; }
+
+		[DataMember(Name = "helocTaAprCharged", EmitDefaultValue = false)]
+		public decimal? HelocTaAprCharged { get; set; }
+
+		[DataMember(Name = "helocTaFeesCharged", EmitDefaultValue = false)]
+		public string HelocTaFeesCharged { get; set; }
+
+		[DataMember(Name = "helocTaIntroRateAppliedOn", EmitDefaultValue = false)]
+		public string HelocTaIntroRateAppliedOn { get; set; }
+
+		[DataMember(Name = "helocTaOverLimitChargeOption", EmitDefaultValue = false)]
+		public string HelocTaOverLimitChargeOption { get; set; }
+
+		[DataMember(Name = "helocTaDrawCheckIndicator", EmitDefaultValue = false)]
+		public string HelocTaDrawCheckIndicator { get; set; }
+
+		[DataMember(Name = "helocTaRequestByPhoneIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaRequestByPhoneIndicator { get; set; }
+
+		[DataMember(Name = "helocTaWrittenAuthorizationIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaWrittenAuthorizationIndicator { get; set; }
+
+		[DataMember(Name = "helocTaCreditCardIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaCreditCardIndicator { get; set; }
+
+		[DataMember(Name = "helocTaOverdraftProtectionIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaOverdraftProtectionIndicator { get; set; }
+
+		[DataMember(Name = "helocTaRequestAdvanceInPersonIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaRequestAdvanceInPersonIndicator { get; set; }
+
+		[DataMember(Name = "helocTaRequestAdvanceViaInternetIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaRequestAdvanceViaInternetIndicator { get; set; }
+
+		[DataMember(Name = "helocTaRequestAdvanceInPersonLocation", EmitDefaultValue = false)]
+		public string HelocTaRequestAdvanceInPersonLocation { get; set; }
+
+		[DataMember(Name = "helocTaRequestAdvanceViaInternetUrl", EmitDefaultValue = false)]
+		public string HelocTaRequestAdvanceViaInternetUrl { get; set; }
+
+		[DataMember(Name = "helocTaAppRoundingOption", EmitDefaultValue = false)]
+		public string HelocTaAppRoundingOption { get; set; }
+
+		[DataMember(Name = "helocTaDailyBalanceType", EmitDefaultValue = false)]
+		public string HelocTaDailyBalanceType { get; set; }
+
+		[DataMember(Name = "helocTaIndexRefDateOption", EmitDefaultValue = false)]
+		public string HelocTaIndexRefDateOption { get; set; }
+
+		[DataMember(Name = "helocTaPeriodicRateAdjDayOption", EmitDefaultValue = false)]
+		public string HelocTaPeriodicRateAdjDayOption { get; set; }
+
+		[DataMember(Name = "helocTaAppChangeOption", EmitDefaultValue = false)]
+		public string HelocTaAppChangeOption { get; set; }
+
+		[DataMember(Name = "helocTaPeriodicCapAppliedToAdvancePeriod", EmitDefaultValue = false)]
+		public bool? HelocTaPeriodicCapAppliedToAdvancePeriod { get; set; }
+
+		[DataMember(Name = "helocTaPeriodicCapAppliedToRepaymentPeriod", EmitDefaultValue = false)]
+		public bool? HelocTaPeriodicCapAppliedToRepaymentPeriod { get; set; }
+
+		[DataMember(Name = "helocTaDailyRateRoundingOption", EmitDefaultValue = false)]
+		public string HelocTaDailyRateRoundingOption { get; set; }
+
+		[DataMember(Name = "helocTaInstallmentLoanPeriodicRateRoundingPercent", EmitDefaultValue = false)]
+		public decimal? HelocTaInstallmentLoanPeriodicRateRoundingPercent { get; set; }
+
+		[DataMember(Name = "helocTaInstallmentLoanDiscountedAprIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaInstallmentLoanDiscountedAprIndicator { get; set; }
+
+		[DataMember(Name = "helocTaInstallmentLoanDiscountWord", EmitDefaultValue = false)]
+		public string HelocTaInstallmentLoanDiscountWord { get; set; }
+
+		[DataMember(Name = "helocTaInstallmentIndexRefDateOption", EmitDefaultValue = false)]
+		public string HelocTaInstallmentIndexRefDateOption { get; set; }
+
+		[DataMember(Name = "helocTaInstallmentLoanTerminationMethod", EmitDefaultValue = false)]
+		public string HelocTaInstallmentLoanTerminationMethod { get; set; }
+
+		[DataMember(Name = "helocTaInstallmentLoanPaymentAppliedMethod", EmitDefaultValue = false)]
+		public string HelocTaInstallmentLoanPaymentAppliedMethod { get; set; }
+
+		[DataMember(Name = "helocTaRequireRepayIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaRequireRepayIndicator { get; set; }
+
+		[DataMember(Name = "helocTaLenderToPay3rdPartyCost", EmitDefaultValue = false)]
+		public string HelocTaLenderToPay3rdPartyCost { get; set; }
+
+		[DataMember(Name = "helocTaRightToSetoffIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaRightToSetoffIndicator { get; set; }
+
+		[DataMember(Name = "helocTaAlNonDepositoryIndicator", EmitDefaultValue = false)]
+		public bool? HelocTaAlNonDepositoryIndicator { get; set; }
+
+		[DataMember(Name = "helocTaCreditCardMisuseNotificationAddr", EmitDefaultValue = false)]
+		public string HelocTaCreditCardMisuseNotificationAddr { get; set; }
+
+		[DataMember(Name = "helocTaCreditCardMisuseNotificationPhoneNumber", EmitDefaultValue = false)]
+		public string HelocTaCreditCardMisuseNotificationPhoneNumber { get; set; }
+
+		[DataMember(Name = "helocTaCreditCardMisuseNotificationWebAddr", EmitDefaultValue = false)]
+		public string HelocTaCreditCardMisuseNotificationWebAddr { get; set; }
+
+		[DataMember(Name = "helocTaCreditCardMisuseNotificationEmailAddr", EmitDefaultValue = false)]
+		public string HelocTaCreditCardMisuseNotificationEmailAddr { get; set; }
+
+		[DataMember(Name = "helocHistoricalTableName", EmitDefaultValue = false)]
+		public string HelocHistoricalTableName { get; set; }
+
+		[DataMember(Name = "helocStandardHistoricalTableIndicator", EmitDefaultValue = false)]
+		public bool? HelocStandardHistoricalTableIndicator { get; set; }
 
 	}
 }

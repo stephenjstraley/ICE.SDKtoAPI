@@ -68,5 +68,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="wiredToForFurtherCreditTo2", EmitDefaultValue=false)]
 		public string WiredToForFurtherCreditTo2 { get; set; }
 
+		[DataMember(Name = "wireAmount", EmitDefaultValue = false)]
+		public decimal? WireAmount { get; set; }
 	}
 }

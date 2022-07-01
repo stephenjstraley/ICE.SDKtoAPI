@@ -128,5 +128,87 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="verificationRequestDate", EmitDefaultValue=false)]
 		public DateTime? VerificationRequestDate { get; set; }
 
+		[DataMember(Name = "employmentStartDate", EmitDefaultValue = false)]
+		public DateTime? EmploymentStartDate { get; set; }
+
+		[DataMember(Name = "jobTermMonths", EmitDefaultValue = false)]
+		public int? JobTermMonths { get; set; }
+
+		[DataMember(Name = "urla2020StreetAddress", EmitDefaultValue = false)]
+		public string Urla2020StreetAddress { get; set; }
+
+		[DataMember(Name = "countryCode", EmitDefaultValue = false)]
+		public string CountryCode { get; set; }
+
+		[DataMember(Name = "country", EmitDefaultValue = false)]
+		public string Country { get; set; }
+
+		[DataMember(Name = "militaryEntitlement", EmitDefaultValue = false)]
+		public decimal? MilitaryEntitlement { get; set; }
+
+		[DataMember(Name = "specialEmployerRelationshipIndicator", EmitDefaultValue = false)]
+		public bool? SpecialEmployerRelationshipIndicator { get; set; }
+
+		[DataMember(Name = "ownershipInterestType", EmitDefaultValue = false)]
+		public string OwnershipInterestType { get; set; }
+
+		[DataMember(Name = "employmentMonthlyIncomeAmount", EmitDefaultValue = false)]
+		public decimal? EmploymentMonthlyIncomeAmount { get; set; }
+
+		[DataMember(Name = "unitType", EmitDefaultValue = false)]
+		public string UnitType { get; set; }
+
+		[DataMember(Name = "unitNumber", EmitDefaultValue = false)]
+		public string UnitNumber { get; set; }
+
+		[DataMember(Name = "individualEmployer", EmitDefaultValue = false)]
+		public bool? IndividualEmployer { get; set; }
+
+		[DataMember(Name = "militaryEmployer", EmitDefaultValue = false)]
+		public bool? MilitaryEmployer { get; set; }
+
+		[DataMember(Name = "printUserJobTitleIndicator", EmitDefaultValue = false)]
+		public bool PrintUserJobTitleIndicator { get; set; }
+
+		[DataMember(Name = "militaryCombatPay", EmitDefaultValue = false)]
+		public decimal? MilitaryCombatPay { get; set; }
+
+		[DataMember(Name = "militaryHazardPay", EmitDefaultValue = false)]
+		public decimal? MilitaryHazardPay { get; set; }
+
+		[DataMember(Name = "militaryOverseasPay", EmitDefaultValue = false)]
+		public decimal? MilitaryOverseasPay { get; set; }
+
+		[DataMember(Name = "militaryPropPay", EmitDefaultValue = false)]
+		public decimal? MilitaryPropPay { get; set; }
+
+		[DataMember(Name = "clothingAllowance", EmitDefaultValue = false)]
+		public decimal? ClothingAllowance { get; set; }
+
+		[DataMember(Name = "rationsAllowance", EmitDefaultValue = false)]
+		public decimal? RationsAllowance { get; set; }
+
+		[DataMember(Name = "variableHousingAllowance", EmitDefaultValue = false)]
+		public decimal? VariableHousingAllowance { get; set; }
+
+		[DataMember(Name = "quartersAllowance", EmitDefaultValue = false)]
+		public decimal? QuartersAllowance { get; set; }
+
+		[DataMember(Name = "otherAllowanceDescription", EmitDefaultValue = false)]
+		public string OtherAllowanceDescription { get; set; }
+
+		[DataMember(Name = "foreignIncome", EmitDefaultValue = false)]
+		public bool? ForeignIncome { get; set; }
+
+		[DataMember(Name = "seasonalIncome", EmitDefaultValue = false)]
+		public bool? SeasonalIncome { get; set; }
+
+		[DataMember(Name = "verificationDate", EmitDefaultValue = false)]
+		public DateTime? VerificationDate { get; set; }
+
+		[DataMember(Name = "foreignAddressIndicator", EmitDefaultValue = false)]
+		public bool? ForeignAddressIndicator { get; set; }
+
+
 	}
 }

@@ -748,5 +748,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="years", EmitDefaultValue=false)]
 		public int? Years { get; set; }
 
+		[DataMember(Name = "interestAccrual", EmitDefaultValue = false)]
+		public string InterestAccrual { get; set; }
+
 	}
 }

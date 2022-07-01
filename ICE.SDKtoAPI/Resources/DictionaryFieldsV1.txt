@@ -419,7 +419,7 @@
 652~Fees[FeeType=UserDefined_1109].Description~False~string~False~Lender's Title Policy Limit~False~~STRING
 655~Fees[FeeType=PropertyTaxes].BorPaidAmount~False~decimal~False~Fees Tax Borr~False~~DECIMAL_2
 656~Fees[FeeType=HazardInsurance].BorPaidAmount~False~decimal~False~Fees Hazard Ins Borr~False~~DECIMAL_2
-657~Fees[FeeType=HazardInsurance].BorPaidAmount~False~decimal~False~Fees Flood Ins Borr~False~~DECIMAL_2
+657~Fees[FeeType=FloodInsurance].BorPaidAmount~False~decimal~False~Fees Flood Ins Borr~False~~DECIMAL_2
 658~Fees[FeeType=UserDefined_1007].BorPaidAmount~False~decimal~False~Fees Line 1008 Borr~False~~DECIMAL_2
 659~Fees[FeeType=UserDefined_1008].BorPaidAmount~False~decimal~False~Fees Line 1009 Borr~False~~DECIMAL_2
 660~Fees[FeeType=UserDefined_1007].Description~False~decimal~False~Fees Line 1008 Descr~False~~STRING
@@ -3750,12 +3750,12 @@
 4511~RateLock.TeaserRate~False~decimal~False~~False~~DECIMAL_3
 4512~RateLock.DisclosureType~False~string~False~~False~e4512~STRING
 4513~RateLock.IndexCurrentValuePercent~False~decimal~False~~False~~DECIMAL_3
-4514~RateLock.HcltvHtltv~False~decimal~False~~False~~DECIMAL_3
-4515~RateLock.FhaSecondaryResidence~False~bool~False~~False~e4515~YN
+4514~RateLock.HCLTVHTLTV~False~decimal~False~~False~~DECIMAL_3
+4515~RateLock.FHASecondaryResidence~False~bool~False~~False~e4515~YN
 4516~RateLock.SubjectPropertyPropertyStreetAddress~False~string~False~~False~~STRING
 4517~RateLock.SubjectPropertyUnitType~False~string~False~~False~e4517~STRING
 4518~RateLock.SubjectPropertyUnitNumber~False~string~False~~False~~STRING
-4519~RateLock.HelocCreditLimit~False~decimal~False~~False~~DECIMAL_2
+4519~RateLock.HELOCCreditLimit~False~decimal~False~~False~~DECIMAL_2
 4520~ValuationUsed~True~decimal~False~Valuation Used for LTV~False~~DECIMAL_3
 4521~ExistingLiensAndDrawUsed~True~decimal~False~Existing Liens And Draw Used~False~~DECIMAL_3
 4522~ExistingLiensUsed~True~decimal~False~Existing Liens Used~False~~DECIMAL_3

@@ -12,7 +12,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="addressCity", EmitDefaultValue=false)]
 		public string AddressCity { get; set; }
 
-		[DataMember(Name="addressPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name= "addressPostalCode", EmitDefaultValue=false)]
 		public string AddressPostalCode { get; set; }
 
 		[DataMember(Name="addressState", EmitDefaultValue=false)]
@@ -108,6 +108,20 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="titlePhone", EmitDefaultValue=false)]
 		public string TitlePhone { get; set; }
 
+		[DataMember(Name = "addressUnitDesignatorType", EmitDefaultValue = false)]
+		public string AddressUnitDesignatorType { get; set; }
+
+		[DataMember(Name = "uRLA2020StreetAddress", EmitDefaultValue = false)]
+		public string URLA2020StreetAddress { get; set; }
+
+		[DataMember(Name = "addressUnitIdentifier", EmitDefaultValue = false)]
+		public string AddressUnitIdentifier { get; set; }
+
+		[DataMember(Name = "countryCode", EmitDefaultValue = false)]
+		public string CountryCode { get; set; }
+
+		[DataMember(Name = "country", EmitDefaultValue = false)]
+		public string Country { get; set; }
 
 	}
 }

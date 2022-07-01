@@ -16,5 +16,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="purchaseCreditType", EmitDefaultValue=false)]
 		public string PurchaseCreditType { get; set; }
 
+		[DataMember(Name = "purchaseCreditSource", EmitDefaultValue = false)]
+		public string PurchaseCreditSource { get; set; }
 	}
 }

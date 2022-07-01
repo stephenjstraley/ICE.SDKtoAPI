@@ -817,7 +817,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="correspondentWarehouseBankFurtherCreditAcctNum", EmitDefaultValue=false)]
 		public string CorrespondentWarehouseBankFurtherCreditAcctNum { get; set; }
 
-		[DataMember(Name="correspondentWarehouseBankId", EmitDefaultValue=false)]
+		[DataMember(Name= "correspondentWarehouseBankId", EmitDefaultValue=false)]
 		public int? CorrespondentWarehouseBankId { get; set; }
 
 		[DataMember(Name="correspondentWarehouseBankName", EmitDefaultValue=false)]
@@ -1632,6 +1632,22 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="usePoint", EmitDefaultValue=false)]
 		public bool? UsePoint { get; set; }
+
+		[DataMember(Name = "hCLTVHTLTV", EmitDefaultValue = false)]
+		public decimal? HCLTVHTLTV { get; set; }
+
+		[DataMember(Name = "FHASecondaryResidence", EmitDefaultValue = false)]
+		public bool? FHASecondaryResidence { get; set; }
+
+		[DataMember(Name = "subjectPropertyPropertyStreetAddress", EmitDefaultValue = false)]
+		public string SubjectPropertyPropertyStreetAddress { get; set; }
+
+		[DataMember(Name = "hELOCCreditLimit", EmitDefaultValue = false)]
+		public decimal? HELOCCreditLimit { get; set; }
+
+		[DataMember(Name = "notInProjectIndicator", EmitDefaultValue = false)]
+		public bool? NotInProjectIndicator { get; set; }
+
 
 	}
 }

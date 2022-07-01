@@ -619,5 +619,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="vaSummaryTotalMonthlyGrossIncomeAmount", EmitDefaultValue=false)]
 		public double? VaSummaryTotalMonthlyGrossIncomeAmount { get; set; }
 
+		[DataMember(Name = "borrowerPairId", EmitDefaultValue = false)]
+		public string BorrowerPairId { get; set; }
+
 	}
 }

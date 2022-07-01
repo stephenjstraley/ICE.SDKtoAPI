@@ -1075,5 +1075,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="websiteId", EmitDefaultValue=false)]
 		public string WebsiteId { get; set; }
 
+		[DataMember(Name = "mersOrgId", EmitDefaultValue = false)]
+		public string MersOrgId { get; set; }
+
+		[DataMember(Name = "mom", EmitDefaultValue = false)]
+		public bool? Mom { get; set; }
+
+		[DataMember(Name = "isLoanAmountRounding", EmitDefaultValue = false)]
+		public bool? IsLoanAmountRounding { get; set; }
 	}
 }
