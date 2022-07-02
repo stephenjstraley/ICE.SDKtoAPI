@@ -86,6 +86,8 @@ namespace ICE.SDKtoAPI
         public List<APISchema> DynamicSchema => Fields?.DynamicSchema ?? null;
         public List<string> CustomFields => Fields?.GetCustomFields().Result.Select(testc => testc.Id).ToList() ?? null;
         public List<string> VirtualFields => Fields?.VirtualSchema ?? null;
+        public bool SetTraceOn { get; set; } = false;
+        public List<string> TraceFields { get; set; } = new List<string>();
         public bool IsLoanLocked
         {
             get
