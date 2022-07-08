@@ -650,5 +650,17 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="writtenApplicationDate", EmitDefaultValue=false)]
 		public DateTime? WrittenApplicationDate { get; set; }
 
+		[DataMember(Name = "gseagencyQmStatusQmAvailable", EmitDefaultValue = false)]
+		public string GseagencyQmStatusQmAvailable { get; set; }
+
+		[DataMember(Name = "qmAprPercentage", EmitDefaultValue = false)]
+		public decimal? QmAprPercentage { get; set; }
+
+		[DataMember(Name = "isQmHigherPricedLoan", EmitDefaultValue = false)]
+		public string IsQmHigherPricedLoan { get; set; }
+
+		[DataMember(Name = "standardQmStatusPriceLimit", EmitDefaultValue = false)]
+		public string StandardQmStatusPriceLimit { get; set; }
+
 	}
 }

@@ -4858,8 +4858,8 @@ CD3.X6~ClosingCost.ClosingDisclosure3.Adjustments15_1~True~string~False~Adjustme
 CD3.X7~ClosingCost.ClosingDisclosure3.Adjustments15_2~True~decimal~False~Adjustments15_2~False~~DECIMAL_2
 CD3.X9~ClosingCost.ClosingDisclosure3.OtherCredits6_1~True~string~False~OtherCredits6_1~False~~STRING
 CD3.X10~ClosingCost.ClosingDisclosure3.OtherCredits6_2~True~decimal~False~OtherCredits6_2~False~~DECIMAL_2
-CD3.X11~ClosingCost.ClosingDisclosure3.OtherCredits7_1~True~string~False~OtherCredits7_1~True~~STRING
-CD3.X12~ClosingCost.ClosingDisclosure3.OtherCredits7_2~True~decimal~False~OtherCredits7_2~False~~DECIMAL_2
+CD3.X11~ClosingCost.ClosingDisclosure3.OtherCredits71~True~string~False~OtherCredits7_1~True~~STRING
+CD3.X12~ClosingCost.ClosingDisclosure3.OtherCredits72~True~decimal~False~OtherCredits7_2~False~~DECIMAL_2
 CD3.X13~ClosingCost.ClosingDisclosure3.Adjustments8_1~True~string~False~Adjustments8_1~False~~STRING
 CD3.X14~ClosingCost.ClosingDisclosure3.Adjustments8_2~True~decimal~False~Adjustments8_2~False~~DECIMAL_2
 CD3.X15~ClosingCost.ClosingDisclosure3.Adjustments9_1~True~string~False~Adjustments9_1~False~~STRING
@@ -17114,7 +17114,7 @@ NMLS.X15~LoanProductData.ExcludeLoanFromNMLSReportIndicator~False~bool~False~NML
 NMLS.X16~LoanProductData.NmlsPropertyType~False~string~False~NMLS Subject Property Type~False~eNMLS_X16~STRING
 NMLS.X17~LoanProductData.NmlsLienStatus~False~string~False~NMLS Trans Details Lien Status~False~eNMLS_X17~STRING
 NOTICES.X1~DisclosureNotices.OccupancyStatementIndicator~False~bool~False~Disclosure Occupancy Stmnt~False~eNOTICES_X1~YN
-NOTICES.X2~DisclosureNotices.DisclosureNotices~False~string~False~Disclosure ECOA Name~False~~STRING
+NOTICES.X2~DisclosureNotices.EcoaName~False~string~False~Disclosure ECOA Name~False~~STRING
 NOTICES.X3~DisclosureNotices.EcoaAddress~False~string~False~Disclosure ECOA Addr~False~~STRING
 NOTICES.X4~DisclosureNotices.EcoaAddress2~False~string~False~Disclosure ECOA Addr 2~False~~STRING
 NOTICES.X5~DisclosureNotices.EcoaCity~False~string~False~Disclosure ECOA City~False~~STRING
@@ -17203,9 +17203,9 @@ NOTICES.X91~PrivacyPolicy.DaysToUse~False~int~False~Privacy Policy Information N
 NOTICES.X92~PrivacyPolicy.PhoneForQuestion~False~string~False~Privacy Policy Information Phone Number for Question~False~~PHONE
 NOTICES.X93~PrivacyPolicy.WebsiteForQuestion~False~string~False~Privacy Policy Information Website for Question~False~~STRING
 NOTICES.X94~PrivacyPolicy.AlsoCollectFrom~False~string~False~Privacy Policy Information Institutions that collect personal information from their affiliates and credit bureaus~False~eNOTICES_X94~STRING
-NOTICES.X95~PrivacyPolicy.NFIPCommunityNumber~False~string~False~Disclosure NFIP Community Number~False~~STRING
-NOTICES.X96~PrivacyPolicy.NFIPMapEffectiveRevisedDate~False~date~False~Disclosure NFIP Map Panel Effective/Revised Date~False~~DATE
-NOTICES.X97~PrivacyPolicy.MapPanelNumber~False~string~False~Disclosure Map Panel Number~False~~STRING
+NOTICES.X95~DisclosureNotices.NFIPCommunityNumber~False~string~False~Disclosure NFIP Community Number~False~~STRING
+NOTICES.X96~DisclosureNotices.NFIPMapEffectiveRevisedDate~False~date~False~Disclosure NFIP Map Panel Effective/Revised Date~False~~DATE
+NOTICES.X97~DisclosureNotices.MapPanelNumber~False~string~False~Disclosure Map Panel Number~False~~STRING
 NOTICES.X98~PrivacyPolicy.Month~False~string~False~Privacy Policy Month~False~eNOTICES_X98~STRING
 NOTICES.X99~PrivacyPolicy.Year~False~int~False~Privacy Policy Year~False~~INTEGER
 NOTICES.X100~PrivacyPolicy.NFIPParticipationStatus~False~string~False~Disclosure NFIP Participation Status Type~False~~STRING

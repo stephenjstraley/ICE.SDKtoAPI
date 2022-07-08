@@ -59,8 +59,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="escrowedIndicator2015", EmitDefaultValue=false)]
 		public bool? EscrowedIndicator2015 { get; set; }
 
-		[DataMember(Name="financedIndicator", EmitDefaultValue=false)]
-		public bool? FinancedIndicator { get; set; }
+		[DataMember(Name = "financedIndicator", EmitDefaultValue = false)]
+		public bool? FinancedIndicator { get; set; } = false;
 
 		[DataMember(Name="gfe2010FeeIndex", EmitDefaultValue=false)]
 		public int? Gfe2010FeeIndex { get; set; }
@@ -119,8 +119,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="paidToName", EmitDefaultValue=false)]
 		public string PaidToName { get; set; }
 
-		[DataMember(Name="pocPtcIndicator", EmitDefaultValue=false)]
-		public bool? PocPtcIndicator { get; set; }
+		[DataMember(Name = "pocPtcIndicator", EmitDefaultValue = false)]
+		public bool? PocPtcIndicator { get; set; } = false;
 
 		[DataMember(Name="propertyIndicator2015", EmitDefaultValue=false)]
 		public bool? PropertyIndicator2015 { get; set; }
@@ -140,8 +140,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="sellerAmountPaid2015", EmitDefaultValue=false)]
 		public double? SellerAmountPaid2015 { get; set; }
 
-		[DataMember(Name="sellerCreditIndicator2015", EmitDefaultValue=false)]
-		public bool? SellerCreditIndicator2015 { get; set; }
+		[DataMember(Name = "sellerCreditIndicator2015", EmitDefaultValue = false)]
+		public bool? SellerCreditIndicator2015 { get; set; } = false;
 
 		[DataMember(Name="sellerObligatedAmount2015", EmitDefaultValue=false)]
 		public double? SellerObligatedAmount2015 { get; set; }

@@ -24,7 +24,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		public string BorrowerId { get; set; }
 
 		[DataMember(Name="cashOrMarketValueAmount", EmitDefaultValue=false)]
-		public double? CashOrMarketValueAmount { get; set; }
+		public decimal? CashOrMarketValueAmount { get; set; }
 
 		[DataMember(Name="contact", EmitDefaultValue=false)]
 		public EntityRefContract Contact { get; set; }
@@ -72,28 +72,28 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		public string Id { get; set; }
 
 		[DataMember(Name="isEmpty", EmitDefaultValue=false)]
-		public bool? IsEmpty { get; set; }
+		public bool? IsEmpty { get; set; } = false;
 
 		[DataMember(Name="isVod", EmitDefaultValue=false)]
-		public bool? IsVod { get; set; }
+		public bool? IsVod { get; set; } = false;
 
 		[DataMember(Name="lifeInsuranceFaceValueAmount", EmitDefaultValue=false)]
-		public double? LifeInsuranceFaceValueAmount { get; set; }
+		public decimal? LifeInsuranceFaceValueAmount { get; set; }
 
 		[DataMember(Name="nameInAccount", EmitDefaultValue=false)]
 		public string NameInAccount { get; set; }
 
 		[DataMember(Name="noLinkToDocTrackIndicator", EmitDefaultValue=false)]
-		public bool? NoLinkToDocTrackIndicator { get; set; }
+		public bool? NoLinkToDocTrackIndicator { get; set; } = false;
 
 		[DataMember(Name="owner", EmitDefaultValue=false)]
 		public string Owner { get; set; }
 
-		[DataMember(Name="printAttachmentIndicator", EmitDefaultValue=false)]
-		public bool? PrintAttachmentIndicator { get; set; }
+		[DataMember(Name = "printAttachmentIndicator", EmitDefaultValue = false)]
+		public bool? PrintAttachmentIndicator { get; set; } = false;
 
 		[DataMember(Name="printUserNameIndicator", EmitDefaultValue=false)]
-		public bool? PrintUserNameIndicator { get; set; }
+		public bool? PrintUserNameIndicator { get; set; } = false;
 
 		[DataMember(Name="title", EmitDefaultValue=false)]
 		public string Title { get; set; }
@@ -101,14 +101,17 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="titleFax", EmitDefaultValue=false)]
 		public string TitleFax { get; set; }
 
-		[DataMember(Name="titlePhone", EmitDefaultValue=false)]
+		[DataMember(Name= "titlePhone", EmitDefaultValue=false)]
 		public string TitlePhone { get; set; }
 
 		[DataMember(Name="total", EmitDefaultValue=false)]
-		public double? Total { get; set; }
+		public decimal? Total { get; set; }
 
 		[DataMember(Name="vodIndex", EmitDefaultValue=false)]
 		public int? VodIndex { get; set; }
+
+		[DataMember(Name = "includeInAusExport", EmitDefaultValue = false)]
+		public bool? IncludeInAusExport { get; set; } = false;
 
 	}
 }

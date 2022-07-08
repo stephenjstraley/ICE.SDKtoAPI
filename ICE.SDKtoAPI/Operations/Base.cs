@@ -86,7 +86,17 @@ namespace ICE.SDKtoAPI
         public List<APISchema> DynamicSchema => Fields?.DynamicSchema ?? null;
         public List<string> CustomFields => Fields?.GetCustomFields().Result.Select(testc => testc.Id).ToList() ?? null;
         public List<string> VirtualFields => Fields?.VirtualSchema ?? null;
-        public bool SetTraceOn { get; set; } = false;
+        public bool SetTraceOn 
+        {
+            get
+            {
+                return Fields.SetTraceOn;
+            }
+            set
+            {
+                Fields.SetTraceOn = value;
+            }
+        }
         public List<string> TraceFields { get; set; } = new List<string>();
         public bool IsLoanLocked
         {
@@ -188,6 +198,16 @@ namespace ICE.SDKtoAPI
             return this;
         }
 
+        public void Trace()
+        {
+            if (Fields.SetTraceOn)
+            {
+                foreach (var id in TraceFields)
+                {
+                    var temp = Fields[id];
+                }
+            }
+        }
 
 
         #region Field Enhancement Ops

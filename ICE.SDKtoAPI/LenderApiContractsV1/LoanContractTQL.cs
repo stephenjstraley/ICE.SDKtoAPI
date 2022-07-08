@@ -181,26 +181,26 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="tQLFraudAlerts", EmitDefaultValue=false)]
 		public List<LoanContractTQLTQLFraudAlerts> TQLFraudAlerts { get; set; }
 
-		[DataMember(Name="tQLFraudAlertsTotal", EmitDefaultValue=false)]
-		public int? TQLFraudAlertsTotal { get; set; }
+		[DataMember(Name = "tQLFraudAlertsTotal", EmitDefaultValue = false)]
+		public int? TQLFraudAlertsTotal { get; set; } = 0;
 
 		[DataMember(Name="tQLFraudAlertsTotalHigh", EmitDefaultValue=false)]
-		public int? TQLFraudAlertsTotalHigh { get; set; }
+		public int? TQLFraudAlertsTotalHigh { get; set; } = 0;
 
 		[DataMember(Name="tQLFraudAlertsTotalHighUnaddressed", EmitDefaultValue=false)]
-		public int? TQLFraudAlertsTotalHighUnaddressed { get; set; }
+		public int? TQLFraudAlertsTotalHighUnaddressed { get; set; } = 0;
 
 		[DataMember(Name="tQLFraudAlertsTotalLow", EmitDefaultValue=false)]
-		public int? TQLFraudAlertsTotalLow { get; set; }
+		public int? TQLFraudAlertsTotalLow { get; set; } = 0;
 
 		[DataMember(Name="tQLFraudAlertsTotalLowUnaddressed", EmitDefaultValue=false)]
-		public int? TQLFraudAlertsTotalLowUnaddressed { get; set; }
+		public int? TQLFraudAlertsTotalLowUnaddressed { get; set; } = 0;
 
 		[DataMember(Name="tQLFraudAlertsTotalMedium", EmitDefaultValue=false)]
-		public int? TQLFraudAlertsTotalMedium { get; set; }
+		public int? TQLFraudAlertsTotalMedium { get; set; } = 0;
 
 		[DataMember(Name="tQLFraudAlertsTotalMediumUnaddressed", EmitDefaultValue=false)]
-		public int? TQLFraudAlertsTotalMediumUnaddressed { get; set; }
+		public int? TQLFraudAlertsTotalMediumUnaddressed { get; set; } = 0;
 
 		[DataMember(Name="wellsFargo4506TBaselineReportRequired", EmitDefaultValue=false)]
 		public string WellsFargo4506TBaselineReportRequired { get; set; }
@@ -213,6 +213,12 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="wellsFargoFraudBaselineReportRequired", EmitDefaultValue=false)]
 		public string WellsFargoFraudBaselineReportRequired { get; set; }
+
+		[DataMember(Name = "lomaOrLomrIndicator", EmitDefaultValue = false)]
+		public bool? LomaOrLomrIndicator { get; set; } = false;
+
+		[DataMember(Name = "floodProgramCode", EmitDefaultValue = false)]
+		public string FloodProgramCode { get; set; }
 
 	}
 }

@@ -172,6 +172,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
         public bool LoanWasUpdated => _loanWasUpdated;
         protected bool _loanWasUpdated = false;
+        public bool SetTraceOn { get; set; } = false;
         protected List<Tuple<string, string>> _badFields = new List<Tuple<string, string>>();
         public bool _successfullyLoaded = false;
         protected bool _loadV3 = false;
@@ -2784,7 +2785,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
         //}
         public T MainField<T>(string id)
         {
-            if (id.StartsWith("DISCLOSURE.X1174"))
+            if (SetTraceOn)
             {
                 var stopHere = true;
             }

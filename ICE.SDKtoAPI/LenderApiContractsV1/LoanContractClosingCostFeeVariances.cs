@@ -5,8 +5,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractClosingCostFeeVariances
 	{
-		[DataMember(Name="cD", EmitDefaultValue=false)]
-		public double? CD { get; set; }
+		[DataMember(Name = "cd", EmitDefaultValue = false)]
+		public decimal? CD { get; set; } //= 0.00M;
 
 		[DataMember(Name="description", EmitDefaultValue=false)]
 		public string Description { get; set; }
@@ -20,14 +20,14 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="id", EmitDefaultValue=false)]
 		public string Id { get; set; }
 
-		[DataMember(Name="initialLE", EmitDefaultValue=false)]
-		public double? InitialLE { get; set; }
+		[DataMember(Name = "initialLE", EmitDefaultValue = false)]
+		public decimal? InitialLE { get; set; } //= 0.00M;
 
-		[DataMember(Name="itemization", EmitDefaultValue=false)]
-		public double? Itemization { get; set; }
+		[DataMember(Name = "itemization", EmitDefaultValue = false)]
+		public decimal? Itemization { get; set; } //= 0.00M;
 
-		[DataMember(Name="lE", EmitDefaultValue=false)]
-		public double? LE { get; set; }
+		[DataMember(Name = "le", EmitDefaultValue = false)]
+		public decimal? LE { get; set; } //= 0.00M;
 
 		[DataMember(Name="line", EmitDefaultValue=false)]
 		public string Line { get; set; }

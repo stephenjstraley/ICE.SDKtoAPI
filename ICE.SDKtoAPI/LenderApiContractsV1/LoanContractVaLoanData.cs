@@ -751,5 +751,154 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="wWCarpetIndicator", EmitDefaultValue=false)]
 		public bool? WWCarpetIndicator { get; set; }
 
+
+		[DataMember(Name = "proposedHomeEquityRemainingAmount", EmitDefaultValue = false)]
+		public decimal? ProposedHomeEquityRemainingAmount { get; set; }
+
+		[DataMember(Name = "estimatedImpactofHomeEquityRemainingAmount", EmitDefaultValue = false)]
+		public decimal? EstimatedImpactofHomeEquityRemainingAmount { get; set; }
+
+		[DataMember(Name = "cashDisbursedToBorrowerAmount", EmitDefaultValue = false)]
+		public decimal? CashDisbursedToBorrowerAmount { get; set; }
+
+		[DataMember(Name = "disbursementsLessPayoffAmount", EmitDefaultValue = false)]
+		public decimal? DisbursementsLessPayoffAmount { get; set; }
+
+		[DataMember(Name = "vAImpactLoanBalanceIndicator", EmitDefaultValue = false)]
+		public string VAImpactLoanBalanceIndicator { get; set; }
+
+		[DataMember(Name = "vAImpactRemainingTermIndicator", EmitDefaultValue = false)]
+		public string VAImpactRemainingTermIndicator { get; set; }
+
+		[DataMember(Name = "vAImpactInterestRateIndicator", EmitDefaultValue = false)]
+		public string VAImpactInterestRateIndicator { get; set; }
+
+		[DataMember(Name = "vAImpactScheduledPaymentsIndicator", EmitDefaultValue = false)]
+		public string VAImpactScheduledPaymentsIndicator { get; set; }
+
+		[DataMember(Name = "vAImpactLTVIndicator", EmitDefaultValue = false)]
+		public string VAImpactLTVIndicator { get; set; }
+
+		[DataMember(Name = "existingVALoanNumber", EmitDefaultValue = false)]
+		public string ExistingVALoanNumber { get; set; }
+
+		[DataMember(Name = "existingLoanBalance", EmitDefaultValue = false)]
+		public decimal? ExistingLoanBalance { get; set; }
+
+		[DataMember(Name = "estimatedImpactofLoanBalanceAmount", EmitDefaultValue = false)]
+		public decimal? EstimatedImpactofLoanBalanceAmount { get; set; }
+
+		[DataMember(Name = "estimatedImpactofRemainingTermMonths", EmitDefaultValue = false)]
+		public int? EstimatedImpactofRemainingTermMonths { get; set; }
+
+		[DataMember(Name = "estimatedImpactofInterestRate", EmitDefaultValue = false)]
+		public decimal? EstimatedImpactofInterestRate { get; set; }
+
+		[DataMember(Name = "existingTotalRemainingPaymentAmount", EmitDefaultValue = false)]
+		public decimal? ExistingTotalRemainingPaymentAmount { get; set; }
+
+		[DataMember(Name = "proposedTotalRemainingPaymentAmount", EmitDefaultValue = false)]
+		public decimal? ProposedTotalRemainingPaymentAmount { get; set; }
+
+		[DataMember(Name = "estimatedImpactofTotalRemainingPaymentAmount", EmitDefaultValue = false)]
+		public decimal? EstimatedImpactofTotalRemainingPaymentAmount { get; set; }
+
+		[DataMember(Name = "estimatedImpactofLTV", EmitDefaultValue = false)]
+		public decimal? EstimatedImpactofLTV { get; set; }
+
+		[DataMember(Name = "existingReasonableAppraisedValue", EmitDefaultValue = false)]
+		public int? ExistingReasonableAppraisedValue { get; set; }
+
+		[DataMember(Name = "existingHomeEquityRemainingAmount", EmitDefaultValue = false)]
+		public decimal? ExistingHomeEquityRemainingAmount { get; set; }
+
+		[DataMember(Name = "vAImpactRemainingEquityIndicator", EmitDefaultValue = false)]
+		public string VAImpactRemainingEquityIndicator { get; set; }
+
+		[DataMember(Name = "totalPaidOverLifeIncreasedAmount", EmitDefaultValue = false)]
+		public decimal? TotalPaidOverLifeIncreasedAmount { get; set; }
+
+		[DataMember(Name = "existingLoanFirstPaymentDate", EmitDefaultValue = false)]
+		public DateTime? ExistingLoanFirstPaymentDate { get; set; }
+
+		[DataMember(Name = "totalClosingCostLessGuaranteeFee", EmitDefaultValue = false)]
+		public decimal? TotalClosingCostLessGuaranteeFee { get; set; }
+
+		[DataMember(Name = "vACashOutRefinanceType", EmitDefaultValue = false)]
+		public string VACashOutRefinanceType { get; set; }
+
+		[DataMember(Name = "amountOfProposedLiens", EmitDefaultValue = false)]
+		public decimal? AmountOfProposedLiens { get; set; }
+
+		[DataMember(Name = "vAStatutoryClosingCosts", EmitDefaultValue = false)]
+		public decimal? VAStatutoryClosingCosts { get; set; }
+
+		[DataMember(Name = "vAStatutoryMonthlyPayment", EmitDefaultValue = false)]
+		public decimal? VAStatutoryMonthlyPayment { get; set; }
+
+		[DataMember(Name = "vAStatutoryMonthlyReduction", EmitDefaultValue = false)]
+		public decimal? VAStatutoryMonthlyReduction { get; set; }
+
+		[DataMember(Name = "vAStatutoryRecoupmentMonths", EmitDefaultValue = false)]
+		public int? VAStatutoryRecoupmentMonths { get; set; }
+
+		[DataMember(Name = "vARateReducedSolelybyDiscountPointsIndicator", EmitDefaultValue = false)]
+		public bool? VARateReducedSolelybyDiscountPointsIndicator { get; set; }
+
+		[DataMember(Name = "vAEnergyEfficientImprovements", EmitDefaultValue = false)]
+		public decimal? VAEnergyEfficientImprovements { get; set; }
+
+		[DataMember(Name = "vAEEMIncludedinBaseLoanAmountIndicator", EmitDefaultValue = false)]
+		public bool? VAEEMIncludedinBaseLoanAmountIndicator { get; set; }
+
+		[DataMember(Name = "vAFinancedClosingCostsToExcludeAmount", EmitDefaultValue = false)]
+		public decimal? VAFinancedClosingCostsToExcludeAmount { get; set; }
+
+		[DataMember(Name = "initialRecoupmentFormProvidedDate", EmitDefaultValue = false)]
+		public DateTime? InitialRecoupmentFormProvidedDate { get; set; }
+
+		[DataMember(Name = "finalRecoupmentFormProvidedDate", EmitDefaultValue = false)]
+		public DateTime? FinalRecoupmentFormProvidedDate { get; set; }
+
+		[DataMember(Name = "cdNonShoppableLessFundingFee", EmitDefaultValue = false)]
+		public decimal? CdNonShoppableLessFundingFee { get; set; }
+
+		[DataMember(Name = "leTotalClosingCosts", EmitDefaultValue = false)]
+		public decimal? LeTotalClosingCosts { get; set; }
+
+		[DataMember(Name = "leRecoupmentMonths", EmitDefaultValue = false)]
+		public int? LeRecoupmentMonths { get; set; }
+
+		[DataMember(Name = "includeSectionAIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionAIndicator { get; set; }
+
+		[DataMember(Name = "oncludeSectionBVaFundingFeeIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionBVaFundingFeeIndicator { get; set; }
+
+		[DataMember(Name = "includeSectionBOtherIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionBOtherIndicator { get; set; }
+
+		[DataMember(Name = "includeSectionCIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionCIndicator { get; set; }
+
+		[DataMember(Name = "includeSectionEIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionEIndicator { get; set; }
+
+		[DataMember(Name = "includeSectionFIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionFIndicator { get; set; }
+
+		[DataMember(Name = "includeSectionGIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionGIndicator { get; set; }
+
+		[DataMember(Name = "includeSectionHIndicator", EmitDefaultValue = false)]
+		public bool? IncludeSectionHIndicator { get; set; }
+
+		[DataMember(Name = "includeLenderCreditIndicator", EmitDefaultValue = false)]
+		public bool? IncludeLenderCreditIndicator { get; set; }
+
+		[DataMember(Name = "refinancePropertyExistingLienAmount", EmitDefaultValue = false)]
+		public decimal? RefinancePropertyExistingLienAmount { get; set; }
+
+
 	}
 }

@@ -1083,5 +1083,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name = "isLoanAmountRounding", EmitDefaultValue = false)]
 		public bool? IsLoanAmountRounding { get; set; }
+
+		[DataMember(Name = "printULIonURLA", EmitDefaultValue = false)]
+		public bool? PrintULIonURLA { get; set; }
 	}
 }

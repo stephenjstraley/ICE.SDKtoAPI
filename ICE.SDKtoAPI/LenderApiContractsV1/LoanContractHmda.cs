@@ -320,5 +320,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="universalLoanId", EmitDefaultValue=false)]
 		public string UniversalLoanId { get; set; }
 
+		[DataMember(Name = "balloonIndicator", EmitDefaultValue = false)]
+		public string BalloonIndicator { get; set; }
+
+		[DataMember(Name = "loanBalanceRiseIndicator", EmitDefaultValue = false)]
+		public string LoanBalanceRiseIndicator { get; set; }
+
+		[DataMember(Name = "hmda2InterestOnlyIndicator", EmitDefaultValue = false)]
+		public string Hmda2InterestOnlyIndicator { get; set; }
+
+		[DataMember(Name = "cdRequired", EmitDefaultValue = false)]
+		public bool? CdRequired { get; set; }
 	}
 }

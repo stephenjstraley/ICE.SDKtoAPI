@@ -35,11 +35,11 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="county", EmitDefaultValue=false)]
 		public string County { get; set; }
 
-		[DataMember(Name="durationTermMonths", EmitDefaultValue=false)]
-		public int? DurationTermMonths { get; set; }
+		[DataMember(Name = "durationTermMonths", EmitDefaultValue = false)]
+		public int? DurationTermMonths { get; set; } = 0;
 
-		[DataMember(Name="durationTermYears", EmitDefaultValue=false)]
-		public int? DurationTermYears { get; set; }
+		[DataMember(Name = "durationTermYears", EmitDefaultValue = false)]
+		public int? DurationTermYears { get; set; } = 0;
 
 		[DataMember(Name="entityDeleted", EmitDefaultValue=false)]
 		public bool? EntityDeleted { get; set; }
@@ -77,20 +77,20 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="landlordStreet", EmitDefaultValue=false)]
 		public string LandlordStreet { get; set; }
 
-		[DataMember(Name="mailingAddressIndicator", EmitDefaultValue=false)]
-		public bool? MailingAddressIndicator { get; set; }
+		[DataMember(Name = "mailingAddressIndicator", EmitDefaultValue = false)]
+		public string MailingAddressIndicator { get; set; }
 
 		[DataMember(Name="noLinkToDocTrackIndicator", EmitDefaultValue=false)]
-		public bool? NoLinkToDocTrackIndicator { get; set; }
+		public bool? NoLinkToDocTrackIndicator { get; set; } = false;
 
 		[DataMember(Name="printAttachmentIndicator", EmitDefaultValue=false)]
-		public bool? PrintAttachmentIndicator { get; set; }
+		public bool? PrintAttachmentIndicator { get; set; } = false;
 
 		[DataMember(Name="printUserNameIndicator", EmitDefaultValue=false)]
-		public bool? PrintUserNameIndicator { get; set; }
+		public bool? PrintUserNameIndicator { get; set; } = false;
 
-		[DataMember(Name="rent", EmitDefaultValue=false)]
-		public int? Rent { get; set; }
+		[DataMember(Name = "rent", EmitDefaultValue = false)]
+		public int? Rent { get; set; } = 0;
 
 		[DataMember(Name="requestDate", EmitDefaultValue=false)]
 		public DateTime? RequestDate { get; set; }
@@ -110,5 +110,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="titlePhone", EmitDefaultValue=false)]
 		public string TitlePhone { get; set; }
 
+		[DataMember(Name = "addressUnitDesignatorType", EmitDefaultValue = false)]
+		public string AddressUnitDesignatorType { get; set; }
+
+		[DataMember(Name = "uRLA2020StreetAddress", EmitDefaultValue = false)]
+		public string URLA2020StreetAddress { get; set; }
+
+		[DataMember(Name = "addressUnitIdentifier", EmitDefaultValue = false)]
+		public string AddressUnitIdentifier { get; set; }
+
+		[DataMember(Name = "countryCode", EmitDefaultValue = false)]
+		public string CountryCode { get; set; }
+
+		[DataMember(Name = "foreignAddressIndicator", EmitDefaultValue = false)]
+		public string ForeignAddressIndicator { get; set; }
 	}
 }

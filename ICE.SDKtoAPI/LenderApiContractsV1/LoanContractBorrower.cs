@@ -1154,5 +1154,68 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="yearsofCreditOnFile", EmitDefaultValue=false)]
 		public int? YearsofCreditOnFile { get; set; }
 
+		[DataMember(Name = "urla2020CitizenshipResidencyType", EmitDefaultValue = false)]
+		public string Urla2020CitizenshipResidencyType { get; set; }
+
+		[DataMember(Name = "presentlyDelinquentIndicatorURLA", EmitDefaultValue = false)]
+		public bool? PresentlyDelinquentIndicatorURLA { get; set; } = false;
+
+		[DataMember(Name = "partyToLawsuitIndicatorURLA", EmitDefaultValue = false)]
+		public bool? PartyToLawsuitIndicatorURLA { get; set; } = false;
+
+		[DataMember(Name = "priorPropertyDeedInLieuConveyedIndicator", EmitDefaultValue = false)]
+		public bool? PriorPropertyDeedInLieuConveyedIndicator { get; set; } = false;
+
+		[DataMember(Name = "priorPropertyShortSaleCompletedIndicator", EmitDefaultValue = false)]
+		public bool? PriorPropertyShortSaleCompletedIndicator { get; set; } = false;
+
+		[DataMember(Name = "priorPropertyForeclosureCompletedIndicator", EmitDefaultValue = false)]
+		public bool? PriorPropertyForeclosureCompletedIndicator { get; set; } = false;
+
+		[DataMember(Name = "realEstateDoesNotApply", EmitDefaultValue = false)]
+		public bool? RealEstateDoesNotApply { get; set; } = false;
+
+		[DataMember(Name = "legalOtherThanSpouse", EmitDefaultValue = false)]
+		public bool? LegalOtherThanSpouse { get; set; } = false;
+
+		[DataMember(Name = "SelfDeclaredMilitaryServiceIndicator", EmitDefaultValue = false)]
+		public bool? SelfDeclaredMilitaryServiceIndicator { get; set; } = false;
+
+		[DataMember(Name = "bankruptcyIndicatorChapterSeven", EmitDefaultValue = false)]
+		public bool? BankruptcyIndicatorChapterSeven { get; set; } = false;
+
+		[DataMember(Name = "bankruptcyIndicatorChapterEleven", EmitDefaultValue = false)]
+		public bool? BankruptcyIndicatorChapterEleven { get; set; } = false;
+
+		[DataMember(Name = "bankruptcyIndicatorChapterTwelve", EmitDefaultValue = false)]
+		public bool? BankruptcyIndicatorChapterTwelve { get; set; } = false;
+
+		[DataMember(Name = "bankruptcyIndicatorChapterThirteen", EmitDefaultValue = false)]
+		public bool? BankruptcyIndicatorChapterThirteen { get; set; } = false;
+
+		[DataMember(Name = "currentEmploymentDoesNotApply", EmitDefaultValue = false)]
+		public bool? CurrentEmploymentDoesNotApply { get; set; } = false;
+
+		[DataMember(Name = "previousEmploymentDoesNotApply", EmitDefaultValue = false)]
+		public bool? PreviousEmploymentDoesNotApply { get; set; } = false;
+
+		[DataMember(Name = "languagePreference", EmitDefaultValue = false)]
+		public string LanguagePreference { get; set; }
+
+		[DataMember(Name = "jointAssetLiabilityReportingIndicator1", EmitDefaultValue = false)]
+		public string JointAssetLiabilityReportingIndicator1 { get; set; }
+
+		[DataMember(Name = "previousGrossMonthlyIncome", EmitDefaultValue = false)]
+		public decimal? PreviousGrossMonthlyIncome { get; set; }
+
+		[DataMember(Name = "priorResidenceDoesNotApply", EmitDefaultValue = false)]
+		public bool? PriorResidenceDoesNotApply { get; set; } = false;
+
+		[DataMember(Name = "hmda2CreditScoreForDecisionMaking", EmitDefaultValue = false)]
+		public string Hmda2CreditScoreForDecisionMaking { get; set; }
+
+		[DataMember(Name = "hmda2CreditScoringModel", EmitDefaultValue = false)]
+		public string Hmda2CreditScoringModel { get; set; }
+
 	}
 }

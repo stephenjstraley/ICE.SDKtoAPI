@@ -20722,9 +20722,9 @@ URLA.X115~Applications{current}.Borrower.OtherRelationshipTypeDescription~False~
 URLA.X116~Applications{current}.Coborrower.OtherRelationshipTypeDescription~False~string~True~Co-Borr Other Relationship Type Description~False~~STRING
 URLA.X117~Applications{current}.Borrower.State~False~string~True~Marital Status State~False~~STATE
 URLA.X118~Applications{current}.Coborrower.State~False~string~True~Marital Status State~False~~STATE
-URLA.X119~printUliOnUrla~False~bool~True~Print ULI on URLA~False~eURLA_X119~YN
+URLA.X119~PrintUliOnUrla~False~bool~True~Print ULI on URLA~False~eURLA_X119~YN
 URLA.X12~Applications{current}.Coborrower.MailingAddress.CountryCode~False~string~True~Co-Borr Mailing Country Code~False~~STRING
-URLA.X120~urlaLoanIdentifier~False~string~True~URLA Loan Identifier~False~~STRING
+URLA.X120~UrlaLoanIdentifier~False~string~True~URLA Loan Identifier~False~~STRING
 URLA.X121~Applications{current}.Borrower.PrintOnAdditionalBorrowerPage~False~bool~True~Borr Print on Additional Borrower Page~False~eURLA_X121~YN
 URLA.X122~Applications{current}.Coborrower.PrintOnAdditionalBorrowerPage~False~bool~True~Co-Borr Print on Additional Borrower Page~False~eURLA_X122~YN
 URLA.X123~Applications{current}.Borrower.ActiveDuty~False~bool~True~Borr Currently serving on active duty~False~eURLA_X123~YN
@@ -20733,53 +20733,53 @@ URLA.X125~Applications{current}.Borrower.ReserveNationalGuardReserveActivated~Fa
 URLA.X126~Applications{current}.Coborrower.ActiveDuty~False~bool~True~Co-Borr Currently serving on active duty~False~eURLA_X126~YN
 URLA.X127~Applications{current}.Coborrower.Veteran~False~bool~True~Co-Borr Currently retired, discharged, or separated from service~False~eURLA_X127~YN
 URLA.X128~Applications{current}.Coborrower.ReserveNationalGuardReserveActivated~False~bool~True~Co-Borr Only period of service was as a non-activated member of the Reserve or National Guard~False~eURLA_X128~YN
-URLA.X129~borrCommunityPropertyStateResidentIndicator~False~bool~True~BORROWER Community Property State Resident Indicator~False~eURLA_X129~YN
+URLA.X129~BorrCommunityPropertyStateResidentIndicator~False~bool~True~BORROWER Community Property State Resident Indicator~False~eURLA_X129~YN
 URLA.X13~Applications{current}.Borrower.SelfDeclaredMilitaryServiceIndicator~False~bool~True~Borr Military Service Indicator~False~eURLA_X13~YN
-URLA.X130~communityPropertyStateResidentIndicator~False~bool~True~Community Property State Resident Indicator~False~eURLA_X130~YN
-URLA.X131~conversionOfContractForDeedIndicator~False~bool~True~Conversion Of Contract For Deed Indicator~False~eURLA_X131~YN
-URLA.X132~renovationLoanIndicator~False~bool~True~Renovation Loan Indicator~False~eURLA_X132~YN
-URLA.X133~constructionLoanIndicator~False~bool~True~Construction Loan Indicator~False~eURLA_X133~YN
-URLA.X134~constructionToPermanentClosingType~False~string~True~Construction To Permanent Closing Type~False~eURLA_X134~STRING
-URLA.X135~propertyExistingCleanEnergyLienIndicator~False~bool~True~Property Existing Clean Energy Lien Indicator~False~eURLA_X135~YN
-URLA.X136~titleWillBeFullName~False~string~True~Title Will Be Full Name~False~~STRING
-URLA.X137~titleHolderFullName~False~string~True~Title Full Name~False~~STRING
-URLA.X138~relationshipVestingType~False~string~True~Relationship Vesting Type~False~eURLA_X138~STRING
-URLA.X139~relationshipVestingTypeOtherDescription~False~string~True~Relationship Vesting Type Other Description~False~~STRING
+URLA.X130~CommunityPropertyStateResidentIndicator~False~bool~True~Community Property State Resident Indicator~False~eURLA_X130~YN
+URLA.X131~ConversionOfContractForDeedIndicator~False~bool~True~Conversion Of Contract For Deed Indicator~False~eURLA_X131~YN
+URLA.X132~RenovationLoanIndicator~False~bool~True~Renovation Loan Indicator~False~eURLA_X132~YN
+URLA.X133~ConstructionLoanIndicator~False~bool~True~Construction Loan Indicator~False~eURLA_X133~YN
+URLA.X134~ConstructionToPermanentClosingType~False~string~True~Construction To Permanent Closing Type~False~eURLA_X134~STRING
+URLA.X135~PropertyExistingCleanEnergyLienIndicator~False~bool~True~Property Existing Clean Energy Lien Indicator~False~eURLA_X135~YN
+URLA.X136~TitleWillBeFullName~False~string~True~Title Will Be Full Name~False~~STRING
+URLA.X137~TitleHolderFullName~False~string~True~Title Full Name~False~~STRING
+URLA.X138~RelationshipVestingType~False~string~True~Relationship Vesting Type~False~eURLA_X138~STRING
+URLA.X139~RelationshipVestingTypeOtherDescription~False~string~True~Relationship Vesting Type Other Description~False~~STRING
 URLA.X14~Applications{current}.Coborrower.SelfDeclaredMilitaryServiceIndicator~False~bool~True~Co-BorrMilitary Service Indicator~False~eURLA_X14~YN
-URLA.X140~trustClassificationType~False~string~True~Trust Classification Type~False~eURLA_X140~STRING
-URLA.X141~nativeAmericanLandsType~False~string~True~Trust Classification Type~False~eURLA_X141~STRING
-URLA.X142~nativeAmericanLandsTypeOtherDescription~False~string~True~Native American Lands Type Other Description~False~eURLA_X142~STRING
-URLA.X143~productDescription~False~string~True~Product Description~False~~STRING
-URLA.X144~supplementalPropertyInsuranceAmount~False~decimal~True~Proposed Supplemental Property Insurance Amount~False~~DECIMAL_2
-URLA.X145~totalNonSubjectPropertyDebtsToBePaidOffAmount~False~decimal~True~Total Non Subject Property Debts ToBe Paid Off Amount~False~~DECIMAL_2
-URLA.X146~borrEstimatedClosingCostsAmount~False~decimal~True~Estimated Closing Costs Amount~False~~DECIMAL_2
-URLA.X147~totalSubordinateFinancingAmount~False~decimal~True~Total Subordinate Financing Amount~False~~DECIMAL_2
-URLA.X148~urlaTotalMortgageLoansAmount~False~decimal~True~URLA Total Mortgage Loans Amount~False~~DECIMAL_2
-URLA.X149~urlaTotalOtherCreditsAmount~False~decimal~True~URLA Total Other Credits Amount~False~~DECIMAL_2
-URLA.X150~totalOfGiftsGrants~False~decimal~True~URLA Total Total Of Gifts Grants~False~~DECIMAL_2
-URLA.X151~totalOtherAssetToLoan~False~decimal~True~URLA Total Total Other Asset To Loan~False~~DECIMAL_2
-URLA.X152~urlaTotalCreditsAmount~False~decimal~True~URLA Total Credits Amount~False~~DECIMAL_2
+URLA.X140~TrustClassificationType~False~string~True~Trust Classification Type~False~eURLA_X140~STRING
+URLA.X141~NativeAmericanLandsType~False~string~True~Trust Classification Type~False~eURLA_X141~STRING
+URLA.X142~NativeAmericanLandsTypeOtherDescription~False~string~True~Native American Lands Type Other Description~False~eURLA_X142~STRING
+URLA.X143~ProductDescription~False~string~True~Product Description~False~~STRING
+URLA.X144~SupplementalPropertyInsuranceAmount~False~decimal~True~Proposed Supplemental Property Insurance Amount~False~~DECIMAL_2
+URLA.X145~TotalNonSubjectPropertyDebtsToBePaidOffAmount~False~decimal~True~Total Non Subject Property Debts ToBe Paid Off Amount~False~~DECIMAL_2
+URLA.X146~BorrEstimatedClosingCostsAmount~False~decimal~True~Estimated Closing Costs Amount~False~~DECIMAL_2
+URLA.X147~TotalSubordinateFinancingAmount~False~decimal~True~Total Subordinate Financing Amount~False~~DECIMAL_2
+URLA.X148~UrlaTotalMortgageLoansAmount~False~decimal~True~URLA Total Mortgage Loans Amount~False~~DECIMAL_2
+URLA.X149~UrlaTotalOtherCreditsAmount~False~decimal~True~URLA Total Other Credits Amount~False~~DECIMAL_2
+URLA.X150~TotalOfGiftsGrants~False~decimal~True~URLA Total Total Of Gifts Grants~False~~DECIMAL_2
+URLA.X151~TotalOtherAssetToLoan~False~decimal~True~URLA Total Total Other Asset To Loan~False~~DECIMAL_2
+URLA.X152~UrlaTotalCreditsAmount~False~decimal~True~URLA Total Credits Amount~False~~DECIMAL_2
 URLA.X153~Applications{current}.Borrower.OwnershipConfirmationIndicator~False~bool~True~Borrower Completed Homeownership Education within 12 months~False~eURLA_X153~YN
 URLA.X154~Applications{current}.Borrower.OwnershipFormatType~False~string~True~Borrower Homeownership Education format~False~eURLA_X154~STRING
 URLA.X155~Applications{current}.Borrower.OwnershipPartyRoleIdentifier~False~string~True~Borrower Homeownership Education HUD Agency ID~False~~STRING
-URLA.X156~housingCounselingAgency~False~string~True~Housing Counseling Agency~False~~STRING
-URLA.X157~ownershipCompletedDate~False~datetime~True~Ownership Completed Date~False~~DATE
-URLA.X158~borrowerFullName~False~string~True~Borrower Full Name~False~~STRING
+URLA.X156~HousingCounselingAgency~False~string~True~Housing Counseling Agency~False~~STRING
+URLA.X157~OwnershipCompletedDate~False~datetime~True~Ownership Completed Date~False~~DATE
+URLA.X158~BorrowerFullName~False~string~True~Borrower Full Name~False~~STRING
 URLA.X159~Applications{current}.Coborrower.OwnershipConfirmationIndicator~False~bool~True~CoBorrower Completed Homeownership Education within 12 months~False~eURLA_X159~YN
 URLA.X160~Applications{current}.Coborrower.OwnershipFormatType~False~string~True~CoBorrower Homeownership Education format~False~eURLA_X160~STRING
 URLA.X161~Applications{current}.Coborrower.OwnershipPartyRoleIdentifier~False~string~True~CoBorrower Homeownership Education HUD Agency ID~False~~STRING
-URLA.X162~housingCounselingAgencyFullName~False~string~True~Housing Counseling Agency FullName~False~~STRING
-URLA.X163~counselingCompletedDate~False~datetime~True~Counseling Completed Date~False~~DATE
-URLA.X164~counselingBorrowerFullName~False~string~True~Counseling Borrower Full Name~False~~STRING
-URLA.X165~refinanceCashOutDeterminationType~False~string~True~Refinance Cash Out Determination Type~False~eURLA_X165~STRING
-URLA.X166~governmentRefinanceType~False~string~True~Government Refinance Type~False~eURLA_X166~STRING
-URLA.X167~governmentRefinanceTypeOtherDescription~False~string~True~Government Refinance Type Other Description~False~eURLA_X167~STRING
-URLA.X168~projectLegalStructureType~False~string~True~Government Refinance Type~False~eURLA_X168~STRING
+URLA.X162~HousingCounselingAgencyFullName~False~string~True~Housing Counseling Agency FullName~False~~STRING
+URLA.X163~CounselingCompletedDate~False~datetime~True~Counseling Completed Date~False~~DATE
+URLA.X164~CounselingBorrowerFullName~False~string~True~Counseling Borrower Full Name~False~~STRING
+URLA.X165~RefinanceCashOutDeterminationType~False~string~True~Refinance Cash Out Determination Type~False~eURLA_X165~STRING
+URLA.X166~GovernmentRefinanceType~False~string~True~Government Refinance Type~False~eURLA_X166~STRING
+URLA.X167~GovernmentRefinanceTypeOtherDescription~False~string~True~Government Refinance Type Other Description~False~eURLA_X167~STRING
+URLA.X168~ProjectLegalStructureType~False~string~True~Government Refinance Type~False~eURLA_X168~STRING
 URLA.X17~Applications{current}.Borrower.MilitaryServiceExpectedCompletionDate~False~datetime~True~Borr Military Service Expected Completion Date~False~~DATE
-URLA.X170~originatorFirstName~False~string~True~URLA Loan Originator first name~False~~STRING
-URLA.X171~originatorMiddleName~False~string~True~URLA Loan originator middle name~False~~STRING
-URLA.X172~originatorLastName~False~string~True~URLA Loan originator last name~False~~STRING
-URLA.X173~originatorSuffixName~False~string~True~URLA Loan originator suffix name~False~~STRING
+URLA.X170~OriginatorFirstName~False~string~True~URLA Loan Originator first name~False~~STRING
+URLA.X171~OriginatorMiddleName~False~string~True~URLA Loan originator middle name~False~~STRING
+URLA.X172~OriginatorLastName~False~string~True~URLA Loan originator last name~False~~STRING
+URLA.X173~OriginatorSuffixName~False~string~True~URLA Loan originator suffix name~False~~STRING
 URLA.X174~Applications{current}.Borrower.BankruptcyIndicatorChapterSeven~False~bool~True~Borr Bankrupcy chapter seven~False~eURLA_X174~YN
 URLA.X175~Applications{current}.Borrower.BankruptcyIndicatorChapterEleven~False~bool~True~Borr Bankrupcy chapter eleven ~False~eURLA_X175~YN
 URLA.X176~Applications{current}.Borrower.BankruptcyIndicatorChapterTwelve~False~bool~True~Borr Bankruptcy chapter twelve ~False~eURLA_X176~YN
@@ -20789,19 +20789,19 @@ URLA.X179~Applications{current}.Coborrower.BankruptcyIndicatorChapterEleven~Fals
 URLA.X18~Applications{current}.Coborrower.MilitaryServiceExpectedCompletionDate~False~datetime~True~Co-Borr Military Service Expected Completion Date~False~~DATE
 URLA.X180~Applications{current}.Coborrower.BankruptcyIndicatorChapterTwelve~False~bool~True~Co-Borr Bankruptcy Chapter Twelve~False~eURLA_X180~YN
 URLA.X181~Applications{current}.Coborrower.BankruptcyIndicatorChapterThirteen~False~bool~True~Co-Borr Bankruptcy Chapter Thirteen~False~eURLA_X181~YN
-URLA.X182~newMortgageCreditorName~False~string~True~URLA First New Mortgage Creditor Name~False~~STRING
-URLA.X183~newMortgageMonthlyPayment~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
-URLA.X184~newSubordinateCreditorName~False~string~True~URLA Loan originator last name~False~~STRING
-URLA.X185~newSubordinateMonthlyPayment~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
-URLA.X186~newHelocCreditorName~False~string~True~URLA Loan originator last name~False~~STRING
-URLA.X187~newHelocMonthlyPayment~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
-URLA.X188~originatorAddressLineText~False~string~True~Loan Originator Address Line Text~False~~STRING
-URLA.X189~originatorAddressUnitDesignatorType~False~string~True~Loan Originator Unit Type Identifier~False~eURLA_X189~STRING
+URLA.X182~NewMortgageCreditorName~False~string~True~URLA First New Mortgage Creditor Name~False~~STRING
+URLA.X183~NewMortgageMonthlyPayment~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
+URLA.X184~NewSubordinateCreditorName~False~string~True~URLA Loan originator last name~False~~STRING
+URLA.X185~NewSubordinateMonthlyPayment~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
+URLA.X186~NewHelocCreditorName~False~string~True~URLA Loan originator last name~False~~STRING
+URLA.X187~NewHelocMonthlyPayment~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
+URLA.X188~OriginatorAddressLineText~False~string~True~Loan Originator Address Line Text~False~~STRING
+URLA.X189~OriginatorAddressUnitDesignatorType~False~string~True~Loan Originator Unit Type Identifier~False~eURLA_X189~STRING
 URLA.X19~Applications{current}.Borrower.SpousalVaBenefitsEligibilityIndicator~False~bool~True~Borr Spousal VABenefits Eligibility Indicator~False~eURLA_X19~YN
-URLA.X190~originatorAddressUnitIdentifier~False~string~True~Loan Originator Address Unit Identifier~False~~STRING
+URLA.X190~OriginatorAddressUnitIdentifier~False~string~True~Loan Originator Address Unit Identifier~False~~STRING
 URLA.X192~Property.OneTimeClose~False~bool~True~Construction Type one time close ~False~eURLA_X192~YN
 URLA.X193~Property.TwoTimeClose~False~bool~True~Constrution Type two time close~False~eURLA_X193~YN
-URLA.X194~borrowerCount~False~string~True~Borrower count ~False~~STRING
+URLA.X194~BorrowerCount~False~string~True~Borrower count ~False~~STRING
 URLA.X195~Applications{current}.Borrower.UrlaAliasName~False~string~True~Borrower URLA Alias Name~False~~STRING
 URLA.X196~Applications{current}.Coborrower.UrlaAliasName~False~string~True~Co-Borrower Alias Name~False~~STRING
 URLA.X197~Applications{current}.Borrower.MailingAddress.Urla2020StreetAddress~False~string~True~URLA 2020 Street Address~False~~STRING
@@ -20814,14 +20814,14 @@ URLA.X201~Applications{current}.Borrower.AdditionalEmploymentDoesNotApply~False~
 URLA.X202~Applications{current}.Coborrower.AdditionalEmploymentDoesNotApply~False~bool~True~CoBorr Additional Employment DoesNotApply~False~eURLA_X202~YN
 URLA.X203~Applications{current}.Borrower.PreviousEmploymentDoesNotApply~False~bool~True~Borr Previous Employment DoesNotApply~False~eURLA_X203~YN
 URLA.X204~Applications{current}.Coborrower.PreviousEmploymentDoesNotApply~False~bool~True~CoBorr Previous Employment DoesNotApply~False~eURLA_X204~YN
-URLA.X205~condominiumIndicator~False~bool~True~Condominium Project Type Indicator~False~eURLA_X205~YN
-URLA.X206~cooperativeIndicator~False~bool~True~Cooperative Project Type Indicator~False~eURLA_X206~YN
-URLA.X207~pudIndicator~False~bool~True~Planned Unit Development Project Type Indicator~False~eURLA_X207~YN
-URLA.X208~notInProjectIndicator~False~bool~True~Property is not located in a project Indicator~False~eURLA_X208~YN
-URLA.X209~paymentDeferredFirstFiveYears~False~bool~True~ Payment Deferred for First Five Years Indicator~False~eURLA_X209~YN
+URLA.X205~CondominiumIndicator~False~bool~True~Condominium Project Type Indicator~False~eURLA_X205~YN
+URLA.X206~CooperativeIndicator~False~bool~True~Cooperative Project Type Indicator~False~eURLA_X206~YN
+URLA.X207~PudIndicator~False~bool~True~Planned Unit Development Project Type Indicator~False~eURLA_X207~YN
+URLA.X208~NotInProjectIndicator~False~bool~True~Property is not located in a project Indicator~False~eURLA_X208~YN
+URLA.X209~PaymentDeferredFirstFiveYears~False~bool~True~ Payment Deferred for First Five Years Indicator~False~eURLA_X209~YN
 URLA.X21~Applications{current}.Borrower.LanguagePreference~False~string~True~Borr Language Preference~False~eURLA_X21~STRING
-URLA.X210~affordableLoan~False~bool~True~Affordable Loan Indicator~False~eURLA_X210~YN
-URLA.X211~totalAdditionalMortgages~False~decimal~True~Total Additional Mortgages~False~~DECIMAL_2
+URLA.X210~AffordableLoan~False~bool~True~Affordable Loan Indicator~False~eURLA_X210~YN
+URLA.X211~TotalAdditionalMortgages~False~decimal~True~Total Additional Mortgages~False~~DECIMAL_2
 URLA.X212~Applications{current}.PresentSupplementalPropertyInsuranceAmount~False~decimal~True~Present Supplemental Property Insurance Amount~False~~DECIMAL_2
 URLA.X213~Applications{current}.Borrower.AdditionalInformation~False~string~True~Borrower Additional Information~False~~STRING
 URLA.X214~Applications{current}.Coborrower.AdditionalInformation~False~string~True~CoBorrower Additional Information~False~~STRING
@@ -20842,18 +20842,18 @@ URLA.X227~Applications{current}.Borrower.SectionLExplanation~False~string~True~D
 URLA.X228~Applications{current}.Borrower.SectionMExplanation~False~string~True~Declarations Section M Explanation~False~~STRING
 URLA.X229~Applications{current}.TotalAdditionalLoansAmount~False~decimal~True~Total Additional Loans Amount~False~~DECIMAL_2
 URLA.X230~Applications{current}.TotalAppliedToDownpayment~False~decimal~True~Total Applied To Downpayment~False~~DECIMAL_2
-URLA.X231~printLenderPages~False~bool~True~PrintLenderPages~False~eURLA_X231~YN
+URLA.X231~PrintLenderPages~False~bool~True~PrintLenderPages~False~eURLA_X231~YN
 URLA.X232~Applications{current}.Borrower.HomeCounselingAgencyName~False~string~True~Borrower Homeownership Counseling Agency Name~False~~STRING
 URLA.X233~Applications{current}.Borrower.HomeCounselingCompletionDate~False~datetime~True~Borrower Homeownership Counseling Completion Date~False~~DATE
 URLA.X234~Applications{current}.Borrower.JointAssetLiabilityReportingIndicator1~False~string~True~Assets/Liabilities Completed Jointly/Not Jointly~False~eURLA_X234~STRING
 URLA.X235~Applications{current}.Borrower.SectionD2Explanation~False~string~True~Declarations Section D2 Explanation~False~~STRING
-URLA.X236~lotAcquiredDate~False~datetime~True~Constr Loan Info - Lot Acquired Date~False~~DATE
-URLA.X237~additionalLoanDoesNotApply~False~bool~True~4b. Other New Mortgage Loans on the Property You are Buying or Refinancing Does not Apply~False~eURLA_X237~YN
-URLA.X238~printUliAndLoanNoUrla~False~bool~True~Print both ULI / NULI and Loan Number~False~eURLA_X238~YN
-URLA.X239~negativeAmortization~False~bool~True~Negative Amortization Indicator~False~eURLA_X239~YN
-URLA.X240~prepaymentPenaltyTerm~False~bool~True~Undefined~False~eURLA_X240~YN
-URLA.X241~temporaryOrInitialInterestRateBuydown~False~bool~True~Temporary Interest Rate Buydown/Initial Buydown Rate~False~eURLA_X241~YN
-URLA.X242~loanFeaturesOtherIndicator~False~bool~True~Loan Features Other Indicator~False~eURLA_X242~YN
+URLA.X236~LotAcquiredDate~False~datetime~True~Constr Loan Info - Lot Acquired Date~False~~DATE
+URLA.X237~AdditionalLoanDoesNotApply~False~bool~True~4b. Other New Mortgage Loans on the Property You are Buying or Refinancing Does not Apply~False~eURLA_X237~YN
+URLA.X238~PrintUliAndLoanNoUrla~False~bool~True~Print both ULI / NULI and Loan Number~False~eURLA_X238~YN
+URLA.X239~NegativeAmortization~False~bool~True~Negative Amortization Indicator~False~eURLA_X239~YN
+URLA.X240~PrepaymentPenaltyTerm~False~bool~True~Undefined~False~eURLA_X240~YN
+URLA.X241~TemporaryOrInitialInterestRateBuydown~False~bool~True~Temporary Interest Rate Buydown/Initial Buydown Rate~False~eURLA_X241~YN
+URLA.X242~LoanFeaturesOtherIndicator~False~bool~True~Loan Features Other Indicator~False~eURLA_X242~YN
 URLA.X243~Applications{current}.Coborrower.HomeCounselingCompletionDate~False~datetime~True~CoBorrower Homeownership Education Completion Date~False~~DATE
 URLA.X244~Applications{current}.Coborrower.HomeCounselingAgencyName~False~string~True~CoBorrower Homeownership Education HUD Agency Name~False~~STRING
 URLA.X245~Applications{current}.Borrower.PreviousGrossMonthlyIncome~False~decimal~True~Borrower Previous Gross Monthly Income~False~~DECIMAL_2
@@ -20872,7 +20872,7 @@ URLA.X257~Applications{current}.Borrower.SectionJprintexplanation~False~bool~Tru
 URLA.X258~Applications{current}.Borrower.SectionKprintexplanation~False~bool~True~Print Section K explanation - Borrower~False~eURLA_X258~YN
 URLA.X259~Applications{current}.Borrower.SectionLprintexplanation~False~bool~True~Print Section L explanation - Borrower~False~eURLA_X259~YN
 URLA.X260~Applications{current}.Borrower.SectionMprintexplanation~False~bool~True~Print Section M explanation - Borrower~False~eURLA_X260~YN
-URLA.X261~expectedBorrowerCount~False~int~True~Expected Borrower Count~False~~INTEGER
+URLA.X261~ExpectedBorrowerCount~False~int~True~Expected Borrower Count~False~~INTEGER
 URLA.X262~RegulationZ.LandValueType~False~string~True~Construction Loan Info - Land Value Type~False~eURLA_X262~STRING
 URLA.X263~Applications{current}.Borrower.Urla2020CountryOfCitizenship~False~string~True~Borrower Country Of Citizenship~False~~STRING
 URLA.X264~Applications{current}.Coborrower.Urla2020CountryOfCitizenship~False~string~True~Co-Borrower Country Of Citizenship~False~~STRING
@@ -20943,7 +20943,7 @@ URLA.X67~Applications{current}.Borrower.TotalAdditionalOtherLiabilitiesAmount~Fa
 URLA.X68~Applications{current}.Borrower.TotalOtherLiabilitiesAmount~False~decimal~True~Total Other Liabilities Amount~False~~DECIMAL_2
 URLA.X69~Applications{current}.Borrower.RealEstateDoesNotApply~False~bool~True~Real Estate Does not Apply - Borrower~False~eURLA_X69~YN
 URLA.X7~Applications{current}.Borrower.MailingAddress.AddressUnitDesignatorType~False~string~True~Borr Current Address Unit Type~False~eURLA_X7~STRING
-URLA.X70~borrowerRequestedLoanAmountUrla~True~decimal~True~Borrower Requested Loan Amount~False~~DECIMAL_2
+URLA.X70~BorrowerRequestedLoanAmountUrla~True~decimal~True~Borrower Requested Loan Amount~False~~DECIMAL_2
 URLA.X71~Property.LoanPurposeTypeUrla~False~string~True~Display Loan Purpose Type for Property~False~eURLA_X71~STRING
 URLA.X72~Property.LoanPurposeTypeOtherDescription~False~string~True~Loan Purpose Other Description URLA~False~~STRING
 URLA.X73~Property.AddressLineText~False~string~True~Property Address Line Text~False~~STRING
@@ -20952,8 +20952,8 @@ URLA.X75~Property.AddressUnitIdentifier~False~string~True~Property Address Unit 
 URLA.X76~Property.FhaSecondaryResidenceIndicator~False~bool~True~FHA Secondary Residence Indicator~False~eURLA_X76~YN
 URLA.X77~Property.PropertyMixedUsageIndicator~False~bool~True~Mixed Use Property Indicator~False~eURLA_X77~YN
 URLA.X8~Applications{current}.Borrower.MailingAddress.AddressUnitIdentifier~False~string~True~Borr Mailing Unit~False~~STRING
-URLA.X80~rentalIncomeSectionIndicator~False~bool~True~4c. Rental Income onthe Property You want to Purchase - For Purchase Only Does not Apply~False~eURLA_X80~YN
-URLA.X81~rentalEstimatedNetMonthlyRentAmount~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
+URLA.X80~RentalIncomeSectionIndicator~False~bool~True~4c. Rental Income onthe Property You want to Purchase - For Purchase Only Does not Apply~False~eURLA_X80~YN
+URLA.X81~RentalEstimatedNetMonthlyRentAmount~False~decimal~True~Expected Net Monthly Rental Income For LENDER to Calculate~False~~DECIMAL_2
 URLA.X82~Applications{current}.Borrower.GiftsAndGrantsIndicatorBor~False~bool~True~Gifts and Grants Indicator Borr~False~eURLA_X82~YN
 URLA.X83~Applications{current}.Coborrower.GiftsAndGrantsIndicatorBor~False~bool~True~Gifts and Grants Indicator Co-Borr~False~eURLA_X83~YN
 URLA.X84~Applications{current}.Borrower.SpecialBorrowerSellerRelationshipIndicator~False~bool~True~Borr Declarations 5a B~False~eURLA_X84~YN

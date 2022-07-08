@@ -202,5 +202,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="unincorporatedAreaName", EmitDefaultValue=false)]
 		public string UnincorporatedAreaName { get; set; }
 
+		[DataMember(Name = "occupancyDisplayField", EmitDefaultValue = false)]
+		public string OccupancyDisplayField { get; set; }
+
 	}
 }

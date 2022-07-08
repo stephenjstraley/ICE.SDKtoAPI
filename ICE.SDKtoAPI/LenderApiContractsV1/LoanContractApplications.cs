@@ -13,6 +13,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="accountNumber2", EmitDefaultValue=false)]
 		public string AccountNumber2 { get; set; }
 
+		[DataMember(Name = "additionalLoans", EmitDefaultValue = false)]
+		public List<LoanContractAdditionalLoan> AdditionalLoans { get; set; }
+
 		[DataMember(Name="allOtherPaymentsAmount", EmitDefaultValue=false)]
 		public double? AllOtherPaymentsAmount { get; set; }
 
@@ -177,6 +180,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="freDebtToHousingGapRatio", EmitDefaultValue=false)]
 		public double? FreDebtToHousingGapRatio { get; set; }
+
+		[DataMember(Name = "giftsGrants", EmitDefaultValue = false)]
+		public List<LoanContractApplicationGiftGrant> GiftsGrants { get; set; }
 
 		[DataMember(Name="grossBaseIncomeAmount", EmitDefaultValue=false)]
 		public double? GrossBaseIncomeAmount { get; set; }
@@ -619,5 +625,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="vaSummaryTotalMonthlyGrossIncomeAmount", EmitDefaultValue=false)]
 		public double? VaSummaryTotalMonthlyGrossIncomeAmount { get; set; }
 
+		[DataMember(Name = "totalAdditionalLoansAmount", EmitDefaultValue = false)]
+		public decimal? TotalAdditionalLoansAmount { get; set; }
+
+		[DataMember(Name = "totalAppliedToDownpayment", EmitDefaultValue = false)]
+		public decimal? TotalAppliedToDownpayment { get; set; }
 	}
 }
