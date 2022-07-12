@@ -258,5 +258,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "linkedRequestedInterestRatePercent")]
         public decimal? LinkedRequestedInterestRatePercent { get; set; }
 
+        [DataMember(Name = "Square")]
+        public string Square { get; set; }
     }
 }

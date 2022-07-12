@@ -54,7 +54,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string VerificationDate { get; set; }
 
         [DataMember(Name = "currentEmploymentIndicator")]
-        public bool? CurrentEmploymentIndicator { get; set; }
+        public bool? CurrentEmploymentIndicator { get; set; } = false;
 
         [DataMember(Name = "doesNotApply")]
         public bool? DoesNotApply { get; set; }

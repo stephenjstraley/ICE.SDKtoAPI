@@ -456,7 +456,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public bool? OmitFromPrintSellersTransaction { get; set; }
 
         [DataMember(Name = "ucdDetails")]
-        public List<UcdDetailContract> UcdDetails { get; set; }
+        public List<UcdDetailContract> UCDDetails { get; set; }
 
         [DataMember(Name = "ucdkSubTotal")]
         public decimal? UcdkSubTotal { get; set; }

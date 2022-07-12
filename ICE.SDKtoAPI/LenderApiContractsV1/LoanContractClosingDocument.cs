@@ -568,5 +568,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="weConductBusiness", EmitDefaultValue=false)]
 		public string WeConductBusiness { get; set; }
 
+		[DataMember(Name = "Print2001UniformInstrumentsIndicator")]
+		public bool? Print2001UniformInstrumentsIndicator { get; set; }
 	}
 }

@@ -593,6 +593,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "clFinalTitlePolicyDateTime")]
         public string ClFinalTitlePolicyDateTime { get; set; }
 
+        [DataMember(Name = "Print2001UniformInstrumentsIndicator")]
+        public bool? Print2001UniformInstrumentsIndicator { get; set; }
 
     }
 }

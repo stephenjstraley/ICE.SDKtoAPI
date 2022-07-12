@@ -4000,27 +4000,35 @@
 4784~RateLock.ReasonForBranchApproval5~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 5~false~~STRING
 4785~EnergyImprovementAmount~false~decimal~true~Energy Improvement Amount~false~~DECIMAL_2
 4786~PaceLoanPayoffAmount~false~decimal~true~PACE Loan Payoff Amount~false~~DECIMAL_2
+4787~RateLock.PricingConcessionRequested~false~decimal~true~Rate Lock Pricing Concession Requested~false~~DECIMAL_10
+4788~RateLock.LockValidationStatus~false~string~true~Rate Lock Validation Status~false~~STRING
+4789~RateLock.PriceConcessionIndicator~false~boolean~true~Rate Lock Price Concession Indicator~false~~YN
+4790~RateLock.ExtensionIndicator~false~boolean~true~Rate Lock Extension Indicator~false~~YN
+4791~RateLock.PriceConcessionRequestStatus~false~string~true~Rate Lock Price Concession Request Status~false~~STRING
+4792~Property.Square~false~string~true~Property Info Square~false~~STRING
+4793~ClosingDocument.Print2001UniformInstrumentsIndicator~false~boolean~true~Print 01/2001 Version of Uniform Instruments~false~~YN
 1003p4~UrlPage4Comments~False~string~False~TBD~False~~STRING
 2010TITLE_TABLE~ClosingCost.TitleTable2010Name~False~string~False~Fees Title Table~False~~STRING
 AP.WF.EVNT.DOCREVIEW~ClosingDocument.AppraiserSentDocForReview~False~datetime~False~~False~~DATETIME
 AP.WF.EVNT.DATAREVIEW~ClosingDocument.AppraiserSentDataForReview~False~datetime~False~~False~~DATETIME
 AP.WF.EVNT.APODRSENT~ClosingDocument.AppraisalOrderSent~False~datetime~False~~False~~DATETIME
 AP.WF.EVNT.APODRACCP~ClosingDocument.AppraisalOrderAccepted~False~datetime~False~~False~~DATETIME
-AUS.CuredX11~Applications{current}.AUSTrackingLogs[(1)].Log_CuredLTV~False~decimal~False~~False~~DECIMAL_3
-AUS.CuredX12~Applications{current}.AUSTrackingLogs[(1)].Log_CuredCLTV~False~decimal~False~~False~~DECIMAL_3
-AUS.CuredX14~Applications{current}.AUSTrackingLogs[(1)].Log_CuredHousingExpenseRatio~False~decimal~False~~False~~DECIMAL_3
-AUS.CuredX15~Applications{current}.AUSTrackingLogs[(1)].Log_CuredTotalExpenseRatio~False~decimal~False~~False~~DECIMAL_3
-AUS.CuredX16~Applications{current}.AUSTrackingLogs[(1)].Log_CuredTotalLoanAmount~False~decimal~False~~False~~DECIMAL_3
-AUS.CuredX18~Applications{current}.AUSTrackingLogs[(1)].Log_CuredAppraisedValue~False~decimal~False~~False~~DECIMAL_3
-AUS.CuredX19~Applications{current}.AUSTrackingLogs[(1)].Log_CuredNoteRate~False~decimal~False~~False~~DECIMAL_3
-AUS.CuredX20~Applications{current}.AUSTrackingLogs[(1)].Log_CuredLoanType~False~string~False~~False~eAUS_CuredX20~STRING
-AUS.CuredX21~Applications{current}.AUSTrackingLogs[(1)].Log_CuredLoanTerm~False~int~False~~False~~INTEGER
-AUS.CuredX22~Applications{current}.AUSTrackingLogs[(1)].Log_CuredAmortizationType~False~string~False~~False~eAUS_CuredX22~STRING
-AUS.CuredX23~Applications{current}.AUSTrackingLogs[(1)].Log_CuredLoanPurpose~False~string~False~~False~eAUS_CuredX23~STRING
-AUS.CuredX24~Applications{current}.AUSTrackingLogs[(1)].Log_CuredRefinancePurpose~False~string~False~~False~eAUS_CuredX24~STRING
-AUS.CuredX32~Applications{current}.AUSTrackingLogs[(1)].Log_CuredProposedTotalHousingPayment~False~decimal~False~~False~~DECIMAL_2
-AUS.CuredX41~Applications{current}.AUSTrackingLogs[(1)].Log_CuredTotalMonthlyIncome~False~decimal~False~~False~~DECIMAL_2
-AUS.EFOLDERGUID~Applications{current}.AUSTrackingLogs[(1)].Log_eFolderGUID~False~string~False~~False~~STRING
+AUS.CuredX11~Applications{current}.AUSTrackingLogs[(1)].LogCuredLTV~False~decimal~False~~False~~DECIMAL_3
+AUS.CuredX12~Applications{current}.AUSTrackingLogs[(1)].LogCuredCLTV~False~decimal~False~~False~~DECIMAL_3
+AUS.CuredX14~Applications{current}.AUSTrackingLogs[(1)].LogCuredHousingExpenseRatio~False~decimal~False~~False~~DECIMAL_3
+AUS.CuredX15~Applications{current}.AUSTrackingLogs[(1)].LogCuredTotalExpenseRatio~False~decimal~False~~False~~DECIMAL_3
+AUS.CuredX16~Applications{current}.AUSTrackingLogs[(1)].LogCuredTotalLoanAmount~False~decimal~False~~False~~DECIMAL_3
+AUS.CuredX18~Applications{current}.AUSTrackingLogs[(1)].LogCuredAppraisedValue~False~decimal~False~~False~~DECIMAL_3
+AUS.CuredX19~Applications{current}.AUSTrackingLogs[(1)].LogCuredNoteRate~False~decimal~False~~False~~DECIMAL_3
+AUS.CuredX20~Applications{current}.AUSTrackingLogs[(1)].LogCuredLoanType~False~string~False~~False~eAUS_CuredX20~STRING
+AUS.CuredX21~Applications{current}.AUSTrackingLogs[(1)].LogCuredLoanTerm~False~int~False~~False~~INTEGER
+AUS.CuredX22~Applications{current}.AUSTrackingLogs[(1)].LogCuredAmortizationType~False~string~False~~False~eAUS_CuredX22~STRING
+AUS.CuredX23~Applications{current}.AUSTrackingLogs[(1)].LogCuredLoanPurpose~False~string~False~~False~eAUS_CuredX23~STRING
+AUS.CuredX24~Applications{current}.AUSTrackingLogs[(1)].LogCuredRefinancePurpose~False~string~False~~False~eAUS_CuredX24~STRING
+AUS.CuredX32~Applications{current}.AUSTrackingLogs[(1)].LogCuredProposedTotalHousingPayment~False~decimal~False~~False~~DECIMAL_2
+AUS.CuredX41~Applications{current}.AUSTrackingLogs[(1)].LogCuredTotalMonthlyIncome~False~decimal~False~~False~~DECIMAL_2
+AUS.CuredX199~Applications{current}.AUSTrackingLogs[(1)].LogCuredAusAverageMedianCreditScore~false~string~true~AUS Tracking - Cured AUS Average Median Credit Score~false~~STRING
+AUS.EFOLDERGUID~Applications{current}.AUSTrackingLogs[(1)].LogEFolderGUID~False~string~False~~False~~STRING
 ^(AB)(\d2)(01$)~AffiliatedBusinessArrangements[(1)].LenderName~False~string~False~Affiliated Business Arrangements - Lender Name~False~~STRING
 ^(AB)(\d2)(02$)~AffiliatedBusinessArrangements[(1)].LenderAddress~False~string~False~Affiliated Business Arrangements - Lender's Address~False~~STRING
 ^(AB)(\d2)(03$)~AffiliatedBusinessArrangements[(1)].LenderAddressCity~False~string~False~Affiliated Business Arrangements - Lender's Address City~False~~STRING
@@ -4201,7 +4209,7 @@ AUS.X47~Applications{current}.AUSTrackingLogs[(1)].LogPropertyCity~False~string~
 AUS.X48~Applications{current}.AUSTrackingLogs[(1)].LogPropertyState~False~string~False~AUS Tracking - Fannie Mae - Property State~False~~STATE
 AUS.X49~Applications{current}.AUSTrackingLogs[(1)].LogPropertyZipcode~False~string~False~AUS Tracking - Fannie Mae - Property Zipcode~False~~ZIPCODE
 AUS.X50~Applications{current}.AUSTrackingLogs[(1)].LogDUPropertyType~False~string~False~AUS Tracking - Fannie Mae - Property Type~False~eAUS_X50~STRING
-AUS.X51~Applications{current}.AUSTrackingLogs[(1)].Log_DUPropertyType~False~int~False~~False~~INTEGER
+AUS.X51~Applications{current}.AUSTrackingLogs[(1)].LogNoUnits~False~int~False~~False~~INTEGER
 AUS.X52~Applications{current}.AUSTrackingLogs[(1)].LogOccupancyStatus~False~string~False~~False~~STRING
 AUS.X53~Applications{current}.AUSTrackingLogs[(1)].LogBalloon~False~string~False~~False~~STRING
 AUS.X54~Applications{current}.AUSTrackingLogs[(1)].LogCommunityLending~False~string~False~~False~~STRING
@@ -4347,8 +4355,9 @@ AUS.X193~Applications{current}.AUSTrackingLogs[(1)].LogFatalEditInfo~False~strin
 AUS.X194~Applications{current}.AUSTrackingLogs[(1)].LogOrderStatus~False~string~False~~False~~STRING
 AUS.X195~Applications{current}.AUSTrackingLogs[(1)].LogErrorInfo~False~string~False~~False~~STRING
 AUS.X196~Applications{current}.AUSTrackingLogs[(1)].LogAusOrderLinkId~False~string~False~~False~~STRING
-AUS.X197~Applications{current}.AUSTrackingLogs[(1)].AusLogExtensionId~true~string~true~AUS Tracking - AUS Log Extension Id~false~~STRING
-AUS.X198~Applications{current}.AUSTrackingLogs[(1)].AusResponseFileName~true~string~true~AUS Tracking - Aus Response File Name~false~~STRING
+AUS.X197~Applications{current}.AUSTrackingLogs[(1)].LogAusLogExtensionId~true~string~true~AUS Tracking - AUS Log Extension Id~false~~STRING
+AUS.X198~Applications{current}.AUSTrackingLogs[(1)].LogAusResponseFileName~true~string~true~AUS Tracking - Aus Response File Name~false~~STRING
+AUS.X199~Applications{current}.AUSTrackingLogs[(1)].LogAusAverageMedianCreditScore~false~string~true~AUS Tracking - AUS Average Median Credit Score~false~~STRING
 AUS.X999~Applications{current}.AUSTrackingLogs[(1)].LogAUSTrackingType~False~string~False~~False~eAUS_X999~STRING
 AUSF.X1~Applications{current}.ATRQMBorrowers[(1)].UnderwritingRiskAssessType~False~string~False~AUS Tracking - Latest Submission - Underwriting Risk Assess Type~False~~STRING
 AUSF.X2~Applications{current}.ATRQMBorrowers[(1)].UnderwritingRiskAssessOther~False~string~False~AUS Tracking - Latest Submission - Underwriting Risk Assess Other Type~False~~STRING

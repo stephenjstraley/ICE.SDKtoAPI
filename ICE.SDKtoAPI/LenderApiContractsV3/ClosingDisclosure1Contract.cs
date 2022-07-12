@@ -317,6 +317,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "revisedReceivedDate")]
         public string RevisedReceivedDate { get; set; }
 
+        
 
     }
 }

@@ -3995,6 +3995,13 @@
 4784~RateLock.ReasonForBranchApproval5~false~string~true~Rate Lock Buy Side Reason for Branch Concession Approval 5~false~~STRING
 4785~EnergyImprovementAmount~false~decimal~true~Energy Improvement Amount~false~~DECIMAL_2
 4786~PaceLoanPayoffAmount~false~decimal~true~PACE Loan Payoff Amount~false~~DECIMAL_2
+4787~RateLock.PricingConcessionRequested~false~decimal~true~Rate Lock Pricing Concession Requested~false~~DECIMAL_10
+4788~RateLock.LockValidationStatus~false~string~true~Rate Lock Validation Status~false~~STRING
+4789~RateLock.PriceConcessionIndicator~false~boolean~true~Rate Lock Price Concession Indicator~false~~YN
+4790~RateLock.ExtensionIndicator~false~boolean~true~Rate Lock Extension Indicator~false~~YN
+4791~RateLock.PriceConcessionRequestStatus~false~string~true~Rate Lock Price Concession Request Status~false~~STRING
+4792~Property.Square~false~string~true~Property Info Square~false~~STRING
+4793~ClosingDocument.Print2001UniformInstrumentsIndicator~false~boolean~true~Print 01/2001 Version of Uniform Instruments~false~~YN
 1003p4~UrlPage4Comments~False~string~True~1003 Page 4 Comments~False~~STRING
 2010TITLE_TABLE~ClosingCost.TitleTable2010Name~True~string~True~2010 Fees Title Table~False~~STRING
 ^(AB)(\d2)(01$)~AffiliatedBusinessArrangements[(1)].LenderName~False~string~True~Affiliated Business Arrangements - Lender Name~False~~STRING
@@ -4145,6 +4152,7 @@ AUS.CuredX23~Applications{current}.AusTracking.CuredLoanPurpose~True~string~True
 AUS.CuredX24~Applications{current}.AusTracking.CuredRefinancePurpose~True~string~True~Cured AUS Tracking - Refinance Purpose~False~eAUS_CuredX24~STRING
 AUS.CuredX32~Applications{current}.AusTracking.CuredProposedTotalHousingPayment~True~decimal~True~Cured AUS Tracking - Proposed Monthly Payment / Debt - Total Housing Payment~False~~DECIMAL_2
 AUS.CuredX41~Applications{current}.AusTracking.CuredTotalMonthlyIncome~True~decimal~True~Cured AUS Tracking - Income / Assets - Total Monthly Income~False~~DECIMAL_2
+AUS.CuredX199~Applications{current}.AusTracking.CuredAusAverageMedianCreditScore~false~string~true~AUS Tracking - Cured AUS Average Median Credit Score~false~~STRING
 AUS.EFOLDERGUID~Applications{current}.AusTracking.EFolderGuid~True~string~True~AUS Tracking - eFolder GUID~False~~STRING
 AUS.X1~Applications{current}.AusTracking.UnderwritingRiskAssessType~False~string~True~AUS Tracking - Underwriting Risk Assess Type~False~eAUS_X1~STRING
 AUS.X10~Applications{current}.AusTracking.FreddieDocClass~False~string~True~AUS Tracking - Doc Class (Freddie)~False~~STRING
@@ -4256,6 +4264,7 @@ AUS.X195~Applications{current}.AusTracking.ErrorInfo~False~string~True~AUS Track
 AUS.X196~Applications{current}.AusTracking.AusOrderLinkId~False~string~True~AUS Tracking - AUS Order LinkId ~False~~STRING
 AUS.X197~Applications{current}.AusTracking.AusLogExtensionId~true~string~true~AUS Tracking - AUS Log Extension Id~false~~STRING
 AUS.X198~Applications{current}.AusTracking.AusResponseFileName~true~string~true~AUS Tracking - Aus Response File Name~false~~STRING
+AUS.X199~Applications{current}.AusTracking.AusAverageMedianCreditScore~false~string~true~AUS Tracking - AUS Average Median Credit Score~false~~STRING
 AUS.X2~Applications{current}.AusTracking.UnderwritingRiskAssessOther~False~string~True~AUS Tracking - Underwriting Risk Assess Other Type~False~~STRING
 AUS.X20~Applications{current}.AusTracking.LoanType~False~string~True~AUS Tracking - Loan Type~False~eAUS_X20~STRING
 AUS.X21~Applications{current}.AusTracking.LoanTerm~False~int~True~AUS Tracking - Loan Term~False~~INTEGER
@@ -11393,21 +11402,21 @@ MORNET.X96~FannieMae.UcdCollectionStatus~False~string~True~Fannie Mae UCD Collec
 MORNET.X97~FannieMae.PiwMessage~False~string~True~Fannie Mae - Borrower - PIW Message~False~~STRING
 MORNET.X98~FannieMae.ValueRepAndWarrantyMessage~False~string~True~Fannie Mae - Borrower - Value Rep and Warranty Message~False~~STRING
 MORNET.X99~Applications{current}.Borrower.IncomeRepAndWarrantyMessage~False~string~True~Fannie Mae - Borrower - Income Verification Message~False~~STRING
-MS.APP~milestoneApprovedDate~True~datetime~True~Tracking - Approved Milestone Date~False~~DATE
-MS.APP.DUE~milestoneApprovedDueDate~True~datetime~True~Tracking - Approved Milestone Due Date~False~~DATE
-MS.CLO~milestoneCompletedDate~True~datetime~True~Tracking - Completed Milestone Date~False~~DATE
-MS.CLO.DUE~milestoneCompletedDueDate~True~datetime~True~Tracking - Completed Milestone Due Date~False~~DATE
-MS.DOC~milestoneDocSignedDate~True~datetime~True~Tracking - Doc Signed Milestone Date~False~~DATE
-MS.DOC.DUE~milestoneDocSignedDueDate~True~datetime~True~Tracking - Doc Signed Milestone Due Date~False~~DATE
-MS.FUN~milestoneFundedDate~True~datetime~True~Tracking - Funded Milestone Date~False~~DATE
-MS.FUN.DUE~milestoneFundedDueDate~True~datetime~True~Tracking - Funded Milestone Due Date~False~~DATE
-MS.LOANDURATION~milestoneDuration~True~int~True~Tracking - Loan Milestone Duration~False~~INTEGER
-MS.PROC~milestoneProcessedDate~True~datetime~True~Tracking - Processed Milestone Date~False~~DATE
-MS.START~milestoneFileStartedDate~True~datetime~True~Tracking - File Started Milestone Date~False~~DATE
-MS.STATUS~milestoneCurrentName~True~string~True~Tracking - Current Milestone Name~False~eMS_STATUS~STRING
-MS.STATUSDATE~milestoneCurrentDate~True~datetime~True~Tracking - Current Milestone Date~False~~DATETIME
-MS.SUB~milestoneSubmittedDate~True~datetime~True~Tracking - Submitted Milestone Date~False~~DATE
-MS.SUB.DUE~milestoneSubmittedDueDate~True~datetime~True~Tracking - Submitted Milestone Due Date~False~~DATE
+MS.APP~MilestoneApprovedDate~True~datetime~True~Tracking - Approved Milestone Date~False~~DATE
+MS.APP.DUE~MilestoneApprovedDueDate~True~datetime~True~Tracking - Approved Milestone Due Date~False~~DATE
+MS.CLO~MilestoneCompletedDate~True~datetime~True~Tracking - Completed Milestone Date~False~~DATE
+MS.CLO.DUE~MilestoneCompletedDueDate~True~datetime~True~Tracking - Completed Milestone Due Date~False~~DATE
+MS.DOC~MilestoneDocSignedDate~True~datetime~True~Tracking - Doc Signed Milestone Date~False~~DATE
+MS.DOC.DUE~MilestoneDocSignedDueDate~True~datetime~True~Tracking - Doc Signed Milestone Due Date~False~~DATE
+MS.FUN~MilestoneFundedDate~True~datetime~True~Tracking - Funded Milestone Date~False~~DATE
+MS.FUN.DUE~MilestoneFundedDueDate~True~datetime~True~Tracking - Funded Milestone Due Date~False~~DATE
+MS.LOANDURATION~MilestoneDuration~True~int~True~Tracking - Loan Milestone Duration~False~~INTEGER
+MS.PROC~MilestoneProcessedDate~True~datetime~True~Tracking - Processed Milestone Date~False~~DATE
+MS.START~MilestoneFileStartedDate~True~datetime~True~Tracking - File Started Milestone Date~False~~DATE
+MS.STATUS~MilestoneCurrentName~True~string~True~Tracking - Current Milestone Name~False~eMS_STATUS~STRING
+MS.STATUSDATE~MilestoneCurrentDate~True~datetime~True~Tracking - Current Milestone Date~False~~DATETIME
+MS.SUB~MilestoneSubmittedDate~True~datetime~True~Tracking - Submitted Milestone Date~False~~DATE
+MS.SUB.DUE~MilestoneSubmittedDueDate~True~datetime~True~Tracking - Submitted Milestone Due Date~False~~DATE
 ^(NBOC)(\d2)(01$)~NonBorrowingOwners[(1)].FirstName~False~string~True~Non-Borrowing Owner File Contact - First Name~False~~STRING
 ^(NBOC)(\d2)(02$)~NonBorrowingOwners[(1)].MiddleName~False~string~True~Non-Borrowing Owner File Contact - Middle Name~False~~STRING
 ^(NBOC)(\d2)(03$)~NonBorrowingOwners[(1)].LastName~False~string~True~Non-Borrowing Owner File Contact - Last Name~False~~STRING
@@ -11543,55 +11552,55 @@ NEWHUD.X1091~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gf
 NEWHUD.X1092~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1309].PaidToName~False~string~True~Fees Line 1309 Paid To Name~False~~STRING
 NEWHUD.X1093~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1310].PaidToName~False~string~True~Fees Line 1310 Paid To Name~False~~STRING
 NEWHUD.X1094~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1311].PaidToName~False~string~True~Fees Line 1311 Paid To Name~False~~STRING
-NEWHUD.X1095~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '7')].Description~False~string~True~Change Chrgs 7 Descr~False~~STRING
-NEWHUD.X1096~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '8')].Description~False~string~True~Change Chrgs 8 Descr~False~~STRING
-NEWHUD.X1097~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '9')].Description~False~string~True~Change Chrgs 9 Descr~False~~STRING
-NEWHUD.X1098~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '10')].Description~False~string~True~Change Chrgs 10 Descr~False~~STRING
-NEWHUD.X1099~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '11')].Description~False~string~True~Change Chrgs 11 Descr~False~~STRING
+NEWHUD.X1095~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=7)].Description~False~string~True~Change Chrgs 7 Descr~False~~STRING
+NEWHUD.X1096~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=8)].Description~False~string~True~Change Chrgs 8 Descr~False~~STRING
+NEWHUD.X1097~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=9)].Description~False~string~True~Change Chrgs 9 Descr~False~~STRING
+NEWHUD.X1098~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=10)].Description~False~string~True~Change Chrgs 10 Descr~False~~STRING
+NEWHUD.X1099~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=11)].Description~False~string~True~Change Chrgs 11 Descr~False~~STRING
 NEWHUD.X11~LoanProductData.MaximumMonthlyPayment~False~decimal~True~Maximum Monthly Payment~False~~DECIMAL_2
 NEWHUD.X110~ClosingCost.Gfe2010.BorrowerSelectIndicator5~False~bool~True~Fees Line 1304 Borr Selects~False~eNEWHUD_X110~YN
-NEWHUD.X1100~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '12')].Description~False~string~True~Change Chrgs 12 Descr~False~~STRING
-NEWHUD.X1101~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '13')].Description~False~string~True~Change Chrgs 13 Descr~False~~STRING
-NEWHUD.X1102~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '14')].Description~False~string~True~Change Chrgs 14 Descr~False~~STRING
-NEWHUD.X1103~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '15')].Description~False~string~True~Change Chrgs 15 Descr~False~~STRING
-NEWHUD.X1104~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '16')].Description~False~string~True~Change Chrgs 16 Descr~False~~STRING
-NEWHUD.X1105~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '17')].Description~False~string~True~Change Chrgs 17 Descr~False~~STRING
-NEWHUD.X1106~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '7')].Line~False~string~True~Change Chrgs 7 GFE Line #~False~~STRING
-NEWHUD.X1107~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '8')].Line~False~string~True~Change Chrgs 8 GFE Line #~False~~STRING
-NEWHUD.X1108~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '9')].Line~False~string~True~Change Chrgs 9 GFE Line #~False~~STRING
-NEWHUD.X1109~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '10')].Line~False~string~True~Change Chrgs 10 GFE Line #~False~~STRING
+NEWHUD.X1100~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=12)].Description~False~string~True~Change Chrgs 12 Descr~False~~STRING
+NEWHUD.X1101~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=13)].Description~False~string~True~Change Chrgs 13 Descr~False~~STRING
+NEWHUD.X1102~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=14)].Description~False~string~True~Change Chrgs 14 Descr~False~~STRING
+NEWHUD.X1103~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=15)].Description~False~string~True~Change Chrgs 15 Descr~False~~STRING
+NEWHUD.X1104~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=16)].Description~False~string~True~Change Chrgs 16 Descr~False~~STRING
+NEWHUD.X1105~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=17)].Description~False~string~True~Change Chrgs 17 Descr~False~~STRING
+NEWHUD.X1106~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=7)].Line~False~string~True~Change Chrgs 7 GFE Line #~False~~STRING
+NEWHUD.X1107~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=8)].Line~False~string~True~Change Chrgs 8 GFE Line #~False~~STRING
+NEWHUD.X1108~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=9)].Line~False~string~True~Change Chrgs 9 GFE Line #~False~~STRING
+NEWHUD.X1109~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=10)].Line~False~string~True~Change Chrgs 10 GFE Line #~False~~STRING
 NEWHUD.X111~ClosingCost.Gfe2010.BorrowerSelectIndicator6~False~bool~True~Fees Line 1305 Borr Selects~False~eNEWHUD_X111~YN
-NEWHUD.X1110~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '11')].Line~False~string~True~Change Chrgs 11 GFE Line #~False~~STRING
-NEWHUD.X1111~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '12')].Line~False~string~True~Change Chrgs 12 GFE Line #~False~~STRING
-NEWHUD.X1112~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '13')].Line~False~string~True~Change Chrgs 13 GFE Line #~False~~STRING
-NEWHUD.X1113~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '14')].Line~False~string~True~Change Chrgs 14 GFE Line #~False~~STRING
-NEWHUD.X1114~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '15')].Line~False~string~True~Change Chrgs 15 GFE Line #~False~~STRING
-NEWHUD.X1115~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '16')].Line~False~string~True~Change Chrgs 16 GFE Line #~False~~STRING
-NEWHUD.X1116~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '17')].Line~False~string~True~Change Chrgs 17 GFE Line #~False~~STRING
-NEWHUD.X1117~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '7')].GfeCharge~False~decimal~True~Changed Chrgs 7 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1118~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '8')].GfeCharge~False~decimal~True~Changed Chrgs 8 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1119~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '9')].GfeCharge~False~decimal~True~Changed Chrgs 9 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1110~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=11)].Line~False~string~True~Change Chrgs 11 GFE Line #~False~~STRING
+NEWHUD.X1111~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=12)].Line~False~string~True~Change Chrgs 12 GFE Line #~False~~STRING
+NEWHUD.X1112~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=13)].Line~False~string~True~Change Chrgs 13 GFE Line #~False~~STRING
+NEWHUD.X1113~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=14)].Line~False~string~True~Change Chrgs 14 GFE Line #~False~~STRING
+NEWHUD.X1114~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=15)].Line~False~string~True~Change Chrgs 15 GFE Line #~False~~STRING
+NEWHUD.X1115~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=16)].Line~False~string~True~Change Chrgs 16 GFE Line #~False~~STRING
+NEWHUD.X1116~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=17)].Line~False~string~True~Change Chrgs 17 GFE Line #~False~~STRING
+NEWHUD.X1117~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=7)].GfeCharge~False~decimal~True~Changed Chrgs 7 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1118~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=8)].GfeCharge~False~decimal~True~Changed Chrgs 8 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1119~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=9)].GfeCharge~False~decimal~True~Changed Chrgs 9 GFE Amt~False~~DECIMAL_2
 NEWHUD.X112~ClosingCost.Gfe2010.BorrowerSelectIndicator7~False~bool~True~Fees Line 1306 Borr Selects~False~eNEWHUD_X112~YN
-NEWHUD.X1120~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '10')].GfeCharge~False~decimal~True~Changed Chrgs 10 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1121~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '11')].GfeCharge~False~decimal~True~Changed Chrgs 11 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1122~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '12')].GfeCharge~False~decimal~True~Changed Chrgs 12 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1123~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '13')].GfeCharge~False~decimal~True~Changed Chrgs 13 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1124~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '14')].GfeCharge~False~decimal~True~Changed Chrgs 14 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1125~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '15')].GfeCharge~False~decimal~True~Changed Chrgs 15 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1126~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '16')].GfeCharge~False~decimal~True~Changed Chrgs 16 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1127~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '17')].GfeCharge~False~decimal~True~Changed Chrgs 17 GFE Amt~False~~DECIMAL_2
-NEWHUD.X1128~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '7')].HudCharge~False~decimal~True~Changed Chrgs 7 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1129~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '8')].HudCharge~False~decimal~True~Changed Chrgs 8 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1120~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=10)].GfeCharge~False~decimal~True~Changed Chrgs 10 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1121~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=11)].GfeCharge~False~decimal~True~Changed Chrgs 11 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1122~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=12)].GfeCharge~False~decimal~True~Changed Chrgs 12 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1123~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=13)].GfeCharge~False~decimal~True~Changed Chrgs 13 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1124~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=14)].GfeCharge~False~decimal~True~Changed Chrgs 14 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1125~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=15)].GfeCharge~False~decimal~True~Changed Chrgs 15 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1126~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=16)].GfeCharge~False~decimal~True~Changed Chrgs 16 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1127~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=17)].GfeCharge~False~decimal~True~Changed Chrgs 17 GFE Amt~False~~DECIMAL_2
+NEWHUD.X1128~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=7)].HudCharge~False~decimal~True~Changed Chrgs 7 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1129~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=8)].HudCharge~False~decimal~True~Changed Chrgs 8 HUD-1 Amt~False~~DECIMAL_2
 NEWHUD.X113~ClosingCost.Gfe2010.BorrowerSelectIndicator8~False~bool~True~Fees Line 1307 Borr Selects~False~eNEWHUD_X113~YN
-NEWHUD.X1130~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '9')].HudCharge~False~decimal~True~Changed Chrgs 9 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1131~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '10')].HudCharge~False~decimal~True~Changed Chrgs 10 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1132~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '11')].HudCharge~False~decimal~True~Changed Chrgs 11 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1133~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '12')].HudCharge~False~decimal~True~Changed Chrgs 12 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1134~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '13')].HudCharge~False~decimal~True~Changed Chrgs 13 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1135~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '14')].HudCharge~False~decimal~True~Changed Chrgs 14 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1136~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '15')].HudCharge~False~decimal~True~Changed Chrgs 15 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1137~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '16')].HudCharge~False~decimal~True~Changed Chrgs 16 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X1138~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '17')].HudCharge~False~decimal~True~Changed Chrgs 17 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1130~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=9)].HudCharge~False~decimal~True~Changed Chrgs 9 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1131~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=10)].HudCharge~False~decimal~True~Changed Chrgs 10 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1132~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=11)].HudCharge~False~decimal~True~Changed Chrgs 11 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1133~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=12)].HudCharge~False~decimal~True~Changed Chrgs 12 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1134~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=13)].HudCharge~False~decimal~True~Changed Chrgs 13 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1135~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=14)].HudCharge~False~decimal~True~Changed Chrgs 14 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1136~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=15)].HudCharge~False~decimal~True~Changed Chrgs 15 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1137~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=16)].HudCharge~False~decimal~True~Changed Chrgs 16 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X1138~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=17)].HudCharge~False~decimal~True~Changed Chrgs 17 HUD-1 Amt~False~~DECIMAL_2
 NEWHUD.X1139~ClosingCost.Gfe2010Section.LoCompensationUseLoCompensationToolIndicator~False~bool~True~Itemize Fees on Line 802 Use LO Compensation Tool~False~eNEWHUD_X1139~YN
 NEWHUD.X114~ClosingCost.Gfe2010.BorrowerSelectIndicator9~False~bool~True~Fees Line 1308 Borr Selects~False~eNEWHUD_X114~YN
 NEWHUD.X1140~ClosingCost.Gfe2010Section.LoCompensationItemizeFeesIndicator~False~bool~True~Itemize Fees on Line 802~False~eNEWHUD_X1140~YN
@@ -12332,65 +12341,65 @@ NEWHUD.X275~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe
 NEWHUD.X276~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1311].PtbType~False~string~True~Fees Line 1311 Paid To~False~eNEWHUD_X276~STRING
 NEWHUD.X277~ClosingCost.Gfe2010Page.Hud1Pg2TotalSettlementCharges~False~decimal~True~Borr Total Closing Costs~False~~DECIMAL_2
 NEWHUD.X278~ClosingCost.Gfe2010Page.Hud1Pg2SellerPaidClosingCostsAmount~False~decimal~True~Seller Total Closing Costs~False~~DECIMAL_2
-NEWHUD.X279~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '1')].Description~False~string~True~10% Tolerance Comp Chart - Line 2 Descr~False~~STRING
+NEWHUD.X279~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=1)].Description~False~string~True~10% Tolerance Comp Chart - Line 2 Descr~False~~STRING
 NEWHUD.X28~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=6].Description~False~string~True~Required Service 6 Descr~False~~STRING
-NEWHUD.X280~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '2')].Description~False~string~True~10% Tolerance Comp Chart - Line 3 Descr~False~~STRING
-NEWHUD.X281~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '3')].Description~False~string~True~10% Tolerance Comp Chart - Line 4 Descr~False~~STRING
-NEWHUD.X282~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '4')].Description~False~string~True~10% Tolerance Comp Chart - Line 5 Descr~False~~STRING
-NEWHUD.X283~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '5')].Description~False~string~True~10% Tolerance Comp Chart - Line 6 Descr~False~~STRING
-NEWHUD.X284~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '6')].Description~False~string~True~10% Tolerance Comp Chart - Line 7 Descr~False~~STRING
-NEWHUD.X285~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '7')].Description~False~string~True~10% Tolerance Comp Chart - Line 8 Descr~False~~STRING
-NEWHUD.X286~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '8')].Description~False~string~True~10% Tolerance Comp Chart - Line 9 Descr~False~~STRING
-NEWHUD.X287~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '1')].Line~False~string~True~10% Tolerance Comp Chart - Line 2 Line #~False~~STRING
-NEWHUD.X288~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '2')].Line~False~string~True~10% Tolerance Comp Chart - Line 3 Line #~False~~STRING
-NEWHUD.X289~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '3')].Line~False~string~True~10% Tolerance Comp Chart - Line 4 Line #~False~~STRING
+NEWHUD.X280~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=2)].Description~False~string~True~10% Tolerance Comp Chart - Line 3 Descr~False~~STRING
+NEWHUD.X281~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=3)].Description~False~string~True~10% Tolerance Comp Chart - Line 4 Descr~False~~STRING
+NEWHUD.X282~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=4)].Description~False~string~True~10% Tolerance Comp Chart - Line 5 Descr~False~~STRING
+NEWHUD.X283~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=5)].Description~False~string~True~10% Tolerance Comp Chart - Line 6 Descr~False~~STRING
+NEWHUD.X284~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=6)].Description~False~string~True~10% Tolerance Comp Chart - Line 7 Descr~False~~STRING
+NEWHUD.X285~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=7)].Description~False~string~True~10% Tolerance Comp Chart - Line 8 Descr~False~~STRING
+NEWHUD.X286~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=8)].Description~False~string~True~10% Tolerance Comp Chart - Line 9 Descr~False~~STRING
+NEWHUD.X287~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=1)].Line~False~string~True~10% Tolerance Comp Chart - Line 2 Line #~False~~STRING
+NEWHUD.X288~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=2)].Line~False~string~True~10% Tolerance Comp Chart - Line 3 Line #~False~~STRING
+NEWHUD.X289~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=3)].Line~False~string~True~10% Tolerance Comp Chart - Line 4 Line #~False~~STRING
 NEWHUD.X29~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=6].Amount~False~decimal~True~Required Service 6 Charge~False~~DECIMAL_2
-NEWHUD.X290~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '4')].Line~False~string~True~10% Tolerance Comp Chart - Line 5 Line #~False~~STRING
-NEWHUD.X291~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '5')].Line~False~string~True~10% Tolerance Comp Chart - Line 6 Line #~False~~STRING
-NEWHUD.X292~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '6')].Line~False~string~True~10% Tolerance Comp Chart - Line 7 Line #~False~~STRING
-NEWHUD.X293~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '7')].Line~False~string~True~10% Tolerance Comp Chart - Line 8 Line #~False~~STRING
-NEWHUD.X294~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '8')].Line~False~string~True~10% Tolerance Comp Chart - Line 9 Line #~False~~STRING
+NEWHUD.X290~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=4)].Line~False~string~True~10% Tolerance Comp Chart - Line 5 Line #~False~~STRING
+NEWHUD.X291~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=5)].Line~False~string~True~10% Tolerance Comp Chart - Line 6 Line #~False~~STRING
+NEWHUD.X292~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=6)].Line~False~string~True~10% Tolerance Comp Chart - Line 7 Line #~False~~STRING
+NEWHUD.X293~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=7)].Line~False~string~True~10% Tolerance Comp Chart - Line 8 Line #~False~~STRING
+NEWHUD.X294~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=8)].Line~False~string~True~10% Tolerance Comp Chart - Line 9 Line #~False~~STRING
 NEWHUD.X295~ClosingCost.Gfe2010Page.GfeRecordingCharges~False~string~True~GFE Gov Recording Chrgs~False~~STRING
-NEWHUD.X296~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '1')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 2 GFE Fee~False~~DECIMAL_2
-NEWHUD.X297~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '2')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 3 GFE Fee~False~~DECIMAL_2
-NEWHUD.X298~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '3')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 4 GFE Fee~False~~DECIMAL_2
-NEWHUD.X299~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '4')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 5 GFE Fee~False~~DECIMAL_2
+NEWHUD.X296~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=1)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 2 GFE Fee~False~~DECIMAL_2
+NEWHUD.X297~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=2)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 3 GFE Fee~False~~DECIMAL_2
+NEWHUD.X298~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=3)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 4 GFE Fee~False~~DECIMAL_2
+NEWHUD.X299~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=4)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 5 GFE Fee~False~~DECIMAL_2
 NEWHUD.X3~ClosingCost.Gfe2010.MustLockRateDays~False~string~True~Days Before Sttlmtn to Lock Int Rate~False~~STRING
 NEWHUD.X30~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=7].Description~False~string~True~Required Service 7 Descr~False~~STRING
-NEWHUD.X300~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '5')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 6 GFE Fee~False~~DECIMAL_2
-NEWHUD.X301~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '6')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 7 GFE Fee~False~~DECIMAL_2
-NEWHUD.X302~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '7')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 8 GFE Fee~False~~DECIMAL_2
-NEWHUD.X303~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '8')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 9 GFE Fee~False~~DECIMAL_2
-NEWHUD.X304~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '1')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 2 HUD Fee~False~~DECIMAL_2
-NEWHUD.X305~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '2')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 3 HUD Fee~False~~DECIMAL_2
-NEWHUD.X306~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '3')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 4 HUD Fee~False~~DECIMAL_2
-NEWHUD.X307~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '4')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 5 HUD Fee~False~~DECIMAL_2
-NEWHUD.X308~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '5')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 6 HUD Fee~False~~DECIMAL_2
-NEWHUD.X309~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '6')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 7 HUD Fee~False~~DECIMAL_2
+NEWHUD.X300~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=5)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 6 GFE Fee~False~~DECIMAL_2
+NEWHUD.X301~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=6)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 7 GFE Fee~False~~DECIMAL_2
+NEWHUD.X302~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=7)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 8 GFE Fee~False~~DECIMAL_2
+NEWHUD.X303~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=8)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 9 GFE Fee~False~~DECIMAL_2
+NEWHUD.X304~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=1)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 2 HUD Fee~False~~DECIMAL_2
+NEWHUD.X305~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=2)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 3 HUD Fee~False~~DECIMAL_2
+NEWHUD.X306~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=3)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 4 HUD Fee~False~~DECIMAL_2
+NEWHUD.X307~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=4)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 5 HUD Fee~False~~DECIMAL_2
+NEWHUD.X308~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=5)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 6 HUD Fee~False~~DECIMAL_2
+NEWHUD.X309~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=6)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 7 HUD Fee~False~~DECIMAL_2
 NEWHUD.X31~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=7].Amount~False~decimal~True~Required Service 7 Charge~False~~DECIMAL_2
-NEWHUD.X310~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '7')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 8 HUD Fee~False~~DECIMAL_2
-NEWHUD.X311~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '8')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 9 HUD Fee~False~~DECIMAL_2
+NEWHUD.X310~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=7)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 8 HUD Fee~False~~DECIMAL_2
+NEWHUD.X311~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=8)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 9 HUD Fee~False~~DECIMAL_2
 NEWHUD.X312~ClosingCost.Gfe2010Page.GfeTotalTolerance~False~decimal~True~Total GFE Tolerance~False~~DECIMAL_2
 NEWHUD.X313~ClosingCost.Gfe2010Page.HudTotalTolerance~False~decimal~True~Total HUD Tolerance~False~~DECIMAL_2
 NEWHUD.X314~ClosingCost.Gfe2010Page.TotalToleranceIncreaseAmount~False~decimal~True~Total GFE Tolerance Increase Amt~False~~DECIMAL_2
 NEWHUD.X315~ClosingCost.Gfe2010Page.HudTotalToleranceIncreasePercent~False~decimal~True~Total GFE Tolerance Increase %~False~~DECIMAL_2
-NEWHUD.X316~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '4')].Description~False~string~True~Change Chrgs 4 Descr~False~~STRING
-NEWHUD.X317~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '5')].Description~False~string~True~Change Chrgs 5 Descr~False~~STRING
-NEWHUD.X318~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '6')].Description~False~string~True~Change Chrgs 6 Descr~False~~STRING
-NEWHUD.X319~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '4')].Line~False~string~True~Change Chrgs 4 GFE Line #~False~~STRING
+NEWHUD.X316~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=4)].Description~False~string~True~Change Chrgs 4 Descr~False~~STRING
+NEWHUD.X317~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=5)].Description~False~string~True~Change Chrgs 5 Descr~False~~STRING
+NEWHUD.X318~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=6)].Description~False~string~True~Change Chrgs 6 Descr~False~~STRING
+NEWHUD.X319~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=4)].Line~False~string~True~Change Chrgs 4 GFE Line #~False~~STRING
 NEWHUD.X32~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=8].Description~False~string~True~Required Service 8 Descr~False~~STRING
-NEWHUD.X320~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '5')].Line~False~string~True~Change Chrgs 5 GFE Line #~False~~STRING
-NEWHUD.X321~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '6')].Line~False~string~True~Change Chrgs 6 GFE Line #~False~~STRING
-NEWHUD.X322~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '1')].GfeCharge~False~decimal~True~GFE Changed Chrgs 1 Line #~False~~DECIMAL_2
-NEWHUD.X323~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '2')].GfeCharge~False~decimal~True~GFE Changed Chrgs 2 Line #~False~~DECIMAL_2
-NEWHUD.X324~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '3')].GfeCharge~False~decimal~True~GFE Changed Chrgs 3 Line #~False~~DECIMAL_2
-NEWHUD.X325~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '4')].GfeCharge~False~decimal~True~Changed Chrgs 4 GFE Amt~False~~DECIMAL_2
-NEWHUD.X326~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '5')].GfeCharge~False~decimal~True~Changed Chrgs 5 GFE Amt~False~~DECIMAL_2
-NEWHUD.X327~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '6')].GfeCharge~False~decimal~True~Changed Chrgs 6 GFE Amt~False~~DECIMAL_2
-NEWHUD.X328~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '4')].HudCharge~False~decimal~True~Changed Chrgs 4 HUD-1 Amt~False~~DECIMAL_2
-NEWHUD.X329~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '5')].HudCharge~False~decimal~True~Changed Chrgs 5 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X320~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=5)].Line~False~string~True~Change Chrgs 5 GFE Line #~False~~STRING
+NEWHUD.X321~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=6)].Line~False~string~True~Change Chrgs 6 GFE Line #~False~~STRING
+NEWHUD.X322~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=1)].GfeCharge~False~decimal~True~GFE Changed Chrgs 1 Line #~False~~DECIMAL_2
+NEWHUD.X323~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=2)].GfeCharge~False~decimal~True~GFE Changed Chrgs 2 Line #~False~~DECIMAL_2
+NEWHUD.X324~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=3)].GfeCharge~False~decimal~True~GFE Changed Chrgs 3 Line #~False~~DECIMAL_2
+NEWHUD.X325~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=4)].GfeCharge~False~decimal~True~Changed Chrgs 4 GFE Amt~False~~DECIMAL_2
+NEWHUD.X326~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=5)].GfeCharge~False~decimal~True~Changed Chrgs 5 GFE Amt~False~~DECIMAL_2
+NEWHUD.X327~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=6)].GfeCharge~False~decimal~True~Changed Chrgs 6 GFE Amt~False~~DECIMAL_2
+NEWHUD.X328~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=4)].HudCharge~False~decimal~True~Changed Chrgs 4 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X329~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=5)].HudCharge~False~decimal~True~Changed Chrgs 5 HUD-1 Amt~False~~DECIMAL_2
 NEWHUD.X33~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=RequiredServiceCharge|Gfe2010FeeIndex=8].Amount~False~decimal~True~Required Service 8 Charge~False~~DECIMAL_2
-NEWHUD.X330~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == false && gfe2010GfeChargeIndex == '6')].HudCharge~False~decimal~True~Changed Chrgs 6 HUD-1 Amt~False~~DECIMAL_2
+NEWHUD.X330~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=false|Gfe2010GfeChargeIndex=6)].HudCharge~False~decimal~True~Changed Chrgs 6 HUD-1 Amt~False~~DECIMAL_2
 NEWHUD.X332~ClosingCost.Gfe2010Page.FirstArmChangeDate~False~datetime~True~First ARM Change Date~False~~DATE
 NEWHUD.X333~ClosingCost.Gfe2010Page.LowestArmRate~False~decimal~True~Lowest ARM Rate~False~~DECIMAL_3
 NEWHUD.X334~ClosingCost.Gfe2010Page.HighestArmRate~False~decimal~True~Highest ARM Rate~False~~DECIMAL_3
@@ -12485,117 +12494,117 @@ NEWHUD.X419~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010F
 NEWHUD.X42~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=1].Amount~False~decimal~True~Fees Line 1302 Applied to GFE~False~~DECIMAL_2
 NEWHUD.X420~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=TitleServiceCharge|Gfe2010FeeIndex=6].TitleServiceSelectIndicator~False~bool~True~Borr Select Title Service - Line 6~False~eNEWHUD_X420~YN
 NEWHUD.X421~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=TitleServiceCharge|Gfe2010FeeIndex=7].TitleServiceSelectIndicator~False~bool~True~Borr Select Title Service - Line 7~False~eNEWHUD_X421~YN
-NEWHUD.X422~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '9')].Description~False~string~True~10% Tolerance Comp Chart - Line 10 Descr~False~~STRING
-NEWHUD.X423~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '10')].Description~False~string~True~10% Tolerance Comp Chart - Line 11 Descr~False~~STRING
-NEWHUD.X424~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '11')].Description~False~string~True~10% Tolerance Comp Chart - Line 12 Descr~False~~STRING
-NEWHUD.X425~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '12')].Description~False~string~True~10% Tolerance Comp Chart - Line 13 Descr~False~~STRING
-NEWHUD.X426~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '13')].Description~False~string~True~10% Tolerance Comp Chart - Line 14 Descr~False~~STRING
-NEWHUD.X427~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '14')].Description~False~string~True~10% Tolerance Comp Chart - Line 15 Descr~False~~STRING
-NEWHUD.X428~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '15')].Description~False~string~True~10% Tolerance Comp Chart - Line 16 Descr~False~~STRING
-NEWHUD.X429~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '16')].Description~False~string~True~10% Tolerance Comp Chart - Line 17 Descr~False~~STRING
+NEWHUD.X422~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=9)].Description~False~string~True~10% Tolerance Comp Chart - Line 10 Descr~False~~STRING
+NEWHUD.X423~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=10)].Description~False~string~True~10% Tolerance Comp Chart - Line 11 Descr~False~~STRING
+NEWHUD.X424~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=11)].Description~False~string~True~10% Tolerance Comp Chart - Line 12 Descr~False~~STRING
+NEWHUD.X425~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=12)].Description~False~string~True~10% Tolerance Comp Chart - Line 13 Descr~False~~STRING
+NEWHUD.X426~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=13)].Description~False~string~True~10% Tolerance Comp Chart - Line 14 Descr~False~~STRING
+NEWHUD.X427~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=14)].Description~False~string~True~10% Tolerance Comp Chart - Line 15 Descr~False~~STRING
+NEWHUD.X428~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=15)].Description~False~string~True~10% Tolerance Comp Chart - Line 16 Descr~False~~STRING
+NEWHUD.X429~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=16)].Description~False~string~True~10% Tolerance Comp Chart - Line 17 Descr~False~~STRING
 NEWHUD.X43~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=2].Description~False~string~True~Shop Service 2 Descr~False~~STRING
-NEWHUD.X430~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '17')].Description~False~string~True~10% Tolerance Comp Chart - Line 18 Descr~False~~STRING
-NEWHUD.X431~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '18')].Description~False~string~True~10% Tolerance Comp Chart - Line 19 Descr~False~~STRING
-NEWHUD.X432~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '19')].Description~False~string~True~10% Tolerance Comp Chart - Line 20 Descr~False~~STRING
-NEWHUD.X433~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '20')].Description~False~string~True~10% Tolerance Comp Chart - Line 21 Descr~False~~STRING
-NEWHUD.X434~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '21')].Description~False~string~True~10% Tolerance Comp Chart - Line 22 Descr~False~~STRING
-NEWHUD.X435~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '22')].Description~False~string~True~10% Tolerance Comp Chart - Line 23 Descr~False~~STRING
-NEWHUD.X436~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '23')].Description~False~string~True~10% Tolerance Comp Chart - Line 24 Descr~False~~STRING
-NEWHUD.X437~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '24')].Description~False~string~True~10% Tolerance Comp Chart - Line 25 Descr~False~~STRING
-NEWHUD.X438~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '25')].Description~False~string~True~10% Tolerance Comp Chart - Line 26 Descr~False~~STRING
-NEWHUD.X439~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '26')].Description~False~string~True~10% Tolerance Comp Chart - Line 27 Descr~False~~STRING
+NEWHUD.X430~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=17)].Description~False~string~True~10% Tolerance Comp Chart - Line 18 Descr~False~~STRING
+NEWHUD.X431~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=18)].Description~False~string~True~10% Tolerance Comp Chart - Line 19 Descr~False~~STRING
+NEWHUD.X432~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=19)].Description~False~string~True~10% Tolerance Comp Chart - Line 20 Descr~False~~STRING
+NEWHUD.X433~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=20)].Description~False~string~True~10% Tolerance Comp Chart - Line 21 Descr~False~~STRING
+NEWHUD.X434~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=21)].Description~False~string~True~10% Tolerance Comp Chart - Line 22 Descr~False~~STRING
+NEWHUD.X435~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=22)].Description~False~string~True~10% Tolerance Comp Chart - Line 23 Descr~False~~STRING
+NEWHUD.X436~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=23)].Description~False~string~True~10% Tolerance Comp Chart - Line 24 Descr~False~~STRING
+NEWHUD.X437~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=24)].Description~False~string~True~10% Tolerance Comp Chart - Line 25 Descr~False~~STRING
+NEWHUD.X438~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=25)].Description~False~string~True~10% Tolerance Comp Chart - Line 26 Descr~False~~STRING
+NEWHUD.X439~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=26)].Description~False~string~True~10% Tolerance Comp Chart - Line 27 Descr~False~~STRING
 NEWHUD.X44~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=2].Amount~False~decimal~True~Fees Line 1303 Applied to GFE~False~~DECIMAL_2
-NEWHUD.X440~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '27')].Description~False~string~True~10% Tolerance Comp Chart - Line 28 Descr~False~~STRING
-NEWHUD.X441~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '28')].Description~False~string~True~10% Tolerance Comp Chart - Line 29 Descr~False~~STRING
-NEWHUD.X442~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '29')].Description~False~string~True~10% Tolerance Comp Chart - Line 30 Descr~False~~STRING
-NEWHUD.X443~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '30')].Description~False~string~True~10% Tolerance Comp Chart - Line 31 Descr~False~~STRING
-NEWHUD.X444~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '31')].Description~False~string~True~10% Tolerance Comp Chart - Line 32 Descr~False~~STRING
-NEWHUD.X445~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '32')].Description~False~string~True~10% Tolerance Comp Chart - Line 33 Descr~False~~STRING
-NEWHUD.X446~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '33')].Description~False~string~True~10% Tolerance Comp Chart - Line 34 Descr~False~~STRING
-NEWHUD.X447~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '9')].Line~False~string~True~10% Tolerance Comp Chart - Line 10 Line #~False~~STRING
-NEWHUD.X448~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '10')].Line~False~string~True~10% Tolerance Comp Chart - Line 11 Line #~False~~STRING
-NEWHUD.X449~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '11')].Line~False~string~True~10% Tolerance Comp Chart - Line 12 Line #~False~~STRING
+NEWHUD.X440~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=27)].Description~False~string~True~10% Tolerance Comp Chart - Line 28 Descr~False~~STRING
+NEWHUD.X441~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=28)].Description~False~string~True~10% Tolerance Comp Chart - Line 29 Descr~False~~STRING
+NEWHUD.X442~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=29)].Description~False~string~True~10% Tolerance Comp Chart - Line 30 Descr~False~~STRING
+NEWHUD.X443~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=30)].Description~False~string~True~10% Tolerance Comp Chart - Line 31 Descr~False~~STRING
+NEWHUD.X444~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=31)].Description~False~string~True~10% Tolerance Comp Chart - Line 32 Descr~False~~STRING
+NEWHUD.X445~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=32)].Description~False~string~True~10% Tolerance Comp Chart - Line 33 Descr~False~~STRING
+NEWHUD.X446~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=33)].Description~False~string~True~10% Tolerance Comp Chart - Line 34 Descr~False~~STRING
+NEWHUD.X447~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=9)].Line~False~string~True~10% Tolerance Comp Chart - Line 10 Line #~False~~STRING
+NEWHUD.X448~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=10)].Line~False~string~True~10% Tolerance Comp Chart - Line 11 Line #~False~~STRING
+NEWHUD.X449~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=11)].Line~False~string~True~10% Tolerance Comp Chart - Line 12 Line #~False~~STRING
 NEWHUD.X45~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=3].Description~False~string~True~Shop Service 3 Descr~False~~STRING
-NEWHUD.X450~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '12')].Line~False~string~True~10% Tolerance Comp Chart - Line 13 Line #~False~~STRING
-NEWHUD.X451~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '13')].Line~False~string~True~10% Tolerance Comp Chart - Line 14 Line #~False~~STRING
-NEWHUD.X452~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '14')].Line~False~string~True~10% Tolerance Comp Chart - Line 15 Line #~False~~STRING
-NEWHUD.X453~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '15')].Line~False~string~True~10% Tolerance Comp Chart - Line 16 Line #~False~~STRING
-NEWHUD.X454~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '16')].Line~False~string~True~10% Tolerance Comp Chart - Line 17 Line #~False~~STRING
-NEWHUD.X455~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '17')].Line~False~string~True~10% Tolerance Comp Chart - Line 18 Line #~False~~STRING
-NEWHUD.X456~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '18')].Line~False~string~True~10% Tolerance Comp Chart - Line 19 Line #~False~~STRING
-NEWHUD.X457~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '19')].Line~False~string~True~10% Tolerance Comp Chart - Line 20 Line #~False~~STRING
-NEWHUD.X458~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '20')].Line~False~string~True~10% Tolerance Comp Chart - Line 21 Line #~False~~STRING
-NEWHUD.X459~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '21')].Line~False~string~True~10% Tolerance Comp Chart - Line 22 Line #~False~~STRING
+NEWHUD.X450~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=12)].Line~False~string~True~10% Tolerance Comp Chart - Line 13 Line #~False~~STRING
+NEWHUD.X451~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=13)].Line~False~string~True~10% Tolerance Comp Chart - Line 14 Line #~False~~STRING
+NEWHUD.X452~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=14)].Line~False~string~True~10% Tolerance Comp Chart - Line 15 Line #~False~~STRING
+NEWHUD.X453~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=15)].Line~False~string~True~10% Tolerance Comp Chart - Line 16 Line #~False~~STRING
+NEWHUD.X454~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=16)].Line~False~string~True~10% Tolerance Comp Chart - Line 17 Line #~False~~STRING
+NEWHUD.X455~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=17)].Line~False~string~True~10% Tolerance Comp Chart - Line 18 Line #~False~~STRING
+NEWHUD.X456~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=18)].Line~False~string~True~10% Tolerance Comp Chart - Line 19 Line #~False~~STRING
+NEWHUD.X457~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=19)].Line~False~string~True~10% Tolerance Comp Chart - Line 20 Line #~False~~STRING
+NEWHUD.X458~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=20)].Line~False~string~True~10% Tolerance Comp Chart - Line 21 Line #~False~~STRING
+NEWHUD.X459~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=21)].Line~False~string~True~10% Tolerance Comp Chart - Line 22 Line #~False~~STRING
 NEWHUD.X46~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=3].Amount~False~decimal~True~Fees Line 1304 Applied to GFE~False~~DECIMAL_2
-NEWHUD.X460~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '22')].Line~False~string~True~10% Tolerance Comp Chart - Line 23 Line #~False~~STRING
-NEWHUD.X461~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '23')].Line~False~string~True~10% Tolerance Comp Chart - Line 24 Line #~False~~STRING
-NEWHUD.X462~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '24')].Line~False~string~True~10% Tolerance Comp Chart - Line 25 Line #~False~~STRING
-NEWHUD.X463~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '25')].Line~False~string~True~10% Tolerance Comp Chart - Line 26 Line #~False~~STRING
-NEWHUD.X464~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '26')].Line~False~string~True~10% Tolerance Comp Chart - Line 27 Line #~False~~STRING
-NEWHUD.X465~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '27')].Line~False~string~True~10% Tolerance Comp Chart - Line 28 Line #~False~~STRING
-NEWHUD.X466~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '28')].Line~False~string~True~10% Tolerance Comp Chart - Line 29 Line #~False~~STRING
-NEWHUD.X467~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '29')].Line~False~string~True~10% Tolerance Comp Chart - Line 30 Line #~False~~STRING
-NEWHUD.X468~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '30')].Line~False~string~True~10% Tolerance Comp Chart - Line 31 Line #~False~~STRING
-NEWHUD.X469~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '31')].Line~False~string~True~10% Tolerance Comp Chart - Line 32 Line #~False~~STRING
+NEWHUD.X460~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=22)].Line~False~string~True~10% Tolerance Comp Chart - Line 23 Line #~False~~STRING
+NEWHUD.X461~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=23)].Line~False~string~True~10% Tolerance Comp Chart - Line 24 Line #~False~~STRING
+NEWHUD.X462~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=24)].Line~False~string~True~10% Tolerance Comp Chart - Line 25 Line #~False~~STRING
+NEWHUD.X463~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=25)].Line~False~string~True~10% Tolerance Comp Chart - Line 26 Line #~False~~STRING
+NEWHUD.X464~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=26)].Line~False~string~True~10% Tolerance Comp Chart - Line 27 Line #~False~~STRING
+NEWHUD.X465~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=27)].Line~False~string~True~10% Tolerance Comp Chart - Line 28 Line #~False~~STRING
+NEWHUD.X466~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=28)].Line~False~string~True~10% Tolerance Comp Chart - Line 29 Line #~False~~STRING
+NEWHUD.X467~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=29)].Line~False~string~True~10% Tolerance Comp Chart - Line 30 Line #~False~~STRING
+NEWHUD.X468~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=30)].Line~False~string~True~10% Tolerance Comp Chart - Line 31 Line #~False~~STRING
+NEWHUD.X469~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=31)].Line~False~string~True~10% Tolerance Comp Chart - Line 32 Line #~False~~STRING
 NEWHUD.X47~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=4].Description~False~string~True~Shop Service 4 Descr~False~~STRING
-NEWHUD.X470~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '32')].Line~False~string~True~10% Tolerance Comp Chart - Line 33 Line #~False~~STRING
-NEWHUD.X471~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '33')].Line~False~string~True~10% Tolerance Comp Chart - Line 34 Line #~False~~STRING
-NEWHUD.X472~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '9')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 10 GFE Fee~False~~DECIMAL_2
-NEWHUD.X473~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '10')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 11 GFE Fee~False~~DECIMAL_2
-NEWHUD.X474~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '11')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 12 GFE Fee~False~~DECIMAL_2
-NEWHUD.X475~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '12')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 13 GFE Fee~False~~DECIMAL_2
-NEWHUD.X476~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '13')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 14 GFE Fee~False~~DECIMAL_2
-NEWHUD.X477~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '14')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 15 GFE Fee~False~~DECIMAL_2
-NEWHUD.X478~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '15')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 16 GFE Fee~False~~DECIMAL_2
-NEWHUD.X479~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '16')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 17 GFE Fee~False~~DECIMAL_2
+NEWHUD.X470~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=32)].Line~False~string~True~10% Tolerance Comp Chart - Line 33 Line #~False~~STRING
+NEWHUD.X471~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=33)].Line~False~string~True~10% Tolerance Comp Chart - Line 34 Line #~False~~STRING
+NEWHUD.X472~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=9)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 10 GFE Fee~False~~DECIMAL_2
+NEWHUD.X473~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=10)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 11 GFE Fee~False~~DECIMAL_2
+NEWHUD.X474~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=11)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 12 GFE Fee~False~~DECIMAL_2
+NEWHUD.X475~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=12)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 13 GFE Fee~False~~DECIMAL_2
+NEWHUD.X476~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=13)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 14 GFE Fee~False~~DECIMAL_2
+NEWHUD.X477~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=14)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 15 GFE Fee~False~~DECIMAL_2
+NEWHUD.X478~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=15)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 16 GFE Fee~False~~DECIMAL_2
+NEWHUD.X479~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=16)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 17 GFE Fee~False~~DECIMAL_2
 NEWHUD.X48~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=4].Amount~False~decimal~True~Fees Line 1305 Applied to GFE~False~~DECIMAL_2
-NEWHUD.X480~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '17')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 18 GFE Fee~False~~DECIMAL_2
-NEWHUD.X481~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '18')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 19 GFE Fee~False~~DECIMAL_2
-NEWHUD.X482~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '19')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 20 GFE Fee~False~~DECIMAL_2
-NEWHUD.X483~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '20')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 21 GFE Fee~False~~DECIMAL_2
-NEWHUD.X484~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '21')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 22 GFE Fee~False~~DECIMAL_2
-NEWHUD.X485~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '22')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 23 GFE Fee~False~~DECIMAL_2
-NEWHUD.X486~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '23')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 24 GFE Fee~False~~DECIMAL_2
-NEWHUD.X487~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '24')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 25 GFE Fee~False~~DECIMAL_2
-NEWHUD.X488~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '25')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 26 GFE Fee~False~~DECIMAL_2
-NEWHUD.X489~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '26')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 27 GFE Fee~False~~DECIMAL_2
+NEWHUD.X480~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=17)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 18 GFE Fee~False~~DECIMAL_2
+NEWHUD.X481~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=18)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 19 GFE Fee~False~~DECIMAL_2
+NEWHUD.X482~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=19)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 20 GFE Fee~False~~DECIMAL_2
+NEWHUD.X483~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=20)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 21 GFE Fee~False~~DECIMAL_2
+NEWHUD.X484~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=21)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 22 GFE Fee~False~~DECIMAL_2
+NEWHUD.X485~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=22)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 23 GFE Fee~False~~DECIMAL_2
+NEWHUD.X486~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=23)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 24 GFE Fee~False~~DECIMAL_2
+NEWHUD.X487~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=24)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 25 GFE Fee~False~~DECIMAL_2
+NEWHUD.X488~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=25)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 26 GFE Fee~False~~DECIMAL_2
+NEWHUD.X489~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=26)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 27 GFE Fee~False~~DECIMAL_2
 NEWHUD.X49~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=5].Description~False~string~True~Shop Service 5 Descr~False~~STRING
-NEWHUD.X490~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '27')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 28 GFE Fee~False~~DECIMAL_2
-NEWHUD.X491~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '28')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 29 GFE Fee~False~~DECIMAL_2
-NEWHUD.X492~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '29')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 30 GFE Fee~False~~DECIMAL_2
-NEWHUD.X493~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '30')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 31 GFE Fee~False~~DECIMAL_2
-NEWHUD.X494~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '31')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 32 GFE Fee~False~~DECIMAL_2
-NEWHUD.X495~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '32')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 33 GFE Fee~False~~DECIMAL_2
-NEWHUD.X496~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '33')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 34 GFE Fee~False~~DECIMAL_2
-NEWHUD.X497~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '9')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 10 HUD Fee~False~~DECIMAL_2
-NEWHUD.X498~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '10')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 11 HUD Fee~False~~DECIMAL_2
-NEWHUD.X499~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '11')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 12 HUD Fee~False~~DECIMAL_2
+NEWHUD.X490~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=27)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 28 GFE Fee~False~~DECIMAL_2
+NEWHUD.X491~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=28)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 29 GFE Fee~False~~DECIMAL_2
+NEWHUD.X492~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=29)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 30 GFE Fee~False~~DECIMAL_2
+NEWHUD.X493~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=30)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 31 GFE Fee~False~~DECIMAL_2
+NEWHUD.X494~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=31)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 32 GFE Fee~False~~DECIMAL_2
+NEWHUD.X495~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=32)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 33 GFE Fee~False~~DECIMAL_2
+NEWHUD.X496~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=33)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 34 GFE Fee~False~~DECIMAL_2
+NEWHUD.X497~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=9)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 10 HUD Fee~False~~DECIMAL_2
+NEWHUD.X498~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=10)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 11 HUD Fee~False~~DECIMAL_2
+NEWHUD.X499~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=11)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 12 HUD Fee~False~~DECIMAL_2
 NEWHUD.X5~ClosingCost.Gfe2010.InterestRateRiseIndicator~False~bool~True~Can Your Interest Rate Rise~False~eNEWHUD_X5~YN
 NEWHUD.X50~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=5].Amount~False~decimal~True~Fees Line 1306 Applied to GFE~False~~DECIMAL_2
-NEWHUD.X500~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '12')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 13 HUD Fee~False~~DECIMAL_2
-NEWHUD.X501~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '13')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 14 HUD Fee~False~~DECIMAL_2
-NEWHUD.X502~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '14')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 15 HUD Fee~False~~DECIMAL_2
-NEWHUD.X503~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '15')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 16 HUD Fee~False~~DECIMAL_2
-NEWHUD.X504~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '16')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 17 HUD Fee~False~~DECIMAL_2
-NEWHUD.X505~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '17')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 18 HUD Fee~False~~DECIMAL_2
-NEWHUD.X506~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '18')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 19 HUD Fee~False~~DECIMAL_2
-NEWHUD.X507~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '19')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 20 HUD Fee~False~~DECIMAL_2
-NEWHUD.X508~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '20')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 21 HUD Fee~False~~DECIMAL_2
-NEWHUD.X509~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '21')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 22 HUD Fee~False~~DECIMAL_2
+NEWHUD.X500~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=12)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 13 HUD Fee~False~~DECIMAL_2
+NEWHUD.X501~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=13)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 14 HUD Fee~False~~DECIMAL_2
+NEWHUD.X502~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=14)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 15 HUD Fee~False~~DECIMAL_2
+NEWHUD.X503~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=15)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 16 HUD Fee~False~~DECIMAL_2
+NEWHUD.X504~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=16)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 17 HUD Fee~False~~DECIMAL_2
+NEWHUD.X505~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=17)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 18 HUD Fee~False~~DECIMAL_2
+NEWHUD.X506~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=18)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 19 HUD Fee~False~~DECIMAL_2
+NEWHUD.X507~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=19)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 20 HUD Fee~False~~DECIMAL_2
+NEWHUD.X508~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=20)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 21 HUD Fee~False~~DECIMAL_2
+NEWHUD.X509~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=21)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 22 HUD Fee~False~~DECIMAL_2
 NEWHUD.X51~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=6].Description~False~string~True~Shop Service 6 Descr~False~~STRING
-NEWHUD.X510~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '22')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 23 HUD Fee~False~~DECIMAL_2
-NEWHUD.X511~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '23')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 24 HUD Fee~False~~DECIMAL_2
-NEWHUD.X512~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '24')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 25 HUD Fee~False~~DECIMAL_2
-NEWHUD.X513~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '25')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 26 HUD Fee~False~~DECIMAL_2
-NEWHUD.X514~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '26')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 27 HUD Fee~False~~DECIMAL_2
-NEWHUD.X515~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '27')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 28 HUD Fee~False~~DECIMAL_2
-NEWHUD.X516~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '28')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 29 HUD Fee~False~~DECIMAL_2
-NEWHUD.X517~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '29')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 30 HUD Fee~False~~DECIMAL_2
-NEWHUD.X518~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '30')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 31 HUD Fee~False~~DECIMAL_2
-NEWHUD.X519~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '31')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 32 HUD Fee~False~~DECIMAL_2
+NEWHUD.X510~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=22)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 23 HUD Fee~False~~DECIMAL_2
+NEWHUD.X511~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=23)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 24 HUD Fee~False~~DECIMAL_2
+NEWHUD.X512~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=24)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 25 HUD Fee~False~~DECIMAL_2
+NEWHUD.X513~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=25)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 26 HUD Fee~False~~DECIMAL_2
+NEWHUD.X514~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=26)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 27 HUD Fee~False~~DECIMAL_2
+NEWHUD.X515~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=27)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 28 HUD Fee~False~~DECIMAL_2
+NEWHUD.X516~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=28)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 29 HUD Fee~False~~DECIMAL_2
+NEWHUD.X517~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=29)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 30 HUD Fee~False~~DECIMAL_2
+NEWHUD.X518~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=30)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 31 HUD Fee~False~~DECIMAL_2
+NEWHUD.X519~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=31)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 32 HUD Fee~False~~DECIMAL_2
 NEWHUD.X52~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ShopServiceCharge|Gfe2010FeeIndex=6].Amount~False~decimal~True~Fees Line 1307 Applied to GFE~False~~DECIMAL_2
-NEWHUD.X520~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '32')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 33 HUD Fee~False~~DECIMAL_2
-NEWHUD.X521~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '33')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 34 HUD Fee~False~~DECIMAL_2
+NEWHUD.X520~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=32)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 33 HUD Fee~False~~DECIMAL_2
+NEWHUD.X521~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator=true|Gfe2010GfeChargeIndex=33)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 34 HUD Fee~False~~DECIMAL_2
 NEWHUD.X522~ClosingCost.Gfe2010.CopyFromGfeIndicator1~False~bool~True~HUD Copy from Itemization 1~False~eNEWHUD_X522~YN
 NEWHUD.X523~ClosingCost.Gfe2010.CopyFromGfeIndicator2~False~bool~True~HUD Copy from Itemization 2~False~eNEWHUD_X523~YN
 NEWHUD.X524~ClosingCost.Gfe2010.CopyFromGfeIndicator3~False~bool~True~HUD Copy from Itemization 3~False~eNEWHUD_X524~YN
@@ -12705,14 +12714,14 @@ NEWHUD.X628~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2
 NEWHUD.X629~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line904].AprIndicator~False~bool~True~Fees Line 904 APR~False~eNEWHUD_X629~YN
 NEWHUD.X63~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ChargeBelow10Tolerance|Gfe2010FeeIndex=1].Amount~False~decimal~True~HUD 10% Tolerance 1 Chrg~False~~DECIMAL_2
 NEWHUD.X630~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section900|Gfe2010FeeType=Line904].PtbType~False~string~True~Fees Line 904 Paid To~False~eNEWHUD_X630~STRING
-NEWHUD.X631~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '34')].Description~False~string~True~10% Tolerance Comp Chart - Line 35 Descr~False~~STRING
-NEWHUD.X632~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '35')].Description~False~string~True~10% Tolerance Comp Chart - Line 36 Descr~False~~STRING
-NEWHUD.X633~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '34')].Line~False~string~True~10% Tolerance Comp Chart - Line 35 Line #~False~~STRING
-NEWHUD.X634~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '35')].Line~False~string~True~10% Tolerance Comp Chart - Line 36 Line #~False~~STRING
-NEWHUD.X635~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '34')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 35 GFE Fee~False~~DECIMAL_2
-NEWHUD.X636~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '35')].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 36 GFE Fee~False~~DECIMAL_2
-NEWHUD.X637~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '34')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 35 HUD Fee~False~~DECIMAL_2
-NEWHUD.X638~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(chargeBelow10Indicator == true && gfe2010GfeChargeIndex == '35')].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 36 HUD Fee~False~~DECIMAL_2
+NEWHUD.X631~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 34)].Description~False~string~True~10% Tolerance Comp Chart - Line 35 Descr~False~~STRING
+NEWHUD.X632~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 35)].Description~False~string~True~10% Tolerance Comp Chart - Line 36 Descr~False~~STRING
+NEWHUD.X633~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 34)].Line~False~string~True~10% Tolerance Comp Chart - Line 35 Line #~False~~STRING
+NEWHUD.X634~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 35)].Line~False~string~True~10% Tolerance Comp Chart - Line 36 Line #~False~~STRING
+NEWHUD.X635~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 34)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 35 GFE Fee~False~~DECIMAL_2
+NEWHUD.X636~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 35)].GfeCharge~False~decimal~True~10% Tolerance Comp Chart - Line 36 GFE Fee~False~~DECIMAL_2
+NEWHUD.X637~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 34)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 35 HUD Fee~False~~DECIMAL_2
+NEWHUD.X638~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[(ChargeBelow10Indicator = true | Gfe2010GfeChargeIndex = 35)].HudCharge~False~decimal~True~10% Tolerance Comp Chart - Line 36 HUD Fee~False~~DECIMAL_2
 NEWHUD.X639~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1104].BorPaidAmount~False~decimal~True~Fees Line 1104 Borr~False~~DECIMAL_2
 NEWHUD.X64~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=NewHud|Gfe2010FeeType=ChargeBelow10Tolerance|Gfe2010FeeIndex=2].Description~False~string~True~HUD 10% Tolerance 2 Descr~False~~STRING
 NEWHUD.X640~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1100|Gfe2010FeeType=Line1107].BorPaidAmount~False~decimal~True~Fees Line 1107 Borr~False~~DECIMAL_2

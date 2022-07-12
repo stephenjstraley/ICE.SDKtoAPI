@@ -14,11 +14,11 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="id", EmitDefaultValue=false)]
 		public string Id { get; set; }
 
-		[DataMember(Name = "ausLogExtensionId", EmitDefaultValue = false)]
-		public string AusLogExtensionId { get; set; }
+		[DataMember(Name = "logAusLogExtensionId", EmitDefaultValue = false)]
+		public string LogAusLogExtensionId { get; set; }
 
-		[DataMember(Name = "ausResponseFileName", EmitDefaultValue = false)]
-		public string AusResponseFileName { get; set; }		
+		[DataMember(Name = "logAusResponseFileName", EmitDefaultValue = false)]
+		public string LogAusResponseFileName { get; set; }		
 
 		[DataMember(Name="isEmpty", EmitDefaultValue=false)]
 		public bool? IsEmpty { get; set; }
@@ -656,5 +656,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="logWithUndisclosedDebt", EmitDefaultValue=false)]
 		public string LogWithUndisclosedDebt { get; set; }
 
+		[DataMember(Name = "LogCuredAusAverageMedianCreditScore", EmitDefaultValue = false)]
+		public string LogCuredAusAverageMedianCreditScore { get; set; }
+
+		[DataMember(Name = "ausAverageMedianCreditScore")]
+		public string LogAusAverageMedianCreditScore { get; set; }
 	}
 }

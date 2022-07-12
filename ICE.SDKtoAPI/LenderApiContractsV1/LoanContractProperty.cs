@@ -205,5 +205,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name = "occupancyDisplayField", EmitDefaultValue = false)]
 		public string OccupancyDisplayField { get; set; }
 
+		[DataMember(Name = "Square")]
+		public string Square { get; set; }
 	}
 }

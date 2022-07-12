@@ -410,6 +410,244 @@ namespace ICE.SDKtoAPI.SupportingClasses
             }
         }
 
+        // The main starting point
+        public T MainField<T>(string id)
+        {
+            if (SetTraceOn)
+            {
+                var stopHere = true;
+            }
+
+            _lastCallId = id;
+            var tempId = id;
+
+            // check custom fields first
+            if (id.StartsWith("CX.") || (id.StartsWith("CUST") && id.EndsWith("FV")))
+            {
+                return CustomFields<T>(id);
+            }
+
+            if (id.Contains("#"))
+            {
+                var spliiter = id.Split('#');
+                tempId = spliiter[0];
+            }
+
+            if (_fields.ContainsKey(tempId))
+            {
+                APISchema item = _fields[tempId];
+
+                return ProcessObject<T>(item.Meta, id);   
+            }
+            else if (_dynamicFields.Count > 0)
+            {
+                foreach (var dyno in _dynamicFields)
+                {
+                    var matched = System.Text.RegularExpressions.Regex.Match(id, dyno.Key);
+                    if (matched.Success)
+                    {
+                        // pull the indexer out
+                        var innerIndex = Convert.ToInt32(matched.Groups[2].Value) + 1;
+
+                        var schema = dyno.Value;
+
+                        var tempMeta = schema.Meta.Replace("(X)", $"({innerIndex})");    // DO NOT REPLACE THE META - it will screw things up!
+
+                        return ProcessObject<T>(tempMeta);
+                    }
+                }
+            }
+
+            // check virtual fields
+            if (_virtualFields.Count > 0)
+            {
+                if (_virtualFields.ContainsKey(id))
+                {
+                    return ReturnValue<T>(_virtualFields[id]);
+                }
+            }
+
+
+            return default(T);
+        }
+
+        private T ProcessObject<T>(string item, string id = "")
+        {
+            var tempItem = item;
+            var bracketIndex = -1;
+            bool withPoundSign = false;
+
+            if (id.Contains("#"))
+            {
+                var spliiter = id.Split('#');
+                id = spliiter[0];
+                bracketIndex = Convert.ToInt32(spliiter[1]) - 1;
+                withPoundSign = true;
+            }
+
+            try
+            {
+                var innerIndex = ParseInnerIndexer(ref tempItem);
+
+                if (tempItem.Contains("{"))
+                {
+                    string left, right;
+
+                    bracketIndex = ParseWithInnerBraces(tempItem, withPoundSign, bracketIndex, out left, out right);
+
+                    //PropertyInfo q = null;
+                    //object qq = null;
+                    IList property = null;
+
+                    //if (left == "Applications")
+                    //{
+                    //    dynamic t;
+                    //    dynamic u;
+                    //    dynamic v;
+
+                    //    if (_loadV3)
+                    //    {
+                    //        t = _loanV3.GetType();
+                    //        u = t.GetProperty(left);
+                    //        v = u.GetValue(_loanV3);
+                    //    }
+                    //    else
+                    //    {
+                    //        t = _loan.GetType();
+                    //        u = t.GetProperty(left);
+                    //        v = u.GetValue(_loan);
+                    //    }
+
+                    //    var w = (IList)v;
+
+                    //    //    q = _loanV3.GetType().GetProperty("Applications");
+                    //    //    qq = q.GetValue(_loanV3);
+                    //}
+
+                    if (_loadV3)
+                    {
+                        property = (IList)_loanV3.GetType().GetProperty(left).GetValue(_loanV3);
+                    }
+                    else
+                    {
+                        //    q = _loan.GetType().GetProperty("Applications");
+                        //    qq = q.GetValue(_loan);
+                        property = (IList)_loan.GetType().GetProperty(left).GetValue(_loan);
+                    }
+
+                    if (property.Count > bracketIndex)
+                    {
+                        var arrayProperty = property[bracketIndex];
+
+                        // Add here is there is a []
+                        if (right.Contains("["))
+                        {
+                            if (!right.StartsWith("["))
+                                return ProcessList<T>(arrayProperty, right, innerIndex);
+                        }
+                        else
+                        {
+                            return GetPropertyValue<T>(arrayProperty, right, id);
+                        }
+                    }
+                    else
+                    {
+                        return default(T);
+                    }
+                }
+                else if (tempItem.Contains("["))
+                {
+                    if (_loadV3)
+                        return ProcessList<T>(_loanV3, tempItem, innerIndex);
+                    else
+                        return ProcessList<T>(_loan, tempItem, innerIndex);
+                }
+                else
+                {
+                    if (_loadV3)
+                    {
+                        var retValue = GetPropertyValue<T>(_loanV3, tempItem, id);
+                        return retValue;
+                    }
+                    else
+                    {
+                        var retValue = GetPropertyValue<T>(_loan, tempItem, id);
+                        return retValue;
+                    }
+                }
+            }
+            catch (Exception exp)
+            {
+                System.Diagnostics.Debug.WriteLine($"Specified Property (possible LIST object) [{_lastCallId}] errored with parsing error for [{tempItem}] for object [{item}] - exception [{exp.Message}]");
+            }
+
+            return default(T);
+        }
+        private T ProcessList<T>(object loanContext, string item, int indexer)
+        {
+            var left = item.Substring(0, item.IndexOf("["));
+            var leftLength = left.Length;
+            var temp = item.Substring(leftLength);
+            var middle = temp.Substring(0, temp.IndexOf("]") + 1);
+            var right = item.Substring(leftLength).Replace(middle, string.Empty).Substring(1);
+
+            var property = GetPropertyValue<IList>(loanContext, left, "");
+
+            if (property == null)
+            {
+                System.Diagnostics.Debug.WriteLine($"Specified Property [{_lastCallId}] does NOT exist [{left}] for object [{item}]");
+                //                throw new Exception($"Specified Property does NOT exist [{left}]");
+                return default(T);
+            }
+
+            if (indexer != -1 && middle == "[]")  // just pull the INDEXER item
+            {
+                if (property.Count > indexer)
+                {
+                    var theObject = property[indexer];
+                    var foundValue = theObject.GetType()?.GetProperty(right)?.GetValue(theObject)?.ToString();
+
+                    return ReturnValue<T>(foundValue);
+                }
+                else  // return null
+                {
+                    return default(T);
+                }
+            }
+            else
+            {
+                var foundObject = FindIndexedObject(property, middle, right, indexer);
+                if (foundObject != null)
+                {
+                    var foundProp = foundObject.GetType()?.GetProperty(right);
+                    var foundValue = foundProp?.GetValue(foundObject);
+                    return ReturnValue<T>(foundValue);
+                }
+
+                ReturnFinalValue<T>();
+            }
+            return default(T);
+        }
+        private T ReturnValue<T>(object foundValue)
+        {
+            if (foundValue == null)
+            {
+                return default(T);
+            }
+            else
+            {
+                try
+                {
+                    return (T)Convert.ChangeType(foundValue, typeof(T));
+                }
+                catch  // it really isn't nullable
+                {
+                    return (T)Convert.ChangeType(foundValue, Nullable.GetUnderlyingType(typeof(T)));
+                }
+            }
+        }
+
+
         public object this[string idField]
         {
             get
@@ -2783,73 +3021,6 @@ namespace ICE.SDKtoAPI.SupportingClasses
         //{
         //    return MainField<string>(id);
         //}
-        public T MainField<T>(string id)
-        {
-            if (SetTraceOn)
-            {
-                var stopHere = true;
-            }
-
-            _lastCallId = id;
-            var tempId = id;
-
-            // check custom fields first
-            if (id.StartsWith("CX.") || (id.StartsWith("CUST") && id.EndsWith("FV")))
-            {
-                return CustomFields<T>(id);
-            }
-
-            if (id.Contains("#"))
-            {
-                var spliiter = id.Split('#');
-                tempId = spliiter[0];
-            }
-
-            if (_fields.ContainsKey(tempId))
-            {
-                APISchema item = _fields[tempId];
-
-                //if (item.Type == null)  // redirect
-                //{
-                //    // translate
-                //    return default(T);
-                //}
-                //else
-                //{
-                return ProcessObject<T>(item.Meta, id);   //return ProcessObject<T>(item, id);
-                //}
-            }
-            else if (_dynamicFields.Count > 0)
-            {
-                foreach (var dyno in _dynamicFields)
-                {
-                    var matched = System.Text.RegularExpressions.Regex.Match(id, dyno.Key);
-                    if (matched.Success)
-                    {
-                        // pull the indexer out
-                        var innerIndex = Convert.ToInt32(matched.Groups[2].Value) + 1;
-
-                        var schema = dyno.Value;
-
-                        var tempMeta = schema.Meta.Replace("(X)", $"({innerIndex})");    // DO NOT REPLACE THE META - it will screw things up!
-
-                        return ProcessObject<T>(tempMeta);
-                    }
-                }
-            }
-
-            // check virtual fields
-            if (_virtualFields.Count > 0)
-            {
-                if (_virtualFields.ContainsKey(id))
-                {
-                    return ReturnValue<T>(_virtualFields[id]);
-                }
-            }
-
-
-            return default(T);
-        }
 
         public object GetVirtualFieldValue(string id)
         {
@@ -2928,181 +3099,6 @@ namespace ICE.SDKtoAPI.SupportingClasses
         //        {
         //            return ProcessObject<T>(schema.Meta, id);
         //        }
-        private T ProcessObject<T>(string item, string id = "")
-        {
-            var tempItem = item;
-            var bracketIndex = -1;
-            bool withPoundSign = false;
-
-            if (id.Contains("#"))
-            {
-                var spliiter = id.Split('#');
-                id = spliiter[0];
-                bracketIndex = Convert.ToInt32(spliiter[1]) - 1;
-                withPoundSign = true;
-            }
-
-            try
-            {
-                var innerIndex = ParseInnerIndexer(ref tempItem);
-
-                if (tempItem.Contains("{"))
-                {
-                    string left, right;
-
-                    bracketIndex = ParseWithInnerBraces(tempItem, withPoundSign, bracketIndex, out left, out right);
-
-                    //PropertyInfo q = null;
-                    //object qq = null;
-                    IList property = null;
-
-                    //if (left == "Applications")
-                    //{
-                    //    dynamic t;
-                    //    dynamic u;
-                    //    dynamic v;
-
-                    //    if (_loadV3)
-                    //    {
-                    //        t = _loanV3.GetType();
-                    //        u = t.GetProperty(left);
-                    //        v = u.GetValue(_loanV3);
-                    //    }
-                    //    else
-                    //    {
-                    //        t = _loan.GetType();
-                    //        u = t.GetProperty(left);
-                    //        v = u.GetValue(_loan);
-                    //    }
-
-                    //    var w = (IList)v;
-
-                    //    //    q = _loanV3.GetType().GetProperty("Applications");
-                    //    //    qq = q.GetValue(_loanV3);
-                    //}
-
-                    if (_loadV3)
-                    {
-                        property = (IList)_loanV3.GetType().GetProperty(left).GetValue(_loanV3);
-                    }
-                    else
-                    {
-                        //    q = _loan.GetType().GetProperty("Applications");
-                        //    qq = q.GetValue(_loan);
-                        property = (IList)_loan.GetType().GetProperty(left).GetValue(_loan);
-                    }
-
-                    if (property.Count > bracketIndex)
-                    {
-                        var arrayProperty = property[bracketIndex];
-
-                        // Add here is there is a []
-                        if (right.Contains("["))
-                        {
-                            if (!right.StartsWith("["))
-                                return ProcessList<T>(arrayProperty, right, innerIndex);
-                        }
-                        else
-                        {
-                            return GetPropertyValue<T>(arrayProperty, right, id);
-                        }
-                    }
-                    else
-                    {
-                        return default(T);
-                    }
-                }
-                else if (tempItem.Contains("["))
-                {
-                    if (_loadV3)
-                        return ProcessList<T>(_loanV3, tempItem, innerIndex);
-                    else
-                        return ProcessList<T>(_loan, tempItem, innerIndex);
-                }
-                else
-                {
-                    if (_loadV3)
-                    {
-                        var retValue = GetPropertyValue<T>(_loanV3, tempItem, id);
-                        return retValue;
-                    }
-                    else
-                    {
-                        var retValue = GetPropertyValue<T>(_loan, tempItem, id);
-                        return retValue;
-                    }
-                }
-            }
-            catch (Exception exp)
-            {
-                System.Diagnostics.Debug.WriteLine($"Specified Property (possible LIST object) [{_lastCallId}] errored with parsing error for [{tempItem}] for object [{item}] - exception [{exp.Message}]");
-            }
-
-            return default(T);
-        }
-        private T ProcessList<T>(object loanContext, string item, int indexer)
-        {
-            var left = item.Substring(0, item.IndexOf("["));
-            var leftLength = left.Length;
-            var temp = item.Substring(leftLength);
-            var middle = temp.Substring(0, temp.IndexOf("]") + 1);
-            var right = item.Substring(leftLength).Replace(middle, string.Empty).Substring(1);
-
-            var property = GetPropertyValue<IList>(loanContext, left, "");
-
-            if (property == null)
-            {
-                System.Diagnostics.Debug.WriteLine($"Specified Property [{_lastCallId}] does NOT exist [{left}] for object [{item}]");
-                //                throw new Exception($"Specified Property does NOT exist [{left}]");
-                return default(T);
-            }
-
-            if (indexer != -1 && middle == "[]")  // just pull the INDEXER item
-            {
-                if (property.Count > indexer)
-                {
-                    var theObject = property[indexer];
-                    var foundValue = theObject.GetType()?.GetProperty(right)?.GetValue(theObject)?.ToString();
-
-                    return ReturnValue<T>(foundValue);
-                }
-                else  // return null
-                {
-                    return default(T);
-                }
-            }
-            else
-            {
-                var foundObject = FindIndexedObject(property, middle, right, indexer);
-                if (foundObject != null)
-                {
-                    var foundProp = foundObject.GetType()?.GetProperty(right);
-                    var foundValue = foundProp?.GetValue(foundObject);
-                    return ReturnValue<T>(foundValue);
-                }
-
-                ReturnFinalValue<T>();
-            }
-            return default(T);
-        }
-        private T ReturnValue<T>(object foundValue)
-        {
-            if (foundValue == null)
-            {
-                return default(T);
-            }
-            else
-            {
-                try
-                {
-                    return (T)Convert.ChangeType(foundValue, typeof(T));
-                }
-                catch  // it really isn't nullable
-                {
-                    return (T)Convert.ChangeType(foundValue, Nullable.GetUnderlyingType(typeof(T)));
-                }
-            }
-        }
         private object GetAPIValue(PropertyInfo info, object value)
         {
             try
@@ -3321,7 +3317,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                 {
                     var theItem = theProperty.Split('=');
 
-                    var foundPropertyValue = thing.GetType()?.GetProperty(theItem[0])?.GetValue(thing)?.ToString();
+                    var foundPropertyValue = thing.GetType()?.GetProperty(theItem[0])?.GetValue(thing)?.ToString().Trim();
                     if (foundPropertyValue == null)
                     {
                         if (!string.IsNullOrEmpty(theItem[1]))
@@ -3332,7 +3328,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     }
                     else
                     {
-                        if (foundPropertyValue != theItem[1])
+                        if (foundPropertyValue.ToUpper() != theItem[1].ToUpper().Trim())
                         {
                             useThisObject = false;
                             break;

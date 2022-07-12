@@ -1648,6 +1648,22 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name = "notInProjectIndicator", EmitDefaultValue = false)]
 		public bool? NotInProjectIndicator { get; set; }
 
+//		[DataMember(Name = "rateLockBuydowns")]
+//		public List<RateLockBuydownContract> RateLockBuydowns { get; set; }
 
+		[DataMember(Name = "PricingConcessionRequested")]
+		public decimal? PricingConcessionRequested { get; set; }
+
+		[DataMember(Name = "LockValidationStatus")]
+		public string LockValidationStatus { get; set; }
+
+		[DataMember(Name = "PriceConcessionIndicator")]
+		public bool? PriceConcessionIndicator { get; set; }
+
+		[DataMember(Name = "ExtensionIndicator")]
+		public bool? ExtensionIndicator { get; set; }
+
+		[DataMember(Name = "PriceConcessionRequestStatus")]
+		public string PriceConcessionRequestStatus { get; set; }
 	}
 }
