@@ -135,7 +135,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		public int? JobTermMonths { get; set; }
 
 		[DataMember(Name = "urla2020StreetAddress", EmitDefaultValue = false)]
-		public string Urla2020StreetAddress { get; set; }
+		public string URLA2020StreetAddress { get; set; }
 
 		[DataMember(Name = "countryCode", EmitDefaultValue = false)]
 		public string CountryCode { get; set; }

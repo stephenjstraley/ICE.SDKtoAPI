@@ -212,7 +212,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		public decimal? LECD3TotalClosingCostJ { get; set; }
 
 		[DataMember(Name = "lecd3TotalPayoffsAndPaymentsK", EmitDefaultValue = false)]
-		public decimal? lecd3TotalPayoffsAndPaymentsK { get; set; } = 0.00M;
+		public decimal? Lecd3TotalPayoffsAndPaymentsK { get; set; } = 0.00M;
 
 		[DataMember(Name="lELoanAmount", EmitDefaultValue=false)]
 		public decimal? LELoanAmount { get; set; }

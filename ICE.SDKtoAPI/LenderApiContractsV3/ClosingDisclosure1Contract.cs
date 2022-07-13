@@ -317,7 +317,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "revisedReceivedDate")]
         public string RevisedReceivedDate { get; set; }
 
-        
+        [DataMember(Name = "reasonRevisionsReqConsumer")]
+        public bool? ReasonRevisionsReqConsumer { get; set; } = false;
+
+        [DataMember(Name = "ReasonRevisionsReqConsumer")]
+        public bool? ReasonInterestRatecharges { get; set; } = false;
+
+
 
     }
 }
