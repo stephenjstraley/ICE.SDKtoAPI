@@ -1665,5 +1665,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name = "PriceConcessionRequestStatus")]
 		public string PriceConcessionRequestStatus { get; set; }
+
+		[DataMember(Name = "correspondentRetainUserInputs")]
+		public bool? CorrespondentRetainUserInputs { get; set; } = false;
 	}
 }

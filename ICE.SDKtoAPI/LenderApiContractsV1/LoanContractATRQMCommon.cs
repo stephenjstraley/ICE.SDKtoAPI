@@ -651,7 +651,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		public DateTime? WrittenApplicationDate { get; set; }
 
 		[DataMember(Name = "gseagencyQmStatusQmAvailable", EmitDefaultValue = false)]
-		public string GseagencyQmStatusQmAvailable { get; set; }
+		public string GSEAgencyQMStatusQMAvailable { get; set; }
 
 		[DataMember(Name = "qmAprPercentage", EmitDefaultValue = false)]
 		public decimal? QmAprPercentage { get; set; }

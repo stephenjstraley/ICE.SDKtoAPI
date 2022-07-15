@@ -140,7 +140,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="sD", EmitDefaultValue=false)]
 		public string SD { get; set; }
 
-		[DataMember(Name="stateLicenseType", EmitDefaultValue=false)]
+		[DataMember(Name= "stateLicenseType", EmitDefaultValue=false)]
 		public string StateLicenseType { get; set; }
 
 		[DataMember(Name="tN", EmitDefaultValue=false)]

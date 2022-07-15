@@ -101,8 +101,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="truncatedAmountPerDay", EmitDefaultValue=false)]
 		public double? TruncatedAmountPerDay { get; set; }
 
-		[DataMember(Name="use4Decimals", EmitDefaultValue=false)]
-		public bool? Use4Decimals { get; set; }
+		[DataMember(Name = "use4Decimals", EmitDefaultValue = false)]
+		public bool? Use4Decimals { get; set; } = false;
 
 	}
 }

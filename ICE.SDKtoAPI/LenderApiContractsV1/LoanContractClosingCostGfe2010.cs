@@ -232,14 +232,14 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="durationMonths", EmitDefaultValue=false)]
 		public int? DurationMonths { get; set; }
 
-		[DataMember(Name="escrowChargeAllInsuranceIndicator", EmitDefaultValue=false)]
-		public bool? EscrowChargeAllInsuranceIndicator { get; set; }
+		[DataMember(Name = "escrowChargeAllInsuranceIndicator", EmitDefaultValue = false)]
+		public bool? EscrowChargeAllInsuranceIndicator { get; set; } = false;
 
-		[DataMember(Name="escrowChargeAllPropertyTaxesIndicator", EmitDefaultValue=false)]
-		public bool? EscrowChargeAllPropertyTaxesIndicator { get; set; }
+		[DataMember(Name = "escrowChargeAllPropertyTaxesIndicator", EmitDefaultValue = false)]
+		public bool? EscrowChargeAllPropertyTaxesIndicator { get; set; } = false;
 
-		[DataMember(Name="escrowChargeOtherIndicator", EmitDefaultValue=false)]
-		public bool? EscrowChargeOtherIndicator { get; set; }
+		[DataMember(Name = "escrowChargeOtherIndicator", EmitDefaultValue = false)]
+		public bool? EscrowChargeOtherIndicator { get; set; } = false;
 
 		[DataMember(Name="escrowOtherDescription", EmitDefaultValue=false)]
 		public string EscrowOtherDescription { get; set; }
@@ -445,8 +445,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="maximumOwedMonthlyPayment", EmitDefaultValue=false)]
 		public double? MaximumOwedMonthlyPayment { get; set; }
 
-		[DataMember(Name="maxLifeInterestCapPercent", EmitDefaultValue=false)]
-		public double? MaxLifeInterestCapPercent { get; set; }
+		[DataMember(Name = "maxLifeInterestCapPercent", EmitDefaultValue = false)]
+		public decimal? MaxLifeInterestCapPercent { get; set; } = 0M;
 
 		[DataMember(Name="maxLifeInterestCapPercentUI", EmitDefaultValue=false)]
 		public string MaxLifeInterestCapPercentUI { get; set; }

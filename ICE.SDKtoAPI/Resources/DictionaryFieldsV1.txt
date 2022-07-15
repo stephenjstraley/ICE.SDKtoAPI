@@ -4508,7 +4508,7 @@ BORPCC~BorrowerPaidClosingCostsAmount~False~decimal~False~Fees Total Closing Cos
 Borr.POASigTxt~Applications{current}.Borrower.PoaSignatureText~False~string~False~Borrower Vesting Borr POA Signature Text~False~~STRING
 Borr.TrusteeOf~Applications{current}.Borrower.VestingTrusteeOfType~False~string~False~Borrower Vesting Borr Trustee Of~False~eBorr_TrusteeOf~STRING
 Borr.OccupancyIntent~Applications{current}.Borrower.PoaOccupancyIntent~False~string~False~Borrower Vesting Borr POA Occupancy Intent~False~eBorr_OccupancyIntent~STRING
-BORPAIRID~Applications{current}.BorrowerPairId~False~string~False~Borrower Pair ID~False~~STRING
+BORPAIRID~Applications{current}.ApplicationId~False~string~False~Borrower Pair ID~False~~STRING
 ^(BR)(\d2)(02$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].LandlordName~False~string~False~Borr Residence Landlord Name~False~~STRING
 ^(BR)(\d2)(03$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].LandlordAttention~False~string~False~Borr Residence Landlord Attention~False~~STRING
 ^(BR)(\d2)(04$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].AddressStreetLine1~False~string~False~Borr Residence Addr~False~~STRING
@@ -4528,7 +4528,7 @@ BORPAIRID~Applications{current}.BorrowerPairId~False~string~False~Borrower Pair 
 ^(BR)(\d2)(19$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].LandlordFax~False~string~False~Borr Residence Landlord Fax~False~~PHONE
 ^(BR)(\d2)(20$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].LandlordEmail~False~string~False~Borr Residence Landlord Email~False~~STRING
 ^(BR)(\d2)(21$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].LandlordComments~False~string~False~Borr Residence Landlord Comments~False~~STRING
-^(BR)(\d2)(22$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].County~False~string~False~Borr Residence Cty~False~~STRING
+^(BR)(\d2)(22$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].CountryCode~False~string~False~Borr Residence Cty~False~~STRING
 ^(BR)(\d2)(23$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].ResidencyType~False~string~False~Borr Residence Type~False~~STRING
 ^(BR)(\d2)(24$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].DurationTermMonths~False~int~False~~False~~INT
 ^(BR)(\d2)(25$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].AddressUnitDesignatorType~False~string~False~~False~eBR0025~STRING
@@ -4536,7 +4536,7 @@ BORPAIRID~Applications{current}.BorrowerPairId~False~string~False~Borrower Pair 
 ^(BR)(\d2)(27$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].AddressUnitIdentifier~False~string~False~~False~~STRING
 ^(BR)(\d2)(28$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].CountryCode~False~string~False~~False~~STRING
 ^(BR)(\d2)(29$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].ForeignAddressIndicator~False~bool~False~~False~eBR0029~YN
-^(BR)(\d2)(30$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].Country~False~string~False~~False~~STRING
+^(BR)(\d2)(30$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].CountryCode~False~string~False~~False~~STRING
 ^(BR)(\d2)(36$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].PrintAttachmentIndicator~False~bool~False~Borr Residence Print - See Attached Authorization~False~eBR0036~YN
 ^(BR)(\d2)(37$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].Title~False~string~False~Borr Residence From Title~False~~STRING
 ^(BR)(\d2)(38$)~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False(1)].PrintUserNameIndicator~False~bool~False~Borr Residence Print User Name As Title~False~eBR0038~YN
@@ -6933,7 +6933,7 @@ CONST.X73~ConstructionManagement.CostImprovementsIncluded~False~bool~False~TBD~F
 ^(CR)(\d2)(19$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].LandlordFax~False~string~False~Co-Borr Residence Landlord Fax~False~~PHONE
 ^(CR)(\d2)(20$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].LandlordEmail~False~string~False~Co-Borr Residence Landlord Email~False~~STRING
 ^(CR)(\d2)(21$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].LandlordComments~False~string~False~Co-Borr Residence Landlord Comments~False~~STRING
-^(CR)(\d2)(22$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].County~False~string~False~Co-Borr Residence Cty~False~~STRING
+^(CR)(\d2)(22$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].CountryCode~False~string~False~Co-Borr Residence Cty~False~~STRING
 ^(CR)(\d2)(23$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].ResidencyType~False~string~False~Co-Borr Residence Type~False~~STRING
 ^(CR)(\d2)(24$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].DurationTermMonths~False~int~False~Co-~False~~INTEGER
 ^(CR)(\d2)(25$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].AddressUnitDesignatorType~False~string~False~~False~eCR0025~STRING
@@ -6941,7 +6941,7 @@ CONST.X73~ConstructionManagement.CostImprovementsIncluded~False~bool~False~TBD~F
 ^(CR)(\d2)(27$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].AddressUnitIdentifier~False~string~False~~False~~STRING
 ^(CR)(\d2)(28$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].CountryCode~False~string~False~~False~~STRING
 ^(CR)(\d2)(29$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].ForeignAddressIndicator~False~bool~False~~False~eCR0029~YN
-^(CR)(\d2)(30$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].Country~False~string~False~~False~~STRING
+^(CR)(\d2)(30$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].CountryCode~False~string~False~~False~~STRING
 ^(CR)(\d2)(36$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].PrintAttachmentIndicator~False~bool~False~Co-Borr Residence Print - See Attached Authorization~False~eCR0036~YN
 ^(CR)(\d2)(37$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].Title~False~string~False~Co-Borr Residence From Title~False~~STRING
 ^(CR)(\d2)(38$)~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False(1)].PrintUserNameIndicator~False~bool~False~Co-Borr Residence Print User Name As Title~False~eCR0038~YN
@@ -9120,7 +9120,7 @@ FR0126~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressInd
 FR0127~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Current].AddressUnitIdentifier~False~string~False~TBD~False~~STRING
 FR0128~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Current].CountryCode~False~string~False~TBD~False~~STRING
 FR0129~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Current].ForeignAddressIndicator~False~bool~False~TBD~False~eFR0129~BOOLEAN
-FR0130~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Current].Country~False~string~False~TBD~False~~STRING
+FR0130~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Current].CountryCode~False~string~False~TBD~False~~STRING
 FR0198~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Current].RequestDate~False~date~False~Borr Residence Request Date~False~~DECIMAL_2
 FR0199~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Current].AltId~False~string~False~Borr Residence Request ID~False~~STRING
 FR0204~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].AddressStreetLine1~False~string~False~Co-Borr Present Addr~False~~STRING
@@ -9136,7 +9136,7 @@ FR0226~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressI
 FR0227~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].AddressUnitIdentifier~False~string~False~TBD~False~~STRING
 FR0228~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].CountryCode~False~string~False~TBD~False~~STRING
 FR0229~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].ForeignAddressIndicator~False~bool~False~TBD~False~eFR0229~BOOLEAN
-FR0230~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].Country~False~string~False~TBD~False~~STRING
+FR0230~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].CountryCode~False~string~False~TBD~False~~STRING
 FR0298~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].RequestDate~False~date~False~Co-Borr Residence Request Date~False~~DATE
 FR0299~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Current].AltId~False~string~False~Co-Borr Residence Request ID~False~~STRING
 FR0301~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=False|ResidencyType=Prior].DoesNotApplyIndicator~False~bool~False~Co-Borr Residence Request ID~False~eFR0301~YN
@@ -9168,7 +9168,7 @@ FR0424~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressI
 FR0425~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].AddressUnitDesignatorType~False~string~False~TBD~False~eFR0425~STRING
 FR0426~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].URLA2020StreetAddress~False~string~False~TBD~False~~STRING
 FR0427~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].AddressUnitIdentifier~False~string~False~TBD~False~~STRING
-FR0428~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].CountryCode~False~string~False~TBD~False~~STRING
+FR0428~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].Country~False~string~False~TBD~False~~STRING
 FR0429~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].ForeignAddressIndicator~False~bool~False~TBD~False~eFR0429~BOOLEAN
 FR0430~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].Country~False~string~False~TBD~False~~STRING
 FR0498~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=False|ResidencyType=Prior].RequestDate~False~date~False~Co-Borr Residence Request Date~False~~DATE
@@ -9760,64 +9760,64 @@ GMCAW.X6~Mcaw.Ltv2~False~decimal~False~FHA MCAW Ratio Loan-to-Value~False~~DECIM
 GMCAW.X7~Applications{current}.McawMortgagePaymentToIncome2Amount~False~decimal~False~FHA MCAW Ratio Mtg Pymt-to-Income~False~~DECIMAL_3
 GMCAW.X8~Applications{current}.McawTotalFixedPaymentToIncome2Amount~False~decimal~False~FHA MCAW Ratio Total Fixed Pymt-to-Income~False~~DECIMAL_3
 GMCAW.X9~Applications{current}.McawTotalFixedPaymentForRefinanceAmount~False~decimal~False~FHA MCAW Total Fixed Pymt~False~~DECIMAL_2
-GSEVENDOR.X1~Applications{current}.Borrower.Vendor1~False~string~False~GSE Vendor Provider Data - CoreLogic 4506T (Bor)~False~~STRING
-GSEVENDOR.X2~Applications{current}.Coborrower.Vendor1~False~string~False~GSE Vendor Provider Data - CoreLogic 4506T (CoBor)~False~~STRING
-GSEVENDOR.X3~Applications{current}.Borrower.Vendor2~False~string~False~GSE Vendor Provider Data - DataVerify~False~~STRING
-GSEVENDOR.X4~Applications{current}.Coborrower.Vendor2~False~string~False~GSE Vendor Provider Data - Finicity (Bor)~False~~STRING
-GSEVENDOR.X5~Applications{current}.Borrower.Vendor3~False~string~False~GSE Vendor Provider Data - Finicity (CoBor)~False~~STRING
-GSEVENDOR.X6~Applications{current}.Coborrower.Vendor3~False~string~False~GSE Vendor Provider Data - Informative Research 4506T (Bor)~False~~STRING
-GSEVENDOR.X7~Applications{current}.Borrower.Vendor4~False~string~False~GSE Vendor Provider Data - Informative Research 4506T (CoBor)~False~~STRING
-GSEVENDOR.X8~Applications{current}.Coborrower.Vendor4~False~string~False~GSE Vendor Provider Data - Blend (Bor)~False~~STRING
-GSEVENDOR.X9~Applications{current}.Borrower.Vendor5~False~string~False~GSE Vendor Provider Data - Blend (CoBor)~False~~STRING
-GSEVENDOR.X10~Applications{current}.Coborrower.Vendor5~False~string~False~GSE Vendor Provider Data - Avantus 4506T, VOE/VOI (Bor, CoBor)~False~~STRING
-GSEVENDOR.X11~Applications{current}.Borrower.Vendor6~False~string~False~GSE Vendor Provider Data - Avantus 4506T (CoBor)~False~~STRING
-GSEVENDOR.X12~Applications{current}.Coborrower.Vendor6~False~string~False~GSE Vendor Provider Data - Universal Credit 4506T (Bor)~False~~STRING
-GSEVENDOR.X13~Applications{current}.Borrower.Vendor7~False~string~False~GSE Vendor Provider Data - Universal Credit 4506T (CoBor)~False~~STRING
-GSEVENDOR.X14~Applications{current}.Coborrower.Vendor7~False~string~False~GSE Vendor Provider Data - Chronos (Bor,CoBor)~False~~STRING
-GSEVENDOR.X15~Applications{current}.Borrower.Vendor8~False~string~False~GSE Vendor Provider Data - Finlocker (Bor,CoBor)~False~~STRING
-GSEVENDOR.X16~Applications{current}.Coborrower.Vendor8~False~string~False~GSE Vendor Provider Data - FirstAmerican (Bor,CoBor)~False~~STRING
-GSEVENDOR.X17~Applications{current}.Borrower.Vendor9~False~string~False~GSE Vendor Provider Data - Inco-Check (Bor,CoBor)~False~~STRING
-GSEVENDOR.X18~Applications{current}.Coborrower.Vendor9~False~string~False~GSE Vendor Provider Data - Meridian Link (Bor,CoBor)~False~~STRING
-GSEVENDOR.X19~Applications{current}.Borrower.Vendor10~False~string~False~GSE Vendor Provider Data - NCS (Bor,CoBor)~False~~STRING
-GSEVENDOR.X20~Applications{current}.Coborrower.Vendor10~False~string~False~GSE Vendor Provider Data - Plaid (Bor,CoBor)~False~~STRING
-GSEVENDOR.X21~Applications{current}.Borrower.Vendor11~False~string~False~GSE Vendor Provider Data - PointServ (VOE/VOI/4506T/Asset) (Bor,CoBor)~False~~STRING
-GSEVENDOR.X22~Applications{current}.Coborrower.Vendor11~False~string~False~GSE Vendor Provider Data - SharperLending (Bor,CoBor)~False~~STRING
-GSEVENDOR.X23~Applications{current}.Borrower.Vendor12~False~string~False~GSE Vendor Provider Data - VeriTax (Bor,CoBor)~False~~STRING
-GSEVENDOR.X24~Applications{current}.Coborrower.Vendor12~False~string~False~GSE Vendor Provider Data - Yodlee (Bor,CoBor)~False~~STRING
-GSEVENDOR.X25~Applications{current}.Borrower.Vendor13~False~string~False~GSE Vendor Provider Data - BankVOD (Bor,CoBor)~False~~STRING
-GSEVENDOR.X26~Applications{current}.Coborrower.Vendor14~False~string~False~GSE Vendor Provider Data - LendSnap (Bor,CoBor)~False~~STRING
-GSEVENDOR.X27~Applications{current}.Borrower.Vendor15~False~string~False~GSE Vendor Provider Data - Quovo (Bor,CoBor)~False~~STRING
-GSEVENDOR.X28~Applications{current}.Coborrower.Vendor16~False~string~False~GSE Vendor Provider Data - Roostify (Bor,CoBor)~False~~STRING
-GSEVENDOR.X29~Applications{current}.Borrower.Vendor17~False~string~False~GSE Vendor Provider Data - CoreLogic (VOE/VOI) (Bor,CoBor)~False~~STRING
-GSEVENDOR.X30~Applications{current}.Coborrower.Vendor18~False~string~False~GSE Vendor Provider Data - Advanced Data Income Tax Verification (Bor,CoBor)~False~~STRING
-GSEVENDOR.X31~Applications{current}.Borrower.Vendor19~False~string~False~GSE Vendor Provider Data - Partners Credit (IncomeVerify) (Bor,CoBor)~False~~STRING
-GSEVENDOR.X32~Applications{current}.Coborrower.Vendor20~False~string~False~GSE Vendor Provider Data - Taxdoor 4506-T Service (Chronos) (Bor,CoBor)~False~~STRING
-GSEVENDOR.X33~Applications{current}.Borrower.Vendor21~False~string~False~GSE Vendor Provider Data - ComplianceEase IRS Tax Transcript (Bor,CoBor)~False~~STRING
-GSEVENDOR.X34~Applications{current}.Coborrower.Vendor22~False~string~False~GSE Vendor Provider Data - Private Eyes (4506-Transcripts.com) (Bor,CoBor)~False~~STRING
-GSEVENDOR.X35~Applications{current}.Borrower.Vendor23~False~string~False~GSE Vendor Provider Data - BankVOD IRS (Bor,CoBor)~False~~STRING
-GSEVENDOR.X36~Applications{current}.Coborrower.Vendor24~False~string~False~GSE Vendor Provider Data - QuestSoft (Bor,CoBor)~False~~STRING
-GSEVENDOR.X37~Applications{current}.Borrower.Vendor25~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X37 ~False~~STRING
-GSEVENDOR.X38~Applications{current}.Coborrower.Vendor26~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X38~False~~STRING
-GSEVENDOR.X39~Applications{current}.Borrower.Vendor27~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X39 (Bor)~False~~STRING
-GSEVENDOR.X40~Applications{current}.Coborrower.Vendor27~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X40 (CoBor)~False~~STRING
-GSEVENDOR.X41~Applications{current}.Borrower.Vendor28~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X41 (Bor)~False~~STRING
-GSEVENDOR.X42~Applications{current}.Coborrower.Vendor28~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X42 (CoBor)~False~~STRING
-GSEVENDOR.X43~Applications{current}.Borrower.Vendor29~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X43 (Bor)~False~~STRING
-GSEVENDOR.X44~Applications{current}.Coborrower.Vendor29~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X44 (CoBor)~False~~STRING
-GSEVENDOR.X45~Applications{current}.Borrower.Vendor30~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X45 (Bor)~False~~STRING
-GSEVENDOR.X46~Applications{current}.Coborrower.Vendor30~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X46 (CoBor)~False~~STRING
-GSEVENDOR.X47~Applications{current}.Borrower.Vendor31~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X47 (Bor)~False~~STRING
-GSEVENDOR.X48~Applications{current}.Coborrower.Vendor31~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X48 (CoBor)~False~~STRING
-GSEVENDOR.X49~Applications{current}.Borrower.Vendor32~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X49 (Bor)~False~~STRING
-GSEVENDOR.X50~Applications{current}.Coborrower.Vendor32~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X50 (CoBor)~False~~STRING
-GSEVENDOR.X51~Applications{current}.Borrower.Vendor33~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X51 (Bor)~False~~STRING
-GSEVENDOR.X52~Applications{current}.Coborrower.Vendor33~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X52 (CoBor)~False~~STRING
-GSEVENDOR.X53~Applications{current}.Borrower.Vendor34~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X53 (Bor)~False~~STRING
-GSEVENDOR.X54~Applications{current}.Coborrower.Vendor34~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X54 (CoBor)~False~~STRING
-GSEVENDOR.X55~Applications{current}.Borrower.Vendor35~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X55 (Bor)~False~~STRING
-GSEVENDOR.X56~Applications{current}.Coborrower.Vendor35~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X56 (CoBor)~False~~STRING
-GSEVENDOR.X57~Applications{current}.Borrower.Vendor36~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X57 (Bor)~False~~STRING
-GSEVENDOR.X58~Applications{current}.Coborrower.Vendor36~False~string~False~GSE Vendor Provider Data - GSEVENDOR.X58 (CoBor)~False~~STRING
+GSEVENDOR.X1~Applications{current}.Borrower.Vendor1~False~string~True~GSE Vendor Provider Data - CoreLogic 4506T (Bor)~False~~STRING
+GSEVENDOR.X10~Applications{current}.Borrower.Vendor5~False~string~True~GSE Vendor Provider Data - Avantus 4506T, VOE/VOI (Bor)~False~~STRING
+GSEVENDOR.X11~Applications{current}.Coborrower.Vendor5~False~string~True~GSE Vendor Provider Data - Avantus 4506T (CoBor)~False~~STRING
+GSEVENDOR.X12~Applications{current}.Borrower.Vendor6~False~string~True~GSE Vendor Provider Data - Universal Credit 4506T (Bor)~False~~STRING
+GSEVENDOR.X13~Applications{current}.Coborrower.Vendor6~False~string~True~GSE Vendor Provider Data - Universal Credit 4506T (CoBor)~False~~STRING
+GSEVENDOR.X14~Applications{current}.Borrower.Vendor7~False~string~True~GSE Vendor Provider Data - Corvius (Bor,CoBor)~False~~STRING
+GSEVENDOR.X15~Applications{current}.Borrower.Vendor8~False~string~True~GSE Vendor Provider Data - Finlocker (Bor,CoBor)~False~~STRING
+GSEVENDOR.X16~Applications{current}.Borrower.Vendor9~False~string~True~GSE Vendor Provider Data - FirstAmerican (Bor,CoBor)~False~~STRING
+GSEVENDOR.X17~Applications{current}.Borrower.Vendor10~False~string~True~GSE Vendor Provider Data - Inco-Check (Bor,CoBor)~False~~STRING
+GSEVENDOR.X18~Applications{current}.Borrower.Vendor11~False~string~True~GSE Vendor Provider Data - Meridian Link (Bor,CoBor)~False~~STRING
+GSEVENDOR.X19~Applications{current}.Borrower.Vendor12~False~string~True~GSE Vendor Provider Data - NCS (Bor,CoBor)~False~~STRING
+GSEVENDOR.X2~Applications{current}.Coborrower.Vendor1~False~string~True~GSE Vendor Provider Data - CoreLogic 4506T (CoBor)~False~~STRING
+GSEVENDOR.X20~Applications{current}.Borrower.Vendor13~False~string~True~GSE Vendor Provider Data - Plaid (Bor,CoBor)~False~~STRING
+GSEVENDOR.X21~Applications{current}.Borrower.Vendor14~False~string~True~GSE Vendor Provider Data - PointServ (VOE/VOI/4506T/Asset) (Bor,CoBor)~False~~STRING
+GSEVENDOR.X22~Applications{current}.Borrower.Vendor15~False~string~True~GSE Vendor Provider Data - SharperLending (Bor,CoBor)~False~~STRING
+GSEVENDOR.X23~Applications{current}.Borrower.Vendor16~False~string~True~GSE Vendor Provider Data - VeriTax (Bor,CoBor)~False~~STRING
+GSEVENDOR.X24~Applications{current}.Borrower.Vendor17~False~string~True~GSE Vendor Provider Data - Yodlee (Bor,CoBor)~False~~STRING
+GSEVENDOR.X25~Applications{current}.Borrower.Vendor18~False~string~True~GSE Vendor Provider Data - BankVOD (Bor,CoBor)~False~~STRING
+GSEVENDOR.X26~Applications{current}.Borrower.Vendor19~False~string~True~GSE Vendor Provider Data - LendSnap (Bor,CoBor)~False~~STRING
+GSEVENDOR.X27~Applications{current}.Borrower.Vendor20~False~string~True~GSE Vendor Provider Data - Quovo (Bor,CoBor)~False~~STRING
+GSEVENDOR.X28~Applications{current}.Borrower.Vendor21~False~string~True~GSE Vendor Provider Data - Roostify (Bor,CoBor)~False~~STRING
+GSEVENDOR.X29~Applications{current}.Borrower.Vendor22~False~string~True~GSE Vendor Provider Data - CoreLogic (VOE/VOI) (Bor,CoBor)~False~~STRING
+GSEVENDOR.X3~Applications{current}.Borrower.DataVerify~False~string~True~GSE Vendor Provider Data - DataVerify~False~~STRING
+GSEVENDOR.X30~Applications{current}.Borrower.Vendor23~False~string~True~GSE Vendor Provider Data - Advanced Data (4506-T, VOE, VOI) (Bor,CoBor)~False~~STRING
+GSEVENDOR.X31~Applications{current}.Borrower.Vendor24~False~string~True~GSE Vendor Provider Data - Partners Credit (IncomeVerify) (Bor,CoBor)~False~~STRING
+GSEVENDOR.X32~Applications{current}.Borrower.Vendor25~False~string~True~GSE Vendor Provider Data - Taxdoor 4506-T Service (Chronos) (Bor,CoBor)~False~~STRING
+GSEVENDOR.X33~Applications{current}.Borrower.Vendor26~False~string~True~GSE Vendor Provider Data - ComplianceEase IRS Tax Transcript (Bor,CoBor)~False~~STRING
+GSEVENDOR.X34~Applications{current}.Borrower.Vendor27~False~string~True~GSE Vendor Provider Data - Private Eyes (4506-Transcripts.com) (Bor,CoBor)~False~~STRING
+GSEVENDOR.X35~Applications{current}.Borrower.Vendor28~False~string~True~GSE Vendor Provider Data - BankVOD IRS (Bor,CoBor)~False~~STRING
+GSEVENDOR.X36~Applications{current}.Borrower.Vendor29~False~string~True~GSE Vendor Provider Data - QuestSoft (Bor,CoBor)~False~~STRING
+GSEVENDOR.X37~Applications{current}.Borrower.Vendor30~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X37 (Bor)~False~~STRING
+GSEVENDOR.X38~Applications{current}.Coborrower.Vendor30~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X38 (Co-Bor)~False~~STRING
+GSEVENDOR.X39~Applications{current}.Borrower.Vendor37~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X39 (Bor)~False~~STRING
+GSEVENDOR.X4~Applications{current}.Borrower.Vendor2~False~string~True~GSE Vendor Provider Data - Finicity (Bor)~False~~STRING
+GSEVENDOR.X40~Applications{current}.Coborrower.Vendor37~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X40 (CoBor)~False~~STRING
+GSEVENDOR.X41~Applications{current}.Borrower.Vendor38~False~string~True~GSE Vendor Provider Data - Finicity (VOE/VOI) (Bor, CoBor)~False~~STRING
+GSEVENDOR.X42~Applications{current}.Coborrower.Vendor38~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X42 (CoBor)~False~~STRING
+GSEVENDOR.X43~Applications{current}.Borrower.Vendor39~False~string~True~GSE Vendor Provider Data - Service Provider Name & Ref Number (Bor)~False~~STRING
+GSEVENDOR.X44~Applications{current}.Coborrower.Vendor39~False~string~True~GSE Vendor Provider Data - Service Provider Name & Ref Number (CoBor)~False~~STRING
+GSEVENDOR.X45~Applications{current}.Borrower.Vendor40~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X45 (Bor)~False~~STRING
+GSEVENDOR.X46~Applications{current}.Coborrower.Vendor40~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X46 (CoBor)~False~~STRING
+GSEVENDOR.X47~Applications{current}.Borrower.Vendor31~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X47 (Bor)~False~~STRING
+GSEVENDOR.X48~Applications{current}.Coborrower.Vendor31~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X48 (CoBor)~False~~STRING
+GSEVENDOR.X49~Applications{current}.Borrower.Vendor32~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X49 (Bor)~False~~STRING
+GSEVENDOR.X5~Applications{current}.Coborrower.Vendor2~False~string~True~GSE Vendor Provider Data - Finicity (CoBor)~False~~STRING
+GSEVENDOR.X50~Applications{current}.Coborrower.Vendor32~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X50 (CoBor)~False~~STRING
+GSEVENDOR.X51~Applications{current}.Borrower.Vendor33~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X51 (Bor)~False~~STRING
+GSEVENDOR.X52~Applications{current}.Coborrower.Vendor33~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X52 (CoBor)~False~~STRING
+GSEVENDOR.X53~Applications{current}.Borrower.Vendor34~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X53 (Bor)~False~~STRING
+GSEVENDOR.X54~Applications{current}.Coborrower.Vendor34~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X54 (CoBor)~False~~STRING
+GSEVENDOR.X55~Applications{current}.Borrower.Vendor35~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X55 (Bor)~False~~STRING
+GSEVENDOR.X56~Applications{current}.Coborrower.Vendor35~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X56 (CoBor)~False~~STRING
+GSEVENDOR.X57~Applications{current}.Borrower.Vendor36~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X57 (Bor)~False~~STRING
+GSEVENDOR.X58~Applications{current}.Coborrower.Vendor36~False~string~True~GSE Vendor Provider Data - GSEVENDOR.X58 (CoBor)~False~~STRING
+GSEVENDOR.X6~Applications{current}.Borrower.Vendor3~False~string~True~GSE Vendor Provider Data - Informative Research 4506T (Bor)~False~~STRING
+GSEVENDOR.X7~Applications{current}.Coborrower.Vendor3~False~string~True~GSE Vendor Provider Data - Informative Research 4506T (CoBor)~False~~STRING
+GSEVENDOR.X8~Applications{current}.Borrower.Vendor4~False~string~True~GSE Vendor Provider Data - Blend (Bor)~False~~STRING
+GSEVENDOR.X9~Applications{current}.Coborrower.Vendor4~False~string~True~GSE Vendor Provider Data - Blend (CoBor)~False~~STRING
 GUID~EncompassId~True~uuid~False~Loan Info Loan ID~False~~STRING
 ^(HC)(\d2)(01$)~HomeCounselingProviders[(1)].SelectedIndicator~False~bool~False~Home Counseling Provider - Selected Indicator~False~eHC0001~YN
 ^(HC)(\d2)(02$)~HomeCounselingProviders[(1)].AgencyName~False~string~False~Home Counseling Provider - Agency Name~False~~STRING
@@ -10441,8 +10441,8 @@ L198~ClosingDocument.RespaHudDetails[LineNumber=219].LineItemDescription~False~s
 L199~ClosingDocument.RespaHudDetails[LineNumber=219].LineItemAmount~False~decimal~False~HUD1 Borr - Adj Unpaid By Seller Oth 7 Amt~False~~DECIMAL_2
 L200~ClosingDocument.RespaHudDetails[LineNumber=519].LineItemDescription~False~string~False~HUD1 Seller - Adj Unpaid By Seller Oth 7 Descr~False~~STRING
 L201~ClosingDocument.RespaHudDetails[LineNumber=519].LineItemAmount~False~decimal~False~HUD1 Seller - Adj Unpaid By Seller Oth 7 Amt~False~~DECIMAL_2
-L202~ClosingDocument.RespaHudDetails[LineNumber=220].LineItemDescription~False~string~False~HUD1 Borr - Total Paid By/For Borr~False~~DECIMAL_2
-L203~ClosingDocument.RespaHudDetails[LineNumber=220].LineItemAmount~False~decimal~False~HUD1 Seller - Total Reduction Amt Due Seller~False~~DECIMAL_2
+L202~ClosingDocument.RespaHudDetails[LineNumber=220].LineItemAmount~False~string~False~HUD1 Borr - Total Paid By/For Borr~False~~DECIMAL_2
+L203~ClosingDocument.RespaHudDetails[LineNumber=520].LineItemAmount~False~decimal~False~HUD1 Seller - Total Reduction Amt Due Seller~False~~DECIMAL_2
 L206~ClosingDocument.RespaHudDetails[LineNumber=303].LineItemAmount~False~decimal~False~HUD1 Borr - Cash From Borr~False~~DECIMAL_2
 L206R~ClosingDocument.RespaHudDetails[LineNumber=303].RealValue~False~decimal~False~Trans Details Cash From/To Borr~False~~DECIMAL_2
 L207~ClosingDocument.RespaHudDetails[LineNumber=603].LineItemAmount~False~decimal~False~HUD1 Seller - Cash To Seller~False~~DECIMAL_2
@@ -10504,8 +10504,8 @@ L634~Hud1Es.ServicerPostalCode~False~string~False~Escrow Servicer Zipcode~False~
 L635~Hud1Es.ServicerPhone~False~string~False~Escrow Servicer Phone~False~~PHONE
 L704~Fees[FeeType=LendersInspectionFee].PaidToName~False~string~False~Fees Lenders Inspect Fee Descr~False~~STRING
 L724~ClosingDocument.RescissionDate~False~date~False~REGZ Loan Info Rescission Date~False~~DATE
-L725~ClosingDocument.BrokerCommissionBasedUnitPrice~False~decimal~False~TBD~False~~DECIMAL_2
-L726~ClosingDocument.DisclosedSalesPrice~False~decimal~False~TBD~False~~DECIMAL_2
+L725~ClosingCost.BrokerCommissionBasedUnitPrice~False~decimal~False~TBD~False~~DECIMAL_2
+L726~ClosingCost.DisclosedSalesPrice~False~decimal~False~TBD~False~~DECIMAL_2
 L770~ClosingDocument.DocumentPreparationDate~False~date~False~REGZ Loan Info Document Date~False~~DATE
 L812~ClosingDocument.DrawState~False~string~False~Closing Draw State~False~~STATE
 L827~ClosingDocument.DrawCity~False~string~False~Closing Draw City~False~~STRING
@@ -10858,60 +10858,60 @@ LINK_4494~Property.LinkedHELOCLienPosition~False~string~False~TBD~False~eLINK_44
 LINK_QM.X337~Property.LinkedMax5YrsPrincipleAndInterest~False~decimal~False~TBD~False~~DECIMAL_2
 LINK_URLA.X210~Property.LinkedAffordableLoan~False~bool~False~TBD~False~eLINK_URLA_X210~BOOLEAN
 LINKGUID~LinkId~False~string~False~TBD~False~~STRING
-LO.ALLOWED.AK~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].AK~False~string~False~Company - Loan Officer License Permit AK~False~~STRING
-LO.ALLOWED.AL~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].AL~False~string~False~Company - Loan Officer License Permit AL~False~~STRING
-LO.ALLOWED.AR~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].AR~False~string~False~Company - Loan Officer License Permit AR~False~~STRING
-LO.ALLOWED.AZ~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].AZ~False~string~False~Company - Loan Officer License Permit AZ~False~~STRING
-LO.ALLOWED.CA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].CA~False~string~False~Company - Loan Officer License Permit CA~False~~STRING
-LO.ALLOWED.CO~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].CO~False~string~False~Company - Loan Officer License Permit CO~False~~STRING
-LO.ALLOWED.CT~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].CT~False~string~False~Company - Loan Officer License Permit CT~False~~STRING
-LO.ALLOWED.DC~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].DC~False~string~False~Company - Loan Officer License Permit DC~False~~STRING
-LO.ALLOWED.DE~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].DE~False~string~False~Company - Loan Officer License Permit DE~False~~STRING
-LO.ALLOWED.FL~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].FL~False~string~False~Company - Loan Officer License Permit FL~False~~STRING
-LO.ALLOWED.GA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].GA~False~string~False~Company - Loan Officer License Permit GA~False~~STRING
-LO.ALLOWED.GU~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].GU~False~string~False~Company - Loan Officer License Permit GU~False~~STRING
-LO.ALLOWED.HI~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].HI~False~string~False~Company - Loan Officer License Permit HI~False~~STRING
-LO.ALLOWED.IA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].IA~False~string~False~Company - Loan Officer License Permit IA~False~~STRING
-LO.ALLOWED.ID~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].ID~False~string~False~Company - Loan Officer License Permit ID~False~~STRING
-LO.ALLOWED.IL~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].IL~False~string~False~Company - Loan Officer License Permit IL~False~~STRING
-LO.ALLOWED.IN~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].IN~False~string~False~Company - Loan Officer License Permit IN~False~~STRING
-LO.ALLOWED.KS~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].KS~False~string~False~Company - Loan Officer License Permit KS~False~~STRING
-LO.ALLOWED.KY~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].KY~False~string~False~Company - Loan Officer License Permit KY~False~~STRING
-LO.ALLOWED.LA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].LA~False~string~False~Company - Loan Officer License Permit LA~False~~STRING
-LO.ALLOWED.MA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].MA~False~string~False~Company - Loan Officer License Permit MA~False~~STRING
-LO.ALLOWED.MD~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].MD~False~string~False~Company - Loan Officer License Permit MD~False~~STRING
-LO.ALLOWED.ME~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].ME~False~string~False~Company - Loan Officer License Permit ME~False~~STRING
-LO.ALLOWED.MI~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].MI~False~string~False~Company - Loan Officer License Permit MI~False~~STRING
-LO.ALLOWED.MN~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].MN~False~string~False~Company - Loan Officer License Permit MN~False~~STRING
-LO.ALLOWED.MO~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].MO~False~string~False~Company - Loan Officer License Permit MO~False~~STRING
-LO.ALLOWED.MS~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].MS~False~string~False~Company - Loan Officer License Permit MS~False~~STRING
-LO.ALLOWED.MT~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].MT~False~string~False~Company - Loan Officer License Permit MT~False~~STRING
-LO.ALLOWED.NC~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].NC~False~string~False~Company - Loan Officer License Permit NC~False~~STRING
-LO.ALLOWED.ND~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].ND~False~string~False~Company - Loan Officer License Permit ND~False~~STRING
-LO.ALLOWED.NE~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].NE~False~string~False~Company - Loan Officer License Permit NE~False~~STRING
-LO.ALLOWED.NH~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].NH~False~string~False~Company - Loan Officer License Permit NH~False~~STRING
-LO.ALLOWED.NJ~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].NJ~False~string~False~Company - Loan Officer License Permit NJ~False~~STRING
-LO.ALLOWED.NM~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].NM~False~string~False~Company - Loan Officer License Permit NM~False~~STRING
-LO.ALLOWED.NV~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].NV~False~string~False~Company - Loan Officer License Permit NV~False~~STRING
-LO.ALLOWED.NY~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].NY~False~string~False~Company - Loan Officer License Permit NY~False~~STRING
-LO.ALLOWED.OH~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].OH~False~string~False~Company - Loan Officer License Permit OH~False~~STRING
-LO.ALLOWED.OK~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].OK~False~string~False~Company - Loan Officer License Permit OK~False~~STRING
-LO.ALLOWED.OR~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].OR~False~string~False~Company - Loan Officer License Permit OR~False~~STRING
-LO.ALLOWED.PA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].PA~False~string~False~Company - Loan Officer License Permit PA~False~~STRING
-LO.ALLOWED.PR~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].PR~False~string~False~Company - Loan Officer License Permit PR~False~~STRING
-LO.ALLOWED.RI~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].RI~False~string~False~Company - Loan Officer License Permit RI~False~~STRING
-LO.ALLOWED.SC~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].SC~False~string~False~Company - Loan Officer License Permit SC~False~~STRING
-LO.ALLOWED.SD~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].SD~False~string~False~Company - Loan Officer License Permit SD~False~~STRING
-LO.ALLOWED.TN~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].TN~False~string~False~Company - Loan Officer License Permit TN~False~~STRING
-LO.ALLOWED.TX~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].TX~False~string~False~Company - Loan Officer License Permit TX~False~~STRING
-LO.ALLOWED.UT~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].UT~False~string~False~Company - Loan Officer License Permit UT~False~~STRING
-LO.ALLOWED.VA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].VA~False~string~False~Company - Loan Officer License Permit VA~False~~STRING
-LO.ALLOWED.VI~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].VI~False~string~False~Company - Loan Officer License Permit VI~False~~STRING
-LO.ALLOWED.VT~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].VT~False~string~False~Company - Loan Officer License Permit VT~False~~STRING
-LO.ALLOWED.WA~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].WA~False~string~False~Company - Loan Officer License Permit WA~False~~STRING
-LO.ALLOWED.WI~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].WI~False~string~False~Company - Loan Officer License Permit WI~False~~STRING
-LO.ALLOWED.WV~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].WV~False~string~False~Company - Loan Officer License Permit WV~False~~STRING
-LO.ALLOWED.WY~ClosingDocument.StateLicense[StateLicenseType=LoanOfficerLicensePermit].WY~False~string~False~Company - Loan Officer License Permit WY~False~~STRING
+LO.ALLOWED.AK~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].AK~False~string~False~Company - Loan Officer License Permit AK~False~~STRING
+LO.ALLOWED.AL~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].AL~False~string~False~Company - Loan Officer License Permit AL~False~~STRING
+LO.ALLOWED.AR~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].AR~False~string~False~Company - Loan Officer License Permit AR~False~~STRING
+LO.ALLOWED.AZ~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].AZ~False~string~False~Company - Loan Officer License Permit AZ~False~~STRING
+LO.ALLOWED.CA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].CA~False~string~False~Company - Loan Officer License Permit CA~False~~STRING
+LO.ALLOWED.CO~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].CO~False~string~False~Company - Loan Officer License Permit CO~False~~STRING
+LO.ALLOWED.CT~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].CT~False~string~False~Company - Loan Officer License Permit CT~False~~STRING
+LO.ALLOWED.DC~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].DC~False~string~False~Company - Loan Officer License Permit DC~False~~STRING
+LO.ALLOWED.DE~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].DE~False~string~False~Company - Loan Officer License Permit DE~False~~STRING
+LO.ALLOWED.FL~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].FL~False~string~False~Company - Loan Officer License Permit FL~False~~STRING
+LO.ALLOWED.GA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].GA~False~string~False~Company - Loan Officer License Permit GA~False~~STRING
+LO.ALLOWED.GU~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].GU~False~string~False~Company - Loan Officer License Permit GU~False~~STRING
+LO.ALLOWED.HI~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].HI~False~string~False~Company - Loan Officer License Permit HI~False~~STRING
+LO.ALLOWED.IA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].IA~False~string~False~Company - Loan Officer License Permit IA~False~~STRING
+LO.ALLOWED.ID~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].ID~False~string~False~Company - Loan Officer License Permit ID~False~~STRING
+LO.ALLOWED.IL~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].IL~False~string~False~Company - Loan Officer License Permit IL~False~~STRING
+LO.ALLOWED.IN~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].IN~False~string~False~Company - Loan Officer License Permit IN~False~~STRING
+LO.ALLOWED.KS~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].KS~False~string~False~Company - Loan Officer License Permit KS~False~~STRING
+LO.ALLOWED.KY~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].KY~False~string~False~Company - Loan Officer License Permit KY~False~~STRING
+LO.ALLOWED.LA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].LA~False~string~False~Company - Loan Officer License Permit LA~False~~STRING
+LO.ALLOWED.MA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].MA~False~string~False~Company - Loan Officer License Permit MA~False~~STRING
+LO.ALLOWED.MD~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].MD~False~string~False~Company - Loan Officer License Permit MD~False~~STRING
+LO.ALLOWED.ME~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].ME~False~string~False~Company - Loan Officer License Permit ME~False~~STRING
+LO.ALLOWED.MI~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].MI~False~string~False~Company - Loan Officer License Permit MI~False~~STRING
+LO.ALLOWED.MN~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].MN~False~string~False~Company - Loan Officer License Permit MN~False~~STRING
+LO.ALLOWED.MO~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].MO~False~string~False~Company - Loan Officer License Permit MO~False~~STRING
+LO.ALLOWED.MS~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].MS~False~string~False~Company - Loan Officer License Permit MS~False~~STRING
+LO.ALLOWED.MT~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].MT~False~string~False~Company - Loan Officer License Permit MT~False~~STRING
+LO.ALLOWED.NC~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].NC~False~string~False~Company - Loan Officer License Permit NC~False~~STRING
+LO.ALLOWED.ND~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].ND~False~string~False~Company - Loan Officer License Permit ND~False~~STRING
+LO.ALLOWED.NE~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].NE~False~string~False~Company - Loan Officer License Permit NE~False~~STRING
+LO.ALLOWED.NH~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].NH~False~string~False~Company - Loan Officer License Permit NH~False~~STRING
+LO.ALLOWED.NJ~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].NJ~False~string~False~Company - Loan Officer License Permit NJ~False~~STRING
+LO.ALLOWED.NM~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].NM~False~string~False~Company - Loan Officer License Permit NM~False~~STRING
+LO.ALLOWED.NV~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].NV~False~string~False~Company - Loan Officer License Permit NV~False~~STRING
+LO.ALLOWED.NY~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].NY~False~string~False~Company - Loan Officer License Permit NY~False~~STRING
+LO.ALLOWED.OH~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].OH~False~string~False~Company - Loan Officer License Permit OH~False~~STRING
+LO.ALLOWED.OK~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].OK~False~string~False~Company - Loan Officer License Permit OK~False~~STRING
+LO.ALLOWED.OR~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].OR~False~string~False~Company - Loan Officer License Permit OR~False~~STRING
+LO.ALLOWED.PA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].PA~False~string~False~Company - Loan Officer License Permit PA~False~~STRING
+LO.ALLOWED.PR~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].PR~False~string~False~Company - Loan Officer License Permit PR~False~~STRING
+LO.ALLOWED.RI~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].RI~False~string~False~Company - Loan Officer License Permit RI~False~~STRING
+LO.ALLOWED.SC~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].SC~False~string~False~Company - Loan Officer License Permit SC~False~~STRING
+LO.ALLOWED.SD~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].SD~False~string~False~Company - Loan Officer License Permit SD~False~~STRING
+LO.ALLOWED.TN~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].TN~False~string~False~Company - Loan Officer License Permit TN~False~~STRING
+LO.ALLOWED.TX~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].TX~False~string~False~Company - Loan Officer License Permit TX~False~~STRING
+LO.ALLOWED.UT~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].UT~False~string~False~Company - Loan Officer License Permit UT~False~~STRING
+LO.ALLOWED.VA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].VA~False~string~False~Company - Loan Officer License Permit VA~False~~STRING
+LO.ALLOWED.VI~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].VI~False~string~False~Company - Loan Officer License Permit VI~False~~STRING
+LO.ALLOWED.VT~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].VT~False~string~False~Company - Loan Officer License Permit VT~False~~STRING
+LO.ALLOWED.WA~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].WA~False~string~False~Company - Loan Officer License Permit WA~False~~STRING
+LO.ALLOWED.WI~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].WI~False~string~False~Company - Loan Officer License Permit WI~False~~STRING
+LO.ALLOWED.WV~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].WV~False~string~False~Company - Loan Officer License Permit WV~False~~STRING
+LO.ALLOWED.WY~ClosingDocument.StateLicenses[StateLicenseType=LoanOfficerLicensePermit].WY~False~string~False~Company - Loan Officer License Permit WY~False~~STRING
 LOANAMT1~Miscellaneous.HousingExpenseLoanAmt1~False~decimal~False~Expenses Housing Expense Pymt Calc 1 Loan Amt~False~~DECIMAL_2
 LOANAMT2~Miscellaneous.HousingExpenseLoanAmt2~False~decimal~False~Expenses Housing Expense Pymt Calc 2 Loan Amt~False~~DECIMAL_2
 LOANFILESEQUENCENUMBER~Miscellaneous.LoanFileSequenceNumber~False~int~False~Loan File Sequence Number~False~~INTEGER
@@ -11679,9 +11679,9 @@ NEWHUD.X270~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe
 NEWHUD.X271~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1310|Gfe2010FeeIndex=0].AprIndicator~False~bool~False~Fees Line 1310 APR~False~eNEWHUD_X271~YN
 NEWHUD.X272~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1311|Gfe2010FeeIndex=0].AprIndicator~False~bool~False~Fees Line 1311 APR~False~eNEWHUD_X272~YN
 NEWHUD.X273~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1301|Gfe2010FeeIndex=0].PaidByType~False~string~False~Fees Line 1301 Paid To~False~eNEWHUD_X273~STRING
-NEWHUD.X274~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1302|Gfe2010FeeIndex=0].PaidByType~False~string~False~Fees Line 1302 Paid To~False~eNEWHUD_X274~STRING
-NEWHUD.X275~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1310|Gfe2010FeeIndex=0].PaidByType~False~string~False~Fees Line 1310 Paid To~False~eNEWHUD_X275~STRING
-NEWHUD.X276~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1311|Gfe2010FeeIndex=0].PaidByType~False~string~False~Fees Line 1311 Paid To~False~eNEWHUD_X276~STRING
+NEWHUD.X274~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1302|Gfe2010FeeIndex=0].PtbType~False~string~False~Fees Line 1302 Paid To~False~eNEWHUD_X274~STRING
+NEWHUD.X275~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1310|Gfe2010FeeIndex=0].PtbType~False~string~False~Fees Line 1310 Paid To~False~eNEWHUD_X275~STRING
+NEWHUD.X276~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section1300|Gfe2010FeeType=Line1311|Gfe2010FeeIndex=0].PtbType~False~string~False~Fees Line 1311 Paid To~False~eNEWHUD_X276~STRING
 NEWHUD.X277~ClosingCost.Gfe2010Page.Hud1Pg2TotalSettlementCharges~False~decimal~False~Borr Total Closing Costs~True~~DECIMAL_2
 NEWHUD.X278~ClosingCost.Gfe2010Page.Hud1Pg2SellerPaidClosingCostsAmount~False~decimal~False~Seller Total Closing Costs~False~~DECIMAL_2
 NEWHUD.X279~ClosingCost.Gfe2010Page.Gfe2010GfeCharges[ChargeBelow10Indicator=True|Gfe2010GfeChargeIndex=1].Description~False~string~False~10% Tolerance Comp Chart - Line 2 Descr~False~~STRING
@@ -11749,9 +11749,9 @@ NEWHUD.X341~ClosingCost.Gfe2010Page.HasEscrowUserDefinedIndicator2~False~bool~Fa
 NEWHUD.X342~ClosingCost.Gfe2010Page.HasEscrowUserDefinedIndicator3~False~bool~False~Incl Escrow-User Defined 3~False~eNEWHUD_X342~YN
 NEWHUD.X343~ClosingCost.Gfe2010Page.HasEscrowUserDefinedIndicator4~False~bool~False~New HUD-1 Page 3 Include Escrow Annual Fee~False~eNEWHUD_X343~YN
 NEWHUD.X348~ClosingCost.Gfe2010Page.BalloonPaymentDueInYears~False~int~False~Years Until Balloon Pymt Due~True~~INTEGER
-NEWHUD.X349~ClosingCost.Gfe2010Page.EscrowChargeAllPropertyTaxesIndicator~False~bool~False~Escrow Acct Chrg Type All Prop Taxes~False~eNEWHUD_X349~YN
-NEWHUD.X350~ClosingCost.Gfe2010Page.EscrowChargeAllInsuranceIndicator~False~bool~False~Escrow Acct Chrg Type All Insurance~False~eNEWHUD_X350~YN
-NEWHUD.X351~ClosingCost.Gfe2010Page.EscrowChargeOtherIndicator~False~bool~False~Escrow Acct Chrg Type Other~False~eNEWHUD_X351~YN
+NEWHUD.X349~ClosingCost.Gfe2010.EscrowChargeAllPropertyTaxesIndicator~False~bool~False~Escrow Acct Chrg Type All Prop Taxes~False~eNEWHUD_X349~YN
+NEWHUD.X350~ClosingCost.Gfe2010.EscrowChargeAllInsuranceIndicator~False~bool~False~Escrow Acct Chrg Type All Insurance~False~eNEWHUD_X350~YN
+NEWHUD.X351~ClosingCost.Gfe2010.EscrowChargeOtherIndicator~False~bool~False~Escrow Acct Chrg Type Other~False~eNEWHUD_X351~YN
 NEWHUD.X352~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line803|Gfe2010FeeIndex=0].PocPtcIndicator~False~bool~False~Fees Line 803 POC~False~eNEWHUD_X352~YN
 NEWHUD.X353~ClosingCost.Gfe2010.Gfe2010Fees[Gfe2010FeeParentType=Section800|Gfe2010FeeType=Line802|Gfe2010FeeIndex=0].AprIndicator~False~bool~False~Fees Line 802 APR~False~eNEWHUD_X353~YN
 NEWHUD.X354~UseNewHudIndicator~False~bool~False~Use New GFE And HUD~False~eNEWHUD_X354~YN
@@ -12734,7 +12734,7 @@ NEWHUD.X1708~Fees[FeeType=GuaranteeFee].BorPaidAmount~False~decimal~False~Fees L
 NEWHUD.X1709~ClosingCost.Gfe2010.HudGuaranteeFee~False~decimal~False~Fees Line 1010 Guarantee Fee Applied to GFE~False~~DECIMAL_2
 NEWHUD.X1710~Fees[FeeType=GuaranteeFee].PaidBy~False~string~False~Fees Line 1010 Guarantee Fee Paid By~False~eNEWHUD_X1710~STRING
 NEWHUD.X1711~ClosingCost.Gfe2010Section.Section1000HudGuaranteeFeeAprIndicator~False~bool~False~Fees Line 1010 Guarantee Fee APR~False~eNEWHUD_X1711~YN
-NEWHUD.X1712~Fees[FeeType=GuaranteeFee].Fwbc~False~string~False~Fees Line 1010 Guarantee Fee Funding Worksheet Checked Borrower~False~~STRING
+NEWHUD.X1712~Fees[FeeType=GuaranteeFee].FWBC~False~string~False~Fees Line 1010 Guarantee Fee Funding Worksheet Checked Borrower~False~~STRING
 NEWHUD.X1713~ClosingCost.Section1000SellerPaidTotalAmount~False~decimal~False~Fees Section 1000 Seller Paid Total Amount~False~~DECIMAL_2
 NEWHUD.X1714~Fees[FeeType=UserDefined_1010].SellerPaidAmount~False~decimal~False~Fees Line 1010 Seller~False~~DECIMAL_2
 NEWHUD.X1715~Fees[FeeType=UserDefined_1010].Fwsc~False~string~False~Funding Reserves User Defined 1010 Checked Seller~False~~STRING
@@ -19406,7 +19406,7 @@ SYS.X1~LoanProductData.RoundType~False~string~False~Loan Info ARM Round Index Up
 SYS.X2~RegulationZ.UseDaysInYears~False~string~False~Trans Details Amort Type Biweekly Days/Yr~False~eSYS_X2~STRING
 SYS.X4~Fees[FeeType=PrepaidInterest].PFC~False~bool~False~Fees Interest APR~False~eSYS_X4~YN
 SYS.X6~RegulationZ.ConstructionLoanMethod~False~string~False~REGZ Construction Mortgage Est Interest On~False~eSYS_X6~STRING
-SYS.X8~Fees[FeeType=Use4Decimals].PFC~False~bool~False~Number of Decimals for Fees Interest # of Days~False~eSYS_X8~YN
+SYS.X8~Fees[FeeType=PrepaidInterest].Use4Decimals~False~bool~False~Number of Decimals for Fees Interest # of Days~False~eSYS_X8~YN
 SYS.X11~Mcaw.RoundTo50Indicator~False~bool~False~FHA Process Management Solution Round To $50~False~eSYS_X11~YN
 SYS.X13~Miscellaneous.FactorForRevolvingDebt~False~int~False~Liabilities Factor for Revolving Debt~False~~INTEGER
 SYS.X15~Fees[FeeType=ClosingFee].PFC~False~bool~False~Fees Closing/Escrow APR~False~eSYS_X15~YN
@@ -19750,142 +19750,142 @@ SYS.X405~Fees[FeeType=TitleExamination].PaidBy~False~string~False~Fees Title Exa
 SYS.X406~Fees[FeeType=TitleExamination].PTB~False~string~False~Fees Title Examination Paid To~False~eSYS_X406~STRING
 SYS.X407~Fees[FeeType=TitleBinder].PaidBy~False~string~False~Fees Title Ins Binder Paid By~False~eSYS_X407~STRING
 SYS.X408~Fees[FeeType=TitleBinder].PTB~False~string~False~Fees Title Ins Binder Paid To~False~eSYS_X408~STRING
-SYS.X409~Fees[FeeType=LoanOriginationFee].Fwbc~False~string~False~Funding Loan Origination Fee Checked Borrower~False~~STRING
-SYS.X410~Fees[FeeType=LoanDiscountFee].Fwbc~False~string~False~Funding Loan Discount Fee Checked Borrower~False~~STRING
-SYS.X411~Fees[FeeType=AppraisalFee].Fwbc~False~string~False~Funding Appraisal Fee Checked Borrower~False~~STRING
-SYS.X412~Fees[FeeType=CreditReportFee].Fwbc~False~string~False~Funding Credit Report Fee Checked Borrower~False~~STRING
-SYS.X413~Fees[FeeType=LendersInspectionFee].Fwbc~False~string~False~Funding Lenders Inspection Fee Checked Borrower~False~~STRING
-SYS.X414~Fees[FeeType=MortgageInspectionFee].Fwbc~False~string~False~Funding Mortgage Inspection Fee Checked Borrower~False~~STRING
-SYS.X415~Fees[FeeType=AssumptionFee].Fwbc~False~string~False~Funding Assumption Fee Checked Borrower~False~~STRING
-SYS.X416~Fees[FeeType=MortgageBrokerFee].Fwbc~False~string~False~Funding Mortgage Broker Fee Checked Borrower~False~~STRING
-SYS.X417~Fees[FeeType=TaxServiceFee].Fwbc~False~string~False~Funding Tax Service Fee Checked Borrower~False~~STRING
-SYS.X418~Fees[FeeType=ProcessingFee].Fwbc~False~string~False~Funding Processing Fee Checked Borrower~False~~STRING
-SYS.X419~Fees[FeeType=UnderwritingFee].Fwbc~False~string~False~Funding Underwriting Fee Checked Borrower~False~~STRING
-SYS.X420~Fees[FeeType=WireTransfer].Fwbc~False~string~False~Funding Wire Transfer Fee Checked Borrower~False~~STRING
-SYS.X421~Fees[FeeType=UserDefinedFee_813].Fwbc~False~string~False~Funding User Defined Fee 813 Checked Borrower~False~~STRING
-SYS.X422~Fees[FeeType=UserDefinedFee_814].Fwbc~False~string~False~Funding User Defined Fee 814 Checked Borrower~False~~STRING
-SYS.X423~Fees[FeeType=UserDefinedFee_815].Fwbc~False~string~False~Funding User Defined Fee 815 Checked Borrower~False~~STRING
-SYS.X424~Fees[FeeType=UserDefinedFee_816].Fwbc~False~string~False~Funding User Defined Fee 816 Checked Borrower~False~~STRING
-SYS.X425~Fees[FeeType=UserDefinedFee_817].Fwbc~False~string~False~Funding User Defined Fee 817 Checked Borrower~False~~STRING
-SYS.X426~Fees[FeeType=UserDefinedFee_818].Fwbc~False~string~False~Funding User Defined Fee 818 Checked Borrower~False~~STRING
-SYS.X427~Fees[FeeType=UserDefinedFee_819].Fwbc~False~string~False~Funding User Defined Fee 819 Checked Borrower~False~~STRING
-SYS.X428~Fees[FeeType=UserDefinedFee_820].Fwbc~False~string~False~Funding User Defined Fee 820 Checked Borrower~False~~STRING
-SYS.X429~Fees[FeeType=UserDefinedFee_821].Fwbc~False~string~False~Funding User Defined Fee 821 Checked Borrower~False~~STRING
-SYS.X430~Fees[FeeType=UserDefinedFee_822].Fwbc~False~string~False~Funding User Defined Fee 822 Checked Borrower~False~~STRING
-SYS.X431~Fees[FeeType=UserDefinedFee_823].Fwbc~False~string~False~Funding User Defined Fee 823 Checked Borrower~False~~STRING
-SYS.X432~Fees[FeeType=PrepaidInterest].Fwbc~False~string~False~Funding Paid In Advance Interest Checked Borrower~False~~STRING
-SYS.X433~Fees[FeeType=MortgageInsurancePremium].Fwbc~False~string~False~Funding Paid In Advance Mort Insurance Checked Borrower~False~~STRING
-SYS.X434~Fees[FeeType=HazardInsurancePremium].Fwbc~False~string~False~Funding Paid In Advance Haz Insurance Checked Borrower~False~~STRING
-SYS.X435~Fees[FeeType=CountyPropertyTaxes].Fwbc~False~string~False~Funding Paid In Advance County Prop Taxes Checked Borrower~False~~STRING
-SYS.X436~Fees[FeeType=VAFundingFee].Fwbc~False~string~False~Funding Paid In Advance VA Funding Fee Checked Borrower~False~~STRING
-SYS.X437~Fees[FeeType=FloodInsuranceReserv].Fwbc~False~string~False~Funding Paid In Advance Flood Insurance Checked Borrower~False~~STRING
-SYS.X438~Fees[FeeType=UserDefined_906].Fwbc~False~string~False~Funding Paid In Advance User Defined 906 Checked Borrower~False~~STRING
-SYS.X439~Fees[FeeType=UserDefined_907].Fwbc~False~string~False~Funding Paid In Advance User Defined 907 Checked Borrower~False~~STRING
-SYS.X440~Fees[FeeType=HazardInsurance].Fwbc~False~string~False~Funding Reserves Haz Insurance Checked Borrower~False~~STRING
-SYS.X441~Fees[FeeType=MortgageInsurance].Fwbc~False~string~False~Funding Reserves Mort Insurance Checked Borrower~False~~STRING
-SYS.X442~Fees[FeeType=SchoolTaxes].Fwbc~False~string~False~Funding Reserves City Tax Checked Borrower~False~~STRING
-SYS.X443~Fees[FeeType=PropertyTaxes].Fwbc~False~string~False~Funding Reserves Tax Checked Borrower~False~~STRING
-SYS.X444~Fees[FeeType=FloodInsurance].Fwbc~False~string~False~Funding Reserves Flood Insurance Checked Borrower~False~~STRING
-SYS.X445~Fees[FeeType=UserDefined_1006].Fwbc~False~string~False~Funding Reserves User Defined 1007 Checked Borrower~False~~STRING
-SYS.X446~Fees[FeeType=UserDefined_1007].Fwbc~False~string~False~Funding Reserves User Defined 1008 Checked Borrower~False~~STRING
-SYS.X447~Fees[FeeType=UserDefined_1008].Fwbc~False~string~False~Funding Reserves User Defined 1009 Checked Borrower~False~~STRING
-SYS.X448~Fees[FeeType=ClosingFee].Fwbc~False~string~False~Funding Title Charges Closing Fee Checked Borrower~False~~STRING
-SYS.X449~Fees[FeeType=TitleSearch].Fwbc~False~string~False~Funding Title Charges Title Search Checked Borrower~False~~STRING
-SYS.X450~Fees[FeeType=TitleExamination].Fwbc~False~string~False~Funding Title Charges Title Examination Checked Borrower~False~~STRING
-SYS.X451~Fees[FeeType=TitleBinder].Fwbc~False~string~False~Funding Title Charges Title Binder Checked Borrower~False~~STRING
-SYS.X452~Fees[FeeType=DocPrepFee].Fwbc~False~string~False~Funding Title Charges Doc Prep Fee Checked Borrower~False~~STRING
-SYS.X453~Fees[FeeType=NotaryFee].Fwbc~False~string~False~Funding Title Charges Notary Fee Checked Borrower~False~~STRING
-SYS.X454~Fees[FeeType=AttorneyFee].Fwbc~False~string~False~Funding Title Charges Attorney Fee Checked Borrower~False~~STRING
-SYS.X455~Fees[FeeType=TitleInsurance].Fwbc~False~string~False~Funding Title Charges Title Insurance Checked Borrower~False~~STRING
-SYS.X456~Fees[FeeType=UserDefined_1109].Fwbc~False~string~False~Funding Title Charges User Defined 1109 Checked Borrower~False~~STRING
-SYS.X457~Fees[FeeType=UserDefined_1110].Fwbc~False~string~False~Funding Title Charges User Defined 1110 Checked Borrower~False~~STRING
-SYS.X458~Fees[FeeType=UserDefined_1111].Fwbc~False~string~False~Funding Title Charges User Defined 1111 Checked Borrower~False~~STRING
-SYS.X459~Fees[FeeType=UserDefined_1112].Fwbc~False~string~False~Funding Title Charges User Defined 1112 Checked Borrower~False~~STRING
-SYS.X460~Fees[FeeType=UserDefined_1113].Fwbc~False~string~False~Funding Title Charges User Defined 1113 Checked Borrower~False~~STRING
-SYS.X461~Fees[FeeType=UserDefined_1114].Fwbc~False~string~False~Funding Title Charges User Defined 1114 Checked Borrower~False~~STRING
-SYS.X462~Fees[FeeType=RecordingFee].Fwbc~False~string~False~Funding Govt Fees Recording Checked Borrower~False~~STRING
-SYS.X463~Fees[FeeType=City_CountyTax_Stamps].Fwbc~False~string~False~Funding Govt Fees Local Tax Checked Borrower~False~~STRING
-SYS.X464~Fees[FeeType=StateTax_Stamps].Fwbc~False~string~False~Funding Govt Fees State Tax Checked Borrower~False~~STRING
-SYS.X465~Fees[FeeType=StateTax_Stamps].Fwbc~False~string~False~Funding Govt Fees User Defined 1204 Checked Borrower~False~~STRING
-SYS.X466~Fees[FeeType=UserDefined_1205].Fwbc~False~string~False~Funding Govt Fees User Defined 1205 Checked Borrower~False~~STRING
-SYS.X467~Fees[FeeType=UserDefined_1206].Fwbc~False~string~False~Funding Govt Fees User Defined 1206 Checked Borrower~False~~STRING
-SYS.X468~Fees[FeeType=SurveyFee].Fwbc~False~string~False~Funding Additional Charges Survey Checked Borrower~False~~STRING
-SYS.X469~Fees[FeeType=PestInspection].Fwbc~False~string~False~Funding Additional Charges Pest Checked Borrower~False~~STRING
-SYS.X470~Fees[FeeType=UserDefined_1303].Fwbc~False~string~False~Funding Additional User Defined 1303 Checked Borrower~False~~STRING
-SYS.X471~Fees[FeeType=UserDefined_1304].Fwbc~False~string~False~Funding Additional User Defined 1304 Checked Borrower~False~~STRING
-SYS.X472~Fees[FeeType=UserDefined_1305].Fwbc~False~string~False~Funding Additional User Defined 1305 Checked Borrower~False~~STRING
-SYS.X473~Fees[FeeType=UserDefined_1306].Fwbc~False~string~False~Funding Additional User Defined 1306 Checked Borrower~False~~STRING
-SYS.X474~Fees[FeeType=UserDefined_1307].Fwbc~False~string~False~Funding Additional User Defined 1307 Checked Borrower~False~~STRING
-SYS.X475~Fees[FeeType=UserDefined_1308].Fwbc~False~string~False~Funding Additional User Defined 1308 Checked Borrower~False~~STRING
-SYS.X476~Fees[FeeType=UserDefined_1309].Fwbc~False~string~False~Funding Additional User Defined 1309 Checked Borrower~False~~STRING
-SYS.X477~Fees[FeeType=LoanOriginationFee].Fwsc~False~string~False~Funding Loan Origination Seller~False~~STRING
-SYS.X478~Fees[FeeType=LoanDiscountFee].Fwsc~False~string~False~Funding Loan Discount Seller~False~~STRING
-SYS.X479~Fees[FeeType=AppraisalFee].Fwsc~False~string~False~Funding Appraisal Fee Checked Seller~False~~STRING
-SYS.X480~Fees[FeeType=CreditReportFee].Fwsc~False~string~False~Funding Credit Report Fee Checked Seller~False~~STRING
-SYS.X481~Fees[FeeType=LendersInspectionFee].Fwsc~False~string~False~Funding Lenders Inspection Fee Checked Seller~False~~STRING
-SYS.X482~Fees[FeeType=MortgageInspectionFee].Fwsc~False~string~False~Funding Mortgage Inspection Fee Checked Seller~False~~STRING
-SYS.X483~Fees[FeeType=AssumptionFee].Fwsc~False~string~False~Funding Assumption Fee Checked Seller~False~~STRING
-SYS.X484~Fees[FeeType=MortgageBrokerFee].Fwsc~False~string~False~Funding Mortgage Broker Fee Checked Seller~False~~STRING
-SYS.X485~Fees[FeeType=TaxServiceFee].Fwsc~False~string~False~Funding Tax Service Fee Checked Seller~False~~STRING
-SYS.X486~Fees[FeeType=ProcessingFee].Fwsc~False~string~False~Funding Processing Fee Checked Seller~False~~STRING
-SYS.X487~Fees[FeeType=UnderwritingFee].Fwsc~False~string~False~Funding Underwriting Fee Checked Seller~False~~STRING
-SYS.X488~Fees[FeeType=WireTransfer].Fwsc~False~string~False~Funding Wire Transfer Fee Checked Seller~False~~STRING
-SYS.X489~Fees[FeeType=UserDefinedFee_813].Fwsc~False~string~False~Funding User Defined Fee 813 Checked Seller~False~~STRING
-SYS.X490~Fees[FeeType=UserDefinedFee_814].Fwsc~False~string~False~Funding User Defined Fee 814 Checked Seller~False~~STRING
-SYS.X491~Fees[FeeType=UserDefinedFee_815].Fwsc~False~string~False~Funding User Defined Fee 815 Checked Seller~False~~STRING
-SYS.X492~Fees[FeeType=UserDefinedFee_816].Fwsc~False~string~False~Funding User Defined Fee 816 Checked Seller~False~~STRING
-SYS.X493~Fees[FeeType=UserDefinedFee_817].Fwsc~False~string~False~Funding User Defined Fee 817 Checked Seller~False~~STRING
-SYS.X494~Fees[FeeType=UserDefinedFee_818].Fwsc~False~string~False~Funding User Defined Fee 818 Checked Seller~False~~STRING
-SYS.X495~Fees[FeeType=UserDefinedFee_819].Fwsc~False~string~False~Funding User Defined Fee 819 Checked Seller~False~~STRING
-SYS.X496~Fees[FeeType=UserDefinedFee_820].Fwsc~False~string~False~Funding User Defined Fee 820 Checked Seller~False~~STRING
-SYS.X497~Fees[FeeType=UserDefinedFee_821].Fwsc~False~string~False~Funding User Defined Fee 821 Checked Seller~False~~STRING
-SYS.X498~Fees[FeeType=UserDefinedFee_822].Fwsc~False~string~False~Funding User Defined Fee 822 Checked Seller~False~~STRING
-SYS.X499~Fees[FeeType=UserDefinedFee_823].Fwsc~False~string~False~Funding User Defined Fee 823 Checked Seller~False~~STRING
-SYS.X500~Fees[FeeType=PrepaidInterest].Fwsc~False~string~False~Funding Paid In Advance Interest Checked Seller~False~~STRING
-SYS.X501~Fees[FeeType=MortgageInsurancePremium].Fwsc~False~string~False~Funding Paid In Advance Mort Insurance Checked Seller~False~~STRING
-SYS.X502~Fees[FeeType=HazardInsurancePremium].Fwsc~False~string~False~Funding Paid In Advance Haz Insurance Checked Seller~False~~STRING
-SYS.X503~Fees[FeeType=CountyPropertyTaxes].Fwsc~False~string~False~Funding Paid In Advance County Prop Taxes Checked Seller~False~~STRING
-SYS.X504~Fees[FeeType=VAFundingFee].Fwsc~False~string~False~Funding Paid In Advance VA Funding Fee Checked Seller~False~~STRING
-SYS.X505~Fees[FeeType=FloodInsuranceReserv].Fwsc~False~string~False~Funding Paid In Advance Flood Insurance Checked Seller~False~~STRING
-SYS.X506~Fees[FeeType=UserDefined_906].Fwsc~False~string~False~Funding Paid In Advance User Defined 906 Checked Seller~False~~STRING
-SYS.X507~Fees[FeeType=UserDefined_907].Fwsc~False~string~False~Funding Paid In Advance User Defined 907 Checked Seller~False~~STRING
-SYS.X508~Fees[FeeType=HazardInsurance].Fwsc~False~string~False~Funding Reserves Haz Insurance Checked Seller~False~~STRING
-SYS.X509~Fees[FeeType=MortgageInsurance].Fwsc~False~string~False~Funding Reserves Mort Insurance Checked Seller~False~~STRING
-SYS.X510~Fees[FeeType=SchoolTaxes].Fwsc~False~string~False~Funding Reserves City Tax Checked Seller~False~~STRING
-SYS.X511~Fees[FeeType=PropertyTaxes].Fwsc~False~string~False~Funding Reserves Tax Checked Seller~False~~STRING
-SYS.X512~Fees[FeeType=FloodInsurance].Fwsc~False~string~False~Funding Reserves Flood Insurance Checked Seller~False~~STRING
-SYS.X513~Fees[FeeType=UserDefined_1006].Fwsc~False~string~False~Funding Reserves User Defined 1007 Checked Seller~False~~STRING
-SYS.X514~Fees[FeeType=UserDefined_1007].Fwsc~False~string~False~Funding Reserves User Defined 1008 Checked Seller~False~~STRING
-SYS.X515~Fees[FeeType=UserDefined_1008].Fwsc~False~string~False~Funding Reserves User Defined 1009 Checked Seller~False~~STRING
-SYS.X516~Fees[FeeType=ClosingFee].Fwsc~False~string~False~Funding Title Charges Closing Fee Checked Seller~False~~STRING
-SYS.X517~Fees[FeeType=TitleSearch].Fwsc~False~string~False~Funding Title Charges Title Search Checked Seller~False~~STRING
-SYS.X518~Fees[FeeType=TitleExamination].Fwsc~False~string~False~Funding Title Charges Title Examination Checked Seller~False~~STRING
-SYS.X519~Fees[FeeType=TitleBinder].Fwsc~False~string~False~Funding Title Charges Title Binder Checked Seller~False~~STRING
-SYS.X520~Fees[FeeType=DocPrepFee].Fwsc~False~string~False~Funding Title Charges Doc Prep Fee Checked Seller~False~~STRING
-SYS.X521~Fees[FeeType=NotaryFee].Fwsc~False~string~False~Funding Title Charges Notary Fee Checked Seller~False~~STRING
-SYS.X522~Fees[FeeType=AttorneyFee].Fwsc~False~string~False~Funding Title Charges Attorney Fee Checked Seller~False~~STRING
-SYS.X523~Fees[FeeType=AttorneyFee].Fwsc~False~string~False~Funding Title Charges Title Insurance Checked Seller~False~~STRING
-SYS.X524~Fees[FeeType=UserDefined_1109].Fwsc~False~string~False~Funding Title Charges User Defined 1109 Checked Seller~False~~STRING
-SYS.X525~Fees[FeeType=UserDefined_1110].Fwsc~False~string~False~Funding Title Charges User Defined 1110 Checked Seller~False~~STRING
-SYS.X526~Fees[FeeType=UserDefined_1111].Fwsc~False~string~False~Funding Title Charges User Defined 1111 Checked Seller~False~~STRING
-SYS.X527~Fees[FeeType=UserDefined_1112].Fwsc~False~string~False~Funding Title Charges User Defined 1112 Checked Seller~False~~STRING
-SYS.X528~Fees[FeeType=UserDefined_1113].Fwsc~False~string~False~Funding Title Charges User Defined 1113 Checked Seller~False~~STRING
-SYS.X529~Fees[FeeType=UserDefined_1114].Fwsc~False~string~False~Funding Title Charges User Defined 1114 Checked Seller~False~~STRING
-SYS.X530~Fees[FeeType=RecordingFee].Fwsc~False~string~False~Funding Govt Fees Recording Checked Seller~False~~STRING
-SYS.X531~Fees[FeeType=City_CountyTax_Stamps].Fwsc~False~string~False~Funding Govt Fees Local Tax Checked Seller~False~~STRING
-SYS.X532~Fees[FeeType=StateTax_Stamps].Fwsc~False~string~False~Funding Govt Fees State Tax Checked Seller~False~~STRING
-SYS.X533~Fees[FeeType=UserDefined_1204].Fwsc~False~string~False~Funding Govt Fees User Defined 1204 Checked Seller~False~~STRING
-SYS.X534~Fees[FeeType=UserDefined_1205].Fwsc~False~string~False~Funding Govt Fees User Defined 1205 Checked Seller~False~~STRING
-SYS.X535~Fees[FeeType=UserDefined_1206].Fwsc~False~string~False~Funding Govt Fees User Defined 1206 Checked Seller~False~~STRING
-SYS.X536~Fees[FeeType=SurveyFee].Fwsc~False~string~False~Funding Additional Charges Survey Checked Seller~False~~STRING
-SYS.X537~Fees[FeeType=PestInspection].Fwsc~False~string~False~Funding Additional Charges Pest Checked Seller~False~~STRING
-SYS.X538~Fees[FeeType=UserDefined_1303].Fwsc~False~string~False~Funding Additional User Defined 1303 Checked Seller~False~~STRING
-SYS.X539~Fees[FeeType=UserDefined_1304].Fwsc~False~string~False~Funding Additional User Defined 1304 Checked Seller~False~~STRING
-SYS.X540~Fees[FeeType=UserDefined_1305].Fwsc~False~string~False~Funding Additional User Defined 1305 Checked Seller~False~~STRING
-SYS.X541~Fees[FeeType=UserDefined_1306].Fwsc~False~string~False~Funding Additional User Defined 1306 Checked Seller~False~~STRING
-SYS.X542~Fees[FeeType=UserDefined_1307].Fwsc~False~string~False~Funding Additional User Defined 1307 Checked Seller~False~~STRING
-SYS.X543~Fees[FeeType=UserDefined_1308].Fwsc~False~string~False~Funding Additional User Defined 1308 Checked Seller~False~~STRING
-SYS.X544~Fees[FeeType=UserDefined_1309].Fwsc~False~string~False~Funding Additional User Defined 1309 Checked Seller~False~~STRING
+SYS.X409~Fees[FeeType=LoanOriginationFee].FWBC~False~string~False~Funding Loan Origination Fee Checked Borrower~False~~STRING
+SYS.X410~Fees[FeeType=LoanDiscountFee].FWBC~False~string~False~Funding Loan Discount Fee Checked Borrower~False~~STRING
+SYS.X411~Fees[FeeType=AppraisalFee].FWBC~False~string~False~Funding Appraisal Fee Checked Borrower~False~~STRING
+SYS.X412~Fees[FeeType=CreditReportFee].FWBC~False~string~False~Funding Credit Report Fee Checked Borrower~False~~STRING
+SYS.X413~Fees[FeeType=LendersInspectionFee].FWBC~False~string~False~Funding Lenders Inspection Fee Checked Borrower~False~~STRING
+SYS.X414~Fees[FeeType=MortgageInspectionFee].FWBC~False~string~False~Funding Mortgage Inspection Fee Checked Borrower~False~~STRING
+SYS.X415~Fees[FeeType=AssumptionFee].FWBC~False~string~False~Funding Assumption Fee Checked Borrower~False~~STRING
+SYS.X416~Fees[FeeType=MortgageBrokerFee].FWBC~False~string~False~Funding Mortgage Broker Fee Checked Borrower~False~~STRING
+SYS.X417~Fees[FeeType=TaxServiceFee].FWBC~False~string~False~Funding Tax Service Fee Checked Borrower~False~~STRING
+SYS.X418~Fees[FeeType=ProcessingFee].FWBC~False~string~False~Funding Processing Fee Checked Borrower~False~~STRING
+SYS.X419~Fees[FeeType=UnderwritingFee].FWBC~False~string~False~Funding Underwriting Fee Checked Borrower~False~~STRING
+SYS.X420~Fees[FeeType=WireTransfer].FWBC~False~string~False~Funding Wire Transfer Fee Checked Borrower~False~~STRING
+SYS.X421~Fees[FeeType=UserDefinedFee_813].FWBC~False~string~False~Funding User Defined Fee 813 Checked Borrower~False~~STRING
+SYS.X422~Fees[FeeType=UserDefinedFee_814].FWBC~False~string~False~Funding User Defined Fee 814 Checked Borrower~False~~STRING
+SYS.X423~Fees[FeeType=UserDefinedFee_815].FWBC~False~string~False~Funding User Defined Fee 815 Checked Borrower~False~~STRING
+SYS.X424~Fees[FeeType=UserDefinedFee_816].FWBC~False~string~False~Funding User Defined Fee 816 Checked Borrower~False~~STRING
+SYS.X425~Fees[FeeType=UserDefinedFee_817].FWBC~False~string~False~Funding User Defined Fee 817 Checked Borrower~False~~STRING
+SYS.X426~Fees[FeeType=UserDefinedFee_818].FWBC~False~string~False~Funding User Defined Fee 818 Checked Borrower~False~~STRING
+SYS.X427~Fees[FeeType=UserDefinedFee_819].FWBC~False~string~False~Funding User Defined Fee 819 Checked Borrower~False~~STRING
+SYS.X428~Fees[FeeType=UserDefinedFee_820].FWBC~False~string~False~Funding User Defined Fee 820 Checked Borrower~False~~STRING
+SYS.X429~Fees[FeeType=UserDefinedFee_821].FWBC~False~string~False~Funding User Defined Fee 821 Checked Borrower~False~~STRING
+SYS.X430~Fees[FeeType=UserDefinedFee_822].FWBC~False~string~False~Funding User Defined Fee 822 Checked Borrower~False~~STRING
+SYS.X431~Fees[FeeType=UserDefinedFee_823].FWBC~False~string~False~Funding User Defined Fee 823 Checked Borrower~False~~STRING
+SYS.X432~Fees[FeeType=PrepaidInterest].FWBC~False~string~False~Funding Paid In Advance Interest Checked Borrower~False~~STRING
+SYS.X433~Fees[FeeType=MortgageInsurancePremium].FWBC~False~string~False~Funding Paid In Advance Mort Insurance Checked Borrower~False~~STRING
+SYS.X434~Fees[FeeType=HazardInsurancePremium].FWBC~False~string~False~Funding Paid In Advance Haz Insurance Checked Borrower~False~~STRING
+SYS.X435~Fees[FeeType=CountyPropertyTaxes].FWBC~False~string~False~Funding Paid In Advance County Prop Taxes Checked Borrower~False~~STRING
+SYS.X436~Fees[FeeType=VAFundingFee].FWBC~False~string~False~Funding Paid In Advance VA Funding Fee Checked Borrower~False~~STRING
+SYS.X437~Fees[FeeType=FloodInsuranceReserv].FWBC~False~string~False~Funding Paid In Advance Flood Insurance Checked Borrower~False~~STRING
+SYS.X438~Fees[FeeType=UserDefined_906].FWBC~False~string~False~Funding Paid In Advance User Defined 906 Checked Borrower~False~~STRING
+SYS.X439~Fees[FeeType=UserDefined_907].FWBC~False~string~False~Funding Paid In Advance User Defined 907 Checked Borrower~False~~STRING
+SYS.X440~Fees[FeeType=HazardInsurance].FWBC~False~string~False~Funding Reserves Haz Insurance Checked Borrower~False~~STRING
+SYS.X441~Fees[FeeType=MortgageInsurance].FWBC~False~string~False~Funding Reserves Mort Insurance Checked Borrower~False~~STRING
+SYS.X442~Fees[FeeType=SchoolTaxes].FWBC~False~string~False~Funding Reserves City Tax Checked Borrower~False~~STRING
+SYS.X443~Fees[FeeType=PropertyTaxes].FWBC~False~string~False~Funding Reserves Tax Checked Borrower~False~~STRING
+SYS.X444~Fees[FeeType=FloodInsurance].FWBC~False~string~False~Funding Reserves Flood Insurance Checked Borrower~False~~STRING
+SYS.X445~Fees[FeeType=UserDefined_1006].FWBC~False~string~False~Funding Reserves User Defined 1007 Checked Borrower~False~~STRING
+SYS.X446~Fees[FeeType=UserDefined_1007].FWBC~False~string~False~Funding Reserves User Defined 1008 Checked Borrower~False~~STRING
+SYS.X447~Fees[FeeType=UserDefined_1008].FWBC~False~string~False~Funding Reserves User Defined 1009 Checked Borrower~False~~STRING
+SYS.X448~Fees[FeeType=ClosingFee].FWBC~False~string~False~Funding Title Charges Closing Fee Checked Borrower~False~~STRING
+SYS.X449~Fees[FeeType=TitleSearch].FWBC~False~string~False~Funding Title Charges Title Search Checked Borrower~False~~STRING
+SYS.X450~Fees[FeeType=TitleExamination].FWBC~False~string~False~Funding Title Charges Title Examination Checked Borrower~False~~STRING
+SYS.X451~Fees[FeeType=TitleBinder].FWBC~False~string~False~Funding Title Charges Title Binder Checked Borrower~False~~STRING
+SYS.X452~Fees[FeeType=DocPrepFee].FWBC~False~string~False~Funding Title Charges Doc Prep Fee Checked Borrower~False~~STRING
+SYS.X453~Fees[FeeType=NotaryFee].FWBC~False~string~False~Funding Title Charges Notary Fee Checked Borrower~False~~STRING
+SYS.X454~Fees[FeeType=AttorneyFee].FWBC~False~string~False~Funding Title Charges Attorney Fee Checked Borrower~False~~STRING
+SYS.X455~Fees[FeeType=TitleInsurance].FWBC~False~string~False~Funding Title Charges Title Insurance Checked Borrower~False~~STRING
+SYS.X456~Fees[FeeType=UserDefined_1109].FWBC~False~string~False~Funding Title Charges User Defined 1109 Checked Borrower~False~~STRING
+SYS.X457~Fees[FeeType=UserDefined_1110].FWBC~False~string~False~Funding Title Charges User Defined 1110 Checked Borrower~False~~STRING
+SYS.X458~Fees[FeeType=UserDefined_1111].FWBC~False~string~False~Funding Title Charges User Defined 1111 Checked Borrower~False~~STRING
+SYS.X459~Fees[FeeType=UserDefined_1112].FWBC~False~string~False~Funding Title Charges User Defined 1112 Checked Borrower~False~~STRING
+SYS.X460~Fees[FeeType=UserDefined_1113].FWBC~False~string~False~Funding Title Charges User Defined 1113 Checked Borrower~False~~STRING
+SYS.X461~Fees[FeeType=UserDefined_1114].FWBC~False~string~False~Funding Title Charges User Defined 1114 Checked Borrower~False~~STRING
+SYS.X462~Fees[FeeType=RecordingFee].FWBC~False~string~False~Funding Govt Fees Recording Checked Borrower~False~~STRING
+SYS.X463~Fees[FeeType=City_CountyTax_Stamps].FWBC~False~string~False~Funding Govt Fees Local Tax Checked Borrower~False~~STRING
+SYS.X464~Fees[FeeType=StateTax_Stamps].FWBC~False~string~False~Funding Govt Fees State Tax Checked Borrower~False~~STRING
+SYS.X465~Fees[FeeType=StateTax_Stamps].FWBC~False~string~False~Funding Govt Fees User Defined 1204 Checked Borrower~False~~STRING
+SYS.X466~Fees[FeeType=UserDefined_1205].FWBC~False~string~False~Funding Govt Fees User Defined 1205 Checked Borrower~False~~STRING
+SYS.X467~Fees[FeeType=UserDefined_1206].FWBC~False~string~False~Funding Govt Fees User Defined 1206 Checked Borrower~False~~STRING
+SYS.X468~Fees[FeeType=SurveyFee].FWBC~False~string~False~Funding Additional Charges Survey Checked Borrower~False~~STRING
+SYS.X469~Fees[FeeType=PestInspection].FWBC~False~string~False~Funding Additional Charges Pest Checked Borrower~False~~STRING
+SYS.X470~Fees[FeeType=UserDefined_1303].FWBC~False~string~False~Funding Additional User Defined 1303 Checked Borrower~False~~STRING
+SYS.X471~Fees[FeeType=UserDefined_1304].FWBC~False~string~False~Funding Additional User Defined 1304 Checked Borrower~False~~STRING
+SYS.X472~Fees[FeeType=UserDefined_1305].FWBC~False~string~False~Funding Additional User Defined 1305 Checked Borrower~False~~STRING
+SYS.X473~Fees[FeeType=UserDefined_1306].FWBC~False~string~False~Funding Additional User Defined 1306 Checked Borrower~False~~STRING
+SYS.X474~Fees[FeeType=UserDefined_1307].FWBC~False~string~False~Funding Additional User Defined 1307 Checked Borrower~False~~STRING
+SYS.X475~Fees[FeeType=UserDefined_1308].FWBC~False~string~False~Funding Additional User Defined 1308 Checked Borrower~False~~STRING
+SYS.X476~Fees[FeeType=UserDefined_1309].FWBC~False~string~False~Funding Additional User Defined 1309 Checked Borrower~False~~STRING
+SYS.X477~Fees[FeeType=LoanOriginationFee].FWSC~False~string~False~Funding Loan Origination Seller~False~~STRING
+SYS.X478~Fees[FeeType=LoanDiscountFee].FWSC~False~string~False~Funding Loan Discount Seller~False~~STRING
+SYS.X479~Fees[FeeType=AppraisalFee].FWSC~False~string~False~Funding Appraisal Fee Checked Seller~False~~STRING
+SYS.X480~Fees[FeeType=CreditReportFee].FWSC~False~string~False~Funding Credit Report Fee Checked Seller~False~~STRING
+SYS.X481~Fees[FeeType=LendersInspectionFee].FWSC~False~string~False~Funding Lenders Inspection Fee Checked Seller~False~~STRING
+SYS.X482~Fees[FeeType=MortgageInspectionFee].FWSC~False~string~False~Funding Mortgage Inspection Fee Checked Seller~False~~STRING
+SYS.X483~Fees[FeeType=AssumptionFee].FWSC~False~string~False~Funding Assumption Fee Checked Seller~False~~STRING
+SYS.X484~Fees[FeeType=MortgageBrokerFee].FWSC~False~string~False~Funding Mortgage Broker Fee Checked Seller~False~~STRING
+SYS.X485~Fees[FeeType=TaxServiceFee].FWSC~False~string~False~Funding Tax Service Fee Checked Seller~False~~STRING
+SYS.X486~Fees[FeeType=ProcessingFee].FWSC~False~string~False~Funding Processing Fee Checked Seller~False~~STRING
+SYS.X487~Fees[FeeType=UnderwritingFee].FWSC~False~string~False~Funding Underwriting Fee Checked Seller~False~~STRING
+SYS.X488~Fees[FeeType=WireTransfer].FWSC~False~string~False~Funding Wire Transfer Fee Checked Seller~False~~STRING
+SYS.X489~Fees[FeeType=UserDefinedFee_813].FWSC~False~string~False~Funding User Defined Fee 813 Checked Seller~False~~STRING
+SYS.X490~Fees[FeeType=UserDefinedFee_814].FWSC~False~string~False~Funding User Defined Fee 814 Checked Seller~False~~STRING
+SYS.X491~Fees[FeeType=UserDefinedFee_815].FWSC~False~string~False~Funding User Defined Fee 815 Checked Seller~False~~STRING
+SYS.X492~Fees[FeeType=UserDefinedFee_816].FWSC~False~string~False~Funding User Defined Fee 816 Checked Seller~False~~STRING
+SYS.X493~Fees[FeeType=UserDefinedFee_817].FWSC~False~string~False~Funding User Defined Fee 817 Checked Seller~False~~STRING
+SYS.X494~Fees[FeeType=UserDefinedFee_818].FWSC~False~string~False~Funding User Defined Fee 818 Checked Seller~False~~STRING
+SYS.X495~Fees[FeeType=UserDefinedFee_819].FWSC~False~string~False~Funding User Defined Fee 819 Checked Seller~False~~STRING
+SYS.X496~Fees[FeeType=UserDefinedFee_820].FWSC~False~string~False~Funding User Defined Fee 820 Checked Seller~False~~STRING
+SYS.X497~Fees[FeeType=UserDefinedFee_821].FWSC~False~string~False~Funding User Defined Fee 821 Checked Seller~False~~STRING
+SYS.X498~Fees[FeeType=UserDefinedFee_822].FWSC~False~string~False~Funding User Defined Fee 822 Checked Seller~False~~STRING
+SYS.X499~Fees[FeeType=UserDefinedFee_823].FWSC~False~string~False~Funding User Defined Fee 823 Checked Seller~False~~STRING
+SYS.X500~Fees[FeeType=PrepaidInterest].FWSC~False~string~False~Funding Paid In Advance Interest Checked Seller~False~~STRING
+SYS.X501~Fees[FeeType=MortgageInsurancePremium].FWSC~False~string~False~Funding Paid In Advance Mort Insurance Checked Seller~False~~STRING
+SYS.X502~Fees[FeeType=HazardInsurancePremium].FWSC~False~string~False~Funding Paid In Advance Haz Insurance Checked Seller~False~~STRING
+SYS.X503~Fees[FeeType=CountyPropertyTaxes].FWSC~False~string~False~Funding Paid In Advance County Prop Taxes Checked Seller~False~~STRING
+SYS.X504~Fees[FeeType=VAFundingFee].FWSC~False~string~False~Funding Paid In Advance VA Funding Fee Checked Seller~False~~STRING
+SYS.X505~Fees[FeeType=FloodInsuranceReserv].FWSC~False~string~False~Funding Paid In Advance Flood Insurance Checked Seller~False~~STRING
+SYS.X506~Fees[FeeType=UserDefined_906].FWSC~False~string~False~Funding Paid In Advance User Defined 906 Checked Seller~False~~STRING
+SYS.X507~Fees[FeeType=UserDefined_907].FWSC~False~string~False~Funding Paid In Advance User Defined 907 Checked Seller~False~~STRING
+SYS.X508~Fees[FeeType=HazardInsurance].FWSC~False~string~False~Funding Reserves Haz Insurance Checked Seller~False~~STRING
+SYS.X509~Fees[FeeType=MortgageInsurance].FWSC~False~string~False~Funding Reserves Mort Insurance Checked Seller~False~~STRING
+SYS.X510~Fees[FeeType=SchoolTaxes].FWSC~False~string~False~Funding Reserves City Tax Checked Seller~False~~STRING
+SYS.X511~Fees[FeeType=PropertyTaxes].FWSC~False~string~False~Funding Reserves Tax Checked Seller~False~~STRING
+SYS.X512~Fees[FeeType=FloodInsurance].FWSC~False~string~False~Funding Reserves Flood Insurance Checked Seller~False~~STRING
+SYS.X513~Fees[FeeType=UserDefined_1006].FWSC~False~string~False~Funding Reserves User Defined 1007 Checked Seller~False~~STRING
+SYS.X514~Fees[FeeType=UserDefined_1007].FWSC~False~string~False~Funding Reserves User Defined 1008 Checked Seller~False~~STRING
+SYS.X515~Fees[FeeType=UserDefined_1008].FWSC~False~string~False~Funding Reserves User Defined 1009 Checked Seller~False~~STRING
+SYS.X516~Fees[FeeType=ClosingFee].FWSC~False~string~False~Funding Title Charges Closing Fee Checked Seller~False~~STRING
+SYS.X517~Fees[FeeType=TitleSearch].FWSC~False~string~False~Funding Title Charges Title Search Checked Seller~False~~STRING
+SYS.X518~Fees[FeeType=TitleExamination].FWSC~False~string~False~Funding Title Charges Title Examination Checked Seller~False~~STRING
+SYS.X519~Fees[FeeType=TitleBinder].FWSC~False~string~False~Funding Title Charges Title Binder Checked Seller~False~~STRING
+SYS.X520~Fees[FeeType=DocPrepFee].FWSC~False~string~False~Funding Title Charges Doc Prep Fee Checked Seller~False~~STRING
+SYS.X521~Fees[FeeType=NotaryFee].FWSC~False~string~False~Funding Title Charges Notary Fee Checked Seller~False~~STRING
+SYS.X522~Fees[FeeType=AttorneyFee].FWSC~False~string~False~Funding Title Charges Attorney Fee Checked Seller~False~~STRING
+SYS.X523~Fees[FeeType=AttorneyFee].FWSC~False~string~False~Funding Title Charges Title Insurance Checked Seller~False~~STRING
+SYS.X524~Fees[FeeType=UserDefined_1109].FWSC~False~string~False~Funding Title Charges User Defined 1109 Checked Seller~False~~STRING
+SYS.X525~Fees[FeeType=UserDefined_1110].FWSC~False~string~False~Funding Title Charges User Defined 1110 Checked Seller~False~~STRING
+SYS.X526~Fees[FeeType=UserDefined_1111].FWSC~False~string~False~Funding Title Charges User Defined 1111 Checked Seller~False~~STRING
+SYS.X527~Fees[FeeType=UserDefined_1112].FWSC~False~string~False~Funding Title Charges User Defined 1112 Checked Seller~False~~STRING
+SYS.X528~Fees[FeeType=UserDefined_1113].FWSC~False~string~False~Funding Title Charges User Defined 1113 Checked Seller~False~~STRING
+SYS.X529~Fees[FeeType=UserDefined_1114].FWSC~False~string~False~Funding Title Charges User Defined 1114 Checked Seller~False~~STRING
+SYS.X530~Fees[FeeType=RecordingFee].FWSC~False~string~False~Funding Govt Fees Recording Checked Seller~False~~STRING
+SYS.X531~Fees[FeeType=City_CountyTax_Stamps].FWSC~False~string~False~Funding Govt Fees Local Tax Checked Seller~False~~STRING
+SYS.X532~Fees[FeeType=StateTax_Stamps].FWSC~False~string~False~Funding Govt Fees State Tax Checked Seller~False~~STRING
+SYS.X533~Fees[FeeType=UserDefined_1204].FWSC~False~string~False~Funding Govt Fees User Defined 1204 Checked Seller~False~~STRING
+SYS.X534~Fees[FeeType=UserDefined_1205].FWSC~False~string~False~Funding Govt Fees User Defined 1205 Checked Seller~False~~STRING
+SYS.X535~Fees[FeeType=UserDefined_1206].FWSC~False~string~False~Funding Govt Fees User Defined 1206 Checked Seller~False~~STRING
+SYS.X536~Fees[FeeType=SurveyFee].FWSC~False~string~False~Funding Additional Charges Survey Checked Seller~False~~STRING
+SYS.X537~Fees[FeeType=PestInspection].FWSC~False~string~False~Funding Additional Charges Pest Checked Seller~False~~STRING
+SYS.X538~Fees[FeeType=UserDefined_1303].FWSC~False~string~False~Funding Additional User Defined 1303 Checked Seller~False~~STRING
+SYS.X539~Fees[FeeType=UserDefined_1304].FWSC~False~string~False~Funding Additional User Defined 1304 Checked Seller~False~~STRING
+SYS.X540~Fees[FeeType=UserDefined_1305].FWSC~False~string~False~Funding Additional User Defined 1305 Checked Seller~False~~STRING
+SYS.X541~Fees[FeeType=UserDefined_1306].FWSC~False~string~False~Funding Additional User Defined 1306 Checked Seller~False~~STRING
+SYS.X542~Fees[FeeType=UserDefined_1307].FWSC~False~string~False~Funding Additional User Defined 1307 Checked Seller~False~~STRING
+SYS.X543~Fees[FeeType=UserDefined_1308].FWSC~False~string~False~Funding Additional User Defined 1308 Checked Seller~False~~STRING
+SYS.X544~Fees[FeeType=UserDefined_1309].FWSC~False~string~False~Funding Additional User Defined 1309 Checked Seller~False~~STRING
 SYS.X545~ClosingCost.AggregateAdjustmentFwbc~False~string~False~Funding Aggregate Adjustment Checked Borrower~False~~STRING
 SYS.X546~ClosingDocument.RespaHudDetails[LineNumber=101].Fwbc~False~string~False~Funding Additional Line 101 Checked Borrower~False~~STRING
 SYS.X547~ClosingDocument.RespaHudDetails[LineNumber=102].Fwbc~False~string~False~Funding Additional Line 102 Checked Borrower~False~~STRING
@@ -20576,7 +20576,7 @@ ULDD.X55~Uldd.PaymentBillingStatementLeadDaysCount~False~int~False~ULDD - Billin
 ULDD.X56~Uldd.DelinquentPaymentsOverPastTwelveMonthsCount~False~int~False~ULDD - Number of Delinquent Payments Over Past 12 Months~False~~INTEGER
 ULDD.X57~Uldd.PerChangePrincipalAndInterestPaymentAdjustmentPercent~False~decimal~False~ULDD - Payment Adjustment~False~~DECIMAL_3
 ULDD.X58~Uldd.PerChangeRateAdjustmentEffectiveDate~False~date~False~ULDD - Rate Adjustment Effective Date~False~~DATE
-ULDD.X59~Uldd.PerChangeRateAdjustmentFrequencyMonthsCount~False~int~False~ULDD - Rate Adjustment Frequency~False~~INTEGER
+ULDD.X59~Uldd.PerChangeRateAdjustmentFrequencyMonthsCount~False~bool~False~ULDD - Rate Adjustment Frequency~False~~BOOLEAN
 ULDD.X60~Uldd.PerChangeMaximumDecreaseRatePercent~False~decimal~False~ULDD - Maximum Decrease Rate~False~~DECIMAL_3
 ULDD.X61~Uldd.PerChangeMaximumIncreaseRatePercent~False~decimal~False~ULDD - Maximum Increase Rate~False~~DECIMAL_3
 ULDD.X62~Uldd.NextRateAdjustmentEffectiveDate~False~date~False~ULDD - Next Rate Adjustment Effective Date~False~~DATE
@@ -20959,10 +20959,10 @@ URLA.X263~Applications{current}.Borrower.Urla2020CountryOfCitizenship~False~stri
 URLA.X264~Applications{current}.Coborrower.Urla2020CountryOfCitizenship~False~string~False~TBD~False~~STRING
 URLA.X265~Applications{current}.Borrower.PriorResidenceDoesNotApply~False~bool~False~TBD~False~eURLA_X265~BOOLEAN
 URLA.X266~Applications{current}.Coborrower.PriorResidenceDoesNotApply~False~bool~False~TBD~False~eURLA_X266~BOOLEAN
-URLA.X267~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=True(X)].ForeignAddressIndicator~False~bool~False~TBD~False~eURLA_X267~BOOLEAN
-URLA.X268~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=True(X)].ForeignAddressIndicator~False~bool~False~TBD~False~eURLA_X268~BOOLEAN
-URLA.X269~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=True(X)].Country~False~string~False~TBD~False~~STRING
-URLA.X270~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=True(X)].Country~False~string~False~TBD~False~~STRING
+URLA.X267~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=True(1)].ForeignAddressIndicator~False~bool~False~TBD~False~eURLA_X267~BOOLEAN
+URLA.X268~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=True(1)].ForeignAddressIndicator~False~bool~False~TBD~False~eURLA_X268~BOOLEAN
+URLA.X269~Applications{current}.Residences[ApplicantType=Borrower|MailingAddressIndicator=True(1)].CountryCode~False~string~False~TBD~False~~STRING
+URLA.X270~Applications{current}.Residences[ApplicantType=CoBorrower|MailingAddressIndicator=True(1)].CountryCode~False~string~False~TBD~False~~STRING
 URLA.X271~Applications{current}.Coborrower.SectionAExplanation~false~string~true~Declarations Coborrower Section A Occupancy Explanation~false~~STRING
 URLA.X272~Applications{current}.Coborrower.SectionBExplanation~false~string~true~Declarations Coborrower Section B Explanation~false~~STRING
 URLA.X273~Applications{current}.Coborrower.SectionCExplanation~false~string~true~Declarations Coborrower Section C Explanation~false~~STRING
@@ -21662,7 +21662,7 @@ VASUMM.X95~VaLoanData.VAQualificationCountryRegion~False~string~False~VA Managem
 VASUMM.X96~VaLoanData.VAQualification2ndTierEntitlement~False~string~False~VA Management Tool - 2nd Tier Entitlement~False~~STRING
 VASUMM.X97~VaLoanData.VAQualificationCountyLimits~False~string~False~TBD~False~~STRING
 VASUMM.X98~VaLoanData.TotalMonthlyPayment~False~decimal~False~TBD~False~~DECIMAL_2
-VASUMM.X99~VaLoanData.DateSAR~False~date~False~TBD~False~~DATE
+VASUMM.X99~VaLoanData.TotalProposedMonthlyPayment~False~date~False~TBD~False~~DATE
 VASUMM.X100~VaLoanData.ExcludeTaxesInsuranceIndicator~False~bool~False~TBD~False~eVASUMM_X100~BOOLEAN
 VASUMM.X101~VaLoanData.ExistingVALoanNumber~False~string~False~TBD~False~~STRING
 VASUMM.X102~VaLoanData.ExistingLoanBalance~False~decimal~False~TBD~False~~DECIMAL_2
@@ -22349,7 +22349,7 @@ VEND.X650~Contacts[ContactType=INVESTOR].InvestorLicense~False~string~False~File
 VEND.X651~Contacts[ContactType=BROKER].LenderType~False~string~False~File Contacts Broker Lender type~True~~STRING
 VEND.X652~Contacts[ContactType=BROKER].LicenseType~False~string~False~File Contacts Broker License type~True~~STRING
 VEND.X653~Contacts[ContactType=BROKER].LicenseExempt~False~bool~False~File Contacts Broker License Exempt~True~eVEND_X653~YN
-VEND.X654~Contacts[ContactType=SETTLEMENT_AGENT].LicenseExempt~False~bool~False~File Contacts Settlement Agent Add to CD Contact Info ~False~eVEND_X654~YN
+VEND.X654~Contacts[ContactType=SETTLEMENT_AGENT].AddToCdContactInfo~False~bool~False~File Contacts Settlement Agent Add to CD Contact Info ~False~eVEND_X654~YN
 VEND.X655~Contacts[ContactType=SETTLEMENT_AGENT].Name~False~string~False~File Contacts Settlement Agent Co Name~False~~STRING
 VEND.X656~Contacts[ContactType=SETTLEMENT_AGENT].Address~False~string~False~File Contacts Settlement Agent Addr~False~~STRING
 VEND.X657~Contacts[ContactType=SETTLEMENT_AGENT].City~False~string~False~File Contacts Settlement Agent City~False~~STRING

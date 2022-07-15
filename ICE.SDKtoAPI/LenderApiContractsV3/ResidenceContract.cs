@@ -121,15 +121,21 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
 
         [DataMember(Name = "country")]
         public string Country { get; set; }
-    }
 
-    [DataContract]
-    public class ResidenceContractFull : ResidenceContract
-    {
         [DataMember(Name = "noLinkToDocTrackIndicator")]
         public bool? NoLinkToDocTrackIndicator { get; set; }
 
         [DataMember(Name = "altId")]
         public string AltId { get; set; }
+    }
+
+    [DataContract]
+    public class ResidenceContractFull : ResidenceContract
+    {
+//        [DataMember(Name = "noLinkToDocTrackIndicator")]
+//        public bool? NoLinkToDocTrackIndicator { get; set; }
+
+//        [DataMember(Name = "altId")]
+//        public string AltId { get; set; }
     }
 }

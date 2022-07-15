@@ -3312,10 +3312,18 @@ namespace ICE.SDKtoAPI.SupportingClasses
 
             foreach (var thing in context)
             {
+                //LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010Fees temp = (LenderApiContractsV1.LoanContractClosingCostGfe2010Gfe2010Fees)thing;
+                //if (temp != null && temp.Gfe2010FeeParentType == "Section800BrokerCompensation")
+                //{
+                //    var stopitHere = true;
+                //}
+
+
                 var useThisObject = true;
                 foreach (var theProperty in innerProps)
                 {
                     var theItem = theProperty.Split('=');
+
 
                     var foundPropertyValue = thing.GetType()?.GetProperty(theItem[0])?.GetValue(thing)?.ToString().Trim();
                     if (foundPropertyValue == null)
@@ -3334,7 +3342,6 @@ namespace ICE.SDKtoAPI.SupportingClasses
                             break;
                         }
                     }
-
                 }
 
                 if (useThisObject)

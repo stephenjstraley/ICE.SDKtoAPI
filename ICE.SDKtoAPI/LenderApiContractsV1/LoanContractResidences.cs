@@ -78,7 +78,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		public string LandlordStreet { get; set; }
 
 		[DataMember(Name = "mailingAddressIndicator", EmitDefaultValue = false)]
-		public string MailingAddressIndicator { get; set; }
+		public string MailingAddressIndicator { get; set; } = "false";
 
 		[DataMember(Name="noLinkToDocTrackIndicator", EmitDefaultValue=false)]
 		public bool? NoLinkToDocTrackIndicator { get; set; } = false;

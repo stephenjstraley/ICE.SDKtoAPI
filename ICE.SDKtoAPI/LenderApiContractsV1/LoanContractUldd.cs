@@ -542,7 +542,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="latestConversionEffectiveDate", EmitDefaultValue=false)]
 		public DateTime? LatestConversionEffectiveDate { get; set; }
 
-		[DataMember(Name="lenderPaidMIInterestRateAdjustmentPercent", EmitDefaultValue=false)]
+		[DataMember(Name= "lenderPaidMiInterestRateAdjustmentPercent", EmitDefaultValue=false)]
 		public double? LenderPaidMIInterestRateAdjustmentPercent { get; set; }
 
 		[DataMember(Name="lendersDeliveryDate", EmitDefaultValue=false)]
@@ -662,8 +662,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="perChangeRateAdjustmentEffectiveDate", EmitDefaultValue=false)]
 		public DateTime? PerChangeRateAdjustmentEffectiveDate { get; set; }
 
-		[DataMember(Name="perChangeRateAdjustmentFrequencyMonthsCount", EmitDefaultValue=false)]
-		public int? PerChangeRateAdjustmentFrequencyMonthsCount { get; set; }
+		[DataMember(Name = "perChangeRateAdjustmentFrequencyMonthsCount", EmitDefaultValue = false)]
+		public int? PerChangeRateAdjustmentFrequencyMonthsCount { get; set; } = 0;
 
 		[DataMember(Name="poolAccrualRateStructureType", EmitDefaultValue=false)]
 		public string PoolAccrualRateStructureType { get; set; }
@@ -761,7 +761,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="poolServicerID", EmitDefaultValue=false)]
 		public string PoolServicerID { get; set; }
 
-		[DataMember(Name="poolStructureType", EmitDefaultValue=false)]
+		[DataMember(Name= "poolStructureType", EmitDefaultValue=false)]
 		public string PoolStructureType { get; set; }
 
 		[DataMember(Name="poolSuffixIdentifier", EmitDefaultValue=false)]

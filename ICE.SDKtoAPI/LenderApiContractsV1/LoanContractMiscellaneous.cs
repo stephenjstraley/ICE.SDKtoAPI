@@ -326,5 +326,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="zip", EmitDefaultValue=false)]
 		public string Zip { get; set; }
 
+		[DataMember(Name = "newBuydownEnabled", EmitDefaultValue = false)]
+		public bool? NewBuydownEnabled { get; set; } = false;
+
 	}
 }

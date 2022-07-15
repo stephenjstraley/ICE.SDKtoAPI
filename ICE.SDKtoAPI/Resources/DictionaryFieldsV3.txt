@@ -4544,8 +4544,8 @@ Borr.TrusteeOf~Applications{current}.Borrower.VestingTrusteeOfType~False~string~
 ^(BR)(\d2)(98$)~Applications{current}.Borrower.Residences[(1)].RequestDate~False~datetime~True~Borr Residence Request Date~False~~DATE
 ^(BR)(\d2)(99$)~Applications{current}.Borrower.Residences[(1)].AltId~True~string~True~Borr Residence Request ID~False~~STRING
 Broker.CntctTitle~Contacts[ContactType=BROKER].ContactTitle~False~string~True~File Contacts Broker Contact Title~False~~STRING
-BUYDOWNPAYMENT~buydownMonthlyPaymentAmount~False~decimal~True~Monthly Buydown Payment~False~~DECIMAL_2
-CALCREQUIRED~paymentScheduleCalcRequiredIndicator~False~bool~True~Payment Schedule Calculation is Required~False~eCALCREQUIRED~YN
+BUYDOWNPAYMENT~BuydownMonthlyPaymentAmount~False~decimal~True~Monthly Buydown Payment~False~~DECIMAL_2
+CALCREQUIRED~PaymentScheduleCalcRequiredIndicator~False~bool~True~Payment Schedule Calculation is Required~False~eCALCREQUIRED~YN
 CAPIAP.X1~HudLoanData.HaveOtherPendingApplicationForFha~False~bool~True~HUD Property Improve Other Pending Appl~False~eCAPIAP_X1~YN
 CAPIAP.X10~Applications{current}.Borrower.NearestRelativeAddress~False~string~True~HUD Property Improve Borr Relative Addr~False~~STRING
 CAPIAP.X11~Applications{current}.Borrower.NearestRelativeCity~False~string~True~HUD Property Improve Borr Relative City~False~~STRING
@@ -8355,13 +8355,13 @@ DISCLOSURE.X999~Applications{current}.Borrower.ExperianFactorCode3~False~string~
 DISCLOSUREALTLENDER~ClosingDocument.DisclosureAlternateLender~True~string~True~Closing Docs REGZ Loan Info Disclosure Alt Lender~False~~STRING
 DISCLOSURECOFUNCTION~ClosingDocument.DisclosureCompanyFunction~True~string~True~Closing Docs REGZ Loan Info Disclosure Company Function~False~~STRING
 DISCLOSUREPLANCODE~ClosingDocument.DisclosurePlanCode~True~string~True~Closing Docs REGZ Loan Info Disclosure Plan Code~False~~STRING
-DMDDM.X1~serverDateTimeDdmApplied~True~datetime~True~Server Date Time DDM Applied~False~~DATETIME
+DMDDM.X1~ServerDateTimeDdmApplied~True~datetime~True~Server Date Time DDM Applied~False~~DATETIME
 ^(DOCPROV)(\d2)(01$)~Applications{current}.ProvidedDocuments[(1)].BorrowerType~False~string~True~Documents Provided - Borrower Type~False~eDOCPROV0001~STRING
 ^(DOCPROV)(\d2)(02$)~Applications{current}.ProvidedDocuments[(1)].DocumentName~False~string~True~Documents Provided - Document Name~False~~STRING
 ^(DOCPROV)(\d2)(03$)~Applications{current}.ProvidedDocuments[(1)].RequiredIndicator~False~bool~True~Documents Provided - Required Indicator~False~eDOCPROV0003~YN
 ^(DOCPROV)(\d2)(04$)~Applications{current}.ProvidedDocuments[(1)].DateProvided~False~datetime~True~Documents Provided - Date Provided~False~~DATE
 ^(DOCPROV)(\d2)(99$)~Applications{current}.ProvidedDocuments[(1)].AltId~True~string~True~Documents Provided - ID~False~~STRING
-Docs.Engine~docEngine~False~string~True~Ellie Mae Document Engine Version~False~eDocs_Engine~STRING
+Docs.Engine~DocEngine~False~string~True~Ellie Mae Document Engine Version~False~eDocs_Engine~STRING
 DU.LP.ID~Tsum.DuCaseIdLpAusKey~False~string~True~Underwriting DU Case ID/LP AUS Key #~False~~STRING
 ^(EC)(\d2)(01$)~Correspondent.EarlyChecks[(1)].EcUcdpLastSubmissionDateTimeEarly~False~datetime~True~Early Check UCDP Last Submission Date Time Early~False~~DATETIME
 ^(EC)(\d2)(02$)~Correspondent.EarlyChecks[(1)].EcAppraisalValue~False~decimal~True~Early Check Appraisal Value~False~~DECIMAL_2
@@ -8373,7 +8373,7 @@ ECOA_NAME~StatementCreditDenial.EcoaName~False~string~True~Denial ECOA Name~Fals
 ECOA_PHONE~StatementCreditDenial.EcoaPhone~False~string~True~Denial ECOA Phone~False~~PHONE
 ECOA_ST~StatementCreditDenial.EcoaState~False~string~True~Denial ECOA State~False~~STATE
 ECOA_ZIP~StatementCreditDenial.EcoaPostalCode~False~string~True~Denial ECOA Zip~False~~ZIPCODE
-EDELIVERY.X1~eDeliveryVersion~True~int~True~eDelivery - Version~False~~INTEGER
+EDELIVERY.X1~EDeliveryVersion~True~int~True~eDelivery - Version~False~~INTEGER
 EDS.X1~Miscellaneous.ContactName~False~string~True~Liability - Contact Info Name~False~~STRING
 EDS.X2~Miscellaneous.ContactTitle~False~string~True~Liability - Contact Info Title~False~~STRING
 EDS.X3~Miscellaneous.ContactPhone~False~string~True~Liability - Contact Info Phone~False~~PHONE
@@ -8471,7 +8471,7 @@ EEM.X88~FhaVaLoan.EnergyEfficientMortgage.TotalMonthlyObligations~True~decimal~T
 EEM.X89~FhaVaLoan.EnergyEfficientMortgage.BackRatio~True~decimal~True~EEM Total Debt-to-Income (Back) Ratio~False~~DECIMAL_3
 EEM.X9~FhaVaLoan.EnergyEfficientMortgageItems[(3)].AllowedAmount~False~decimal~True~EEM Item 3 FHA Allowed Amount~False~~DECIMAL_2
 EEM.X90~FhaVaLoan.EnergyEfficientMortgage.NewOrExisting~False~bool~True~EEM Either New or Existing Construction~False~eEEM_X90~YN
-ENHANCEDCOND.X1~useEnhancedConditionIndicator~True~bool~True~Apply Enhanced Conditions to Loan~False~eENHANCEDCOND_X1~YN
+ENHANCEDCOND.X1~UseEnhancedConditionIndicator~True~bool~True~Apply Enhanced Conditions to Loan~False~eENHANCEDCOND_X1~YN
 EPN.X1~Miscellaneous.PartnerName~True~string~True~Trans Details Processing Network Partner Name~False~~STRING
 EPN.X2~Miscellaneous.PartnerPhone~True~string~True~Trans Details Processing Network Partner Phone~False~~PHONE
 EPN.X3~Miscellaneous.PartnerEmail~True~string~True~Trans Details Processing Network Partner Email~False~~STRING
@@ -9807,7 +9807,7 @@ GSEVENDOR.X6~Applications{current}.Borrower.Vendor3~False~string~True~GSE Vendor
 GSEVENDOR.X7~Applications{current}.Coborrower.Vendor3~False~string~True~GSE Vendor Provider Data - Informative Research 4506T (CoBor)~False~~STRING
 GSEVENDOR.X8~Applications{current}.Borrower.Vendor4~False~string~True~GSE Vendor Provider Data - Blend (Bor)~False~~STRING
 GSEVENDOR.X9~Applications{current}.Coborrower.Vendor4~False~string~True~GSE Vendor Provider Data - Blend (CoBor)~False~~STRING
-GUID~id~True~string~True~Loan Info Loan ID~False~~STRING
+GUID~Id~True~string~True~Loan Info Loan ID~False~~STRING
 ^(HC)(\d2)(01$)~HomeCounselingProviders[(1)].SelectedIndicator~False~bool~True~Home Counseling Provider - Selected Indicator~False~eHC0001~YN
 ^(HC)(\d2)(02$)~HomeCounselingProviders[(1)].AgencyName~False~string~True~Home Counseling Provider - Agency Name~False~~STRING
 ^(HC)(\d2)(03$)~HomeCounselingProviders[(1)].AgencyAddress~False~string~True~Home Counseling Provider - Agency Address~False~~STRING
@@ -10299,8 +10299,8 @@ KBYO.LE3XD16~ClosingCost.LoanEstimate3.TotalInterestPercentageUi~False~string~Tr
 KBYO.NEWHUDXD555~ClosingCost.Gfe2010.MaxLifeInterestCapPercentUi~False~string~True~ARM Max Life Interest Cap - Display fields with KBYO rounding rules~False~~STRING
 KBYO.XD1699~LoanProductData.FloorPercentUi~False~string~True~Loan Info ARM Floor Rate - Display field with KBYO rounding rules~False~~STRING
 KBYO.XD2625~LoanProductData.MaxLifeInterestCapPercentUi~True~string~True~Loan Info ARM Max Life Interest Cap - Display field with KBYO rounding rules~False~~STRING
-KBYO.XD3~requestedInterestRatePercentUi~False~string~True~Trans Details Interest Rate - Display field with KBYO rounding rules~False~~STRING
-KBYO.XD4113~initialInterestRateUi~False~string~True~Initial Interest Rate - Display field with KBYO rounding rules ~False~~STRING
+KBYO.XD3~RequestedInterestRatePercentUi~False~string~True~Trans Details Interest Rate - Display field with KBYO rounding rules~False~~STRING
+KBYO.XD4113~InitialInterestRateUi~False~string~True~Initial Interest Rate - Display field with KBYO rounding rules ~False~~STRING
 KBYO.XD689~LoanProductData.IndexMarginPercentUi~False~string~True~Loan Info ARM Margin - Display field with KBYO rounding rules~False~~STRING
 KBYO.XD695~LoanProductData.RateAdjustmentSubsequentCapPercentUi~False~string~True~Loan Info ARM Rate Cap - Display fields with KBYO rounding rules~False~~STRING
 KBYO.XD697~LoanProductData.RateAdjustmentPercentUi~False~string~True~Loan Info ARM First Rate Adj Cap - Display fields with KBYO rounding rules~False~~STRING
@@ -17297,8 +17297,8 @@ OPTIMAL.REQUEST~Miscellaneous.OptimalBlueRequest~False~string~True~Request Strin
 OPTIMAL.RESPONSE~Miscellaneous.OptimalBlueResponse~False~string~True~Response String From Optimal Blue~False~~STRING
 ORDERFREDDIEINDICATOR.X1~Miscellaneous.FreddieLpaAutoOrderIndicator~False~bool~True~Freddie LPA Report Auto Order Indicator~False~eORDERFREDDIEINDICATOR_X1~YN
 ORDERFREDDIEINDICATOR.X2~Miscellaneous.FreddieLqaAutoOrderIndicator~False~bool~True~Freddie LQA Report Auto Order Indicator~False~eORDERFREDDIEINDICATOR_X2~YN
-ORGID~organizationCode~False~string~True~Company - Users Organization Code~False~~STRING
-OTHPCC~otherPaidClosingCostsAmount~False~decimal~True~Fees Total Closing Costs Other~False~~DECIMAL_2
+ORGID~OrganizationCode~False~string~True~Company - Users Organization Code~False~~STRING
+OTHPCC~OtherPaidClosingCostsAmount~False~decimal~True~Fees Total Closing Costs Other~False~~DECIMAL_2
 PAYMENT1~Miscellaneous.HousingExpensePayment1~True~decimal~True~Expenses Calc First Mtg Pymt Mo Pymt~False~~DECIMAL_2
 PAYMENT2~Miscellaneous.HousingExpensePayment2~True~decimal~True~Expenses Calc Other Fin Pymt Mo Pymt~False~~DECIMAL_2
 PAYMENTTABLE.CUSTOMIZE~ClosingCost.Gfe2010Section.ProjectedPaymentTableCustomized~False~bool~True~Projected Payment Table Is Customized~False~ePAYMENTTABLE_CUSTOMIZE~YN
@@ -19905,8 +19905,8 @@ SYS.X607~ClosingDocument.RespaHudDetails[LineNumber=519].Fwbc~False~string~True~
 SYS.X608~ClosingDocument.RespaHudDetails[LineNumber=824].Fwbc~False~string~True~Funding Line 824 Checked Borrower~False~~STRING
 SYS.X609~ClosingDocument.RespaHudDetails[LineNumber=825].Fwbc~False~string~True~Funding Line 824 Checked Borrower~False~~STRING
 SYS.X61~Fees[FeeType=UserDefined_1303].Pfc~False~bool~True~Fees Line 1303 APR~False~eSYS_X61~YN
-SYS.X610~systemIdGuid~True~string~True~LE Latest Guid~False~~STRING
-SYS.X611~encompassVersion~True~string~True~Encompass Version~False~~STRING
+SYS.X610~SystemIdGuid~True~string~True~LE Latest Guid~False~~STRING
+SYS.X611~EncompassVersion~True~string~True~Encompass Version~False~~STRING
 SYS.X62~Fees[FeeType=UserDefined_1304].Pfc~False~bool~True~Fees Line 1304 APR~False~eSYS_X62~YN
 SYS.X63~Fees[FeeType=UserDefined_1305].Pfc~False~bool~True~Fees Line 1305 APR~False~eSYS_X63~YN
 SYS.X64~Fees[FeeType=UserDefined_1306].Pfc~False~bool~True~Fees Line 1306 APR~False~eSYS_X64~YN
@@ -19958,11 +19958,11 @@ Terms.IntrOnly~RegulationZ.InterestOnly~True~bool~True~Interest Only Indicator~F
 Terms.PrepyVrbgTyp~LoanProductData.PrepaymentPenaltyVerbiage~False~string~True~Prepay Verbiage Type~False~eTerms_PrepyVrbgTyp~STRING
 Terms.USDAGovtType~usdaGovernmentLoanType~False~string~True~USDA-RHS Government Loan Type~False~eTerms_USDAGovtType~STRING
 TITLE_TABLE~ClosingCost.TitleTableName~True~string~True~Fees Title Table~False~~STRING
-TNBPCC~totalNonborrowerPaidClosingCostsAmount~False~decimal~True~Fees Total Closing Costs Non-Borr~False~~DECIMAL_2
+TNBPCC~TotalNonborrowerPaidClosingCostsAmount~False~decimal~True~Fees Total Closing Costs Non-Borr~False~~DECIMAL_2
 TOTAL_CC~Gfe.TotalClosingCostWithDiscount~True~decimal~True~Fees Total Closing Cost~False~~DECIMAL_2
 TOTAL_PREPAID~Gfe.TotalPrepaidClosingCost~True~decimal~True~Fees Total Prepaid Cost~False~~DECIMAL_2
-TOTPCC~totalClosingCostsAmount~True~decimal~True~Fees Total Closing Costs~False~~DECIMAL_2
-TOTPOC~totalPaidOutsideClosingAmount~True~decimal~True~Fees Total Paid Outside of Closing (Oth Summaries)~False~~DECIMAL_2
+TOTPCC~TotalClosingCostsAmount~True~decimal~True~Fees Total Closing Costs~False~~DECIMAL_2
+TOTPOC~TotalPaidOutsideClosingAmount~True~decimal~True~Fees Total Paid Outside of Closing (Oth Summaries)~False~~DECIMAL_2
 TPO.X1~Tpo.SiteId~False~string~True~TPO Site ID~False~~STRING
 TPO.X10~Tpo.DocumentsReadyDate~False~datetime~True~TPO Documents and Conditions are Ready for Underwriter Review Date~False~~DATE
 TPO.X100~Tpo.CfcBusinessFax~False~string~True~TPO Correspondent File Contact Business Fax~False~~STRING

@@ -17,7 +17,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="address2", EmitDefaultValue=false)]
 		public string Address2 { get; set; }
 
-		[DataMember(Name="addToCdContactInfo", EmitDefaultValue=false)]
+		[DataMember(Name= "addToCdContactInfo", EmitDefaultValue=false)]
 		public bool? AddToCdContactInfo { get; set; }
 
 		[DataMember(Name="appraisalMade", EmitDefaultValue=false)]
@@ -298,6 +298,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="tqlName", EmitDefaultValue=false)]
 		public string TqlName { get; set; }
+
+		[DataMember(Name = "country", EmitDefaultValue = false)]
+		public string Country { get; set; }
 
 	}
 }

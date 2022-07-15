@@ -395,5 +395,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="yearsToRecast", EmitDefaultValue=false)]
 		public int? YearsToRecast { get; set; }
 
+		[DataMember(Name = "interestRateAdjTermLabel", EmitDefaultValue = false)]
+		public string InterestRateAdjTermLabel { get; set; }
+
 	}
 }

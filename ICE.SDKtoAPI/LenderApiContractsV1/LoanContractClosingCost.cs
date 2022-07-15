@@ -46,9 +46,6 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="closingDisclosure5", EmitDefaultValue=false)]
 		public LoanContractClosingCostClosingDisclosure5 ClosingDisclosure5 { get; set; }
 
-		[DataMember(Name="disclosedSalesPrice", EmitDefaultValue=false)]
-		public double? DisclosedSalesPrice { get; set; }
-
 		[DataMember(Name="escrowCompanyName", EmitDefaultValue=false)]
 		public string EscrowCompanyName { get; set; }
 
@@ -204,6 +201,9 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="totalForSellerPaid6", EmitDefaultValue=false)]
 		public double? TotalForSellerPaid6 { get; set; }
+
+		[DataMember(Name = "disclosedSalesPrice")]
+		public decimal? DisclosedSalesPrice { get; set; }
 
 	}
 }

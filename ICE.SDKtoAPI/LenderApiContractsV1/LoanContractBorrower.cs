@@ -1217,5 +1217,43 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name = "hmda2CreditScoringModel", EmitDefaultValue = false)]
 		public string Hmda2CreditScoringModel { get; set; }
 
+		[DataMember(Name = "topRatioPercent", EmitDefaultValue = false)]
+		public decimal? TopRatioPercent { get; set; }
+
+		[DataMember(Name = "bottomRatioPercent", EmitDefaultValue = false)]
+		public decimal? BottomRatioPercent { get; set; }
+
+		[DataMember(Name = "totalGrossMonthlyIncomeAmount", EmitDefaultValue = false)]
+		public decimal? TotalGrossMonthlyIncomeAmount { get; set; }
+
+		[DataMember(Name = "otherAssetsDoesNotApply", EmitDefaultValue = false)]
+		public bool? OtherAssetsDoesNotApply { get; set; } = false;
+
+		[DataMember(Name = "liabilitiesDoesNotApply", EmitDefaultValue = false)]
+		public bool? LiabilitiesDoesNotApply { get; set; } = false;
+
+		[DataMember(Name = "giftsAndGrantsIndicatorBor", EmitDefaultValue = false)]
+		public bool? GiftsAndGrantsIndicatorBor { get; set; } = false;
+
+		[DataMember(Name = "specialBorrowerSellerRelationshipIndicator", EmitDefaultValue = false)]
+		public bool? SpecialBorrowerSellerRelationshipIndicator { get; set; } = false;
+
+		[DataMember(Name = "undisclosedBorrowedFundsIndicator", EmitDefaultValue = false)]
+		public bool? UndisclosedBorrowedFundsIndicator { get; set; } = false;
+
+		[DataMember(Name = "undisclosedBorrowedFundsAmount", EmitDefaultValue = false)]
+		public decimal? UndisclosedBorrowedFundsAmount { get; set; }
+
+		[DataMember(Name = "undisclosedMortgageApplicationIndicator", EmitDefaultValue = false)]
+		public bool? UndisclosedMortgageApplicationIndicator { get; set; } = false;
+
+		[DataMember(Name = "undisclosedCreditApplicationIndicator", EmitDefaultValue = false)]
+		public bool? UndisclosedCreditApplicationIndicator { get; set; } = false;
+
+		[DataMember(Name = "propertyProposedCleanEnergyLienIndicator", EmitDefaultValue = false)]
+		public bool? PropertyProposedCleanEnergyLienIndicator { get; set; } = false;
+
+		[DataMember(Name = "undisclosedComakerOfNoteIndicator", EmitDefaultValue = false)]
+		public bool? UndisclosedComakerOfNoteIndicator { get; set; } = false;
 	}
 }

@@ -62,14 +62,14 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name = "financedIndicator", EmitDefaultValue = false)]
 		public bool? FinancedIndicator { get; set; } = false;
 
-		[DataMember(Name="gfe2010FeeIndex", EmitDefaultValue=false)]
+		[DataMember(Name= "gfe2010FeeIndex", EmitDefaultValue=false)]
 		public int? Gfe2010FeeIndex { get; set; }
 
 		[DataMember(Name="gfe2010FeeParentType", EmitDefaultValue=false)]
 		public string Gfe2010FeeParentType { get; set; }
 
-		[DataMember(Name="gfe2010FeeType", EmitDefaultValue=false)]
-		public string Gfe2010FeeType { get; set; }
+		[DataMember(Name = "gfe2010FeeType", EmitDefaultValue = false)]
+		public string Gfe2010FeeType { get; set; } = "Undefined";
 
 		[DataMember(Name="gfeAmount", EmitDefaultValue=false)]
 		public double? GfeAmount { get; set; }
@@ -184,6 +184,15 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name="wholePocPaidByType", EmitDefaultValue=false)]
 		public string WholePocPaidByType { get; set; }
+
+		//[DataMember(Name = "escrowChargeAllPropertyTaxesIndicator", EmitDefaultValue = false)]
+		//public bool? EscrowChargeAllPropertyTaxesIndicator { get; set; }
+
+		//[DataMember(Name = "escrowChargeAllInsuranceIndicator", EmitDefaultValue = false)]
+		//public bool? EscrowChargeAllInsuranceIndicator { get; set; }
+
+		//[DataMember(Name = "escrowChargeOtherIndicator", EmitDefaultValue = false)]
+		//public bool? EscrowChargeOtherIndicator { get; set; }
 
 	}
 }

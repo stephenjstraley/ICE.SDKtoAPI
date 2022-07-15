@@ -134,5 +134,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="sSPLGuid", EmitDefaultValue=false)]
 		public string SSPLGuid { get; set; }
 
+		public string CdInitialDtGuid { get; set; }
+		public string CdRevisedDtGuid { get; set; }
+
+		public string CdPostConsummationDtGuid { get; set; }
+
 	}
 }

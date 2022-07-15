@@ -40,7 +40,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="armTypeDescription", EmitDefaultValue=false)]
 		public string ArmTypeDescription { get; set; }
 
-		[DataMember(Name="aTRQMCommon", EmitDefaultValue=false)]
+		[DataMember(Name= "aTRQMCommon", EmitDefaultValue=false)]
 		public LoanContractATRQMCommon ATRQMCommon { get; set; }
 
 		[DataMember(Name = "averageRepresentativeCreditScore", EmitDefaultValue = false)]
@@ -1086,5 +1086,110 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name = "printULIonURLA", EmitDefaultValue = false)]
 		public bool? PrintULIonURLA { get; set; }
+
+		[DataMember(Name = "renovationLoanIndicator", EmitDefaultValue = false)]
+		public bool? RenovationLoanIndicator { get; set; } = false;
+
+		[DataMember(Name = "constructionLoanIndicator", EmitDefaultValue = false)]
+		public bool? ConstructionLoanIndicator { get; set; } = false;
+
+		[DataMember(Name = "titleWillBeFullName", EmitDefaultValue = false)]
+		public string TitleWillBeFullName { get; set; }
+
+		[DataMember(Name = "titleHolderFullName", EmitDefaultValue = false)]
+		public string TitleHolderFullName { get; set; }
+
+		[DataMember(Name = "borrEstimatedClosingCostsAmount", EmitDefaultValue = false)]
+		public decimal? BorrEstimatedClosingCostsAmount { get; set; }
+
+		[DataMember(Name = "urlaTotalMortgageLoansAmount", EmitDefaultValue = false)]
+		public decimal? URLATotalMortgageLoansAmount { get; set; }
+
+		[DataMember(Name = "urlaTotalOtherCreditsAmount", EmitDefaultValue = false)]
+		public decimal? URLATotalOtherCreditsAmount { get; set; }
+
+		[DataMember(Name = "totalOfGiftsGrants", EmitDefaultValue = false)]
+		public decimal? TotalOfGiftsGrants { get; set; }
+
+		[DataMember(Name = "totalOtherAssetToLoan", EmitDefaultValue = false)]
+		public decimal? TotalOtherAssetToLoan { get; set; }
+
+		[DataMember(Name = "urlaTotalCreditsAmount", EmitDefaultValue = false)]
+		public decimal? URLATotalCreditsAmount { get; set; }
+
+		[DataMember(Name = "originatorFirstName", EmitDefaultValue = false)]
+		public string OriginatorFirstName { get; set; }
+
+		[DataMember(Name = "originatorMiddleName", EmitDefaultValue = false)]
+		public string OriginatorMiddleName { get; set; }
+
+		[DataMember(Name = "originatorLastName", EmitDefaultValue = false)]
+		public string OriginatorLastName { get; set; }
+
+		[DataMember(Name = "originatorSuffixName", EmitDefaultValue = false)]
+		public string OriginatorSuffixName { get; set; }
+
+		[DataMember(Name = "newMortgageCreditorName", EmitDefaultValue = false)]
+		public string NewMortgageCreditorName { get; set; }
+
+		[DataMember(Name = "newMortgageMonthlyPayment", EmitDefaultValue = false)]
+		public string NewMortgageMonthlyPayment { get; set; }
+
+		[DataMember(Name = "newSubordinateCreditorName", EmitDefaultValue = false)]
+		public string NewSubordinateCreditorName { get; set; }
+
+		[DataMember(Name = "newSubordinateMonthlyPayment", EmitDefaultValue = false)]
+		public string NewSubordinateMonthlyPayment { get; set; }
+
+		[DataMember(Name = "newHelocCreditorName", EmitDefaultValue = false)]
+		public string NewHELOCCreditorName { get; set; }
+
+		[DataMember(Name = "newHelocMonthlyPayment", EmitDefaultValue = false)]
+		public decimal? NewHELOCMonthlyPayment { get; set; }
+
+		[DataMember(Name = "originatorAddressLineText", EmitDefaultValue = false)]
+		public string OriginatorAddressLineText { get; set; }
+
+		[DataMember(Name = "originatorAddressUnitDesignatorType", EmitDefaultValue = false)]
+		public string OriginatorAddressUnitDesignatorType { get; set; }
+
+		[DataMember(Name = "originatorAddressUnitIdentifier", EmitDefaultValue = false)]
+		public string OriginatorAddressUnitIdentifier { get; set; }
+
+		[DataMember(Name = "condominiumIndicator", EmitDefaultValue = false)]
+		public bool? CondominiumIndicator { get; set; }
+
+		[DataMember(Name = "cooperativeIndicator", EmitDefaultValue = false)]
+		public bool? CooperativeIndicator { get; set; }
+
+		[DataMember(Name = "pudIndicator", EmitDefaultValue = false)]
+		public bool? PUDIndicator { get; set; }
+
+		[DataMember(Name = "notInProjectIndicator", EmitDefaultValue = false)]
+		public bool? NotInProjectIndicator { get; set; }
+
+		[DataMember(Name = "paymentDeferredFirstFiveYears", EmitDefaultValue = false)]
+		public bool? PaymentDeferredFirstFiveYears { get; set; }
+
+		[DataMember(Name = "affordableLoan", EmitDefaultValue = false)]
+		public bool? AffordableLoan { get; set; }
+
+		[DataMember(Name = "totalAdditionalMortgages", EmitDefaultValue = false)]
+		public decimal? TotalAdditionalMortgages { get; set; }
+
+		[DataMember(Name = "borrowerCount", EmitDefaultValue = false)]
+		public string BorrowerCount { get; set; }
+
+		[DataMember(Name = "printLenderPages", EmitDefaultValue = false)]
+		public bool? PrintLenderPages { get; set; }
+
+		[DataMember(Name = "printULIAndLoanNoURLA", EmitDefaultValue = false)]
+		public bool? PrintULIAndLoanNoURLA { get; set; } = false;
+
+		[DataMember(Name = "negativeAmortization", EmitDefaultValue = false)]
+		public bool? NegativeAmortization { get; set; } = false;
+
+		[DataMember(Name = "urlaLoanIdentifier", EmitDefaultValue = false)]
+		public string URLALoanIdentifier { get; set; }
 	}
 }

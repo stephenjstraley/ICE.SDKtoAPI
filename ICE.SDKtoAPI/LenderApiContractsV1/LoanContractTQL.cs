@@ -25,17 +25,17 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		[DataMember(Name="currentInvestorPublishingStatus", EmitDefaultValue=false)]
 		public string CurrentInvestorPublishingStatus { get; set; }
 
-		[DataMember(Name="driveAppVerifyScore", EmitDefaultValue=false)]
-		public int? DriveAppVerifyScore { get; set; }
+		[DataMember(Name = "driveAppVerifyScore", EmitDefaultValue = false)]
+		public int? DriveAppVerifyScore { get; set; } = 0;
 
-		[DataMember(Name="driveIDVerifyScore", EmitDefaultValue=false)]
-		public int? DriveIDVerifyScore { get; set; }
+		[DataMember(Name = "driveIDVerifyScore", EmitDefaultValue = false)]
+		public int? DriveIDVerifyScore { get; set; } = 0;
 
-		[DataMember(Name="drivePropertyVerifyScore", EmitDefaultValue=false)]
-		public int? DrivePropertyVerifyScore { get; set; }
+		[DataMember(Name = "drivePropertyVerifyScore", EmitDefaultValue = false)]
+		public int? DrivePropertyVerifyScore { get; set; } = 0;
 
-		[DataMember(Name="driveScore", EmitDefaultValue=false)]
-		public int? DriveScore { get; set; }
+		[DataMember(Name = "driveScore", EmitDefaultValue = false)]
+		public int? DriveScore { get; set; } = 0;
 
 		[DataMember(Name="driveStatus", EmitDefaultValue=false)]
 		public string DriveStatus { get; set; }

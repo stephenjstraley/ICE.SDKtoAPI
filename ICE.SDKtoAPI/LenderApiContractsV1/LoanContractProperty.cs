@@ -207,5 +207,17 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 
 		[DataMember(Name = "Square")]
 		public string Square { get; set; }
+
+		[DataMember(Name = "loanPurposeTypeURLA")]
+		public string LoanPurposeTypeURLA { get; set; }
+
+		[DataMember(Name = "addressLineText")]
+		public string AddressLineText { get; set; }
+
+		[DataMember(Name = "fHASecondaryResidenceIndicator")]
+		public bool? FHASecondaryResidenceIndicator { get; set; } = false;
+
+		[DataMember(Name = "propertyMixedUsageIndicator")]
+		public bool? PropertyMixedUsageIndicator { get; set; } = false;
 	}
 }

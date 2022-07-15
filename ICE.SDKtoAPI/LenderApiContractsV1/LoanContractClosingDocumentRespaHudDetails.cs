@@ -27,7 +27,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 		public string LineItemDescription { get; set; }
 
 		[DataMember(Name="lineNumber", EmitDefaultValue=false)]
-		public int? LineNumber { get; set; }
+		public int LineNumber { get; set; }
 
 		[DataMember(Name="realValue", EmitDefaultValue=false)]
 		public double? RealValue { get; set; }
