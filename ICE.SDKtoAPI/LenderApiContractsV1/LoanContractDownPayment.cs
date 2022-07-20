@@ -5,16 +5,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractDownPayment
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
-		public double? Amount { get; set; }
+		[DataMember(Name="amount")]
+		public decimal? Amount { get; set; }
 
-		[DataMember(Name="downPaymentType", EmitDefaultValue=false)]
+		[DataMember(Name="downPaymentType")]
 		public string DownPaymentType { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="sourceDescription", EmitDefaultValue=false)]
+		[DataMember(Name="sourceDescription")]
 		public string SourceDescription { get; set; }
 
 	}

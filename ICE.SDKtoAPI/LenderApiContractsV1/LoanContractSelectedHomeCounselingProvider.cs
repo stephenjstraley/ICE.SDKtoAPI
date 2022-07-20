@@ -5,76 +5,76 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractSelectedHomeCounselingProvider
 	{
-		[DataMember(Name="affiliatedWithLenderIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="affiliatedWithLenderIndicator")]
 		public bool? AffiliatedWithLenderIndicator { get; set; }
 
-		[DataMember(Name="agencyAddress", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddress")]
 		public string AgencyAddress { get; set; }
 
-		[DataMember(Name="agencyAddressCity", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddressCity")]
 		public string AgencyAddressCity { get; set; }
 
-		[DataMember(Name="agencyAddressPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddressPostalCode")]
 		public string AgencyAddressPostalCode { get; set; }
 
-		[DataMember(Name="agencyAddressState", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddressState")]
 		public string AgencyAddressState { get; set; }
 
-		[DataMember(Name="agencyAffiliationDescription", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAffiliationDescription")]
 		public string AgencyAffiliationDescription { get; set; }
 
-		[DataMember(Name="agencyEmail", EmitDefaultValue=false)]
+		[DataMember(Name="agencyEmail")]
 		public string AgencyEmail { get; set; }
 
-		[DataMember(Name="agencyFax", EmitDefaultValue=false)]
+		[DataMember(Name="agencyFax")]
 		public string AgencyFax { get; set; }
 
-		[DataMember(Name="agencyName", EmitDefaultValue=false)]
+		[DataMember(Name="agencyName")]
 		public string AgencyName { get; set; }
 
-		[DataMember(Name="agencyPhoneDirect", EmitDefaultValue=false)]
+		[DataMember(Name="agencyPhoneDirect")]
 		public string AgencyPhoneDirect { get; set; }
 
-		[DataMember(Name="agencyPhoneTollFree", EmitDefaultValue=false)]
+		[DataMember(Name="agencyPhoneTollFree")]
 		public string AgencyPhoneTollFree { get; set; }
 
-		[DataMember(Name="agencyWebAddress", EmitDefaultValue=false)]
+		[DataMember(Name="agencyWebAddress")]
 		public string AgencyWebAddress { get; set; }
 
-		[DataMember(Name="brrowerSelectCounselorIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="brrowerSelectCounselorIndicator")]
 		public bool? BrrowerSelectCounselorIndicator { get; set; }
 
-		[DataMember(Name="certificationIssuedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="certificationIssuedIndicator")]
 		public bool? CertificationIssuedIndicator { get; set; }
 
-		[DataMember(Name="counselingServicesProvided", EmitDefaultValue=false)]
+		[DataMember(Name="counselingServicesProvided")]
 		public string CounselingServicesProvided { get; set; }
 
-		[DataMember(Name="distanceMiles", EmitDefaultValue=false)]
-		public double? DistanceMiles { get; set; }
+		[DataMember(Name="distanceMiles")]
+		public decimal? DistanceMiles { get; set; }
 
-		[DataMember(Name="explanation", EmitDefaultValue=false)]
+		[DataMember(Name="explanation")]
 		public string Explanation { get; set; }
 
-		[DataMember(Name="homeCounselingCompletionDate", EmitDefaultValue=false)]
+		[DataMember(Name="homeCounselingCompletionDate")]
 		public DateTime? HomeCounselingCompletionDate { get; set; }
 
-		[DataMember(Name="homeCounselingDisclosureDate", EmitDefaultValue=false)]
+		[DataMember(Name="homeCounselingDisclosureDate")]
 		public DateTime? HomeCounselingDisclosureDate { get; set; }
 
-		[DataMember(Name="homeCounselingGeneratedDate", EmitDefaultValue=false)]
+		[DataMember(Name="homeCounselingGeneratedDate")]
 		public DateTime? HomeCounselingGeneratedDate { get; set; }
 
-		[DataMember(Name="homeCounselingRequiredIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="homeCounselingRequiredIndicator")]
 		public bool? HomeCounselingRequiredIndicator { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="languagesSupported", EmitDefaultValue=false)]
+		[DataMember(Name="languagesSupported")]
 		public string LanguagesSupported { get; set; }
 
-		[DataMember(Name="selectedGUID", EmitDefaultValue=false)]
+		[DataMember(Name="selectedGUID")]
 		public string SelectedGUID { get; set; }
 
 	}

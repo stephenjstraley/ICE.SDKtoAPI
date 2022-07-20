@@ -5,38 +5,38 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractRegulationZRegulationZInterestRatePeriods
 	{
-		[DataMember(Name="adjustmentDate", EmitDefaultValue=false)]
+		[DataMember(Name="adjustmentDate")]
 		public DateTime? AdjustmentDate { get; set; }
 
-		[DataMember(Name="adjustmentMonths", EmitDefaultValue=false)]
+		[DataMember(Name="adjustmentMonths")]
 		public int? AdjustmentMonths { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="interestPayment", EmitDefaultValue=false)]
-		public double? InterestPayment { get; set; }
+		[DataMember(Name="interestPayment")]
+		public decimal? InterestPayment { get; set; }
 
-		[DataMember(Name="interestPrincipalPayment", EmitDefaultValue=false)]
-		public double? InterestPrincipalPayment { get; set; }
+		[DataMember(Name="interestPrincipalPayment")]
+		public decimal? InterestPrincipalPayment { get; set; }
 
-		[DataMember(Name="interestRatePercent", EmitDefaultValue=false)]
-		public double? InterestRatePercent { get; set; }
+		[DataMember(Name="interestRatePercent")]
+		public decimal? InterestRatePercent { get; set; }
 
-		[DataMember(Name="monthlyPayment", EmitDefaultValue=false)]
-		public double? MonthlyPayment { get; set; }
+		[DataMember(Name="monthlyPayment")]
+		public decimal? MonthlyPayment { get; set; }
 
-		[DataMember(Name="principalPayment", EmitDefaultValue=false)]
-		public double? PrincipalPayment { get; set; }
+		[DataMember(Name="principalPayment")]
+		public decimal? PrincipalPayment { get; set; }
 
-		[DataMember(Name="regulationZInterestRatePeriodType", EmitDefaultValue=false)]
+		[DataMember(Name="regulationZInterestRatePeriodType")]
 		public string RegulationZInterestRatePeriodType { get; set; }
 
-		[DataMember(Name="taxInsuranceAmount", EmitDefaultValue=false)]
-		public double? TaxInsuranceAmount { get; set; }
+		[DataMember(Name="taxInsuranceAmount")]
+		public decimal? TaxInsuranceAmount { get; set; }
 
-		[DataMember(Name="totalPayment", EmitDefaultValue=false)]
-		public double? TotalPayment { get; set; }
+		[DataMember(Name="totalPayment")]
+		public decimal? TotalPayment { get; set; }
 
 	}
 }

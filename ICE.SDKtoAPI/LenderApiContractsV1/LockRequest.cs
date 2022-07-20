@@ -6,11 +6,11 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 {
     public class LockRequest
     {
-        public double? UnDiscountedRate { get; set; }
-        public double? StartingAdjustRate { get; set; }
-        public double? StartingAdjustPrice { get; set; }
+        public decimal? UnDiscountedRate { get; set; }
+        public decimal? StartingAdjustRate { get; set; }
+        public decimal? StartingAdjustPrice { get; set; }
         public string ProgramNotes { get; set; }
-        public double? ExpectedNetPrice { get; set; }
+        public decimal? ExpectedNetPrice { get; set; }
         public string OnrpDate { get; set; }
         public bool OnrpEligible { get; set; }
         public string CorrespondentCommitmentType { get; set; }
@@ -27,8 +27,8 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
         public string LockCancellationComment { get; set; }
         public string LockCancellationDate { get; set; }
         public string LockExtendComment { get; set; }
-        public double? LockExtendPriceAdjustment { get; set; }
-        public double? MarginSrpPaidOut { get; set; }
+        public decimal? LockExtendPriceAdjustment { get; set; }
+        public decimal? MarginSrpPaidOut { get; set; }
         public bool IsDeliveryType { get; set; }
         public bool IsCancelled { get; set; }
         public string RateStatus { get; set; }
@@ -41,19 +41,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
         public int? LockNumberOfDays { get; set; }
         public string LockDate { get; set; }
         public string LockExpirationDate { get; set; }
-        public double? BaseRate { get; set; }
+        public decimal? BaseRate { get; set; }
         public List<RateAdjustment> Adjustments { get; set; }
-        public double? TotalRateAdjustments { get; set; }
-        public double? NetRate { get; set; }
-        public double? BasePrice { get; set; }
-        public double? TotalPriceAdjustments { get; set; }
-        public double? NetPrice { get; set; }
-        public double? BaseMarginRate { get; set; }
-        public double? TotalMarginAdjustments { get; set; }
-        public double? NetMarginRate { get; set; }
+        public decimal? TotalRateAdjustments { get; set; }
+        public decimal? NetRate { get; set; }
+        public decimal? BasePrice { get; set; }
+        public decimal? TotalPriceAdjustments { get; set; }
+        public decimal? NetPrice { get; set; }
+        public decimal? BaseMarginRate { get; set; }
+        public decimal? TotalMarginAdjustments { get; set; }
+        public decimal? NetMarginRate { get; set; }
         public string Comments { get; set; }
         public string OriginalLockExpirationDate { get; set; }
-        public double? SrpPaidOut { get; set; }
+        public decimal? SrpPaidOut { get; set; }
         public string LoanProgram { get; set; }
     }
 }

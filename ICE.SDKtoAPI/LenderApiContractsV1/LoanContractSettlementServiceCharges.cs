@@ -6,13 +6,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractSettlementServiceCharges
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
+		[DataMember(Name="amount")]
 		public string Amount { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
 	}

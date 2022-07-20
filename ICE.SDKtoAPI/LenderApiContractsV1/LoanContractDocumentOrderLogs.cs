@@ -7,31 +7,31 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractDocumentOrderLogs
 	{
-		[DataMember(Name="dateFilesPurged", EmitDefaultValue=false)]
+		[DataMember(Name="dateFilesPurged")]
 		public DateTime? DateFilesPurged { get; set; }
 
-		[DataMember(Name="dateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="dateUtc")]
 		public DateTime? DateUtc { get; set; }
 
-		[DataMember(Name="documentAudit", EmitDefaultValue=false)]
+		[DataMember(Name="documentAudit")]
 		public LoanContractDocumentAudit DocumentAudit { get; set; }
 
-		[DataMember(Name="documentFields", EmitDefaultValue=false)]
+		[DataMember(Name="documentFields")]
 		public object DocumentFields { get; set; }
 
-		[DataMember(Name="orderedDocuments", EmitDefaultValue=false)]
+		[DataMember(Name="orderedDocuments")]
 		public List<LoanContractOrderedDocuments> OrderedDocuments { get; set; }
 
-		[DataMember(Name="orderId", EmitDefaultValue=false)]
+		[DataMember(Name="orderId")]
 		public string OrderId { get; set; }
 
-		[DataMember(Name="orderType", EmitDefaultValue=false)]
+		[DataMember(Name="orderType")]
 		public string OrderType { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
-		[DataMember(Name="userId", EmitDefaultValue=false)]
+		[DataMember(Name="userId")]
 		public string UserId { get; set; }
 
 	}

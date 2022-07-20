@@ -5,226 +5,226 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractEmDocumentLender
 	{
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lndBrchCty", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchCty")]
 		public string LndBrchCty { get; set; }
 
-		[DataMember(Name="lndBrchFax", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchFax")]
 		public string LndBrchFax { get; set; }
 
-		[DataMember(Name="lndBrchJrsdctn", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchJrsdctn")]
 		public string LndBrchJrsdctn { get; set; }
 
-		[DataMember(Name="lndBrchNm", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchNm")]
 		public string LndBrchNm { get; set; }
 
-		[DataMember(Name="lndBrchOrgTyp", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchOrgTyp")]
 		public string LndBrchOrgTyp { get; set; }
 
-		[DataMember(Name="lndBrchPhone", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchPhone")]
 		public string LndBrchPhone { get; set; }
 
-		[DataMember(Name="lndBrchStCd", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchStCd")]
 		public string LndBrchStCd { get; set; }
 
-		[DataMember(Name="lndBrchStreetAddr1", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchStreetAddr1")]
 		public string LndBrchStreetAddr1 { get; set; }
 
-		[DataMember(Name="lndBrchStreetAddr2", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchStreetAddr2")]
 		public string LndBrchStreetAddr2 { get; set; }
 
-		[DataMember(Name="lndBrchTollFreePhone", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchTollFreePhone")]
 		public string LndBrchTollFreePhone { get; set; }
 
-		[DataMember(Name="lndBrchUrl", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchUrl")]
 		public string LndBrchUrl { get; set; }
 
-		[DataMember(Name="lndBrchZip", EmitDefaultValue=false)]
+		[DataMember(Name="lndBrchZip")]
 		public string LndBrchZip { get; set; }
 
-		[DataMember(Name="lndCnty", EmitDefaultValue=false)]
+		[DataMember(Name="lndCnty")]
 		public string LndCnty { get; set; }
 
-		[DataMember(Name="lndCty", EmitDefaultValue=false)]
+		[DataMember(Name="lndCty")]
 		public string LndCty { get; set; }
 
-		[DataMember(Name="lndFaxNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndFaxNum")]
 		public string LndFaxNum { get; set; }
 
-		[DataMember(Name="lndFhaOrgntrId", EmitDefaultValue=false)]
+		[DataMember(Name="lndFhaOrgntrId")]
 		public string LndFhaOrgntrId { get; set; }
 
-		[DataMember(Name="lndFhaSpnsrId", EmitDefaultValue=false)]
+		[DataMember(Name="lndFhaSpnsrId")]
 		public string LndFhaSpnsrId { get; set; }
 
-		[DataMember(Name="lndJrsdctn", EmitDefaultValue=false)]
+		[DataMember(Name="lndJrsdctn")]
 		public string LndJrsdctn { get; set; }
 
-		[DataMember(Name="lndLossPayeeAdtlTxt", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeAdtlTxt")]
 		public string LndLossPayeeAdtlTxt { get; set; }
 
-		[DataMember(Name="lndLossPayeeCntctEmail", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeCntctEmail")]
 		public string LndLossPayeeCntctEmail { get; set; }
 
-		[DataMember(Name="lndLossPayeeCntctFax", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeCntctFax")]
 		public string LndLossPayeeCntctFax { get; set; }
 
-		[DataMember(Name="lndLossPayeeCntctNm", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeCntctNm")]
 		public string LndLossPayeeCntctNm { get; set; }
 
-		[DataMember(Name="lndLossPayeeCntctPhone", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeCntctPhone")]
 		public string LndLossPayeeCntctPhone { get; set; }
 
-		[DataMember(Name="lndLossPayeeCty", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeCty")]
 		public string LndLossPayeeCty { get; set; }
 
-		[DataMember(Name="lndLossPayeeJrsdctn", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeJrsdctn")]
 		public string LndLossPayeeJrsdctn { get; set; }
 
-		[DataMember(Name="lndLossPayeeNm", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeNm")]
 		public string LndLossPayeeNm { get; set; }
 
-		[DataMember(Name="lndLossPayeeOrgTyp", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeOrgTyp")]
 		public string LndLossPayeeOrgTyp { get; set; }
 
-		[DataMember(Name="lndLossPayeeScsrsClausTxtDesc", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeScsrsClausTxtDesc")]
 		public string LndLossPayeeScsrsClausTxtDesc { get; set; }
 
-		[DataMember(Name="lndLossPayeeStCd", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeStCd")]
 		public string LndLossPayeeStCd { get; set; }
 
-		[DataMember(Name="lndLossPayeeStreetAddr1", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeStreetAddr1")]
 		public string LndLossPayeeStreetAddr1 { get; set; }
 
-		[DataMember(Name="lndLossPayeeStreetAddr2", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeStreetAddr2")]
 		public string LndLossPayeeStreetAddr2 { get; set; }
 
-		[DataMember(Name="lndLossPayeeZip", EmitDefaultValue=false)]
+		[DataMember(Name="lndLossPayeeZip")]
 		public string LndLossPayeeZip { get; set; }
 
-		[DataMember(Name="lndMersIdNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndMersIdNum")]
 		public string LndMersIdNum { get; set; }
 
-		[DataMember(Name="lndNm", EmitDefaultValue=false)]
+		[DataMember(Name="lndNm")]
 		public string LndNm { get; set; }
 
-		[DataMember(Name="lndNmlsIdNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndNmlsIdNum")]
 		public string LndNmlsIdNum { get; set; }
 
-		[DataMember(Name="lndNtryCmsnBndNumIdntfr", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryCmsnBndNumIdntfr")]
 		public string LndNtryCmsnBndNumIdntfr { get; set; }
 
-		[DataMember(Name="lndNtryCmsnCnty", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryCmsnCnty")]
 		public string LndNtryCmsnCnty { get; set; }
 
-		[DataMember(Name="lndNtryCmsnExprDt", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryCmsnExprDt")]
 		public DateTime? LndNtryCmsnExprDt { get; set; }
 
-		[DataMember(Name="lndNtryCmsnNumIdntfr", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryCmsnNumIdntfr")]
 		public string LndNtryCmsnNumIdntfr { get; set; }
 
-		[DataMember(Name="lndNtryCmsnSt", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryCmsnSt")]
 		public string LndNtryCmsnSt { get; set; }
 
-		[DataMember(Name="lndNtryCty", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryCty")]
 		public string LndNtryCty { get; set; }
 
-		[DataMember(Name="lndNtryNm", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryNm")]
 		public string LndNtryNm { get; set; }
 
-		[DataMember(Name="lndNtryStCd", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryStCd")]
 		public string LndNtryStCd { get; set; }
 
-		[DataMember(Name="lndNtryStreetAddr1", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryStreetAddr1")]
 		public string LndNtryStreetAddr1 { get; set; }
 
-		[DataMember(Name="lndNtryStreetAddr2", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryStreetAddr2")]
 		public string LndNtryStreetAddr2 { get; set; }
 
-		[DataMember(Name="lndNtryTtlOrRank", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryTtlOrRank")]
 		public string LndNtryTtlOrRank { get; set; }
 
-		[DataMember(Name="lndNtryZip", EmitDefaultValue=false)]
+		[DataMember(Name="lndNtryZip")]
 		public string LndNtryZip { get; set; }
 
-		[DataMember(Name="lndOrgTyp", EmitDefaultValue=false)]
+		[DataMember(Name="lndOrgTyp")]
 		public string LndOrgTyp { get; set; }
 
-		[DataMember(Name="lndPhoneNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndPhoneNum")]
 		public string LndPhoneNum { get; set; }
 
-		[DataMember(Name="lndStCd", EmitDefaultValue=false)]
+		[DataMember(Name="lndStCd")]
 		public string LndStCd { get; set; }
 
-		[DataMember(Name="lndStreetAddr1", EmitDefaultValue=false)]
+		[DataMember(Name="lndStreetAddr1")]
 		public string LndStreetAddr1 { get; set; }
 
-		[DataMember(Name="lndStreetAddr2", EmitDefaultValue=false)]
+		[DataMember(Name="lndStreetAddr2")]
 		public string LndStreetAddr2 { get; set; }
 
-		[DataMember(Name="lndSvcrAdtlTxt", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrAdtlTxt")]
 		public string LndSvcrAdtlTxt { get; set; }
 
-		[DataMember(Name="lndSvcrCntctNm", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrCntctNm")]
 		public string LndSvcrCntctNm { get; set; }
 
-		[DataMember(Name="lndSvcrCntctPhoneNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrCntctPhoneNum")]
 		public string LndSvcrCntctPhoneNum { get; set; }
 
-		[DataMember(Name="lndSvcrCntctTollFreePhoneNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrCntctTollFreePhoneNum")]
 		public string LndSvcrCntctTollFreePhoneNum { get; set; }
 
-		[DataMember(Name="lndSvcrCty", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrCty")]
 		public string LndSvcrCty { get; set; }
 
-		[DataMember(Name="lndSvcrDayOp", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrDayOp")]
 		public string LndSvcrDayOp { get; set; }
 
-		[DataMember(Name="lndSvcrDayOpAddl", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrDayOpAddl")]
 		public string LndSvcrDayOpAddl { get; set; }
 
-		[DataMember(Name="lndSvcrHrsOp", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrHrsOp")]
 		public string LndSvcrHrsOp { get; set; }
 
-		[DataMember(Name="lndSvcrHrsOpAddl", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrHrsOpAddl")]
 		public string LndSvcrHrsOpAddl { get; set; }
 
-		[DataMember(Name="lndSvcrJrsdctn", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrJrsdctn")]
 		public string LndSvcrJrsdctn { get; set; }
 
-		[DataMember(Name="lndSvcrNm", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrNm")]
 		public string LndSvcrNm { get; set; }
 
-		[DataMember(Name="lndSvcrOrgTyp", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrOrgTyp")]
 		public string LndSvcrOrgTyp { get; set; }
 
-		[DataMember(Name="lndSvcrStCd", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrStCd")]
 		public string LndSvcrStCd { get; set; }
 
-		[DataMember(Name="lndSvcrStreetAddr1", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrStreetAddr1")]
 		public string LndSvcrStreetAddr1 { get; set; }
 
-		[DataMember(Name="lndSvcrStreetAddr2", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrStreetAddr2")]
 		public string LndSvcrStreetAddr2 { get; set; }
 
-		[DataMember(Name="lndSvcrZip", EmitDefaultValue=false)]
+		[DataMember(Name="lndSvcrZip")]
 		public string LndSvcrZip { get; set; }
 
-		[DataMember(Name="lndTaxIDNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndTaxIDNum")]
 		public string LndTaxIDNum { get; set; }
 
-		[DataMember(Name="lndTollFreePhoneNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndTollFreePhoneNum")]
 		public string LndTollFreePhoneNum { get; set; }
 
-		[DataMember(Name="lndUrl", EmitDefaultValue=false)]
+		[DataMember(Name="lndUrl")]
 		public string LndUrl { get; set; }
 
-		[DataMember(Name="lndVaIdNum", EmitDefaultValue=false)]
+		[DataMember(Name="lndVaIdNum")]
 		public string LndVaIdNum { get; set; }
 
-		[DataMember(Name="lndZip", EmitDefaultValue=false)]
+		[DataMember(Name="lndZip")]
 		public string LndZip { get; set; }
 
 	}

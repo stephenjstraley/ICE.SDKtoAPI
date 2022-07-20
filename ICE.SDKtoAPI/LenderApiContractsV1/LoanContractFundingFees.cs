@@ -5,73 +5,73 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractFundingFees
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
-		public double? Amount { get; set; }
+		[DataMember(Name="amount")]
+		public decimal? Amount { get; set; }
 
-		[DataMember(Name="balanceChecked", EmitDefaultValue=false)]
+		[DataMember(Name="balanceChecked")]
 		public bool? BalanceChecked { get; set; }
 
-		[DataMember(Name="cdLineId", EmitDefaultValue=false)]
+		[DataMember(Name="cdLineId")]
 		public string CdLineId { get; set; }
 
-		[DataMember(Name="feeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="feeDescription")]
 		public string FeeDescription { get; set; }
 
-		[DataMember(Name="feeDescription2015", EmitDefaultValue=false)]
+		[DataMember(Name="feeDescription2015")]
 		public string FeeDescription2015 { get; set; }
 
-		[DataMember(Name="lineId", EmitDefaultValue=false)]
+		[DataMember(Name="lineId")]
 		public string LineId { get; set; }
 
-		[DataMember(Name="lineNumber", EmitDefaultValue=false)]
+		[DataMember(Name="lineNumber")]
 		public int? LineNumber { get; set; }
 
-		[DataMember(Name="pacBroker2015", EmitDefaultValue=false)]
-		public double? PacBroker2015 { get; set; }
+		[DataMember(Name="pacBroker2015")]
+		public decimal? PacBroker2015 { get; set; }
 
-		[DataMember(Name="pacLender2015", EmitDefaultValue=false)]
-		public double? PacLender2015 { get; set; }
+		[DataMember(Name="pacLender2015")]
+		public decimal? PacLender2015 { get; set; }
 
-		[DataMember(Name="pacOther2015", EmitDefaultValue=false)]
-		public double? PacOther2015 { get; set; }
+		[DataMember(Name="pacOther2015")]
+		public decimal? PacOther2015 { get; set; }
 
-		[DataMember(Name="paidBy", EmitDefaultValue=false)]
+		[DataMember(Name="paidBy")]
 		public string PaidBy { get; set; }
 
-		[DataMember(Name="paidTo", EmitDefaultValue=false)]
+		[DataMember(Name="paidTo")]
 		public string PaidTo { get; set; }
 
-		[DataMember(Name="payee", EmitDefaultValue=false)]
+		[DataMember(Name="payee")]
 		public string Payee { get; set; }
 
-		[DataMember(Name="pocAmount", EmitDefaultValue=false)]
-		public double? PocAmount { get; set; }
+		[DataMember(Name="pocAmount")]
+		public decimal? PocAmount { get; set; }
 
-		[DataMember(Name="pocBorrower2015", EmitDefaultValue=false)]
-		public double? PocBorrower2015 { get; set; }
+		[DataMember(Name="pocBorrower2015")]
+		public decimal? PocBorrower2015 { get; set; }
 
-		[DataMember(Name="pocBroker2015", EmitDefaultValue=false)]
-		public double? PocBroker2015 { get; set; }
+		[DataMember(Name="pocBroker2015")]
+		public decimal? PocBroker2015 { get; set; }
 
-		[DataMember(Name="pocLender2015", EmitDefaultValue=false)]
-		public double? PocLender2015 { get; set; }
+		[DataMember(Name="pocLender2015")]
+		public decimal? PocLender2015 { get; set; }
 
-		[DataMember(Name="pocOther2015", EmitDefaultValue=false)]
-		public double? PocOther2015 { get; set; }
+		[DataMember(Name="pocOther2015")]
+		public decimal? PocOther2015 { get; set; }
 
-		[DataMember(Name="pocPaidBy", EmitDefaultValue=false)]
+		[DataMember(Name="pocPaidBy")]
 		public string PocPaidBy { get; set; }
 
-		[DataMember(Name="pocSeller2015", EmitDefaultValue=false)]
-		public double? PocSeller2015 { get; set; }
+		[DataMember(Name="pocSeller2015")]
+		public decimal? PocSeller2015 { get; set; }
 
-		[DataMember(Name="ptcAmount", EmitDefaultValue=false)]
-		public double? PtcAmount { get; set; }
+		[DataMember(Name="ptcAmount")]
+		public decimal? PtcAmount { get; set; }
 
-		[DataMember(Name="ptcPaidBy", EmitDefaultValue=false)]
+		[DataMember(Name="ptcPaidBy")]
 		public string PtcPaidBy { get; set; }
 
-		[DataMember(Name="tag", EmitDefaultValue=false)]
+		[DataMember(Name="tag")]
 		public object Tag { get; set; }
 
 	}

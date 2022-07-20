@@ -7,28 +7,28 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractLoanActionLogs
 	{
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<LoanContractAlerts> Alerts { get; set; }
 
-		[DataMember(Name="commentList", EmitDefaultValue=false)]
+		[DataMember(Name="commentList")]
 		public List<LoanContractLogRecordCommentList> CommentList { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="dateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="dateUtc")]
 		public DateTime? DateUtc { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="loanActionType", EmitDefaultValue=false)]
+		[DataMember(Name="loanActionType")]
 		public string LoanActionType { get; set; }
 
-		[DataMember(Name="triggeredBy", EmitDefaultValue=false)]
+		[DataMember(Name="triggeredBy")]
 		public string TriggeredBy { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
 	}

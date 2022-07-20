@@ -5,37 +5,37 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class MilestoneContract
 	{
-		[DataMember(Name="actualDays ", EmitDefaultValue=false)]
+		[DataMember(Name="actualDays ")]
 		public int? ActualDays { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="doneIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="doneIndicator")]
 		public bool? DoneIndicator { get; set; }
 
-		[DataMember(Name="expectedDays", EmitDefaultValue=false)]
+		[DataMember(Name="expectedDays")]
 		public int? ExpectedDays { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="loanAssociate", EmitDefaultValue=false)]
+		[DataMember(Name="loanAssociate")]
 		public MilestoneContractLoanAssociate LoanAssociate { get; set; }
 
-		[DataMember(Name="milestoneIdString", EmitDefaultValue=false)]
+		[DataMember(Name="milestoneIdString")]
 		public string MilestoneIdString { get; set; }
 
-		[DataMember(Name="milestoneName", EmitDefaultValue=false)]
+		[DataMember(Name="milestoneName")]
 		public string MilestoneName { get; set; }
 
-		[DataMember(Name="reviewedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="reviewedIndicator")]
 		public bool? ReviewedIndicator { get; set; }
 
-		[DataMember(Name="roleRequired", EmitDefaultValue=false)]
+		[DataMember(Name="roleRequired")]
 		public bool? RoleRequired { get; set; }
 
-		[DataMember(Name="startDate", EmitDefaultValue=false)]
+		[DataMember(Name="startDate")]
 		public string StartDate { get; set; }
 
 	}

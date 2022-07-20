@@ -7,64 +7,64 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractMilestoneLogs
 	{
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<LoanContractAlerts> Alerts { get; set; }
 
-		[DataMember(Name="commentList", EmitDefaultValue=false)]
+		[DataMember(Name="commentList")]
 		public List<LoanContractLogRecordCommentList> CommentList { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="dateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="dateUtc")]
 		public DateTime? DateUtc { get; set; }
 
-		[DataMember(Name="days", EmitDefaultValue=false)]
+		[DataMember(Name="days")]
 		public int? Days { get; set; }
 
-		[DataMember(Name="doneIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="doneIndicator")]
 		public bool? DoneIndicator { get; set; }
 
-		[DataMember(Name="duration", EmitDefaultValue=false)]
+		[DataMember(Name="duration")]
 		public int? Duration { get; set; }
 
-		[DataMember(Name="fileAttachmentsMigrated", EmitDefaultValue=false)]
+		[DataMember(Name="fileAttachmentsMigrated")]
 		public bool? FileAttachmentsMigrated { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isSystemSpecificIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="isSystemSpecificIndicator")]
 		public bool? IsSystemSpecificIndicator { get; set; }
 
-		[DataMember(Name="loanAssociate", EmitDefaultValue=false)]
+		[DataMember(Name="loanAssociate")]
 		public LoanContractLoanAssociate LoanAssociate { get; set; }
 
-		[DataMember(Name="logRecordIndex", EmitDefaultValue=false)]
+		[DataMember(Name="logRecordIndex")]
 		public int? LogRecordIndex { get; set; }
 
-		[DataMember(Name="milestoneIdString", EmitDefaultValue=false)]
+		[DataMember(Name="milestoneIdString")]
 		public string MilestoneIdString { get; set; }
 
-		[DataMember(Name="reviewedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="reviewedIndicator")]
 		public bool? ReviewedIndicator { get; set; }
 
-		[DataMember(Name="roleRequired", EmitDefaultValue=false)]
+		[DataMember(Name="roleRequired")]
 		public string RoleRequired { get; set; }
 
-		[DataMember(Name="stage", EmitDefaultValue=false)]
+		[DataMember(Name="stage")]
 		public string Stage { get; set; }
 
-		[DataMember(Name="systemId", EmitDefaultValue=false)]
+		[DataMember(Name="systemId")]
 		public string SystemId { get; set; }
 
-		[DataMember(Name="tPOConnectStatus", EmitDefaultValue=false)]
+		[DataMember(Name="tPOConnectStatus")]
 		public string TPOConnectStatus { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
 	}

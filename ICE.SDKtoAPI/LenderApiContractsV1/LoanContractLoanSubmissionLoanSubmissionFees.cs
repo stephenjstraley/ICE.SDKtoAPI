@@ -5,23 +5,23 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractLoanSubmissionLoanSubmissionFees
 	{
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="dueBroker", EmitDefaultValue=false)]
-		public double? DueBroker { get; set; }
+		[DataMember(Name="dueBroker")]
+		public decimal? DueBroker { get; set; }
 
-		[DataMember(Name="dueLender", EmitDefaultValue=false)]
-		public double? DueLender { get; set; }
+		[DataMember(Name="dueLender")]
+		public decimal? DueLender { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="loanSubmissionFeeType", EmitDefaultValue=false)]
+		[DataMember(Name="loanSubmissionFeeType")]
 		public string LoanSubmissionFeeType { get; set; }
 
-		[DataMember(Name="total", EmitDefaultValue=false)]
-		public double? Total { get; set; }
+		[DataMember(Name="total")]
+		public decimal? Total { get; set; }
 
 	}
 }

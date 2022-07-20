@@ -653,7 +653,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "ausOrderLinkId")]
         public string AusOrderLinkId { get; set; }
 
-        [DataMember(Name = "curedAusAverageMedianCreditScore", EmitDefaultValue = false)]
+        [DataMember(Name = "curedAusAverageMedianCreditScore")]
         public string CuredAusAverageMedianCreditScore { get; set; }
     }
 }

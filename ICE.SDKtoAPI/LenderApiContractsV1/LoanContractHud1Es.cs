@@ -7,263 +7,263 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractHud1Es
 	{
-		[DataMember(Name="annualCityTax", EmitDefaultValue=false)]
-		public double? AnnualCityTax { get; set; }
+		[DataMember(Name="annualCityTax")]
+		public decimal? AnnualCityTax { get; set; }
 
-		[DataMember(Name="annualFeeCushion", EmitDefaultValue=false)]
+		[DataMember(Name="annualFeeCushion")]
 		public int? AnnualFeeCushion { get; set; }
 
-		[DataMember(Name="annualFloodInsurance", EmitDefaultValue=false)]
-		public double? AnnualFloodInsurance { get; set; }
+		[DataMember(Name="annualFloodInsurance")]
+		public decimal? AnnualFloodInsurance { get; set; }
 
-		[DataMember(Name="annualHazardInsurance", EmitDefaultValue=false)]
-		public double? AnnualHazardInsurance { get; set; }
+		[DataMember(Name="annualHazardInsurance")]
+		public decimal? AnnualHazardInsurance { get; set; }
 
-		[DataMember(Name="annualMortgageInsurance", EmitDefaultValue=false)]
-		public double? AnnualMortgageInsurance { get; set; }
+		[DataMember(Name="annualMortgageInsurance")]
+		public decimal? AnnualMortgageInsurance { get; set; }
 
-		[DataMember(Name="annualTax", EmitDefaultValue=false)]
-		public double? AnnualTax { get; set; }
+		[DataMember(Name="annualTax")]
+		public decimal? AnnualTax { get; set; }
 
-		[DataMember(Name="annualUserEscrow1", EmitDefaultValue=false)]
-		public double? AnnualUserEscrow1 { get; set; }
+		[DataMember(Name="annualUserEscrow1")]
+		public decimal? AnnualUserEscrow1 { get; set; }
 
-		[DataMember(Name="annualUserEscrow2", EmitDefaultValue=false)]
-		public double? AnnualUserEscrow2 { get; set; }
+		[DataMember(Name="annualUserEscrow2")]
+		public decimal? AnnualUserEscrow2 { get; set; }
 
-		[DataMember(Name="annualUserEscrow3", EmitDefaultValue=false)]
-		public double? AnnualUserEscrow3 { get; set; }
+		[DataMember(Name="annualUserEscrow3")]
+		public decimal? AnnualUserEscrow3 { get; set; }
 
-		[DataMember(Name="biweeklyCityPropertyTaxes", EmitDefaultValue=false)]
-		public double? BiweeklyCityPropertyTaxes { get; set; }
+		[DataMember(Name="biweeklyCityPropertyTaxes")]
+		public decimal? BiweeklyCityPropertyTaxes { get; set; }
 
-		[DataMember(Name="biweeklyCountyTaxes", EmitDefaultValue=false)]
-		public double? BiweeklyCountyTaxes { get; set; }
+		[DataMember(Name="biweeklyCountyTaxes")]
+		public decimal? BiweeklyCountyTaxes { get; set; }
 
-		[DataMember(Name="biweeklyFloodInsurance", EmitDefaultValue=false)]
-		public double? BiweeklyFloodInsurance { get; set; }
+		[DataMember(Name="biweeklyFloodInsurance")]
+		public decimal? BiweeklyFloodInsurance { get; set; }
 
-		[DataMember(Name="biweeklyHazardInsurance", EmitDefaultValue=false)]
-		public double? BiweeklyHazardInsurance { get; set; }
+		[DataMember(Name="biweeklyHazardInsurance")]
+		public decimal? BiweeklyHazardInsurance { get; set; }
 
-		[DataMember(Name="biweeklyMortgageInsurance", EmitDefaultValue=false)]
-		public double? BiweeklyMortgageInsurance { get; set; }
+		[DataMember(Name="biweeklyMortgageInsurance")]
+		public decimal? BiweeklyMortgageInsurance { get; set; }
 
-		[DataMember(Name="biweeklyPITI", EmitDefaultValue=false)]
-		public double? BiweeklyPITI { get; set; }
+		[DataMember(Name="biweeklyPITI")]
+		public decimal? BiweeklyPITI { get; set; }
 
-		[DataMember(Name="biweeklyTotalBiweeklyPayment", EmitDefaultValue=false)]
-		public double? BiweeklyTotalBiweeklyPayment { get; set; }
+		[DataMember(Name="biweeklyTotalBiweeklyPayment")]
+		public decimal? BiweeklyTotalBiweeklyPayment { get; set; }
 
-		[DataMember(Name="biweeklyTotalBiweeklyPaymentToEscrow", EmitDefaultValue=false)]
-		public double? BiweeklyTotalBiweeklyPaymentToEscrow { get; set; }
+		[DataMember(Name="biweeklyTotalBiweeklyPaymentToEscrow")]
+		public decimal? BiweeklyTotalBiweeklyPaymentToEscrow { get; set; }
 
-		[DataMember(Name="biweeklyUSDAFee", EmitDefaultValue=false)]
-		public double? BiweeklyUSDAFee { get; set; }
+		[DataMember(Name="biweeklyUSDAFee")]
+		public decimal? BiweeklyUSDAFee { get; set; }
 
-		[DataMember(Name="biweeklyUserDefinedEscrowFee1", EmitDefaultValue=false)]
-		public double? BiweeklyUserDefinedEscrowFee1 { get; set; }
+		[DataMember(Name="biweeklyUserDefinedEscrowFee1")]
+		public decimal? BiweeklyUserDefinedEscrowFee1 { get; set; }
 
-		[DataMember(Name="biweeklyUserDefinedEscrowFee2", EmitDefaultValue=false)]
-		public double? BiweeklyUserDefinedEscrowFee2 { get; set; }
+		[DataMember(Name="biweeklyUserDefinedEscrowFee2")]
+		public decimal? BiweeklyUserDefinedEscrowFee2 { get; set; }
 
-		[DataMember(Name="biweeklyUserDefinedEscrowFee3", EmitDefaultValue=false)]
-		public double? BiweeklyUserDefinedEscrowFee3 { get; set; }
+		[DataMember(Name="biweeklyUserDefinedEscrowFee3")]
+		public decimal? BiweeklyUserDefinedEscrowFee3 { get; set; }
 
-		[DataMember(Name="cityPropertyTaxAddress", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxAddress")]
 		public string CityPropertyTaxAddress { get; set; }
 
-		[DataMember(Name="cityPropertyTaxAmountLastPay", EmitDefaultValue=false)]
-		public double? CityPropertyTaxAmountLastPay { get; set; }
+		[DataMember(Name="cityPropertyTaxAmountLastPay")]
+		public decimal? CityPropertyTaxAmountLastPay { get; set; }
 
-		[DataMember(Name="cityPropertyTaxAmountNextDue", EmitDefaultValue=false)]
-		public double? CityPropertyTaxAmountNextDue { get; set; }
+		[DataMember(Name="cityPropertyTaxAmountNextDue")]
+		public decimal? CityPropertyTaxAmountNextDue { get; set; }
 
-		[DataMember(Name="cityPropertyTaxCity", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxCity")]
 		public string CityPropertyTaxCity { get; set; }
 
-		[DataMember(Name="cityPropertyTaxContactName", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxContactName")]
 		public string CityPropertyTaxContactName { get; set; }
 
-		[DataMember(Name="cityPropertyTaxDatePaid", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxDatePaid")]
 		public DateTime? CityPropertyTaxDatePaid { get; set; }
 
-		[DataMember(Name="cityPropertyTaxDelinquentDate", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxDelinquentDate")]
 		public DateTime? CityPropertyTaxDelinquentDate { get; set; }
 
-		[DataMember(Name="cityPropertyTaxEmail", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxEmail")]
 		public string CityPropertyTaxEmail { get; set; }
 
-		[DataMember(Name="cityPropertyTaxFax", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxFax")]
 		public string CityPropertyTaxFax { get; set; }
 
-		[DataMember(Name="cityPropertyTaxName", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxName")]
 		public string CityPropertyTaxName { get; set; }
 
-		[DataMember(Name="cityPropertyTaxNextDueDate", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxNextDueDate")]
 		public DateTime? CityPropertyTaxNextDueDate { get; set; }
 
-		[DataMember(Name="cityPropertyTaxPaymentSchedule", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxPaymentSchedule")]
 		public string CityPropertyTaxPaymentSchedule { get; set; }
 
-		[DataMember(Name="cityPropertyTaxPhone", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxPhone")]
 		public string CityPropertyTaxPhone { get; set; }
 
-		[DataMember(Name="cityPropertyTaxPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxPostalCode")]
 		public string CityPropertyTaxPostalCode { get; set; }
 
-		[DataMember(Name="cityPropertyTaxState", EmitDefaultValue=false)]
+		[DataMember(Name="cityPropertyTaxState")]
 		public string CityPropertyTaxState { get; set; }
 
-		[DataMember(Name="endingBalance", EmitDefaultValue=false)]
-		public double? EndingBalance { get; set; }
+		[DataMember(Name="endingBalance")]
+		public decimal? EndingBalance { get; set; }
 
-		[DataMember(Name="escrowFirstPaymentDate", EmitDefaultValue=false)]
+		[DataMember(Name="escrowFirstPaymentDate")]
 		public DateTime? EscrowFirstPaymentDate { get; set; }
 
-		[DataMember(Name="escrowFirstPaymentDateType", EmitDefaultValue=false)]
+		[DataMember(Name="escrowFirstPaymentDateType")]
 		public string EscrowFirstPaymentDateType { get; set; }
 
-		[DataMember(Name="escrowPayment", EmitDefaultValue=false)]
-		public double? EscrowPayment { get; set; }
+		[DataMember(Name="escrowPayment")]
+		public decimal? EscrowPayment { get; set; }
 
-		[DataMember(Name="escrowPaymentYearly", EmitDefaultValue=false)]
-		public double? EscrowPaymentYearly { get; set; }
+		[DataMember(Name="escrowPaymentYearly")]
+		public decimal? EscrowPaymentYearly { get; set; }
 
-		[DataMember(Name="floodInsDisbCushion", EmitDefaultValue=false)]
+		[DataMember(Name="floodInsDisbCushion")]
 		public int? FloodInsDisbCushion { get; set; }
 
-		[DataMember(Name="hazInsDisbCushion", EmitDefaultValue=false)]
+		[DataMember(Name="hazInsDisbCushion")]
 		public int? HazInsDisbCushion { get; set; }
 
-		[DataMember(Name="hud1EsDates", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsDates")]
 		public List<LoanContractHud1EsHud1EsDates> Hud1EsDates { get; set; }
 
-		[DataMember(Name="hud1EsDueDates", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsDueDates")]
 		public List<LoanContractHud1EsHud1EsDueDates> Hud1EsDueDates { get; set; }
 
-		[DataMember(Name="hud1EsItemizes", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsItemizes")]
 		public List<LoanContractHud1EsHud1EsItemizes> Hud1EsItemizes { get; set; }
 
-		[DataMember(Name="hud1EsItemizesTotalLines", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsItemizesTotalLines")]
 		public int? Hud1EsItemizesTotalLines { get; set; }
 
-		[DataMember(Name="hud1EsItemizesUseItemizeEscrowIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsItemizesUseItemizeEscrowIndicator")]
 		public bool? Hud1EsItemizesUseItemizeEscrowIndicator { get; set; }
 
-		[DataMember(Name="hud1EsPayTos", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsPayTos")]
 		public List<LoanContractHud1EsHud1EsPayTos> Hud1EsPayTos { get; set; }
 
-		[DataMember(Name="hud1EsSetups", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsSetups")]
 		public List<LoanContractHud1EsHud1EsSetups> Hud1EsSetups { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="mtgInsCushionTerminationIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="mtgInsCushionTerminationIndicator")]
 		public bool? MtgInsCushionTerminationIndicator { get; set; }
 
-		[DataMember(Name="mtgInsDisbCushion", EmitDefaultValue=false)]
+		[DataMember(Name="mtgInsDisbCushion")]
 		public int? MtgInsDisbCushion { get; set; }
 
-		[DataMember(Name="nonEscrowCostsYearly", EmitDefaultValue=false)]
-		public double? NonEscrowCostsYearly { get; set; }
+		[DataMember(Name="nonEscrowCostsYearly")]
+		public decimal? NonEscrowCostsYearly { get; set; }
 
-		[DataMember(Name="realEstateTaxAddress", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxAddress")]
 		public string RealEstateTaxAddress { get; set; }
 
-		[DataMember(Name="realEstateTaxAmountLastPay", EmitDefaultValue=false)]
-		public double? RealEstateTaxAmountLastPay { get; set; }
+		[DataMember(Name="realEstateTaxAmountLastPay")]
+		public decimal? RealEstateTaxAmountLastPay { get; set; }
 
-		[DataMember(Name="realEstateTaxAmountNextDue", EmitDefaultValue=false)]
-		public double? RealEstateTaxAmountNextDue { get; set; }
+		[DataMember(Name="realEstateTaxAmountNextDue")]
+		public decimal? RealEstateTaxAmountNextDue { get; set; }
 
-		[DataMember(Name="realEstateTaxCity", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxCity")]
 		public string RealEstateTaxCity { get; set; }
 
-		[DataMember(Name="realEstateTaxContactName", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxContactName")]
 		public string RealEstateTaxContactName { get; set; }
 
-		[DataMember(Name="realEstateTaxDatePaid", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxDatePaid")]
 		public DateTime? RealEstateTaxDatePaid { get; set; }
 
-		[DataMember(Name="realEstateTaxDelinquentDate", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxDelinquentDate")]
 		public DateTime? RealEstateTaxDelinquentDate { get; set; }
 
-		[DataMember(Name="realEstateTaxEmail", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxEmail")]
 		public string RealEstateTaxEmail { get; set; }
 
-		[DataMember(Name="realEstateTaxFax", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxFax")]
 		public string RealEstateTaxFax { get; set; }
 
-		[DataMember(Name="realEstateTaxName", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxName")]
 		public string RealEstateTaxName { get; set; }
 
-		[DataMember(Name="realEstateTaxNextDueDate", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxNextDueDate")]
 		public DateTime? RealEstateTaxNextDueDate { get; set; }
 
-		[DataMember(Name="realEstateTaxPaymentSchedule", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxPaymentSchedule")]
 		public string RealEstateTaxPaymentSchedule { get; set; }
 
-		[DataMember(Name="realEstateTaxPhone", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxPhone")]
 		public string RealEstateTaxPhone { get; set; }
 
-		[DataMember(Name="realEstateTaxPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxPostalCode")]
 		public string RealEstateTaxPostalCode { get; set; }
 
-		[DataMember(Name="realEstateTaxState", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateTaxState")]
 		public string RealEstateTaxState { get; set; }
 
-		[DataMember(Name="schoolTaxesCushion", EmitDefaultValue=false)]
+		[DataMember(Name="schoolTaxesCushion")]
 		public int? SchoolTaxesCushion { get; set; }
 
-		[DataMember(Name="servicerAddress", EmitDefaultValue=false)]
+		[DataMember(Name="servicerAddress")]
 		public string ServicerAddress { get; set; }
 
-		[DataMember(Name="servicerCity", EmitDefaultValue=false)]
+		[DataMember(Name="servicerCity")]
 		public string ServicerCity { get; set; }
 
-		[DataMember(Name="servicerContactName", EmitDefaultValue=false)]
+		[DataMember(Name="servicerContactName")]
 		public string ServicerContactName { get; set; }
 
-		[DataMember(Name="servicerPhone", EmitDefaultValue=false)]
+		[DataMember(Name="servicerPhone")]
 		public string ServicerPhone { get; set; }
 
-		[DataMember(Name="servicerPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="servicerPostalCode")]
 		public string ServicerPostalCode { get; set; }
 
-		[DataMember(Name="servicerState", EmitDefaultValue=false)]
+		[DataMember(Name="servicerState")]
 		public string ServicerState { get; set; }
 
-		[DataMember(Name="singleLineAnalysis", EmitDefaultValue=false)]
-		public double? SingleLineAnalysis { get; set; }
+		[DataMember(Name="singleLineAnalysis")]
+		public decimal? SingleLineAnalysis { get; set; }
 
-		[DataMember(Name="startingBalance", EmitDefaultValue=false)]
-		public double? StartingBalance { get; set; }
+		[DataMember(Name="startingBalance")]
+		public decimal? StartingBalance { get; set; }
 
-		[DataMember(Name="taxDisbCushion", EmitDefaultValue=false)]
+		[DataMember(Name="taxDisbCushion")]
 		public int? TaxDisbCushion { get; set; }
 
-		[DataMember(Name="totalEscrowReserves", EmitDefaultValue=false)]
-		public double? TotalEscrowReserves { get; set; }
+		[DataMember(Name="totalEscrowReserves")]
+		public decimal? TotalEscrowReserves { get; set; }
 
-		[DataMember(Name="usdaAnnualFee", EmitDefaultValue=false)]
-		public double? UsdaAnnualFee { get; set; }
+		[DataMember(Name="usdaAnnualFee")]
+		public decimal? UsdaAnnualFee { get; set; }
 
-		[DataMember(Name="userDefinedCushion1", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedCushion1")]
 		public int? UserDefinedCushion1 { get; set; }
 
-		[DataMember(Name="userDefinedCushion2", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedCushion2")]
 		public int? UserDefinedCushion2 { get; set; }
 
-		[DataMember(Name="userDefinedCushion3", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedCushion3")]
 		public int? UserDefinedCushion3 { get; set; }
 
-		[DataMember(Name="yearlyMortgageInsurance", EmitDefaultValue=false)]
-		public double? YearlyMortgageInsurance { get; set; }
+		[DataMember(Name="yearlyMortgageInsurance")]
+		public decimal? YearlyMortgageInsurance { get; set; }
 
-		[DataMember(Name="yearlyUsdaFee", EmitDefaultValue=false)]
-		public double? YearlyUsdaFee { get; set; }
+		[DataMember(Name="yearlyUsdaFee")]
+		public decimal? YearlyUsdaFee { get; set; }
 
 	}
 }

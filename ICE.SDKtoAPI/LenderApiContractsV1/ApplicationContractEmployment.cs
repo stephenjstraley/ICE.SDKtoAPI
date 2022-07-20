@@ -6,208 +6,208 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class ApplicationContractEmployment
 	{
-		[DataMember(Name="addressCity", EmitDefaultValue=false)]
+		[DataMember(Name="addressCity")]
 		public string AddressCity { get; set; }
 
-		[DataMember(Name="addressPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="addressPostalCode")]
 		public string AddressPostalCode { get; set; }
 
-		[DataMember(Name="addressState", EmitDefaultValue=false)]
+		[DataMember(Name="addressState")]
 		public string AddressState { get; set; }
 
-		[DataMember(Name="addressStreetLine1", EmitDefaultValue=false)]
+		[DataMember(Name="addressStreetLine1")]
 		public string AddressStreetLine1 { get; set; }
 
-		[DataMember(Name="altId", EmitDefaultValue=false)]
+		[DataMember(Name="altId")]
 		public string AltId { get; set; }
 
-		[DataMember(Name="attention", EmitDefaultValue=false)]
+		[DataMember(Name="attention")]
 		public string Attention { get; set; }
 
-		[DataMember(Name="badgeOrEmployeeID", EmitDefaultValue=false)]
+		[DataMember(Name="badgeOrEmployeeID")]
 		public string BadgeOrEmployeeID { get; set; }
 
-		[DataMember(Name="basePayAmount", EmitDefaultValue=false)]
-		public double? BasePayAmount { get; set; }
+		[DataMember(Name="basePayAmount")]
+		public decimal? BasePayAmount { get; set; }
 
-		[DataMember(Name="bonusAmount", EmitDefaultValue=false)]
-		public double? BonusAmount { get; set; }
+		[DataMember(Name="bonusAmount")]
+		public decimal? BonusAmount { get; set; }
 
-		[DataMember(Name="businessName", EmitDefaultValue=false)]
+		[DataMember(Name="businessName")]
 		public string BusinessName { get; set; }
 
-		[DataMember(Name="businessOwnedPercent", EmitDefaultValue=false)]
-		public double? BusinessOwnedPercent { get; set; }
+		[DataMember(Name="businessOwnedPercent")]
+		public decimal? BusinessOwnedPercent { get; set; }
 
-		[DataMember(Name="businessPhone", EmitDefaultValue=false)]
+		[DataMember(Name="businessPhone")]
 		public string BusinessPhone { get; set; }
 
-		[DataMember(Name="commissionsAmount", EmitDefaultValue=false)]
-		public double? CommissionsAmount { get; set; }
+		[DataMember(Name="commissionsAmount")]
+		public decimal? CommissionsAmount { get; set; }
 
-		[DataMember(Name="contact", EmitDefaultValue=false)]
+		[DataMember(Name="contact")]
 		public ApplicationContractContact Contact { get; set; }
 
-		[DataMember(Name="currentEmploymentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="currentEmploymentIndicator")]
 		public bool? CurrentEmploymentIndicator { get; set; }
 
-		[DataMember(Name="email", EmitDefaultValue=false)]
+		[DataMember(Name="email")]
 		public string Email { get; set; }
 
-		[DataMember(Name="employerComments", EmitDefaultValue=false)]
+		[DataMember(Name="employerComments")]
 		public string EmployerComments { get; set; }
 
-		[DataMember(Name="employerName", EmitDefaultValue=false)]
+		[DataMember(Name="employerName")]
 		public string EmployerName { get; set; }
 
-		[DataMember(Name="endDate", EmitDefaultValue=false)]
+		[DataMember(Name="endDate")]
 		public DateTime? EndDate { get; set; }
 
-		[DataMember(Name="entityDeleted", EmitDefaultValue=false)]
+		[DataMember(Name="entityDeleted")]
 		public bool? EntityDeleted { get; set; }
 
-		[DataMember(Name="fax", EmitDefaultValue=false)]
+		[DataMember(Name="fax")]
 		public string Fax { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="monthlyIncomeAmount", EmitDefaultValue=false)]
+		[DataMember(Name="monthlyIncomeAmount")]
 		public int? MonthlyIncomeAmount { get; set; }
 
-		[DataMember(Name="noLinkToDocTrackIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="noLinkToDocTrackIndicator")]
 		public bool? NoLinkToDocTrackIndicator { get; set; }
 
-		[DataMember(Name="otherAmount", EmitDefaultValue=false)]
-		public double? OtherAmount { get; set; }
+		[DataMember(Name="otherAmount")]
+		public decimal? OtherAmount { get; set; }
 
-		[DataMember(Name="overtimeAmount", EmitDefaultValue=false)]
-		public double? OvertimeAmount { get; set; }
+		[DataMember(Name="overtimeAmount")]
+		public decimal? OvertimeAmount { get; set; }
 
-		[DataMember(Name="owner", EmitDefaultValue=false)]
+		[DataMember(Name="owner")]
 		public string Owner { get; set; }
 
-		[DataMember(Name="phoneNumber", EmitDefaultValue=false)]
+		[DataMember(Name="phoneNumber")]
 		public string PhoneNumber { get; set; }
 
-		[DataMember(Name="positionDescription", EmitDefaultValue=false)]
+		[DataMember(Name="positionDescription")]
 		public string PositionDescription { get; set; }
 
-		[DataMember(Name="printAttachmentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="printAttachmentIndicator")]
 		public bool? PrintAttachmentIndicator { get; set; }
 
-		[DataMember(Name="printUserNameIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="printUserNameIndicator")]
 		public bool? PrintUserNameIndicator { get; set; }
 
-		[DataMember(Name="selfEmployedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="selfEmployedIndicator")]
 		public bool? SelfEmployedIndicator { get; set; }
 
-		[DataMember(Name="startDate", EmitDefaultValue=false)]
+		[DataMember(Name="startDate")]
 		public DateTime? StartDate { get; set; }
 
-		[DataMember(Name="timeInLineOfWorkMonths", EmitDefaultValue=false)]
+		[DataMember(Name="timeInLineOfWorkMonths")]
 		public int? TimeInLineOfWorkMonths { get; set; }
 
-		[DataMember(Name="timeInLineOfWorkYears", EmitDefaultValue=false)]
+		[DataMember(Name="timeInLineOfWorkYears")]
 		public int? TimeInLineOfWorkYears { get; set; }
 
-		[DataMember(Name="timeOnJobTermMonths", EmitDefaultValue=false)]
+		[DataMember(Name="timeOnJobTermMonths")]
 		public int? TimeOnJobTermMonths { get; set; }
 
-		[DataMember(Name="timeOnJobTermYears", EmitDefaultValue=false)]
+		[DataMember(Name="timeOnJobTermYears")]
 		public int? TimeOnJobTermYears { get; set; }
 
-		[DataMember(Name="title", EmitDefaultValue=false)]
+		[DataMember(Name="title")]
 		public string Title { get; set; }
 
-		[DataMember(Name="titleFax", EmitDefaultValue=false)]
+		[DataMember(Name="titleFax")]
 		public string TitleFax { get; set; }
 
-		[DataMember(Name = "employmentStartDate", EmitDefaultValue = false)]
+		[DataMember(Name = "employmentStartDate")]
 		public DateTime? EmploymentStartDate { get; set; }
 
-		[DataMember(Name="titlePhone", EmitDefaultValue=false)]
+		[DataMember(Name="titlePhone")]
 		public string TitlePhone { get; set; }
 
-		[DataMember(Name="verificationRequestDate", EmitDefaultValue=false)]
+		[DataMember(Name="verificationRequestDate")]
 		public DateTime? VerificationRequestDate { get; set; }
 
-		[DataMember(Name = "jobTermMonths", EmitDefaultValue = false)]
+		[DataMember(Name = "jobTermMonths")]
 		public int? JobTermMonths { get; set; }
 
-		[DataMember(Name = "militaryEntitlement", EmitDefaultValue = false)]
-		public double? MilitaryEntitlement { get; set; }
+		[DataMember(Name = "militaryEntitlement")]
+		public decimal? MilitaryEntitlement { get; set; }
 
-		[DataMember(Name = "specialEmployerRelationshipIndicator", EmitDefaultValue = false)]
+		[DataMember(Name = "specialEmployerRelationshipIndicator")]
 		public bool? SpecialEmployerRelationshipIndicator { get; set; }
 
-		[DataMember(Name = "ownershipInterestType", EmitDefaultValue = false)]
+		[DataMember(Name = "ownershipInterestType")]
 		public string OwnershipInterestType { get; set; }
 
-		[DataMember(Name = "employmentMonthlyIncomeAmount", EmitDefaultValue = false)]
+		[DataMember(Name = "employmentMonthlyIncomeAmount")]
 		public decimal? EmploymentMonthlyIncomeAmount { get; set; }
 
-		[DataMember(Name = "unitType", EmitDefaultValue = false)]
+		[DataMember(Name = "unitType")]
 		public string UnitType { get; set; }
 
-		[DataMember(Name = "unitNumber", EmitDefaultValue = false)]
+		[DataMember(Name = "unitNumber")]
 		public string UnitNumber { get; set; }
 
-		[DataMember(Name = "uRLA2020StreetAddress", EmitDefaultValue = false)]
+		[DataMember(Name = "uRLA2020StreetAddress")]
 		public string URLA2020StreetAddress { get; set; }
 
-		[DataMember(Name = "countryCode", EmitDefaultValue = false)]
+		[DataMember(Name = "countryCode")]
 		public string CountryCode { get; set; }
 
-		[DataMember(Name = "individualEmployer", EmitDefaultValue = false)]
+		[DataMember(Name = "individualEmployer")]
 		public bool? IndividualEmployer { get; set; }
 
-		[DataMember(Name = "militaryEmployer", EmitDefaultValue = false)]
+		[DataMember(Name = "militaryEmployer")]
 		public bool? MilitaryEmployer { get; set; }
 
-		[DataMember(Name = "printUserJobTitleIndicator", EmitDefaultValue = false)]
+		[DataMember(Name = "printUserJobTitleIndicator")]
 		public bool? PrintUserJobTitleIndicator { get; set; }
 
-		[DataMember(Name = "militaryCombatPay", EmitDefaultValue = false)]
+		[DataMember(Name = "militaryCombatPay")]
 		public decimal? MilitaryCombatPay { get; set; }
 
-		[DataMember(Name = "militaryHazardPay", EmitDefaultValue = false)]
+		[DataMember(Name = "militaryHazardPay")]
 		public decimal? MilitaryHazardPay { get; set; }
 
-		[DataMember(Name = "militaryOverseasPay", EmitDefaultValue = false)]
+		[DataMember(Name = "militaryOverseasPay")]
 		public decimal? MilitaryOverseasPay { get; set; }
 
-		[DataMember(Name = "militaryPropPay", EmitDefaultValue = false)]
+		[DataMember(Name = "militaryPropPay")]
 		public decimal? MilitaryPropPay { get; set; }
 
-		[DataMember(Name = "clothingAllowance", EmitDefaultValue = false)]
+		[DataMember(Name = "clothingAllowance")]
 		public decimal? ClothingAllowance { get; set; }
 
-		[DataMember(Name = "rationsAllowance", EmitDefaultValue = false)]
+		[DataMember(Name = "rationsAllowance")]
 		public decimal? RationsAllowance { get; set; }
 
-		[DataMember(Name = "variableHousingAllowance", EmitDefaultValue = false)]
+		[DataMember(Name = "variableHousingAllowance")]
 		public decimal? VariableHousingAllowance { get; set; }
 
-		[DataMember(Name = "quartersAllowance", EmitDefaultValue = false)]
+		[DataMember(Name = "quartersAllowance")]
 		public decimal? QuartersAllowance { get; set; }
 
-		[DataMember(Name = "otherAllowanceDescription", EmitDefaultValue = false)]
+		[DataMember(Name = "otherAllowanceDescription")]
 		public string OtherAllowanceDescription { get; set; }
 
-		[DataMember(Name = "foreignIncome", EmitDefaultValue = false)]
+		[DataMember(Name = "foreignIncome")]
 		public bool? ForeignIncome { get; set; }
 
-		[DataMember(Name = "seasonalIncome", EmitDefaultValue = false)]
+		[DataMember(Name = "seasonalIncome")]
 		public bool? SeasonalIncome { get; set; }
 
-		[DataMember(Name = "verificationDate", EmitDefaultValue = false)]
+		[DataMember(Name = "verificationDate")]
 		public DateTime? VerificationDate { get; set; }
 
-		[DataMember(Name = "country", EmitDefaultValue = false)]
+		[DataMember(Name = "country")]
 		public string Country { get; set; }
 
-		[DataMember(Name = "foreignAddressIndicator", EmitDefaultValue = false)]
+		[DataMember(Name = "foreignAddressIndicator")]
 		public bool? ForeignAddressIndicator { get; set; }
 	}
 }

@@ -5838,7 +5838,7 @@ CL.WF.EVNT.DOCREVIEW~ClosingDocument.TitleClosingAgentSentDocForReview~False~dat
 CL.WF.EVNT.DATAREVIEW~ClosingDocument.TitleClosingAgentSentDataForReview~False~datetime~False~~False~~DATETIME
 CL.WF.EVNT.LENDOTHER~ClosingDocument.DocOrMessageByLenderDateTime~False~datetime~False~~False~~DATETIME
 CLID~Contacts[ContactType=LOAN_CLOSER].LoginId~False~string~False~File Contacts Closer Login ID~False~~STRING
-BORCIT~Applications{current}.Coborrower.CitizenshipResidencyType~False~string~False~~False~~STRING
+BORCIT~Applications{current}.Borrower.CitizenshipResidencyType~False~string~False~~False~~STRING
 COBORCIT~Applications{current}.Coborrower.CitizenshipResidencyType~False~string~False~~False~~STRING
 ConsumerHIOrderEligible~ConsumerHomeInsuranceOrderEligible~true~boolean~true~Consumer Eligible to Order Home Insurance~false~~YN
 Closing.AllngToNtPayToJrsdctn~EmDocument.AllngToNtPayToJrsdctn~False~string~False~Ellie Mae Closing Document Override - Allonge to Note Pay to Jurisdiction~False~~STRING
@@ -7500,7 +7500,7 @@ DISCLOSURE.X335~ClosingDocument.AdditionalStateDisclosures[StateCode=NC|Disclosu
 DISCLOSURE.X336~ClosingDocument.AdditionalStateDisclosures[StateCode=NC|DisclosureName=AccountNumber].DisclosureValue~False~string~False~TBD~False~~STRING
 DISCLOSURE.X337~ClosingDocument.AdditionalStateDisclosures[StateCode=NC|DisclosureName=TrustAccountLocation].DisclosureValue~False~string~False~TBD~False~~STRING
 DISCLOSURE.X338~ClosingDocument.AdditionalStateDisclosures[StateCode=OH|DisclosureName=ServiceRefundable].DisclosureValue~False~string~False~TBD~False~eDISCLOSURE_X338~STRING
-DISCLOSURE.X339~ClosingDocument.AdditionalStateDisclosures[StateCode=OH|DisclosureName=EscrowAccountSelected].DisclosureValue~False~string~False~TBD~False~eDISCLOSURE_X339~STRING
+DISCLOSURE.X339~ClosingDocument.AdditionalStateDisclosures[StateCode=OR|DisclosureName=EscrowAccountSelected].DisclosureValue~False~string~False~TBD~False~eDISCLOSURE_X339~STRING
 DISCLOSURE.X340~ClosingDocument.AdditionalStateDisclosures[StateCode=PA|DisclosureName=LenderTaxesAndInsurance].DisclosureValue~False~string~False~TBD~False~eDISCLOSURE_X340~STRING
 DISCLOSURE.X341~ClosingDocument.AdditionalStateDisclosures[StateCode=PA|DisclosureName=DirectlyEnter].DisclosureValue~False~string~False~TBD~False~eDISCLOSURE_X341~STRING
 DISCLOSURE.X342~ClosingDocument.AdditionalStateDisclosures[StateCode=PA|DisclosureName=LoanIsVariableRate].DisclosureValue~False~string~False~TBD~False~eDISCLOSURE_X342~STRING

@@ -7,13 +7,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractDocumentAudit
 	{
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<LoanContractDocumentAuditAlerts> Alerts { get; set; }
 
-		[DataMember(Name="reportKey", EmitDefaultValue=false)]
+		[DataMember(Name="reportKey")]
 		public string ReportKey { get; set; }
 
-		[DataMember(Name="timeStamp", EmitDefaultValue=false)]
+		[DataMember(Name="timeStamp")]
 		public DateTime? TimeStamp { get; set; }
 
 	}

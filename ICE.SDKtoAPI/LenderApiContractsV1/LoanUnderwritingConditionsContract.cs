@@ -8,156 +8,156 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class LoanUnderwritingConditionsContract
     {
-        [DataMember(Name = "allowToClear", EmitDefaultValue = false)]
+        [DataMember(Name = "allowToClear")]
         public bool? AllowToClear { get; set; }
 
-        [DataMember(Name = "application", EmitDefaultValue = false)]
+        [DataMember(Name = "application")]
         public EntityRefContract Application { get; set; }
 
-        [DataMember(Name = "category", EmitDefaultValue = false)]
+        [DataMember(Name = "category")]
         public string Category { get; set; }
 
-        [DataMember(Name = "clearedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "clearedBy")]
         public EntityRefContract ClearedBy { get; set; }
 
-        [DataMember(Name = "clearedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "clearedDate")]
         public DateTime? ClearedDate { get; set; }
 
-        [DataMember(Name = "comments", EmitDefaultValue = false)]
+        [DataMember(Name = "comments")]
         public List<LoanCommentContract> Comments { get; set; }
 
-        [DataMember(Name = "conditionType", EmitDefaultValue = false)]
+        [DataMember(Name = "conditionType")]
         public string ConditionType { get; set; }
 
-        [DataMember(Name = "createdBy", EmitDefaultValue = false)]
+        [DataMember(Name = "createdBy")]
         public EntityRefContract CreatedBy { get; set; }
 
-        [DataMember(Name = "createdDate", EmitDefaultValue = false)]
+        [DataMember(Name = "createdDate")]
         public DateTime? CreatedDate { get; set; }
 
-        [DataMember(Name = "daysToReceive", EmitDefaultValue = false)]
+        [DataMember(Name = "daysToReceive")]
         public int? DaysToReceive { get; set; }
 
-        [DataMember(Name = "description", EmitDefaultValue = false)]
+        [DataMember(Name = "description")]
         public string Description { get; set; }
 
-        [DataMember(Name = "documents", EmitDefaultValue = false)]
+        [DataMember(Name = "documents")]
         public List<EntityRefContract> Documents { get; set; }
 
-        [DataMember(Name = "expectedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "expectedDate")]
         public DateTime? ExpectedDate { get; set; }
 
-        [DataMember(Name = "expirationDate", EmitDefaultValue = false)]
+        [DataMember(Name = "expirationDate")]
         public DateTime? ExpirationDate { get; set; }
 
-        [DataMember(Name = "fulfilledBy", EmitDefaultValue = false)]
+        [DataMember(Name = "fulfilledBy")]
         public EntityRefContract FulfilledBy { get; set; }
 
-        [DataMember(Name = "fulfilledDate", EmitDefaultValue = false)]
+        [DataMember(Name = "fulfilledDate")]
         public DateTime? FulfilledDate { get; set; }
 
-        [DataMember(Name = "id", EmitDefaultValue = false)]
+        [DataMember(Name = "id")]
         public string Id { get; set; }
-        [DataMember(Name = "isAddedToConditionSet", EmitDefaultValue = false)]
+        [DataMember(Name = "isAddedToConditionSet")]
         public bool? IsAddedToConditionSet { get; set; }
 
-        [DataMember(Name = "isCleared", EmitDefaultValue = false)]
+        [DataMember(Name = "isCleared")]
         public bool? IsCleared { get; set; }
 
-        [DataMember(Name = "isFulfilled", EmitDefaultValue = false)]
+        [DataMember(Name = "isFulfilled")]
         public bool? IsFulfilled { get; set; }
 
-        [DataMember(Name = "isReceived", EmitDefaultValue = false)]
+        [DataMember(Name = "isReceived")]
         public bool? IsReceived { get; set; }
 
-        [DataMember(Name = "isRejected", EmitDefaultValue = false)]
+        [DataMember(Name = "isRejected")]
         public bool? IsRejected { get; set; }
 
-        [DataMember(Name = "isRemoved", EmitDefaultValue = false)]
+        [DataMember(Name = "isRemoved")]
         public bool? IsRemoved { get; set; }
 
-        [DataMember(Name = "isRequested", EmitDefaultValue = false)]
+        [DataMember(Name = "isRequested")]
         public bool? IsRequested { get; set; }
 
-        [DataMember(Name = "isRerequested", EmitDefaultValue = false)]
+        [DataMember(Name = "isRerequested")]
         public bool? IsRerequested { get; set; }
 
-        [DataMember(Name = "isReviewed", EmitDefaultValue = false)]
+        [DataMember(Name = "isReviewed")]
         public bool? IsReviewed { get; set; }
 
-        [DataMember(Name = "isWaived", EmitDefaultValue = false)]
+        [DataMember(Name = "isWaived")]
         public bool? IsWaived { get; set; }
 
-        [DataMember(Name = "owner", EmitDefaultValue = false)]
+        [DataMember(Name = "owner")]
         public string Owner { get; set; }
 
-        [DataMember(Name = "printExternally", EmitDefaultValue = false)]
+        [DataMember(Name = "printExternally")]
         public bool? PrintExternally { get; set; }
 
-        [DataMember(Name = "printInternally", EmitDefaultValue = false)]
+        [DataMember(Name = "printInternally")]
         public bool? PrintInternally { get; set; }
 
-        [DataMember(Name = "priorTo", EmitDefaultValue = false)]
+        [DataMember(Name = "priorTo")]
         public string PriorTo { get; set; }
 
-        [DataMember(Name = "receivedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "receivedBy")]
         public EntityRefContract ReceivedBy { get; set; }
 
-        [DataMember(Name = "receivedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "receivedDate")]
         public DateTime? ReceivedDate { get; set; }
 
-        [DataMember(Name = "rejectedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "rejectedBy")]
         public EntityRefContract RejectedBy { get; set; }
 
-        [DataMember(Name = "rejectedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "rejectedDate")]
         public DateTime? RejectedDate { get; set; }
 
-        [DataMember(Name = "requestedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "requestedBy")]
         public EntityRefContract RequestedBy { get; set; }
 
-        [DataMember(Name = "requestedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "requestedDate")]
         public DateTime? RequestedDate { get; set; }
 
-        [DataMember(Name = "requestedFrom", EmitDefaultValue = false)]
+        [DataMember(Name = "requestedFrom")]
         public string RequestedFrom { get; set; }
 
-        [DataMember(Name = "rerequestedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "rerequestedBy")]
         public EntityRefContract RerequestedBy { get; set; }
 
-        [DataMember(Name = "rerequestedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "rerequestedDate")]
         public DateTime? RerequestedDate { get; set; }
 
-        [DataMember(Name = "reviewedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "reviewedBy")]
         public EntityRefContract ReviewedBy { get; set; }
 
-        [DataMember(Name = "reviewedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "reviewedDate")]
         public DateTime? ReviewedDate { get; set; }
 
-        [DataMember(Name = "source", EmitDefaultValue = false)]
+        [DataMember(Name = "source")]
         public string Source { get; set; }
 
-        [DataMember(Name = "status", EmitDefaultValue = false)]
+        [DataMember(Name = "status")]
         public string Status { get; set; }
 
-        [DataMember(Name = "statusDate", EmitDefaultValue = false)]
+        [DataMember(Name = "statusDate")]
         public DateTime? StatusDate { get; set; }
 
-        [DataMember(Name = "templateId", EmitDefaultValue = false)]
+        [DataMember(Name = "templateId")]
         public string TemplateId { get; set; }
 
-        [DataMember(Name = "title", EmitDefaultValue = false)]
+        [DataMember(Name = "title")]
         public string Title { get; set; }
 
-        [DataMember(Name = "tpoConditionDocGuid", EmitDefaultValue = false)]
+        [DataMember(Name = "tpoConditionDocGuid")]
         public string TpoConditionDocGuid { get; set; }
 
-        [DataMember(Name = "tpoConditionDocType", EmitDefaultValue = false)]
+        [DataMember(Name = "tpoConditionDocType")]
         public string TpoConditionDocType { get; set; }
 
-        [DataMember(Name = "waivedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "waivedBy")]
         public EntityRefContract WaivedBy { get; set; }
 
-        [DataMember(Name = "waivedDate", EmitDefaultValue = false)]
+        [DataMember(Name = "waivedDate")]
         public DateTime? WaivedDate { get; set; }
     }
 }

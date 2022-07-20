@@ -5,16 +5,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractLoanProductDataPrepaymentPenalties
 	{
-		[DataMember(Name="fullPrepaymentPenaltyOptionType", EmitDefaultValue=false)]
+		[DataMember(Name="fullPrepaymentPenaltyOptionType")]
 		public string FullPrepaymentPenaltyOptionType { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="prepaymentPenaltyPercent", EmitDefaultValue=false)]
-		public double? PrepaymentPenaltyPercent { get; set; }
+		[DataMember(Name="prepaymentPenaltyPercent")]
+		public decimal? PrepaymentPenaltyPercent { get; set; }
 
-		[DataMember(Name="termMonthsCount", EmitDefaultValue=false)]
+		[DataMember(Name="termMonthsCount")]
 		public int? TermMonthsCount { get; set; }
 
 	}

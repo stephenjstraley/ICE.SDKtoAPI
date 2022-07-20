@@ -5,172 +5,172 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractUnderwriterSummary
 	{
-		[DataMember(Name="appraisal", EmitDefaultValue=false)]
+		[DataMember(Name="appraisal")]
 		public string Appraisal { get; set; }
 
-		[DataMember(Name="appraisalCompletedDate", EmitDefaultValue=false)]
+		[DataMember(Name="appraisalCompletedDate")]
 		public DateTime? AppraisalCompletedDate { get; set; }
 
-		[DataMember(Name="appraisalExpiredDate", EmitDefaultValue=false)]
+		[DataMember(Name="appraisalExpiredDate")]
 		public DateTime? AppraisalExpiredDate { get; set; }
 
-		[DataMember(Name="appraisalOrderedDate", EmitDefaultValue=false)]
+		[DataMember(Name="appraisalOrderedDate")]
 		public DateTime? AppraisalOrderedDate { get; set; }
 
-		[DataMember(Name="appraisalType", EmitDefaultValue=false)]
+		[DataMember(Name="appraisalType")]
 		public string AppraisalType { get; set; }
 
-		[DataMember(Name="approvalExpiredDate", EmitDefaultValue=false)]
+		[DataMember(Name="approvalExpiredDate")]
 		public DateTime? ApprovalExpiredDate { get; set; }
 
-		[DataMember(Name="approvedBy", EmitDefaultValue=false)]
+		[DataMember(Name="approvedBy")]
 		public string ApprovedBy { get; set; }
 
-		[DataMember(Name="approvedDate", EmitDefaultValue=false)]
+		[DataMember(Name="approvedDate")]
 		public DateTime? ApprovedDate { get; set; }
 
-		[DataMember(Name="ausNumber", EmitDefaultValue=false)]
+		[DataMember(Name="ausNumber")]
 		public string AusNumber { get; set; }
 
-		[DataMember(Name="ausRunDate", EmitDefaultValue=false)]
+		[DataMember(Name="ausRunDate")]
 		public DateTime? AusRunDate { get; set; }
 
-		[DataMember(Name="ausSource", EmitDefaultValue=false)]
+		[DataMember(Name="ausSource")]
 		public string AusSource { get; set; }
 
-		[DataMember(Name="benefitRequiredIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="benefitRequiredIndicator")]
 		public bool? BenefitRequiredIndicator { get; set; }
 
-		[DataMember(Name="clearToCloseDate", EmitDefaultValue=false)]
+		[DataMember(Name="clearToCloseDate")]
 		public DateTime? ClearToCloseDate { get; set; }
 
-		[DataMember(Name="concerns", EmitDefaultValue=false)]
+		[DataMember(Name="concerns")]
 		public string Concerns { get; set; }
 
-		[DataMember(Name="conditions", EmitDefaultValue=false)]
+		[DataMember(Name="conditions")]
 		public string Conditions { get; set; }
 
-		[DataMember(Name="counterOfferDate", EmitDefaultValue=false)]
+		[DataMember(Name="counterOfferDate")]
 		public DateTime? CounterOfferDate { get; set; }
 
-		[DataMember(Name="counterOfferStatus", EmitDefaultValue=false)]
+		[DataMember(Name="counterOfferStatus")]
 		public string CounterOfferStatus { get; set; }
 
-		[DataMember(Name="credit", EmitDefaultValue=false)]
+		[DataMember(Name="credit")]
 		public string Credit { get; set; }
 
-		[DataMember(Name="creditApprovalDate", EmitDefaultValue=false)]
+		[DataMember(Name="creditApprovalDate")]
 		public DateTime? CreditApprovalDate { get; set; }
 
-		[DataMember(Name="deniedBy", EmitDefaultValue=false)]
+		[DataMember(Name="deniedBy")]
 		public string DeniedBy { get; set; }
 
-		[DataMember(Name="deniedDate", EmitDefaultValue=false)]
+		[DataMember(Name="deniedDate")]
 		public DateTime? DeniedDate { get; set; }
 
-		[DataMember(Name="differentApprovalExpiredDate", EmitDefaultValue=false)]
+		[DataMember(Name="differentApprovalExpiredDate")]
 		public DateTime? DifferentApprovalExpiredDate { get; set; }
 
-		[DataMember(Name="differentApprovedBy", EmitDefaultValue=false)]
+		[DataMember(Name="differentApprovedBy")]
 		public string DifferentApprovedBy { get; set; }
 
-		[DataMember(Name="differentApprovedDate", EmitDefaultValue=false)]
+		[DataMember(Name="differentApprovedDate")]
 		public DateTime? DifferentApprovedDate { get; set; }
 
-		[DataMember(Name="exceptions", EmitDefaultValue=false)]
+		[DataMember(Name="exceptions")]
 		public string Exceptions { get; set; }
 
-		[DataMember(Name="exceptionSignOffBy", EmitDefaultValue=false)]
+		[DataMember(Name="exceptionSignOffBy")]
 		public string ExceptionSignOffBy { get; set; }
 
-		[DataMember(Name="exceptionSignOffDate", EmitDefaultValue=false)]
+		[DataMember(Name="exceptionSignOffDate")]
 		public DateTime? ExceptionSignOffDate { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isAgencyManually", EmitDefaultValue=false)]
+		[DataMember(Name="isAgencyManually")]
 		public bool? IsAgencyManually { get; set; }
 
-		[DataMember(Name="isAgencyWaiver", EmitDefaultValue=false)]
+		[DataMember(Name="isAgencyWaiver")]
 		public bool? IsAgencyWaiver { get; set; }
 
-		[DataMember(Name="isAgencyWithAgreement", EmitDefaultValue=false)]
+		[DataMember(Name="isAgencyWithAgreement")]
 		public bool? IsAgencyWithAgreement { get; set; }
 
-		[DataMember(Name="maxRate", EmitDefaultValue=false)]
-		public double? MaxRate { get; set; }
+		[DataMember(Name="maxRate")]
+		public decimal? MaxRate { get; set; }
 
-		[DataMember(Name="miOrderedDate", EmitDefaultValue=false)]
+		[DataMember(Name="miOrderedDate")]
 		public DateTime? MiOrderedDate { get; set; }
 
-		[DataMember(Name="miReceivedDate", EmitDefaultValue=false)]
+		[DataMember(Name="miReceivedDate")]
 		public DateTime? MiReceivedDate { get; set; }
 
-		[DataMember(Name="modifiedLoanAmount", EmitDefaultValue=false)]
-		public double? ModifiedLoanAmount { get; set; }
+		[DataMember(Name="modifiedLoanAmount")]
+		public decimal? ModifiedLoanAmount { get; set; }
 
-		[DataMember(Name="modifiedLoanRate", EmitDefaultValue=false)]
-		public double? ModifiedLoanRate { get; set; }
+		[DataMember(Name="modifiedLoanRate")]
+		public decimal? ModifiedLoanRate { get; set; }
 
-		[DataMember(Name="modifiedLoanTerm", EmitDefaultValue=false)]
+		[DataMember(Name="modifiedLoanTerm")]
 		public int? ModifiedLoanTerm { get; set; }
 
-		[DataMember(Name="modifiedLtv", EmitDefaultValue=false)]
-		public double? ModifiedLtv { get; set; }
+		[DataMember(Name="modifiedLtv")]
+		public decimal? ModifiedLtv { get; set; }
 
-		[DataMember(Name="modifiedMonthlyPayment", EmitDefaultValue=false)]
-		public double? ModifiedMonthlyPayment { get; set; }
+		[DataMember(Name="modifiedMonthlyPayment")]
+		public decimal? ModifiedMonthlyPayment { get; set; }
 
-		[DataMember(Name="originalAppraiser", EmitDefaultValue=false)]
+		[DataMember(Name="originalAppraiser")]
 		public string OriginalAppraiser { get; set; }
 
-		[DataMember(Name="originalAppraisersValue", EmitDefaultValue=false)]
-		public double? OriginalAppraisersValue { get; set; }
+		[DataMember(Name="originalAppraisersValue")]
+		public decimal? OriginalAppraisersValue { get; set; }
 
-		[DataMember(Name="resubmittedDate", EmitDefaultValue=false)]
+		[DataMember(Name="resubmittedDate")]
 		public DateTime? ResubmittedDate { get; set; }
 
-		[DataMember(Name="reviewAppraiser", EmitDefaultValue=false)]
+		[DataMember(Name="reviewAppraiser")]
 		public string ReviewAppraiser { get; set; }
 
-		[DataMember(Name="reviewCompletedDate", EmitDefaultValue=false)]
+		[DataMember(Name="reviewCompletedDate")]
 		public DateTime? ReviewCompletedDate { get; set; }
 
-		[DataMember(Name="reviewRequestedDate", EmitDefaultValue=false)]
+		[DataMember(Name="reviewRequestedDate")]
 		public DateTime? ReviewRequestedDate { get; set; }
 
-		[DataMember(Name="reviewType", EmitDefaultValue=false)]
+		[DataMember(Name="reviewType")]
 		public string ReviewType { get; set; }
 
-		[DataMember(Name="reviewValue", EmitDefaultValue=false)]
-		public double? ReviewValue { get; set; }
+		[DataMember(Name="reviewValue")]
+		public decimal? ReviewValue { get; set; }
 
-		[DataMember(Name="sentToDate", EmitDefaultValue=false)]
+		[DataMember(Name="sentToDate")]
 		public DateTime? SentToDate { get; set; }
 
-		[DataMember(Name="signOffBy", EmitDefaultValue=false)]
+		[DataMember(Name="signOffBy")]
 		public string SignOffBy { get; set; }
 
-		[DataMember(Name="signOffDate", EmitDefaultValue=false)]
+		[DataMember(Name="signOffDate")]
 		public DateTime? SignOffDate { get; set; }
 
-		[DataMember(Name="strengths", EmitDefaultValue=false)]
+		[DataMember(Name="strengths")]
 		public string Strengths { get; set; }
 
-		[DataMember(Name="submittedDate", EmitDefaultValue=false)]
+		[DataMember(Name="submittedDate")]
 		public DateTime? SubmittedDate { get; set; }
 
-		[DataMember(Name="supervisoryAppraiserLicenseNumber", EmitDefaultValue=false)]
+		[DataMember(Name="supervisoryAppraiserLicenseNumber")]
 		public string SupervisoryAppraiserLicenseNumber { get; set; }
 
-		[DataMember(Name="suspendedBy", EmitDefaultValue=false)]
+		[DataMember(Name="suspendedBy")]
 		public string SuspendedBy { get; set; }
 
-		[DataMember(Name="suspendedDate", EmitDefaultValue=false)]
+		[DataMember(Name="suspendedDate")]
 		public DateTime? SuspendedDate { get; set; }
 
-		[DataMember(Name="suspendedReasons", EmitDefaultValue=false)]
+		[DataMember(Name="suspendedReasons")]
 		public string SuspendedReasons { get; set; }
 
 	}

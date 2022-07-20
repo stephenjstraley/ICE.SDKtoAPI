@@ -5,184 +5,184 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractCollateralTracking
 	{
-		[DataMember(Name="ctComAllComments", EmitDefaultValue=false)]
+		[DataMember(Name="ctComAllComments")]
 		public string CtComAllComments { get; set; }
 
-		[DataMember(Name="ctComTransactionComment", EmitDefaultValue=false)]
+		[DataMember(Name="ctComTransactionComment")]
 		public string CtComTransactionComment { get; set; }
 
-		[DataMember(Name="ctDotInitBookNumber", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitBookNumber")]
 		public string CtDotInitBookNumber { get; set; }
 
-		[DataMember(Name="ctDotInitContact", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitContact")]
 		public string CtDotInitContact { get; set; }
 
-		[DataMember(Name="ctDotInitDaysOutstanding", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitDaysOutstanding")]
 		public string CtDotInitDaysOutstanding { get; set; }
 
-		[DataMember(Name="ctDotInitDocumentNumber", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitDocumentNumber")]
 		public string CtDotInitDocumentNumber { get; set; }
 
-		[DataMember(Name="ctDotInitEmail", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitEmail")]
 		public string CtDotInitEmail { get; set; }
 
-		[DataMember(Name="ctDotInitLastRequested", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitLastRequested")]
 		public string CtDotInitLastRequested { get; set; }
 
-		[DataMember(Name="ctDotInitNextFollowupDate", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitNextFollowupDate")]
 		public DateTime? CtDotInitNextFollowupDate { get; set; }
 
-		[DataMember(Name="ctDotInitOrganization", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitOrganization")]
 		public string CtDotInitOrganization { get; set; }
 
-		[DataMember(Name="ctDotInitPageNumber", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitPageNumber")]
 		public string CtDotInitPageNumber { get; set; }
 
-		[DataMember(Name="ctDotInitPhone", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitPhone")]
 		public string CtDotInitPhone { get; set; }
 
-		[DataMember(Name="ctDotInitPurchaseDate", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitPurchaseDate")]
 		public DateTime? CtDotInitPurchaseDate { get; set; }
 
-		[DataMember(Name="ctDotInitReceived", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitReceived")]
 		public string CtDotInitReceived { get; set; }
 
-		[DataMember(Name="ctDotInitRequestedBy", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitRequestedBy")]
 		public string CtDotInitRequestedBy { get; set; }
 
-		[DataMember(Name="ctDotInitRiderReceived", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotInitRiderReceived")]
 		public string CtDotInitRiderReceived { get; set; }
 
-		[DataMember(Name="ctDotRetContact", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetContact")]
 		public string CtDotRetContact { get; set; }
 
-		[DataMember(Name="ctDotRetEmail", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetEmail")]
 		public string CtDotRetEmail { get; set; }
 
-		[DataMember(Name="ctDotRetLastRequested", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetLastRequested")]
 		public DateTime? CtDotRetLastRequested { get; set; }
 
-		[DataMember(Name="ctDotRetNextFollowUpDate", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetNextFollowUpDate")]
 		public DateTime? CtDotRetNextFollowUpDate { get; set; }
 
-		[DataMember(Name="ctDotRetOrganization", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetOrganization")]
 		public string CtDotRetOrganization { get; set; }
 
-		[DataMember(Name="ctDotRetPhone", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetPhone")]
 		public string CtDotRetPhone { get; set; }
 
-		[DataMember(Name="ctDotRetReceived", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetReceived")]
 		public DateTime? CtDotRetReceived { get; set; }
 
-		[DataMember(Name="ctDotRetRequestedBy", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotRetRequestedBy")]
 		public string CtDotRetRequestedBy { get; set; }
 
-		[DataMember(Name="ctDotShipAddress", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipAddress")]
 		public string CtDotShipAddress { get; set; }
 
-		[DataMember(Name="ctDotShipCarrier", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipCarrier")]
 		public string CtDotShipCarrier { get; set; }
 
-		[DataMember(Name="ctDotShipContact", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipContact")]
 		public string CtDotShipContact { get; set; }
 
-		[DataMember(Name="ctDotShipEmail", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipEmail")]
 		public string CtDotShipEmail { get; set; }
 
-		[DataMember(Name="ctDotShipOrganization", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipOrganization")]
 		public string CtDotShipOrganization { get; set; }
 
-		[DataMember(Name="ctDotShipPhone", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipPhone")]
 		public string CtDotShipPhone { get; set; }
 
-		[DataMember(Name="ctDotShipShippedBy", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipShippedBy")]
 		public string CtDotShipShippedBy { get; set; }
 
-		[DataMember(Name="ctDotShipShippingDate", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipShippingDate")]
 		public DateTime? CtDotShipShippingDate { get; set; }
 
-		[DataMember(Name="ctDotShipTrackingNumber", EmitDefaultValue=false)]
+		[DataMember(Name="ctDotShipTrackingNumber")]
 		public string CtDotShipTrackingNumber { get; set; }
 
-		[DataMember(Name="ctFtpInitContact", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitContact")]
 		public string CtFtpInitContact { get; set; }
 
-		[DataMember(Name="ctFtpInitDaysOutstanding", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitDaysOutstanding")]
 		public string CtFtpInitDaysOutstanding { get; set; }
 
-		[DataMember(Name="ctFtpInitEmail", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitEmail")]
 		public string CtFtpInitEmail { get; set; }
 
-		[DataMember(Name="ctFtpInitLastRequested", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitLastRequested")]
 		public string CtFtpInitLastRequested { get; set; }
 
-		[DataMember(Name="ctFtpInitNextFollowupDate", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitNextFollowupDate")]
 		public DateTime? CtFtpInitNextFollowupDate { get; set; }
 
-		[DataMember(Name="ctFtpInitOrganization", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitOrganization")]
 		public string CtFtpInitOrganization { get; set; }
 
-		[DataMember(Name="ctFtpInitPhone", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitPhone")]
 		public string CtFtpInitPhone { get; set; }
 
-		[DataMember(Name="ctFtpInitReceived", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitReceived")]
 		public string CtFtpInitReceived { get; set; }
 
-		[DataMember(Name="ctFtpInitRequestedBy", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpInitRequestedBy")]
 		public string CtFtpInitRequestedBy { get; set; }
 
-		[DataMember(Name="ctFtpRetContact", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetContact")]
 		public string CtFtpRetContact { get; set; }
 
-		[DataMember(Name="ctFtpRetEmail", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetEmail")]
 		public string CtFtpRetEmail { get; set; }
 
-		[DataMember(Name="ctFtpRetLastRequested", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetLastRequested")]
 		public DateTime? CtFtpRetLastRequested { get; set; }
 
-		[DataMember(Name="ctFtpRetNextFollowUpDate", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetNextFollowUpDate")]
 		public DateTime? CtFtpRetNextFollowUpDate { get; set; }
 
-		[DataMember(Name="ctFtpRetOrganization", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetOrganization")]
 		public string CtFtpRetOrganization { get; set; }
 
-		[DataMember(Name="ctFtpRetPhone", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetPhone")]
 		public string CtFtpRetPhone { get; set; }
 
-		[DataMember(Name="ctFtpRetReceived", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetReceived")]
 		public DateTime? CtFtpRetReceived { get; set; }
 
-		[DataMember(Name="ctFtpRetRequestedBy", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpRetRequestedBy")]
 		public string CtFtpRetRequestedBy { get; set; }
 
-		[DataMember(Name="ctFtpShipAddress", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipAddress")]
 		public string CtFtpShipAddress { get; set; }
 
-		[DataMember(Name="ctFtpShipCarrier", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipCarrier")]
 		public string CtFtpShipCarrier { get; set; }
 
-		[DataMember(Name="ctFtpShipContact", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipContact")]
 		public string CtFtpShipContact { get; set; }
 
-		[DataMember(Name="ctFtpShipEmail", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipEmail")]
 		public string CtFtpShipEmail { get; set; }
 
-		[DataMember(Name="ctFtpShipOrganization", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipOrganization")]
 		public string CtFtpShipOrganization { get; set; }
 
-		[DataMember(Name="ctFtpShipPhone", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipPhone")]
 		public string CtFtpShipPhone { get; set; }
 
-		[DataMember(Name="ctFtpShipShippedBy", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipShippedBy")]
 		public string CtFtpShipShippedBy { get; set; }
 
-		[DataMember(Name="ctFtpShipShippingDate", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipShippingDate")]
 		public DateTime? CtFtpShipShippingDate { get; set; }
 
-		[DataMember(Name="ctFtpShipTrackingNumber", EmitDefaultValue=false)]
+		[DataMember(Name="ctFtpShipTrackingNumber")]
 		public string CtFtpShipTrackingNumber { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
 	}

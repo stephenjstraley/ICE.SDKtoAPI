@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractTQLTQLDocuments
 	{
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="tQLDocumentDeliveredDate", EmitDefaultValue=false)]
+		[DataMember(Name="tQLDocumentDeliveredDate")]
 		public DateTime? TQLDocumentDeliveredDate { get; set; }
 
 	}

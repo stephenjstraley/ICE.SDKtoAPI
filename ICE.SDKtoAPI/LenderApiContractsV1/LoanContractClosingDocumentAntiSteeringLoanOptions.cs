@@ -5,161 +5,161 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractClosingDocumentAntiSteeringLoanOptions
 	{
-		[DataMember(Name="antiSteeringLoanOptionIndex", EmitDefaultValue=false)]
+		[DataMember(Name="antiSteeringLoanOptionIndex")]
 		public int? AntiSteeringLoanOptionIndex { get; set; }
 
-		[DataMember(Name="brokerCompensationFeeAmount", EmitDefaultValue=false)]
-		public double? BrokerCompensationFeeAmount { get; set; }
+		[DataMember(Name="brokerCompensationFeeAmount")]
+		public decimal? BrokerCompensationFeeAmount { get; set; }
 
-		[DataMember(Name="brokerCompensationFeeBorPaidAmount", EmitDefaultValue=false)]
-		public double? BrokerCompensationFeeBorPaidAmount { get; set; }
+		[DataMember(Name="brokerCompensationFeeBorPaidAmount")]
+		public decimal? BrokerCompensationFeeBorPaidAmount { get; set; }
 
-		[DataMember(Name="brokerCompensationFeePercentage", EmitDefaultValue=false)]
-		public double? BrokerCompensationFeePercentage { get; set; }
+		[DataMember(Name="brokerCompensationFeePercentage")]
+		public decimal? BrokerCompensationFeePercentage { get; set; }
 
-		[DataMember(Name="brokerFeeAmount", EmitDefaultValue=false)]
-		public double? BrokerFeeAmount { get; set; }
+		[DataMember(Name="brokerFeeAmount")]
+		public decimal? BrokerFeeAmount { get; set; }
 
-		[DataMember(Name="brokerFeeBorPaidAmount", EmitDefaultValue=false)]
-		public double? BrokerFeeBorPaidAmount { get; set; }
+		[DataMember(Name="brokerFeeBorPaidAmount")]
+		public decimal? BrokerFeeBorPaidAmount { get; set; }
 
-		[DataMember(Name="brokerFeePercentage", EmitDefaultValue=false)]
-		public double? BrokerFeePercentage { get; set; }
+		[DataMember(Name="brokerFeePercentage")]
+		public decimal? BrokerFeePercentage { get; set; }
 
-		[DataMember(Name="brokerFeeSellerPaidAmount", EmitDefaultValue=false)]
-		public double? BrokerFeeSellerPaidAmount { get; set; }
+		[DataMember(Name="brokerFeeSellerPaidAmount")]
+		public decimal? BrokerFeeSellerPaidAmount { get; set; }
 
-		[DataMember(Name="creditorName", EmitDefaultValue=false)]
+		[DataMember(Name="creditorName")]
 		public string CreditorName { get; set; }
 
-		[DataMember(Name="discountAdditionalAmount", EmitDefaultValue=false)]
-		public double? DiscountAdditionalAmount { get; set; }
+		[DataMember(Name="discountAdditionalAmount")]
+		public decimal? DiscountAdditionalAmount { get; set; }
 
-		[DataMember(Name="discountAmount", EmitDefaultValue=false)]
-		public double? DiscountAmount { get; set; }
+		[DataMember(Name="discountAmount")]
+		public decimal? DiscountAmount { get; set; }
 
-		[DataMember(Name="discountFeeBorPaidAmount", EmitDefaultValue=false)]
-		public double? DiscountFeeBorPaidAmount { get; set; }
+		[DataMember(Name="discountFeeBorPaidAmount")]
+		public decimal? DiscountFeeBorPaidAmount { get; set; }
 
-		[DataMember(Name="discountFeeSellerPaidAmount", EmitDefaultValue=false)]
-		public double? DiscountFeeSellerPaidAmount { get; set; }
+		[DataMember(Name="discountFeeSellerPaidAmount")]
+		public decimal? DiscountFeeSellerPaidAmount { get; set; }
 
-		[DataMember(Name="discountPercentage", EmitDefaultValue=false)]
-		public double? DiscountPercentage { get; set; }
+		[DataMember(Name="discountPercentage")]
+		public decimal? DiscountPercentage { get; set; }
 
-		[DataMember(Name="discountPoints", EmitDefaultValue=false)]
-		public double? DiscountPoints { get; set; }
+		[DataMember(Name="discountPoints")]
+		public decimal? DiscountPoints { get; set; }
 
-		[DataMember(Name="fixedRatePeriod", EmitDefaultValue=false)]
+		[DataMember(Name="fixedRatePeriod")]
 		public int? FixedRatePeriod { get; set; }
 
-		[DataMember(Name="haveDemandFeature", EmitDefaultValue=false)]
+		[DataMember(Name="haveDemandFeature")]
 		public string HaveDemandFeature { get; set; }
 
-		[DataMember(Name="havePrepaymentPenalty", EmitDefaultValue=false)]
+		[DataMember(Name="havePrepaymentPenalty")]
 		public bool? HavePrepaymentPenalty { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="inspectionFeeBorPaidAmount", EmitDefaultValue=false)]
-		public double? InspectionFeeBorPaidAmount { get; set; }
+		[DataMember(Name="inspectionFeeBorPaidAmount")]
+		public decimal? InspectionFeeBorPaidAmount { get; set; }
 
-		[DataMember(Name="inspectionFeeSellerPaidAmount", EmitDefaultValue=false)]
-		public double? InspectionFeeSellerPaidAmount { get; set; }
+		[DataMember(Name="inspectionFeeSellerPaidAmount")]
+		public decimal? InspectionFeeSellerPaidAmount { get; set; }
 
-		[DataMember(Name="interestRate", EmitDefaultValue=false)]
-		public double? InterestRate { get; set; }
+		[DataMember(Name="interestRate")]
+		public decimal? InterestRate { get; set; }
 
-		[DataMember(Name="isBalloonPaymentIn7Years", EmitDefaultValue=false)]
+		[DataMember(Name="isBalloonPaymentIn7Years")]
 		public string IsBalloonPaymentIn7Years { get; set; }
 
-		[DataMember(Name="isInterestOnlyLoan", EmitDefaultValue=false)]
+		[DataMember(Name="isInterestOnlyLoan")]
 		public string IsInterestOnlyLoan { get; set; }
 
-		[DataMember(Name="isNegativeAmortization", EmitDefaultValue=false)]
+		[DataMember(Name="isNegativeAmortization")]
 		public bool? IsNegativeAmortization { get; set; }
 
-		[DataMember(Name="loanTerm", EmitDefaultValue=false)]
+		[DataMember(Name="loanTerm")]
 		public int? LoanTerm { get; set; }
 
-		[DataMember(Name="loanType", EmitDefaultValue=false)]
+		[DataMember(Name="loanType")]
 		public string LoanType { get; set; }
 
-		[DataMember(Name="originationFeeBorPaidAmount", EmitDefaultValue=false)]
-		public double? OriginationFeeBorPaidAmount { get; set; }
+		[DataMember(Name="originationFeeBorPaidAmount")]
+		public decimal? OriginationFeeBorPaidAmount { get; set; }
 
-		[DataMember(Name="originationFeePercentage", EmitDefaultValue=false)]
-		public double? OriginationFeePercentage { get; set; }
+		[DataMember(Name="originationFeePercentage")]
+		public decimal? OriginationFeePercentage { get; set; }
 
-		[DataMember(Name="originationFeeSellerPaidAmount", EmitDefaultValue=false)]
-		public double? OriginationFeeSellerPaidAmount { get; set; }
+		[DataMember(Name="originationFeeSellerPaidAmount")]
+		public decimal? OriginationFeeSellerPaidAmount { get; set; }
 
-		[DataMember(Name="originationPointsFees", EmitDefaultValue=false)]
-		public double? OriginationPointsFees { get; set; }
+		[DataMember(Name="originationPointsFees")]
+		public decimal? OriginationPointsFees { get; set; }
 
-		[DataMember(Name="originationPointsPercetange", EmitDefaultValue=false)]
-		public double? OriginationPointsPercetange { get; set; }
+		[DataMember(Name="originationPointsPercetange")]
+		public decimal? OriginationPointsPercetange { get; set; }
 
-		[DataMember(Name="processingFeeBorPaidAmount", EmitDefaultValue=false)]
-		public double? ProcessingFeeBorPaidAmount { get; set; }
+		[DataMember(Name="processingFeeBorPaidAmount")]
+		public decimal? ProcessingFeeBorPaidAmount { get; set; }
 
-		[DataMember(Name="processingFeeSellerPaidAmount", EmitDefaultValue=false)]
-		public double? ProcessingFeeSellerPaidAmount { get; set; }
+		[DataMember(Name="processingFeeSellerPaidAmount")]
+		public decimal? ProcessingFeeSellerPaidAmount { get; set; }
 
-		[DataMember(Name="totalOriginationDiscountAmount", EmitDefaultValue=false)]
-		public double? TotalOriginationDiscountAmount { get; set; }
+		[DataMember(Name="totalOriginationDiscountAmount")]
+		public decimal? TotalOriginationDiscountAmount { get; set; }
 
-		[DataMember(Name="underwritingFeeBorPaidAmount", EmitDefaultValue=false)]
-		public double? UnderwritingFeeBorPaidAmount { get; set; }
+		[DataMember(Name="underwritingFeeBorPaidAmount")]
+		public decimal? UnderwritingFeeBorPaidAmount { get; set; }
 
-		[DataMember(Name="underwritingFeeSellerPaidAmount", EmitDefaultValue=false)]
-		public double? UnderwritingFeeSellerPaidAmount { get; set; }
+		[DataMember(Name="underwritingFeeSellerPaidAmount")]
+		public decimal? UnderwritingFeeSellerPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee1BorPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee1BorPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee1BorPaidAmount")]
+		public decimal? UserDefinedFee1BorPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee1Description", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedFee1Description")]
 		public string UserDefinedFee1Description { get; set; }
 
-		[DataMember(Name="userDefinedFee1SellerPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee1SellerPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee1SellerPaidAmount")]
+		public decimal? UserDefinedFee1SellerPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee2BorPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee2BorPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee2BorPaidAmount")]
+		public decimal? UserDefinedFee2BorPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee2Description", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedFee2Description")]
 		public string UserDefinedFee2Description { get; set; }
 
-		[DataMember(Name="userDefinedFee2SellerPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee2SellerPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee2SellerPaidAmount")]
+		public decimal? UserDefinedFee2SellerPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee3BorPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee3BorPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee3BorPaidAmount")]
+		public decimal? UserDefinedFee3BorPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee3Description", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedFee3Description")]
 		public string UserDefinedFee3Description { get; set; }
 
-		[DataMember(Name="userDefinedFee3SellerPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee3SellerPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee3SellerPaidAmount")]
+		public decimal? UserDefinedFee3SellerPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee4BorPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee4BorPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee4BorPaidAmount")]
+		public decimal? UserDefinedFee4BorPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee4Description", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedFee4Description")]
 		public string UserDefinedFee4Description { get; set; }
 
-		[DataMember(Name="userDefinedFee4SellerPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee4SellerPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee4SellerPaidAmount")]
+		public decimal? UserDefinedFee4SellerPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee5BorPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee5BorPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee5BorPaidAmount")]
+		public decimal? UserDefinedFee5BorPaidAmount { get; set; }
 
-		[DataMember(Name="userDefinedFee5Description", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedFee5Description")]
 		public string UserDefinedFee5Description { get; set; }
 
-		[DataMember(Name="userDefinedFee5SellerPaidAmount", EmitDefaultValue=false)]
-		public double? UserDefinedFee5SellerPaidAmount { get; set; }
+		[DataMember(Name="userDefinedFee5SellerPaidAmount")]
+		public decimal? UserDefinedFee5SellerPaidAmount { get; set; }
 
 	}
 }

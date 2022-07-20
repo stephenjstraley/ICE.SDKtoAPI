@@ -90,12 +90,15 @@ namespace ICE.SDKtoAPI.Providers
 
             return new Tuple<List<VirtualFieldMeta>, LenderApiResponse>(fields, _response);
         }
-        public async Task<Tuple<object, LenderApiResponse>> GetFieldValuesAsync(string guid, List<string> fields)
+        public async Task<Tuple<List<FieldsFromEncompass>, LenderApiResponse>> GetFieldValuesAsync(string guid, List<string> fields, bool v3Version = false)
         {
             LenderApiResponse apiResponse = null;
-            object pairs = null;
+            List<FieldsFromEncompass> pairs = null;
 
-            paths.SetV3(); // this only works for V3
+            if (v3Version)
+                paths.SetV3(); 
+            else
+                paths.SetV1();
 
             var usePath = paths.ReadFieldValues(guid);
 
@@ -106,7 +109,24 @@ namespace ICE.SDKtoAPI.Providers
                 var resp = await client.WithHeader("Content-Type", "application/json")
                                        .PostJsonAsync(fields);
 
-                pairs = resp.ReceiveJson<object>();
+                if (!v3Version)
+                    pairs = resp.ReceiveJson<List<FieldsFromEncompass>>();
+                else
+                {
+                    var temp = resp.ReceiveJson<Dictionary<string, object>>();
+                    if (temp != null)
+                    {
+                        pairs = new List<FieldsFromEncompass>();
+                        foreach (var kvp in temp)
+                        {
+                            pairs.Add(new FieldsFromEncompass()
+                            {
+                                fieldId = kvp.Key,
+                                value = kvp.Value
+                            });
+                        }
+                    }
+                }
 
                 apiResponse = OkResponse(resp.Headers, usePath);
             }
@@ -119,7 +139,7 @@ namespace ICE.SDKtoAPI.Providers
                 apiResponse = BadResponse(exp, usePath, "");
             }
 
-            return new Tuple<object, LenderApiResponse>(pairs, apiResponse);
+            return new Tuple<List<FieldsFromEncompass>, LenderApiResponse>(pairs, apiResponse);
         }
         public async Task<Tuple<List<CustomFieldMeta>, LenderApiResponse>> GetCustomFieldsAsync(bool withV3 = false)
         {

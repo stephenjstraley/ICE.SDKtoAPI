@@ -7,64 +7,64 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractDownloadLogs
 	{
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<LoanContractAlerts> Alerts { get; set; }
 
-		[DataMember(Name="barcodePage", EmitDefaultValue=false)]
+		[DataMember(Name="barcodePage")]
 		public string BarcodePage { get; set; }
 
-		[DataMember(Name="commentList", EmitDefaultValue=false)]
+		[DataMember(Name="commentList")]
 		public List<LoanContractLogRecordCommentList> CommentList { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="dateReceived", EmitDefaultValue=false)]
+		[DataMember(Name="dateReceived")]
 		public string DateReceived { get; set; }
 
-		[DataMember(Name="dateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="dateUtc")]
 		public DateTime? DateUtc { get; set; }
 
-		[DataMember(Name="documentId", EmitDefaultValue=false)]
+		[DataMember(Name="documentId")]
 		public string DocumentId { get; set; }
 
-		[DataMember(Name="downloadId", EmitDefaultValue=false)]
+		[DataMember(Name="downloadId")]
 		public string DownloadId { get; set; }
 
-		[DataMember(Name="fileAttachmentsMigrated", EmitDefaultValue=false)]
+		[DataMember(Name="fileAttachmentsMigrated")]
 		public bool? FileAttachmentsMigrated { get; set; }
 
-		[DataMember(Name="fileSource", EmitDefaultValue=false)]
+		[DataMember(Name="fileSource")]
 		public string FileSource { get; set; }
 
-		[DataMember(Name="fileType", EmitDefaultValue=false)]
+		[DataMember(Name="fileType")]
 		public string FileType { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isSystemSpecificIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="isSystemSpecificIndicator")]
 		public bool? IsSystemSpecificIndicator { get; set; }
 
-		[DataMember(Name="logRecordIndex", EmitDefaultValue=false)]
+		[DataMember(Name="logRecordIndex")]
 		public int? LogRecordIndex { get; set; }
 
-		[DataMember(Name="receivedBy", EmitDefaultValue=false)]
+		[DataMember(Name="receivedBy")]
 		public string ReceivedBy { get; set; }
 
-		[DataMember(Name="sender", EmitDefaultValue=false)]
+		[DataMember(Name="sender")]
 		public string Sender { get; set; }
 
-		[DataMember(Name="systemId", EmitDefaultValue=false)]
+		[DataMember(Name="systemId")]
 		public string SystemId { get; set; }
 
-		[DataMember(Name="title", EmitDefaultValue=false)]
+		[DataMember(Name="title")]
 		public string Title { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
 	}

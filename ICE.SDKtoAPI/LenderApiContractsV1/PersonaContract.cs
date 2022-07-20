@@ -6,25 +6,25 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class PersonaContract : BaseEncompassModel
     {
-        [DataMember(Name = "id", EmitDefaultValue = false)]
+        [DataMember(Name = "id")]
         public string Id { get; set; }
 
-        [DataMember(Name = "name", EmitDefaultValue = false)]
+        [DataMember(Name = "name")]
         public string Name { get; set; }
 
-        [DataMember(Name = "defaultAccess", EmitDefaultValue = false)]
+        [DataMember(Name = "defaultAccess")]
         public string DefaultAccess { get; set; }
 
-        [DataMember(Name = "isInternal", EmitDefaultValue = false)]
+        [DataMember(Name = "isInternal")]
         public bool IsInternal { get; set; }
 
-        [DataMember(Name = "isExternal", EmitDefaultValue = false)]
+        [DataMember(Name = "isExternal")]
         public bool IsExternal { get; set; }
 
-        [DataMember(Name = "displayOrder", EmitDefaultValue = false)]
+        [DataMember(Name = "displayOrder")]
         public int DisplayOrder { get; set; }
 
-        [DataMember(Name = "aclRights", EmitDefaultValue = false)]
+        [DataMember(Name = "aclRights")]
         public AclRightsContract AclRights { get; set; }
     }
 

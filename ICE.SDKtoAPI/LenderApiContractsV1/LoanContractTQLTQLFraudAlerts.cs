@@ -5,34 +5,34 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractTQLTQLFraudAlerts
 	{
-		[DataMember(Name="driveFraudAlertCode", EmitDefaultValue=false)]
+		[DataMember(Name="driveFraudAlertCode")]
 		public string DriveFraudAlertCode { get; set; }
 
-		[DataMember(Name="driveFraudAlertStatus", EmitDefaultValue=false)]
+		[DataMember(Name="driveFraudAlertStatus")]
 		public string DriveFraudAlertStatus { get; set; }
 
-		[DataMember(Name="fraudGuardFraudAlertCode", EmitDefaultValue=false)]
+		[DataMember(Name="fraudGuardFraudAlertCode")]
 		public string FraudGuardFraudAlertCode { get; set; }
 
-		[DataMember(Name="fraudGuardFraudAlertStatus", EmitDefaultValue=false)]
+		[DataMember(Name="fraudGuardFraudAlertStatus")]
 		public string FraudGuardFraudAlertStatus { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lastFraudOrderAlertCategories", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudOrderAlertCategories")]
 		public string LastFraudOrderAlertCategories { get; set; }
 
-		[DataMember(Name="lastFraudOrderAlertID", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudOrderAlertID")]
 		public string LastFraudOrderAlertID { get; set; }
 
-		[DataMember(Name="lastFraudOrderAlertLevel", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudOrderAlertLevel")]
 		public string LastFraudOrderAlertLevel { get; set; }
 
-		[DataMember(Name="lastFraudOrderDescriptionOfAlerts", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudOrderDescriptionOfAlerts")]
 		public string LastFraudOrderDescriptionOfAlerts { get; set; }
 
-		[DataMember(Name="tQLFraudAlertIndex", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlertIndex")]
 		public int? TQLFraudAlertIndex { get; set; }
 
 	}

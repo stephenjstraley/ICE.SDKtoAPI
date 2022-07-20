@@ -8,31 +8,31 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class LoanCommentContract
     {
-        [DataMember(Name = "commentId", EmitDefaultValue = false)]
+        [DataMember(Name = "commentId")]
         public string CommentId { get; set; }
 
-        [DataMember(Name = "comments", EmitDefaultValue = false)]
+        [DataMember(Name = "comments")]
         public string Comments { get; set; }
 
-        [DataMember(Name = "createdBy", EmitDefaultValue = false)]
+        [DataMember(Name = "createdBy")]
         public string CreatedBy { get; set; }
 
-        [DataMember(Name = "createdByName", EmitDefaultValue = false)]
+        [DataMember(Name = "createdByName")]
         public string CreatedByName { get; set; }
 
-        [DataMember(Name = "dateCreated", EmitDefaultValue = false)]
+        [DataMember(Name = "dateCreated")]
         public DateTime? DateCreated { get; set; }
 
-        [DataMember(Name = "dateReviewed", EmitDefaultValue = false)]
+        [DataMember(Name = "dateReviewed")]
         public DateTime? DateReviewed { get; set; }
 
-        [DataMember(Name = "forRole", EmitDefaultValue = false)]
+        [DataMember(Name = "forRole")]
         public EntityRefContract ForRole { get; set; }
 
-        [DataMember(Name = "forRoleId", EmitDefaultValue = false)]
+        [DataMember(Name = "forRoleId")]
         public int? ForRoleId { get; set; }
 
-        [DataMember(Name = "reviewedBy", EmitDefaultValue = false)]
+        [DataMember(Name = "reviewedBy")]
         public string ReviewedBy { get; set; }
     }
 }

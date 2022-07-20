@@ -5,25 +5,25 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractMilestoneTemplateLogs
 	{
-		[DataMember(Name="elliLogRecordId", EmitDefaultValue=false)]
+		[DataMember(Name="elliLogRecordId")]
 		public int? ElliLogRecordId { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isTemplateDatesLocked", EmitDefaultValue=false)]
-		public bool? IsTemplateDatesLocked { get; set; }
+		[DataMember(Name = "isTemplateDatesLocked")]
+		public bool? IsTemplateDatesLocked { get; set; } = false;
 
-		[DataMember(Name="isTemplateLocked", EmitDefaultValue=false)]
-		public bool? IsTemplateLocked { get; set; }
+		[DataMember(Name = "isTemplateLocked")]
+		public bool? IsTemplateLocked { get; set; } = false;
 
-		[DataMember(Name="milestoneTemplateID", EmitDefaultValue=false)]
+		[DataMember(Name="milestoneTemplateID")]
 		public string MilestoneTemplateID { get; set; }
 
-		[DataMember(Name="milestoneTemplateName", EmitDefaultValue=false)]
+		[DataMember(Name="milestoneTemplateName")]
 		public string MilestoneTemplateName { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
 	}

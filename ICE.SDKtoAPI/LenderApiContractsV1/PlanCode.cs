@@ -8,82 +8,82 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class PlanCode
     {
-        [DataMember(Name = "code", EmitDefaultValue = false)]
+        [DataMember(Name = "code")]
         public string Code { get; set; }
 
-        [DataMember(Name = "description", EmitDefaultValue = false)]
+        [DataMember(Name = "description")]
         public string Description { get; set; }
 
-        [DataMember(Name = "loanProgramtype", EmitDefaultValue = false)]
+        [DataMember(Name = "loanProgramtype")]
         public string LoanProgramType { get; set; }
 
-        [DataMember(Name = "investorCode", EmitDefaultValue = false)]
+        [DataMember(Name = "investorCode")]
         public string InvestorCode { get; set; }
 
-        [DataMember(Name = "investorName", EmitDefaultValue = false)]
+        [DataMember(Name = "investorName")]
         public string InvestorName { get; set; }
 
-        [DataMember(Name = "investorPlanCode", EmitDefaultValue = false)]
+        [DataMember(Name = "investorPlanCode")]
         public string InvestorPlanCode { get; set; }
 
-        [DataMember(Name = "loanType", EmitDefaultValue = false)]
+        [DataMember(Name = "loanType")]
         public string LoanType { get; set; }
 
-        [DataMember(Name = "amortizationType", EmitDefaultValue = false)]
+        [DataMember(Name = "amortizationType")]
         public string AmortizationType { get; set; }
 
-        [DataMember(Name = "lienPosition", EmitDefaultValue = false)]
+        [DataMember(Name = "lienPosition")]
         public string LienPosition { get; set; }
 
-        [DataMember(Name = "ballonLoan", EmitDefaultValue = false)]
+        [DataMember(Name = "ballonLoan")]
         public bool? BallonLoan { get; set; }
 
-        [DataMember(Name = "demandFeature", EmitDefaultValue = false)]
+        [DataMember(Name = "demandFeature")]
         public bool? DemandFeature { get; set; }
 
-        [DataMember(Name = "biweeklylLoan", EmitDefaultValue = false)]
+        [DataMember(Name = "biweeklylLoan")]
         public bool? BiWeeklyLoan { get; set; }
 
-        [DataMember(Name = "interestOnly", EmitDefaultValue = false)]
+        [DataMember(Name = "interestOnly")]
         public bool? InterestOnly { get; set; }
 
-        [DataMember(Name = "assumabilityType", EmitDefaultValue = false)]
+        [DataMember(Name = "assumabilityType")]
         public bool? AssumabilityType { get; set; }
 
-        [DataMember(Name = "planFirstChange", EmitDefaultValue = false)]
+        [DataMember(Name = "planFirstChange")]
         public string PlanFirstchange { get; set; }
 
-        [DataMember(Name = "subsequentChange", EmitDefaultValue = false)]
+        [DataMember(Name = "subsequentChange")]
         public string SubsequentChange { get; set; }
 
-        [DataMember(Name = "numberOfDaysPerYear", EmitDefaultValue = false)]
+        [DataMember(Name = "numberOfDaysPerYear")]
         public string NumberOfDasPerYear { get; set; }
 
-        [DataMember(Name = "prepaymentPenalty", EmitDefaultValue = false)]
+        [DataMember(Name = "prepaymentPenalty")]
         public bool? PrepaymentPenalty { get; set; }
 
-        [DataMember(Name = "roundingFactor", EmitDefaultValue = false)]
+        [DataMember(Name = "roundingFactor")]
         public int? RoundingFactor { get; set; }
 
-        [DataMember(Name = "roundingType", EmitDefaultValue = false)]
+        [DataMember(Name = "roundingType")]
         public string RoundingType { get; set; }
 
-        [DataMember(Name = "indexLookbackPeriod", EmitDefaultValue = false)]
+        [DataMember(Name = "indexLookbackPeriod")]
         public string IndexLookbackPeriod { get; set; }
 
-        [DataMember(Name = "isConvertible", EmitDefaultValue = false)]
+        [DataMember(Name = "isConvertible")]
         public bool? IsConvertible { get; set; }
 
-        [DataMember(Name = "recordId", EmitDefaultValue = false)]
+        [DataMember(Name = "recordId")]
         public string RecordId { get; set; }
 
-        [DataMember(Name = "isEmAlias", EmitDefaultValue = false)]
+        [DataMember(Name = "isEmAlias")]
         public bool? isEmAlias { get; set; }
 
-        [DataMember(Name = "importInvestorToLoan", EmitDefaultValue = false)]
+        [DataMember(Name = "importInvestorToLoan")]
         public bool? ImportInvestorToLoan { get; set; }
 
-        [DataMember(Name = "isActive", EmitDefaultValue = false)]
+        [DataMember(Name = "isActive")]
         public bool? IsActive { get; set; }
 
 

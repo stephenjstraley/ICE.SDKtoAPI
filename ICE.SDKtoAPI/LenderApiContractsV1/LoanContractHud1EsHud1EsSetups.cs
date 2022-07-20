@@ -5,67 +5,67 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractHud1EsHud1EsSetups
 	{
-		[DataMember(Name="annualFeePrepaid", EmitDefaultValue=false)]
+		[DataMember(Name="annualFeePrepaid")]
 		public bool? AnnualFeePrepaid { get; set; }
 
-		[DataMember(Name="annualFees", EmitDefaultValue=false)]
+		[DataMember(Name="annualFees")]
 		public int? AnnualFees { get; set; }
 
-		[DataMember(Name="date", EmitDefaultValue=false)]
+		[DataMember(Name="date")]
 		public string Date { get; set; }
 
-		[DataMember(Name="floodInsDisb", EmitDefaultValue=false)]
+		[DataMember(Name="floodInsDisb")]
 		public int? FloodInsDisb { get; set; }
 
-		[DataMember(Name="floodInsPrepaid", EmitDefaultValue=false)]
+		[DataMember(Name="floodInsPrepaid")]
 		public bool? FloodInsPrepaid { get; set; }
 
-		[DataMember(Name="hazInsDisb", EmitDefaultValue=false)]
+		[DataMember(Name="hazInsDisb")]
 		public int? HazInsDisb { get; set; }
 
-		[DataMember(Name="hazInsPrepaid", EmitDefaultValue=false)]
+		[DataMember(Name="hazInsPrepaid")]
 		public bool? HazInsPrepaid { get; set; }
 
-		[DataMember(Name="hud1EsSetupIndex", EmitDefaultValue=false)]
+		[DataMember(Name="hud1EsSetupIndex")]
 		public int? Hud1EsSetupIndex { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="mtgInsDisb", EmitDefaultValue=false)]
+		[DataMember(Name="mtgInsDisb")]
 		public int? MtgInsDisb { get; set; }
 
-		[DataMember(Name="mtgInsPrepaid", EmitDefaultValue=false)]
+		[DataMember(Name="mtgInsPrepaid")]
 		public bool? MtgInsPrepaid { get; set; }
 
-		[DataMember(Name="schoolTaxes", EmitDefaultValue=false)]
+		[DataMember(Name="schoolTaxes")]
 		public int? SchoolTaxes { get; set; }
 
-		[DataMember(Name="schoolTaxesPrepaid", EmitDefaultValue=false)]
+		[DataMember(Name="schoolTaxesPrepaid")]
 		public bool? SchoolTaxesPrepaid { get; set; }
 
-		[DataMember(Name="taxDisb", EmitDefaultValue=false)]
+		[DataMember(Name="taxDisb")]
 		public int? TaxDisb { get; set; }
 
-		[DataMember(Name="taxPrepaid", EmitDefaultValue=false)]
+		[DataMember(Name="taxPrepaid")]
 		public bool? TaxPrepaid { get; set; }
 
-		[DataMember(Name="userDefined1", EmitDefaultValue=false)]
+		[DataMember(Name="userDefined1")]
 		public int? UserDefined1 { get; set; }
 
-		[DataMember(Name="userDefined2", EmitDefaultValue=false)]
+		[DataMember(Name="userDefined2")]
 		public int? UserDefined2 { get; set; }
 
-		[DataMember(Name="userDefined3", EmitDefaultValue=false)]
+		[DataMember(Name="userDefined3")]
 		public int? UserDefined3 { get; set; }
 
-		[DataMember(Name="userDefinedPrepaid1", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedPrepaid1")]
 		public bool? UserDefinedPrepaid1 { get; set; }
 
-		[DataMember(Name="userDefinedPrepaid2", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedPrepaid2")]
 		public bool? UserDefinedPrepaid2 { get; set; }
 
-		[DataMember(Name="userDefinedPrepaid3", EmitDefaultValue=false)]
+		[DataMember(Name="userDefinedPrepaid3")]
 		public bool? UserDefinedPrepaid3 { get; set; }
 
 	}

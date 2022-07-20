@@ -5,67 +5,67 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractHomeCounselingProviders
 	{
-		[DataMember(Name="agencyAddress", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddress")]
 		public string AgencyAddress { get; set; }
 
-		[DataMember(Name="agencyAddressCity", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddressCity")]
 		public string AgencyAddressCity { get; set; }
 
-		[DataMember(Name="agencyAddressPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddressPostalCode")]
 		public string AgencyAddressPostalCode { get; set; }
 
-		[DataMember(Name="agencyAddressState", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAddressState")]
 		public string AgencyAddressState { get; set; }
 
-		[DataMember(Name="agencyAffiliationDescription", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAffiliationDescription")]
 		public string AgencyAffiliationDescription { get; set; }
 
-		[DataMember(Name="agencyAffiliationIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="agencyAffiliationIndicator")]
 		public bool? AgencyAffiliationIndicator { get; set; }
 
-		[DataMember(Name="agencyEmail", EmitDefaultValue=false)]
+		[DataMember(Name="agencyEmail")]
 		public string AgencyEmail { get; set; }
 
-		[DataMember(Name="agencyFax", EmitDefaultValue=false)]
+		[DataMember(Name="agencyFax")]
 		public string AgencyFax { get; set; }
 
-		[DataMember(Name="agencyId", EmitDefaultValue=false)]
+		[DataMember(Name="agencyId")]
 		public string AgencyId { get; set; }
 
-		[DataMember(Name="agencyName", EmitDefaultValue=false)]
+		[DataMember(Name="agencyName")]
 		public string AgencyName { get; set; }
 
-		[DataMember(Name="agencyPhoneDirect", EmitDefaultValue=false)]
+		[DataMember(Name="agencyPhoneDirect")]
 		public string AgencyPhoneDirect { get; set; }
 
-		[DataMember(Name="agencyPhoneTollFree", EmitDefaultValue=false)]
+		[DataMember(Name="agencyPhoneTollFree")]
 		public string AgencyPhoneTollFree { get; set; }
 
-		[DataMember(Name="agencySource", EmitDefaultValue=false)]
+		[DataMember(Name="agencySource")]
 		public string AgencySource { get; set; }
 
-		[DataMember(Name="agencyWebAddress", EmitDefaultValue=false)]
+		[DataMember(Name="agencyWebAddress")]
 		public string AgencyWebAddress { get; set; }
 
-		[DataMember(Name="counselingServicesProvided", EmitDefaultValue=false)]
+		[DataMember(Name="counselingServicesProvided")]
 		public string CounselingServicesProvided { get; set; }
 
-		[DataMember(Name="distanceMiles", EmitDefaultValue=false)]
-		public double? DistanceMiles { get; set; }
+		[DataMember(Name="distanceMiles")]
+		public decimal? DistanceMiles { get; set; }
 
-		[DataMember(Name="homeCounselingProviderId", EmitDefaultValue=false)]
+		[DataMember(Name="homeCounselingProviderId")]
 		public string HomeCounselingProviderId { get; set; }
 
-		[DataMember(Name="homeCounselingProviderIndex", EmitDefaultValue=false)]
+		[DataMember(Name="homeCounselingProviderIndex")]
 		public int? HomeCounselingProviderIndex { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="languagesSupported", EmitDefaultValue=false)]
+		[DataMember(Name="languagesSupported")]
 		public string LanguagesSupported { get; set; }
 
-		[DataMember(Name="selectedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="selectedIndicator")]
 		public bool? SelectedIndicator { get; set; }
 
 	}

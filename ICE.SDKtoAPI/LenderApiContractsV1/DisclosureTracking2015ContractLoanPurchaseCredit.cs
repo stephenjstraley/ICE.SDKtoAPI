@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class DisclosureTracking2015ContractLoanPurchaseCredit
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
+		[DataMember(Name="amount")]
 		public decimal? Amount { get; set; }
 
-		[DataMember(Name="type", EmitDefaultValue=false)]
+		[DataMember(Name="type")]
 		public string Type { get; set; }
 
 	}

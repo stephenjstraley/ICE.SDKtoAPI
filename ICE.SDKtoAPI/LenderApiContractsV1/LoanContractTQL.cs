@@ -7,217 +7,217 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractTQL
 	{
-		[DataMember(Name="citibank4506TBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="citibank4506TBaselineReportRequired")]
 		public string Citibank4506TBaselineReportRequired { get; set; }
 
-		[DataMember(Name="citibankCCVPBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="citibankCCVPBaselineReportRequired")]
 		public string CitibankCCVPBaselineReportRequired { get; set; }
 
-		[DataMember(Name="citibankComplianceBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="citibankComplianceBaselineReportRequired")]
 		public string CitibankComplianceBaselineReportRequired { get; set; }
 
-		[DataMember(Name="citibankFloodBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="citibankFloodBaselineReportRequired")]
 		public string CitibankFloodBaselineReportRequired { get; set; }
 
-		[DataMember(Name="citibankFraudBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="citibankFraudBaselineReportRequired")]
 		public string CitibankFraudBaselineReportRequired { get; set; }
 
-		[DataMember(Name="currentInvestorPublishingStatus", EmitDefaultValue=false)]
+		[DataMember(Name="currentInvestorPublishingStatus")]
 		public string CurrentInvestorPublishingStatus { get; set; }
 
-		[DataMember(Name = "driveAppVerifyScore", EmitDefaultValue = false)]
+		[DataMember(Name = "driveAppVerifyScore")]
 		public int? DriveAppVerifyScore { get; set; } = 0;
 
-		[DataMember(Name = "driveIDVerifyScore", EmitDefaultValue = false)]
+		[DataMember(Name = "driveIDVerifyScore")]
 		public int? DriveIDVerifyScore { get; set; } = 0;
 
-		[DataMember(Name = "drivePropertyVerifyScore", EmitDefaultValue = false)]
+		[DataMember(Name = "drivePropertyVerifyScore")]
 		public int? DrivePropertyVerifyScore { get; set; } = 0;
 
-		[DataMember(Name = "driveScore", EmitDefaultValue = false)]
+		[DataMember(Name = "driveScore")]
 		public int? DriveScore { get; set; } = 0;
 
-		[DataMember(Name="driveStatus", EmitDefaultValue=false)]
+		[DataMember(Name="driveStatus")]
 		public string DriveStatus { get; set; }
 
-		[DataMember(Name="homeward4506TBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="homeward4506TBaselineReportRequired")]
 		public string Homeward4506TBaselineReportRequired { get; set; }
 
-		[DataMember(Name="homewardComplianceBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="homewardComplianceBaselineReportRequired")]
 		public string HomewardComplianceBaselineReportRequired { get; set; }
 
-		[DataMember(Name="homewardFloodBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="homewardFloodBaselineReportRequired")]
 		public string HomewardFloodBaselineReportRequired { get; set; }
 
-		[DataMember(Name="homewardFraudBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="homewardFraudBaselineReportRequired")]
 		public string HomewardFraudBaselineReportRequired { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lastCCVPCompletedDate", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPCompletedDate")]
 		public DateTime? LastCCVPCompletedDate { get; set; }
 
-		[DataMember(Name="lastCCVPConfidenceScore", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPConfidenceScore")]
 		public string LastCCVPConfidenceScore { get; set; }
 
-		[DataMember(Name="lastCCVPEstimatedValue", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPEstimatedValue")]
 		public string LastCCVPEstimatedValue { get; set; }
 
-		[DataMember(Name="lastCCVPForecastDeviationScore", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPForecastDeviationScore")]
 		public string LastCCVPForecastDeviationScore { get; set; }
 
-		[DataMember(Name="lastCCVPReportHistoryProResult", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPReportHistoryProResult")]
 		public string LastCCVPReportHistoryProResult { get; set; }
 
-		[DataMember(Name="lastCCVPReportID", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPReportID")]
 		public string LastCCVPReportID { get; set; }
 
-		[DataMember(Name="lastCCVPReportOrdered", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPReportOrdered")]
 		public string LastCCVPReportOrdered { get; set; }
 
-		[DataMember(Name="lastCCVPReportPassResult", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPReportPassResult")]
 		public string LastCCVPReportPassResult { get; set; }
 
-		[DataMember(Name="lastCCVPResultsReportReturned", EmitDefaultValue=false)]
+		[DataMember(Name="lastCCVPResultsReportReturned")]
 		public string LastCCVPResultsReportReturned { get; set; }
 
-		[DataMember(Name="lastComplianceCompletedDate", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceCompletedDate")]
 		public DateTime? LastComplianceCompletedDate { get; set; }
 
-		[DataMember(Name="lastComplianceNumberOfAlertMessages", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceNumberOfAlertMessages")]
 		public int? LastComplianceNumberOfAlertMessages { get; set; }
 
-		[DataMember(Name="lastComplianceNumberOfErrorMessages", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceNumberOfErrorMessages")]
 		public int? LastComplianceNumberOfErrorMessages { get; set; }
 
-		[DataMember(Name="lastComplianceNumberOfFailMessages", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceNumberOfFailMessages")]
 		public int? LastComplianceNumberOfFailMessages { get; set; }
 
-		[DataMember(Name="lastComplianceNumberOfPassMessages", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceNumberOfPassMessages")]
 		public int? LastComplianceNumberOfPassMessages { get; set; }
 
-		[DataMember(Name="lastComplianceNumberOfWarningMessages", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceNumberOfWarningMessages")]
 		public int? LastComplianceNumberOfWarningMessages { get; set; }
 
-		[DataMember(Name="lastComplianceOrderType", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceOrderType")]
 		public string LastComplianceOrderType { get; set; }
 
-		[DataMember(Name="lastComplianceProductNameReportOrdered", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceProductNameReportOrdered")]
 		public string LastComplianceProductNameReportOrdered { get; set; }
 
-		[DataMember(Name="lastComplianceReportID", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceReportID")]
 		public string LastComplianceReportID { get; set; }
 
-		[DataMember(Name="lastFraudOrderAlerts", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudOrderAlerts")]
 		public int? LastFraudOrderAlerts { get; set; }
 
-		[DataMember(Name="lastFraudOrderCompletedDate", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudOrderCompletedDate")]
 		public DateTime? LastFraudOrderCompletedDate { get; set; }
 
-		[DataMember(Name="lastFraudOrderProduct", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudOrderProduct")]
 		public string LastFraudOrderProduct { get; set; }
 
-		[DataMember(Name="lastFraudReportID", EmitDefaultValue=false)]
+		[DataMember(Name="lastFraudReportID")]
 		public string LastFraudReportID { get; set; }
 
-		[DataMember(Name="lastInvestorPublishingInvestor", EmitDefaultValue=false)]
+		[DataMember(Name="lastInvestorPublishingInvestor")]
 		public string LastInvestorPublishingInvestor { get; set; }
 
-		[DataMember(Name="lastInvestorPublishingStatusChangeDate", EmitDefaultValue=false)]
+		[DataMember(Name="lastInvestorPublishingStatusChangeDate")]
 		public DateTime? LastInvestorPublishingStatusChangeDate { get; set; }
 
-		[DataMember(Name="lastInvestorPublishingUserWhoChangeStatus", EmitDefaultValue=false)]
+		[DataMember(Name="lastInvestorPublishingUserWhoChangeStatus")]
 		public string LastInvestorPublishingUserWhoChangeStatus { get; set; }
 
-		[DataMember(Name="lastUserIDWhoOrderedCCVP", EmitDefaultValue=false)]
+		[DataMember(Name="lastUserIDWhoOrderedCCVP")]
 		public string LastUserIDWhoOrderedCCVP { get; set; }
 
-		[DataMember(Name="lastUserIDWhoOrderedCompliance", EmitDefaultValue=false)]
+		[DataMember(Name="lastUserIDWhoOrderedCompliance")]
 		public string LastUserIDWhoOrderedCompliance { get; set; }
 
-		[DataMember(Name="lastUserIDWhoOrderedFraudOrder", EmitDefaultValue=false)]
+		[DataMember(Name="lastUserIDWhoOrderedFraudOrder")]
 		public string LastUserIDWhoOrderedFraudOrder { get; set; }
 
-		[DataMember(Name="mIVendorsArchAutoOrderIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="mIVendorsArchAutoOrderIndicator")]
 		public bool? MIVendorsArchAutoOrderIndicator { get; set; }
 
-		[DataMember(Name="mIVendorsMgicAutoOrderIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="mIVendorsMgicAutoOrderIndicator")]
 		public bool? MIVendorsMgicAutoOrderIndicator { get; set; }
 
-		[DataMember(Name="mIVendorsRadianAutoOrderIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="mIVendorsRadianAutoOrderIndicator")]
 		public bool? MIVendorsRadianAutoOrderIndicator { get; set; }
 
-		[DataMember(Name="pHH4506TBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="pHH4506TBaselineReportRequired")]
 		public string PHH4506TBaselineReportRequired { get; set; }
 
-		[DataMember(Name="pHHComplianceBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="pHHComplianceBaselineReportRequired")]
 		public string PHHComplianceBaselineReportRequired { get; set; }
 
-		[DataMember(Name="pHHFloodBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="pHHFloodBaselineReportRequired")]
 		public string PHHFloodBaselineReportRequired { get; set; }
 
-		[DataMember(Name="pHHFraudBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="pHHFraudBaselineReportRequired")]
 		public string PHHFraudBaselineReportRequired { get; set; }
 
-		[DataMember(Name="stonegate4506TBaselineReport", EmitDefaultValue=false)]
+		[DataMember(Name="stonegate4506TBaselineReport")]
 		public string Stonegate4506TBaselineReport { get; set; }
 
-		[DataMember(Name="stonegateComplianceBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="stonegateComplianceBaselineReportRequired")]
 		public string StonegateComplianceBaselineReportRequired { get; set; }
 
-		[DataMember(Name="stonegateFloodBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="stonegateFloodBaselineReportRequired")]
 		public string StonegateFloodBaselineReportRequired { get; set; }
 
-		[DataMember(Name="stonegateFraudBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="stonegateFraudBaselineReportRequired")]
 		public string StonegateFraudBaselineReportRequired { get; set; }
 
-		[DataMember(Name="tQLComplianceAlerts", EmitDefaultValue=false)]
+		[DataMember(Name="tQLComplianceAlerts")]
 		public List<LoanContractTQLTQLComplianceAlerts> TQLComplianceAlerts { get; set; }
 
-		[DataMember(Name="tQLDocuments", EmitDefaultValue=false)]
+		[DataMember(Name="tQLDocuments")]
 		public List<LoanContractTQLTQLDocuments> TQLDocuments { get; set; }
 
-		[DataMember(Name="tQLFraudAlerts", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlerts")]
 		public List<LoanContractTQLTQLFraudAlerts> TQLFraudAlerts { get; set; }
 
-		[DataMember(Name = "tQLFraudAlertsTotal", EmitDefaultValue = false)]
+		[DataMember(Name = "tQLFraudAlertsTotal")]
 		public int? TQLFraudAlertsTotal { get; set; } = 0;
 
-		[DataMember(Name="tQLFraudAlertsTotalHigh", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlertsTotalHigh")]
 		public int? TQLFraudAlertsTotalHigh { get; set; } = 0;
 
-		[DataMember(Name="tQLFraudAlertsTotalHighUnaddressed", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlertsTotalHighUnaddressed")]
 		public int? TQLFraudAlertsTotalHighUnaddressed { get; set; } = 0;
 
-		[DataMember(Name="tQLFraudAlertsTotalLow", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlertsTotalLow")]
 		public int? TQLFraudAlertsTotalLow { get; set; } = 0;
 
-		[DataMember(Name="tQLFraudAlertsTotalLowUnaddressed", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlertsTotalLowUnaddressed")]
 		public int? TQLFraudAlertsTotalLowUnaddressed { get; set; } = 0;
 
-		[DataMember(Name="tQLFraudAlertsTotalMedium", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlertsTotalMedium")]
 		public int? TQLFraudAlertsTotalMedium { get; set; } = 0;
 
-		[DataMember(Name="tQLFraudAlertsTotalMediumUnaddressed", EmitDefaultValue=false)]
+		[DataMember(Name="tQLFraudAlertsTotalMediumUnaddressed")]
 		public int? TQLFraudAlertsTotalMediumUnaddressed { get; set; } = 0;
 
-		[DataMember(Name="wellsFargo4506TBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="wellsFargo4506TBaselineReportRequired")]
 		public string WellsFargo4506TBaselineReportRequired { get; set; }
 
-		[DataMember(Name="wellsFargoComplianceBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="wellsFargoComplianceBaselineReportRequired")]
 		public string WellsFargoComplianceBaselineReportRequired { get; set; }
 
-		[DataMember(Name="wellsFargoFloodBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="wellsFargoFloodBaselineReportRequired")]
 		public string WellsFargoFloodBaselineReportRequired { get; set; }
 
-		[DataMember(Name="wellsFargoFraudBaselineReportRequired", EmitDefaultValue=false)]
+		[DataMember(Name="wellsFargoFraudBaselineReportRequired")]
 		public string WellsFargoFraudBaselineReportRequired { get; set; }
 
-		[DataMember(Name = "lomaOrLomrIndicator", EmitDefaultValue = false)]
+		[DataMember(Name = "lomaOrLomrIndicator")]
 		public bool? LomaOrLomrIndicator { get; set; } = false;
 
-		[DataMember(Name = "floodProgramCode", EmitDefaultValue = false)]
+		[DataMember(Name = "floodProgramCode")]
 		public string FloodProgramCode { get; set; }
 
 	}

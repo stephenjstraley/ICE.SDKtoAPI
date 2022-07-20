@@ -5,217 +5,217 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractConstructionManagement
 	{
-		[DataMember(Name="additionalDisbursementsConditions", EmitDefaultValue=false)]
+		[DataMember(Name="additionalDisbursementsConditions")]
 		public string AdditionalDisbursementsConditions { get; set; }
 
-		[DataMember(Name="architectsCertificateDate", EmitDefaultValue=false)]
+		[DataMember(Name="architectsCertificateDate")]
 		public DateTime? ArchitectsCertificateDate { get; set; }
 
-		[DataMember(Name="architectsCertificateIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="architectsCertificateIndicator")]
 		public bool? ArchitectsCertificateIndicator { get; set; }
 
-		[DataMember(Name="asCompletedAppraisedValue", EmitDefaultValue=false)]
-		public double? AsCompletedAppraisedValue { get; set; }
+		[DataMember(Name="asCompletedAppraisedValue")]
+		public decimal? AsCompletedAppraisedValue { get; set; }
 
-		[DataMember(Name="asCompletedPurchasePrice", EmitDefaultValue=false)]
-		public double? AsCompletedPurchasePrice { get; set; }
+		[DataMember(Name="asCompletedPurchasePrice")]
+		public decimal? AsCompletedPurchasePrice { get; set; }
 
-		[DataMember(Name="budgetDate", EmitDefaultValue=false)]
+		[DataMember(Name="budgetDate")]
 		public DateTime? BudgetDate { get; set; }
 
-		[DataMember(Name="budgetIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="budgetIndicator")]
 		public bool? BudgetIndicator { get; set; }
 
-		[DataMember(Name="commitmentExpirationDate", EmitDefaultValue=false)]
+		[DataMember(Name="commitmentExpirationDate")]
 		public DateTime? CommitmentExpirationDate { get; set; }
 
-		[DataMember(Name="commitmentLetterDate", EmitDefaultValue=false)]
+		[DataMember(Name="commitmentLetterDate")]
 		public DateTime? CommitmentLetterDate { get; set; }
 
-		[DataMember(Name="constCompletionDate", EmitDefaultValue=false)]
+		[DataMember(Name="constCompletionDate")]
 		public DateTime? ConstCompletionDate { get; set; }
 
-		[DataMember(Name="constOnlyAmortizationType", EmitDefaultValue=false)]
+		[DataMember(Name="constOnlyAmortizationType")]
 		public string ConstOnlyAmortizationType { get; set; }
 
-		[DataMember(Name="constructionContractIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="constructionContractIndicator")]
 		public bool? ConstructionContractIndicator { get; set; }
 
-		[DataMember(Name="constructionContractIssuedDate", EmitDefaultValue=false)]
+		[DataMember(Name="constructionContractIssuedDate")]
 		public DateTime? ConstructionContractIssuedDate { get; set; }
 
-		[DataMember(Name="constructionContractReceivedDate", EmitDefaultValue=false)]
+		[DataMember(Name="constructionContractReceivedDate")]
 		public DateTime? ConstructionContractReceivedDate { get; set; }
 
-		[DataMember(Name="constructionPeriodIncludedInLoanTermFlag", EmitDefaultValue=false)]
+		[DataMember(Name="constructionPeriodIncludedInLoanTermFlag")]
 		public bool? ConstructionPeriodIncludedInLoanTermFlag { get; set; }
 
-		[DataMember(Name="contractorsAgreementDate", EmitDefaultValue=false)]
+		[DataMember(Name="contractorsAgreementDate")]
 		public DateTime? ContractorsAgreementDate { get; set; }
 
-		[DataMember(Name="contractorsAgreementIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="contractorsAgreementIndicator")]
 		public bool? ContractorsAgreementIndicator { get; set; }
 
-		[DataMember(Name="costImprovementsIncluded", EmitDefaultValue=false)]
+		[DataMember(Name="costImprovementsIncluded")]
 		public bool? CostImprovementsIncluded { get; set; }
 
-		[DataMember(Name="environmentalAssessmentDate", EmitDefaultValue=false)]
+		[DataMember(Name="environmentalAssessmentDate")]
 		public DateTime? EnvironmentalAssessmentDate { get; set; }
 
-		[DataMember(Name="environmentalAssessmentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="environmentalAssessmentIndicator")]
 		public bool? EnvironmentalAssessmentIndicator { get; set; }
 
-		[DataMember(Name="floodHazardDeterminationDate", EmitDefaultValue=false)]
+		[DataMember(Name="floodHazardDeterminationDate")]
 		public DateTime? FloodHazardDeterminationDate { get; set; }
 
-		[DataMember(Name="floodHazardDeterminationIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="floodHazardDeterminationIndicator")]
 		public bool? FloodHazardDeterminationIndicator { get; set; }
 
-		[DataMember(Name="futureAdvancePeriod", EmitDefaultValue=false)]
+		[DataMember(Name="futureAdvancePeriod")]
 		public int? FutureAdvancePeriod { get; set; }
 
-		[DataMember(Name="holdbackAmount", EmitDefaultValue=false)]
-		public double? HoldbackAmount { get; set; }
+		[DataMember(Name="holdbackAmount")]
+		public decimal? HoldbackAmount { get; set; }
 
-		[DataMember(Name="holdbackPercent", EmitDefaultValue=false)]
-		public double? HoldbackPercent { get; set; }
+		[DataMember(Name="holdbackPercent")]
+		public decimal? HoldbackPercent { get; set; }
 
-		[DataMember(Name="lienAgentNorthCarolinaDate", EmitDefaultValue=false)]
+		[DataMember(Name="lienAgentNorthCarolinaDate")]
 		public DateTime? LienAgentNorthCarolinaDate { get; set; }
 
-		[DataMember(Name="lienAgentNorthCarolinaIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="lienAgentNorthCarolinaIndicator")]
 		public bool? LienAgentNorthCarolinaIndicator { get; set; }
 
-		[DataMember(Name="listOfConstructionAgreementsDate", EmitDefaultValue=false)]
+		[DataMember(Name="listOfConstructionAgreementsDate")]
 		public DateTime? ListOfConstructionAgreementsDate { get; set; }
 
-		[DataMember(Name="listOfConstructionAgreementsIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="listOfConstructionAgreementsIndicator")]
 		public bool? ListOfConstructionAgreementsIndicator { get; set; }
 
-		[DataMember(Name="maxLTVPercent", EmitDefaultValue=false)]
-		public double? MaxLTVPercent { get; set; }
+		[DataMember(Name="maxLTVPercent")]
+		public decimal? MaxLTVPercent { get; set; }
 
-		[DataMember(Name="minimumDaysBetweenDisbursements", EmitDefaultValue=false)]
+		[DataMember(Name="minimumDaysBetweenDisbursements")]
 		public int? MinimumDaysBetweenDisbursements { get; set; }
 
-		[DataMember(Name="otherDate", EmitDefaultValue=false)]
+		[DataMember(Name="otherDate")]
 		public DateTime? OtherDate { get; set; }
 
-		[DataMember(Name="otherDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherDescription")]
 		public string OtherDescription { get; set; }
 
-		[DataMember(Name="otherIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="otherIndicator")]
 		public bool? OtherIndicator { get; set; }
 
-		[DataMember(Name="partialPrepaymentsElection", EmitDefaultValue=false)]
+		[DataMember(Name="partialPrepaymentsElection")]
 		public string PartialPrepaymentsElection { get; set; }
 
-		[DataMember(Name="paymentAndPerformanceBondsDate", EmitDefaultValue=false)]
+		[DataMember(Name="paymentAndPerformanceBondsDate")]
 		public DateTime? PaymentAndPerformanceBondsDate { get; set; }
 
-		[DataMember(Name="paymentAndPerformanceBondsIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="paymentAndPerformanceBondsIndicator")]
 		public bool? PaymentAndPerformanceBondsIndicator { get; set; }
 
-		[DataMember(Name="percolationTestDate", EmitDefaultValue=false)]
+		[DataMember(Name="percolationTestDate")]
 		public DateTime? PercolationTestDate { get; set; }
 
-		[DataMember(Name="percolationTestIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="percolationTestIndicator")]
 		public bool? PercolationTestIndicator { get; set; }
 
-		[DataMember(Name="permitsDate", EmitDefaultValue=false)]
+		[DataMember(Name="permitsDate")]
 		public DateTime? PermitsDate { get; set; }
 
-		[DataMember(Name="permitsIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="permitsIndicator")]
 		public bool? PermitsIndicator { get; set; }
 
-		[DataMember(Name="plansAndSpecificationsDate", EmitDefaultValue=false)]
+		[DataMember(Name="plansAndSpecificationsDate")]
 		public DateTime? PlansAndSpecificationsDate { get; set; }
 
-		[DataMember(Name="plansAndSpecificationsIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="plansAndSpecificationsIndicator")]
 		public bool? PlansAndSpecificationsIndicator { get; set; }
 
-		[DataMember(Name="projectDelaySurchargePercent", EmitDefaultValue=false)]
-		public double? ProjectDelaySurchargePercent { get; set; }
+		[DataMember(Name="projectDelaySurchargePercent")]
+		public decimal? ProjectDelaySurchargePercent { get; set; }
 
-		[DataMember(Name="returnLendersCopyCommitmentDays", EmitDefaultValue=false)]
+		[DataMember(Name="returnLendersCopyCommitmentDays")]
 		public int? ReturnLendersCopyCommitmentDays { get; set; }
 
-		[DataMember(Name="securedBySeparateProperty", EmitDefaultValue=false)]
+		[DataMember(Name="securedBySeparateProperty")]
 		public bool? SecuredBySeparateProperty { get; set; }
 
-		[DataMember(Name="soilReportDate", EmitDefaultValue=false)]
+		[DataMember(Name="soilReportDate")]
 		public DateTime? SoilReportDate { get; set; }
 
-		[DataMember(Name="soilReportIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="soilReportIndicator")]
 		public bool? SoilReportIndicator { get; set; }
 
-		[DataMember(Name="surveyDate", EmitDefaultValue=false)]
+		[DataMember(Name="surveyDate")]
 		public DateTime? SurveyDate { get; set; }
 
-		[DataMember(Name="surveyIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="surveyIndicator")]
 		public bool? SurveyIndicator { get; set; }
 
-		[DataMember(Name="takeOutCommitmentDate", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutCommitmentDate")]
 		public DateTime? TakeOutCommitmentDate { get; set; }
 
-		[DataMember(Name="takeOutCommitmentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutCommitmentIndicator")]
 		public bool? TakeOutCommitmentIndicator { get; set; }
 
-		[DataMember(Name="takeOutCommitmentIssuedDate", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutCommitmentIssuedDate")]
 		public DateTime? TakeOutCommitmentIssuedDate { get; set; }
 
-		[DataMember(Name="takeOutLenderAddress", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderAddress")]
 		public string TakeOutLenderAddress { get; set; }
 
-		[DataMember(Name="takeOutLenderCity", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderCity")]
 		public string TakeOutLenderCity { get; set; }
 
-		[DataMember(Name="takeOutLenderContactName", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderContactName")]
 		public string TakeOutLenderContactName { get; set; }
 
-		[DataMember(Name="takeOutLenderContactTitle", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderContactTitle")]
 		public string TakeOutLenderContactTitle { get; set; }
 
-		[DataMember(Name="takeOutLenderEmail", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderEmail")]
 		public string TakeOutLenderEmail { get; set; }
 
-		[DataMember(Name="takeOutLenderFax", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderFax")]
 		public string TakeOutLenderFax { get; set; }
 
-		[DataMember(Name="takeOutLenderLicenseNumber", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderLicenseNumber")]
 		public string TakeOutLenderLicenseNumber { get; set; }
 
-		[DataMember(Name="takeOutLenderName", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderName")]
 		public string TakeOutLenderName { get; set; }
 
-		[DataMember(Name="takeOutLenderNMLSNumber", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderNMLSNumber")]
 		public string TakeOutLenderNMLSNumber { get; set; }
 
-		[DataMember(Name="takeOutLenderPhone", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderPhone")]
 		public string TakeOutLenderPhone { get; set; }
 
-		[DataMember(Name="takeOutLenderState", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderState")]
 		public string TakeOutLenderState { get; set; }
 
-		[DataMember(Name="takeOutLenderZip", EmitDefaultValue=false)]
+		[DataMember(Name="takeOutLenderZip")]
 		public string TakeOutLenderZip { get; set; }
 
-		[DataMember(Name="titleInsuranceDate", EmitDefaultValue=false)]
+		[DataMember(Name="titleInsuranceDate")]
 		public DateTime? TitleInsuranceDate { get; set; }
 
-		[DataMember(Name="titleInsuranceIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="titleInsuranceIndicator")]
 		public bool? TitleInsuranceIndicator { get; set; }
 
-		[DataMember(Name="utilityLettersDate", EmitDefaultValue=false)]
+		[DataMember(Name="utilityLettersDate")]
 		public DateTime? UtilityLettersDate { get; set; }
 
-		[DataMember(Name="utilityLettersIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="utilityLettersIndicator")]
 		public bool? UtilityLettersIndicator { get; set; }
 
-		[DataMember(Name="waterTestDate", EmitDefaultValue=false)]
+		[DataMember(Name="waterTestDate")]
 		public DateTime? WaterTestDate { get; set; }
 
-		[DataMember(Name="waterTestIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="waterTestIndicator")]
 		public bool? WaterTestIndicator { get; set; }
 
 	}

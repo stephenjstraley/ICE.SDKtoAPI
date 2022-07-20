@@ -5,203 +5,203 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractTsum
 	{
-		[DataMember(Name="aboveOrBelowRatePercent", EmitDefaultValue=false)]
-		public double? AboveOrBelowRatePercent { get; set; }
+		[DataMember(Name="aboveOrBelowRatePercent")]
+		public decimal? AboveOrBelowRatePercent { get; set; }
 
-		[DataMember(Name="adjustorCoverage", EmitDefaultValue=false)]
+		[DataMember(Name="adjustorCoverage")]
 		public string AdjustorCoverage { get; set; }
 
-		[DataMember(Name="ausRecommendation", EmitDefaultValue=false)]
+		[DataMember(Name="ausRecommendation")]
 		public string AusRecommendation { get; set; }
 
-		[DataMember(Name="bedroomsUnit1", EmitDefaultValue=false)]
+		[DataMember(Name="bedroomsUnit1")]
 		public int? BedroomsUnit1 { get; set; }
 
-		[DataMember(Name="bedroomsUnit2", EmitDefaultValue=false)]
+		[DataMember(Name="bedroomsUnit2")]
 		public int? BedroomsUnit2 { get; set; }
 
-		[DataMember(Name="bedroomsUnit3", EmitDefaultValue=false)]
+		[DataMember(Name="bedroomsUnit3")]
 		public int? BedroomsUnit3 { get; set; }
 
-		[DataMember(Name="bedroomsUnit4", EmitDefaultValue=false)]
+		[DataMember(Name="bedroomsUnit4")]
 		public int? BedroomsUnit4 { get; set; }
 
-		[DataMember(Name="certificateNumber", EmitDefaultValue=false)]
+		[DataMember(Name="certificateNumber")]
 		public string CertificateNumber { get; set; }
 
-		[DataMember(Name="commitmentNumber", EmitDefaultValue=false)]
+		[DataMember(Name="commitmentNumber")]
 		public string CommitmentNumber { get; set; }
 
-		[DataMember(Name="communityLendingAfordableHousingInitiative", EmitDefaultValue=false)]
+		[DataMember(Name="communityLendingAfordableHousingInitiative")]
 		public bool? CommunityLendingAfordableHousingInitiative { get; set; }
 
-		[DataMember(Name="contactTitle", EmitDefaultValue=false)]
+		[DataMember(Name="contactTitle")]
 		public string ContactTitle { get; set; }
 
-		[DataMember(Name="contractNumber", EmitDefaultValue=false)]
+		[DataMember(Name="contractNumber")]
 		public string ContractNumber { get; set; }
 
-		[DataMember(Name="cpmProjectId", EmitDefaultValue=false)]
+		[DataMember(Name="cpmProjectId")]
 		public string CpmProjectId { get; set; }
 
-		[DataMember(Name="duCaseIdLpAusKey", EmitDefaultValue=false)]
+		[DataMember(Name="duCaseIdLpAusKey")]
 		public string DuCaseIdLpAusKey { get; set; }
 
-		[DataMember(Name="formNumber", EmitDefaultValue=false)]
+		[DataMember(Name="formNumber")]
 		public string FormNumber { get; set; }
 
-		[DataMember(Name="grossRentUnit1", EmitDefaultValue=false)]
+		[DataMember(Name="grossRentUnit1")]
 		public int? GrossRentUnit1 { get; set; }
 
-		[DataMember(Name="grossRentUnit2", EmitDefaultValue=false)]
+		[DataMember(Name="grossRentUnit2")]
 		public int? GrossRentUnit2 { get; set; }
 
-		[DataMember(Name="grossRentUnit3", EmitDefaultValue=false)]
+		[DataMember(Name="grossRentUnit3")]
 		public int? GrossRentUnit3 { get; set; }
 
-		[DataMember(Name="grossRentUnit4", EmitDefaultValue=false)]
+		[DataMember(Name="grossRentUnit4")]
 		public int? GrossRentUnit4 { get; set; }
 
-		[DataMember(Name="homeBuyersOwnershipEducationCertificateInFile", EmitDefaultValue=false)]
+		[DataMember(Name="homeBuyersOwnershipEducationCertificateInFile")]
 		public string HomeBuyersOwnershipEducationCertificateInFile { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="insurerCode", EmitDefaultValue=false)]
+		[DataMember(Name="insurerCode")]
 		public string InsurerCode { get; set; }
 
-		[DataMember(Name="interestedPartyContributions", EmitDefaultValue=false)]
-		public double? InterestedPartyContributions { get; set; }
+		[DataMember(Name="interestedPartyContributions")]
+		public decimal? InterestedPartyContributions { get; set; }
 
-		[DataMember(Name="investorLoanNumber", EmitDefaultValue=false)]
+		[DataMember(Name="investorLoanNumber")]
 		public string InvestorLoanNumber { get; set; }
 
-		[DataMember(Name="levelOfPropertyReviewType", EmitDefaultValue=false)]
+		[DataMember(Name="levelOfPropertyReviewType")]
 		public string LevelOfPropertyReviewType { get; set; }
 
-		[DataMember(Name="lpDocClass", EmitDefaultValue=false)]
+		[DataMember(Name="lpDocClass")]
 		public string LpDocClass { get; set; }
 
-		[DataMember(Name="mortgageOriginator", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageOriginator")]
 		public string MortgageOriginator { get; set; }
 
-		[DataMember(Name="noteDate", EmitDefaultValue=false)]
+		[DataMember(Name="noteDate")]
 		public DateTime? NoteDate { get; set; }
 
-		[DataMember(Name="noteRateType", EmitDefaultValue=false)]
+		[DataMember(Name="noteRateType")]
 		public string NoteRateType { get; set; }
 
-		[DataMember(Name="numberOfBorrowers", EmitDefaultValue=false)]
+		[DataMember(Name="numberOfBorrowers")]
 		public int? NumberOfBorrowers { get; set; }
 
-		[DataMember(Name="numberOfMonthsReserves", EmitDefaultValue=false)]
+		[DataMember(Name="numberOfMonthsReserves")]
 		public int? NumberOfMonthsReserves { get; set; }
 
-		[DataMember(Name="originalAmountOfFirstMortgage", EmitDefaultValue=false)]
-		public double? OriginalAmountOfFirstMortgage { get; set; }
+		[DataMember(Name="originalAmountOfFirstMortgage")]
+		public decimal? OriginalAmountOfFirstMortgage { get; set; }
 
-		[DataMember(Name="otherTypeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherTypeDescription")]
 		public string OtherTypeDescription { get; set; }
 
-		[DataMember(Name="percentageofCoverage", EmitDefaultValue=false)]
+		[DataMember(Name="percentageofCoverage")]
 		public string PercentageofCoverage { get; set; }
 
-		[DataMember(Name="projectName", EmitDefaultValue=false)]
+		[DataMember(Name="projectName")]
 		public string ProjectName { get; set; }
 
-		[DataMember(Name="propertyFormType", EmitDefaultValue=false)]
+		[DataMember(Name="propertyFormType")]
 		public string PropertyFormType { get; set; }
 
-		[DataMember(Name="propertyType", EmitDefaultValue=false)]
+		[DataMember(Name="propertyType")]
 		public string PropertyType { get; set; }
 
-		[DataMember(Name="required", EmitDefaultValue=false)]
-		public double? Required { get; set; }
+		[DataMember(Name="required")]
+		public decimal? Required { get; set; }
 
-		[DataMember(Name="riskAssessmentType", EmitDefaultValue=false)]
+		[DataMember(Name="riskAssessmentType")]
 		public string RiskAssessmentType { get; set; }
 
-		[DataMember(Name="sellerAddress", EmitDefaultValue=false)]
+		[DataMember(Name="sellerAddress")]
 		public string SellerAddress { get; set; }
 
-		[DataMember(Name="sellerCity", EmitDefaultValue=false)]
+		[DataMember(Name="sellerCity")]
 		public string SellerCity { get; set; }
 
-		[DataMember(Name="sellerContactName", EmitDefaultValue=false)]
+		[DataMember(Name="sellerContactName")]
 		public string SellerContactName { get; set; }
 
-		[DataMember(Name="sellerName", EmitDefaultValue=false)]
+		[DataMember(Name="sellerName")]
 		public string SellerName { get; set; }
 
-		[DataMember(Name="sellerNumber", EmitDefaultValue=false)]
+		[DataMember(Name="sellerNumber")]
 		public string SellerNumber { get; set; }
 
-		[DataMember(Name="sellerPhone", EmitDefaultValue=false)]
+		[DataMember(Name="sellerPhone")]
 		public string SellerPhone { get; set; }
 
-		[DataMember(Name="sellerPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="sellerPostalCode")]
 		public string SellerPostalCode { get; set; }
 
-		[DataMember(Name="sellerState", EmitDefaultValue=false)]
+		[DataMember(Name="sellerState")]
 		public string SellerState { get; set; }
 
-		[DataMember(Name="specialFeatureCode1", EmitDefaultValue=false)]
+		[DataMember(Name="specialFeatureCode1")]
 		public string SpecialFeatureCode1 { get; set; }
 
-		[DataMember(Name="specialFeatureCode2", EmitDefaultValue=false)]
+		[DataMember(Name="specialFeatureCode2")]
 		public string SpecialFeatureCode2 { get; set; }
 
-		[DataMember(Name="specialFeatureCode3", EmitDefaultValue=false)]
+		[DataMember(Name="specialFeatureCode3")]
 		public string SpecialFeatureCode3 { get; set; }
 
-		[DataMember(Name="specialFeatureCode4", EmitDefaultValue=false)]
+		[DataMember(Name="specialFeatureCode4")]
 		public string SpecialFeatureCode4 { get; set; }
 
-		[DataMember(Name="specialFeatureCode5", EmitDefaultValue=false)]
+		[DataMember(Name="specialFeatureCode5")]
 		public string SpecialFeatureCode5 { get; set; }
 
-		[DataMember(Name="specialFeatureCode6", EmitDefaultValue=false)]
+		[DataMember(Name="specialFeatureCode6")]
 		public string SpecialFeatureCode6 { get; set; }
 
-		[DataMember(Name="thirdPartyName1", EmitDefaultValue=false)]
+		[DataMember(Name="thirdPartyName1")]
 		public string ThirdPartyName1 { get; set; }
 
-		[DataMember(Name="thirdPartyName2", EmitDefaultValue=false)]
+		[DataMember(Name="thirdPartyName2")]
 		public string ThirdPartyName2 { get; set; }
 
-		[DataMember(Name="typeOfCommitment", EmitDefaultValue=false)]
+		[DataMember(Name="typeOfCommitment")]
 		public string TypeOfCommitment { get; set; }
 
-		[DataMember(Name="underwritingComment1", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment1")]
 		public string UnderwritingComment1 { get; set; }
 
-		[DataMember(Name="underwritingComment2", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment2")]
 		public string UnderwritingComment2 { get; set; }
 
-		[DataMember(Name="underwritingComment3", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment3")]
 		public string UnderwritingComment3 { get; set; }
 
-		[DataMember(Name="underwritingComment4", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment4")]
 		public string UnderwritingComment4 { get; set; }
 
-		[DataMember(Name="underwritingComment5", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment5")]
 		public string UnderwritingComment5 { get; set; }
 
-		[DataMember(Name="underwritingComment6", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment6")]
 		public string UnderwritingComment6 { get; set; }
 
-		[DataMember(Name="underwritingComment7", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment7")]
 		public string UnderwritingComment7 { get; set; }
 
-		[DataMember(Name="underwritingComment8", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingComment8")]
 		public string UnderwritingComment8 { get; set; }
 
-		[DataMember(Name="unpaidBalance", EmitDefaultValue=false)]
-		public double? UnpaidBalance { get; set; }
+		[DataMember(Name="unpaidBalance")]
+		public decimal? UnpaidBalance { get; set; }
 
-		[DataMember(Name="verified", EmitDefaultValue=false)]
-		public double? Verified { get; set; }
+		[DataMember(Name="verified")]
+		public decimal? Verified { get; set; }
 
 	}
 }

@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanBatchUpdateStatusContract
 	{
-		[DataMember(Name="lastModified", EmitDefaultValue=false)]
+		[DataMember(Name="lastModified")]
 		public DateTime? LastModified { get; set; }
 
-		[DataMember(Name="status", EmitDefaultValue=false)]
+		[DataMember(Name="status")]
 		public string Status { get; set; }
 
 	}

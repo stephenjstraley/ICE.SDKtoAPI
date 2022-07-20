@@ -5,22 +5,22 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractFhaVaLoanEnergyEfficientMortgageItems
 	{
-		[DataMember(Name="actualAmount", EmitDefaultValue=false)]
-		public double? ActualAmount { get; set; }
+		[DataMember(Name="actualAmount")]
+		public decimal? ActualAmount { get; set; }
 
-		[DataMember(Name="allowedAmount", EmitDefaultValue=false)]
-		public double? AllowedAmount { get; set; }
+		[DataMember(Name="allowedAmount")]
+		public decimal? AllowedAmount { get; set; }
 
-		[DataMember(Name="energyEfficientMortgageItemIndex", EmitDefaultValue=false)]
+		[DataMember(Name="energyEfficientMortgageItemIndex")]
 		public int? EnergyEfficientMortgageItemIndex { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="item", EmitDefaultValue=false)]
+		[DataMember(Name="item")]
 		public string Item { get; set; }
 
-		[DataMember(Name="lineNumber", EmitDefaultValue=false)]
+		[DataMember(Name="lineNumber")]
 		public int? LineNumber { get; set; }
 
 	}

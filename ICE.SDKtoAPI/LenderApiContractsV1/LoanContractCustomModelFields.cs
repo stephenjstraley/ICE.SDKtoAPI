@@ -5,19 +5,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractCustomModelFields
 	{
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="provideAmortizationScenario", EmitDefaultValue=false)]
+		[DataMember(Name="provideAmortizationScenario")]
 		public bool? ProvideAmortizationScenario { get; set; }
 
-		[DataMember(Name="provideBestCaseScenario", EmitDefaultValue=false)]
+		[DataMember(Name="provideBestCaseScenario")]
 		public bool? ProvideBestCaseScenario { get; set; }
 
-		[DataMember(Name="provideFHAScenario", EmitDefaultValue=false)]
+		[DataMember(Name="provideFHAScenario")]
 		public bool? ProvideFHAScenario { get; set; }
 
-		[DataMember(Name="provideWorstCaseScenario", EmitDefaultValue=false)]
+		[DataMember(Name="provideWorstCaseScenario")]
 		public bool? ProvideWorstCaseScenario { get; set; }
 
 	}

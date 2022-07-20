@@ -5,214 +5,214 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractStatementCreditDenial
 	{
-		[DataMember(Name="additionalStatement", EmitDefaultValue=false)]
+		[DataMember(Name="additionalStatement")]
 		public bool? AdditionalStatement { get; set; }
 
-		[DataMember(Name="bankruptcy", EmitDefaultValue=false)]
+		[DataMember(Name="bankruptcy")]
 		public bool? Bankruptcy { get; set; }
 
-		[DataMember(Name="collateralNotSufficient", EmitDefaultValue=false)]
+		[DataMember(Name="collateralNotSufficient")]
 		public bool? CollateralNotSufficient { get; set; }
 
-		[DataMember(Name="creditApplicationIncomplete", EmitDefaultValue=false)]
+		[DataMember(Name="creditApplicationIncomplete")]
 		public bool? CreditApplicationIncomplete { get; set; }
 
-		[DataMember(Name="creditReportObtainedFromConsumerReportingAgency", EmitDefaultValue=false)]
+		[DataMember(Name="creditReportObtainedFromConsumerReportingAgency")]
 		public bool? CreditReportObtainedFromConsumerReportingAgency { get; set; }
 
-		[DataMember(Name="delinquentCreditObligations", EmitDefaultValue=false)]
+		[DataMember(Name="delinquentCreditObligations")]
 		public bool? DelinquentCreditObligations { get; set; }
 
-		[DataMember(Name="denialDate", EmitDefaultValue=false)]
+		[DataMember(Name="denialDate")]
 		public DateTime? DenialDate { get; set; }
 
-		[DataMember(Name="denialDescription", EmitDefaultValue=false)]
+		[DataMember(Name="denialDescription")]
 		public string DenialDescription { get; set; }
 
-		[DataMember(Name="denialMailedOn", EmitDefaultValue=false)]
+		[DataMember(Name="denialMailedOn")]
 		public DateTime? DenialMailedOn { get; set; }
 
-		[DataMember(Name="denialOther1", EmitDefaultValue=false)]
+		[DataMember(Name="denialOther1")]
 		public bool? DenialOther1 { get; set; }
 
-		[DataMember(Name="denialOther2", EmitDefaultValue=false)]
+		[DataMember(Name="denialOther2")]
 		public bool? DenialOther2 { get; set; }
 
-		[DataMember(Name="denialOtherDesc1", EmitDefaultValue=false)]
+		[DataMember(Name="denialOtherDesc1")]
 		public string DenialOtherDesc1 { get; set; }
 
-		[DataMember(Name="denialOtherDesc2", EmitDefaultValue=false)]
+		[DataMember(Name="denialOtherDesc2")]
 		public string DenialOtherDesc2 { get; set; }
 
-		[DataMember(Name="deniedBy", EmitDefaultValue=false)]
+		[DataMember(Name="deniedBy")]
 		public string DeniedBy { get; set; }
 
-		[DataMember(Name="deniedByFhlmc", EmitDefaultValue=false)]
+		[DataMember(Name="deniedByFhlmc")]
 		public bool? DeniedByFhlmc { get; set; }
 
-		[DataMember(Name="deniedByFnma", EmitDefaultValue=false)]
+		[DataMember(Name="deniedByFnma")]
 		public bool? DeniedByFnma { get; set; }
 
-		[DataMember(Name="deniedByHud", EmitDefaultValue=false)]
+		[DataMember(Name="deniedByHud")]
 		public bool? DeniedByHud { get; set; }
 
-		[DataMember(Name="deniedByOther", EmitDefaultValue=false)]
+		[DataMember(Name="deniedByOther")]
 		public bool? DeniedByOther { get; set; }
 
-		[DataMember(Name="deniedByVa", EmitDefaultValue=false)]
+		[DataMember(Name="deniedByVa")]
 		public bool? DeniedByVa { get; set; }
 
-		[DataMember(Name="descriptionofAccount1", EmitDefaultValue=false)]
+		[DataMember(Name="descriptionofAccount1")]
 		public string DescriptionofAccount1 { get; set; }
 
-		[DataMember(Name="descriptionofAccount2", EmitDefaultValue=false)]
+		[DataMember(Name="descriptionofAccount2")]
 		public string DescriptionofAccount2 { get; set; }
 
-		[DataMember(Name="descriptionofAccount3", EmitDefaultValue=false)]
+		[DataMember(Name="descriptionofAccount3")]
 		public string DescriptionofAccount3 { get; set; }
 
-		[DataMember(Name="descriptionofActionTaken1", EmitDefaultValue=false)]
+		[DataMember(Name="descriptionofActionTaken1")]
 		public string DescriptionofActionTaken1 { get; set; }
 
-		[DataMember(Name="descriptionofActionTaken2", EmitDefaultValue=false)]
+		[DataMember(Name="descriptionofActionTaken2")]
 		public string DescriptionofActionTaken2 { get; set; }
 
-		[DataMember(Name="ecoaAddress", EmitDefaultValue=false)]
+		[DataMember(Name="ecoaAddress")]
 		public string EcoaAddress { get; set; }
 
-		[DataMember(Name="ecoaAddress2", EmitDefaultValue=false)]
+		[DataMember(Name="ecoaAddress2")]
 		public string EcoaAddress2 { get; set; }
 
-		[DataMember(Name="ecoaCity", EmitDefaultValue=false)]
+		[DataMember(Name="ecoaCity")]
 		public string EcoaCity { get; set; }
 
-		[DataMember(Name="ecoaName", EmitDefaultValue=false)]
+		[DataMember(Name="ecoaName")]
 		public string EcoaName { get; set; }
 
-		[DataMember(Name="ecoaPhone", EmitDefaultValue=false)]
+		[DataMember(Name="ecoaPhone")]
 		public string EcoaPhone { get; set; }
 
-		[DataMember(Name="ecoaPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="ecoaPostalCode")]
 		public string EcoaPostalCode { get; set; }
 
-		[DataMember(Name="ecoaState", EmitDefaultValue=false)]
+		[DataMember(Name="ecoaState")]
 		public string EcoaState { get; set; }
 
-		[DataMember(Name="excessiveObligations", EmitDefaultValue=false)]
+		[DataMember(Name="excessiveObligations")]
 		public bool? ExcessiveObligations { get; set; }
 
-		[DataMember(Name="garnishment", EmitDefaultValue=false)]
+		[DataMember(Name="garnishment")]
 		public bool? Garnishment { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="inadequateCollateral", EmitDefaultValue=false)]
+		[DataMember(Name="inadequateCollateral")]
 		public bool? InadequateCollateral { get; set; }
 
-		[DataMember(Name="informationFromAConsumerReportingAgency", EmitDefaultValue=false)]
+		[DataMember(Name="informationFromAConsumerReportingAgency")]
 		public bool? InformationFromAConsumerReportingAgency { get; set; }
 
-		[DataMember(Name="informationObtainedFromOutsideSource", EmitDefaultValue=false)]
+		[DataMember(Name="informationObtainedFromOutsideSource")]
 		public bool? InformationObtainedFromOutsideSource { get; set; }
 
-		[DataMember(Name="informationObtainedInReportFromCra", EmitDefaultValue=false)]
+		[DataMember(Name="informationObtainedInReportFromCra")]
 		public bool? InformationObtainedInReportFromCra { get; set; }
 
-		[DataMember(Name="insufficientCreditFile", EmitDefaultValue=false)]
+		[DataMember(Name="insufficientCreditFile")]
 		public bool? InsufficientCreditFile { get; set; }
 
-		[DataMember(Name="insufficientCreditReference", EmitDefaultValue=false)]
+		[DataMember(Name="insufficientCreditReference")]
 		public bool? InsufficientCreditReference { get; set; }
 
-		[DataMember(Name="insufficientData", EmitDefaultValue=false)]
+		[DataMember(Name="insufficientData")]
 		public bool? InsufficientData { get; set; }
 
-		[DataMember(Name="insufficientFundsToCloseLoan", EmitDefaultValue=false)]
+		[DataMember(Name="insufficientFundsToCloseLoan")]
 		public bool? InsufficientFundsToCloseLoan { get; set; }
 
-		[DataMember(Name="insufficientIncomeForTotalObligations", EmitDefaultValue=false)]
+		[DataMember(Name="insufficientIncomeForTotalObligations")]
 		public bool? InsufficientIncomeForTotalObligations { get; set; }
 
-		[DataMember(Name="insufficientStabilityOfIncome", EmitDefaultValue=false)]
+		[DataMember(Name="insufficientStabilityOfIncome")]
 		public bool? InsufficientStabilityOfIncome { get; set; }
 
-		[DataMember(Name="lackOfCashReserves", EmitDefaultValue=false)]
+		[DataMember(Name="lackOfCashReserves")]
 		public bool? LackOfCashReserves { get; set; }
 
-		[DataMember(Name="lenderInvestorAddress", EmitDefaultValue=false)]
+		[DataMember(Name="lenderInvestorAddress")]
 		public string LenderInvestorAddress { get; set; }
 
-		[DataMember(Name="lenderInvestorCity", EmitDefaultValue=false)]
+		[DataMember(Name="lenderInvestorCity")]
 		public string LenderInvestorCity { get; set; }
 
-		[DataMember(Name="lenderInvestorName", EmitDefaultValue=false)]
+		[DataMember(Name="lenderInvestorName")]
 		public string LenderInvestorName { get; set; }
 
-		[DataMember(Name="lenderInvestorPhone", EmitDefaultValue=false)]
+		[DataMember(Name="lenderInvestorPhone")]
 		public string LenderInvestorPhone { get; set; }
 
-		[DataMember(Name="lenderInvestorPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="lenderInvestorPostalCode")]
 		public string LenderInvestorPostalCode { get; set; }
 
-		[DataMember(Name="lenderInvestorState", EmitDefaultValue=false)]
+		[DataMember(Name="lenderInvestorState")]
 		public string LenderInvestorState { get; set; }
 
-		[DataMember(Name="lengthOfEmployment", EmitDefaultValue=false)]
+		[DataMember(Name="lengthOfEmployment")]
 		public bool? LengthOfEmployment { get; set; }
 
-		[DataMember(Name="noCreditFile", EmitDefaultValue=false)]
+		[DataMember(Name="noCreditFile")]
 		public bool? NoCreditFile { get; set; }
 
-		[DataMember(Name="numberRecentInquiriesCredit", EmitDefaultValue=false)]
+		[DataMember(Name="numberRecentInquiriesCredit")]
 		public bool? NumberRecentInquiriesCredit { get; set; }
 
-		[DataMember(Name="otherDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherDescription")]
 		public string OtherDescription { get; set; }
 
-		[DataMember(Name="poorCreditPerformance", EmitDefaultValue=false)]
+		[DataMember(Name="poorCreditPerformance")]
 		public bool? PoorCreditPerformance { get; set; }
 
-		[DataMember(Name="temporaryOrIrregularEmployment", EmitDefaultValue=false)]
+		[DataMember(Name="temporaryOrIrregularEmployment")]
 		public bool? TemporaryOrIrregularEmployment { get; set; }
 
-		[DataMember(Name="temporaryResidence", EmitDefaultValue=false)]
+		[DataMember(Name="temporaryResidence")]
 		public bool? TemporaryResidence { get; set; }
 
-		[DataMember(Name="toShortPeriodOfResidence", EmitDefaultValue=false)]
+		[DataMember(Name="toShortPeriodOfResidence")]
 		public bool? ToShortPeriodOfResidence { get; set; }
 
-		[DataMember(Name="unableToVerifyCreditReferences", EmitDefaultValue=false)]
+		[DataMember(Name="unableToVerifyCreditReferences")]
 		public bool? UnableToVerifyCreditReferences { get; set; }
 
-		[DataMember(Name="unableToVerifyEmployment", EmitDefaultValue=false)]
+		[DataMember(Name="unableToVerifyEmployment")]
 		public bool? UnableToVerifyEmployment { get; set; }
 
-		[DataMember(Name="unableToVerifyIncome", EmitDefaultValue=false)]
+		[DataMember(Name="unableToVerifyIncome")]
 		public bool? UnableToVerifyIncome { get; set; }
 
-		[DataMember(Name="unableToVerifyResidence", EmitDefaultValue=false)]
+		[DataMember(Name="unableToVerifyResidence")]
 		public bool? UnableToVerifyResidence { get; set; }
 
-		[DataMember(Name="unacceptableAppraisal", EmitDefaultValue=false)]
+		[DataMember(Name="unacceptableAppraisal")]
 		public bool? UnacceptableAppraisal { get; set; }
 
-		[DataMember(Name="unacceptableCreditReferencesProvided", EmitDefaultValue=false)]
+		[DataMember(Name="unacceptableCreditReferencesProvided")]
 		public bool? UnacceptableCreditReferencesProvided { get; set; }
 
-		[DataMember(Name="unacceptableLeaseholdEstate", EmitDefaultValue=false)]
+		[DataMember(Name="unacceptableLeaseholdEstate")]
 		public bool? UnacceptableLeaseholdEstate { get; set; }
 
-		[DataMember(Name="unacceptablePaymentRecordOnPreviousMtg", EmitDefaultValue=false)]
+		[DataMember(Name="unacceptablePaymentRecordOnPreviousMtg")]
 		public bool? UnacceptablePaymentRecordOnPreviousMtg { get; set; }
 
-		[DataMember(Name="unacceptableProperty", EmitDefaultValue=false)]
+		[DataMember(Name="unacceptableProperty")]
 		public bool? UnacceptableProperty { get; set; }
 
-		[DataMember(Name="weDoNotGrantCredit", EmitDefaultValue=false)]
+		[DataMember(Name="weDoNotGrantCredit")]
 		public bool? WeDoNotGrantCredit { get; set; }
 
-		[DataMember(Name="withdrawnByApplicant", EmitDefaultValue=false)]
+		[DataMember(Name="withdrawnByApplicant")]
 		public bool? WithdrawnByApplicant { get; set; }
 
 	}

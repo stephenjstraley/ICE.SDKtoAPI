@@ -5,37 +5,37 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractVaLoanDataPreviousVaLoans
 	{
-		[DataMember(Name="dateOfLoan", EmitDefaultValue=false)]
+		[DataMember(Name="dateOfLoan")]
 		public DateTime? DateOfLoan { get; set; }
 
-		[DataMember(Name="dateSold", EmitDefaultValue=false)]
+		[DataMember(Name="dateSold")]
 		public DateTime? DateSold { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="loanType", EmitDefaultValue=false)]
+		[DataMember(Name="loanType")]
 		public string LoanType { get; set; }
 
-		[DataMember(Name="previousVaLoanIndex", EmitDefaultValue=false)]
+		[DataMember(Name="previousVaLoanIndex")]
 		public int? PreviousVaLoanIndex { get; set; }
 
-		[DataMember(Name="propertyAddress", EmitDefaultValue=false)]
+		[DataMember(Name="propertyAddress")]
 		public string PropertyAddress { get; set; }
 
-		[DataMember(Name="propertyCity", EmitDefaultValue=false)]
+		[DataMember(Name="propertyCity")]
 		public string PropertyCity { get; set; }
 
-		[DataMember(Name="propertyOwned", EmitDefaultValue=false)]
+		[DataMember(Name="propertyOwned")]
 		public bool? PropertyOwned { get; set; }
 
-		[DataMember(Name="propertyPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="propertyPostalCode")]
 		public string PropertyPostalCode { get; set; }
 
-		[DataMember(Name="propertyState", EmitDefaultValue=false)]
+		[DataMember(Name="propertyState")]
 		public string PropertyState { get; set; }
 
-		[DataMember(Name="vALoanNumber", EmitDefaultValue=false)]
+		[DataMember(Name="vALoanNumber")]
 		public string VALoanNumber { get; set; }
 
 	}

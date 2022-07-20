@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanFolderContractActivityRules
 	{
-		[DataMember(Name="action", EmitDefaultValue=false)]
+		[DataMember(Name="action")]
 		public string Action { get; set; }
 
-		[DataMember(Name="ruleValue", EmitDefaultValue=false)]
+		[DataMember(Name="ruleValue")]
 		public string RuleValue { get; set; }
 
 	}

@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanBatchUpdateRequestContractLoanFields
 	{
-		[DataMember(Name="fieldId", EmitDefaultValue=false)]
+		[DataMember(Name="fieldId")]
 		public string FieldId { get; set; }
 
-		[DataMember(Name="value", EmitDefaultValue=false)]
+		[DataMember(Name="value")]
 		public object Value { get; set; }
 
 	}

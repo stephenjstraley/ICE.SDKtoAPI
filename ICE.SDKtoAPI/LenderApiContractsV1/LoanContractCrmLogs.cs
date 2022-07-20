@@ -5,22 +5,22 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractCrmLogs
 	{
-		[DataMember(Name="contactGuid", EmitDefaultValue=false)]
+		[DataMember(Name="contactGuid")]
 		public string ContactGuid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="mappingId", EmitDefaultValue=false)]
+		[DataMember(Name="mappingId")]
 		public string MappingId { get; set; }
 
-		[DataMember(Name="mappingType", EmitDefaultValue=false)]
+		[DataMember(Name="mappingType")]
 		public int? MappingType { get; set; }
 
-		[DataMember(Name="roleType", EmitDefaultValue=false)]
+		[DataMember(Name="roleType")]
 		public int? RoleType { get; set; }
 
-		[DataMember(Name="systemId", EmitDefaultValue=false)]
+		[DataMember(Name="systemId")]
 		public string SystemId { get; set; }
 
 	}

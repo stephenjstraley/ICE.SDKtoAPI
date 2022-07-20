@@ -5,133 +5,133 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractClosingCostFeeVarianceOther
 	{
-		[DataMember(Name="appliedCureAmount", EmitDefaultValue=false)]
-		public double? AppliedCureAmount { get; set; }
+		[DataMember(Name="appliedCureAmount")]
+		public decimal? AppliedCureAmount { get; set; }
 
-		[DataMember(Name="cannotDecreaseCDBaselineGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cannotDecreaseCDBaselineGuid")]
 		public string CannotDecreaseCDBaselineGuid { get; set; }
 
-		[DataMember(Name="cannotDecreaseLEBaselineGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cannotDecreaseLEBaselineGuid")]
 		public string CannotDecreaseLEBaselineGuid { get; set; }
 
-		[DataMember(Name="cannotIncrease10CDBaselineGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cannotIncrease10CDBaselineGuid")]
 		public string CannotIncrease10CDBaselineGuid { get; set; }
 
-		[DataMember(Name="cannotIncrease10LEBaselineGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cannotIncrease10LEBaselineGuid")]
 		public string CannotIncrease10LEBaselineGuid { get; set; }
 
-		[DataMember(Name="cannotIncreaseCDBaselineGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cannotIncreaseCDBaselineGuid")]
 		public string CannotIncreaseCDBaselineGuid { get; set; }
 
-		[DataMember(Name="cannotIncreaseLEBaselineGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cannotIncreaseLEBaselineGuid")]
 		public string CannotIncreaseLEBaselineGuid { get; set; }
 
-		[DataMember(Name="cDInitialGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cDInitialGuid")]
 		public string CDInitialGuid { get; set; }
 
-		[DataMember(Name="cDInitialReceivedDateGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cDInitialReceivedDateGuid")]
 		public string CDInitialReceivedDateGuid { get; set; }
 
-		[DataMember(Name="cDLatestGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cDLatestGuid")]
 		public string CDLatestGuid { get; set; }
 
-		[DataMember(Name="cDPostConGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cDPostConGuid")]
 		public string CDPostConGuid { get; set; }
 
-		[DataMember(Name="cDRecentAppliedCure", EmitDefaultValue=false)]
+		[DataMember(Name="cDRecentAppliedCure")]
 		public string CDRecentAppliedCure { get; set; }
 
-		[DataMember(Name="cDRevisedReceivedDateGuid", EmitDefaultValue=false)]
+		[DataMember(Name="cDRevisedReceivedDateGuid")]
 		public string CDRevisedReceivedDateGuid { get; set; }
 
-		[DataMember(Name="chargesCannotIncrease10CD1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesCannotIncrease10CD1")]
 		public DateTime? ChargesCannotIncrease10CD1 { get; set; }
 
-		[DataMember(Name="chargesCannotIncrease10InitialLE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesCannotIncrease10InitialLE1")]
 		public DateTime? ChargesCannotIncrease10InitialLE1 { get; set; }
 
-		[DataMember(Name="chargesCannotIncrease10LE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesCannotIncrease10LE1")]
 		public DateTime? ChargesCannotIncrease10LE1 { get; set; }
 
-		[DataMember(Name="chargesThatCanChangeCD1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCanChangeCD1")]
 		public DateTime? ChargesThatCanChangeCD1 { get; set; }
 
-		[DataMember(Name="chargesThatCanChangeInitialLE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCanChangeInitialLE1")]
 		public DateTime? ChargesThatCanChangeInitialLE1 { get; set; }
 
-		[DataMember(Name="chargesThatCanChangeLE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCanChangeLE1")]
 		public DateTime? ChargesThatCanChangeLE1 { get; set; }
 
-		[DataMember(Name="chargesThatCannotDecreaseCD1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCannotDecreaseCD1")]
 		public DateTime? ChargesThatCannotDecreaseCD1 { get; set; }
 
-		[DataMember(Name="chargesThatCannotDecreaseInitialLE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCannotDecreaseInitialLE1")]
 		public DateTime? ChargesThatCannotDecreaseInitialLE1 { get; set; }
 
-		[DataMember(Name="chargesThatCannotDecreaseLE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCannotDecreaseLE1")]
 		public DateTime? ChargesThatCannotDecreaseLE1 { get; set; }
 
-		[DataMember(Name="chargesThatCannotIncreaseCD1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCannotIncreaseCD1")]
 		public DateTime? ChargesThatCannotIncreaseCD1 { get; set; }
 
-		[DataMember(Name="chargesThatCannotIncreaseInitialLE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCannotIncreaseInitialLE1")]
 		public DateTime? ChargesThatCannotIncreaseInitialLE1 { get; set; }
 
-		[DataMember(Name="chargesThatCannotIncreaseLE1", EmitDefaultValue=false)]
+		[DataMember(Name="chargesThatCannotIncreaseLE1")]
 		public DateTime? ChargesThatCannotIncreaseLE1 { get; set; }
 
-		[DataMember(Name="cureAppliedToLenderCredit", EmitDefaultValue=false)]
-		public double? CureAppliedToLenderCredit { get; set; }
+		[DataMember(Name="cureAppliedToLenderCredit")]
+		public decimal? CureAppliedToLenderCredit { get; set; }
 
-		[DataMember(Name="cureAppliedToPrincipalReduction", EmitDefaultValue=false)]
-		public double? CureAppliedToPrincipalReduction { get; set; }
+		[DataMember(Name="cureAppliedToPrincipalReduction")]
+		public decimal? CureAppliedToPrincipalReduction { get; set; }
 
-		[DataMember(Name="disclosureLogGUIDForECD", EmitDefaultValue=false)]
+		[DataMember(Name="disclosureLogGUIDForECD")]
 		public string DisclosureLogGUIDForECD { get; set; }
 
-		[DataMember(Name="disclosureLogGUIDReceivedForECD", EmitDefaultValue=false)]
+		[DataMember(Name="disclosureLogGUIDReceivedForECD")]
 		public string DisclosureLogGUIDReceivedForECD { get; set; }
 
-		[DataMember(Name="goodFaithAmountInitialLE1", EmitDefaultValue=false)]
+		[DataMember(Name="goodFaithAmountInitialLE1")]
 		public DateTime? GoodFaithAmountInitialLE1 { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lEBaselineUsedCannotDecrease", EmitDefaultValue=false)]
+		[DataMember(Name="lEBaselineUsedCannotDecrease")]
 		public bool? LEBaselineUsedCannotDecrease { get; set; }
 
-		[DataMember(Name="lEBaselineUsedCannotIncrease", EmitDefaultValue=false)]
+		[DataMember(Name="lEBaselineUsedCannotIncrease")]
 		public bool? LEBaselineUsedCannotIncrease { get; set; }
 
-		[DataMember(Name="lEBaselineUsedCannotIncrease10", EmitDefaultValue=false)]
+		[DataMember(Name="lEBaselineUsedCannotIncrease10")]
 		public bool? LEBaselineUsedCannotIncrease10 { get; set; }
 
-		[DataMember(Name="lEInitialDTGuid", EmitDefaultValue=false)]
+		[DataMember(Name="lEInitialDTGuid")]
 		public string LEInitialDTGuid { get; set; }
 
-		[DataMember(Name="lEInitialGuid", EmitDefaultValue=false)]
+		[DataMember(Name="lEInitialGuid")]
 		public string LEInitialGuid { get; set; }
 
-		[DataMember(Name="lEInitialReceivedDateGuid", EmitDefaultValue=false)]
+		[DataMember(Name="lEInitialReceivedDateGuid")]
 		public string LEInitialReceivedDateGuid { get; set; }
 
-		[DataMember(Name="lELatestGuid", EmitDefaultValue=false)]
+		[DataMember(Name="lELatestGuid")]
 		public string LELatestGuid { get; set; }
 
-		[DataMember(Name="lERevisedReceivedDateGuid", EmitDefaultValue=false)]
+		[DataMember(Name="lERevisedReceivedDateGuid")]
 		public string LERevisedReceivedDateGuid { get; set; }
 
-		[DataMember(Name="lERevisedSentDateGuid", EmitDefaultValue=false)]
+		[DataMember(Name="lERevisedSentDateGuid")]
 		public string LERevisedSentDateGuid { get; set; }
 
-		[DataMember(Name="requiredCureAmount", EmitDefaultValue=false)]
-		public double? RequiredCureAmount { get; set; }
+		[DataMember(Name="requiredCureAmount")]
+		public decimal? RequiredCureAmount { get; set; }
 
-		[DataMember(Name="safeHarborGuid", EmitDefaultValue=false)]
+		[DataMember(Name="safeHarborGuid")]
 		public string SafeHarborGuid { get; set; }
 
-		[DataMember(Name="sSPLGuid", EmitDefaultValue=false)]
+		[DataMember(Name="sSPLGuid")]
 		public string SSPLGuid { get; set; }
 
 		public string CdInitialDtGuid { get; set; }

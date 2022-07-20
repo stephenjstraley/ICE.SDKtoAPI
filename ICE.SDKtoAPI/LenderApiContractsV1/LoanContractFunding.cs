@@ -5,70 +5,70 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractFunding
 	{
-		[DataMember(Name="collateralSentDate", EmitDefaultValue=false)]
+		[DataMember(Name="collateralSentDate")]
 		public DateTime? CollateralSentDate { get; set; }
 
-		[DataMember(Name="funderName", EmitDefaultValue=false)]
+		[DataMember(Name="funderName")]
 		public string FunderName { get; set; }
 
-		[DataMember(Name="funderUrl", EmitDefaultValue=false)]
+		[DataMember(Name="funderUrl")]
 		public string FunderUrl { get; set; }
 
-		[DataMember(Name="fundingClearedBy", EmitDefaultValue=false)]
+		[DataMember(Name="fundingClearedBy")]
 		public string FundingClearedBy { get; set; }
 
-		[DataMember(Name="fundingCloseDate", EmitDefaultValue=false)]
+		[DataMember(Name="fundingCloseDate")]
 		public DateTime? FundingCloseDate { get; set; }
 
-		[DataMember(Name="fundingFees", EmitDefaultValue=false)]
+		[DataMember(Name="fundingFees")]
 		public string FundingFees { get; set; }
 
-		[DataMember(Name="fundingOrderDate", EmitDefaultValue=false)]
+		[DataMember(Name="fundingOrderDate")]
 		public DateTime? FundingOrderDate { get; set; }
 
-		[DataMember(Name="fundingType", EmitDefaultValue=false)]
+		[DataMember(Name="fundingType")]
 		public string FundingType { get; set; }
 
-		[DataMember(Name="fundsReleasedDate", EmitDefaultValue=false)]
+		[DataMember(Name="fundsReleasedDate")]
 		public DateTime? FundsReleasedDate { get; set; }
 
-		[DataMember(Name="fundsReleaseNumber", EmitDefaultValue=false)]
+		[DataMember(Name="fundsReleaseNumber")]
 		public string FundsReleaseNumber { get; set; }
 
-		[DataMember(Name="fundsSentDate", EmitDefaultValue=false)]
+		[DataMember(Name="fundsSentDate")]
 		public DateTime? FundsSentDate { get; set; }
 
-		[DataMember(Name="fundsWireTo", EmitDefaultValue=false)]
+		[DataMember(Name="fundsWireTo")]
 		public string FundsWireTo { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="sentToFunderDate", EmitDefaultValue=false)]
+		[DataMember(Name="sentToFunderDate")]
 		public DateTime? SentToFunderDate { get; set; }
 
-		[DataMember(Name="wiredToAbaNumber", EmitDefaultValue=false)]
+		[DataMember(Name="wiredToAbaNumber")]
 		public string WiredToAbaNumber { get; set; }
 
-		[DataMember(Name="wiredToAccountNumber", EmitDefaultValue=false)]
+		[DataMember(Name="wiredToAccountNumber")]
 		public string WiredToAccountNumber { get; set; }
 
-		[DataMember(Name="wiredToForCreditTo", EmitDefaultValue=false)]
+		[DataMember(Name="wiredToForCreditTo")]
 		public string WiredToForCreditTo { get; set; }
 
-		[DataMember(Name="wiredToForCreditTo1", EmitDefaultValue=false)]
+		[DataMember(Name="wiredToForCreditTo1")]
 		public string WiredToForCreditTo1 { get; set; }
 
-		[DataMember(Name="wiredToForCreditTo2", EmitDefaultValue=false)]
+		[DataMember(Name="wiredToForCreditTo2")]
 		public string WiredToForCreditTo2 { get; set; }
 
-		[DataMember(Name="wiredToForFurtherCreditTo1", EmitDefaultValue=false)]
+		[DataMember(Name="wiredToForFurtherCreditTo1")]
 		public string WiredToForFurtherCreditTo1 { get; set; }
 
-		[DataMember(Name="wiredToForFurtherCreditTo2", EmitDefaultValue=false)]
+		[DataMember(Name="wiredToForFurtherCreditTo2")]
 		public string WiredToForFurtherCreditTo2 { get; set; }
 
-		[DataMember(Name = "wireAmount", EmitDefaultValue = false)]
+		[DataMember(Name = "wireAmount")]
 		public decimal? WireAmount { get; set; }
 	}
 }

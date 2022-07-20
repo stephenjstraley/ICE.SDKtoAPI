@@ -8,16 +8,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class UserLicenseContract
     {
-        [DataMember(Name = "state", EmitDefaultValue = false)]
+        [DataMember(Name = "state")]
         public string State { get; set; }
 
-        [DataMember(Name = "enabled", EmitDefaultValue = false)]
+        [DataMember(Name = "enabled")]
         public bool Enabled { get; set; }
 
-        [DataMember(Name = "license", EmitDefaultValue = false)]
+        [DataMember(Name = "license")]
         public string License { get; set; }
 
-        [DataMember(Name = "expirationDate", EmitDefaultValue = false)]
+        [DataMember(Name = "expirationDate")]
         public string ExpirationDate { get; set; }
     }
 }

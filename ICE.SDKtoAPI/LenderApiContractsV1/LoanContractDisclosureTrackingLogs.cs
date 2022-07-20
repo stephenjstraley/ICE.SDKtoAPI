@@ -7,232 +7,232 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractDisclosureTrackingLogs
 	{
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<LoanContractAlerts> Alerts { get; set; }
 
-		[DataMember(Name="alertsXml", EmitDefaultValue=false)]
+		[DataMember(Name="alertsXml")]
 		public string AlertsXml { get; set; }
 
-		[DataMember(Name="applicationDate", EmitDefaultValue=false)]
+		[DataMember(Name="applicationDate")]
 		public DateTime? ApplicationDate { get; set; }
 
-		[DataMember(Name="borrowerName", EmitDefaultValue=false)]
+		[DataMember(Name="borrowerName")]
 		public string BorrowerName { get; set; }
 
-		[DataMember(Name="borrowerPairId", EmitDefaultValue=false)]
+		[DataMember(Name="borrowerPairId")]
 		public string BorrowerPairId { get; set; }
 
-		[DataMember(Name="coBorrowerName", EmitDefaultValue=false)]
+		[DataMember(Name="coBorrowerName")]
 		public string CoBorrowerName { get; set; }
 
-		[DataMember(Name="commentList", EmitDefaultValue=false)]
+		[DataMember(Name="commentList")]
 		public List<LoanContractLogRecordCommentList> CommentList { get; set; }
 
-		[DataMember(Name="commentListXml", EmitDefaultValue=false)]
+		[DataMember(Name="commentListXml")]
 		public string CommentListXml { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="containGfe", EmitDefaultValue=false)]
+		[DataMember(Name="containGfe")]
 		public bool? ContainGfe { get; set; }
 
-		[DataMember(Name="containSafeHarbor", EmitDefaultValue=false)]
+		[DataMember(Name="containSafeHarbor")]
 		public bool? ContainSafeHarbor { get; set; }
 
-		[DataMember(Name="containTil", EmitDefaultValue=false)]
+		[DataMember(Name="containTil")]
 		public bool? ContainTil { get; set; }
 
-		[DataMember(Name="dateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="dateUtc")]
 		public DateTime? DateUtc { get; set; }
 
-		[DataMember(Name="disclosedAPR", EmitDefaultValue=false)]
+		[DataMember(Name="disclosedAPR")]
 		public string DisclosedAPR { get; set; }
 
-		[DataMember(Name="disclosedBy", EmitDefaultValue=false)]
+		[DataMember(Name="disclosedBy")]
 		public string DisclosedBy { get; set; }
 
-		[DataMember(Name="disclosedByFullName", EmitDefaultValue=false)]
+		[DataMember(Name="disclosedByFullName")]
 		public string DisclosedByFullName { get; set; }
 
-		[DataMember(Name="disclosedMethod", EmitDefaultValue=false)]
+		[DataMember(Name="disclosedMethod")]
 		public string DisclosedMethod { get; set; }
 
-		[DataMember(Name="disclosureCreatedDttmUtc", EmitDefaultValue=false)]
+		[DataMember(Name="disclosureCreatedDttmUtc")]
 		public DateTime? DisclosureCreatedDttmUtc { get; set; }
 
-		[DataMember(Name="eDisclosureApplicationPackageIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureApplicationPackageIndicator")]
 		public bool? EDisclosureApplicationPackageIndicator { get; set; }
 
-		[DataMember(Name="eDisclosureApprovalPackageIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureApprovalPackageIndicator")]
 		public bool? EDisclosureApprovalPackageIndicator { get; set; }
 
-		[DataMember(Name="eDisclosureBorrowerAcceptConsentDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureBorrowerAcceptConsentDate")]
 		public DateTime? EDisclosureBorrowerAcceptConsentDate { get; set; }
 
-		[DataMember(Name="eDisclosureBorrowereSignedDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureBorrowereSignedDate")]
 		public DateTime? EDisclosureBorrowereSignedDate { get; set; }
 
-		[DataMember(Name="eDisclosureBorrowerRejectConsentDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureBorrowerRejectConsentDate")]
 		public DateTime? EDisclosureBorrowerRejectConsentDate { get; set; }
 
-		[DataMember(Name="eDisclosureBorrowerViewConsentDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureBorrowerViewConsentDate")]
 		public DateTime? EDisclosureBorrowerViewConsentDate { get; set; }
 
-		[DataMember(Name="eDisclosureBorrowerViewMessageDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureBorrowerViewMessageDate")]
 		public DateTime? EDisclosureBorrowerViewMessageDate { get; set; }
 
-		[DataMember(Name="eDisclosureBorrowerWetSignedDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureBorrowerWetSignedDate")]
 		public DateTime? EDisclosureBorrowerWetSignedDate { get; set; }
 
-		[DataMember(Name="eDisclosureCoBorrowerAcceptConsentDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureCoBorrowerAcceptConsentDate")]
 		public DateTime? EDisclosureCoBorrowerAcceptConsentDate { get; set; }
 
-		[DataMember(Name="eDisclosureCoBorrowereSignedDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureCoBorrowereSignedDate")]
 		public DateTime? EDisclosureCoBorrowereSignedDate { get; set; }
 
-		[DataMember(Name="eDisclosureCoBorrowerRejectConsentDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureCoBorrowerRejectConsentDate")]
 		public DateTime? EDisclosureCoBorrowerRejectConsentDate { get; set; }
 
-		[DataMember(Name="eDisclosureCoBorrowerViewConsentDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureCoBorrowerViewConsentDate")]
 		public DateTime? EDisclosureCoBorrowerViewConsentDate { get; set; }
 
-		[DataMember(Name="eDisclosureCoBorrowerViewMessageDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureCoBorrowerViewMessageDate")]
 		public DateTime? EDisclosureCoBorrowerViewMessageDate { get; set; }
 
-		[DataMember(Name="eDisclosureCoBorrowerWebSignedDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureCoBorrowerWebSignedDate")]
 		public DateTime? EDisclosureCoBorrowerWebSignedDate { get; set; }
 
-		[DataMember(Name="eDisclosureConsentPdf", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureConsentPdf")]
 		public string EDisclosureConsentPdf { get; set; }
 
-		[DataMember(Name="eDisclosureDisclosedMessage", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureDisclosedMessage")]
 		public string EDisclosureDisclosedMessage { get; set; }
 
-		[DataMember(Name="eDisclosureLockPackageIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureLockPackageIndicator")]
 		public bool? EDisclosureLockPackageIndicator { get; set; }
 
-		[DataMember(Name="eDisclosureManualFulfillmentComment", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureManualFulfillmentComment")]
 		public string EDisclosureManualFulfillmentComment { get; set; }
 
-		[DataMember(Name="eDisclosureManualFulfillmentDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureManualFulfillmentDate")]
 		public DateTime? EDisclosureManualFulfillmentDate { get; set; }
 
-		[DataMember(Name="eDisclosureManualFulfillmentMethod", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureManualFulfillmentMethod")]
 		public string EDisclosureManualFulfillmentMethod { get; set; }
 
-		[DataMember(Name="eDisclosureManuallyFulfilledBy", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureManuallyFulfilledBy")]
 		public string EDisclosureManuallyFulfilledBy { get; set; }
 
-		[DataMember(Name="eDisclosurePackageCreatedDate", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosurePackageCreatedDate")]
 		public DateTime? EDisclosurePackageCreatedDate { get; set; }
 
-		[DataMember(Name="eDisclosurePackageId", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosurePackageId")]
 		public string EDisclosurePackageId { get; set; }
 
-		[DataMember(Name="eDisclosurePackageViewableFile", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosurePackageViewableFile")]
 		public string EDisclosurePackageViewableFile { get; set; }
 
-		[DataMember(Name="eDisclosureThreeDayPackageIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="eDisclosureThreeDayPackageIndicator")]
 		public bool? EDisclosureThreeDayPackageIndicator { get; set; }
 
-		[DataMember(Name="fileAttachmentsMigrated", EmitDefaultValue=false)]
+		[DataMember(Name="fileAttachmentsMigrated")]
 		public bool? FileAttachmentsMigrated { get; set; }
 
-		[DataMember(Name="financeCharge", EmitDefaultValue=false)]
+		[DataMember(Name="financeCharge")]
 		public string FinanceCharge { get; set; }
 
-		[DataMember(Name="forms", EmitDefaultValue=false)]
+		[DataMember(Name="forms")]
 		public List<LoanContractForms> Forms { get; set; }
 
-		[DataMember(Name="formsXml", EmitDefaultValue=false)]
+		[DataMember(Name="formsXml")]
 		public string FormsXml { get; set; }
 
-		[DataMember(Name="fulfillmentOrderedBy", EmitDefaultValue=false)]
+		[DataMember(Name="fulfillmentOrderedBy")]
 		public string FulfillmentOrderedBy { get; set; }
 
-		[DataMember(Name="fullfillmentProcessedDate", EmitDefaultValue=false)]
+		[DataMember(Name="fullfillmentProcessedDate")]
 		public string FullfillmentProcessedDate { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isDisclosed", EmitDefaultValue=false)]
+		[DataMember(Name="isDisclosed")]
 		public string IsDisclosed { get; set; }
 
-		[DataMember(Name="isDisclosedAprLocked", EmitDefaultValue=false)]
+		[DataMember(Name="isDisclosedAprLocked")]
 		public string IsDisclosedAprLocked { get; set; }
 
-		[DataMember(Name="isDisclosedByLocked", EmitDefaultValue=false)]
+		[DataMember(Name="isDisclosedByLocked")]
 		public string IsDisclosedByLocked { get; set; }
 
-		[DataMember(Name="isDisclosedFinanceChargeLocked", EmitDefaultValue=false)]
+		[DataMember(Name="isDisclosedFinanceChargeLocked")]
 		public string IsDisclosedFinanceChargeLocked { get; set; }
 
-		[DataMember(Name="isDisclosedReceivedDateLocked", EmitDefaultValue=false)]
+		[DataMember(Name="isDisclosedReceivedDateLocked")]
 		public string IsDisclosedReceivedDateLocked { get; set; }
 
-		[DataMember(Name="isLocked", EmitDefaultValue=false)]
+		[DataMember(Name="isLocked")]
 		public string IsLocked { get; set; }
 
-		[DataMember(Name="isSystemSpecificIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="isSystemSpecificIndicator")]
 		public bool? IsSystemSpecificIndicator { get; set; }
 
-		[DataMember(Name="isWetSignedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="isWetSignedIndicator")]
 		public bool? IsWetSignedIndicator { get; set; }
 
-		[DataMember(Name="loanAmount", EmitDefaultValue=false)]
+		[DataMember(Name="loanAmount")]
 		public string LoanAmount { get; set; }
 
-		[DataMember(Name="loanProgram", EmitDefaultValue=false)]
+		[DataMember(Name="loanProgram")]
 		public string LoanProgram { get; set; }
 
-		[DataMember(Name="lockedDisclosedAprField", EmitDefaultValue=false)]
+		[DataMember(Name="lockedDisclosedAprField")]
 		public string LockedDisclosedAprField { get; set; }
 
-		[DataMember(Name="lockedDisclosedByField", EmitDefaultValue=false)]
+		[DataMember(Name="lockedDisclosedByField")]
 		public string LockedDisclosedByField { get; set; }
 
-		[DataMember(Name="lockedDisclosedFinanceChargeField", EmitDefaultValue=false)]
+		[DataMember(Name="lockedDisclosedFinanceChargeField")]
 		public string LockedDisclosedFinanceChargeField { get; set; }
 
-		[DataMember(Name="lockedDisclosedReceivedDate", EmitDefaultValue=false)]
+		[DataMember(Name="lockedDisclosedReceivedDate")]
 		public DateTime? LockedDisclosedReceivedDate { get; set; }
 
-		[DataMember(Name="logRecordIndex", EmitDefaultValue=false)]
+		[DataMember(Name="logRecordIndex")]
 		public int? LogRecordIndex { get; set; }
 
-		[DataMember(Name="manuallyCreated", EmitDefaultValue=false)]
+		[DataMember(Name="manuallyCreated")]
 		public string ManuallyCreated { get; set; }
 
-		[DataMember(Name="propertyAddress", EmitDefaultValue=false)]
+		[DataMember(Name="propertyAddress")]
 		public string PropertyAddress { get; set; }
 
-		[DataMember(Name="propertyCity", EmitDefaultValue=false)]
+		[DataMember(Name="propertyCity")]
 		public string PropertyCity { get; set; }
 
-		[DataMember(Name="propertyState", EmitDefaultValue=false)]
+		[DataMember(Name="propertyState")]
 		public string PropertyState { get; set; }
 
-		[DataMember(Name="propertyZip", EmitDefaultValue=false)]
+		[DataMember(Name="propertyZip")]
 		public string PropertyZip { get; set; }
 
-		[DataMember(Name="receivedDate", EmitDefaultValue=false)]
+		[DataMember(Name="receivedDate")]
 		public DateTime? ReceivedDate { get; set; }
 
-		[DataMember(Name="snapshotFields", EmitDefaultValue=false)]
+		[DataMember(Name="snapshotFields")]
 		public List<LoanContractSnapshotFields> SnapshotFields { get; set; }
 
-		[DataMember(Name="snapshotXml", EmitDefaultValue=false)]
+		[DataMember(Name="snapshotXml")]
 		public string SnapshotXml { get; set; }
 
-		[DataMember(Name="systemId", EmitDefaultValue=false)]
+		[DataMember(Name="systemId")]
 		public string SystemId { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
 	}

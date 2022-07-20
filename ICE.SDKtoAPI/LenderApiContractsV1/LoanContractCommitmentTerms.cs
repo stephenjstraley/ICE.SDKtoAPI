@@ -5,89 +5,89 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractCommitmentTerms
 	{
-		[DataMember(Name="actionDate", EmitDefaultValue=false)]
+		[DataMember(Name="actionDate")]
 		public DateTime? ActionDate { get; set; }
 
-		[DataMember(Name="additionalConditions", EmitDefaultValue=false)]
+		[DataMember(Name="additionalConditions")]
 		public string AdditionalConditions { get; set; }
 
-		[DataMember(Name="additionalItems1", EmitDefaultValue=false)]
+		[DataMember(Name="additionalItems1")]
 		public string AdditionalItems1 { get; set; }
 
-		[DataMember(Name="additionalItems2", EmitDefaultValue=false)]
+		[DataMember(Name="additionalItems2")]
 		public string AdditionalItems2 { get; set; }
 
-		[DataMember(Name="additionalItems3", EmitDefaultValue=false)]
+		[DataMember(Name="additionalItems3")]
 		public string AdditionalItems3 { get; set; }
 
-		[DataMember(Name="appraisalDone", EmitDefaultValue=false)]
+		[DataMember(Name="appraisalDone")]
 		public bool? AppraisalDone { get; set; }
 
-		[DataMember(Name="assuranceOfCompletion", EmitDefaultValue=false)]
-		public double? AssuranceOfCompletion { get; set; }
+		[DataMember(Name="assuranceOfCompletion")]
+		public decimal? AssuranceOfCompletion { get; set; }
 
-		[DataMember(Name="commitmentDate", EmitDefaultValue=false)]
+		[DataMember(Name="commitmentDate")]
 		public DateTime? CommitmentDate { get; set; }
 
-		[DataMember(Name="commitmentExpired", EmitDefaultValue=false)]
+		[DataMember(Name="commitmentExpired")]
 		public DateTime? CommitmentExpired { get; set; }
 
-		[DataMember(Name="commitmentIssued", EmitDefaultValue=false)]
+		[DataMember(Name="commitmentIssued")]
 		public DateTime? CommitmentIssued { get; set; }
 
-		[DataMember(Name="conditionalCommitmentUnderActg", EmitDefaultValue=false)]
+		[DataMember(Name="conditionalCommitmentUnderActg")]
 		public bool? ConditionalCommitmentUnderActg { get; set; }
 
-		[DataMember(Name="eligibleForHighLtv", EmitDefaultValue=false)]
+		[DataMember(Name="eligibleForHighLtv")]
 		public bool? EligibleForHighLtv { get; set; }
 
-		[DataMember(Name="estimatedRemainingYears", EmitDefaultValue=false)]
+		[DataMember(Name="estimatedRemainingYears")]
 		public int? EstimatedRemainingYears { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="improvedLivingAreas", EmitDefaultValue=false)]
+		[DataMember(Name="improvedLivingAreas")]
 		public string ImprovedLivingAreas { get; set; }
 
-		[DataMember(Name="manufacturedHousing", EmitDefaultValue=false)]
+		[DataMember(Name="manufacturedHousing")]
 		public bool? ManufacturedHousing { get; set; }
 
-		[DataMember(Name="maxInsurableMortgage", EmitDefaultValue=false)]
-		public double? MaxInsurableMortgage { get; set; }
+		[DataMember(Name="maxInsurableMortgage")]
+		public decimal? MaxInsurableMortgage { get; set; }
 
-		[DataMember(Name="mortgageeAddress", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageeAddress")]
 		public string MortgageeAddress { get; set; }
 
-		[DataMember(Name="mortgageeCity", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageeCity")]
 		public string MortgageeCity { get; set; }
 
-		[DataMember(Name="mortgageeName", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageeName")]
 		public string MortgageeName { get; set; }
 
-		[DataMember(Name="mortgageePostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageePostalCode")]
 		public string MortgageePostalCode { get; set; }
 
-		[DataMember(Name="mortgageeState", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageeState")]
 		public string MortgageeState { get; set; }
 
-		[DataMember(Name="otherMonthlyExpenseDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherMonthlyExpenseDescription")]
 		public string OtherMonthlyExpenseDescription { get; set; }
 
-		[DataMember(Name="reportDate", EmitDefaultValue=false)]
+		[DataMember(Name="reportDate")]
 		public DateTime? ReportDate { get; set; }
 
-		[DataMember(Name="requirementsNumber", EmitDefaultValue=false)]
+		[DataMember(Name="requirementsNumber")]
 		public string RequirementsNumber { get; set; }
 
-		[DataMember(Name="subdivisionDescription", EmitDefaultValue=false)]
+		[DataMember(Name="subdivisionDescription")]
 		public string SubdivisionDescription { get; set; }
 
-		[DataMember(Name="subdivisionRequirements", EmitDefaultValue=false)]
+		[DataMember(Name="subdivisionRequirements")]
 		public string SubdivisionRequirements { get; set; }
 
-		[DataMember(Name="totalMonthlyExpense", EmitDefaultValue=false)]
-		public double? TotalMonthlyExpense { get; set; }
+		[DataMember(Name="totalMonthlyExpense")]
+		public decimal? TotalMonthlyExpense { get; set; }
 
 	}
 }

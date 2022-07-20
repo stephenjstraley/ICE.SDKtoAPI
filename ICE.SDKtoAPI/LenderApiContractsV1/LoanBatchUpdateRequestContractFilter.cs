@@ -7,25 +7,25 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanBatchUpdateRequestContractFilter
 	{
-		[DataMember(Name="operator", EmitDefaultValue=false)]
+		[DataMember(Name="operator")]
 		public object _Operator { get; set; }
 
-		[DataMember(Name="canonicalName", EmitDefaultValue=false)]
+		[DataMember(Name="canonicalName")]
 		public string CanonicalName { get; set; }
 
-		[DataMember(Name="include", EmitDefaultValue=false)]
+		[DataMember(Name="include")]
 		public bool? Include { get; set; }
 
-		[DataMember(Name="matchType", EmitDefaultValue=false)]
+		[DataMember(Name="matchType")]
 		public string MatchType { get; set; }
 
-		[DataMember(Name="precision", EmitDefaultValue=false)]
+		[DataMember(Name="precision")]
 		public object Precision { get; set; }
 
-		[DataMember(Name="terms", EmitDefaultValue=false)]
+		[DataMember(Name="terms")]
 		public List<object> Terms { get; set; }
 
-		[DataMember(Name="value", EmitDefaultValue=false)]
+		[DataMember(Name="value")]
 		public object Value { get; set; }
 
 	}

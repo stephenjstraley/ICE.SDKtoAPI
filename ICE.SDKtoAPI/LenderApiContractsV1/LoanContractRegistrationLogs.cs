@@ -7,58 +7,58 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractRegistrationLogs
 	{
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<LoanContractAlerts> Alerts { get; set; }
 
-		[DataMember(Name="commentList", EmitDefaultValue=false)]
+		[DataMember(Name="commentList")]
 		public List<LoanContractLogRecordCommentList> CommentList { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="currentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="currentIndicator")]
 		public bool? CurrentIndicator { get; set; }
 
-		[DataMember(Name="dateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="dateUtc")]
 		public DateTime? DateUtc { get; set; }
 
-		[DataMember(Name="expiredDate", EmitDefaultValue=false)]
+		[DataMember(Name="expiredDate")]
 		public DateTime? ExpiredDate { get; set; }
 
-		[DataMember(Name="fileAttachmentsMigrated", EmitDefaultValue=false)]
+		[DataMember(Name="fileAttachmentsMigrated")]
 		public bool? FileAttachmentsMigrated { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="investorName", EmitDefaultValue=false)]
+		[DataMember(Name="investorName")]
 		public string InvestorName { get; set; }
 
-		[DataMember(Name="isSystemSpecificIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="isSystemSpecificIndicator")]
 		public bool? IsSystemSpecificIndicator { get; set; }
 
-		[DataMember(Name="logRecordIndex", EmitDefaultValue=false)]
+		[DataMember(Name="logRecordIndex")]
 		public int? LogRecordIndex { get; set; }
 
-		[DataMember(Name="reference", EmitDefaultValue=false)]
+		[DataMember(Name="reference")]
 		public string Reference { get; set; }
 
-		[DataMember(Name="registeredById", EmitDefaultValue=false)]
+		[DataMember(Name="registeredById")]
 		public string RegisteredById { get; set; }
 
-		[DataMember(Name="registeredByName", EmitDefaultValue=false)]
+		[DataMember(Name="registeredByName")]
 		public string RegisteredByName { get; set; }
 
-		[DataMember(Name="registeredDate", EmitDefaultValue=false)]
+		[DataMember(Name="registeredDate")]
 		public DateTime? RegisteredDate { get; set; }
 
-		[DataMember(Name="systemId", EmitDefaultValue=false)]
+		[DataMember(Name="systemId")]
 		public string SystemId { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
 	}

@@ -5,301 +5,301 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractContacts
 	{
-		[DataMember(Name="aBA", EmitDefaultValue=false)]
+		[DataMember(Name="aBA")]
 		public string ABA { get; set; }
 
-		[DataMember(Name="accountName", EmitDefaultValue=false)]
+		[DataMember(Name="accountName")]
 		public string AccountName { get; set; }
 
-		[DataMember(Name="address", EmitDefaultValue=false)]
+		[DataMember(Name="address")]
 		public string Address { get; set; }
 
-		[DataMember(Name="address2", EmitDefaultValue=false)]
+		[DataMember(Name="address2")]
 		public string Address2 { get; set; }
 
-		[DataMember(Name= "addToCdContactInfo", EmitDefaultValue=false)]
+		[DataMember(Name= "addToCdContactInfo")]
 		public bool? AddToCdContactInfo { get; set; }
 
-		[DataMember(Name="appraisalMade", EmitDefaultValue=false)]
+		[DataMember(Name="appraisalMade")]
 		public string AppraisalMade { get; set; }
 
-		[DataMember(Name="bizLicenseAuthDate", EmitDefaultValue=false)]
+		[DataMember(Name="bizLicenseAuthDate")]
 		public DateTime? BizLicenseAuthDate { get; set; }
 
-		[DataMember(Name="bizLicenseAuthName", EmitDefaultValue=false)]
+		[DataMember(Name="bizLicenseAuthName")]
 		public string BizLicenseAuthName { get; set; }
 
-		[DataMember(Name="bizLicenseAuthStateCode", EmitDefaultValue=false)]
+		[DataMember(Name="bizLicenseAuthStateCode")]
 		public string BizLicenseAuthStateCode { get; set; }
 
-		[DataMember(Name="bizLicenseAuthType", EmitDefaultValue=false)]
+		[DataMember(Name="bizLicenseAuthType")]
 		public string BizLicenseAuthType { get; set; }
 
-		[DataMember(Name="bizLicenseNumber", EmitDefaultValue=false)]
+		[DataMember(Name="bizLicenseNumber")]
 		public string BizLicenseNumber { get; set; }
 
-		[DataMember(Name="borrowerActingAsContractorIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="borrowerActingAsContractorIndicator")]
 		public bool? BorrowerActingAsContractorIndicator { get; set; }
 
-		[DataMember(Name="brokerLenderType", EmitDefaultValue=false)]
+		[DataMember(Name="brokerLenderType")]
 		public string BrokerLenderType { get; set; }
 
-		[DataMember(Name="brokerLicenseExempt", EmitDefaultValue=false)]
+		[DataMember(Name="brokerLicenseExempt")]
 		public bool? BrokerLicenseExempt { get; set; }
 
-		[DataMember(Name="brokerLicenseType", EmitDefaultValue=false)]
+		[DataMember(Name="brokerLicenseType")]
 		public string BrokerLicenseType { get; set; }
 
-		[DataMember(Name="businessPhone", EmitDefaultValue=false)]
+		[DataMember(Name="businessPhone")]
 		public string BusinessPhone { get; set; }
 
-		[DataMember(Name="categoryName", EmitDefaultValue=false)]
+		[DataMember(Name="categoryName")]
 		public string CategoryName { get; set; }
 
-		[DataMember(Name="cell", EmitDefaultValue=false)]
+		[DataMember(Name="cell")]
 		public string Cell { get; set; }
 
-		[DataMember(Name="checkConfirmedDate", EmitDefaultValue=false)]
+		[DataMember(Name="checkConfirmedDate")]
 		public DateTime? CheckConfirmedDate { get; set; }
 
-		[DataMember(Name="city", EmitDefaultValue=false)]
+		[DataMember(Name="city")]
 		public string City { get; set; }
 
-		[DataMember(Name="clause", EmitDefaultValue=false)]
+		[DataMember(Name="clause")]
 		public string Clause { get; set; }
 
-		[DataMember(Name="closingAgentWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="closingAgentWebURL")]
 		public string ClosingAgentWebURL { get; set; }
 
-		[DataMember(Name="closingCompanyWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="closingCompanyWebURL")]
 		public string ClosingCompanyWebURL { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="companyId", EmitDefaultValue=false)]
+		[DataMember(Name="companyId")]
 		public string CompanyId { get; set; }
 
-		[DataMember(Name="completionAffidavitPunchListTotal", EmitDefaultValue=false)]
-		public double? CompletionAffidavitPunchListTotal { get; set; }
+		[DataMember(Name="completionAffidavitPunchListTotal")]
+		public decimal? CompletionAffidavitPunchListTotal { get; set; }
 
-		[DataMember(Name="contact", EmitDefaultValue=false)]
+		[DataMember(Name="contact")]
 		public EntityRefContract Contact { get; set; }
 
-		[DataMember(Name="contactIndex", EmitDefaultValue=false)]
+		[DataMember(Name="contactIndex")]
 		public int? ContactIndex { get; set; }
 
-		[DataMember(Name="contactName", EmitDefaultValue=false)]
+		[DataMember(Name="contactName")]
 		public string ContactName { get; set; }
 
-		[DataMember(Name="contactNMLSNo", EmitDefaultValue=false)]
+		[DataMember(Name="contactNMLSNo")]
 		public string ContactNMLSNo { get; set; }
 
-		[DataMember(Name="contactTitle", EmitDefaultValue=false)]
+		[DataMember(Name="contactTitle")]
 		public string ContactTitle { get; set; }
 
-		[DataMember(Name="contactType", EmitDefaultValue=false)]
+		[DataMember(Name="contactType")]
 		public string ContactType { get; set; }
 
-		[DataMember(Name="designeeAcceptedDate", EmitDefaultValue=false)]
+		[DataMember(Name="designeeAcceptedDate")]
 		public DateTime? DesigneeAcceptedDate { get; set; }
 
-		[DataMember(Name="email", EmitDefaultValue=false)]
+		[DataMember(Name="email")]
 		public string Email { get; set; }
 
-		[DataMember(Name="employerLiabilityInsuranceMin", EmitDefaultValue=false)]
-		public double? EmployerLiabilityInsuranceMin { get; set; }
+		[DataMember(Name="employerLiabilityInsuranceMin")]
+		public decimal? EmployerLiabilityInsuranceMin { get; set; }
 
-		[DataMember(Name="fax", EmitDefaultValue=false)]
+		[DataMember(Name="fax")]
 		public string Fax { get; set; }
 
-		[DataMember(Name="fax2", EmitDefaultValue=false)]
+		[DataMember(Name="fax2")]
 		public string Fax2 { get; set; }
 
-		[DataMember(Name="fhaLenderId", EmitDefaultValue=false)]
+		[DataMember(Name="fhaLenderId")]
 		public string FhaLenderId { get; set; }
 
-		[DataMember(Name="generalLiabilityInsuranceMin", EmitDefaultValue=false)]
-		public double? GeneralLiabilityInsuranceMin { get; set; }
+		[DataMember(Name="generalLiabilityInsuranceMin")]
+		public decimal? GeneralLiabilityInsuranceMin { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="insuranceCertNumber", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceCertNumber")]
 		public string InsuranceCertNumber { get; set; }
 
-		[DataMember(Name="insuranceCoverageAmount", EmitDefaultValue=false)]
-		public double? InsuranceCoverageAmount { get; set; }
+		[DataMember(Name="insuranceCoverageAmount")]
+		public decimal? InsuranceCoverageAmount { get; set; }
 
-		[DataMember(Name="insuranceDeterminationDate", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceDeterminationDate")]
 		public DateTime? InsuranceDeterminationDate { get; set; }
 
-		[DataMember(Name="insuranceDeterminationNumber", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceDeterminationNumber")]
 		public string InsuranceDeterminationNumber { get; set; }
 
-		[DataMember(Name="insuranceFloodZone", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceFloodZone")]
 		public bool? InsuranceFloodZone { get; set; }
 
-		[DataMember(Name="insuranceMap", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceMap")]
 		public string InsuranceMap { get; set; }
 
-		[DataMember(Name="insuranceNoOfBedrooms", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceNoOfBedrooms")]
 		public int? InsuranceNoOfBedrooms { get; set; }
 
-		[DataMember(Name="insurancePremium", EmitDefaultValue=false)]
-		public double? InsurancePremium { get; set; }
+		[DataMember(Name="insurancePremium")]
+		public decimal? InsurancePremium { get; set; }
 
-		[DataMember(Name="insuranceProjectType", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceProjectType")]
 		public string InsuranceProjectType { get; set; }
 
-		[DataMember(Name="insuranceRenewalDate", EmitDefaultValue=false)]
+		[DataMember(Name="insuranceRenewalDate")]
 		public DateTime? InsuranceRenewalDate { get; set; }
 
-		[DataMember(Name="investorGrade1", EmitDefaultValue=false)]
+		[DataMember(Name="investorGrade1")]
 		public string InvestorGrade1 { get; set; }
 
-		[DataMember(Name="investorGrade2", EmitDefaultValue=false)]
+		[DataMember(Name="investorGrade2")]
 		public string InvestorGrade2 { get; set; }
 
-		[DataMember(Name="investorGrade3", EmitDefaultValue=false)]
+		[DataMember(Name="investorGrade3")]
 		public string InvestorGrade3 { get; set; }
 
-		[DataMember(Name="investorLicense", EmitDefaultValue=false)]
+		[DataMember(Name="investorLicense")]
 		public string InvestorLicense { get; set; }
 
-		[DataMember(Name="investorLicenseType", EmitDefaultValue=false)]
+		[DataMember(Name="investorLicenseType")]
 		public string InvestorLicenseType { get; set; }
 
-		[DataMember(Name="investorName1", EmitDefaultValue=false)]
+		[DataMember(Name="investorName1")]
 		public string InvestorName1 { get; set; }
 
-		[DataMember(Name="investorName2", EmitDefaultValue=false)]
+		[DataMember(Name="investorName2")]
 		public string InvestorName2 { get; set; }
 
-		[DataMember(Name="investorName3", EmitDefaultValue=false)]
+		[DataMember(Name="investorName3")]
 		public string InvestorName3 { get; set; }
 
-		[DataMember(Name="investorScore1", EmitDefaultValue=false)]
+		[DataMember(Name="investorScore1")]
 		public string InvestorScore1 { get; set; }
 
-		[DataMember(Name="investorScore2", EmitDefaultValue=false)]
+		[DataMember(Name="investorScore2")]
 		public string InvestorScore2 { get; set; }
 
-		[DataMember(Name="investorScore3", EmitDefaultValue=false)]
+		[DataMember(Name="investorScore3")]
 		public string InvestorScore3 { get; set; }
 
-		[DataMember(Name="lenderType", EmitDefaultValue=false)]
+		[DataMember(Name="lenderType")]
 		public string LenderType { get; set; }
 
-		[DataMember(Name="license", EmitDefaultValue=false)]
+		[DataMember(Name="license")]
 		public string License { get; set; }
 
-		[DataMember(Name="licenseExempt", EmitDefaultValue=false)]
+		[DataMember(Name="licenseExempt")]
 		public bool? LicenseExempt { get; set; }
 
-		[DataMember(Name="licenseHomeState", EmitDefaultValue=false)]
+		[DataMember(Name="licenseHomeState")]
 		public string LicenseHomeState { get; set; }
 
-		[DataMember(Name="licenseType", EmitDefaultValue=false)]
+		[DataMember(Name="licenseType")]
 		public string LicenseType { get; set; }
 
-		[DataMember(Name="lineItemNumber", EmitDefaultValue=false)]
+		[DataMember(Name="lineItemNumber")]
 		public string LineItemNumber { get; set; }
 
-		[DataMember(Name="loginId", EmitDefaultValue=false)]
+		[DataMember(Name="loginId")]
 		public string LoginId { get; set; }
 
-		[DataMember(Name="mortgageBrokerCompanyWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerCompanyWebURL")]
 		public string MortgageBrokerCompanyWebURL { get; set; }
 
-		[DataMember(Name="mortgageBrokerLoanOfficerWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerLoanOfficerWebURL")]
 		public string MortgageBrokerLoanOfficerWebURL { get; set; }
 
-		[DataMember(Name="mortgageLenderCompanyWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageLenderCompanyWebURL")]
 		public string MortgageLenderCompanyWebURL { get; set; }
 
-		[DataMember(Name="mortgageLenderLoanOfficerWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageLenderLoanOfficerWebURL")]
 		public string MortgageLenderLoanOfficerWebURL { get; set; }
 
-		[DataMember(Name="name", EmitDefaultValue=false)]
+		[DataMember(Name="name")]
 		public string Name { get; set; }
 
-		[DataMember(Name="nmlsLicense", EmitDefaultValue=false)]
+		[DataMember(Name="nmlsLicense")]
 		public string NmlsLicense { get; set; }
 
-		[DataMember(Name="notNaturalPersonFlag", EmitDefaultValue=false)]
+		[DataMember(Name="notNaturalPersonFlag")]
 		public bool? NotNaturalPersonFlag { get; set; }
 
-		[DataMember(Name="organizationState", EmitDefaultValue=false)]
+		[DataMember(Name="organizationState")]
 		public string OrganizationState { get; set; }
 
-		[DataMember(Name="organizationType", EmitDefaultValue=false)]
+		[DataMember(Name="organizationType")]
 		public string OrganizationType { get; set; }
 
-		[DataMember(Name="personalLicenseAuthDate", EmitDefaultValue=false)]
+		[DataMember(Name="personalLicenseAuthDate")]
 		public DateTime? PersonalLicenseAuthDate { get; set; }
 
-		[DataMember(Name="personalLicenseAuthName", EmitDefaultValue=false)]
+		[DataMember(Name="personalLicenseAuthName")]
 		public string PersonalLicenseAuthName { get; set; }
 
-		[DataMember(Name="personalLicenseAuthStateCode", EmitDefaultValue=false)]
+		[DataMember(Name="personalLicenseAuthStateCode")]
 		public string PersonalLicenseAuthStateCode { get; set; }
 
-		[DataMember(Name="personalLicenseAuthType", EmitDefaultValue=false)]
+		[DataMember(Name="personalLicenseAuthType")]
 		public string PersonalLicenseAuthType { get; set; }
 
-		[DataMember(Name="personalLicenseNumber", EmitDefaultValue=false)]
+		[DataMember(Name="personalLicenseNumber")]
 		public string PersonalLicenseNumber { get; set; }
 
-		[DataMember(Name="phone", EmitDefaultValue=false)]
+		[DataMember(Name="phone")]
 		public string Phone { get; set; }
 
-		[DataMember(Name="phone2", EmitDefaultValue=false)]
+		[DataMember(Name="phone2")]
 		public string Phone2 { get; set; }
 
-		[DataMember(Name="postalCode", EmitDefaultValue=false)]
+		[DataMember(Name="postalCode")]
 		public string PostalCode { get; set; }
 
-		[DataMember(Name="realEstateAgencyWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateAgencyWebURL")]
 		public string RealEstateAgencyWebURL { get; set; }
 
-		[DataMember(Name="realEstateAgentWebURL", EmitDefaultValue=false)]
+		[DataMember(Name="realEstateAgentWebURL")]
 		public string RealEstateAgentWebURL { get; set; }
 
-		[DataMember(Name="recCity", EmitDefaultValue=false)]
+		[DataMember(Name="recCity")]
 		public string RecCity { get; set; }
 
-		[DataMember(Name="referenceNumber", EmitDefaultValue=false)]
+		[DataMember(Name="referenceNumber")]
 		public string ReferenceNumber { get; set; }
 
-		[DataMember(Name="relationship", EmitDefaultValue=false)]
+		[DataMember(Name="relationship")]
 		public string Relationship { get; set; }
 
-		[DataMember(Name="settlementAgent", EmitDefaultValue=false)]
+		[DataMember(Name="settlementAgent")]
 		public bool? SettlementAgent { get; set; }
 
-		[DataMember(Name="state", EmitDefaultValue=false)]
+		[DataMember(Name="state")]
 		public string State { get; set; }
 
-		[DataMember(Name="taxID", EmitDefaultValue=false)]
+		[DataMember(Name="taxID")]
 		public string TaxID { get; set; }
 
-		[DataMember(Name="tqlCommentHistory", EmitDefaultValue=false)]
+		[DataMember(Name="tqlCommentHistory")]
 		public string TqlCommentHistory { get; set; }
 
-		[DataMember(Name="tQLConsentSelection", EmitDefaultValue=false)]
+		[DataMember(Name="tQLConsentSelection")]
 		public string TQLConsentSelection { get; set; }
 
-		[DataMember(Name="tqlId", EmitDefaultValue=false)]
+		[DataMember(Name="tqlId")]
 		public int? TqlId { get; set; }
 
-		[DataMember(Name="tqlIsPublishingIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="tqlIsPublishingIndicator")]
 		public bool? TqlIsPublishingIndicator { get; set; }
 
-		[DataMember(Name="tqlName", EmitDefaultValue=false)]
+		[DataMember(Name="tqlName")]
 		public string TqlName { get; set; }
 
-		[DataMember(Name = "country", EmitDefaultValue = false)]
+		[DataMember(Name = "country")]
 		public string Country { get; set; }
 
 	}

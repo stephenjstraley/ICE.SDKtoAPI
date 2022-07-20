@@ -5,40 +5,40 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractUsdaUsdaHouseholdIncomes
 	{
-		[DataMember(Name="age", EmitDefaultValue=false)]
+		[DataMember(Name="age")]
 		public int? Age { get; set; }
 
-		[DataMember(Name="analysisDocumenting", EmitDefaultValue=false)]
+		[DataMember(Name="analysisDocumenting")]
 		public string AnalysisDocumenting { get; set; }
 
-		[DataMember(Name="annualNonWageIncome", EmitDefaultValue=false)]
-		public double? AnnualNonWageIncome { get; set; }
+		[DataMember(Name="annualNonWageIncome")]
+		public decimal? AnnualNonWageIncome { get; set; }
 
-		[DataMember(Name="annualWageIncome", EmitDefaultValue=false)]
-		public double? AnnualWageIncome { get; set; }
+		[DataMember(Name="annualWageIncome")]
+		public decimal? AnnualWageIncome { get; set; }
 
-		[DataMember(Name="disabledIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="disabledIndicator")]
 		public bool? DisabledIndicator { get; set; }
 
-		[DataMember(Name="fullTimeStudentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="fullTimeStudentIndicator")]
 		public bool? FullTimeStudentIndicator { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="name", EmitDefaultValue=false)]
+		[DataMember(Name="name")]
 		public string Name { get; set; }
 
-		[DataMember(Name="recordOwnerType", EmitDefaultValue=false)]
+		[DataMember(Name="recordOwnerType")]
 		public string RecordOwnerType { get; set; }
 
-		[DataMember(Name="sourceofNonWageIncomeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="sourceofNonWageIncomeDescription")]
 		public string SourceofNonWageIncomeDescription { get; set; }
 
-		[DataMember(Name="sourceofWageIncomeEmployerName", EmitDefaultValue=false)]
+		[DataMember(Name="sourceofWageIncomeEmployerName")]
 		public string SourceofWageIncomeEmployerName { get; set; }
 
-		[DataMember(Name="usdaHouseholdIncomeIndex", EmitDefaultValue=false)]
+		[DataMember(Name="usdaHouseholdIncomeIndex")]
 		public int? UsdaHouseholdIncomeIndex { get; set; }
 
 	}

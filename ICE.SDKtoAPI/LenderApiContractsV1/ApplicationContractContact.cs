@@ -5,16 +5,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class ApplicationContractContact
 	{
-		[DataMember(Name="entityId", EmitDefaultValue=false)]
+		[DataMember(Name="entityId")]
 		public string EntityId { get; set; }
 
-		[DataMember(Name="entityName", EmitDefaultValue=false)]
+		[DataMember(Name="entityName")]
 		public string EntityName { get; set; }
 
-		[DataMember(Name="entityType", EmitDefaultValue=false)]
+		[DataMember(Name="entityType")]
 		public string EntityType { get; set; }
 
-		[DataMember(Name="entityUri", EmitDefaultValue=false)]
+		[DataMember(Name="entityUri")]
 		public string EntityUri { get; set; }
 
 	}

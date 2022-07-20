@@ -5,374 +5,374 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractLoanPrograms
 	{
-		[DataMember(Name="acquisition", EmitDefaultValue=false)]
+		[DataMember(Name="acquisition")]
 		public bool? Acquisition { get; set; }
 
-		[DataMember(Name="additionalArmInformation", EmitDefaultValue=false)]
+		[DataMember(Name="additionalArmInformation")]
 		public string AdditionalArmInformation { get; set; }
 
-		[DataMember(Name="allDateAndNumericalDisclosures", EmitDefaultValue=false)]
+		[DataMember(Name="allDateAndNumericalDisclosures")]
 		public string AllDateAndNumericalDisclosures { get; set; }
 
-		[DataMember(Name="annualFeeNeeded", EmitDefaultValue=false)]
-		public double? AnnualFeeNeeded { get; set; }
+		[DataMember(Name="annualFeeNeeded")]
+		public decimal? AnnualFeeNeeded { get; set; }
 
-		[DataMember(Name="armTypeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="armTypeDescription")]
 		public string ArmTypeDescription { get; set; }
 
-		[DataMember(Name="assumptionOnYourProperty", EmitDefaultValue=false)]
+		[DataMember(Name="assumptionOnYourProperty")]
 		public string AssumptionOnYourProperty { get; set; }
 
-		[DataMember(Name="balloonLoanMaturityTermMonths", EmitDefaultValue=false)]
+		[DataMember(Name="balloonLoanMaturityTermMonths")]
 		public int? BalloonLoanMaturityTermMonths { get; set; }
 
-		[DataMember(Name="buydownChangeFrequencyMonths1", EmitDefaultValue=false)]
+		[DataMember(Name="buydownChangeFrequencyMonths1")]
 		public int? BuydownChangeFrequencyMonths1 { get; set; }
 
-		[DataMember(Name="buydownChangeFrequencyMonths2", EmitDefaultValue=false)]
+		[DataMember(Name="buydownChangeFrequencyMonths2")]
 		public int? BuydownChangeFrequencyMonths2 { get; set; }
 
-		[DataMember(Name="buydownChangeFrequencyMonths3", EmitDefaultValue=false)]
+		[DataMember(Name="buydownChangeFrequencyMonths3")]
 		public int? BuydownChangeFrequencyMonths3 { get; set; }
 
-		[DataMember(Name="buydownChangeFrequencyMonths4", EmitDefaultValue=false)]
+		[DataMember(Name="buydownChangeFrequencyMonths4")]
 		public int? BuydownChangeFrequencyMonths4 { get; set; }
 
-		[DataMember(Name="buydownChangeFrequencyMonths5", EmitDefaultValue=false)]
+		[DataMember(Name="buydownChangeFrequencyMonths5")]
 		public int? BuydownChangeFrequencyMonths5 { get; set; }
 
-		[DataMember(Name="buydownChangeFrequencyMonths6", EmitDefaultValue=false)]
+		[DataMember(Name="buydownChangeFrequencyMonths6")]
 		public int? BuydownChangeFrequencyMonths6 { get; set; }
 
-		[DataMember(Name="buydownIncreaseRatePercent1", EmitDefaultValue=false)]
-		public double? BuydownIncreaseRatePercent1 { get; set; }
+		[DataMember(Name="buydownIncreaseRatePercent1")]
+		public decimal? BuydownIncreaseRatePercent1 { get; set; }
 
-		[DataMember(Name="buydownIncreaseRatePercent2", EmitDefaultValue=false)]
-		public double? BuydownIncreaseRatePercent2 { get; set; }
+		[DataMember(Name="buydownIncreaseRatePercent2")]
+		public decimal? BuydownIncreaseRatePercent2 { get; set; }
 
-		[DataMember(Name="buydownIncreaseRatePercent3", EmitDefaultValue=false)]
-		public double? BuydownIncreaseRatePercent3 { get; set; }
+		[DataMember(Name="buydownIncreaseRatePercent3")]
+		public decimal? BuydownIncreaseRatePercent3 { get; set; }
 
-		[DataMember(Name="buydownIncreaseRatePercent4", EmitDefaultValue=false)]
-		public double? BuydownIncreaseRatePercent4 { get; set; }
+		[DataMember(Name="buydownIncreaseRatePercent4")]
+		public decimal? BuydownIncreaseRatePercent4 { get; set; }
 
-		[DataMember(Name="buydownIncreaseRatePercent5", EmitDefaultValue=false)]
-		public double? BuydownIncreaseRatePercent5 { get; set; }
+		[DataMember(Name="buydownIncreaseRatePercent5")]
+		public decimal? BuydownIncreaseRatePercent5 { get; set; }
 
-		[DataMember(Name="buydownIncreaseRatePercent6", EmitDefaultValue=false)]
-		public double? BuydownIncreaseRatePercent6 { get; set; }
+		[DataMember(Name="buydownIncreaseRatePercent6")]
+		public decimal? BuydownIncreaseRatePercent6 { get; set; }
 
-		[DataMember(Name="calculateBasedOnRemainingBalance", EmitDefaultValue=false)]
+		[DataMember(Name="calculateBasedOnRemainingBalance")]
 		public string CalculateBasedOnRemainingBalance { get; set; }
 
-		[DataMember(Name="closingCostProgram", EmitDefaultValue=false)]
+		[DataMember(Name="closingCostProgram")]
 		public string ClosingCostProgram { get; set; }
 
-		[DataMember(Name="constructionDescription", EmitDefaultValue=false)]
+		[DataMember(Name="constructionDescription")]
 		public string ConstructionDescription { get; set; }
 
-		[DataMember(Name="constructionInterestReserveAmount", EmitDefaultValue=false)]
-		public double? ConstructionInterestReserveAmount { get; set; }
+		[DataMember(Name="constructionInterestReserveAmount")]
+		public decimal? ConstructionInterestReserveAmount { get; set; }
 
-		[DataMember(Name="constructionLoanMethod", EmitDefaultValue=false)]
+		[DataMember(Name="constructionLoanMethod")]
 		public string ConstructionLoanMethod { get; set; }
 
-		[DataMember(Name="constructionPeriodMonths", EmitDefaultValue=false)]
+		[DataMember(Name="constructionPeriodMonths")]
 		public int? ConstructionPeriodMonths { get; set; }
 
-		[DataMember(Name="constructionRate", EmitDefaultValue=false)]
-		public double? ConstructionRate { get; set; }
+		[DataMember(Name="constructionRate")]
+		public decimal? ConstructionRate { get; set; }
 
-		[DataMember(Name="convertible", EmitDefaultValue=false)]
+		[DataMember(Name="convertible")]
 		public string Convertible { get; set; }
 
-		[DataMember(Name="creditDisability", EmitDefaultValue=false)]
+		[DataMember(Name="creditDisability")]
 		public string CreditDisability { get; set; }
 
-		[DataMember(Name="creditLifeInsurance", EmitDefaultValue=false)]
+		[DataMember(Name="creditLifeInsurance")]
 		public string CreditLifeInsurance { get; set; }
 
-		[DataMember(Name="demandFeature", EmitDefaultValue=false)]
+		[DataMember(Name="demandFeature")]
 		public string DemandFeature { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="disclosureType", EmitDefaultValue=false)]
+		[DataMember(Name="disclosureType")]
 		public string DisclosureType { get; set; }
 
-		[DataMember(Name="discounted", EmitDefaultValue=false)]
+		[DataMember(Name="discounted")]
 		public string Discounted { get; set; }
 
-		[DataMember(Name="discountedRate", EmitDefaultValue=false)]
-		public double? DiscountedRate { get; set; }
+		[DataMember(Name="discountedRate")]
+		public decimal? DiscountedRate { get; set; }
 
-		[DataMember(Name="drawRepayPeriodTableName", EmitDefaultValue=false)]
+		[DataMember(Name="drawRepayPeriodTableName")]
 		public string DrawRepayPeriodTableName { get; set; }
 
-		[DataMember(Name="fhaUpfrontMiPremiumPercent", EmitDefaultValue=false)]
-		public double? FhaUpfrontMiPremiumPercent { get; set; }
+		[DataMember(Name="fhaUpfrontMiPremiumPercent")]
+		public decimal? FhaUpfrontMiPremiumPercent { get; set; }
 
-		[DataMember(Name="floodInsurance", EmitDefaultValue=false)]
+		[DataMember(Name="floodInsurance")]
 		public string FloodInsurance { get; set; }
 
-		[DataMember(Name="floorPercent", EmitDefaultValue=false)]
-		public double? FloorPercent { get; set; }
+		[DataMember(Name="floorPercent")]
+		public decimal? FloorPercent { get; set; }
 
-		[DataMember(Name="fundingFeePaidInCash", EmitDefaultValue=false)]
-		public double? FundingFeePaidInCash { get; set; }
+		[DataMember(Name="fundingFeePaidInCash")]
+		public decimal? FundingFeePaidInCash { get; set; }
 
-		[DataMember(Name="gpmExtraPaymentForEarlyPayOff", EmitDefaultValue=false)]
-		public double? GpmExtraPaymentForEarlyPayOff { get; set; }
+		[DataMember(Name="gpmExtraPaymentForEarlyPayOff")]
+		public decimal? GpmExtraPaymentForEarlyPayOff { get; set; }
 
-		[DataMember(Name="gpmRate", EmitDefaultValue=false)]
-		public double? GpmRate { get; set; }
+		[DataMember(Name="gpmRate")]
+		public decimal? GpmRate { get; set; }
 
-		[DataMember(Name="gpmYears", EmitDefaultValue=false)]
+		[DataMember(Name="gpmYears")]
 		public int? GpmYears { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="ifYouPurchase", EmitDefaultValue=false)]
+		[DataMember(Name="ifYouPurchase")]
 		public string IfYouPurchase { get; set; }
 
-		[DataMember(Name="ifYouPurchaseType", EmitDefaultValue=false)]
+		[DataMember(Name="ifYouPurchaseType")]
 		public string IfYouPurchaseType { get; set; }
 
-		[DataMember(Name="indexCurrentValuePercent", EmitDefaultValue=false)]
-		public double? IndexCurrentValuePercent { get; set; }
+		[DataMember(Name="indexCurrentValuePercent")]
+		public decimal? IndexCurrentValuePercent { get; set; }
 
-		[DataMember(Name="indexMarginPercent", EmitDefaultValue=false)]
-		public double? IndexMarginPercent { get; set; }
+		[DataMember(Name="indexMarginPercent")]
+		public decimal? IndexMarginPercent { get; set; }
 
-		[DataMember(Name="initialAdvanceAmount", EmitDefaultValue=false)]
-		public double? InitialAdvanceAmount { get; set; }
+		[DataMember(Name="initialAdvanceAmount")]
+		public decimal? InitialAdvanceAmount { get; set; }
 
-		[DataMember(Name="interestOnlyMonths", EmitDefaultValue=false)]
+		[DataMember(Name="interestOnlyMonths")]
 		public int? InterestOnlyMonths { get; set; }
 
-		[DataMember(Name="lateChargeDays", EmitDefaultValue=false)]
+		[DataMember(Name="lateChargeDays")]
 		public int? LateChargeDays { get; set; }
 
-		[DataMember(Name="lateChargePercent", EmitDefaultValue=false)]
-		public double? LateChargePercent { get; set; }
+		[DataMember(Name="lateChargePercent")]
+		public decimal? LateChargePercent { get; set; }
 
-		[DataMember(Name="lateChargeType", EmitDefaultValue=false)]
+		[DataMember(Name="lateChargeType")]
 		public string LateChargeType { get; set; }
 
-		[DataMember(Name="lenderInvestorCode", EmitDefaultValue=false)]
+		[DataMember(Name="lenderInvestorCode")]
 		public string LenderInvestorCode { get; set; }
 
-		[DataMember(Name="lienPriorityType", EmitDefaultValue=false)]
+		[DataMember(Name="lienPriorityType")]
 		public string LienPriorityType { get; set; }
 
-		[DataMember(Name="loanAmortizationTermMonths", EmitDefaultValue=false)]
+		[DataMember(Name="loanAmortizationTermMonths")]
 		public int? LoanAmortizationTermMonths { get; set; }
 
-		[DataMember(Name="loanAmortizationType", EmitDefaultValue=false)]
+		[DataMember(Name="loanAmortizationType")]
 		public string LoanAmortizationType { get; set; }
 
-		[DataMember(Name="loanDocumentationType", EmitDefaultValue=false)]
+		[DataMember(Name="loanDocumentationType")]
 		public string LoanDocumentationType { get; set; }
 
-		[DataMember(Name="loanFeaturesPaymentFrequencyType", EmitDefaultValue=false)]
+		[DataMember(Name="loanFeaturesPaymentFrequencyType")]
 		public string LoanFeaturesPaymentFrequencyType { get; set; }
 
-		[DataMember(Name="loanProgramName", EmitDefaultValue=false)]
+		[DataMember(Name="loanProgramName")]
 		public string LoanProgramName { get; set; }
 
-		[DataMember(Name="lockField", EmitDefaultValue=false)]
+		[DataMember(Name="lockField")]
 		public string LockField { get; set; }
 
-		[DataMember(Name="maxBackRatio", EmitDefaultValue=false)]
-		public double? MaxBackRatio { get; set; }
+		[DataMember(Name="maxBackRatio")]
+		public decimal? MaxBackRatio { get; set; }
 
-		[DataMember(Name="maxCltv", EmitDefaultValue=false)]
-		public double? MaxCltv { get; set; }
+		[DataMember(Name="maxCltv")]
+		public decimal? MaxCltv { get; set; }
 
-		[DataMember(Name="maxFrontRatio", EmitDefaultValue=false)]
-		public double? MaxFrontRatio { get; set; }
+		[DataMember(Name="maxFrontRatio")]
+		public decimal? MaxFrontRatio { get; set; }
 
-		[DataMember(Name="maximumBalance", EmitDefaultValue=false)]
-		public double? MaximumBalance { get; set; }
+		[DataMember(Name="maximumBalance")]
+		public decimal? MaximumBalance { get; set; }
 
-		[DataMember(Name="maxLoanAmount", EmitDefaultValue=false)]
-		public double? MaxLoanAmount { get; set; }
+		[DataMember(Name="maxLoanAmount")]
+		public decimal? MaxLoanAmount { get; set; }
 
-		[DataMember(Name="maxLtv", EmitDefaultValue=false)]
-		public double? MaxLtv { get; set; }
+		[DataMember(Name="maxLtv")]
+		public decimal? MaxLtv { get; set; }
 
-		[DataMember(Name="meansAnEstimate", EmitDefaultValue=false)]
+		[DataMember(Name="meansAnEstimate")]
 		public string MeansAnEstimate { get; set; }
 
-		[DataMember(Name="miCalculationType", EmitDefaultValue=false)]
+		[DataMember(Name="miCalculationType")]
 		public string MiCalculationType { get; set; }
 
-		[DataMember(Name="midpointCancellation", EmitDefaultValue=false)]
+		[DataMember(Name="midpointCancellation")]
 		public string MidpointCancellation { get; set; }
 
-		[DataMember(Name="minCreditScore", EmitDefaultValue=false)]
+		[DataMember(Name="minCreditScore")]
 		public string MinCreditScore { get; set; }
 
-		[DataMember(Name="minimumAdvanceAmount", EmitDefaultValue=false)]
-		public double? MinimumAdvanceAmount { get; set; }
+		[DataMember(Name="minimumAdvanceAmount")]
+		public decimal? MinimumAdvanceAmount { get; set; }
 
-		[DataMember(Name="minimumAllowableApr", EmitDefaultValue=false)]
-		public double? MinimumAllowableApr { get; set; }
+		[DataMember(Name="minimumAllowableApr")]
+		public decimal? MinimumAllowableApr { get; set; }
 
-		[DataMember(Name="minimumPaymentAmount", EmitDefaultValue=false)]
-		public double? MinimumPaymentAmount { get; set; }
+		[DataMember(Name="minimumPaymentAmount")]
+		public decimal? MinimumPaymentAmount { get; set; }
 
-		[DataMember(Name="minimumPaymentPercent", EmitDefaultValue=false)]
-		public double? MinimumPaymentPercent { get; set; }
+		[DataMember(Name="minimumPaymentPercent")]
+		public decimal? MinimumPaymentPercent { get; set; }
 
-		[DataMember(Name="mipPaidInCash", EmitDefaultValue=false)]
-		public double? MipPaidInCash { get; set; }
+		[DataMember(Name="mipPaidInCash")]
+		public decimal? MipPaidInCash { get; set; }
 
-		[DataMember(Name="mmi", EmitDefaultValue=false)]
+		[DataMember(Name="mmi")]
 		public string Mmi { get; set; }
 
-		[DataMember(Name="mortgageInsuranceAdjustmentFactor1", EmitDefaultValue=false)]
-		public double? MortgageInsuranceAdjustmentFactor1 { get; set; }
+		[DataMember(Name="mortgageInsuranceAdjustmentFactor1")]
+		public decimal? MortgageInsuranceAdjustmentFactor1 { get; set; }
 
-		[DataMember(Name="mortgageInsuranceAdjustmentFactor2", EmitDefaultValue=false)]
-		public double? MortgageInsuranceAdjustmentFactor2 { get; set; }
+		[DataMember(Name="mortgageInsuranceAdjustmentFactor2")]
+		public decimal? MortgageInsuranceAdjustmentFactor2 { get; set; }
 
-		[DataMember(Name="mortgageInsuranceCancelPercent", EmitDefaultValue=false)]
-		public double? MortgageInsuranceCancelPercent { get; set; }
+		[DataMember(Name="mortgageInsuranceCancelPercent")]
+		public decimal? MortgageInsuranceCancelPercent { get; set; }
 
-		[DataMember(Name="mortgageInsuranceMonthlyPayment1", EmitDefaultValue=false)]
-		public double? MortgageInsuranceMonthlyPayment1 { get; set; }
+		[DataMember(Name="mortgageInsuranceMonthlyPayment1")]
+		public decimal? MortgageInsuranceMonthlyPayment1 { get; set; }
 
-		[DataMember(Name="mortgageInsuranceMonthlyPayment2", EmitDefaultValue=false)]
-		public double? MortgageInsuranceMonthlyPayment2 { get; set; }
+		[DataMember(Name="mortgageInsuranceMonthlyPayment2")]
+		public decimal? MortgageInsuranceMonthlyPayment2 { get; set; }
 
-		[DataMember(Name="mortgageInsuranceMonthsOfAdjustment1", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageInsuranceMonthsOfAdjustment1")]
 		public int? MortgageInsuranceMonthsOfAdjustment1 { get; set; }
 
-		[DataMember(Name="mortgageInsuranceMonthsOfAdjustment2", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageInsuranceMonthsOfAdjustment2")]
 		public int? MortgageInsuranceMonthsOfAdjustment2 { get; set; }
 
-		[DataMember(Name="mortgageType", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageType")]
 		public string MortgageType { get; set; }
 
-		[DataMember(Name="otherAmortizationTypeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherAmortizationTypeDescription")]
 		public string OtherAmortizationTypeDescription { get; set; }
 
-		[DataMember(Name="otherLoanPurposeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherLoanPurposeDescription")]
 		public string OtherLoanPurposeDescription { get; set; }
 
-		[DataMember(Name="otherMortgageTypeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherMortgageTypeDescription")]
 		public string OtherMortgageTypeDescription { get; set; }
 
-		[DataMember(Name="paymentAdjustmentDurationMonths", EmitDefaultValue=false)]
+		[DataMember(Name="paymentAdjustmentDurationMonths")]
 		public int? PaymentAdjustmentDurationMonths { get; set; }
 
-		[DataMember(Name="paymentAdjustmentPeriodicCapPercent", EmitDefaultValue=false)]
-		public double? PaymentAdjustmentPeriodicCapPercent { get; set; }
+		[DataMember(Name="paymentAdjustmentPeriodicCapPercent")]
+		public decimal? PaymentAdjustmentPeriodicCapPercent { get; set; }
 
-		[DataMember(Name="paymentFactor", EmitDefaultValue=false)]
-		public double? PaymentFactor { get; set; }
+		[DataMember(Name="paymentFactor")]
+		public decimal? PaymentFactor { get; set; }
 
-		[DataMember(Name="percentageOfRental", EmitDefaultValue=false)]
-		public double? PercentageOfRental { get; set; }
+		[DataMember(Name="percentageOfRental")]
+		public decimal? PercentageOfRental { get; set; }
 
-		[DataMember(Name="perDiemCalculationMethodType", EmitDefaultValue=false)]
+		[DataMember(Name="perDiemCalculationMethodType")]
 		public string PerDiemCalculationMethodType { get; set; }
 
-		[DataMember(Name="pmi", EmitDefaultValue=false)]
+		[DataMember(Name="pmi")]
 		public string Pmi { get; set; }
 
-		[DataMember(Name="prepaymentPenaltyIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="prepaymentPenaltyIndicator")]
 		public string PrepaymentPenaltyIndicator { get; set; }
 
-		[DataMember(Name="programCode", EmitDefaultValue=false)]
+		[DataMember(Name="programCode")]
 		public string ProgramCode { get; set; }
 
-		[DataMember(Name="propertyInsurance", EmitDefaultValue=false)]
+		[DataMember(Name="propertyInsurance")]
 		public string PropertyInsurance { get; set; }
 
-		[DataMember(Name="propertyUsageType", EmitDefaultValue=false)]
+		[DataMember(Name="propertyUsageType")]
 		public string PropertyUsageType { get; set; }
 
-		[DataMember(Name="qualifyingRatePercent", EmitDefaultValue=false)]
-		public double? QualifyingRatePercent { get; set; }
+		[DataMember(Name="qualifyingRatePercent")]
+		public decimal? QualifyingRatePercent { get; set; }
 
-		[DataMember(Name="rateAdjustmentDurationMonths", EmitDefaultValue=false)]
+		[DataMember(Name="rateAdjustmentDurationMonths")]
 		public int? RateAdjustmentDurationMonths { get; set; }
 
-		[DataMember(Name="rateAdjustmentLifetimeCapPercent", EmitDefaultValue=false)]
-		public double? RateAdjustmentLifetimeCapPercent { get; set; }
+		[DataMember(Name="rateAdjustmentLifetimeCapPercent")]
+		public decimal? RateAdjustmentLifetimeCapPercent { get; set; }
 
-		[DataMember(Name="rateAdjustmentPercent", EmitDefaultValue=false)]
-		public double? RateAdjustmentPercent { get; set; }
+		[DataMember(Name="rateAdjustmentPercent")]
+		public decimal? RateAdjustmentPercent { get; set; }
 
-		[DataMember(Name="rateAdjustmentSubsequentCapPercent", EmitDefaultValue=false)]
-		public double? RateAdjustmentSubsequentCapPercent { get; set; }
+		[DataMember(Name="rateAdjustmentSubsequentCapPercent")]
+		public decimal? RateAdjustmentSubsequentCapPercent { get; set; }
 
-		[DataMember(Name="rateAdjustmentSubsequentRateAdjustmentMonths", EmitDefaultValue=false)]
+		[DataMember(Name="rateAdjustmentSubsequentRateAdjustmentMonths")]
 		public int? RateAdjustmentSubsequentRateAdjustmentMonths { get; set; }
 
-		[DataMember(Name="recastPaidMonths", EmitDefaultValue=false)]
+		[DataMember(Name="recastPaidMonths")]
 		public int? RecastPaidMonths { get; set; }
 
-		[DataMember(Name="recastStopMonths", EmitDefaultValue=false)]
+		[DataMember(Name="recastStopMonths")]
 		public int? RecastStopMonths { get; set; }
 
-		[DataMember(Name="refundPaymentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="refundPaymentIndicator")]
 		public string RefundPaymentIndicator { get; set; }
 
-		[DataMember(Name="requestedInterestRatePercent", EmitDefaultValue=false)]
-		public double? RequestedInterestRatePercent { get; set; }
+		[DataMember(Name="requestedInterestRatePercent")]
+		public decimal? RequestedInterestRatePercent { get; set; }
 
-		[DataMember(Name="requiredDeposit", EmitDefaultValue=false)]
+		[DataMember(Name="requiredDeposit")]
 		public string RequiredDeposit { get; set; }
 
-		[DataMember(Name="roundPercent", EmitDefaultValue=false)]
-		public double? RoundPercent { get; set; }
+		[DataMember(Name="roundPercent")]
+		public decimal? RoundPercent { get; set; }
 
-		[DataMember(Name="roundType", EmitDefaultValue=false)]
+		[DataMember(Name="roundType")]
 		public string RoundType { get; set; }
 
-		[DataMember(Name="securityInterestInNameOf", EmitDefaultValue=false)]
+		[DataMember(Name="securityInterestInNameOf")]
 		public string SecurityInterestInNameOf { get; set; }
 
-		[DataMember(Name="securityType", EmitDefaultValue=false)]
+		[DataMember(Name="securityType")]
 		public string SecurityType { get; set; }
 
-		[DataMember(Name="subjectPropertyGrossRentalIncome", EmitDefaultValue=false)]
-		public double? SubjectPropertyGrossRentalIncome { get; set; }
+		[DataMember(Name="subjectPropertyGrossRentalIncome")]
+		public decimal? SubjectPropertyGrossRentalIncome { get; set; }
 
-		[DataMember(Name="teaserRate", EmitDefaultValue=false)]
-		public double? TeaserRate { get; set; }
+		[DataMember(Name="teaserRate")]
+		public decimal? TeaserRate { get; set; }
 
-		[DataMember(Name="terminationFeeAmount", EmitDefaultValue=false)]
-		public double? TerminationFeeAmount { get; set; }
+		[DataMember(Name="terminationFeeAmount")]
+		public decimal? TerminationFeeAmount { get; set; }
 
-		[DataMember(Name="terminationPeriodMonthsCount", EmitDefaultValue=false)]
+		[DataMember(Name="terminationPeriodMonthsCount")]
 		public int? TerminationPeriodMonthsCount { get; set; }
 
-		[DataMember(Name="thirdPartyFeeFrom", EmitDefaultValue=false)]
-		public double? ThirdPartyFeeFrom { get; set; }
+		[DataMember(Name="thirdPartyFeeFrom")]
+		public decimal? ThirdPartyFeeFrom { get; set; }
 
-		[DataMember(Name="thirdPartyFeeTo", EmitDefaultValue=false)]
-		public double? ThirdPartyFeeTo { get; set; }
+		[DataMember(Name="thirdPartyFeeTo")]
+		public decimal? ThirdPartyFeeTo { get; set; }
 
-		[DataMember(Name="type", EmitDefaultValue=false)]
+		[DataMember(Name="type")]
 		public string Type { get; set; }
 
-		[DataMember(Name="useDaysInYears", EmitDefaultValue=false)]
+		[DataMember(Name="useDaysInYears")]
 		public string UseDaysInYears { get; set; }
 
-		[DataMember(Name="usePitiForRatio", EmitDefaultValue=false)]
+		[DataMember(Name="usePitiForRatio")]
 		public string UsePitiForRatio { get; set; }
 
-		[DataMember(Name="variableRateFeature", EmitDefaultValue=false)]
+		[DataMember(Name="variableRateFeature")]
 		public string VariableRateFeature { get; set; }
 
-		[DataMember(Name="yearlyTerm", EmitDefaultValue=false)]
-		public double? YearlyTerm { get; set; }
+		[DataMember(Name="yearlyTerm")]
+		public decimal? YearlyTerm { get; set; }
 
 	}
 }

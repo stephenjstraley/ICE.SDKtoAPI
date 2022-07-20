@@ -7,40 +7,40 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class AusTrackingLogContract
 	{
-		[DataMember(Name="application", EmitDefaultValue=false)]
+		[DataMember(Name="application")]
 		public EntityRefContract Application { get; set; }
 
-		[DataMember(Name="docClass", EmitDefaultValue=false)]
+		[DataMember(Name="docClass")]
 		public string DocClass { get; set; }
 
-		[DataMember(Name="duCaseIdOrLPAUSKey", EmitDefaultValue=false)]
+		[DataMember(Name="duCaseIdOrLPAUSKey")]
 		public string DuCaseIdOrLPAUSKey { get; set; }
 
-		[DataMember(Name="firstSubmissionDate", EmitDefaultValue=false)]
+		[DataMember(Name="firstSubmissionDate")]
 		public DateTime? FirstSubmissionDate { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="recommendation", EmitDefaultValue=false)]
+		[DataMember(Name="recommendation")]
 		public string Recommendation { get; set; }
 
-		[DataMember(Name="submissionDate", EmitDefaultValue=false)]
+		[DataMember(Name="submissionDate")]
 		public DateTime? SubmissionDate { get; set; }
 
-		[DataMember(Name="submissionNumber", EmitDefaultValue=false)]
+		[DataMember(Name="submissionNumber")]
 		public string SubmissionNumber { get; set; }
 
-		[DataMember(Name="submittedBy", EmitDefaultValue=false)]
+		[DataMember(Name="submittedBy")]
 		public string SubmittedBy { get; set; }
 
-		[DataMember(Name="uwOtherRiskAssessType", EmitDefaultValue=false)]
+		[DataMember(Name="uwOtherRiskAssessType")]
 		public string UwOtherRiskAssessType { get; set; }
 
-		[DataMember(Name="uwRiskAssessType", EmitDefaultValue=false)]
+		[DataMember(Name="uwRiskAssessType")]
 		public string UwRiskAssessType { get; set; }
 
-		[DataMember(Name="version", EmitDefaultValue=false)]
+		[DataMember(Name="version")]
 		public string Version { get; set; }
 		
 	}

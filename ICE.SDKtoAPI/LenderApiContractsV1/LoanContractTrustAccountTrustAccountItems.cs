@@ -5,31 +5,31 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractTrustAccountTrustAccountItems
 	{
-		[DataMember(Name="date", EmitDefaultValue=false)]
+		[DataMember(Name="date")]
 		public DateTime? Date { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="notes", EmitDefaultValue=false)]
+		[DataMember(Name="notes")]
 		public string Notes { get; set; }
 
-		[DataMember(Name="paymentAmount", EmitDefaultValue=false)]
-		public double? PaymentAmount { get; set; }
+		[DataMember(Name="paymentAmount")]
+		public decimal? PaymentAmount { get; set; }
 
-		[DataMember(Name="paymentCheckNo", EmitDefaultValue=false)]
+		[DataMember(Name="paymentCheckNo")]
 		public string PaymentCheckNo { get; set; }
 
-		[DataMember(Name="receiptAmount", EmitDefaultValue=false)]
-		public double? ReceiptAmount { get; set; }
+		[DataMember(Name="receiptAmount")]
+		public decimal? ReceiptAmount { get; set; }
 
-		[DataMember(Name="receiptCheckNo", EmitDefaultValue=false)]
+		[DataMember(Name="receiptCheckNo")]
 		public string ReceiptCheckNo { get; set; }
 
-		[DataMember(Name="trustAccountItemIndex", EmitDefaultValue=false)]
+		[DataMember(Name="trustAccountItemIndex")]
 		public int? TrustAccountItemIndex { get; set; }
 
 	}

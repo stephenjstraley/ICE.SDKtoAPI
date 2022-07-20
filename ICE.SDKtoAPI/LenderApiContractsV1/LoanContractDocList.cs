@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractDocList
 	{
-		[DataMember(Name="docId", EmitDefaultValue=false)]
+		[DataMember(Name="docId")]
 		public string DocId { get; set; }
 
-		[DataMember(Name="docTitle", EmitDefaultValue=false)]
+		[DataMember(Name="docTitle")]
 		public string DocTitle { get; set; }
 
 	}

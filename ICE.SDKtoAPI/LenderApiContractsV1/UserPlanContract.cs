@@ -8,10 +8,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class UserPlanContract
     {
-        [DataMember(Name = "startDate", EmitDefaultValue = false)]
+        [DataMember(Name = "startDate")]
         public string StartDate { get; set; }
 
-        [DataMember(Name = "plan", EmitDefaultValue = false)]
+        [DataMember(Name = "plan")]
         public UserPlanPlanContract Plan { get; set; }
     }
 }

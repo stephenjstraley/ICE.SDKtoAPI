@@ -5,22 +5,22 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractRateLockBuySideAdjustments
 	{
-		[DataMember(Name="adjustmentType", EmitDefaultValue=false)]
+		[DataMember(Name="adjustmentType")]
 		public string AdjustmentType { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="priceAdjustmentType", EmitDefaultValue=false)]
+		[DataMember(Name="priceAdjustmentType")]
 		public string PriceAdjustmentType { get; set; }
 
-		[DataMember(Name="rate", EmitDefaultValue=false)]
-		public double? Rate { get; set; }
+		[DataMember(Name="rate")]
+		public decimal? Rate { get; set; }
 
-		[DataMember(Name="rateLockAdjustmentType", EmitDefaultValue=false)]
+		[DataMember(Name="rateLockAdjustmentType")]
 		public string RateLockAdjustmentType { get; set; }
 
 	}

@@ -7,43 +7,43 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractProfitManagement
 	{
-		[DataMember(Name="commissionableGrossProfit", EmitDefaultValue=false)]
-		public double? CommissionableGrossProfit { get; set; }
+		[DataMember(Name="commissionableGrossProfit")]
+		public decimal? CommissionableGrossProfit { get; set; }
 
-		[DataMember(Name="expenseAmount1", EmitDefaultValue=false)]
-		public double? ExpenseAmount1 { get; set; }
+		[DataMember(Name="expenseAmount1")]
+		public decimal? ExpenseAmount1 { get; set; }
 
-		[DataMember(Name="expenseAmount2", EmitDefaultValue=false)]
-		public double? ExpenseAmount2 { get; set; }
+		[DataMember(Name="expenseAmount2")]
+		public decimal? ExpenseAmount2 { get; set; }
 
-		[DataMember(Name="expenseAmount3", EmitDefaultValue=false)]
-		public double? ExpenseAmount3 { get; set; }
+		[DataMember(Name="expenseAmount3")]
+		public decimal? ExpenseAmount3 { get; set; }
 
-		[DataMember(Name="expenseAmount4", EmitDefaultValue=false)]
-		public double? ExpenseAmount4 { get; set; }
+		[DataMember(Name="expenseAmount4")]
+		public decimal? ExpenseAmount4 { get; set; }
 
-		[DataMember(Name="expenseDescription1", EmitDefaultValue=false)]
+		[DataMember(Name="expenseDescription1")]
 		public string ExpenseDescription1 { get; set; }
 
-		[DataMember(Name="expenseDescription2", EmitDefaultValue=false)]
+		[DataMember(Name="expenseDescription2")]
 		public string ExpenseDescription2 { get; set; }
 
-		[DataMember(Name="expenseDescription3", EmitDefaultValue=false)]
+		[DataMember(Name="expenseDescription3")]
 		public string ExpenseDescription3 { get; set; }
 
-		[DataMember(Name="expenseDescription4", EmitDefaultValue=false)]
+		[DataMember(Name="expenseDescription4")]
 		public string ExpenseDescription4 { get; set; }
 
-		[DataMember(Name="grossCheckAmount", EmitDefaultValue=false)]
-		public double? GrossCheckAmount { get; set; }
+		[DataMember(Name="grossCheckAmount")]
+		public decimal? GrossCheckAmount { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="netProfit", EmitDefaultValue=false)]
-		public double? NetProfit { get; set; }
+		[DataMember(Name="netProfit")]
+		public decimal? NetProfit { get; set; }
 
-		[DataMember(Name="profitManagementItems", EmitDefaultValue=false)]
+		[DataMember(Name="profitManagementItems")]
 		public List<LoanContractProfitManagementProfitManagementItems> ProfitManagementItems { get; set; }
 
 	}

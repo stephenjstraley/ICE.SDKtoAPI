@@ -5,19 +5,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractTQLTQLComplianceAlerts
 	{
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lastComplianceOrderAlertCategories", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceOrderAlertCategories")]
 		public string LastComplianceOrderAlertCategories { get; set; }
 
-		[DataMember(Name="lastComplianceOrderAlertMessage", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceOrderAlertMessage")]
 		public string LastComplianceOrderAlertMessage { get; set; }
 
-		[DataMember(Name="lastComplianceOrderDescriptionOfAlerts", EmitDefaultValue=false)]
+		[DataMember(Name="lastComplianceOrderDescriptionOfAlerts")]
 		public string LastComplianceOrderDescriptionOfAlerts { get; set; }
 
-		[DataMember(Name="tQLComplianceAlertIndex", EmitDefaultValue=false)]
+		[DataMember(Name="tQLComplianceAlertIndex")]
 		public int? TQLComplianceAlertIndex { get; set; }
 
 	}

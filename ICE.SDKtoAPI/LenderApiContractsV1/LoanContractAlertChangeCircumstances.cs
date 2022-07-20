@@ -5,52 +5,52 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractAlertChangeCircumstances
 	{
-		[DataMember(Name="alertTriggerFielDID", EmitDefaultValue=false)]
+		[DataMember(Name="alertTriggerFielDID")]
 		public string AlertTriggerFielDID { get; set; }
 
-		[DataMember(Name="altId", EmitDefaultValue=false)]
+		[DataMember(Name="altId")]
 		public string AltId { get; set; }
 
-		[DataMember(Name="changedCircumstanceAlertBaseline", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceAlertBaseline")]
 		public string ChangedCircumstanceAlertBaseline { get; set; }
 
-		[DataMember(Name="changedCircumstanceAlertDisclosedAmount", EmitDefaultValue=false)]
-		public double? ChangedCircumstanceAlertDisclosedAmount { get; set; }
+		[DataMember(Name="changedCircumstanceAlertDisclosedAmount")]
+		public decimal? ChangedCircumstanceAlertDisclosedAmount { get; set; }
 
-		[DataMember(Name="changedCircumstanceAlertFeeDescription", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceAlertFeeDescription")]
 		public string ChangedCircumstanceAlertFeeDescription { get; set; }
 
-		[DataMember(Name="changedCircumstanceAlertInitialAmount", EmitDefaultValue=false)]
-		public double? ChangedCircumstanceAlertInitialAmount { get; set; }
+		[DataMember(Name="changedCircumstanceAlertInitialAmount")]
+		public decimal? ChangedCircumstanceAlertInitialAmount { get; set; }
 
-		[DataMember(Name="changedCircumstanceAlertItemizationAmount", EmitDefaultValue=false)]
-		public double? ChangedCircumstanceAlertItemizationAmount { get; set; }
+		[DataMember(Name="changedCircumstanceAlertItemizationAmount")]
+		public decimal? ChangedCircumstanceAlertItemizationAmount { get; set; }
 
-		[DataMember(Name="changedCircumstanceAlertVarianceAmount", EmitDefaultValue=false)]
-		public double? ChangedCircumstanceAlertVarianceAmount { get; set; }
+		[DataMember(Name="changedCircumstanceAlertVarianceAmount")]
+		public decimal? ChangedCircumstanceAlertVarianceAmount { get; set; }
 
-		[DataMember(Name="changedCircumstanceCategory", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceCategory")]
 		public string ChangedCircumstanceCategory { get; set; }
 
-		[DataMember(Name="changedCircumstanceComments", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceComments")]
 		public string ChangedCircumstanceComments { get; set; }
 
-		[DataMember(Name="changedCircumstanceDate", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceDate")]
 		public DateTime? ChangedCircumstanceDate { get; set; }
 
-		[DataMember(Name="changedCircumstanceDescription", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceDescription")]
 		public string ChangedCircumstanceDescription { get; set; }
 
-		[DataMember(Name="changedCircumstanceReason", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceReason")]
 		public string ChangedCircumstanceReason { get; set; }
 
-		[DataMember(Name="changedCircumstanceReasonOther", EmitDefaultValue=false)]
+		[DataMember(Name="changedCircumstanceReasonOther")]
 		public string ChangedCircumstanceReasonOther { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="revisedDueDate", EmitDefaultValue=false)]
+		[DataMember(Name="revisedDueDate")]
 		public DateTime? RevisedDueDate { get; set; }
 
 	}

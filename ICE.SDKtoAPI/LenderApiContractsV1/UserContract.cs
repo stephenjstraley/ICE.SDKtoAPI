@@ -7,85 +7,85 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class UserContract : BaseEncompassModel
     {
-        [DataMember(Name = "apiUser", EmitDefaultValue = false)]
+        [DataMember(Name = "apiUser")]
         public string ApiUser { get; set; }
 
-        [DataMember(Name = "ccSite", EmitDefaultValue = false)]
+        [DataMember(Name = "ccSite")]
         public UserContractCcSite CcSite { get; set; }
 
-        [DataMember(Name = "cellPhone", EmitDefaultValue = false)]
+        [DataMember(Name = "cellPhone")]
         public string CellPhone { get; set; }
 
-        [DataMember(Name = "chumID", EmitDefaultValue = false)]
+        [DataMember(Name = "chumID")]
         public string ChumID { get; set; }
 
-        [DataMember(Name = "comments", EmitDefaultValue = false)]
+        [DataMember(Name = "comments")]
         public string Comments { get; set; }
 
-        [DataMember(Name = "email", EmitDefaultValue = false)]
+        [DataMember(Name = "email")]
         public string Email { get; set; }
 
-        [DataMember(Name = "emailSignature", EmitDefaultValue = false)]
+        [DataMember(Name = "emailSignature")]
         public string EmailSignature { get; set; }
 
-        [DataMember(Name = "employeeID", EmitDefaultValue = false)]
+        [DataMember(Name = "employeeID")]
         public string EmployeeID { get; set; }
 
-        [DataMember(Name = "encompassVersion", EmitDefaultValue = false)]
+        [DataMember(Name = "encompassVersion")]
         public string EncompassVersion { get; set; }
 
-        [DataMember(Name = "fax", EmitDefaultValue = false)]
+        [DataMember(Name = "fax")]
         public string Fax { get; set; }
 
-        [DataMember(Name = "firstName", EmitDefaultValue = false)]
+        [DataMember(Name = "firstName")]
         public string FirstName { get; set; }
 
-        [DataMember(Name = "fullName", EmitDefaultValue = false)]
+        [DataMember(Name = "fullName")]
         public string FullName { get; set; }
 
-        [DataMember(Name = "id", EmitDefaultValue = false)]
+        [DataMember(Name = "id")]
         public string Id { get; set; }
 
-        [DataMember(Name = "lastLogin", EmitDefaultValue = false)]
+        [DataMember(Name = "lastLogin")]
         public DateTime? LastLogin { get; set; }
 
-        [DataMember(Name = "lastName", EmitDefaultValue = false)]
+        [DataMember(Name = "lastName")]
         public string LastName { get; set; }
 
-        [DataMember(Name = "nmlsExpirationDate", EmitDefaultValue = false)]
+        [DataMember(Name = "nmlsExpirationDate")]
         public string NmlsExpirationDate { get; set; }
 
-        [DataMember(Name = "nmlsOriginatorID", EmitDefaultValue = false)]
+        [DataMember(Name = "nmlsOriginatorID")]
         public string NmlsOriginatorID { get; set; }
 
-        [DataMember(Name = "oAuthClientId", EmitDefaultValue = false)]
+        [DataMember(Name = "oAuthClientId")]
         public string OAuthClientId { get; set; }
 
-        [DataMember(Name = "organization", EmitDefaultValue = false)]
+        [DataMember(Name = "organization")]
         public EntityRefContract Organization { get; set; }
 
-        [DataMember(Name = "peerLoanAccess", EmitDefaultValue = false)]
+        [DataMember(Name = "peerLoanAccess")]
         public string PeerLoanAccess { get; set; }
 
-        [DataMember(Name = "personalStatusOnline", EmitDefaultValue = false)]
+        [DataMember(Name = "personalStatusOnline")]
         public bool? PersonalStatusOnline { get; set; }
 
-        [DataMember(Name = "personas", EmitDefaultValue = false)]
+        [DataMember(Name = "personas")]
         public List<EntityRefContract> Personas { get; set; }
 
-        [DataMember(Name = "phone", EmitDefaultValue = false)]
+        [DataMember(Name = "phone")]
         public string Phone { get; set; }
 
-        [DataMember(Name = "subordinateLoanAccess", EmitDefaultValue = false)]
+        [DataMember(Name = "subordinateLoanAccess")]
         public string SubordinateLoanAccess { get; set; }
 
-        [DataMember(Name = "title", EmitDefaultValue = false)]
+        [DataMember(Name = "title")]
         public string Title { get; set; }
 
-        [DataMember(Name = "userIndicators", EmitDefaultValue = false)]
+        [DataMember(Name = "userIndicators")]
         public List<string> UserIndicators { get; set; }
 
-        [DataMember(Name = "workingFolder", EmitDefaultValue = false)]
+        [DataMember(Name = "workingFolder")]
         public string WorkingFolder { get; set; }
 
 

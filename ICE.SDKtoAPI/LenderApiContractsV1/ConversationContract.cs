@@ -7,40 +7,40 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class ConversationContract
 	{
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<DisclosureTracking2015ContractAlerts> Alerts { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="company", EmitDefaultValue=false)]
+		[DataMember(Name="company")]
 		public string Company { get; set; }
 
-		[DataMember(Name="contactMethod", EmitDefaultValue=false)]
+		[DataMember(Name="contactMethod")]
 		public string ContactMethod { get; set; }
 
-		[DataMember(Name="createdDate", EmitDefaultValue=false)]
+		[DataMember(Name="createdDate")]
 		public DateTime? CreatedDate { get; set; }
 
-		[DataMember(Name="email", EmitDefaultValue=false)]
+		[DataMember(Name="email")]
 		public string Email { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="name", EmitDefaultValue=false)]
+		[DataMember(Name="name")]
 		public string Name { get; set; }
 
-		[DataMember(Name="phone", EmitDefaultValue=false)]
+		[DataMember(Name="phone")]
 		public string Phone { get; set; }
 
-		[DataMember(Name="showInLoanLog", EmitDefaultValue=false)]
+		[DataMember(Name="showInLoanLog")]
 		public bool? ShowInLoanLog { get; set; }
 
-		[DataMember(Name="updatedDate", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDate")]
 		public DateTime? UpdatedDate { get; set; }
 
-		[DataMember(Name="user", EmitDefaultValue=false)]
+		[DataMember(Name="user")]
 		public EntityRefContract User { get; set; }
 
 	}

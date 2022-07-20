@@ -5,19 +5,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class DisclosureTracking2015ContractPropertyAddress
 	{
-		[DataMember(Name="city", EmitDefaultValue=false)]
+		[DataMember(Name="city")]
 		public string City { get; set; }
 
-		[DataMember(Name="state", EmitDefaultValue=false)]
+		[DataMember(Name="state")]
 		public string State { get; set; }
 
-		[DataMember(Name="street1", EmitDefaultValue=false)]
+		[DataMember(Name="street1")]
 		public string Street1 { get; set; }
 
-		[DataMember(Name="street2", EmitDefaultValue=false)]
+		[DataMember(Name="street2")]
 		public string Street2 { get; set; }
 
-		[DataMember(Name="zip", EmitDefaultValue=false)]
+		[DataMember(Name="zip")]
 		public string Zip { get; set; }
 
 	}

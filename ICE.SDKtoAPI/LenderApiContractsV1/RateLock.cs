@@ -11,7 +11,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
         public string Id { get; set; }
 
         [JsonProperty(PropertyName = "corporatePrice2")]
-        public double? CorporatePrice2 { get; set; }
+        public decimal? CorporatePrice2 { get; set; }
 
         [JsonProperty(PropertyName = "requestType")]
         public string RequestType { get; set; }

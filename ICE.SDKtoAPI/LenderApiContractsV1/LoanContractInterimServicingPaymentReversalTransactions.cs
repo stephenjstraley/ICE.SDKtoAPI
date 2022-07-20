@@ -5,49 +5,49 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractInterimServicingPaymentReversalTransactions
 	{
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="createdById", EmitDefaultValue=false)]
+		[DataMember(Name="createdById")]
 		public string CreatedById { get; set; }
 
-		[DataMember(Name="createdByName", EmitDefaultValue=false)]
+		[DataMember(Name="createdByName")]
 		public string CreatedByName { get; set; }
 
-		[DataMember(Name="createdDateTimeUtc", EmitDefaultValue=false)]
+		[DataMember(Name="createdDateTimeUtc")]
 		public DateTime? CreatedDateTimeUtc { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="modifiedById", EmitDefaultValue=false)]
+		[DataMember(Name="modifiedById")]
 		public string ModifiedById { get; set; }
 
-		[DataMember(Name="modifiedByName", EmitDefaultValue=false)]
+		[DataMember(Name="modifiedByName")]
 		public string ModifiedByName { get; set; }
 
-		[DataMember(Name="modifiedDateTimeUtc", EmitDefaultValue=false)]
+		[DataMember(Name="modifiedDateTimeUtc")]
 		public DateTime? ModifiedDateTimeUtc { get; set; }
 
-		[DataMember(Name="paymentId", EmitDefaultValue=false)]
+		[DataMember(Name="paymentId")]
 		public string PaymentId { get; set; }
 
-		[DataMember(Name="reversalType", EmitDefaultValue=false)]
+		[DataMember(Name="reversalType")]
 		public string ReversalType { get; set; }
 
-		[DataMember(Name="servicingPaymentMethod", EmitDefaultValue=false)]
+		[DataMember(Name="servicingPaymentMethod")]
 		public string ServicingPaymentMethod { get; set; }
 
-		[DataMember(Name="servicingTransactionType", EmitDefaultValue=false)]
+		[DataMember(Name="servicingTransactionType")]
 		public string ServicingTransactionType { get; set; }
 
-		[DataMember(Name="transactionAmount", EmitDefaultValue=false)]
-		public double? TransactionAmount { get; set; }
+		[DataMember(Name="transactionAmount")]
+		public decimal? TransactionAmount { get; set; }
 
-		[DataMember(Name="transactionDate", EmitDefaultValue=false)]
+		[DataMember(Name="transactionDate")]
 		public DateTime? TransactionDate { get; set; }
 
 	}

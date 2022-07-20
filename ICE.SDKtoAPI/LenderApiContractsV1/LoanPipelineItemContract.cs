@@ -8,10 +8,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class LoanPipelineItemContract
     {
-        [DataMember(Name = "fields", EmitDefaultValue = false)]
+        [DataMember(Name = "fields")]
         public object Fields { get; set; }
 
-        [DataMember(Name = "loanGuid", EmitDefaultValue = false)]
+        [DataMember(Name = "loanGuid")]
         public string LoanGuid { get; set; }
     }
 }

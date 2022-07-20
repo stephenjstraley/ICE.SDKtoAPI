@@ -8,46 +8,46 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class UserProfileContract
     {
-        [DataMember(Name = "id", EmitDefaultValue = false)]
+        [DataMember(Name = "id")]
         public string Id { get; set; }
 
-        [DataMember(Name = "lastName", EmitDefaultValue = false)]
+        [DataMember(Name = "lastName")]
         public string LastName { get; set; }
 
-        [DataMember(Name = "firstName", EmitDefaultValue = false)]
+        [DataMember(Name = "firstName")]
         public string FirstName { get; set; }
 
-        [DataMember(Name = "fullName", EmitDefaultValue = false)]
+        [DataMember(Name = "fullName")]
         public string FullName { get; set; }
 
-        [DataMember(Name = "email", EmitDefaultValue = false)]
+        [DataMember(Name = "email")]
         public string Email { get; set; }
 
-        [DataMember(Name = "workingFolder", EmitDefaultValue = false)]
+        [DataMember(Name = "workingFolder")]
         public string WorkingFolder { get; set; }
 
-        [DataMember(Name = "organization", EmitDefaultValue = false)]
+        [DataMember(Name = "organization")]
         public EntityRefContract Organization { get; set; }
 
-        [DataMember(Name = "subordinateLoanAccess", EmitDefaultValue = false)]
+        [DataMember(Name = "subordinateLoanAccess")]
         public string SubordinateLoanAccess { get; set; }
 
-        [DataMember(Name = "userIndicators", EmitDefaultValue = false)]
+        [DataMember(Name = "userIndicators")]
         public List<string> UserIndicators { get; set; }
 
-        [DataMember(Name = "peerLoanAccess", EmitDefaultValue = false)]
+        [DataMember(Name = "peerLoanAccess")]
         public string PeerLoanAccess { get; set; }
 
-        [DataMember(Name = "lastLogin", EmitDefaultValue = false)]
+        [DataMember(Name = "lastLogin")]
         public string LastLogin { get; set; }
 
-        [DataMember(Name = "personalStatusOnline", EmitDefaultValue = false)]
+        [DataMember(Name = "personalStatusOnline")]
         public string PersonalStatusOnline { get; set; }
 
-        [DataMember(Name = "comments", EmitDefaultValue = false)]
+        [DataMember(Name = "comments")]
         public string Comments { get; set; }
 
-        [DataMember(Name = "personas", EmitDefaultValue = false)]
+        [DataMember(Name = "personas")]
         public List<EntityRefContract> Personas { get; set; }
     }
 }

@@ -64,16 +64,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "branchApprovedBy")]
         public string BranchApprovedBy { get; set; }
 
-        [DataMember(Name = "branchApprovedBy2", EmitDefaultValue = false)]
+        [DataMember(Name = "branchApprovedBy2")]
         public string BranchApprovedBy2 { get; set; }
 
-        [DataMember(Name = "branchApprovedBy3", EmitDefaultValue = false)]
+        [DataMember(Name = "branchApprovedBy3")]
         public string BranchApprovedBy3 { get; set; }
 
-        [DataMember(Name = "branchApprovedBy4", EmitDefaultValue = false)]
+        [DataMember(Name = "branchApprovedBy4")]
         public string BranchApprovedBy4 { get; set; }
 
-        [DataMember(Name = "branchApprovedBy5", EmitDefaultValue = false)]
+        [DataMember(Name = "branchApprovedBy5")]
         public string BranchApprovedBy5 { get; set; }
 
         [DataMember(Name = "branchPrice")]
@@ -202,16 +202,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "corporateApprovedby")]
         public string CorporateApprovedby { get; set; }
 
-        [DataMember(Name = "corporateApprovedBy2", EmitDefaultValue = false)]
+        [DataMember(Name = "corporateApprovedBy2")]
         public string CorporateApprovedBy2 { get; set; }
 
-        [DataMember(Name = "corporateApprovedBy3", EmitDefaultValue = false)]
+        [DataMember(Name = "corporateApprovedBy3")]
         public string CorporateApprovedBy3 { get; set; }
 
-        [DataMember(Name = "corporateApprovedBy4", EmitDefaultValue = false)]
+        [DataMember(Name = "corporateApprovedBy4")]
         public string CorporateApprovedBy4 { get; set; }
 
-        [DataMember(Name = "corporateApprovedBy5", EmitDefaultValue = false)]
+        [DataMember(Name = "corporateApprovedBy5")]
         public string CorporateApprovedBy5 { get; set; }
 
         [DataMember(Name = "corporatePrice")]
@@ -221,13 +221,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public decimal? CorporatePrice2 { get; set; }
 
         [DataMember(Name = "corporatePrice3")]
-        public double? CorporatePrice3 { get; set; }
+        public decimal? CorporatePrice3 { get; set; }
 
         [DataMember(Name = "corporatePrice4")]
         public decimal? CorporatePrice4 { get; set; }
 
         [DataMember(Name = "corporatePrice5")]
-        public double? CorporatePrice5 { get; set; }
+        public decimal? CorporatePrice5 { get; set; }
 
         [DataMember(Name = "correspondentAdditionalLineAmount1")]
         public decimal? CorrespondentAdditionalLineAmount1 { get; set; }

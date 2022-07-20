@@ -5,85 +5,85 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractClosingCostLoanEstimate3
 	{
-		[DataMember(Name="appraisal", EmitDefaultValue=false)]
+		[DataMember(Name="appraisal")]
 		public string Appraisal { get; set; }
 
-		[DataMember(Name="assumption", EmitDefaultValue=false)]
+		[DataMember(Name="assumption")]
 		public string Assumption { get; set; }
 
-		[DataMember(Name="constructionLoan", EmitDefaultValue=false)]
+		[DataMember(Name="constructionLoan")]
 		public bool? ConstructionLoan { get; set; }
 
-		[DataMember(Name="homeownerInsurance", EmitDefaultValue=false)]
+		[DataMember(Name="homeownerInsurance")]
 		public bool? HomeownerInsurance { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="in5YearsPrincipalYouWillHavePaidOff", EmitDefaultValue=false)]
+		[DataMember(Name="in5YearsPrincipalYouWillHavePaidOff")]
 		public int? In5YearsPrincipalYouWillHavePaidOff { get; set; }
 
-		[DataMember(Name="in5YearsTotalYouWillHavePaid", EmitDefaultValue=false)]
+		[DataMember(Name="in5YearsTotalYouWillHavePaid")]
 		public int? In5YearsTotalYouWillHavePaid { get; set; }
 
-		[DataMember(Name="lenderEmail", EmitDefaultValue=false)]
+		[DataMember(Name="lenderEmail")]
 		public string LenderEmail { get; set; }
 
-		[DataMember(Name="lenderLicenseID", EmitDefaultValue=false)]
+		[DataMember(Name="lenderLicenseID")]
 		public string LenderLicenseID { get; set; }
 
-		[DataMember(Name="lenderLicenseState", EmitDefaultValue=false)]
+		[DataMember(Name="lenderLicenseState")]
 		public string LenderLicenseState { get; set; }
 
-		[DataMember(Name="lenderLoanOfficer", EmitDefaultValue=false)]
+		[DataMember(Name="lenderLoanOfficer")]
 		public string LenderLoanOfficer { get; set; }
 
-		[DataMember(Name="lenderLoanOfficerLicenseState", EmitDefaultValue=false)]
+		[DataMember(Name="lenderLoanOfficerLicenseState")]
 		public string LenderLoanOfficerLicenseState { get; set; }
 
-		[DataMember(Name="lenderLoanOfficerNMLSId", EmitDefaultValue=false)]
+		[DataMember(Name="lenderLoanOfficerNMLSId")]
 		public string LenderLoanOfficerNMLSId { get; set; }
 
-		[DataMember(Name="lenderPhone", EmitDefaultValue=false)]
+		[DataMember(Name="lenderPhone")]
 		public string LenderPhone { get; set; }
 
-		[DataMember(Name="mortgageBrokerEmail", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerEmail")]
 		public string MortgageBrokerEmail { get; set; }
 
-		[DataMember(Name="mortgageBrokerLicenseID", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerLicenseID")]
 		public string MortgageBrokerLicenseID { get; set; }
 
-		[DataMember(Name="mortgageBrokerLicenseState", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerLicenseState")]
 		public string MortgageBrokerLicenseState { get; set; }
 
-		[DataMember(Name="mortgageBrokerLoanOfficer", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerLoanOfficer")]
 		public string MortgageBrokerLoanOfficer { get; set; }
 
-		[DataMember(Name="mortgageBrokerLoanOfficerLicenseID", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerLoanOfficerLicenseID")]
 		public string MortgageBrokerLoanOfficerLicenseID { get; set; }
 
-		[DataMember(Name="mortgageBrokerLoanOfficerLicenseState", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerLoanOfficerLicenseState")]
 		public string MortgageBrokerLoanOfficerLicenseState { get; set; }
 
-		[DataMember(Name="mortgageBrokerLoanOfficerNMLSId", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerLoanOfficerNMLSId")]
 		public string MortgageBrokerLoanOfficerNMLSId { get; set; }
 
-		[DataMember(Name="mortgageBrokerPhone", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageBrokerPhone")]
 		public string MortgageBrokerPhone { get; set; }
 
-		[DataMember(Name="mortgageLenderLoanOfficerLicenseID", EmitDefaultValue=false)]
+		[DataMember(Name="mortgageLenderLoanOfficerLicenseID")]
 		public string MortgageLenderLoanOfficerLicenseID { get; set; }
 
-		[DataMember(Name="servicing", EmitDefaultValue=false)]
+		[DataMember(Name="servicing")]
 		public string Servicing { get; set; }
 
-		[DataMember(Name="signatureType", EmitDefaultValue=false)]
+		[DataMember(Name="signatureType")]
 		public string SignatureType { get; set; }
 
-		[DataMember(Name="totalInterestPercentage", EmitDefaultValue=false)]
-		public double? TotalInterestPercentage { get; set; }
+		[DataMember(Name="totalInterestPercentage")]
+		public decimal? TotalInterestPercentage { get; set; }
 
-		[DataMember(Name="totalInterestPercentageUI", EmitDefaultValue=false)]
+		[DataMember(Name="totalInterestPercentageUI")]
 		public string TotalInterestPercentageUI { get; set; }
 
 	}

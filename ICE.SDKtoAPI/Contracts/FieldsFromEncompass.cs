@@ -6,11 +6,7 @@ namespace ICE.SDKtoAPI.Contracts
 {
     public class FieldsFromEncompass
     {
-        List<EncompassField> fields { get; set; }
-    }
-    public class EncompassField
-    {
-        public string id { get; set; }
-        public string value { get; set; }
+        public string fieldId { get; set; }
+        public object value { get; set; }
     }
 }

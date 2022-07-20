@@ -7,13 +7,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class UserContractCcSite
     {
-        [DataMember(Name = "siteId", EmitDefaultValue = false)]
+        [DataMember(Name = "siteId")]
         public string SiteId { get; set; }
 
-        [DataMember(Name = "url", EmitDefaultValue = false)]
+        [DataMember(Name = "url")]
         public string Url { get; set; }
 
-        [DataMember(Name = "useParentInformation", EmitDefaultValue = false)]
+        [DataMember(Name = "useParentInformation")]
         public bool? UseParentInformation { get; set; }
 
     }

@@ -19,7 +19,7 @@ namespace ICE.SDKtoAPI
         Task<List<string>> GetAllFieldIdsAsync();
         Task<List<CustomFieldMeta>> GetCustomFieldsAsync(bool v3Schema = false);
         Task<List<VirtualFieldMeta>> GetVirtualFieldsAsync();
-        Task<object> GetFieldValuesAsync(string guid, List<string> fields);
+        Task<List<FieldsFromEncompass>> GetFieldValuesAsync(string guid, List<string> fields, bool v3version = false);
     }
 
     public partial class LenderAPI : ILenderAPI
@@ -171,11 +171,11 @@ namespace ICE.SDKtoAPI
             }
         }
 
-        public async Task<object> GetFieldValuesAsync(string guid, List<string> fields)
+        public async Task<List<FieldsFromEncompass>> GetFieldValuesAsync(string guid, List<string> fields, bool v3version = false)
         {
             SetResponse();
             var provider = new LoanProviderService(_accessToken);
-            var result = await provider.GetFieldValuesAsync(guid, fields);
+            var result = await provider.GetFieldValuesAsync(guid, fields, v3version);
             _lastResponse = result.Item2;
             return result.Item1;
         }

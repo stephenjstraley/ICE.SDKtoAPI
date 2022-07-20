@@ -5,79 +5,79 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractNonBorrowingOwners
 	{
-		[DataMember(Name="addressCity", EmitDefaultValue=false)]
+		[DataMember(Name="addressCity")]
 		public string AddressCity { get; set; }
 
-		[DataMember(Name="addressPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="addressPostalCode")]
 		public string AddressPostalCode { get; set; }
 
-		[DataMember(Name="addressState", EmitDefaultValue=false)]
+		[DataMember(Name="addressState")]
 		public string AddressState { get; set; }
 
-		[DataMember(Name="addressStreet", EmitDefaultValue=false)]
+		[DataMember(Name="addressStreet")]
 		public string AddressStreet { get; set; }
 
-		[DataMember(Name="borrowerType", EmitDefaultValue=false)]
+		[DataMember(Name="borrowerType")]
 		public string BorrowerType { get; set; }
 
-		[DataMember(Name="borrowerVestingRecordID", EmitDefaultValue=false)]
+		[DataMember(Name="borrowerVestingRecordID")]
 		public string BorrowerVestingRecordID { get; set; }
 
-		[DataMember(Name="businessPhoneNumber", EmitDefaultValue=false)]
+		[DataMember(Name="businessPhoneNumber")]
 		public string BusinessPhoneNumber { get; set; }
 
-		[DataMember(Name="cellPhoneNumber", EmitDefaultValue=false)]
+		[DataMember(Name="cellPhoneNumber")]
 		public string CellPhoneNumber { get; set; }
 
-		[DataMember(Name="dateOfBirth", EmitDefaultValue=false)]
+		[DataMember(Name="dateOfBirth")]
 		public DateTime? DateOfBirth { get; set; }
 
-		[DataMember(Name="email", EmitDefaultValue=false)]
+		[DataMember(Name="email")]
 		public string Email { get; set; }
 
-		[DataMember(Name="entityDeleted", EmitDefaultValue=false)]
+		[DataMember(Name="entityDeleted")]
 		public bool? EntityDeleted { get; set; }
 
-		[DataMember(Name="eSignConsentNBOCDateAccepted", EmitDefaultValue=false)]
+		[DataMember(Name="eSignConsentNBOCDateAccepted")]
 		public DateTime? ESignConsentNBOCDateAccepted { get; set; }
 
-		[DataMember(Name="eSignConsentNBOCDateSent", EmitDefaultValue=false)]
+		[DataMember(Name="eSignConsentNBOCDateSent")]
 		public DateTime? ESignConsentNBOCDateSent { get; set; }
 
-		[DataMember(Name="eSignConsentNBOCIPAddress", EmitDefaultValue=false)]
+		[DataMember(Name="eSignConsentNBOCIPAddress")]
 		public string ESignConsentNBOCIPAddress { get; set; }
 
-		[DataMember(Name="eSignConsentNBOCSource", EmitDefaultValue=false)]
+		[DataMember(Name="eSignConsentNBOCSource")]
 		public string ESignConsentNBOCSource { get; set; }
 
-		[DataMember(Name="eSignConsentNBOCStatus", EmitDefaultValue=false)]
+		[DataMember(Name="eSignConsentNBOCStatus")]
 		public string ESignConsentNBOCStatus { get; set; }
 
-		[DataMember(Name="faxNumber", EmitDefaultValue=false)]
+		[DataMember(Name="faxNumber")]
 		public string FaxNumber { get; set; }
 
-		[DataMember(Name="firstName", EmitDefaultValue=false)]
+		[DataMember(Name="firstName")]
 		public string FirstName { get; set; }
 
-		[DataMember(Name="homePhoneNumber", EmitDefaultValue=false)]
+		[DataMember(Name="homePhoneNumber")]
 		public string HomePhoneNumber { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lastName", EmitDefaultValue=false)]
+		[DataMember(Name="lastName")]
 		public string LastName { get; set; }
 
-		[DataMember(Name="middleName", EmitDefaultValue=false)]
+		[DataMember(Name="middleName")]
 		public string MiddleName { get; set; }
 
-		[DataMember(Name="nBOID", EmitDefaultValue=false)]
+		[DataMember(Name="nBOID")]
 		public string NBOID { get; set; }
 
-		[DataMember(Name="no3rdPartyEmailIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="no3rdPartyEmailIndicator")]
 		public bool? No3rdPartyEmailIndicator { get; set; }
 
-		[DataMember(Name="suffixName", EmitDefaultValue=false)]
+		[DataMember(Name="suffixName")]
 		public string SuffixName { get; set; }
 
 	}

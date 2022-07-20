@@ -7,482 +7,482 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractClosingCostClosingDisclosure3
 	{
-		[DataMember(Name="actualLECD3TotalClosingCostJFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualLECD3TotalClosingCostJFromLatestRec")]
 		public decimal? ActualLECD3TotalClosingCostJFromLatestRec { get; set; }
 
-		[DataMember(Name="actualLECD3TotalPayoffsAndPaymentsKFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualLECD3TotalPayoffsAndPaymentsKFromLatestRec")]
 		public decimal? ActualLECD3TotalPayoffsAndPaymentsKFromLatestRec { get; set; }
 
-		[DataMember(Name="actualLELoanAmountFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualLELoanAmountFromLatestRec")]
 		public decimal? ActualLELoanAmountFromLatestRec { get; set; }
 
-		[DataMember(Name="actualLenderCredits", EmitDefaultValue=false)]
+		[DataMember(Name="actualLenderCredits")]
 		public decimal? ActualLenderCredits { get; set; }
 
-		[DataMember(Name="actualSTDLEAdjustmentAndOtherCreditsFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLEAdjustmentAndOtherCreditsFromLatestRec")]
 		public decimal? ActualSTDLEAdjustmentAndOtherCreditsFromLatestRec { get; set; }
 
-		[DataMember(Name="actualSTDLEClosingCostFinancedFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLEClosingCostFinancedFromLatestRec")]
 		public decimal? ActualSTDLEClosingCostFinancedFromLatestRec { get; set; }
 
-		[DataMember(Name="actualSTDLEDepositFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLEDepositFromLatestRec")]
 		public decimal? ActualSTDLEDepositFromLatestRec { get; set; }
 
-		[DataMember(Name="actualSTDLEDownPaymentFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLEDownPaymentFromLatestRec")]
 		public decimal? ActualSTDLEDownPaymentFromLatestRec { get; set; }
 
-		[DataMember(Name="actualSTDLEFundForBorrowerFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLEFundForBorrowerFromLatestRec")]
 		public decimal? ActualSTDLEFundForBorrowerFromLatestRec { get; set; }
 
-		[DataMember(Name="actualSTDLESellerCredits", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLESellerCredits")]
 		public decimal? ActualSTDLESellerCredits { get; set; }
 
-		[DataMember(Name="actualSTDLESellerCreditsFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLESellerCreditsFromLatestRec")]
 		public decimal? ActualSTDLESellerCreditsFromLatestRec { get; set; }
 
-		[DataMember(Name="actualSTDLETotalClosingCostJ", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLETotalClosingCostJ")]
 		public decimal? ActualSTDLETotalClosingCostJ { get; set; }
 
-		[DataMember(Name="actualSTDLETotalClosingCostJFromLatestRec", EmitDefaultValue=false)]
+		[DataMember(Name="actualSTDLETotalClosingCostJFromLatestRec")]
 		public decimal? ActualSTDLETotalClosingCostJFromLatestRec { get; set; }
 
-		[DataMember(Name="adjustments061", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments061")]
 		public string Adjustments061 { get; set; }
 
-		[DataMember(Name="adjustments062", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments062")]
 		public decimal? Adjustments062 { get; set; }
 
-		[DataMember(Name="adjustments071", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments071")]
 		public string Adjustments071 { get; set; }
 
-		[DataMember(Name="adjustments072", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments072")]
 		public decimal? Adjustments072 { get; set; }
 
-		[DataMember(Name="adjustments101", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments101")]
 		public string Adjustments101 { get; set; }
 
-		[DataMember(Name="adjustments102", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments102")]
 		public decimal? Adjustments102 { get; set; }
 
-		[DataMember(Name= "adjustments111", EmitDefaultValue=false)]
+		[DataMember(Name= "adjustments111")]
 		public string Adjustments111 { get; set; }
 
-		[DataMember(Name="adjustments112", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments112")]
 		public decimal? Adjustments112 { get; set; }
 
-		[DataMember(Name="adjustments151", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments151")]
 		public string Adjustments151 { get; set; }
 
-		[DataMember(Name="adjustments152", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments152")]
 		public decimal? Adjustments152 { get; set; }
 
-		[DataMember(Name="adjustments81", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments81")]
 		public string Adjustments81 { get; set; }
 
-		[DataMember(Name="adjustments82", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments82")]
 		public decimal? Adjustments82 { get; set; }
 
-		[DataMember(Name="adjustments91", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments91")]
 		public string Adjustments91 { get; set; }
 
-		[DataMember(Name="adjustments92", EmitDefaultValue=false)]
+		[DataMember(Name="adjustments92")]
 		public decimal? Adjustments92 { get; set; }
 
-		[DataMember(Name="adjustmentsforItemsPaidbySellerinAdvance161", EmitDefaultValue=false)]
+		[DataMember(Name="adjustmentsforItemsPaidbySellerinAdvance161")]
 		public string AdjustmentsforItemsPaidbySellerinAdvance161 { get; set; }
 
-		[DataMember(Name="adjustmentsforItemsPaidbySellerinAdvance162", EmitDefaultValue=false)]
+		[DataMember(Name="adjustmentsforItemsPaidbySellerinAdvance162")]
 		public decimal? AdjustmentsforItemsPaidbySellerinAdvance162 { get; set; }
 
-		[DataMember(Name="aLTCashToCloseDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="aLTCashToCloseDidChangeCol")]
 		public string ALTCashToCloseDidChangeCol { get; set; }
 
-		[DataMember(Name="aLTCashToCloseRemark", EmitDefaultValue=false)]
+		[DataMember(Name="aLTCashToCloseRemark")]
 		public decimal? ALTCashToCloseRemark { get; set; }
 
-		[DataMember(Name="aLTClosingCostBeforeClosingDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="aLTClosingCostBeforeClosingDidChangeCol")]
 		public string ALTClosingCostBeforeClosingDidChangeCol { get; set; }
 
-		[DataMember(Name="aLTLegalLimit", EmitDefaultValue=false)]
+		[DataMember(Name="aLTLegalLimit")]
 		public decimal? ALTLegalLimit { get; set; }
 
-		[DataMember(Name="aLTLoanAmountDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="aLTLoanAmountDidChangeCol")]
 		public string ALTLoanAmountDidChangeCol { get; set; }
 
-		[DataMember(Name="aLTLoanAmountIncDecRemark", EmitDefaultValue=false)]
+		[DataMember(Name="aLTLoanAmountIncDecRemark")]
 		public string ALTLoanAmountIncDecRemark { get; set; }
 
-		[DataMember(Name="aLTTotalClosingCostDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="aLTTotalClosingCostDidChangeCol")]
 		public string ALTTotalClosingCostDidChangeCol { get; set; }
 
-		[DataMember(Name="aLTTotalClosingCostRemark", EmitDefaultValue=false)]
+		[DataMember(Name="aLTTotalClosingCostRemark")]
 		public string ALTTotalClosingCostRemark { get; set; }
 
-		[DataMember(Name="aLTTotalPayoffsDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="aLTTotalPayoffsDidChangeCol")]
 		public string ALTTotalPayoffsDidChangeCol { get; set; }
 
-		[DataMember(Name="cash", EmitDefaultValue=false)]
+		[DataMember(Name="cash")]
 		public decimal? Cash { get; set; }
 
-		[DataMember(Name="cashToClose", EmitDefaultValue=false)]
+		[DataMember(Name="cashToClose")]
 		public decimal? CashToClose { get; set; }
 
-		[DataMember(Name="cD3CashToClose", EmitDefaultValue=false)]
+		[DataMember(Name="cD3CashToClose")]
 		public decimal? CD3CashToClose { get; set; }
 
-		[DataMember(Name="cD3CashToCloseFromToBorrower", EmitDefaultValue=false)]
+		[DataMember(Name="cD3CashToCloseFromToBorrower")]
 		public string CD3CashToCloseFromToBorrower { get; set; }
 
-		[DataMember(Name="cD3ClosingCostsPaidBeforeClosing", EmitDefaultValue=false)]
+		[DataMember(Name="cD3ClosingCostsPaidBeforeClosing")]
 		public decimal? CD3ClosingCostsPaidBeforeClosing { get; set; }
 
-		[DataMember(Name= "cD3TotalClosingCostJ", EmitDefaultValue=false)]
+		[DataMember(Name= "cD3TotalClosingCostJ")]
 		public decimal? CD3TotalClosingCostJ { get; set; }
 
-		[DataMember(Name= "cD3TotalPayoffsAndPaymentsK", EmitDefaultValue=false)]
+		[DataMember(Name= "cD3TotalPayoffsAndPaymentsK")]
 		public decimal? CD3TotalPayoffsAndPaymentsK { get; set; }
 
-		[DataMember(Name="closingCostsPaidAtClosing", EmitDefaultValue=false)]
+		[DataMember(Name="closingCostsPaidAtClosing")]
 		public decimal? ClosingCostsPaidAtClosing { get; set; }
 
-		[DataMember(Name= "closingCostsPaidatClosingJ", EmitDefaultValue=false)]
+		[DataMember(Name= "closingCostsPaidatClosingJ")]
 		public decimal? ClosingCostsPaidatClosingJ { get; set; }
 
-		[DataMember(Name="duefromSelleratClosing111", EmitDefaultValue=false)]
+		[DataMember(Name="duefromSelleratClosing111")]
 		public string DuefromSelleratClosing111 { get; set; }
 
-		[DataMember(Name="duefromSelleratClosing112", EmitDefaultValue=false)]
+		[DataMember(Name="duefromSelleratClosing112")]
 		public decimal? DuefromSelleratClosing112 { get; set; }
 
-		[DataMember(Name="duefromSelleratClosing121", EmitDefaultValue=false)]
+		[DataMember(Name="duefromSelleratClosing121")]
 		public string DuefromSelleratClosing121 { get; set; }
 
-		[DataMember(Name="duefromSelleratClosing122", EmitDefaultValue=false)]
+		[DataMember(Name="duefromSelleratClosing122")]
 		public decimal? DuefromSelleratClosing122 { get; set; }
 
-		[DataMember(Name="duefromSelleratClosing131", EmitDefaultValue=false)]
+		[DataMember(Name="duefromSelleratClosing131")]
 		public string DuefromSelleratClosing131 { get; set; }
 
-		[DataMember(Name="duefromSelleratClosing132", EmitDefaultValue=false)]
+		[DataMember(Name="duefromSelleratClosing132")]
 		public decimal? DuefromSelleratClosing132 { get; set; }
 
-		[DataMember(Name="dueToSellerAtClosing61", EmitDefaultValue=false)]
+		[DataMember(Name="dueToSellerAtClosing61")]
 		public string DueToSellerAtClosing61 { get; set; }
 
-		[DataMember(Name="dueToSellerAtClosing62", EmitDefaultValue=false)]
+		[DataMember(Name="dueToSellerAtClosing62")]
 		public decimal? DueToSellerAtClosing62 { get; set; }
 
-		[DataMember(Name="dueToSellerAtClosing71", EmitDefaultValue=false)]
+		[DataMember(Name="dueToSellerAtClosing71")]
 		public string DueToSellerAtClosing71 { get; set; }
 
-		[DataMember(Name="dueToSellerAtClosing72", EmitDefaultValue=false)]
+		[DataMember(Name="dueToSellerAtClosing72")]
 		public decimal? DueToSellerAtClosing72 { get; set; }
 
-		[DataMember(Name="dueToSellerAtClosing81", EmitDefaultValue=false)]
+		[DataMember(Name="dueToSellerAtClosing81")]
 		public string DueToSellerAtClosing81 { get; set; }
 
-		[DataMember(Name="dueToSellerAtClosing82", EmitDefaultValue=false)]
+		[DataMember(Name="dueToSellerAtClosing82")]
 		public decimal? DueToSellerAtClosing82 { get; set; }
 
-		[DataMember(Name="excludeBorrowerClosingCosts", EmitDefaultValue=false)]
+		[DataMember(Name="excludeBorrowerClosingCosts")]
 		public bool? ExcludeBorrowerClosingCosts { get; set; }
 
-		[DataMember(Name="finalCashToClose", EmitDefaultValue=false)]
+		[DataMember(Name="finalCashToClose")]
 		public decimal? FinalCashToClose { get; set; }
 
-		[DataMember(Name="fromToBorrower", EmitDefaultValue=false)]
+		[DataMember(Name="fromToBorrower")]
 		public string FromToBorrower { get; set; }
 
-		[DataMember(Name="fromToSeller", EmitDefaultValue=false)]
+		[DataMember(Name="fromToSeller")]
 		public string FromToSeller { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lECD3CashToClose", EmitDefaultValue=false)]
+		[DataMember(Name="lECD3CashToClose")]
 		public decimal? LECD3CashToClose { get; set; }
 
-		[DataMember(Name="lECD3CashToCloseFromToBorrower", EmitDefaultValue=false)]
+		[DataMember(Name="lECD3CashToCloseFromToBorrower")]
 		public string LECD3CashToCloseFromToBorrower { get; set; }
 
-		[DataMember(Name="lECD3ClosingCostsPaidBeforeClosing", EmitDefaultValue=false)]
+		[DataMember(Name="lECD3ClosingCostsPaidBeforeClosing")]
 		public decimal? LECD3ClosingCostsPaidBeforeClosing { get; set; }
 
-		[DataMember(Name= "lECD3TotalClosingCostJ", EmitDefaultValue=false)]
+		[DataMember(Name= "lECD3TotalClosingCostJ")]
 		public decimal? LECD3TotalClosingCostJ { get; set; }
 
-		[DataMember(Name = "lecd3TotalPayoffsAndPaymentsK", EmitDefaultValue = false)]
+		[DataMember(Name = "lecd3TotalPayoffsAndPaymentsK")]
 		public decimal? LECD3TotalPayoffsAndPaymentsK { get; set; } = 0.00M;
 
-		[DataMember(Name="lELoanAmount", EmitDefaultValue=false)]
+		[DataMember(Name="lELoanAmount")]
 		public decimal? LELoanAmount { get; set; }
 
-		[DataMember(Name="liabilityAmount1", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount1")]
 		public decimal? LiabilityAmount1 { get; set; }
 
-		[DataMember(Name="liabilityAmount10", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount10")]
 		public decimal? LiabilityAmount10 { get; set; }
 
-		[DataMember(Name="liabilityAmount11", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount11")]
 		public decimal? LiabilityAmount11 { get; set; }
 
-		[DataMember(Name="liabilityAmount12", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount12")]
 		public decimal? LiabilityAmount12 { get; set; }
 
-		[DataMember(Name="liabilityAmount13", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount13")]
 		public decimal? LiabilityAmount13 { get; set; }
 
-		[DataMember(Name="liabilityAmount14", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount14")]
 		public decimal? LiabilityAmount14 { get; set; }
 
-		[DataMember(Name="liabilityAmount15", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount15")]
 		public decimal? LiabilityAmount15 { get; set; }
 
-		[DataMember(Name="liabilityAmount2", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount2")]
 		public decimal? LiabilityAmount2 { get; set; }
 
-		[DataMember(Name="liabilityAmount3", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount3")]
 		public decimal? LiabilityAmount3 { get; set; }
 
-		[DataMember(Name="liabilityAmount4", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount4")]
 		public decimal? LiabilityAmount4 { get; set; }
 
-		[DataMember(Name="liabilityAmount5", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount5")]
 		public decimal? LiabilityAmount5 { get; set; }
 
-		[DataMember(Name="liabilityAmount6", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount6")]
 		public decimal? LiabilityAmount6 { get; set; }
 
-		[DataMember(Name="liabilityAmount7", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount7")]
 		public decimal? LiabilityAmount7 { get; set; }
 
-		[DataMember(Name="liabilityAmount8", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount8")]
 		public decimal? LiabilityAmount8 { get; set; }
 
-		[DataMember(Name="liabilityAmount9", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityAmount9")]
 		public decimal? LiabilityAmount9 { get; set; }
 
-		[DataMember(Name="liabilityTo1", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo1")]
 		public string LiabilityTo1 { get; set; }
 
-		[DataMember(Name="liabilityTo10", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo10")]
 		public string LiabilityTo10 { get; set; }
 
-		[DataMember(Name="liabilityTo11", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo11")]
 		public string LiabilityTo11 { get; set; }
 
-		[DataMember(Name="liabilityTo12", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo12")]
 		public string LiabilityTo12 { get; set; }
 
-		[DataMember(Name="liabilityTo13", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo13")]
 		public string LiabilityTo13 { get; set; }
 
-		[DataMember(Name="liabilityTo14", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo14")]
 		public string LiabilityTo14 { get; set; }
 
-		[DataMember(Name="liabilityTo15", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo15")]
 		public string LiabilityTo15 { get; set; }
 
-		[DataMember(Name="liabilityTo2", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo2")]
 		public string LiabilityTo2 { get; set; }
 
-		[DataMember(Name="liabilityTo3", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo3")]
 		public string LiabilityTo3 { get; set; }
 
-		[DataMember(Name="liabilityTo4", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo4")]
 		public string LiabilityTo4 { get; set; }
 
-		[DataMember(Name="liabilityTo5", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo5")]
 		public string LiabilityTo5 { get; set; }
 
-		[DataMember(Name="liabilityTo6", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo6")]
 		public string LiabilityTo6 { get; set; }
 
-		[DataMember(Name="liabilityTo7", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo7")]
 		public string LiabilityTo7 { get; set; }
 
-		[DataMember(Name="liabilityTo8", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo8")]
 		public string LiabilityTo8 { get; set; }
 
-		[DataMember(Name="liabilityTo9", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTo9")]
 		public string LiabilityTo9 { get; set; }
 
-		[DataMember(Name="liabilityTotal", EmitDefaultValue=false)]
+		[DataMember(Name="liabilityTotal")]
 		public decimal? LiabilityTotal { get; set; }
 
-		[DataMember(Name="loanAmount", EmitDefaultValue=false)]
+		[DataMember(Name="loanAmount")]
 		public decimal? LoanAmount { get; set; }
 
-		[DataMember(Name="nonUCDTotalAdjustmentsAndOtherCredits", EmitDefaultValue=false)]
+		[DataMember(Name="nonUCDTotalAdjustmentsAndOtherCredits")]
 		public decimal? NonUCDTotalAdjustmentsAndOtherCredits { get; set; }
 
-		[DataMember(Name="omitFromPrintSellersTransaction", EmitDefaultValue=false)]
+		[DataMember(Name="omitFromPrintSellersTransaction")]
 		public bool? OmitFromPrintSellersTransaction { get; set; }
 
-		[DataMember(Name="otherCredits61", EmitDefaultValue=false)]
+		[DataMember(Name="otherCredits61")]
 		public string OtherCredits61 { get; set; }
 
-		[DataMember(Name="otherCredits62", EmitDefaultValue=false)]
+		[DataMember(Name="otherCredits62")]
 		public decimal? OtherCredits62 { get; set; }
 
-		[DataMember(Name="otherCredits71", EmitDefaultValue=false)]
+		[DataMember(Name="otherCredits71")]
 		public string OtherCredits71 { get; set; }
 
-		[DataMember(Name="otherCredits72", EmitDefaultValue=false)]
+		[DataMember(Name="otherCredits72")]
 		public decimal? OtherCredits72 { get; set; }
 
-		[DataMember(Name="priorToleranceCureAmount", EmitDefaultValue=false)]
+		[DataMember(Name="priorToleranceCureAmount")]
 		public decimal? PriorToleranceCureAmount { get; set; }
 
-		[DataMember(Name="sTDAdjustmentAndOtherCreditsRemark", EmitDefaultValue=false)]
+		[DataMember(Name="sTDAdjustmentAndOtherCreditsRemark")]
 		public string STDAdjustmentAndOtherCreditsRemark { get; set; }
 
-		[DataMember(Name="sTDAdjustmentsDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDAdjustmentsDidChangeCol")]
 		public string STDAdjustmentsDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDClosingCostFinancedDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDClosingCostFinancedDidChangeCol")]
 		public string STDClosingCostFinancedDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDDepositDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDDepositDidChangeCol")]
 		public string STDDepositDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDDepositIncDecRemark", EmitDefaultValue=false)]
+		[DataMember(Name="sTDDepositIncDecRemark")]
 		public string STDDepositIncDecRemark { get; set; }
 
-		[DataMember(Name="sTDDownPaymentDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDDownPaymentDidChangeCol")]
 		public string STDDownPaymentDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDDownPaymentIncDecRemark", EmitDefaultValue=false)]
+		[DataMember(Name="sTDDownPaymentIncDecRemark")]
 		public string STDDownPaymentIncDecRemark { get; set; }
 
-		[DataMember(Name="sTDDownPaymentSectionRemark", EmitDefaultValue=false)]
+		[DataMember(Name="sTDDownPaymentSectionRemark")]
 		public string STDDownPaymentSectionRemark { get; set; }
 
-		[DataMember(Name="sTDFinalAdjustmentAndOtherCredits", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalAdjustmentAndOtherCredits")]
 		public decimal? STDFinalAdjustmentAndOtherCredits { get; set; }
 
-		[DataMember(Name="sTDFinalCashToClose", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalCashToClose")]
 		public decimal? STDFinalCashToClose { get; set; }
 
-		[DataMember(Name="sTDFinalCD3ClosingCostsPaidBeforeClosing", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalCD3ClosingCostsPaidBeforeClosing")]
 		public decimal? STDFinalCD3ClosingCostsPaidBeforeClosing { get; set; }
 
-		[DataMember(Name="sTDFinalClosingCostFinanced", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalClosingCostFinanced")]
 		public decimal? STDFinalClosingCostFinanced { get; set; }
 
-		[DataMember(Name="sTDFinalDeposit", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalDeposit")]
 		public decimal? STDFinalDeposit { get; set; }
 
-		[DataMember(Name="sTDFinalDownPayment", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalDownPayment")]
 		public decimal? STDFinalDownPayment { get; set; }
 
-		[DataMember(Name="sTDFinalFundForBorrower", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalFundForBorrower")]
 		public decimal? STDFinalFundForBorrower { get; set; }
 
-		[DataMember(Name="sTDFinalSellerCredits", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalSellerCredits")]
 		public decimal? STDFinalSellerCredits { get; set; }
 
-		[DataMember(Name="sTDFinalTotalClosingCostJ", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFinalTotalClosingCostJ")]
 		public decimal? STDFinalTotalClosingCostJ { get; set; }
 
-		[DataMember(Name="sTDFundsForBorrowerDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFundsForBorrowerDidChangeCol")]
 		public string STDFundsForBorrowerDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDFundsForBorrowerIncDecRemark", EmitDefaultValue=false)]
+		[DataMember(Name="sTDFundsForBorrowerIncDecRemark")]
 		public string STDFundsForBorrowerIncDecRemark { get; set; }
 
-		[DataMember(Name="sTDLEAdjustmentAndOtherCredits", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLEAdjustmentAndOtherCredits")]
 		public decimal? STDLEAdjustmentAndOtherCredits { get; set; }
 
-		[DataMember(Name="sTDLECashToClose", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLECashToClose")]
 		public decimal? STDLECashToClose { get; set; }
 
-		[DataMember(Name="sTDLECD3ClosingCostsPaidBeforeClosing", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLECD3ClosingCostsPaidBeforeClosing")]
 		public decimal? STDLECD3ClosingCostsPaidBeforeClosing { get; set; }
 
-		[DataMember(Name="sTDLEClosingCostFinanced", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLEClosingCostFinanced")]
 		public decimal? STDLEClosingCostFinanced { get; set; }
 
-		[DataMember(Name="sTDLEDeposit", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLEDeposit")]
 		public decimal? STDLEDeposit { get; set; }
 
-		[DataMember(Name="sTDLEDownPayment", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLEDownPayment")]
 		public decimal? STDLEDownPayment { get; set; }
 
-		[DataMember(Name="sTDLEFundForBorrower", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLEFundForBorrower")]
 		public decimal? STDLEFundForBorrower { get; set; }
 
-		[DataMember(Name="sTDLegalLimit", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLegalLimit")]
 		public decimal? STDLegalLimit { get; set; }
 
-		[DataMember(Name="sTDLESellerCredits", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLESellerCredits")]
 		public decimal? STDLESellerCredits { get; set; }
 
-		[DataMember(Name="sTDLETotalClosingCostJ", EmitDefaultValue=false)]
+		[DataMember(Name="sTDLETotalClosingCostJ")]
 		public decimal? STDLETotalClosingCostJ { get; set; }
 
-		[DataMember(Name="sTDSellerCreditsDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDSellerCreditsDidChangeCol")]
 		public string STDSellerCreditsDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDSellerCreditsIncDecRemark", EmitDefaultValue=false)]
+		[DataMember(Name="sTDSellerCreditsIncDecRemark")]
 		public string STDSellerCreditsIncDecRemark { get; set; }
 
-		[DataMember(Name="sTDTotalClosingCostBeforeClosingDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDTotalClosingCostBeforeClosingDidChangeCol")]
 		public string STDTotalClosingCostBeforeClosingDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDTotalClosingCostDidChangeCol", EmitDefaultValue=false)]
+		[DataMember(Name="sTDTotalClosingCostDidChangeCol")]
 		public string STDTotalClosingCostDidChangeCol { get; set; }
 
-		[DataMember(Name="sTDTotalClosingCostRemark", EmitDefaultValue=false)]
+		[DataMember(Name="sTDTotalClosingCostRemark")]
 		public string STDTotalClosingCostRemark { get; set; }
 
-		[DataMember(Name="totalAdjustmentsAndOtherCredits", EmitDefaultValue=false)]
+		[DataMember(Name="totalAdjustmentsAndOtherCredits")]
 		public decimal? TotalAdjustmentsAndOtherCredits { get; set; }
 
-		[DataMember(Name="totalDuefromBorrowerAtClosing", EmitDefaultValue=false)]
+		[DataMember(Name="totalDuefromBorrowerAtClosing")]
 		public decimal? TotalDuefromBorrowerAtClosing { get; set; }
 
-		[DataMember(Name="totalDuefromSelleratClosingN", EmitDefaultValue=false)]
+		[DataMember(Name="totalDuefromSelleratClosingN")]
 		public decimal? TotalDuefromSelleratClosingN { get; set; }
 
-		[DataMember(Name= "totalDuetoSelleratClosingM", EmitDefaultValue=false)]
+		[DataMember(Name= "totalDuetoSelleratClosingM")]
 		public decimal? TotalDuetoSelleratClosingM { get; set; }
 
-		[DataMember(Name="totalFromK", EmitDefaultValue=false)]
+		[DataMember(Name="totalFromK")]
 		public decimal? TotalFromK { get; set; }
 
-		[DataMember(Name="totalFromL", EmitDefaultValue=false)]
+		[DataMember(Name="totalFromL")]
 		public decimal? TotalFromL { get; set; }
 
-		[DataMember(Name="totalFromM", EmitDefaultValue=false)]
+		[DataMember(Name="totalFromM")]
 		public decimal? TotalFromM { get; set; }
 
-		[DataMember(Name="totalFromN", EmitDefaultValue=false)]
+		[DataMember(Name="totalFromN")]
 		public decimal? TotalFromN { get; set; }
 
-		[DataMember(Name="totalPaidAlreadybyoronBehalfofBoroweratClosing", EmitDefaultValue=false)]
+		[DataMember(Name="totalPaidAlreadybyoronBehalfofBoroweratClosing")]
 		public decimal? TotalPaidAlreadybyoronBehalfofBoroweratClosing { get; set; }
 
-		[DataMember(Name="uCDDetails", EmitDefaultValue=false)]
+		[DataMember(Name="uCDDetails")]
 		public List<LoanContractClosingCostClosingDisclosure3UCDDetails> UCDDetails { get; set; }
 
-		[DataMember(Name="uCDKSubTotal", EmitDefaultValue=false)]
+		[DataMember(Name="uCDKSubTotal")]
 		public decimal? UCDKSubTotal { get; set; }
 
-		[DataMember(Name="uCDLSubTotal", EmitDefaultValue=false)]
+		[DataMember(Name="uCDLSubTotal")]
 		public decimal? UCDLSubTotal { get; set; }
 
-		[DataMember(Name="uCDTotalAdjustmentsAndOtherCredits", EmitDefaultValue=false)]
+		[DataMember(Name="uCDTotalAdjustmentsAndOtherCredits")]
 		public decimal? UCDTotalAdjustmentsAndOtherCredits { get; set; }
 
-		[DataMember(Name = "newVerbiageDisclosed", EmitDefaultValue = false)]
+		[DataMember(Name = "newVerbiageDisclosed")]
 		public bool? NewVerbiageDisclosed { get; set; } = false;
 
-		[DataMember(Name = "totalPurchasePayoffsIncluded", EmitDefaultValue = false)]
+		[DataMember(Name = "totalPurchasePayoffsIncluded")]
 		public decimal? TotalPurchasePayoffsIncluded { get; set; } = 0.00M;
 
-		[DataMember(Name = "totalDuetoSelleratClosingN", EmitDefaultValue = false)]
-		public double? TotalDuetoSelleratClosingN { get; set; }
+		[DataMember(Name = "totalDuetoSelleratClosingN")]
+		public decimal? TotalDuetoSelleratClosingN { get; set; }
 
 	}
 }

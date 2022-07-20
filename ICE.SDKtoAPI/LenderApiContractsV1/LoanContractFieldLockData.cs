@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractFieldLockData
 	{
-		[DataMember(Name="lockRemoved", EmitDefaultValue=false)]
+		[DataMember(Name="lockRemoved")]
 		public bool? LockRemoved { get; set; }
 
-		[DataMember(Name="modelPath", EmitDefaultValue=false)]
+		[DataMember(Name="modelPath")]
 		public string ModelPath { get; set; }
 
 	}

@@ -34,6 +34,7 @@ namespace ICE.SDKtoAPI.Providers
                             CanonicalName = "Loan.LoanNumber",
                             Value = loanNumber,
                             MatchType = "exact",
+                            Precision = "day",
                             Include = true
                         }
                         },

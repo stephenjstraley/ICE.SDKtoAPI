@@ -5,118 +5,118 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractClosingDocumentClosingEntities
 	{
-		[DataMember(Name="alias", EmitDefaultValue=false)]
+		[DataMember(Name="alias")]
 		public string Alias { get; set; }
 
-		[DataMember(Name="assignee", EmitDefaultValue=false)]
+		[DataMember(Name="assignee")]
 		public string Assignee { get; set; }
 
-		[DataMember(Name="authorizedToSignIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="authorizedToSignIndicator")]
 		public bool? AuthorizedToSignIndicator { get; set; }
 
-		[DataMember(Name="borrowerPair", EmitDefaultValue=false)]
+		[DataMember(Name="borrowerPair")]
 		public string BorrowerPair { get; set; }
 
-		[DataMember(Name="city", EmitDefaultValue=false)]
+		[DataMember(Name="city")]
 		public string City { get; set; }
 
-		[DataMember(Name="closingEntityType", EmitDefaultValue=false)]
+		[DataMember(Name="closingEntityType")]
 		public string ClosingEntityType { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="county", EmitDefaultValue=false)]
+		[DataMember(Name="county")]
 		public string County { get; set; }
 
-		[DataMember(Name="dateOfBirth", EmitDefaultValue=false)]
+		[DataMember(Name="dateOfBirth")]
 		public DateTime? DateOfBirth { get; set; }
 
-		[DataMember(Name="fax", EmitDefaultValue=false)]
+		[DataMember(Name="fax")]
 		public string Fax { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="nBORecordID", EmitDefaultValue=false)]
+		[DataMember(Name="nBORecordID")]
 		public string NBORecordID { get; set; }
 
-		[DataMember(Name="occupancyIntent", EmitDefaultValue=false)]
+		[DataMember(Name="occupancyIntent")]
 		public string OccupancyIntent { get; set; }
 
-		[DataMember(Name="occupancyStatus", EmitDefaultValue=false)]
+		[DataMember(Name="occupancyStatus")]
 		public string OccupancyStatus { get; set; }
 
-		[DataMember(Name="organizationType", EmitDefaultValue=false)]
+		[DataMember(Name="organizationType")]
 		public string OrganizationType { get; set; }
 
-		[DataMember(Name="organizedUnderTheLawsOfJurisdictionName", EmitDefaultValue=false)]
+		[DataMember(Name="organizedUnderTheLawsOfJurisdictionName")]
 		public string OrganizedUnderTheLawsOfJurisdictionName { get; set; }
 
-		[DataMember(Name="phone", EmitDefaultValue=false)]
+		[DataMember(Name="phone")]
 		public string Phone { get; set; }
 
-		[DataMember(Name="phone1", EmitDefaultValue=false)]
+		[DataMember(Name="phone1")]
 		public string Phone1 { get; set; }
 
-		[DataMember(Name="phone2", EmitDefaultValue=false)]
+		[DataMember(Name="phone2")]
 		public string Phone2 { get; set; }
 
-		[DataMember(Name="poaSignatureText", EmitDefaultValue=false)]
+		[DataMember(Name="poaSignatureText")]
 		public string PoaSignatureText { get; set; }
 
-		[DataMember(Name="postalCode", EmitDefaultValue=false)]
+		[DataMember(Name="postalCode")]
 		public string PostalCode { get; set; }
 
-		[DataMember(Name="powerOfAttorney", EmitDefaultValue=false)]
+		[DataMember(Name="powerOfAttorney")]
 		public string PowerOfAttorney { get; set; }
 
-		[DataMember(Name="recordableDocumentTrustDate", EmitDefaultValue=false)]
+		[DataMember(Name="recordableDocumentTrustDate")]
 		public DateTime? RecordableDocumentTrustDate { get; set; }
 
-		[DataMember(Name="recordCity", EmitDefaultValue=false)]
+		[DataMember(Name="recordCity")]
 		public string RecordCity { get; set; }
 
-		[DataMember(Name="ssn", EmitDefaultValue=false)]
+		[DataMember(Name="ssn")]
 		public string Ssn { get; set; }
 
-		[DataMember(Name="state", EmitDefaultValue=false)]
+		[DataMember(Name="state")]
 		public string State { get; set; }
 
-		[DataMember(Name="streetAddress", EmitDefaultValue=false)]
+		[DataMember(Name="streetAddress")]
 		public string StreetAddress { get; set; }
 
-		[DataMember(Name="taxIdentificationNumberIdentifier", EmitDefaultValue=false)]
+		[DataMember(Name="taxIdentificationNumberIdentifier")]
 		public string TaxIdentificationNumberIdentifier { get; set; }
 
-		[DataMember(Name="trusteeIndex", EmitDefaultValue=false)]
+		[DataMember(Name="trusteeIndex")]
 		public int? TrusteeIndex { get; set; }
 
-		[DataMember(Name="trustOfficerName1", EmitDefaultValue=false)]
+		[DataMember(Name="trustOfficerName1")]
 		public string TrustOfficerName1 { get; set; }
 
-		[DataMember(Name="trustOfficerName2", EmitDefaultValue=false)]
+		[DataMember(Name="trustOfficerName2")]
 		public string TrustOfficerName2 { get; set; }
 
-		[DataMember(Name="trustOfficerTitle1", EmitDefaultValue=false)]
+		[DataMember(Name="trustOfficerTitle1")]
 		public string TrustOfficerTitle1 { get; set; }
 
-		[DataMember(Name="trustOfficerTitle2", EmitDefaultValue=false)]
+		[DataMember(Name="trustOfficerTitle2")]
 		public string TrustOfficerTitle2 { get; set; }
 
-		[DataMember(Name="unparsedName", EmitDefaultValue=false)]
+		[DataMember(Name="unparsedName")]
 		public string UnparsedName { get; set; }
 
-		[DataMember(Name="vesting", EmitDefaultValue=false)]
+		[DataMember(Name="vesting")]
 		public string Vesting { get; set; }
 
-		[DataMember(Name="vestingGuid", EmitDefaultValue=false)]
+		[DataMember(Name="vestingGuid")]
 		public string VestingGuid { get; set; }
 
-		[DataMember(Name="vestingTrusteeOfType", EmitDefaultValue=false)]
+		[DataMember(Name="vestingTrusteeOfType")]
 		public string VestingTrusteeOfType { get; set; }
 
-		[DataMember(Name="vestingType", EmitDefaultValue=false)]
+		[DataMember(Name="vestingType")]
 		public string VestingType { get; set; }
 
 	}

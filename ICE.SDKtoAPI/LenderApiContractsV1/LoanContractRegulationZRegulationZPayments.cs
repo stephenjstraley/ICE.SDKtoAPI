@@ -5,25 +5,25 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractRegulationZRegulationZPayments
 	{
-		[DataMember(Name="balance", EmitDefaultValue=false)]
-		public double? Balance { get; set; }
+		[DataMember(Name="balance")]
+		public decimal? Balance { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="interestRatePercent", EmitDefaultValue=false)]
-		public double? InterestRatePercent { get; set; }
+		[DataMember(Name="interestRatePercent")]
+		public decimal? InterestRatePercent { get; set; }
 
-		[DataMember(Name="monthlyPayment", EmitDefaultValue=false)]
-		public double? MonthlyPayment { get; set; }
+		[DataMember(Name="monthlyPayment")]
+		public decimal? MonthlyPayment { get; set; }
 
-		[DataMember(Name="numberOfPayments", EmitDefaultValue=false)]
+		[DataMember(Name="numberOfPayments")]
 		public int? NumberOfPayments { get; set; }
 
-		[DataMember(Name="paymentDate", EmitDefaultValue=false)]
+		[DataMember(Name="paymentDate")]
 		public DateTime? PaymentDate { get; set; }
 
-		[DataMember(Name="regulationZPaymentIndex", EmitDefaultValue=false)]
+		[DataMember(Name="regulationZPaymentIndex")]
 		public int? RegulationZPaymentIndex { get; set; }
 
 	}

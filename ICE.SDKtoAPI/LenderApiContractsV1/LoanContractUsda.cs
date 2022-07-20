@@ -7,409 +7,409 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractUsda
 	{
-		[DataMember(Name="additionalMemberBaseIncome", EmitDefaultValue=false)]
-		public double? AdditionalMemberBaseIncome { get; set; }
+		[DataMember(Name="additionalMemberBaseIncome")]
+		public decimal? AdditionalMemberBaseIncome { get; set; }
 
-		[DataMember(Name="adjustedIncomeCalculationDescription1", EmitDefaultValue=false)]
+		[DataMember(Name="adjustedIncomeCalculationDescription1")]
 		public string AdjustedIncomeCalculationDescription1 { get; set; }
 
-		[DataMember(Name="adjustedIncomeCalculationDescription2", EmitDefaultValue=false)]
+		[DataMember(Name="adjustedIncomeCalculationDescription2")]
 		public string AdjustedIncomeCalculationDescription2 { get; set; }
 
-		[DataMember(Name="adjustedIncomeCalculationDescription3", EmitDefaultValue=false)]
+		[DataMember(Name="adjustedIncomeCalculationDescription3")]
 		public string AdjustedIncomeCalculationDescription3 { get; set; }
 
-		[DataMember(Name="advanceAmountToDate", EmitDefaultValue=false)]
-		public double? AdvanceAmountToDate { get; set; }
+		[DataMember(Name="advanceAmountToDate")]
+		public decimal? AdvanceAmountToDate { get; set; }
 
-		[DataMember(Name="amountLoanlineCredit", EmitDefaultValue=false)]
-		public double? AmountLoanlineCredit { get; set; }
+		[DataMember(Name="amountLoanlineCredit")]
+		public decimal? AmountLoanlineCredit { get; set; }
 
-		[DataMember(Name="annualChildCareExpenses", EmitDefaultValue=false)]
-		public double? AnnualChildCareExpenses { get; set; }
+		[DataMember(Name="annualChildCareExpenses")]
+		public decimal? AnnualChildCareExpenses { get; set; }
 
-		[DataMember(Name="annualIncomeCalculationDescription1", EmitDefaultValue=false)]
+		[DataMember(Name="annualIncomeCalculationDescription1")]
 		public string AnnualIncomeCalculationDescription1 { get; set; }
 
-		[DataMember(Name="annualIncomeCalculationDescription2", EmitDefaultValue=false)]
+		[DataMember(Name="annualIncomeCalculationDescription2")]
 		public string AnnualIncomeCalculationDescription2 { get; set; }
 
-		[DataMember(Name="annualIncomeCalculationDescription3", EmitDefaultValue=false)]
+		[DataMember(Name="annualIncomeCalculationDescription3")]
 		public string AnnualIncomeCalculationDescription3 { get; set; }
 
-		[DataMember(Name="annualIncomeCalculationDescription4", EmitDefaultValue=false)]
+		[DataMember(Name="annualIncomeCalculationDescription4")]
 		public string AnnualIncomeCalculationDescription4 { get; set; }
 
-		[DataMember(Name="annualIncomeCalculationDescription5", EmitDefaultValue=false)]
+		[DataMember(Name="annualIncomeCalculationDescription5")]
 		public string AnnualIncomeCalculationDescription5 { get; set; }
 
-		[DataMember(Name="annualReviewDate", EmitDefaultValue=false)]
+		[DataMember(Name="annualReviewDate")]
 		public DateTime? AnnualReviewDate { get; set; }
 
-		[DataMember(Name="applicationNumber", EmitDefaultValue=false)]
+		[DataMember(Name="applicationNumber")]
 		public string ApplicationNumber { get; set; }
 
-		[DataMember(Name="approvedLenderTaxId", EmitDefaultValue=false)]
+		[DataMember(Name="approvedLenderTaxId")]
 		public string ApprovedLenderTaxId { get; set; }
 
-		[DataMember(Name="balanceOwedOnLoan", EmitDefaultValue=false)]
-		public double? BalanceOwedOnLoan { get; set; }
+		[DataMember(Name="balanceOwedOnLoan")]
+		public decimal? BalanceOwedOnLoan { get; set; }
 
-		[DataMember(Name="borrowerTotalStableIncome", EmitDefaultValue=false)]
-		public double? BorrowerTotalStableIncome { get; set; }
+		[DataMember(Name="borrowerTotalStableIncome")]
+		public decimal? BorrowerTotalStableIncome { get; set; }
 
-		[DataMember(Name="borrowerTypeCode", EmitDefaultValue=false)]
+		[DataMember(Name="borrowerTypeCode")]
 		public string BorrowerTypeCode { get; set; }
 
-		[DataMember(Name="buydownInterestAssistanceRate", EmitDefaultValue=false)]
-		public double? BuydownInterestAssistanceRate { get; set; }
+		[DataMember(Name="buydownInterestAssistanceRate")]
+		public decimal? BuydownInterestAssistanceRate { get; set; }
 
-		[DataMember(Name="caseNumberBorrowerId", EmitDefaultValue=false)]
+		[DataMember(Name="caseNumberBorrowerId")]
 		public string CaseNumberBorrowerId { get; set; }
 
-		[DataMember(Name="caseNumberCo", EmitDefaultValue=false)]
+		[DataMember(Name="caseNumberCo")]
 		public string CaseNumberCo { get; set; }
 
-		[DataMember(Name="caseNumberSt", EmitDefaultValue=false)]
+		[DataMember(Name="caseNumberSt")]
 		public string CaseNumberSt { get; set; }
 
-		[DataMember(Name="certificationEffectiveDate", EmitDefaultValue=false)]
+		[DataMember(Name="certificationEffectiveDate")]
 		public DateTime? CertificationEffectiveDate { get; set; }
 
-		[DataMember(Name="certificationExpirationDate", EmitDefaultValue=false)]
+		[DataMember(Name="certificationExpirationDate")]
 		public DateTime? CertificationExpirationDate { get; set; }
 
-		[DataMember(Name="certifiedLoanIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="certifiedLoanIndicator")]
 		public bool? CertifiedLoanIndicator { get; set; }
 
-		[DataMember(Name="childCareProviderAddress", EmitDefaultValue=false)]
+		[DataMember(Name="childCareProviderAddress")]
 		public string ChildCareProviderAddress { get; set; }
 
-		[DataMember(Name="childCareProviderCity", EmitDefaultValue=false)]
+		[DataMember(Name="childCareProviderCity")]
 		public string ChildCareProviderCity { get; set; }
 
-		[DataMember(Name="childCareProviderPhone", EmitDefaultValue=false)]
+		[DataMember(Name="childCareProviderPhone")]
 		public string ChildCareProviderPhone { get; set; }
 
-		[DataMember(Name="childCareProviderProviderName", EmitDefaultValue=false)]
+		[DataMember(Name="childCareProviderProviderName")]
 		public string ChildCareProviderProviderName { get; set; }
 
-		[DataMember(Name="childCareProviderState", EmitDefaultValue=false)]
+		[DataMember(Name="childCareProviderState")]
 		public string ChildCareProviderState { get; set; }
 
-		[DataMember(Name="childCareProviderZip", EmitDefaultValue=false)]
+		[DataMember(Name="childCareProviderZip")]
 		public string ChildCareProviderZip { get; set; }
 
-		[DataMember(Name="childCostPerMonth", EmitDefaultValue=false)]
-		public double? ChildCostPerMonth { get; set; }
+		[DataMember(Name="childCostPerMonth")]
+		public decimal? ChildCostPerMonth { get; set; }
 
-		[DataMember(Name="childCostPerWeek", EmitDefaultValue=false)]
-		public double? ChildCostPerWeek { get; set; }
+		[DataMember(Name="childCostPerWeek")]
+		public decimal? ChildCostPerWeek { get; set; }
 
-		[DataMember(Name="coborrowerStableBaseIncome", EmitDefaultValue=false)]
-		public double? CoborrowerStableBaseIncome { get; set; }
+		[DataMember(Name="coborrowerStableBaseIncome")]
+		public decimal? CoborrowerStableBaseIncome { get; set; }
 
-		[DataMember(Name="coborrowerStableBaseIncomeDesc", EmitDefaultValue=false)]
+		[DataMember(Name="coborrowerStableBaseIncomeDesc")]
 		public string CoborrowerStableBaseIncomeDesc { get; set; }
 
-		[DataMember(Name="coborrowerStableOtherIncome", EmitDefaultValue=false)]
-		public double? CoborrowerStableOtherIncome { get; set; }
+		[DataMember(Name="coborrowerStableOtherIncome")]
+		public decimal? CoborrowerStableOtherIncome { get; set; }
 
-		[DataMember(Name="coborrowerStableOtherIncomeDesc", EmitDefaultValue=false)]
+		[DataMember(Name="coborrowerStableOtherIncomeDesc")]
 		public string CoborrowerStableOtherIncomeDesc { get; set; }
 
-		[DataMember(Name="coBorrowerTotalStableIncome", EmitDefaultValue=false)]
-		public double? CoBorrowerTotalStableIncome { get; set; }
+		[DataMember(Name="coBorrowerTotalStableIncome")]
+		public decimal? CoBorrowerTotalStableIncome { get; set; }
 
-		[DataMember(Name="dateConfirmedObligationProcessed", EmitDefaultValue=false)]
+		[DataMember(Name="dateConfirmedObligationProcessed")]
 		public DateTime? DateConfirmedObligationProcessed { get; set; }
 
-		[DataMember(Name="dateLoanNoteGuaranteeIssued", EmitDefaultValue=false)]
+		[DataMember(Name="dateLoanNoteGuaranteeIssued")]
 		public DateTime? DateLoanNoteGuaranteeIssued { get; set; }
 
-		[DataMember(Name="dateLoanNoteGuaranteeRequestReceived", EmitDefaultValue=false)]
+		[DataMember(Name="dateLoanNoteGuaranteeRequestReceived")]
 		public DateTime? DateLoanNoteGuaranteeRequestReceived { get; set; }
 
-		[DataMember(Name="dateObligationInGls", EmitDefaultValue=false)]
+		[DataMember(Name="dateObligationInGls")]
 		public DateTime? DateObligationInGls { get; set; }
 
-		[DataMember(Name="dateVerifiedInUnifi", EmitDefaultValue=false)]
+		[DataMember(Name="dateVerifiedInUnifi")]
 		public DateTime? DateVerifiedInUnifi { get; set; }
 
-		[DataMember(Name="dependentDeduction", EmitDefaultValue=false)]
-		public double? DependentDeduction { get; set; }
+		[DataMember(Name="dependentDeduction")]
+		public decimal? DependentDeduction { get; set; }
 
-		[DataMember(Name="disabilityDeduction", EmitDefaultValue=false)]
-		public double? DisabilityDeduction { get; set; }
+		[DataMember(Name="disabilityDeduction")]
+		public decimal? DisabilityDeduction { get; set; }
 
-		[DataMember(Name="elderlyHouseholdDeduction", EmitDefaultValue=false)]
-		public double? ElderlyHouseholdDeduction { get; set; }
+		[DataMember(Name="elderlyHouseholdDeduction")]
+		public decimal? ElderlyHouseholdDeduction { get; set; }
 
-		[DataMember(Name="feeRate", EmitDefaultValue=false)]
-		public double? FeeRate { get; set; }
+		[DataMember(Name="feeRate")]
+		public decimal? FeeRate { get; set; }
 
-		[DataMember(Name="financedLoanClosingCostDescription", EmitDefaultValue=false)]
+		[DataMember(Name="financedLoanClosingCostDescription")]
 		public string FinancedLoanClosingCostDescription { get; set; }
 
-		[DataMember(Name="financedLoanClosingCosts", EmitDefaultValue=false)]
-		public double? FinancedLoanClosingCosts { get; set; }
+		[DataMember(Name="financedLoanClosingCosts")]
+		public decimal? FinancedLoanClosingCosts { get; set; }
 
-		[DataMember(Name="guaranteeFeeCollected", EmitDefaultValue=false)]
-		public double? GuaranteeFeeCollected { get; set; }
+		[DataMember(Name="guaranteeFeeCollected")]
+		public decimal? GuaranteeFeeCollected { get; set; }
 
-		[DataMember(Name="guaranteeFeeOnCommitment", EmitDefaultValue=false)]
-		public double? GuaranteeFeeOnCommitment { get; set; }
+		[DataMember(Name="guaranteeFeeOnCommitment")]
+		public decimal? GuaranteeFeeOnCommitment { get; set; }
 
-		[DataMember(Name="guaranteeFeePurposeCodeType", EmitDefaultValue=false)]
+		[DataMember(Name="guaranteeFeePurposeCodeType")]
 		public string GuaranteeFeePurposeCodeType { get; set; }
 
-		[DataMember(Name="guaranteePeriodBeginsDate", EmitDefaultValue=false)]
+		[DataMember(Name="guaranteePeriodBeginsDate")]
 		public DateTime? GuaranteePeriodBeginsDate { get; set; }
 
-		[DataMember(Name="guaranteePeriodEndsDate", EmitDefaultValue=false)]
+		[DataMember(Name="guaranteePeriodEndsDate")]
 		public DateTime? GuaranteePeriodEndsDate { get; set; }
 
-		[DataMember(Name="guaranteeType", EmitDefaultValue=false)]
+		[DataMember(Name="guaranteeType")]
 		public string GuaranteeType { get; set; }
 
-		[DataMember(Name="householdSize", EmitDefaultValue=false)]
+		[DataMember(Name="householdSize")]
 		public int? HouseholdSize { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="interestAssistanceCodeType", EmitDefaultValue=false)]
+		[DataMember(Name="interestAssistanceCodeType")]
 		public string InterestAssistanceCodeType { get; set; }
 
-		[DataMember(Name="interestRateBasedonFannieIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="interestRateBasedonFannieIndicator")]
 		public bool? InterestRateBasedonFannieIndicator { get; set; }
 
-		[DataMember(Name="interestRateCodeType", EmitDefaultValue=false)]
+		[DataMember(Name="interestRateCodeType")]
 		public string InterestRateCodeType { get; set; }
 
-		[DataMember(Name="interestRateFloatToLoanClosingIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="interestRateFloatToLoanClosingIndicator")]
 		public bool? InterestRateFloatToLoanClosingIndicator { get; set; }
 
-		[DataMember(Name="lackAdequateHeatIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="lackAdequateHeatIndicator")]
 		public bool? LackAdequateHeatIndicator { get; set; }
 
-		[DataMember(Name="lenderAuthorizedRepCompany", EmitDefaultValue=false)]
+		[DataMember(Name="lenderAuthorizedRepCompany")]
 		public string LenderAuthorizedRepCompany { get; set; }
 
-		[DataMember(Name="lenderAuthorizedRepName", EmitDefaultValue=false)]
+		[DataMember(Name="lenderAuthorizedRepName")]
 		public string LenderAuthorizedRepName { get; set; }
 
-		[DataMember(Name="lenderAuthorizedRepTitle", EmitDefaultValue=false)]
+		[DataMember(Name="lenderAuthorizedRepTitle")]
 		public string LenderAuthorizedRepTitle { get; set; }
 
-		[DataMember(Name="lenderIdNo", EmitDefaultValue=false)]
+		[DataMember(Name="lenderIdNo")]
 		public string LenderIdNo { get; set; }
 
-		[DataMember(Name="lenderNoteRateOnGuaranteedPortion", EmitDefaultValue=false)]
-		public double? LenderNoteRateOnGuaranteedPortion { get; set; }
+		[DataMember(Name="lenderNoteRateOnGuaranteedPortion")]
+		public decimal? LenderNoteRateOnGuaranteedPortion { get; set; }
 
-		[DataMember(Name="lenderNoteRateOnNonGuaranteedPortion", EmitDefaultValue=false)]
-		public double? LenderNoteRateOnNonGuaranteedPortion { get; set; }
+		[DataMember(Name="lenderNoteRateOnNonGuaranteedPortion")]
+		public decimal? LenderNoteRateOnNonGuaranteedPortion { get; set; }
 
-		[DataMember(Name="lenderStatusCodeType", EmitDefaultValue=false)]
+		[DataMember(Name="lenderStatusCodeType")]
 		public string LenderStatusCodeType { get; set; }
 
-		[DataMember(Name="lenderTypeCode", EmitDefaultValue=false)]
+		[DataMember(Name="lenderTypeCode")]
 		public string LenderTypeCode { get; set; }
 
-		[DataMember(Name="loanType", EmitDefaultValue=false)]
+		[DataMember(Name="loanType")]
 		public string LoanType { get; set; }
 
-		[DataMember(Name="lockCompletePlumbingIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="lockCompletePlumbingIndicator")]
 		public bool? LockCompletePlumbingIndicator { get; set; }
 
-		[DataMember(Name="medicalExpenses", EmitDefaultValue=false)]
-		public double? MedicalExpenses { get; set; }
+		[DataMember(Name="medicalExpenses")]
+		public decimal? MedicalExpenses { get; set; }
 
-		[DataMember(Name="moderateIncomeLimit", EmitDefaultValue=false)]
-		public double? ModerateIncomeLimit { get; set; }
+		[DataMember(Name="moderateIncomeLimit")]
+		public decimal? ModerateIncomeLimit { get; set; }
 
-		[DataMember(Name="monthlyRepaymentIncome", EmitDefaultValue=false)]
-		public double? MonthlyRepaymentIncome { get; set; }
+		[DataMember(Name="monthlyRepaymentIncome")]
+		public decimal? MonthlyRepaymentIncome { get; set; }
 
-		[DataMember(Name="numberofDependents", EmitDefaultValue=false)]
+		[DataMember(Name="numberofDependents")]
 		public int? NumberofDependents { get; set; }
 
-		[DataMember(Name="numberofPeopleInHousehold", EmitDefaultValue=false)]
+		[DataMember(Name="numberofPeopleInHousehold")]
 		public int? NumberofPeopleInHousehold { get; set; }
 
-		[DataMember(Name="obligationMatchesCommitmentLenderRequestIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="obligationMatchesCommitmentLenderRequestIndicator")]
 		public bool? ObligationMatchesCommitmentLenderRequestIndicator { get; set; }
 
-		[DataMember(Name="officialWhoConfirmedGlsUpdated", EmitDefaultValue=false)]
+		[DataMember(Name="officialWhoConfirmedGlsUpdated")]
 		public string OfficialWhoConfirmedGlsUpdated { get; set; }
 
-		[DataMember(Name="otherIncome", EmitDefaultValue=false)]
-		public double? OtherIncome { get; set; }
+		[DataMember(Name="otherIncome")]
+		public decimal? OtherIncome { get; set; }
 
-		[DataMember(Name="otherStableDependableMonthlyIncome", EmitDefaultValue=false)]
-		public double? OtherStableDependableMonthlyIncome { get; set; }
+		[DataMember(Name="otherStableDependableMonthlyIncome")]
+		public decimal? OtherStableDependableMonthlyIncome { get; set; }
 
-		[DataMember(Name="overcrowdedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="overcrowdedIndicator")]
 		public bool? OvercrowdedIndicator { get; set; }
 
-		[DataMember(Name="percentofLoanGuaranteed", EmitDefaultValue=false)]
-		public double? PercentofLoanGuaranteed { get; set; }
+		[DataMember(Name="percentofLoanGuaranteed")]
+		public decimal? PercentofLoanGuaranteed { get; set; }
 
-		[DataMember(Name="periodOperatingLineCreditYearsType", EmitDefaultValue=false)]
+		[DataMember(Name="periodOperatingLineCreditYearsType")]
 		public string PeriodOperatingLineCreditYearsType { get; set; }
 
-		[DataMember(Name="physicallyDeterioratedIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="physicallyDeterioratedIndicator")]
 		public bool? PhysicallyDeterioratedIndicator { get; set; }
 
-		[DataMember(Name="preparedByName", EmitDefaultValue=false)]
+		[DataMember(Name="preparedByName")]
 		public string PreparedByName { get; set; }
 
-		[DataMember(Name="preparedByTitle", EmitDefaultValue=false)]
+		[DataMember(Name="preparedByTitle")]
 		public string PreparedByTitle { get; set; }
 
-		[DataMember(Name="presentLandloardAddress", EmitDefaultValue=false)]
+		[DataMember(Name="presentLandloardAddress")]
 		public string PresentLandloardAddress { get; set; }
 
-		[DataMember(Name="presentLandloardCity", EmitDefaultValue=false)]
+		[DataMember(Name="presentLandloardCity")]
 		public string PresentLandloardCity { get; set; }
 
-		[DataMember(Name="presentLandloardName", EmitDefaultValue=false)]
+		[DataMember(Name="presentLandloardName")]
 		public string PresentLandloardName { get; set; }
 
-		[DataMember(Name="presentLandloardPhone", EmitDefaultValue=false)]
+		[DataMember(Name="presentLandloardPhone")]
 		public string PresentLandloardPhone { get; set; }
 
-		[DataMember(Name="presentLandloardState", EmitDefaultValue=false)]
+		[DataMember(Name="presentLandloardState")]
 		public string PresentLandloardState { get; set; }
 
-		[DataMember(Name="presentLandloardZip", EmitDefaultValue=false)]
+		[DataMember(Name="presentLandloardZip")]
 		public string PresentLandloardZip { get; set; }
 
-		[DataMember(Name="previousLandloardAddress", EmitDefaultValue=false)]
+		[DataMember(Name="previousLandloardAddress")]
 		public string PreviousLandloardAddress { get; set; }
 
-		[DataMember(Name="previousLandloardCity", EmitDefaultValue=false)]
+		[DataMember(Name="previousLandloardCity")]
 		public string PreviousLandloardCity { get; set; }
 
-		[DataMember(Name="previousLandloardName", EmitDefaultValue=false)]
+		[DataMember(Name="previousLandloardName")]
 		public string PreviousLandloardName { get; set; }
 
-		[DataMember(Name="previousLandloardPhone", EmitDefaultValue=false)]
+		[DataMember(Name="previousLandloardPhone")]
 		public string PreviousLandloardPhone { get; set; }
 
-		[DataMember(Name="previousLandloardState", EmitDefaultValue=false)]
+		[DataMember(Name="previousLandloardState")]
 		public string PreviousLandloardState { get; set; }
 
-		[DataMember(Name="previousLandloardZip", EmitDefaultValue=false)]
+		[DataMember(Name="previousLandloardZip")]
 		public string PreviousLandloardZip { get; set; }
 
-		[DataMember(Name="purchaseOrRefinancedAmount", EmitDefaultValue=false)]
-		public double? PurchaseOrRefinancedAmount { get; set; }
+		[DataMember(Name="purchaseOrRefinancedAmount")]
+		public decimal? PurchaseOrRefinancedAmount { get; set; }
 
-		[DataMember(Name="purchaseOrRefinanceDescription", EmitDefaultValue=false)]
+		[DataMember(Name="purchaseOrRefinanceDescription")]
 		public string PurchaseOrRefinanceDescription { get; set; }
 
-		[DataMember(Name="rdsfhRefinancedLoanIndicatorType", EmitDefaultValue=false)]
+		[DataMember(Name="rdsfhRefinancedLoanIndicatorType")]
 		public string RdsfhRefinancedLoanIndicatorType { get; set; }
 
-		[DataMember(Name="refinanceLoanIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="refinanceLoanIndicator")]
 		public bool? RefinanceLoanIndicator { get; set; }
 
-		[DataMember(Name="refinanceType", EmitDefaultValue=false)]
+		[DataMember(Name="refinanceType")]
 		public string RefinanceType { get; set; }
 
-		[DataMember(Name="repairOtherAmount", EmitDefaultValue=false)]
-		public double? RepairOtherAmount { get; set; }
+		[DataMember(Name="repairOtherAmount")]
+		public decimal? RepairOtherAmount { get; set; }
 
-		[DataMember(Name="repairOtherDescription", EmitDefaultValue=false)]
+		[DataMember(Name="repairOtherDescription")]
 		public string RepairOtherDescription { get; set; }
 
-		[DataMember(Name="reservationAmountRequested", EmitDefaultValue=false)]
-		public double? ReservationAmountRequested { get; set; }
+		[DataMember(Name="reservationAmountRequested")]
+		public decimal? ReservationAmountRequested { get; set; }
 
-		[DataMember(Name="reserved", EmitDefaultValue=false)]
+		[DataMember(Name="reserved")]
 		public string Reserved { get; set; }
 
-		[DataMember(Name="servicingOfficeName", EmitDefaultValue=false)]
+		[DataMember(Name="servicingOfficeName")]
 		public string ServicingOfficeName { get; set; }
 
-		[DataMember(Name="sfhglpIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="sfhglpIndicator")]
 		public bool? SfhglpIndicator { get; set; }
 
-		[DataMember(Name="sourceOfFundsType", EmitDefaultValue=false)]
+		[DataMember(Name="sourceOfFundsType")]
 		public string SourceOfFundsType { get; set; }
 
-		[DataMember(Name="stableDependableMonthlyIncome", EmitDefaultValue=false)]
-		public double? StableDependableMonthlyIncome { get; set; }
+		[DataMember(Name="stableDependableMonthlyIncome")]
+		public decimal? StableDependableMonthlyIncome { get; set; }
 
-		[DataMember(Name="stableOtherIncomeDesc", EmitDefaultValue=false)]
+		[DataMember(Name="stableOtherIncomeDesc")]
 		public string StableOtherIncomeDesc { get; set; }
 
-		[DataMember(Name="submittingLenderAddress", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderAddress")]
 		public string SubmittingLenderAddress { get; set; }
 
-		[DataMember(Name="submittingLenderCity", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderCity")]
 		public string SubmittingLenderCity { get; set; }
 
-		[DataMember(Name="submittingLenderContactFax", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderContactFax")]
 		public string SubmittingLenderContactFax { get; set; }
 
-		[DataMember(Name="submittingLenderContactName", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderContactName")]
 		public string SubmittingLenderContactName { get; set; }
 
-		[DataMember(Name="submittingLenderContactPhone", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderContactPhone")]
 		public string SubmittingLenderContactPhone { get; set; }
 
-		[DataMember(Name="submittingLenderName", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderName")]
 		public string SubmittingLenderName { get; set; }
 
-		[DataMember(Name="submittingLenderState", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderState")]
 		public string SubmittingLenderState { get; set; }
 
-		[DataMember(Name="submittingLenderTaxId", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderTaxId")]
 		public string SubmittingLenderTaxId { get; set; }
 
-		[DataMember(Name="submittingLenderZip", EmitDefaultValue=false)]
+		[DataMember(Name="submittingLenderZip")]
 		public string SubmittingLenderZip { get; set; }
 
-		[DataMember(Name="termOfBuydown", EmitDefaultValue=false)]
+		[DataMember(Name="termOfBuydown")]
 		public int? TermOfBuydown { get; set; }
 
-		[DataMember(Name="thirdPartyOriginator", EmitDefaultValue=false)]
+		[DataMember(Name="thirdPartyOriginator")]
 		public string ThirdPartyOriginator { get; set; }
 
-		[DataMember(Name="title", EmitDefaultValue=false)]
+		[DataMember(Name="title")]
 		public string Title { get; set; }
 
-		[DataMember(Name="totalBorrowerStableBaseIncome", EmitDefaultValue=false)]
-		public double? TotalBorrowerStableBaseIncome { get; set; }
+		[DataMember(Name="totalBorrowerStableBaseIncome")]
+		public decimal? TotalBorrowerStableBaseIncome { get; set; }
 
-		[DataMember(Name="totalBorrowerStableOtherIncome", EmitDefaultValue=false)]
-		public double? TotalBorrowerStableOtherIncome { get; set; }
+		[DataMember(Name="totalBorrowerStableOtherIncome")]
+		public decimal? TotalBorrowerStableOtherIncome { get; set; }
 
-		[DataMember(Name="totalHouseholdDeduction", EmitDefaultValue=false)]
-		public double? TotalHouseholdDeduction { get; set; }
+		[DataMember(Name="totalHouseholdDeduction")]
+		public decimal? TotalHouseholdDeduction { get; set; }
 
-		[DataMember(Name="totalRequestAmount", EmitDefaultValue=false)]
-		public double? TotalRequestAmount { get; set; }
+		[DataMember(Name="totalRequestAmount")]
+		public decimal? TotalRequestAmount { get; set; }
 
-		[DataMember(Name="tpoTaxId", EmitDefaultValue=false)]
+		[DataMember(Name="tpoTaxId")]
 		public string TpoTaxId { get; set; }
 
-		[DataMember(Name="underwritingDecisionBy", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingDecisionBy")]
 		public string UnderwritingDecisionBy { get; set; }
 
-		[DataMember(Name="underwritingDecisionDate", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingDecisionDate")]
 		public DateTime? UnderwritingDecisionDate { get; set; }
 
-		[DataMember(Name="underwritingDecisionType", EmitDefaultValue=false)]
+		[DataMember(Name="underwritingDecisionType")]
 		public string UnderwritingDecisionType { get; set; }
 
-		[DataMember(Name="usdaHouseholdIncomes", EmitDefaultValue=false)]
+		[DataMember(Name="usdaHouseholdIncomes")]
 		public List<LoanContractUsdaUsdaHouseholdIncomes> UsdaHouseholdIncomes { get; set; }
 
-		[DataMember(Name="verificationCode", EmitDefaultValue=false)]
+		[DataMember(Name="verificationCode")]
 		public string VerificationCode { get; set; }
 
 	}

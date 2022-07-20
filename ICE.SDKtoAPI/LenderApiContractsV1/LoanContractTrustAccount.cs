@@ -7,19 +7,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractTrustAccount
 	{
-		[DataMember(Name="balance", EmitDefaultValue=false)]
-		public double? Balance { get; set; }
+		[DataMember(Name="balance")]
+		public decimal? Balance { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="total1", EmitDefaultValue=false)]
-		public double? Total1 { get; set; }
+		[DataMember(Name="total1")]
+		public decimal? Total1 { get; set; }
 
-		[DataMember(Name="total2", EmitDefaultValue=false)]
-		public double? Total2 { get; set; }
+		[DataMember(Name="total2")]
+		public decimal? Total2 { get; set; }
 
-		[DataMember(Name="trustAccountItems", EmitDefaultValue=false)]
+		[DataMember(Name="trustAccountItems")]
 		public List<LoanContractTrustAccountTrustAccountItems> TrustAccountItems { get; set; }
 
 	}

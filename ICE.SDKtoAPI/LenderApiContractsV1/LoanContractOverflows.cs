@@ -5,25 +5,25 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractOverflows
 	{
-		[DataMember(Name="coordinateBottom", EmitDefaultValue=false)]
+		[DataMember(Name="coordinateBottom")]
 		public string CoordinateBottom { get; set; }
 
-		[DataMember(Name="coordinateLeft", EmitDefaultValue=false)]
+		[DataMember(Name="coordinateLeft")]
 		public string CoordinateLeft { get; set; }
 
-		[DataMember(Name="coordinateRight", EmitDefaultValue=false)]
+		[DataMember(Name="coordinateRight")]
 		public string CoordinateRight { get; set; }
 
-		[DataMember(Name="coordinateTop", EmitDefaultValue=false)]
+		[DataMember(Name="coordinateTop")]
 		public string CoordinateTop { get; set; }
 
-		[DataMember(Name="originalText", EmitDefaultValue=false)]
+		[DataMember(Name="originalText")]
 		public string OriginalText { get; set; }
 
-		[DataMember(Name="pageNumber", EmitDefaultValue=false)]
+		[DataMember(Name="pageNumber")]
 		public int? PageNumber { get; set; }
 
-		[DataMember(Name="templateFieldName", EmitDefaultValue=false)]
+		[DataMember(Name="templateFieldName")]
 		public string TemplateFieldName { get; set; }
 
 	}

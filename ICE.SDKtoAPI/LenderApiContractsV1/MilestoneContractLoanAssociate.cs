@@ -5,34 +5,34 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class MilestoneContractLoanAssociate
 	{
-		[DataMember(Name="cellPhone", EmitDefaultValue=false)]
+		[DataMember(Name="cellPhone")]
 		public string CellPhone { get; set; }
 
-		[DataMember(Name="email", EmitDefaultValue=false)]
+		[DataMember(Name="email")]
 		public string Email { get; set; }
 
-		[DataMember(Name="fax", EmitDefaultValue=false)]
+		[DataMember(Name="fax")]
 		public string Fax { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="loanAssociateType", EmitDefaultValue=false)]
+		[DataMember(Name="loanAssociateType")]
 		public string LoanAssociateType { get; set; }
 
-		[DataMember(Name="name", EmitDefaultValue=false)]
+		[DataMember(Name="name")]
 		public string Name { get; set; }
 
-		[DataMember(Name="phone", EmitDefaultValue=false)]
+		[DataMember(Name="phone")]
 		public string Phone { get; set; }
 
-		[DataMember(Name="roleId", EmitDefaultValue=false)]
+		[DataMember(Name="roleId")]
 		public string RoleId { get; set; }
 
-		[DataMember(Name="roleName", EmitDefaultValue=false)]
+		[DataMember(Name="roleName")]
 		public string RoleName { get; set; }
 
-		[DataMember(Name="writeAccess", EmitDefaultValue=false)]
+		[DataMember(Name="writeAccess")]
 		public bool? WriteAccess { get; set; }
 
 	}

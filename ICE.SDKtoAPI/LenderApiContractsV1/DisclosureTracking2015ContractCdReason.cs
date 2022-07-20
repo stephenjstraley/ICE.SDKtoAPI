@@ -6,40 +6,40 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class DisclosureTracking2015ContractCdReason
 	{
-		[DataMember(Name="is24HourAdvancePreview", EmitDefaultValue=false)]
+		[DataMember(Name="is24HourAdvancePreview")]
 		public bool? Is24HourAdvancePreview { get; set; }
 
-		[DataMember(Name="isChangedCircumstanceEligibility", EmitDefaultValue=false)]
+		[DataMember(Name="isChangedCircumstanceEligibility")]
 		public bool? IsChangedCircumstanceEligibility { get; set; }
 
-		[DataMember(Name="isChangeInAPR", EmitDefaultValue=false)]
+		[DataMember(Name="isChangeInAPR")]
 		public bool? IsChangeInAPR { get; set; }
 
-		[DataMember(Name="isChangeInLoanProduct", EmitDefaultValue=false)]
+		[DataMember(Name="isChangeInLoanProduct")]
 		public bool? IsChangeInLoanProduct { get; set; }
 
-		[DataMember(Name="isChangeInSettlementCharges", EmitDefaultValue=false)]
+		[DataMember(Name="isChangeInSettlementCharges")]
 		public bool? IsChangeInSettlementCharges { get; set; }
 
-		[DataMember(Name="isClericalErrorCorrection", EmitDefaultValue=false)]
+		[DataMember(Name="isClericalErrorCorrection")]
 		public bool? IsClericalErrorCorrection { get; set; }
 
-		[DataMember(Name="isInterestRateDependentCharges", EmitDefaultValue=false)]
+		[DataMember(Name="isInterestRateDependentCharges")]
 		public bool? IsInterestRateDependentCharges { get; set; }
 
-		[DataMember(Name="isOther", EmitDefaultValue=false)]
+		[DataMember(Name="isOther")]
 		public bool? IsOther { get; set; }
 
-		[DataMember(Name="isPrepaymentPenaltyAdded", EmitDefaultValue=false)]
+		[DataMember(Name="isPrepaymentPenaltyAdded")]
 		public bool? IsPrepaymentPenaltyAdded { get; set; }
 
-		[DataMember(Name="isRevisionsRequestedByConsumer", EmitDefaultValue=false)]
+		[DataMember(Name="isRevisionsRequestedByConsumer")]
 		public bool? IsRevisionsRequestedByConsumer { get; set; }
 
-		[DataMember(Name="isToleranceCure", EmitDefaultValue=false)]
+		[DataMember(Name="isToleranceCure")]
 		public bool? IsToleranceCure { get; set; }
 
-		[DataMember(Name="otherDescription", EmitDefaultValue=false)]
+		[DataMember(Name="otherDescription")]
 		public string OtherDescription { get; set; }
 
 	}

@@ -6,121 +6,121 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class ApplicationContractResidences
 	{
-		[DataMember(Name="accountName", EmitDefaultValue=false)]
+		[DataMember(Name="accountName")]
 		public string AccountName { get; set; }
 
-		[DataMember(Name="addressCity", EmitDefaultValue=false)]
+		[DataMember(Name="addressCity")]
 		public string AddressCity { get; set; }
 
-		[DataMember(Name= "addressPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name= "addressPostalCode")]
 		public string AddressPostalCode { get; set; }
 
-		[DataMember(Name="addressState", EmitDefaultValue=false)]
+		[DataMember(Name="addressState")]
 		public string AddressState { get; set; }
 
-		[DataMember(Name="addressStreetLine1", EmitDefaultValue=false)]
+		[DataMember(Name="addressStreetLine1")]
 		public string AddressStreetLine1 { get; set; }
 
-		[DataMember(Name="altId", EmitDefaultValue=false)]
+		[DataMember(Name="altId")]
 		public string AltId { get; set; }
 
-		[DataMember(Name="applicantType", EmitDefaultValue=false)]
+		[DataMember(Name="applicantType")]
 		public string ApplicantType { get; set; }
 
-		[DataMember(Name="contact", EmitDefaultValue=false)]
+		[DataMember(Name="contact")]
 		public ApplicationContractContact Contact { get; set; }
 
-		[DataMember(Name="county", EmitDefaultValue=false)]
+		[DataMember(Name="county")]
 		public string County { get; set; }
 
-		[DataMember(Name="durationTermMonths", EmitDefaultValue=false)]
+		[DataMember(Name="durationTermMonths")]
 		public int? DurationTermMonths { get; set; }
 
-		[DataMember(Name="durationTermYears", EmitDefaultValue=false)]
+		[DataMember(Name="durationTermYears")]
 		public int? DurationTermYears { get; set; }
 
-		[DataMember(Name="entityDeleted", EmitDefaultValue=false)]
+		[DataMember(Name="entityDeleted")]
 		public bool? EntityDeleted { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="landlordAttention", EmitDefaultValue=false)]
+		[DataMember(Name="landlordAttention")]
 		public string LandlordAttention { get; set; }
 
-		[DataMember(Name="landlordCity", EmitDefaultValue=false)]
+		[DataMember(Name="landlordCity")]
 		public string LandlordCity { get; set; }
 
-		[DataMember(Name="landlordComments", EmitDefaultValue=false)]
+		[DataMember(Name="landlordComments")]
 		public string LandlordComments { get; set; }
 
-		[DataMember(Name="landlordEmail", EmitDefaultValue=false)]
+		[DataMember(Name="landlordEmail")]
 		public string LandlordEmail { get; set; }
 
-		[DataMember(Name="landlordFax", EmitDefaultValue=false)]
+		[DataMember(Name="landlordFax")]
 		public string LandlordFax { get; set; }
 
-		[DataMember(Name="landlordName", EmitDefaultValue=false)]
+		[DataMember(Name="landlordName")]
 		public string LandlordName { get; set; }
 
-		[DataMember(Name="landlordPhone", EmitDefaultValue=false)]
+		[DataMember(Name="landlordPhone")]
 		public string LandlordPhone { get; set; }
 
-		[DataMember(Name="landlordPostalCode", EmitDefaultValue=false)]
+		[DataMember(Name="landlordPostalCode")]
 		public string LandlordPostalCode { get; set; }
 
-		[DataMember(Name="landlordState", EmitDefaultValue=false)]
+		[DataMember(Name="landlordState")]
 		public string LandlordState { get; set; }
 
-		[DataMember(Name="landlordStreet", EmitDefaultValue=false)]
+		[DataMember(Name="landlordStreet")]
 		public string LandlordStreet { get; set; }
 
-		[DataMember(Name="mailingAddressIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="mailingAddressIndicator")]
 		public bool? MailingAddressIndicator { get; set; }
 
-		[DataMember(Name="noLinkToDocTrackIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="noLinkToDocTrackIndicator")]
 		public bool? NoLinkToDocTrackIndicator { get; set; }
 
-		[DataMember(Name="printAttachmentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="printAttachmentIndicator")]
 		public bool? PrintAttachmentIndicator { get; set; }
 
-		[DataMember(Name="printUserNameIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="printUserNameIndicator")]
 		public bool? PrintUserNameIndicator { get; set; }
 
-		[DataMember(Name="rent", EmitDefaultValue=false)]
+		[DataMember(Name="rent")]
 		public int? Rent { get; set; }
 
-		[DataMember(Name="requestDate", EmitDefaultValue=false)]
+		[DataMember(Name="requestDate")]
 		public DateTime? RequestDate { get; set; }
 
-		[DataMember(Name="residencyBasisType", EmitDefaultValue=false)]
+		[DataMember(Name="residencyBasisType")]
 		public string ResidencyBasisType { get; set; }
 
-		[DataMember(Name="residencyType", EmitDefaultValue=false)]
+		[DataMember(Name="residencyType")]
 		public string ResidencyType { get; set; }
 
-		[DataMember(Name="title", EmitDefaultValue=false)]
+		[DataMember(Name="title")]
 		public string Title { get; set; }
 
-		[DataMember(Name="titleFax", EmitDefaultValue=false)]
+		[DataMember(Name="titleFax")]
 		public string TitleFax { get; set; }
 
-		[DataMember(Name="titlePhone", EmitDefaultValue=false)]
+		[DataMember(Name="titlePhone")]
 		public string TitlePhone { get; set; }
 
-		[DataMember(Name = "addressUnitDesignatorType", EmitDefaultValue = false)]
+		[DataMember(Name = "addressUnitDesignatorType")]
 		public string AddressUnitDesignatorType { get; set; }
 
-		[DataMember(Name = "uRLA2020StreetAddress", EmitDefaultValue = false)]
+		[DataMember(Name = "uRLA2020StreetAddress")]
 		public string URLA2020StreetAddress { get; set; }
 
-		[DataMember(Name = "addressUnitIdentifier", EmitDefaultValue = false)]
+		[DataMember(Name = "addressUnitIdentifier")]
 		public string AddressUnitIdentifier { get; set; }
 
-		[DataMember(Name = "countryCode", EmitDefaultValue = false)]
+		[DataMember(Name = "countryCode")]
 		public string CountryCode { get; set; }
 
-		[DataMember(Name = "country", EmitDefaultValue = false)]
+		[DataMember(Name = "country")]
 		public string Country { get; set; }
 
 	}

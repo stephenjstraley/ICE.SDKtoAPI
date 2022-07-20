@@ -5,34 +5,34 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractLogRecordCommentList
 	{
-		[DataMember(Name="addedBy", EmitDefaultValue=false)]
+		[DataMember(Name="addedBy")]
 		public string AddedBy { get; set; }
 
-		[DataMember(Name="addedByName", EmitDefaultValue=false)]
+		[DataMember(Name="addedByName")]
 		public string AddedByName { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="date", EmitDefaultValue=false)]
+		[DataMember(Name="date")]
 		public DateTime? Date { get; set; }
 
-		[DataMember(Name="forRoleId", EmitDefaultValue=false)]
+		[DataMember(Name="forRoleId")]
 		public int? ForRoleId { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isInternal", EmitDefaultValue=false)]
+		[DataMember(Name="isInternal")]
 		public bool? IsInternal { get; set; }
 
-		[DataMember(Name="reviewedBy", EmitDefaultValue=false)]
+		[DataMember(Name="reviewedBy")]
 		public string ReviewedBy { get; set; }
 
-		[DataMember(Name="reviewedDate", EmitDefaultValue=false)]
+		[DataMember(Name="reviewedDate")]
 		public DateTime? ReviewedDate { get; set; }
 
 	}

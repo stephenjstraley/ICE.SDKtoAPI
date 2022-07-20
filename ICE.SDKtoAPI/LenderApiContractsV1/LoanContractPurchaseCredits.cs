@@ -7,16 +7,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractPurchaseCredits
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
-		public double? Amount { get; set; }
+		[DataMember(Name="amount")]
+		public decimal? Amount { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="purchaseCreditType", EmitDefaultValue=false)]
+		[DataMember(Name="purchaseCreditType")]
 		public string PurchaseCreditType { get; set; }
 
-		[DataMember(Name = "purchaseCreditSource", EmitDefaultValue = false)]
+		[DataMember(Name = "purchaseCreditSource")]
 		public string PurchaseCreditSource { get; set; }
 	}
 }

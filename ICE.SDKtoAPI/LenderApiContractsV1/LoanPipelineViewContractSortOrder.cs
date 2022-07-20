@@ -8,10 +8,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class LoanPipelineViewContractSortOrder
     {
-        [DataMember(Name = "canonicalName", EmitDefaultValue = false)]
+        [DataMember(Name = "canonicalName")]
         public string CanonicalName { get; set; }
 
-        [DataMember(Name = "order", EmitDefaultValue = false)]
+        [DataMember(Name = "order")]
         public object Order { get; set; }
     }
 }

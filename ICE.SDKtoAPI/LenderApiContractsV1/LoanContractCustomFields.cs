@@ -5,19 +5,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractCustomFields
 	{
-		[DataMember(Name="dateValue", EmitDefaultValue=false)]
+		[DataMember(Name="dateValue")]
 		public DateTime? DateValue { get; set; }
 
-		[DataMember(Name="fieldName", EmitDefaultValue=false)]
+		[DataMember(Name="fieldName")]
 		public string FieldName { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="numericValue", EmitDefaultValue=false)]
-		public double? NumericValue { get; set; }
+		[DataMember(Name="numericValue")]
+		public decimal? NumericValue { get; set; }
 
-		[DataMember(Name="stringValue", EmitDefaultValue=false)]
+		[DataMember(Name="stringValue")]
 		public string StringValue { get; set; }
 
 	}

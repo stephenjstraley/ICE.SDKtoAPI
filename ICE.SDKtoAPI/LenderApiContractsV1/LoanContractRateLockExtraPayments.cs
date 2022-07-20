@@ -5,19 +5,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractRateLockExtraPayments
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
-		public double? Amount { get; set; }
+		[DataMember(Name="amount")]
+		public decimal? Amount { get; set; }
 
-		[DataMember(Name="date", EmitDefaultValue=false)]
+		[DataMember(Name="date")]
 		public DateTime? Date { get; set; }
 
-		[DataMember(Name="extraPaymentIndex", EmitDefaultValue=false)]
+		[DataMember(Name="extraPaymentIndex")]
 		public int? ExtraPaymentIndex { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="lineNumber", EmitDefaultValue=false)]
+		[DataMember(Name="lineNumber")]
 		public int? LineNumber { get; set; }
 
 	}

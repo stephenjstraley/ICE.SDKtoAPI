@@ -5,16 +5,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractClosingDocumentAdditionalStateDisclosures
 	{
-		[DataMember(Name="disclosureName", EmitDefaultValue=false)]
+		[DataMember(Name="disclosureName")]
 		public string DisclosureName { get; set; }
 
-		[DataMember(Name="disclosureValue", EmitDefaultValue=false)]
+		[DataMember(Name="disclosureValue")]
 		public string DisclosureValue { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="stateCode", EmitDefaultValue=false)]
+		[DataMember(Name="stateCode")]
 		public string StateCode { get; set; }
 
 	}

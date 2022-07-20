@@ -8,16 +8,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
     [DataContract]
     public class LoanPipelineViewContract
     {
-        [DataMember(Name = "fields", EmitDefaultValue = false)]
+        [DataMember(Name = "fields")]
         public List<string> Fields { get; set; }
 
-        [DataMember(Name = "filter", EmitDefaultValue = false)]
+        [DataMember(Name = "filter")]
         public LoanPipelineFilterContract Filter { get; set; }
 
-        [DataMember(Name = "loanGuids", EmitDefaultValue = false)]
+        [DataMember(Name = "loanGuids")]
         public List<string> LoanGuids { get; set; }
 
-        [DataMember(Name = "sortOrder", EmitDefaultValue = false)]
+        [DataMember(Name = "sortOrder")]
         public List<LoanPipelineViewContractSortOrder> SortOrder { get; set; }
     }
 }

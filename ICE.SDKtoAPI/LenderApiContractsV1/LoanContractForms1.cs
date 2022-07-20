@@ -5,16 +5,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractForms1
 	{
-		[DataMember(Name="formId", EmitDefaultValue=false)]
+		[DataMember(Name="formId")]
 		public int? FormId { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="name", EmitDefaultValue=false)]
+		[DataMember(Name="name")]
 		public string Name { get; set; }
 
-		[DataMember(Name="systemId", EmitDefaultValue=false)]
+		[DataMember(Name="systemId")]
 		public string SystemId { get; set; }
 
 	}

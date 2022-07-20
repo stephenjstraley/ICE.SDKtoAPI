@@ -5,29 +5,29 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractSelfEmployedIncomes
 	{
-		[DataMember(Name="boolFieldValue", EmitDefaultValue=false)]
+		[DataMember(Name="boolFieldValue")]
 		public bool? BoolFieldValue { get; set; }
 
-		[DataMember(Name="businessName", EmitDefaultValue=false)]
+		[DataMember(Name="businessName")]
 		public string BusinessName { get; set; }
 
-		[DataMember(Name="fieldName", EmitDefaultValue=false)]
+		[DataMember(Name="fieldName")]
 		public string FieldName { get; set; }
 
-		[DataMember(Name="fieldValue", EmitDefaultValue=false)]
+		[DataMember(Name="fieldValue")]
 		public string FieldValue { get; set; }
 
-		[DataMember(Name="firstYearAmount", EmitDefaultValue=false)]
-		public double? FirstYearAmount { get; set; }
+		[DataMember(Name="firstYearAmount")]
+		public decimal? FirstYearAmount { get; set; }
 
-		[DataMember(Name="formType", EmitDefaultValue=false)]
+		[DataMember(Name="formType")]
 		public string FormType { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="secondYearAmount", EmitDefaultValue=false)]
-		public double? SecondYearAmount { get; set; }
+		[DataMember(Name="secondYearAmount")]
+		public decimal? SecondYearAmount { get; set; }
 
 	}
 }

@@ -16,7 +16,7 @@ namespace ICE.SDKtoAPI.Contracts
         string _resourceLockApiPath = "/resourceLocks";
         string _loanPipeline = "/loanPipeline";
         string _customFieldsPath = "/settings/loan/customFields";
-        string _folderPath = "/loanfolders";
+        string _folderPath = "/loanFolders";
         string _userPath = "/company/users";
         string _pipelineFieldDef = "/loanPipeline/fieldDefinitions";
         string _batch = "/loanBatch/updateRequest";
@@ -43,7 +43,7 @@ namespace ICE.SDKtoAPI.Contracts
         public string LoanPath { get => _loanApiPath;  }
         public string LoanPathFull { get => EncompassPathFull + LoanPath; }
         public string FolderPath { get => _folderPath;  }
-        public string FolderPathFull { get => EncompassPath + FolderPath; }
+        public string FolderPathFull { get => EncompassPathFull + FolderPath; }
         public string FolderPathFullWithName(string name) => FolderPathFull + $"{name}";
         public string ResourceLocksFull { get => EncompassPathFull + _resourceLockApiPath; }
         public string UserPath { get => _userPath; }

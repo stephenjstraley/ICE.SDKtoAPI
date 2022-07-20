@@ -7,16 +7,16 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanBatchUpdateRequestContract
 	{
-		[DataMember(Name="filter", EmitDefaultValue=false)]
+		[DataMember(Name="filter")]
 		public LoanBatchUpdateRequestContractFilter Filter { get; set; }
 
-		[DataMember(Name="loanData", EmitDefaultValue=false)]
+		[DataMember(Name="loanData")]
 		public LoanContract LoanData { get; set; }
 
-		[DataMember(Name="loanFields", EmitDefaultValue=false)]
+		[DataMember(Name="loanFields")]
 		public List<LoanBatchUpdateRequestContractLoanFields> LoanFields { get; set; }
 
-		[DataMember(Name="loanGuids", EmitDefaultValue=false)]
+		[DataMember(Name="loanGuids")]
 		public List<string> LoanGuids { get; set; }
 
 	}

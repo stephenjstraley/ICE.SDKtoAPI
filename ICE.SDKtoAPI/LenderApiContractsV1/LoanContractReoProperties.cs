@@ -5,97 +5,97 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractReoProperties
 	{
-		[DataMember(Name="acquiredDate", EmitDefaultValue=false)]
+		[DataMember(Name="acquiredDate")]
 		public DateTime? AcquiredDate { get; set; }
 
-		[DataMember(Name="city", EmitDefaultValue=false)]
+		[DataMember(Name="city")]
 		public string City { get; set; }
 
-		[DataMember(Name="dispositionStatusType", EmitDefaultValue=false)]
+		[DataMember(Name="dispositionStatusType")]
 		public string DispositionStatusType { get; set; }
 
-		[DataMember(Name="entityDeleted", EmitDefaultValue=false)]
+		[DataMember(Name="entityDeleted")]
 		public bool? EntityDeleted { get; set; }
 
-		[DataMember(Name="gsePropertyType", EmitDefaultValue=false)]
+		[DataMember(Name="gsePropertyType")]
 		public string GsePropertyType { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isEmpty", EmitDefaultValue=false)]
+		[DataMember(Name="isEmpty")]
 		public bool? IsEmpty { get; set; }
 
-		[DataMember(Name="lienInstallmentAmount", EmitDefaultValue=false)]
-		public double? LienInstallmentAmount { get; set; }
+		[DataMember(Name="lienInstallmentAmount")]
+		public decimal? LienInstallmentAmount { get; set; }
 
-		[DataMember(Name="lienUpbAmount", EmitDefaultValue=false)]
-		public double? LienUpbAmount { get; set; }
+		[DataMember(Name="lienUpbAmount")]
+		public decimal? LienUpbAmount { get; set; }
 
-		[DataMember(Name="maintenanceExpenseAmount", EmitDefaultValue=false)]
+		[DataMember(Name="maintenanceExpenseAmount")]
 		public string MaintenanceExpenseAmount { get; set; }
 
-		[DataMember(Name="marketValueAmount", EmitDefaultValue=false)]
-		public double? MarketValueAmount { get; set; }
+		[DataMember(Name="marketValueAmount")]
+		public decimal? MarketValueAmount { get; set; }
 
-		[DataMember(Name="noLinkToDocTrackIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="noLinkToDocTrackIndicator")]
 		public bool? NoLinkToDocTrackIndicator { get; set; }
 
-		[DataMember(Name="participationPercentage", EmitDefaultValue=false)]
-		public double? ParticipationPercentage { get; set; }
+		[DataMember(Name="participationPercentage")]
+		public decimal? ParticipationPercentage { get; set; }
 
-		[DataMember(Name="percentageofRental", EmitDefaultValue=false)]
-		public double? PercentageofRental { get; set; }
+		[DataMember(Name="percentageofRental")]
+		public decimal? PercentageofRental { get; set; }
 
-		[DataMember(Name="postalCode", EmitDefaultValue=false)]
+		[DataMember(Name="postalCode")]
 		public string PostalCode { get; set; }
 
-		[DataMember(Name="printAttachIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="printAttachIndicator")]
 		public bool? PrintAttachIndicator { get; set; }
 
-		[DataMember(Name="printUserNameIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="printUserNameIndicator")]
 		public bool? PrintUserNameIndicator { get; set; }
 
-		[DataMember(Name="propertyUsageType", EmitDefaultValue=false)]
+		[DataMember(Name="propertyUsageType")]
 		public string PropertyUsageType { get; set; }
 
-		[DataMember(Name="purchasePrice", EmitDefaultValue=false)]
+		[DataMember(Name="purchasePrice")]
 		public int? PurchasePrice { get; set; }
 
-		[DataMember(Name="rentalIncomeGrossAmount", EmitDefaultValue=false)]
-		public double? RentalIncomeGrossAmount { get; set; }
+		[DataMember(Name="rentalIncomeGrossAmount")]
+		public decimal? RentalIncomeGrossAmount { get; set; }
 
-		[DataMember(Name="rentalIncomeNetAmount", EmitDefaultValue=false)]
-		public double? RentalIncomeNetAmount { get; set; }
+		[DataMember(Name="rentalIncomeNetAmount")]
+		public decimal? RentalIncomeNetAmount { get; set; }
 
-		[DataMember(Name="reoComments", EmitDefaultValue=false)]
+		[DataMember(Name="reoComments")]
 		public string ReoComments { get; set; }
 
-		[DataMember(Name="reoId", EmitDefaultValue=false)]
+		[DataMember(Name="reoId")]
 		public string ReoId { get; set; }
 
-		[DataMember(Name="reoPropertyIndex", EmitDefaultValue=false)]
+		[DataMember(Name="reoPropertyIndex")]
 		public int? ReoPropertyIndex { get; set; }
 
-		[DataMember(Name="requestDate", EmitDefaultValue=false)]
+		[DataMember(Name="requestDate")]
 		public DateTime? RequestDate { get; set; }
 
-		[DataMember(Name="state", EmitDefaultValue=false)]
+		[DataMember(Name="state")]
 		public string State { get; set; }
 
-		[DataMember(Name="streetAddress", EmitDefaultValue=false)]
+		[DataMember(Name="streetAddress")]
 		public string StreetAddress { get; set; }
 
-		[DataMember(Name="subjectIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="subjectIndicator")]
 		public bool? SubjectIndicator { get; set; }
 
-		[DataMember(Name="title", EmitDefaultValue=false)]
+		[DataMember(Name="title")]
 		public string Title { get; set; }
 
-		[DataMember(Name="titleFax", EmitDefaultValue=false)]
+		[DataMember(Name="titleFax")]
 		public string TitleFax { get; set; }
 
-		[DataMember(Name="titlePhone", EmitDefaultValue=false)]
+		[DataMember(Name="titlePhone")]
 		public string TitlePhone { get; set; }
 
 	}

@@ -413,11 +413,6 @@ namespace ICE.SDKtoAPI.SupportingClasses
         // The main starting point
         public T MainField<T>(string id)
         {
-            if (SetTraceOn)
-            {
-                var stopHere = true;
-            }
-
             _lastCallId = id;
             var tempId = id;
 
@@ -775,7 +770,8 @@ namespace ICE.SDKtoAPI.SupportingClasses
                             SetCustomFields(id, (bool)value);
                             break;
                         case "Double":
-                            SetCustomFields(id, (float)value);
+                        case "Decimal":
+                            SetCustomFields(id, (decimal)value);
                             break;
                         case "DateTime":
                             SetCustomFields(id, (DateTime)value);
@@ -2049,7 +2045,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     }
                     break;
 
-                case "LoanContractTax4506s":
+                case "LoanContractTax4506":
                     {
                         //LoanContractTax4506s
                         var item = _loanToUpdate.Applications.Where(t => t.Id == applicationId).FirstOrDefault(); // application instance
@@ -2057,12 +2053,12 @@ namespace ICE.SDKtoAPI.SupportingClasses
                         {
                             if (item.Tax4506s == null)
                             {
-                                item.Tax4506s = new List<LenderApiContractsV1.LoanContractTax4506s>();
+                                item.Tax4506s = new List<LenderApiContractsV1.LoanContractTax4506>();
                             }
                             var isThere = item.Tax4506s.Where(t => t.Id == instanceId.ToString()).FirstOrDefault();
                             if (isThere == null)
                             {
-                                var newInstance = new LenderApiContractsV1.LoanContractTax4506s()
+                                var newInstance = new LenderApiContractsV1.LoanContractTax4506()
                                 {
                                     Id = instanceId.ToString()
                                 };
@@ -2691,7 +2687,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
                 {
                     if (foundField.NumericValue != null)
                     {
-                        foundField.NumericValue = Convert.ToDouble(value);
+                        foundField.NumericValue = Convert.ToDecimal(value);
                     }
                     else
                     {
@@ -2833,7 +2829,7 @@ namespace ICE.SDKtoAPI.SupportingClasses
         {
             SetCustomFields(name, value ? "Y" : "N");
         }
-        public void SetCustomFields(string name, double value)
+        public void SetCustomFields(string name, decimal value)
         {
             PrepCustomFields();   // THIS IS FOR UPDATE
 
@@ -3411,6 +3407,15 @@ namespace ICE.SDKtoAPI.SupportingClasses
                     value = dValue;
                 }
             }
+            else if (propertyType == typeof(decimal) || propertyType == typeof(decimal?))
+            {
+                decimal dValue;
+                if (decimal.TryParse(value.ToString(), out dValue))
+                {
+                    value = dValue;
+                }
+            }
+
             else if (propertyType == typeof(bool) || propertyType == typeof(bool?))
             {
                 bool bValue;

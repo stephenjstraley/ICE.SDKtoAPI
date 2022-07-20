@@ -7,19 +7,19 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractExportLogs
 	{
-		[DataMember(Name="category", EmitDefaultValue=false)]
+		[DataMember(Name="category")]
 		public string Category { get; set; }
 
-		[DataMember(Name="exportedBy", EmitDefaultValue=false)]
+		[DataMember(Name="exportedBy")]
 		public string ExportedBy { get; set; }
 
-		[DataMember(Name="exportedByFullName", EmitDefaultValue=false)]
+		[DataMember(Name="exportedByFullName")]
 		public string ExportedByFullName { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="serviceTypes", EmitDefaultValue=false)]
+		[DataMember(Name="serviceTypes")]
 		public List<LoanContractServiceTypes> ServiceTypes { get; set; }
 
 	}

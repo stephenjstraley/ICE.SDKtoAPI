@@ -5,157 +5,157 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractInterimServicingPaymentTransactions
 	{
-		[DataMember(Name="accountHolder", EmitDefaultValue=false)]
+		[DataMember(Name="accountHolder")]
 		public string AccountHolder { get; set; }
 
-		[DataMember(Name="accountNumber", EmitDefaultValue=false)]
+		[DataMember(Name="accountNumber")]
 		public string AccountNumber { get; set; }
 
-		[DataMember(Name="additionalEscrow", EmitDefaultValue=false)]
-		public double? AdditionalEscrow { get; set; }
+		[DataMember(Name="additionalEscrow")]
+		public decimal? AdditionalEscrow { get; set; }
 
-		[DataMember(Name="additionalPrincipal", EmitDefaultValue=false)]
-		public double? AdditionalPrincipal { get; set; }
+		[DataMember(Name="additionalPrincipal")]
+		public decimal? AdditionalPrincipal { get; set; }
 
-		[DataMember(Name="buydownSubsidyAmount", EmitDefaultValue=false)]
-		public double? BuydownSubsidyAmount { get; set; }
+		[DataMember(Name="buydownSubsidyAmount")]
+		public decimal? BuydownSubsidyAmount { get; set; }
 
-		[DataMember(Name="checkNumber", EmitDefaultValue=false)]
+		[DataMember(Name="checkNumber")]
 		public string CheckNumber { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="commonAmount", EmitDefaultValue=false)]
-		public double? CommonAmount { get; set; }
+		[DataMember(Name="commonAmount")]
+		public decimal? CommonAmount { get; set; }
 
-		[DataMember(Name="commonDate", EmitDefaultValue=false)]
+		[DataMember(Name="commonDate")]
 		public DateTime? CommonDate { get; set; }
 
-		[DataMember(Name="createdById", EmitDefaultValue=false)]
+		[DataMember(Name="createdById")]
 		public string CreatedById { get; set; }
 
-		[DataMember(Name="createdByName", EmitDefaultValue=false)]
+		[DataMember(Name="createdByName")]
 		public string CreatedByName { get; set; }
 
-		[DataMember(Name="createdDateTimeUtc", EmitDefaultValue=false)]
+		[DataMember(Name="createdDateTimeUtc")]
 		public DateTime? CreatedDateTimeUtc { get; set; }
 
-		[DataMember(Name="escrow", EmitDefaultValue=false)]
-		public double? Escrow { get; set; }
+		[DataMember(Name="escrow")]
+		public decimal? Escrow { get; set; }
 
-		[DataMember(Name="escrowCityPropertyTax", EmitDefaultValue=false)]
-		public double? EscrowCityPropertyTax { get; set; }
+		[DataMember(Name="escrowCityPropertyTax")]
+		public decimal? EscrowCityPropertyTax { get; set; }
 
-		[DataMember(Name="escrowFloodInsurance", EmitDefaultValue=false)]
-		public double? EscrowFloodInsurance { get; set; }
+		[DataMember(Name="escrowFloodInsurance")]
+		public decimal? EscrowFloodInsurance { get; set; }
 
-		[DataMember(Name="escrowHazardInsurance", EmitDefaultValue=false)]
-		public double? EscrowHazardInsurance { get; set; }
+		[DataMember(Name="escrowHazardInsurance")]
+		public decimal? EscrowHazardInsurance { get; set; }
 
-		[DataMember(Name="escrowMortgageInsurance", EmitDefaultValue=false)]
-		public double? EscrowMortgageInsurance { get; set; }
+		[DataMember(Name="escrowMortgageInsurance")]
+		public decimal? EscrowMortgageInsurance { get; set; }
 
-		[DataMember(Name="escrowOther1", EmitDefaultValue=false)]
-		public double? EscrowOther1 { get; set; }
+		[DataMember(Name="escrowOther1")]
+		public decimal? EscrowOther1 { get; set; }
 
-		[DataMember(Name="escrowOther2", EmitDefaultValue=false)]
-		public double? EscrowOther2 { get; set; }
+		[DataMember(Name="escrowOther2")]
+		public decimal? EscrowOther2 { get; set; }
 
-		[DataMember(Name="escrowOther3", EmitDefaultValue=false)]
-		public double? EscrowOther3 { get; set; }
+		[DataMember(Name="escrowOther3")]
+		public decimal? EscrowOther3 { get; set; }
 
-		[DataMember(Name="escrowTax", EmitDefaultValue=false)]
-		public double? EscrowTax { get; set; }
+		[DataMember(Name="escrowTax")]
+		public decimal? EscrowTax { get; set; }
 
-		[DataMember(Name="escrowUSDAMonthlyPremium", EmitDefaultValue=false)]
-		public double? EscrowUSDAMonthlyPremium { get; set; }
+		[DataMember(Name="escrowUSDAMonthlyPremium")]
+		public decimal? EscrowUSDAMonthlyPremium { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="indexRate", EmitDefaultValue=false)]
-		public double? IndexRate { get; set; }
+		[DataMember(Name="indexRate")]
+		public decimal? IndexRate { get; set; }
 
-		[DataMember(Name="institutionName", EmitDefaultValue=false)]
+		[DataMember(Name="institutionName")]
 		public string InstitutionName { get; set; }
 
-		[DataMember(Name="institutionRouting", EmitDefaultValue=false)]
+		[DataMember(Name="institutionRouting")]
 		public string InstitutionRouting { get; set; }
 
-		[DataMember(Name="interest", EmitDefaultValue=false)]
-		public double? Interest { get; set; }
+		[DataMember(Name="interest")]
+		public decimal? Interest { get; set; }
 
-		[DataMember(Name="interestRate", EmitDefaultValue=false)]
-		public double? InterestRate { get; set; }
+		[DataMember(Name="interestRate")]
+		public decimal? InterestRate { get; set; }
 
-		[DataMember(Name="lateFee", EmitDefaultValue=false)]
-		public double? LateFee { get; set; }
+		[DataMember(Name="lateFee")]
+		public decimal? LateFee { get; set; }
 
-		[DataMember(Name="lateFeeIfLate", EmitDefaultValue=false)]
-		public double? LateFeeIfLate { get; set; }
+		[DataMember(Name="lateFeeIfLate")]
+		public decimal? LateFeeIfLate { get; set; }
 
-		[DataMember(Name="latePaymentDate", EmitDefaultValue=false)]
+		[DataMember(Name="latePaymentDate")]
 		public DateTime? LatePaymentDate { get; set; }
 
-		[DataMember(Name="miscFee", EmitDefaultValue=false)]
-		public double? MiscFee { get; set; }
+		[DataMember(Name="miscFee")]
+		public decimal? MiscFee { get; set; }
 
-		[DataMember(Name="modifiedById", EmitDefaultValue=false)]
+		[DataMember(Name="modifiedById")]
 		public string ModifiedById { get; set; }
 
-		[DataMember(Name="modifiedByName", EmitDefaultValue=false)]
+		[DataMember(Name="modifiedByName")]
 		public string ModifiedByName { get; set; }
 
-		[DataMember(Name="modifiedDateTimeUtc", EmitDefaultValue=false)]
+		[DataMember(Name="modifiedDateTimeUtc")]
 		public DateTime? ModifiedDateTimeUtc { get; set; }
 
-		[DataMember(Name="paymentDepositedDate", EmitDefaultValue=false)]
+		[DataMember(Name="paymentDepositedDate")]
 		public DateTime? PaymentDepositedDate { get; set; }
 
-		[DataMember(Name="paymentDueDate", EmitDefaultValue=false)]
+		[DataMember(Name="paymentDueDate")]
 		public DateTime? PaymentDueDate { get; set; }
 
-		[DataMember(Name="paymentIndexDate", EmitDefaultValue=false)]
+		[DataMember(Name="paymentIndexDate")]
 		public DateTime? PaymentIndexDate { get; set; }
 
-		[DataMember(Name="paymentNumber", EmitDefaultValue=false)]
+		[DataMember(Name="paymentNumber")]
 		public int? PaymentNumber { get; set; }
 
-		[DataMember(Name="paymentReceivedDate", EmitDefaultValue=false)]
+		[DataMember(Name="paymentReceivedDate")]
 		public DateTime? PaymentReceivedDate { get; set; }
 
-		[DataMember(Name="principal", EmitDefaultValue=false)]
-		public double? Principal { get; set; }
+		[DataMember(Name="principal")]
+		public decimal? Principal { get; set; }
 
-		[DataMember(Name="reference", EmitDefaultValue=false)]
+		[DataMember(Name="reference")]
 		public string Reference { get; set; }
 
-		[DataMember(Name="schedulePayLogMiscFee", EmitDefaultValue=false)]
-		public double? SchedulePayLogMiscFee { get; set; }
+		[DataMember(Name="schedulePayLogMiscFee")]
+		public decimal? SchedulePayLogMiscFee { get; set; }
 
-		[DataMember(Name="servicingPaymentMethod", EmitDefaultValue=false)]
+		[DataMember(Name="servicingPaymentMethod")]
 		public string ServicingPaymentMethod { get; set; }
 
-		[DataMember(Name="servicingTransactionType", EmitDefaultValue=false)]
+		[DataMember(Name="servicingTransactionType")]
 		public string ServicingTransactionType { get; set; }
 
-		[DataMember(Name="statementDate", EmitDefaultValue=false)]
+		[DataMember(Name="statementDate")]
 		public DateTime? StatementDate { get; set; }
 
-		[DataMember(Name="totalAmountDue", EmitDefaultValue=false)]
-		public double? TotalAmountDue { get; set; }
+		[DataMember(Name="totalAmountDue")]
+		public decimal? TotalAmountDue { get; set; }
 
-		[DataMember(Name="totalAmountReceived", EmitDefaultValue=false)]
-		public double? TotalAmountReceived { get; set; }
+		[DataMember(Name="totalAmountReceived")]
+		public decimal? TotalAmountReceived { get; set; }
 
-		[DataMember(Name="transactionAmount", EmitDefaultValue=false)]
-		public double? TransactionAmount { get; set; }
+		[DataMember(Name="transactionAmount")]
+		public decimal? TransactionAmount { get; set; }
 
-		[DataMember(Name="transactionDate", EmitDefaultValue=false)]
+		[DataMember(Name="transactionDate")]
 		public DateTime? TransactionDate { get; set; }
 
 	}

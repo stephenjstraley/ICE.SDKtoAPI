@@ -5,35 +5,35 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractLoanProductDataBuydowns
 	{
-		[DataMember(Name="buydownIndex", EmitDefaultValue=false)]
+		[DataMember(Name="buydownIndex")]
 		public int? BuydownIndex { get; set; }
 
-		[DataMember(Name="buydownRatePercent", EmitDefaultValue=false)]
-		public double? BuydownRatePercent { get; set; }
+		[DataMember(Name="buydownRatePercent")]
+		public decimal? BuydownRatePercent { get; set; }
 
-		[DataMember(Name="changeFrequencyMonthsCount", EmitDefaultValue=false)]
+		[DataMember(Name="changeFrequencyMonthsCount")]
 		public int? ChangeFrequencyMonthsCount { get; set; }
 
-		[DataMember(Name="durationMonthsCount", EmitDefaultValue=false)]
+		[DataMember(Name="durationMonthsCount")]
 		public int? DurationMonthsCount { get; set; }
 
-		[DataMember(Name="fundBalanceAmount", EmitDefaultValue=false)]
-		public double? FundBalanceAmount { get; set; }
+		[DataMember(Name="fundBalanceAmount")]
+		public decimal? FundBalanceAmount { get; set; }
 
-		[DataMember(Name="fundTotalAmount", EmitDefaultValue=false)]
-		public double? FundTotalAmount { get; set; }
+		[DataMember(Name="fundTotalAmount")]
+		public decimal? FundTotalAmount { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="increaseRatePercent", EmitDefaultValue=false)]
-		public double? IncreaseRatePercent { get; set; }
+		[DataMember(Name="increaseRatePercent")]
+		public decimal? IncreaseRatePercent { get; set; }
 
-		[DataMember(Name="remainingMonthsCount", EmitDefaultValue=false)]
+		[DataMember(Name="remainingMonthsCount")]
 		public int? RemainingMonthsCount { get; set; }
 
-		[DataMember(Name="subsidyAmount", EmitDefaultValue=false)]
-		public double? SubsidyAmount { get; set; }
+		[DataMember(Name="subsidyAmount")]
+		public decimal? SubsidyAmount { get; set; }
 
 	}
 }

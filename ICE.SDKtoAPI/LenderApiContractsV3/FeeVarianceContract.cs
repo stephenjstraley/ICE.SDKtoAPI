@@ -32,7 +32,7 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         [DataMember(Name = "line")]
         public string Line { get; set; }
 
-        [DataMember(Name = "initialLE", EmitDefaultValue = false)]
+        [DataMember(Name = "initialLE")]
         public decimal? InitialLE { get; set; } //= 0.00M;
 
     }

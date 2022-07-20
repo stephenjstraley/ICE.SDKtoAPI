@@ -7,103 +7,103 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractMilestoneTaskLogs
 	{
-		[DataMember(Name="addDate", EmitDefaultValue=false)]
+		[DataMember(Name="addDate")]
 		public DateTime? AddDate { get; set; }
 
-		[DataMember(Name="addedBy", EmitDefaultValue=false)]
+		[DataMember(Name="addedBy")]
 		public string AddedBy { get; set; }
 
-		[DataMember(Name="addedByUserId", EmitDefaultValue=false)]
+		[DataMember(Name="addedByUserId")]
 		public string AddedByUserId { get; set; }
 
-		[DataMember(Name="alerts", EmitDefaultValue=false)]
+		[DataMember(Name="alerts")]
 		public List<LoanContractAlerts> Alerts { get; set; }
 
-		[DataMember(Name="alertsXml", EmitDefaultValue=false)]
+		[DataMember(Name="alertsXml")]
 		public string AlertsXml { get; set; }
 
-		[DataMember(Name="commentList", EmitDefaultValue=false)]
+		[DataMember(Name="commentList")]
 		public List<LoanContractLogRecordCommentList> CommentList { get; set; }
 
-		[DataMember(Name="commentListXml", EmitDefaultValue=false)]
+		[DataMember(Name="commentListXml")]
 		public string CommentListXml { get; set; }
 
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="completed", EmitDefaultValue=false)]
+		[DataMember(Name="completed")]
 		public bool? Completed { get; set; }
 
-		[DataMember(Name="completedBy", EmitDefaultValue=false)]
+		[DataMember(Name="completedBy")]
 		public string CompletedBy { get; set; }
 
-		[DataMember(Name="completedByUserId", EmitDefaultValue=false)]
+		[DataMember(Name="completedByUserId")]
 		public string CompletedByUserId { get; set; }
 
-		[DataMember(Name="completedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="completedDateUtc")]
 		public DateTime? CompletedDateUtc { get; set; }
 
-		[DataMember(Name="contactCount", EmitDefaultValue=false)]
+		[DataMember(Name="contactCount")]
 		public int? ContactCount { get; set; }
 
-		[DataMember(Name="contacts", EmitDefaultValue=false)]
+		[DataMember(Name="contacts")]
 		public List<LoanContractContacts1> Contacts { get; set; }
 
-		[DataMember(Name="contactsXml", EmitDefaultValue=false)]
+		[DataMember(Name="contactsXml")]
 		public string ContactsXml { get; set; }
 
-		[DataMember(Name="dateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="dateUtc")]
 		public DateTime? DateUtc { get; set; }
 
-		[DataMember(Name="daysToComplete", EmitDefaultValue=false)]
+		[DataMember(Name="daysToComplete")]
 		public int? DaysToComplete { get; set; }
 
-		[DataMember(Name="daysToCompleteFromSetting", EmitDefaultValue=false)]
+		[DataMember(Name="daysToCompleteFromSetting")]
 		public int? DaysToCompleteFromSetting { get; set; }
 
-		[DataMember(Name="expectedDate", EmitDefaultValue=false)]
+		[DataMember(Name="expectedDate")]
 		public DateTime? ExpectedDate { get; set; }
 
-		[DataMember(Name="fileAttachmentsMigrated", EmitDefaultValue=false)]
+		[DataMember(Name="fileAttachmentsMigrated")]
 		public bool? FileAttachmentsMigrated { get; set; }
 
-		[DataMember(Name="guid", EmitDefaultValue=false)]
+		[DataMember(Name="guid")]
 		public string Guid { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="isRequiredIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="isRequiredIndicator")]
 		public bool? IsRequiredIndicator { get; set; }
 
-		[DataMember(Name="isSystemSpecificIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="isSystemSpecificIndicator")]
 		public bool? IsSystemSpecificIndicator { get; set; }
 
-		[DataMember(Name="logRecordIndex", EmitDefaultValue=false)]
+		[DataMember(Name="logRecordIndex")]
 		public int? LogRecordIndex { get; set; }
 
-		[DataMember(Name="milestoneTaskLogDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="milestoneTaskLogDateUtc")]
 		public DateTime? MilestoneTaskLogDateUtc { get; set; }
 
-		[DataMember(Name="priority", EmitDefaultValue=false)]
+		[DataMember(Name="priority")]
 		public string Priority { get; set; }
 
-		[DataMember(Name="stage", EmitDefaultValue=false)]
+		[DataMember(Name="stage")]
 		public string Stage { get; set; }
 
-		[DataMember(Name="systemId", EmitDefaultValue=false)]
+		[DataMember(Name="systemId")]
 		public string SystemId { get; set; }
 
-		[DataMember(Name="taskDescription", EmitDefaultValue=false)]
+		[DataMember(Name="taskDescription")]
 		public string TaskDescription { get; set; }
 
-		[DataMember(Name="taskGuid", EmitDefaultValue=false)]
+		[DataMember(Name="taskGuid")]
 		public string TaskGuid { get; set; }
 
-		[DataMember(Name="taskName", EmitDefaultValue=false)]
+		[DataMember(Name="taskName")]
 		public string TaskName { get; set; }
 
-		[DataMember(Name="updatedDateUtc", EmitDefaultValue=false)]
+		[DataMember(Name="updatedDateUtc")]
 		public DateTime? UpdatedDateUtc { get; set; }
 
 	}

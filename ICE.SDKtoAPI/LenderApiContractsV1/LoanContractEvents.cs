@@ -5,13 +5,13 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractEvents
 	{
-		[DataMember(Name="dateText", EmitDefaultValue=false)]
+		[DataMember(Name="dateText")]
 		public string DateText { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
 	}

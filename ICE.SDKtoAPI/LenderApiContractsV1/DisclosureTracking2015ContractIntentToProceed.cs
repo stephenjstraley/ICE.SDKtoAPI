@@ -6,22 +6,22 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class DisclosureTracking2015ContractIntentToProceed
 	{
-		[DataMember(Name="comments", EmitDefaultValue=false)]
+		[DataMember(Name="comments")]
 		public string Comments { get; set; }
 
-		[DataMember(Name="date", EmitDefaultValue=false)]
+		[DataMember(Name="date")]
 		public DateTime? Date { get; set; }
 
-		[DataMember(Name="intent", EmitDefaultValue=false)]
+		[DataMember(Name="intent")]
 		public bool? Intent { get; set; }
 
-		[DataMember(Name="receivedBy", EmitDefaultValue=false)]
+		[DataMember(Name="receivedBy")]
 		public string ReceivedBy { get; set; }
 
-		[DataMember(Name="receivedMethod", EmitDefaultValue=false)]
+		[DataMember(Name="receivedMethod")]
 		public string ReceivedMethod { get; set; }
 
-		[DataMember(Name="receivedMethodOther", EmitDefaultValue=false)]
+		[DataMember(Name="receivedMethodOther")]
 		public string ReceivedMethodOther { get; set; }
 
 	}

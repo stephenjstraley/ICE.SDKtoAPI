@@ -5,28 +5,28 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractGfeGfeFees
 	{
-		[DataMember(Name="amountDescription", EmitDefaultValue=false)]
+		[DataMember(Name="amountDescription")]
 		public string AmountDescription { get; set; }
 
-		[DataMember(Name="brokerAmount", EmitDefaultValue=false)]
-		public double? BrokerAmount { get; set; }
+		[DataMember(Name="brokerAmount")]
+		public decimal? BrokerAmount { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="gfeFeeIndex", EmitDefaultValue=false)]
+		[DataMember(Name="gfeFeeIndex")]
 		public int? GfeFeeIndex { get; set; }
 
-		[DataMember(Name="gfeFeeType", EmitDefaultValue=false)]
+		[DataMember(Name="gfeFeeType")]
 		public string GfeFeeType { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="otherAmount", EmitDefaultValue=false)]
-		public double? OtherAmount { get; set; }
+		[DataMember(Name="otherAmount")]
+		public decimal? OtherAmount { get; set; }
 
-		[DataMember(Name="rate", EmitDefaultValue=false)]
+		[DataMember(Name="rate")]
 		public string Rate { get; set; }
 
 	}

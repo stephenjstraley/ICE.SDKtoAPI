@@ -5,103 +5,103 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractFees
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
-		public double? Amount { get; set; }
+		[DataMember(Name="amount")]
+		public decimal? Amount { get; set; }
 
-		[DataMember(Name="amountPerDay", EmitDefaultValue=false)]
-		public double? AmountPerDay { get; set; }
+		[DataMember(Name="amountPerDay")]
+		public decimal? AmountPerDay { get; set; }
 
-		[DataMember(Name="borPaidAmount", EmitDefaultValue=false)]
-		public double? BorPaidAmount { get; set; }
+		[DataMember(Name="borPaidAmount")]
+		public decimal? BorPaidAmount { get; set; }
 
-		[DataMember(Name="dateFrom", EmitDefaultValue=false)]
+		[DataMember(Name="dateFrom")]
 		public DateTime? DateFrom { get; set; }
 
-		[DataMember(Name="dateTo", EmitDefaultValue=false)]
+		[DataMember(Name="dateTo")]
 		public DateTime? DateTo { get; set; }
 
-		[DataMember(Name="days", EmitDefaultValue=false)]
+		[DataMember(Name="days")]
 		public int? Days { get; set; }
 
-		[DataMember(Name="deedAmount", EmitDefaultValue=false)]
-		public double? DeedAmount { get; set; }
+		[DataMember(Name="deedAmount")]
+		public decimal? DeedAmount { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="feeType", EmitDefaultValue=false)]
+		[DataMember(Name="feeType")]
 		public string FeeType { get; set; }
 
-		[DataMember(Name="fHA", EmitDefaultValue=false)]
+		[DataMember(Name="fHA")]
 		public bool? FHA { get; set; }
 
-		[DataMember(Name="fWBC", EmitDefaultValue=false)]
+		[DataMember(Name="fWBC")]
 		public string FWBC { get; set; }
 
-		[DataMember(Name="fWSC", EmitDefaultValue=false)]
+		[DataMember(Name="fWSC")]
 		public string FWSC { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="includeAboveNumber", EmitDefaultValue=false)]
+		[DataMember(Name="includeAboveNumber")]
 		public string IncludeAboveNumber { get; set; }
 
-		[DataMember(Name="lenderCoverage", EmitDefaultValue=false)]
-		public double? LenderCoverage { get; set; }
+		[DataMember(Name="lenderCoverage")]
+		public decimal? LenderCoverage { get; set; }
 
-		[DataMember(Name="monthlyPayment", EmitDefaultValue=false)]
-		public double? MonthlyPayment { get; set; }
+		[DataMember(Name="monthlyPayment")]
+		public decimal? MonthlyPayment { get; set; }
 
-		[DataMember(Name="mortgageAmount", EmitDefaultValue=false)]
-		public double? MortgageAmount { get; set; }
+		[DataMember(Name="mortgageAmount")]
+		public decimal? MortgageAmount { get; set; }
 
-		[DataMember(Name="newHUDBorPaidAmount", EmitDefaultValue=false)]
+		[DataMember(Name="newHUDBorPaidAmount")]
 		public string NewHUDBorPaidAmount { get; set; }
 
-		[DataMember(Name="numberOfMonths", EmitDefaultValue=false)]
+		[DataMember(Name="numberOfMonths")]
 		public int? NumberOfMonths { get; set; }
 
-		[DataMember(Name="ownerCoverage", EmitDefaultValue=false)]
-		public double? OwnerCoverage { get; set; }
+		[DataMember(Name="ownerCoverage")]
+		public decimal? OwnerCoverage { get; set; }
 
-		[DataMember(Name="paidBy", EmitDefaultValue=false)]
+		[DataMember(Name="paidBy")]
 		public string PaidBy { get; set; }
 
-		[DataMember(Name="paidInAdvance", EmitDefaultValue=false)]
-		public double? PaidInAdvance { get; set; }
+		[DataMember(Name="paidInAdvance")]
+		public decimal? PaidInAdvance { get; set; }
 
-		[DataMember(Name="paidToBroker", EmitDefaultValue=false)]
-		public double? PaidToBroker { get; set; }
+		[DataMember(Name="paidToBroker")]
+		public decimal? PaidToBroker { get; set; }
 
-		[DataMember(Name="paidToName", EmitDefaultValue=false)]
+		[DataMember(Name="paidToName")]
 		public string PaidToName { get; set; }
 
-		[DataMember(Name="paidToOthers", EmitDefaultValue=false)]
-		public double? PaidToOthers { get; set; }
+		[DataMember(Name="paidToOthers")]
+		public decimal? PaidToOthers { get; set; }
 
-		[DataMember(Name="percentage", EmitDefaultValue=false)]
-		public double? Percentage { get; set; }
+		[DataMember(Name="percentage")]
+		public decimal? Percentage { get; set; }
 
-		[DataMember(Name="pFC", EmitDefaultValue=false)]
+		[DataMember(Name="pFC")]
 		public bool? PFC { get; set; }
 
-		[DataMember(Name="pOC", EmitDefaultValue=false)]
+		[DataMember(Name="pOC")]
 		public bool? POC { get; set; }
 
-		[DataMember(Name="pTB", EmitDefaultValue=false)]
+		[DataMember(Name="pTB")]
 		public string PTB { get; set; }
 
-		[DataMember(Name="releasesAmount", EmitDefaultValue=false)]
-		public double? ReleasesAmount { get; set; }
+		[DataMember(Name="releasesAmount")]
+		public decimal? ReleasesAmount { get; set; }
 
-		[DataMember(Name="sellerPaidAmount", EmitDefaultValue=false)]
-		public double? SellerPaidAmount { get; set; }
+		[DataMember(Name="sellerPaidAmount")]
+		public decimal? SellerPaidAmount { get; set; }
 
-		[DataMember(Name="truncatedAmountPerDay", EmitDefaultValue=false)]
-		public double? TruncatedAmountPerDay { get; set; }
+		[DataMember(Name="truncatedAmountPerDay")]
+		public decimal? TruncatedAmountPerDay { get; set; }
 
-		[DataMember(Name = "use4Decimals", EmitDefaultValue = false)]
+		[DataMember(Name = "use4Decimals")]
 		public bool? Use4Decimals { get; set; } = false;
 
 	}

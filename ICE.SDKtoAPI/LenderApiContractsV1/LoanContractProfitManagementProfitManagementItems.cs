@@ -7,25 +7,25 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractProfitManagementProfitManagementItems
 	{
-		[DataMember(Name="atPercent", EmitDefaultValue=false)]
-		public double? AtPercent { get; set; }
+		[DataMember(Name="atPercent")]
+		public decimal? AtPercent { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="plusAmount", EmitDefaultValue=false)]
-		public double? PlusAmount { get; set; }
+		[DataMember(Name="plusAmount")]
+		public decimal? PlusAmount { get; set; }
 
-		[DataMember(Name="profitManagementItemIndex", EmitDefaultValue=false)]
+		[DataMember(Name="profitManagementItemIndex")]
 		public int? ProfitManagementItemIndex { get; set; }
 
-		[DataMember(Name="total", EmitDefaultValue=false)]
-		public double? Total { get; set; }
+		[DataMember(Name="total")]
+		public decimal? Total { get; set; }
 
-		[DataMember(Name="type", EmitDefaultValue=false)]
+		[DataMember(Name="type")]
 		public string Type { get; set; }
 
 	}

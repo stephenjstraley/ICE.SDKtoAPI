@@ -5,10 +5,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractAllowedRoles
 	{
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="refId", EmitDefaultValue=false)]
+		[DataMember(Name="refId")]
 		public string RefId { get; set; }
 
 	}

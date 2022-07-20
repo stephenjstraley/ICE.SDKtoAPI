@@ -19,10 +19,10 @@ namespace ICE.SDKtoAPI.LenderApiContractsV3
         public string MilestoneTemplateName { get; set; }
 
         [DataMember(Name = "isTemplateLocked")]
-        public bool IsTemplateLocked { get; set; }
+        public bool IsTemplateLocked { get; set; } = false;
 
         [DataMember(Name = "isTemplateDatesLocked")]
-        public bool IsTemplateDatesLocked { get; set; }
+        public bool IsTemplateDatesLocked { get; set; } = false;
 
         [DataMember(Name = "comments")]
         public string Comments { get; set; }

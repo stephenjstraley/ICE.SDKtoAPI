@@ -5,25 +5,25 @@ namespace ICE.SDKtoAPI.LenderApiContractsV1
 	[DataContract]
 	public class LoanContractIncome
 	{
-		[DataMember(Name="amount", EmitDefaultValue=false)]
-		public double? Amount { get; set; }
+		[DataMember(Name="amount")]
+		public decimal? Amount { get; set; }
 
-		[DataMember(Name="currentIndicator", EmitDefaultValue=false)]
+		[DataMember(Name="currentIndicator")]
 		public bool? CurrentIndicator { get; set; }
 
-		[DataMember(Name="description", EmitDefaultValue=false)]
+		[DataMember(Name="description")]
 		public string Description { get; set; }
 
-		[DataMember(Name="id", EmitDefaultValue=false)]
+		[DataMember(Name="id")]
 		public string Id { get; set; }
 
-		[DataMember(Name="incomeType", EmitDefaultValue=false)]
+		[DataMember(Name="incomeType")]
 		public string IncomeType { get; set; }
 
-		[DataMember(Name="otherIncomeIndex", EmitDefaultValue=false)]
+		[DataMember(Name="otherIncomeIndex")]
 		public int? OtherIncomeIndex { get; set; }
 
-		[DataMember(Name="owner", EmitDefaultValue=false)]
+		[DataMember(Name="owner")]
 		public string Owner { get; set; }
 
 	}
